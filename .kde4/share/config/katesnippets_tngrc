@@ -1,0 +1,13 @@
+[SnippetRepositoryAndConfigCache /usr/share/apps/ktexteditor_snippets/data/testsnippets.xml]
+authors=Joseph Wenninger
+filetypes=*
+lastModified=2009,10,26,10,15,14
+license=BSD
+name=Testsnippets
+
+[SnippetRepositoryAndConfigCache /usr/share/apps/ktexteditor_snippets/data/testsnippetscpp.xml]
+authors=Joseph Wenninger
+filetypes=C++;C
+lastModified=2009,10,26,10,15,14
+license=BSD
+name=Testsnippets C++

@@ -1,0 +1,9 @@
+[MainWindow]
+Height 1200=1102
+Width 1920=1318
+
+[koffice]
+FlakePlugins=defaulttools,divineproportionshape,textshape
+FlakePluginsDisabled=
+ShapePlugins=artistictextshape,chartshape,kritashape,musicshape,pathshapes,pictureshape,spreadsheetshape
+ShapePluginsDisabled=

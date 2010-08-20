@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-haskell
+Name=xmonad.hs
+Type=Link
+URL[$e]=file://$HOME/.xmonad/xmonad.hs
+X-KDE-LastOpenedWith=kate

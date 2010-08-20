@@ -1,0 +1,20 @@
+[$Version]
+update_info=kmail.upd:3.3-move-identities-to-own-file,kmail.upd:3.3-aegypten-emailidentities-split-sign-encr-keys
+
+[General]
+Default Identity=145905906
+
+[Identity #0]
+Dictionary=English (United States of America)
+Drafts=drafts
+Email Address=quesada@gmail.com
+Fcc=sent-mail
+Identity=Jose
+Image Location=
+Inline Signature=
+Name=Jose
+Preferred Crypto Message Format=auto
+Signature Type=disabled
+Templates=templates
+X-FaceEnabled=false
+uoid=145905906

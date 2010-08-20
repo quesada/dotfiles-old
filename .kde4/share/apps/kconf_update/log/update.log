@@ -1,0 +1,965 @@
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kopete-nameTracking.upd' for new updates
+2010-05-11T09:52:48 kopete-nameTracking.upd: Found new update 'kopete0.9/r1'
+2010-05-11T09:52:48 kopete-nameTracking.upd: !! Script 'kopete-nameTracking-kconf_update' not found in line 3 : 'Script=kopete-nameTracking-kconf_update'
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kpgp.upd' for new updates
+2010-05-11T09:52:48 kpgp.upd: Found new update 'preKDE3_a'
+2010-05-11T09:52:48 kpgp.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-11T09:52:48 kpgp.upd: Found new update '3.1-1'
+2010-05-11T09:52:48 kpgp.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kate-2.4.upd' for new updates
+2010-05-11T09:52:48 kate-2.4.upd: Found new update 'kate2.4'
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kcharselect.upd' for new updates
+2010-05-11T09:52:48 kcharselect.upd: Found new update '1'
+2010-05-11T09:52:48 kcharselect.upd: File 'kcharselectrc' does not exist or empty, skipping
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2010-05-11T09:52:48 kwin_update_tabbox_settings.upd: Found new update 'Kwin-4.4'
+2010-05-11T09:52:48 kwin_update_tabbox_settings.upd: Running script 'kwin_update_tabbox_settings'
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kcmcddb-emailsettings.upd' for new updates
+2010-05-11T09:52:48 kcmcddb-emailsettings.upd: Found new update 'kcmcddb_emailsettings'
+2010-05-11T09:52:48 kcmcddb-emailsettings.upd: File 'kcmcddbrc' does not exist or empty, skipping
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kopete-initialstatus.upd' for new updates
+2010-05-11T09:52:48 kopete-initialstatus.upd: Found new update 'kopete0.60.80/r1'
+2010-05-11T09:52:48 kopete-initialstatus.upd: Running script 'kopete-initialstatus.pl'
+2010-05-11T09:52:48 kopete-initialstatus.upd: Script removes kopeterc:Behavior:autoConnect
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 1024, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 1050, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 1200, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 480, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 600, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 768, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 800, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1024, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1280, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1400, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1450, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1600, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1900, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 800, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 1024, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 1050, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 1200, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 480, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 600, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 768, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 800, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1024, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1280, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1400, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1450, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1600, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1900, already exists.
+2010-05-11T09:52:48 kopete-initialstatus.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 800, already exists.
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2010-05-11T09:52:48 kwin_fsp_workarounds_1.upd: Found new update 'kde351'
+2010-05-11T09:52:48 kwin_fsp_workarounds_1.upd: Running script 'kwin_update_default_rules' with arguments 'fsp_workarounds_1.kwinrules'
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kopete-jabberpriorityaddition-kconf_update.upd' for new updates
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Found new update 'kopete0.9/r1'
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Running script 'kopete-jabberpriorityaddition-kconf_update.sh'
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 1024, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 1050, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 1200, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 480, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 600, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 768, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 800, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1024, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1280, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1400, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1450, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1600, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1900, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 800, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 1024, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 1050, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 1200, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 480, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 600, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 768, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 800, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1024, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1280, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1400, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1450, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1600, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1900, already exists.
+2010-05-11T09:52:48 kopete-jabberpriorityaddition-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 800, already exists.
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kcalcrc.upd' for new updates
+2010-05-11T09:52:48 kcalcrc.upd: Found new update 'KDE_3_2_0'
+2010-05-11T09:52:48 kcalcrc.upd: File 'kcalcrc' does not exist or empty, skipping
+2010-05-11T09:52:48 kcalcrc.upd: Found new update 'KDE_4_3_0'
+2010-05-11T09:52:48 kcalcrc.upd: File 'kcalcrc' does not exist or empty, skipping
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2010-05-11T09:52:48 kcookiescfg.upd: Found new update 'kde2.2/b1'
+2010-05-11T09:52:48 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2010-05-11T09:52:48 kcookiescfg.upd: Found new update 'kde3.1/cvs'
+2010-05-11T09:52:48 kcookiescfg.upd: File 'kcookiejarrc' does not exist or empty, skipping
+2010-05-11T09:52:48 Checking update-file '/usr/share/apps/kconf_update/kwin3_plugin.upd' for new updates
+2010-05-11T09:52:48 kwin3_plugin.upd: Found new update 'kde3.2'
+2010-05-11T09:52:48 kwin3_plugin.upd: Running script 'kwin3_plugin.pl'
+2010-05-11T09:52:48 kwin3_plugin.upd: Updating kwinrc:TabBox:ListMode to '0'
+2010-05-11T09:52:48 kwin3_plugin.upd: Updating kwinrc:TabBox:ShowTabBox to 'true'
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2010-05-11T09:52:49 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2010-05-11T09:52:49 plasma-add-shortcut-to-menu.upd: !! Script 'plasma-add-shortcut-to-menu-update' not found in line 2 : 'Script=plasma-add-shortcut-to-menu-update'
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2010-05-11T09:52:49 kcmdisplayrc.upd: Found new update 'kde3'
+2010-05-11T09:52:49 kcmdisplayrc.upd: File 'kcmdisplayrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2010-05-11T09:52:49 kioslave.upd: Found new update 'kde2.2/r1'
+2010-05-11T09:52:49 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-05-11T09:52:49 kioslave.upd: Skipping update 'kde2.2/r1'
+2010-05-11T09:52:49 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-05-11T09:52:49 kioslave.upd: Found new update 'kde2.2/r2'
+2010-05-11T09:52:49 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-05-11T09:52:49 kioslave.upd: Found new update 'kde2.2/r3'
+2010-05-11T09:52:49 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kopete-gaim_to_pidgin_style.upd' for new updates
+2010-05-11T09:52:49 kopete-gaim_to_pidgin_style.upd: Found new update 'kopete0.70.85/r1'
+2010-05-11T09:52:49 kopete-gaim_to_pidgin_style.upd: Running script 'kopete-gaim_to_pidgin_style.pl'
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2010-05-11T09:52:49 mouse_cursor_theme.upd: Found new update 'kde3.4.99'
+2010-05-11T09:52:49 mouse_cursor_theme.upd: File 'kdeglobals' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kwin_focus2.upd' for new updates
+2010-05-11T09:52:49 kwin_focus2.upd: Found new update 'kwin_focus2'
+2010-05-11T09:52:49 kwin_focus2.upd: Running script 'kwin_focus2.sh'
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kalarm.upd' for new updates
+2010-05-11T09:52:49 kalarm.upd: Found new update '1.9.5'
+2010-05-11T09:52:49 kalarm.upd: File 'kalarmrc' does not exist or empty, skipping
+2010-05-11T09:52:49 kalarm.upd: Found new update '1.9.9'
+2010-05-11T09:52:49 kalarm.upd: File 'kalarmrc' does not exist or empty, skipping
+2010-05-11T09:52:49 kalarm.upd: Found new update '1.9.12'
+2010-05-11T09:52:49 kalarm.upd: File 'kalarmrc' does not exist or empty, skipping
+2010-05-11T09:52:49 kalarm.upd: Found new update '2.0.0'
+2010-05-11T09:52:49 kalarm.upd: File 'kalarmrc' does not exist or empty, skipping
+2010-05-11T09:52:49 kalarm.upd: Found new update '2.0.2'
+2010-05-11T09:52:49 kalarm.upd: File 'kalarmrc' does not exist or empty, skipping
+2010-05-11T09:52:49 kalarm.upd: Found new update '2.1.5'
+2010-05-11T09:52:49 kalarm.upd: File 'kalarmrc' does not exist or empty, skipping
+2010-05-11T09:52:49 kalarm.upd: Found new update '2.3.2'
+2010-05-11T09:52:49 kalarm.upd: File 'kalarmrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kpat_update_cardwidth.upd' for new updates
+2010-05-11T09:52:49 kpat_update_cardwidth.upd: Found new update 'kpat_cardwidth_update.kde41'
+2010-05-11T09:52:49 kpat_update_cardwidth.upd: File 'kpatrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/favicons.upd' for new updates
+2010-05-11T09:52:49 favicons.upd: Found new update 'kde3_2'
+2010-05-11T09:52:49 favicons.upd: Running script 'move_favicons.sh'
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/ksmserver.upd' for new updates
+2010-05-11T09:52:49 ksmserver.upd: Found new update 'kde3'
+2010-05-11T09:52:49 ksmserver.upd: File 'ksmserverrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2010-05-11T09:52:49 kwin_window_shortcuts.upd: Found new update 'kde414'
+2010-05-11T09:52:49 kwin_window_shortcuts.upd: File 'kglobalshortcutsrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kwiniconify.upd' for new updates
+2010-05-11T09:52:49 kwiniconify.upd: Found new update 'iconifyupd3.1'
+2010-05-11T09:52:49 kwiniconify.upd: File 'kwin.eventsrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2010-05-11T09:52:49 kuriikwsfilter.upd: Found new update 'post-kde3.1/cvs'
+2010-05-11T09:52:49 kuriikwsfilter.upd: File 'kuriikwsfilterrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2010-05-11T09:52:49 kio_help.upd: Found new update 'kde3_2'
+2010-05-11T09:52:49 kio_help.upd: Running script 'move_kio_help_cache.sh'
+2010-05-11T09:52:49 [Script] mv: cannot stat `/home/quesada/.kde4/share/apps/kio_help/cache': No such file or directory
+2010-05-11T09:52:49 [Script] rmdir: failed to remove `/home/quesada/.kde4/share/apps/kio_help': No such file or directory
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kwin_on_off.upd' for new updates
+2010-05-11T09:52:49 kwin_on_off.upd: Found new update 'kwin_on_off'
+2010-05-11T09:52:49 kwin_on_off.upd: Running script 'on-off_to_true-false.sh'
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kopete-pluginloader2.upd' for new updates
+2010-05-11T09:52:49 kopete-pluginloader2.upd: Found new update 'kopete0.8/r1'
+2010-05-11T09:52:49 kopete-pluginloader2.upd: Running script 'kopete-pluginloader2.sh'
+2010-05-11T09:52:49 [Script] /usr/share/apps/kconf_update/kopete-pluginloader2.sh: line 9: kde-config: command not found
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kwin.upd' for new updates
+2010-05-11T09:52:49 kwin.upd: Found new update 'kde3.0r1'
+2010-05-11T09:52:49 kwin.upd: Running script 'pluginlibFix.pl'
+2010-05-11T09:52:49 kwin.upd: Updating kwinrc:TabBox:ListMode to '0'
+2010-05-11T09:52:49 kwin.upd: Updating kwinrc:TabBox:ShowTabBox to 'true'
+2010-05-11T09:52:49 kwin.upd: Found new update 'kde3.2Xinerama'
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2010-05-11T09:52:49 kded.upd: Found new update 'kde3.0'
+2010-05-11T09:52:49 kded.upd: File 'kdedrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kolab-resource.upd' for new updates
+2010-05-11T09:52:49 kolab-resource.upd: Found new update 'kolab-calendar-resource-rename'
+2010-05-11T09:52:49 kolab-resource.upd: File 'kresources/calendar/stdrc' does not exist or empty, skipping
+2010-05-11T09:52:49 kolab-resource.upd: Found new update 'kolab-contact-resource-rename'
+2010-05-11T09:52:49 kolab-resource.upd: File 'kresources/contact/stdrc' does not exist or empty, skipping
+2010-05-11T09:52:49 kolab-resource.upd: Found new update 'kolab-notes-resource-rename'
+2010-05-11T09:52:49 kolab-resource.upd: File 'kresources/notes/stdrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kaccel.upd' for new updates
+2010-05-11T09:52:49 kaccel.upd: Found new update 'kde3.3/r1'
+2010-05-11T09:52:49 kaccel.upd: File 'kdeglobals' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/korganizer.upd' for new updates
+2010-05-11T09:52:49 korganizer.upd: Found new update 'korganizer_3.4_GroupwareCleanup'
+2010-05-11T09:52:49 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2010-05-11T09:52:49 korganizer.upd: Found new update 'korganizer_3.4_WebExport'
+2010-05-11T09:52:49 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2010-05-11T09:52:49 korganizer.upd: Found new update 'korganizer_3.4_FilterAction'
+2010-05-11T09:52:49 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2010-05-11T09:52:49 korganizer.upd: Found new update 'korganizer_3.4_HolidayPlugin'
+2010-05-11T09:52:49 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2010-05-11T09:52:49 korganizer.upd: Found new update 'korganizer_4.3_ShowTodos'
+2010-05-11T09:52:49 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2010-05-11T09:52:49 korganizer.upd: Found new update 'korganizer_4.4_MoveFreeBusy'
+2010-05-11T09:52:49 korganizer.upd: File 'korganizerrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kwinsticky.upd' for new updates
+2010-05-11T09:52:49 kwinsticky.upd: Found new update 'stickyupd3.1'
+2010-05-11T09:52:49 kwinsticky.upd: File 'kwin.eventsrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2010-05-11T09:52:49 ksslcertificatemanager.upd: Found new update 'kde4.2'
+2010-05-11T09:52:49 ksslcertificatemanager.upd: Running script 'ksslcertificatemanager.upd.sh'
+2010-05-11T09:52:49 [Script] rm: cannot remove `/home/quesada/.kde4//share/config/ksslcertificatemanager': No such file or directory
+2010-05-11T09:52:49 ksslcertificatemanager.upd: !! An error occurred while running 'sh /usr/share/apps/kconf_update/ksslcertificatemanager.upd.sh'
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kwin_focus1.upd' for new updates
+2010-05-11T09:52:49 kwin_focus1.upd: Found new update 'kwin_focus1'
+2010-05-11T09:52:49 kwin_focus1.upd: Running script 'kwin_focus1.sh'
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2010-05-11T09:52:49 kwinupdatewindowsettings.upd: Found new update 'kde33b1'
+2010-05-11T09:52:49 kwinupdatewindowsettings.upd: Running script 'kwin_update_window_settings'
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/audiocd.upd' for new updates
+2010-05-11T09:52:49 audiocd.upd: Found new update '1'
+2010-05-11T09:52:49 audiocd.upd: File 'kcmaudiocdrc' does not exist or empty, skipping
+2010-05-11T09:52:49 Checking update-file '/usr/share/apps/kconf_update/kile.upd' for new updates
+2010-05-11T09:52:49 kile.upd: Found new update 'Kile1.5v1'
+2010-05-11T09:52:49 kile.upd: File 'kilerc' does not exist or empty, skipping
+2010-05-11T09:52:49 kile.upd: Found new update 'Kile1.6v1'
+2010-05-11T09:52:49 kile.upd: File 'kilerc' does not exist or empty, skipping
+2010-05-11T09:52:49 kile.upd: Found new update 'Kile1.7v1'
+2010-05-11T09:52:49 kile.upd: File 'kilerc' does not exist or empty, skipping
+2010-05-11T09:52:50 kile.upd: Found new update 'Kile1.9v1'
+2010-05-11T09:52:50 kile.upd: File 'kilerc' does not exist or empty, skipping
+2010-05-11T09:52:50 kile.upd: Found new update 'Kile1.9v2'
+2010-05-11T09:52:50 kile.upd: File 'kilerc' does not exist or empty, skipping
+2010-05-11T09:52:50 kile.upd: Found new update 'Kile2.0v1'
+2010-05-11T09:52:50 kile.upd: File 'kilerc' does not exist or empty, skipping
+2010-05-11T09:52:50 kile.upd: Found new update 'Kile2.0v2'
+2010-05-11T09:52:50 kile.upd: File 'kilerc' does not exist or empty, skipping
+2010-05-11T09:52:50 kile.upd: Found new update 'Kile2.0v3'
+2010-05-11T09:52:50 kile.upd: File 'kilerc' does not exist or empty, skipping
+2010-05-11T09:52:50 kile.upd: Found new update 'Kile2.0v4'
+2010-05-11T09:52:50 kile.upd: File 'kilerc' does not exist or empty, skipping
+2010-05-11T09:52:50 kile.upd: Found new update 'Kile2.0v5'
+2010-05-11T09:52:50 kile.upd: File 'kilerc' does not exist or empty, skipping
+2010-05-11T09:52:50 Checking update-file '/usr/share/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2010-05-11T09:52:50 plasmarc-to-plasmadesktoprc.upd: Found new update '4.3plasma-desktop'
+2010-05-11T09:52:50 plasmarc-to-plasmadesktoprc.upd: Running script 'plasma-to-plasma-desktop'
+2010-05-11T09:52:50 Checking update-file '/usr/share/apps/kconf_update/konversation.upd' for new updates
+2010-05-11T09:52:50 konversation.upd: Found new update '1.1-rememberline'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '1.1-markerlines'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.20-customfonts'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.20-quickbuttons'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-notifylists'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-appearance'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-browser'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-flags'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-highlightcolors'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-osdcolors'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-sortorder'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-colors'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-generaloptions'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-cleanup-themes'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-cleanup-notifylist'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-cleanup-dcc'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-cleanup-colors'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-cleanup-hilightlist'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-cleanup-notificationmessages'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-cleanup-ledcolors'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-cleanup-kmditaskbar'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 konversation.upd: Found new update '0.19-channelsplitter'
+2010-05-11T09:52:50 konversation.upd: File 'konversationrc' does not exist or empty, skipping
+2010-05-11T09:52:50 Checking update-file '/usr/share/apps/kconf_update/mailtransports.upd' for new updates
+2010-05-11T09:52:50 mailtransports.upd: Found new update 'initial-kmail-migration'
+2010-05-11T09:52:50 mailtransports.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:50 mailtransports.upd: Found new update 'initial-knode-migration'
+2010-05-11T09:52:50 mailtransports.upd: File 'knoderc' does not exist or empty, skipping
+2010-05-11T09:52:50 Checking update-file '/usr/share/apps/kconf_update/kfmclient_3_2.upd' for new updates
+2010-05-11T09:52:50 kfmclient_3_2.upd: Found new update 'kfmclient_3_2'
+2010-05-11T09:52:50 kfmclient_3_2.upd: File 'kfmclientrc' does not exist or empty, skipping
+2010-05-11T09:52:50 Checking update-file '/usr/share/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2010-05-11T09:52:50 klipper-kconfigxt.upd: Found new update 'KlipperNoSpacesInKeyNames'
+2010-05-11T09:52:50 klipper-kconfigxt.upd: File 'klipperrc' does not exist or empty, skipping
+2010-05-11T09:52:50 Checking update-file '/usr/share/apps/kconf_update/kopete-jabberproxytype-kconf_update.upd' for new updates
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Found new update 'kopete0.9/r1'
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Running script 'kopete-jabberproxytype-kconf_update.sh'
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 1024, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 1050, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 1200, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 480, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 600, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 768, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Height 800, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1024, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1280, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1400, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1450, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1600, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 1900, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowGroupMode:Width 800, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 1024, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 1050, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 1200, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 480, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 600, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 768, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Height 800, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1024, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1280, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1400, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1450, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1600, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 1900, already exists.
+2010-05-11T09:52:50 kopete-jabberproxytype-kconf_update.upd: Skipping kopeterc:KopeteChatWindowIndividualMode:Width 800, already exists.
+2010-05-11T09:52:50 Checking update-file '/usr/share/apps/kconf_update/kopete-account-kconf_update.upd' for new updates
+2010-05-11T09:52:50 kopete-account-kconf_update.upd: Found new update 'kopete0.7/r1'
+2010-05-11T09:52:50 kopete-account-kconf_update.upd: Running script 'kopete-account-kconf_update.sh'
+2010-05-11T09:52:50 [Script] /usr/share/apps/kconf_update/kopete-account-kconf_update.sh: line 9: kde-config: command not found
+2010-05-11T09:52:50 kopete-account-kconf_update.upd: Found new update 'kopete0.10/r1'
+2010-05-11T09:52:50 kopete-account-kconf_update.upd: Running script 'kopete-account-0.10.pl'
+2010-05-11T09:52:50 Checking update-file '/usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2010-05-11T09:52:50 plasma_popupapplet_fix_groups.upd: Found new update 'PlasmaPopupAppletFixGroups1'
+2010-05-11T09:52:50 plasma_popupapplet_fix_groups.upd: File 'plasma-appletsrc' does not exist or empty, skipping
+2010-05-11T09:52:50 plasma_popupapplet_fix_groups.upd: Found new update 'PlasmaPopupAppletFixGroups2'
+2010-05-11T09:52:50 plasma_popupapplet_fix_groups.upd: File 'plasmarc' does not exist or empty, skipping
+2010-05-11T09:52:50 plasma_popupapplet_fix_groups.upd: Found new update 'PlasmaPopupAppletFixGroups3'
+2010-05-11T09:52:50 plasma_popupapplet_fix_groups.upd: File 'plasmoidviewer-appletsrc' does not exist or empty, skipping
+2010-05-11T09:52:51 Checking update-file '/usr/share/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2010-05-11T09:52:51 plasma-to-plasmadesktop-shortcuts.upd: Found new update '4.3plasma-desktop-shortcuts'
+2010-05-11T09:52:51 plasma-to-plasmadesktop-shortcuts.upd: File 'kglobalshortcutsrc' does not exist or empty, skipping
+2010-05-11T09:52:51 Checking update-file '/usr/share/apps/kconf_update/kopete-pluginloader.upd' for new updates
+2010-05-11T09:52:51 kopete-pluginloader.upd: Found new update 'kopete0.7/r1'
+2010-05-11T09:52:51 kopete-pluginloader.upd: Running script 'kopete-pluginloader.pl'
+2010-05-11T09:52:51 kopete-pluginloader.upd: Script removes kopeterc::Modules
+2010-05-11T09:52:51 Checking update-file '/usr/share/apps/kconf_update/kmail.upd' for new updates
+2010-05-11T09:52:51 kmail.upd: Found new update '1'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '4'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '5'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '6'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '7'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '8'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '9'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.1-update-identities'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.1-use-identity-uoids'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.1-new-mail-notification'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.2-update-loop-on-goto-unread-settings'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.1.4-dont-use-UOID-0-for-any-identity'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.2-misc'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.2-moves'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.3-use-ID-for-accounts'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.3-update-filter-rules'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.3-move-identities-to-own-file'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.3-aegypten-kpgprc-to-kmailrc'
+2010-05-11T09:52:51 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2010-05-11T09:52:51 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2010-05-11T09:52:51 kmail.upd: File 'emailidentities' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.3-misc'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.3b1-misc'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.4'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.4a'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.4b'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.4.1'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.5.4'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '3.5.7-imap-flag-migration'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '4.0-misc'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 kmail.upd: Found new update '4.2'
+2010-05-11T09:52:51 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-11T09:52:51 Checking update-file '/usr/share/apps/kconf_update/krdb.upd' for new updates
+2010-05-11T09:52:51 krdb.upd: Found new update 'LibraryPathNeedsANewStart'
+2010-05-11T09:52:51 krdb.upd: Running script 'krdb_clearlibrarypath'
+2010-05-11T09:52:51 Checking update-file '/usr/share/apps/kconf_update/kopete-update_yahoo_server.upd' for new updates
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Found new update 'kopete-update-yahoo-server/r1'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Running script 'kopete-update_yahoo_server.pl'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Height 1024 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Height 1050 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Height 1200 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Height 480 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Height 600 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Height 768 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Height 800 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Width 1024 to '650'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Width 1280 to '650'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Width 1400 to '650'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Width 1450 to '650'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Width 1600 to '650'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Width 1900 to '650'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowGroupMode:Width 800 to '650'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Height 1024 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Height 1050 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Height 1200 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Height 480 to '300'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Height 600 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Height 768 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Height 800 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Width 1024 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Width 1280 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Width 1400 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Width 1450 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Width 1600 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Width 1900 to '400'
+2010-05-11T09:52:51 kopete-update_yahoo_server.upd: Updating kopeterc:KopeteChatWindowIndividualMode:Width 800 to '400'
+2010-05-11T09:52:51 Checking update-file '/usr/share/apps/kconf_update/devicepreference.upd' for new updates
+2010-05-11T09:52:51 devicepreference.upd: Found new update 'DevicesMovedToPlatformPlugin'
+2010-05-11T09:52:51 devicepreference.upd: Running script 'phonon_devicepreference_update'
+2010-05-11T09:52:51 devicepreference.upd: Found new update 'DevicesUIDsChanged'
+2010-05-11T09:52:51 devicepreference.upd: Running script 'phonon_deviceuids_update'
+2010-05-12T22:40:12 Checking update-file '/usr/share/apps/kconf_update/kmail.upd' for new updates
+2010-05-12T22:40:12 kmail.upd: Checking update '1'
+2010-05-12T22:40:12 kmail.upd: Skipping update '1'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '4'
+2010-05-12T22:40:12 kmail.upd: Skipping update '4'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '5'
+2010-05-12T22:40:12 kmail.upd: Skipping update '5'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '6'
+2010-05-12T22:40:12 kmail.upd: Skipping update '6'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '7'
+2010-05-12T22:40:12 kmail.upd: Skipping update '7'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '8'
+2010-05-12T22:40:12 kmail.upd: Skipping update '8'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '9'
+2010-05-12T22:40:12 kmail.upd: Skipping update '9'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1-update-identities'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1-update-identities'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1-use-identity-uoids'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1-use-identity-uoids'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1-new-mail-notification'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1-new-mail-notification'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.2-update-loop-on-goto-unread-settings'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.2-update-loop-on-goto-unread-settings'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1.4-dont-use-UOID-0-for-any-identity'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1.4-dont-use-UOID-0-for-any-identity'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.2-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.2-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.2-moves'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.2-moves'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-use-ID-for-accounts'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-use-ID-for-accounts'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-update-filter-rules'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-update-filter-rules'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-move-identities-to-own-file'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-move-identities-to-own-file'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-kmailrc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-kmailrc'
+2010-05-12T22:40:12 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2010-05-12T22:40:12 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3b1-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3b1-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4a'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4a'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4b'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4b'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4.1'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4.1'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.5.4'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.5.4'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.5.7-imap-flag-migration'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.5.7-imap-flag-migration'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '4.0-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '4.0-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '4.2'
+2010-05-12T22:40:12 kmail.upd: Skipping update '4.2'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 Checking update-file '/usr/share/apps/kconf_update/kmail.upd' for new updates
+2010-05-12T22:40:12 kmail.upd: Checking update '1'
+2010-05-12T22:40:12 kmail.upd: Skipping update '1'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '4'
+2010-05-12T22:40:12 kmail.upd: Skipping update '4'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '5'
+2010-05-12T22:40:12 kmail.upd: Skipping update '5'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '6'
+2010-05-12T22:40:12 kmail.upd: Skipping update '6'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '7'
+2010-05-12T22:40:12 kmail.upd: Skipping update '7'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '8'
+2010-05-12T22:40:12 kmail.upd: Skipping update '8'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '9'
+2010-05-12T22:40:12 kmail.upd: Skipping update '9'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1-update-identities'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1-update-identities'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1-use-identity-uoids'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1-use-identity-uoids'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1-new-mail-notification'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1-new-mail-notification'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.2-update-loop-on-goto-unread-settings'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.2-update-loop-on-goto-unread-settings'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1.4-dont-use-UOID-0-for-any-identity'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1.4-dont-use-UOID-0-for-any-identity'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.2-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.2-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.2-moves'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.2-moves'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-use-ID-for-accounts'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-use-ID-for-accounts'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-update-filter-rules'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-update-filter-rules'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-move-identities-to-own-file'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-move-identities-to-own-file'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-kmailrc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-kmailrc'
+2010-05-12T22:40:12 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2010-05-12T22:40:12 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3b1-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3b1-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4a'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4a'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4b'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4b'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4.1'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4.1'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.5.4'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.5.4'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.5.7-imap-flag-migration'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.5.7-imap-flag-migration'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '4.0-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '4.0-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '4.2'
+2010-05-12T22:40:12 kmail.upd: Skipping update '4.2'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 Checking update-file '/usr/share/apps/kconf_update/kmail.upd' for new updates
+2010-05-12T22:40:12 kmail.upd: Checking update '1'
+2010-05-12T22:40:12 kmail.upd: Skipping update '1'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '4'
+2010-05-12T22:40:12 kmail.upd: Skipping update '4'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '5'
+2010-05-12T22:40:12 kmail.upd: Skipping update '5'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '6'
+2010-05-12T22:40:12 kmail.upd: Skipping update '6'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '7'
+2010-05-12T22:40:12 kmail.upd: Skipping update '7'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '8'
+2010-05-12T22:40:12 kmail.upd: Skipping update '8'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '9'
+2010-05-12T22:40:12 kmail.upd: Skipping update '9'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1-update-identities'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1-update-identities'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1-use-identity-uoids'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1-use-identity-uoids'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1-new-mail-notification'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1-new-mail-notification'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.2-update-loop-on-goto-unread-settings'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.2-update-loop-on-goto-unread-settings'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.1.4-dont-use-UOID-0-for-any-identity'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.1.4-dont-use-UOID-0-for-any-identity'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.2-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.2-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.2-moves'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.2-moves'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-use-ID-for-accounts'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-use-ID-for-accounts'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-update-filter-rules'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-update-filter-rules'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-move-identities-to-own-file'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-move-identities-to-own-file'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-kmailrc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-kmailrc'
+2010-05-12T22:40:12 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-aegypten-kpgprc-to-libkleopatrarc'
+2010-05-12T22:40:12 kmail.upd: File 'kpgprc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-aegypten-emailidentities-split-sign-encr-keys'
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.3b1-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.3b1-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4a'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4a'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4b'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4b'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.4.1'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.4.1'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.5.4'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.5.4'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '3.5.7-imap-flag-migration'
+2010-05-12T22:40:12 kmail.upd: Skipping update '3.5.7-imap-flag-migration'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '4.0-misc'
+2010-05-12T22:40:12 kmail.upd: Skipping update '4.0-misc'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-12T22:40:12 kmail.upd: Checking update '4.2'
+2010-05-12T22:40:12 kmail.upd: Skipping update '4.2'
+2010-05-12T22:40:12 kmail.upd: File 'kmailrc' does not exist or empty, skipping
+2010-05-16T01:36:17 Checking update-file '/usr/share/apps/kconf_update/kile.upd' for new updates
+2010-05-16T23:01:07 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2010-05-16T23:01:07 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2010-05-16T23:01:07 kioslave.upd: Found new update 'kde2.2/r1'
+2010-05-16T23:01:07 kioslave.upd: Skipping update 'kde2.2/r1'
+2010-05-16T23:01:07 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-05-16T23:01:07 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2010-05-16T23:01:07 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2010-05-16T23:01:07 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2010-05-16T23:01:07 Checking update-file '/usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2010-05-16T23:01:47 Checking update-file '/usr/share/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2010-05-16T23:02:21 Checking update-file '/usr/share/apps/kconf_update/favicons.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwin3_plugin.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwin_focus2.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwiniconify.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwin_on_off.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwin.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwinsticky.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwin_focus1.upd' for new updates
+2010-05-16T23:03:05 Checking update-file '/usr/share/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2010-05-16T23:03:11 Checking update-file '/usr/share/apps/kconf_update/kfmclient_3_2.upd' for new updates
+2010-05-16T23:03:40 Checking update-file '/usr/share/apps/kconf_update/ksmserver.upd' for new updates
+2010-05-16T23:03:58 Checking update-file '/usr/share/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2010-05-16T23:03:58 Checking update-file '/usr/share/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2010-05-16T23:03:58 Checking update-file '/usr/share/apps/kconf_update/kaccel.upd' for new updates
+2010-05-16T23:03:58 Checking update-file '/usr/share/apps/kconf_update/krdb.upd' for new updates
+2010-05-16T23:04:27 Checking update-file '/usr/share/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2010-05-16T23:04:27 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2010-05-16T23:04:27 plasma-add-shortcut-to-menu.upd: !! Script 'plasma-add-shortcut-to-menu-update' not found in line 2 : 'Script=plasma-add-shortcut-to-menu-update'
+2010-05-16T23:04:27 Checking update-file '/usr/share/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2010-05-16T23:04:27 Checking update-file '/usr/share/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2010-05-16T23:04:36 Checking update-file '/usr/share/apps/kconf_update/devicepreference.upd' for new updates
+2010-05-16T23:05:52 Checking update-file '/usr/share/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2010-06-07T12:21:41 Checking update-file '/usr/share/apps/kconf_update/konversation.upd' for new updates
+2010-06-11T01:58:31 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2010-06-11T01:58:31 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2010-06-11T01:58:31 kioslave.upd: Found new update 'kde2.2/r1'
+2010-06-11T01:58:31 kioslave.upd: Skipping update 'kde2.2/r1'
+2010-06-11T01:58:31 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-06-11T01:58:31 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2010-06-11T01:58:31 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2010-06-11T01:58:31 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2010-06-11T01:58:31 Checking update-file '/usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2010-06-11T01:58:52 Checking update-file '/usr/share/apps/kconf_update/mailtransports.upd' for new updates
+2010-06-11T01:59:05 Checking update-file '/usr/share/apps/kconf_update/kalarm.upd' for new updates
+2010-06-11T02:00:46 Checking update-file '/usr/share/apps/kconf_update/kcmcddb-emailsettings.upd' for new updates
+2010-06-11T02:00:57 Checking update-file '/usr/share/apps/kconf_update/audiocd.upd' for new updates
+2010-06-11T02:01:59 Checking update-file '/usr/share/apps/kconf_update/korganizer.upd' for new updates
+2010-06-11T02:02:16 Checking update-file '/usr/share/apps/kconf_update/favicons.upd' for new updates
+2010-06-11T02:04:11 Checking update-file '/usr/share/apps/kconf_update/kolab-resource.upd' for new updates
+2010-06-11T02:05:13 Checking update-file '/usr/share/apps/kconf_update/kcalcrc.upd' for new updates
+2010-06-11T02:05:20 Checking update-file '/usr/share/apps/kconf_update/konversation.upd' for new updates
+2010-06-11T02:06:34 Checking update-file '/usr/share/apps/kconf_update/kpgp.upd' for new updates
+2010-06-11T02:06:46 Checking update-file '/usr/share/apps/kconf_update/kmail.upd' for new updates
+2010-06-11T02:07:17 Checking update-file '/usr/share/apps/kconf_update/kpat_update_cardwidth.upd' for new updates
+2010-06-11T02:09:14 Checking update-file '/usr/share/apps/kconf_update/ksmserver.upd' for new updates
+2010-06-11T02:09:58 Checking update-file '/usr/share/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2010-06-11T02:09:58 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2010-06-11T02:09:58 plasma-add-shortcut-to-menu.upd: !! Script 'plasma-add-shortcut-to-menu-update' not found in line 2 : 'Script=plasma-add-shortcut-to-menu-update'
+2010-06-11T02:09:58 Checking update-file '/usr/share/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2010-06-11T02:09:58 Checking update-file '/usr/share/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2010-06-11T02:10:17 Checking update-file '/usr/share/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2010-06-11T02:10:17 Checking update-file '/usr/share/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2010-06-11T02:10:17 Checking update-file '/usr/share/apps/kconf_update/kaccel.upd' for new updates
+2010-06-11T02:10:17 Checking update-file '/usr/share/apps/kconf_update/krdb.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwin3_plugin.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwin_focus2.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwiniconify.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwin_on_off.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwin.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwinsticky.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwin_focus1.upd' for new updates
+2010-06-11T02:10:25 Checking update-file '/usr/share/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2010-06-11T02:13:32 Checking update-file '/usr/share/apps/kconf_update/kfmclient_3_2.upd' for new updates
+2010-06-11T02:14:13 Checking update-file '/usr/share/apps/kconf_update/kate-2.4.upd' for new updates
+2010-06-11T02:14:31 Checking update-file '/usr/share/apps/kconf_update/kopete-nameTracking.upd' for new updates
+2010-06-11T02:14:31 kopete-nameTracking.upd: Found new update 'kopete0.9/r1'
+2010-06-11T02:14:31 kopete-nameTracking.upd: Skipping update 'kopete0.9/r1'
+2010-06-11T02:14:31 Checking update-file '/usr/share/apps/kconf_update/kopete-initialstatus.upd' for new updates
+2010-06-11T02:14:31 Checking update-file '/usr/share/apps/kconf_update/kopete-jabberpriorityaddition-kconf_update.upd' for new updates
+2010-06-11T02:14:31 Checking update-file '/usr/share/apps/kconf_update/kopete-gaim_to_pidgin_style.upd' for new updates
+2010-06-11T02:14:31 Checking update-file '/usr/share/apps/kconf_update/kopete-pluginloader2.upd' for new updates
+2010-06-11T02:14:31 Checking update-file '/usr/share/apps/kconf_update/kopete-jabberproxytype-kconf_update.upd' for new updates
+2010-06-11T02:14:31 Checking update-file '/usr/share/apps/kconf_update/kopete-account-kconf_update.upd' for new updates
+2010-06-11T02:14:31 Checking update-file '/usr/share/apps/kconf_update/kopete-pluginloader.upd' for new updates
+2010-06-11T02:14:31 Checking update-file '/usr/share/apps/kconf_update/kopete-update_yahoo_server.upd' for new updates
+2010-06-11T02:14:51 Checking update-file '/usr/share/apps/kconf_update/devicepreference.upd' for new updates
+2010-06-11T02:18:05 Checking update-file '/usr/share/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2010-06-11T02:19:22 Checking update-file '/usr/share/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2010-06-11T02:20:12 Checking update-file '/usr/share/apps/kconf_update/kcharselect.upd' for new updates
+2010-07-02T21:52:29 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2010-07-02T21:52:29 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2010-07-02T21:52:29 kioslave.upd: Found new update 'kde2.2/r1'
+2010-07-02T21:52:29 kioslave.upd: Skipping update 'kde2.2/r1'
+2010-07-02T21:52:29 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-07-02T21:52:29 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2010-07-02T21:52:29 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2010-07-02T21:52:29 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2010-07-02T21:52:29 Checking update-file '/usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2010-07-02T21:52:42 Checking update-file '/usr/share/apps/kconf_update/favicons.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwin3_plugin.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwin_focus2.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwiniconify.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwin_on_off.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwin.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwinsticky.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwin_focus1.upd' for new updates
+2010-07-02T21:53:08 Checking update-file '/usr/share/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2010-07-02T21:53:15 Checking update-file '/usr/share/apps/kconf_update/devicepreference.upd' for new updates
+2010-07-02T21:53:49 Checking update-file '/usr/share/apps/kconf_update/ksmserver.upd' for new updates
+2010-07-02T21:54:26 Checking update-file '/usr/share/apps/kconf_update/mailtransports.upd' for new updates
+2010-07-02T21:55:02 Checking update-file '/usr/share/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2010-07-02T21:55:02 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2010-07-02T21:55:02 plasma-add-shortcut-to-menu.upd: !! Script 'plasma-add-shortcut-to-menu-update' not found in line 2 : 'Script=plasma-add-shortcut-to-menu-update'
+2010-07-02T21:55:02 Checking update-file '/usr/share/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2010-07-02T21:55:02 Checking update-file '/usr/share/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2010-07-02T21:55:27 Checking update-file '/usr/share/apps/kconf_update/kfmclient_3_2.upd' for new updates
+2010-07-02T21:59:03 Checking update-file '/usr/share/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2010-07-02T21:59:23 Checking update-file '/usr/share/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2010-07-02T21:59:23 Checking update-file '/usr/share/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2010-07-02T21:59:23 Checking update-file '/usr/share/apps/kconf_update/kaccel.upd' for new updates
+2010-07-02T21:59:23 Checking update-file '/usr/share/apps/kconf_update/krdb.upd' for new updates
+2010-07-02T22:09:17 Checking update-file '/usr/share/apps/kconf_update/kcmcddb-emailsettings.upd' for new updates
+2010-07-02T22:11:03 Checking update-file '/usr/share/apps/kconf_update/audiocd.upd' for new updates
+2010-07-02T22:11:09 Checking update-file '/usr/share/apps/kconf_update/kpgp.upd' for new updates
+2010-07-02T22:11:47 Checking update-file '/usr/share/apps/kconf_update/kmail.upd' for new updates
+2010-07-02T22:16:27 Checking update-file '/usr/share/apps/kconf_update/korganizer.upd' for new updates
+2010-07-02T22:18:37 Checking update-file '/usr/share/apps/kconf_update/kate-2.4.upd' for new updates
+2010-07-02T22:18:58 Checking update-file '/usr/share/apps/kconf_update/kpat_update_cardwidth.upd' for new updates
+2010-07-02T22:21:31 Checking update-file '/usr/share/apps/kconf_update/kcalcrc.upd' for new updates
+2010-07-02T22:22:33 Checking update-file '/usr/share/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2010-07-02T22:23:46 Checking update-file '/usr/share/apps/kconf_update/kalarm.upd' for new updates
+2010-07-02T22:28:23 Checking update-file '/usr/share/apps/kconf_update/kcharselect.upd' for new updates
+2010-07-02T22:30:39 Checking update-file '/usr/share/apps/kconf_update/kopete-nameTracking.upd' for new updates
+2010-07-02T22:30:39 kopete-nameTracking.upd: Found new update 'kopete0.9/r1'
+2010-07-02T22:30:40 kopete-nameTracking.upd: Skipping update 'kopete0.9/r1'
+2010-07-02T22:30:40 Checking update-file '/usr/share/apps/kconf_update/kopete-initialstatus.upd' for new updates
+2010-07-02T22:30:40 Checking update-file '/usr/share/apps/kconf_update/kopete-jabberpriorityaddition-kconf_update.upd' for new updates
+2010-07-02T22:30:40 Checking update-file '/usr/share/apps/kconf_update/kopete-gaim_to_pidgin_style.upd' for new updates
+2010-07-02T22:30:40 Checking update-file '/usr/share/apps/kconf_update/kopete-pluginloader2.upd' for new updates
+2010-07-02T22:30:40 Checking update-file '/usr/share/apps/kconf_update/kopete-jabberproxytype-kconf_update.upd' for new updates
+2010-07-02T22:30:40 Checking update-file '/usr/share/apps/kconf_update/kopete-account-kconf_update.upd' for new updates
+2010-07-02T22:30:40 Checking update-file '/usr/share/apps/kconf_update/kopete-pluginloader.upd' for new updates
+2010-07-02T22:30:40 Checking update-file '/usr/share/apps/kconf_update/kopete-update_yahoo_server.upd' for new updates
+2010-07-02T22:36:06 Checking update-file '/usr/share/apps/kconf_update/kolab-resource.upd' for new updates
+2010-06-30T01:47:17 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2010-06-30T01:47:17 Checking update-file '/usr/share/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2010-06-30T01:47:17 Checking update-file '/usr/share/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2010-06-30T01:47:17 Checking update-file '/usr/share/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2010-06-30T01:47:17 Checking update-file '/usr/share/apps/kconf_update/kaccel.upd' for new updates
+2010-06-30T01:47:17 Checking update-file '/usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2010-06-30T01:47:17 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2010-06-30T01:47:17 Checking update-file '/usr/share/apps/kconf_update/krdb.upd' for new updates
+2010-06-30T01:47:17 Checking update-file '/usr/share/apps/kconf_update/mailtransports.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/konversation.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kwin_focus2.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kwin3_plugin.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kwinsticky.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kwin_focus1.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2010-06-30T01:47:18 kioslave.upd: Found new update 'kde2.2/r1'
+2010-06-30T01:47:18 kioslave.upd: Skipping update 'kde2.2/r1'
+2010-06-30T01:47:18 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kwin.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kwiniconify.upd' for new updates
+2010-06-30T01:47:18 Checking update-file '/usr/share/apps/kconf_update/kwin_on_off.upd' for new updates
+2010-07-07T03:35:09 Checking update-file '/usr/share/apps/kconf_update/konversation.upd' for new updates
+2010-07-15T01:48:22 Checking update-file '/usr/share/apps/kconf_update/kate-2.4.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwin_on_off.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kfmclient_3_2.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwin_focus2.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kopete-gaim_to_pidgin_style.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/katomic-levelset.upd' for new updates
+2010-08-15T23:13:55 katomic-levelset.upd: Found new update 'katomic_levelset_config_update'
+2010-08-15T23:13:55 katomic-levelset.upd: File 'katomicrc' does not exist or empty, skipping
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kopete-update_yahoo_server.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwinsticky.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwiniconify.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/konversation.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/mailtransports.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kcmcddb-emailsettings.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kopete-initialstatus.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwin_focus1.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kcalcrc.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kopete-pluginloader.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/krdb.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/audiocd.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kalarm.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kopete-jabberproxytype-kconf_update.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kopete-nameTracking.upd' for new updates
+2010-08-15T23:13:55 kopete-nameTracking.upd: Found new update 'kopete0.9/r1'
+2010-08-15T23:13:55 kopete-nameTracking.upd: Skipping update 'kopete0.9/r1'
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwin.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwin3_plugin.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/korganizer.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2010-08-15T23:13:55 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2010-08-15T23:13:55 plasma-add-shortcut-to-menu.upd: !! Script 'plasma-add-shortcut-to-menu-update' not found in line 2 : 'Script=plasma-add-shortcut-to-menu-update'
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kopete-account-kconf_update.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kpgp.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kcharselect.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/devicepreference.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kpat_update_cardwidth.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/ksmserver.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kate-2.4.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2010-08-15T23:13:55 kioslave.upd: Found new update 'kde2.2/r1'
+2010-08-15T23:13:55 kioslave.upd: Skipping update 'kde2.2/r1'
+2010-08-15T23:13:55 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kolab-resource.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kaccel.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kopete-pluginloader2.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/favicons.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kmail.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kopete-jabberpriorityaddition-kconf_update.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2010-08-18T15:02:54 Checking update-file '/usr/share/apps/kconf_update/kate-2.4.upd' for new updates

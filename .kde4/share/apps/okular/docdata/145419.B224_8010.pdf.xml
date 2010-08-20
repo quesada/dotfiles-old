@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE documentInfo>
+<documentInfo url="/tmp/B224_8010.pdf">
+ <pageList>
+  <page number="0">
+   <annotationList>
+    <annotation type="4">
+     <base creationDate="2010-05-17T21:09:46" uniqueName="okular-0-1" author="Jose" modifyDate="2010-05-17T21:09:46" color="#ffff00">
+      <boundary l="0.543282" r="0.739018" b="0.447693" t="0.4381"/>
+     </base>
+     <hl>
+      <quad dx="0.543409" cx="0.739034" dy="0.438419" bx="0.739034" cy="0.438419" ax="0.543409" by="0.44804" ay="0.44804" feather="1"/>
+     </hl>
+    </annotation>
+    <annotation type="4">
+     <base creationDate="2010-05-18T00:56:50" uniqueName="okular-0-2" author="Jose" modifyDate="2010-05-18T00:56:50" color="#ffff00">
+      <boundary l="0.256314" r="0.741815" b="0.398546" t="0.376735"/>
+     </base>
+     <hl>
+      <quad dx="0.257241" cx="0.742708" dy="0.376835" bx="0.742708" cy="0.376835" ax="0.257241" by="0.386456" ay="0.386456" feather="1"/>
+      <quad dx="0.257241" cx="0.412654" dy="0.389235" bx="0.412654" cy="0.389235" ax="0.257241" by="0.398856" ay="0.398856" feather="1"/>
+     </hl>
+    </annotation>
+   </annotationList>
+  </page>
+ </pageList>
+ <generalInfo>
+  <history>
+   <oldPage viewport="4;C2:1.00257:1:1"/>
+   <oldPage viewport="2;C2:1.00257:1:1"/>
+   <oldPage viewport="0;C2:1.00257:1:1"/>
+   <oldPage viewport="1;C2:1.00257:0:1"/>
+   <oldPage viewport="3;C2:1.00257:0:1"/>
+   <oldPage viewport="2;C2:0.893315:0.47215:1"/>
+   <oldPage viewport="3;C2:0.105769:0.668394:1"/>
+   <oldPage viewport="5;C2:0.105769:0:1"/>
+   <oldPage viewport="3;C2:0.0499084:0.668394:1"/>
+   <oldPage viewport="2;C2:0.945513:0.668394:1"/>
+   <current viewport="4;C2:0.944597:0.369819:1"/>
+  </history>
+  <views>
+   <view name="PageView">
+    <zoom mode="0" value="1.83442"/>
+   </view>
+  </views>
+ </generalInfo>
+</documentInfo>

@@ -1,0 +1,16 @@
+[Connection_{40ca9ba5-c280-446d-a9b4-05eb09b9e887}]
+LastUsed=2010,5,15,23,28,37
+Name=TESTWIFI
+Type=802-11-wireless
+
+[Connection_{be542b9c-c00b-45cd-8855-18ffcc2be956}]
+Name=New Wireless Connection
+Type=802-11-wireless
+
+[Connection_{d87f5462-8c25-4a2b-bfce-13cedb1c4b06}]
+LastUsed=2010,5,12,16,15,33
+Name=mania magazin
+Type=802-11-wireless
+
+[General]
+Connections={be542b9c-c00b-45cd-8855-18ffcc2be956},{d87f5462-8c25-4a2b-bfce-13cedb1c4b06},{40ca9ba5-c280-446d-a9b4-05eb09b9e887}

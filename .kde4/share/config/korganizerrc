@@ -1,0 +1,51 @@
+[$Version]
+update_info=korganizer.upd:korganizer_3.4_GroupwareCleanup,korganizer.upd:korganizer_3.4_WebExport,korganizer.upd:korganizer_3.4_FilterAction,korganizer.upd:korganizer_3.4_HolidayPlugin,korganizer.upd:korganizer_4.3_ShowTodos,korganizer.upd:korganizer_4.4_MoveFreeBusy
+
+[EventViewer-EventViewer]
+ZoomFactor=0
+
+[General]
+Agenda Mode=5
+CalendarFilters=
+Current Filter=
+Current View=Agenda
+Custom Categories=Appointment,Birthday,Business,Education,Holiday,Meeting,Miscellaneous,Personal,Phone Call,Special Occasion,Travel,Vacation
+
+[Internal Settings]
+DefaultResourceColorSeed=3
+
+[KOrganizer Geometry]
+Separator1=571,677
+Separator2=230,188,135,156
+
+[MainWindow]
+Height 1200=800
+State=AAAA/wAAAAD9AAAAAAAABOMAAALOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAJABrAG8AcgBnAGEAbgBpAHoAZQByAF8AdABvAG8AbABiAGEAcgEAAAJ8/////wAAAAAAAAAAAAAAIABzAGMAaABlAGQAdQBsAGUAXwB0AG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAAAAAAcAGYAaQBsAHQAZQByAF8AdABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1251
+
+[Resources Colors]
+0Ih4RPgWgy=188,54,54
+1P2Na4OBi1=208,231,193
+IuI1bjT4MK=193,212,231
+
+[Settings]
+DateNavigatorVisible=true
+EventViewerVisible=true
+ResourceViewVisible=true
+TodoViewVisible=true
+
+[Sidebar Todo View]
+ColumnOrder=0,1,2,3,4,5,6
+ColumnVisibility=true,false,false,false,true,true,false
+ColumnWidths=126,0,0,0,168,263,0
+FlatView=false
+SortAscending=1
+SortColumn=0
+
+[Timescale]
+Timescale Timezones=
+
+[Views]
+Separator AgendaView=167,526
+ShownDatesCount=7

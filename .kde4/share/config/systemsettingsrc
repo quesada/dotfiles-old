@@ -1,0 +1,28 @@
+[DownloadDialog Settings]
+Height 1200=400
+Width 1920=700
+
+[KFileDialog Settings]
+Height 1200=750
+Width 1920=1200
+
+[KPropertiesDialog]
+Height 1152=500
+Height 1200=501
+Width 1920=475
+Width 2048=475
+
+[MainWindow]
+Height 1152=1153
+Height 1200=1196
+Height 768=769
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABOgAAARJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=926
+Width 1920=956
+Width 2048=1256
+
+[Open-with settings]
+CompletionMode=5
+History=xwrits typetime=40 finger after 15 clock multiply=5:1.4\n,/usr/bin/xflux -l 52.30\\, 13.25\n,/usr/bin/easystroke,/usr/bin/xmlcopyeditor

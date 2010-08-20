@@ -1,0 +1,23 @@
+[$Version]
+update_info=kfmclient_3_2.upd:kfmclient_3_2
+
+[HTML Settings]
+AutoLoadImages=true
+AutomaticDetectionLanguage=1
+DefaultEncoding=
+Fonts=FreeSans,Monospace,FreeMono,FreeSans,FreeSans,Sans Serif,
+HoverLinks=true
+MediumFontSize=10
+MinimumFontSize=10
+ShowAnimations=LoopOnce
+SmoothScrolling=WhenEfficient
+UnderlineLinks=false
+UnfinishedImageFrame=true
+UserStyleSheetEnabled=false
+
+[KFileDialog Settings]
+Height 1200=750
+Width 1920=1200
+
+[Undo]
+Number of Closed Windows=19

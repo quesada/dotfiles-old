@@ -1,0 +1,15 @@
+[$Version]
+update_info=kolab-resource.upd:kolab-contact-resource-rename
+
+[General]
+PassiveResourceKeys=
+ResourceKeys=enSeQEPrNl
+Standard=enSeQEPrNl
+
+[Resource_enSeQEPrNl]
+FileFormat=vcard
+ResourceIdentifier=enSeQEPrNl
+ResourceIsActive=true
+ResourceIsReadOnly=false
+ResourceName=Default Address Book
+ResourceType=file

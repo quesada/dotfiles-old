@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=katepartui.rc
+Type=Link
+URL[$e]=file://$HOME/.kde4/share/apps/katepart/katepartui.rc
+X-KDE-LastOpenedWith=kwrite

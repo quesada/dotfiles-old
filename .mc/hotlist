@@ -1,0 +1,5 @@
+ENTRY "quesada" URL "/home/quesada"
+ENTRY "wuala" URL "/home/quesada/wuala/WualaDrive/myfiles"
+ENTRY "tor" URL "/data/downloads"
+ENTRY "music" URL "/mnt/mobileData/extra/music"
+ENTRY "vplugin" URL "/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles/plugin"

@@ -1,0 +1,81 @@
+First Time=false
+Version=2.0.0
+
+[Archives]
+Supported Packers=tar,gzip,bzip2,lzma,unzip,zip,cpio,unrar,rar
+
+[Dependencies]
+bzip2=/bin/bzip2
+checksum utility=/usr/bin/md5sum
+cpio=/bin/cpio
+gzip=/bin/gzip
+kdesu=/usr/bin/kdesu
+kmail=/usr/bin/kmail
+krusader=/usr/bin/krusader
+lzma=/usr/bin/lzma
+mailer=/usr/bin/kmail
+md5sum=/usr/bin/md5sum
+mount=/bin/mount
+rar=/opt/bin/rar
+sha1sum=/usr/bin/sha1sum
+sha224sum=/usr/bin/sha224sum
+sha256sum=/usr/bin/sha256sum
+sha384sum=/usr/bin/sha384sum
+sha512sum=/usr/bin/sha512sum
+tar=/bin/tar
+umount=/bin/umount
+unrar=/usr/bin/unrar
+unzip=/usr/bin/unzip
+zip=/usr/bin/zip
+
+[Konfigurator]
+Window Height=680
+Window Maximized=false
+Window Width=900
+
+[KrDetailedViewLeft]
+ColumnOrder=0,1,2,3,4
+ColumnWidths=232,55,100,145,40
+SortAscending=true
+SortColumn=0
+
+[KrDetailedViewRight]
+ColumnOrder=0,1,2,3,4
+ColumnWidths=232,55,100,145,40
+SortAscending=true
+SortColumn=0
+
+[Private]
+Left PanelPopup Splitter Sizes=100,100
+Maximized=false
+PopularUrls=file:///home/quesada/.dropbox-dist/
+PopularUrlsRank=20
+Right PanelPopup Splitter Sizes=100,100
+Splitter Sizes=598,598
+Start Position=0,0
+Start Size=1199,1123
+cmdline history=
+
+[Protocols]
+Handled Protocols=krarc,iso,tar
+Mimes For iso=application/x-iso,application/x-cd-image,application/x-dvd-image
+Mimes For krarc=application/x-7z,application/x-7z-compressed,application/x-ace,application/x-ace-compressed,application/x-arj,application/x-arj-compressed,application/x-bzip2,application/x-cpio,application/x-deb,application/x-debian-package,application/x-gzip,application/x-jar,application/x-lha,application/x-lha-compressed,application/x-rar,application/x-rar-compressed,application/x-rpm,application/zip,application/x-zip,application/x-zip-compressed
+Mimes For tar=application/x-tar,application/x-tarz,application/x-bzip-compressed-tar,application/x-compressed-tar,application/x-tbz,application/x-tgz
+
+[QueueManager]
+Active=0
+Queues=default
+
+[Startup]
+Left Active Tab=0
+Left Panel Popup=0
+Left Side Is Active=false
+Left Tab Bar[$e]=$HOME
+Left Tab Bar Props=0
+Left Tab Bar Types=0
+Right Active Tab=0
+Right Panel Popup=0
+Right Tab Bar[$e]=$HOME/.dropbox-dist
+Right Tab Bar Props=0
+Right Tab Bar Types=0
+Vertical Mode=false

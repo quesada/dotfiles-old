@@ -1,0 +1,5 @@
+use_X_config=0
+model=evdev
+layouts=us
+variants=
+

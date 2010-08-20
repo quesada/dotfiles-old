@@ -1,0 +1,33 @@
+[$Version]
+update_info=kalarm.upd:1.9.5,kalarm.upd:1.9.9,kalarm.upd:1.9.12,kalarm.upd:2.0.0,kalarm.upd:2.0.2,kalarm.upd:2.1.5,kalarm.upd:2.3.2
+
+[EditDialog]
+Height 1152=560
+Height 1200=490
+Width 1920=656
+Width 2048=679
+Width 3968=604
+
+[General]
+AutoStart=true
+
+[KFileDialog Settings]
+Height 1200=660
+Recent Files[$e]=02 ~ Concerto No.1 in Bb -II- Adagio.ogg,/data/music/porta-lossless/ogg/Albinoni - 12 Concertos\\, op. 9 - AAM - Christopher Hogwood (EAC FLAC)/Disc 1/02 ~ Concerto No.1 in Bb -II- Adagio.ogg
+Width 1920=1056
+
+[MainWindow]
+Height 1152=1130
+Height 1200=259
+State=AAAA/wAAAAD9AAAAAAAABOgAAAQwAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1365
+Width 2048=1256
+
+[Notification Messages]
+ConfirmAlarmDeletion=true
+EmailQueuedNotify=false
+QuitWarn=true
+
+[View]
+ShowResources=false

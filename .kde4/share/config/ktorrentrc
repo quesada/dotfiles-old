@@ -1,0 +1,122 @@
+[ActivityListWidget]
+icon_size=32
+mode=0
+
+[ChunkDownloadView]
+state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAzgAAAAFAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAABkAAAAAQAAAAAAAABqAAAAAEAAAAA
+
+[DownloadOrderPlugin]
+DownloadOrderPluginEnabled=true
+
+[FileSelectDlg]
+show_file_tree=true
+size=557,625
+
+[FileView]
+show_list_of_files=false
+state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAloAAAAFAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAABkAAAAAQAAAAAAAAAygAAAAEAAAAA
+
+[GroupView]
+Active Torrents=true
+All Torrents=true
+Downloads=true
+Passive Torrents=true
+Uploads=true
+visible=false
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[InfoWidgetPlugin]
+InfoWidgetPluginEnabled=true
+
+[KFileDialog Settings]
+Height 1200=750
+Width 1920=1200
+
+[MagnetView]
+state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASwAAAADAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAABAAABLAAAAAMAAAAA
+
+[MainTabWidget]
+current_tab=0
+
+[MainWindow]
+Height 1152=1130
+Height 1200=1196
+State=AAAA/wAAAAD9AAAAAAAAB/wAAAQVAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBTAGgAdQB0AGQAbwB3AG4AVABvAG8AbABCAGEAcgEAAATL/////wAAAAAAAAAAAAAAGgBTAGUAYQByAGMAaABUAG8AbwBsAEIAYQByAQAABef/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1920=1916
+Width 2048=2044
+activity_bar_pos=0
+current_activity=3
+hidden_on_exit=false
+menubar_hidden=false
+statusbar_hidden=false
+
+[Notification Messages]
+systemtrayquitKTorrent=false
+
+[PeerView]
+state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAABkAAAAAQAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAABAAAGQAAAABAAAAAA
+
+[PrefDialog]
+size=720,566
+
+[QueueManagerWidget]
+search_bar_visible=false
+search_text=
+view_state=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB5oAAAAEAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAABLAAAAAMAAAAAAAAGbgAAAAEAAAAA
+
+[Recent Dirs]
+saveTorrentData[$e]=file://$HOME/Downloads/The%20Office%20Season%205%20DvDrip-McTav,$HOME/Documents
+
+[Scripting]
+running=/usr/share/apps/ktorrent/scripts/auto_remove/auto_remove.py,/usr/share/apps/ktorrent/scripts/auto_resume/auto_resume.py
+scripts=/usr/share/apps/ktorrent/scripts/auto_remove/auto_remove.py,/usr/share/apps/ktorrent/scripts/auto_resume/auto_resume.py,/usr/share/apps/ktorrent/scripts/email_notifications/email_notifications.py,/usr/share/apps/ktorrent/scripts/tracker_groups/tracker_groups.py
+
+[ScriptingPlugin]
+ScriptingPluginEnabled=true
+
+[SearchActivity]
+current_search=0
+
+[SearchPlugin]
+SearchPluginEnabled=true
+
+[ShutdownPlugin]
+ShutdownPluginEnabled=true
+
+[SpeedLimitsDlg]
+size=1024,460
+view_state=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA+QAAAAFAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAABkAAAAAQAAAAAAAACVAAAAAEAAAAA
+
+[TorrentActivityBottomTabBar]
+current_tab=Queue Manager
+shrunken=false
+
+[TorrentActivitySplitters]
+hsplit=AAAA/wAAAAAAAAACAAABAAAAAxgBAAAAAwEAAAAB
+vsplit=AAAA/wAAAAAAAAACAAACwQAAAPwBAAAAAwEAAAAC
+
+[TrackerView]
+state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAloAAAAGAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAB9AAAAAUAAAAAAAAAZgAAAAEAAAAA
+
+[View0]
+state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAACBEAAAAQAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAADAAABhQAAAAEAAAAAAAABFAAAAAEAAAAAAAAFeAAAAA4AAAAA
+
+[ViewManager]
+current_views=All Torrents
+
+[WebSeedsTab]
+state=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAEAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAABAAABkAAAAAQAAAAA
+
+[downloads]
+completedDir=file:///data/downloads/
+maxUploadRate=10
+oldTorrentsImported=true
+saveDir=file:///data/downloads/
+tempDir=file:///home/quesada/.kde4/share/apps/ktorrent/
+torrentCopyDir=file:///home/quesada/torrents
+useCompletedDir=true
+useSaveDir=true
+useTorrentCopyDir=true

@@ -1,0 +1,150 @@
+<!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
+<kpartgui version="68" name="Konqueror">
+ <MenuBar alreadyVisited="1">
+  <Menu noMerge="1" name="file" alreadyVisited="1">
+   <text>&amp;File</text>
+   <Action name="new_window"/>
+   <Action name="newtab"/>
+   <Separator/>
+   <Action name="open_location"/>
+   <Action name="open_file"/>
+   <Action name="sessions"/>
+   <Separator/>
+   <Action name="sendURL"/>
+   <Action name="sendPage"/>
+   <Separator/>
+   <Merge/>
+   <!--Includes termination separator-->
+   <Action name="print"/>
+   <DefineGroup name="print"/>
+   <Separator/>
+   <ActionList name="openwithbase"/>
+   <ActionList name="openwith"/>
+   <!--Includes termination separator-->
+   <Action name="quit"/>
+  </Menu>
+  <Menu noMerge="1" name="edit" alreadyVisited="1">
+   <text>&amp;Edit</text>
+   <!--Here is what applies to a selection-->
+   <Action name="undo"/>
+   <Action name="cut"/>
+   <Action name="copy"/>
+   <Action name="paste"/>
+   <!--<ActionList name="operations" />-->
+   <!-- copy files and move files, when two directory views -->
+   <WeakSeparator/>
+   <Merge/>
+  </Menu>
+  <Menu noMerge="1" name="view" alreadyVisited="1">
+   <text>&amp;View</text>
+   <!--Here is what applies to the active view-->
+   <ActionList name="viewmode"/>
+   <Action name="usehtml"/>
+   <Action name="lock"/>
+   <Action name="link"/>
+   <Separator/>
+   <Action name="reload"/>
+   <Action name="stop"/>
+   <WeakSeparator/>
+   <Merge/>
+  </Menu>
+  <Menu name="go" alreadyVisited="1">
+   <text>&amp;Go</text>
+   <Action name="go_up"/>
+   <Action name="go_back"/>
+   <Action name="go_forward"/>
+   <Action name="go_home"/>
+   <Separator weakSeparator="1"/>
+   <Merge/>
+   <Action name="go_history"/>
+   <Separator/>
+   <Action name="go_most_often"/>
+   <Action name="history"/>
+   <Action name="closeditems"/>
+  </Menu>
+  <Action name="bookmarks"/>
+  <Merge/>
+  <Menu noMerge="1" name="settings" alreadyVisited="1">
+   <text>&amp;Settings</text>
+   <Merge name="StandardToolBarMenuHandler"/>
+   <Action name="options_show_menubar"/>
+   <ActionList name="toggleview"/>
+   <Separator/>
+   <Action name="fullscreen"/>
+   <Separator/>
+   <Action name="loadviewprofile"/>
+   <Action name="saveviewprofile"/>
+   <Action name="saveremoveviewprofile"/>
+   <Separator/>
+   <Action name="options_configure_extensions"/>
+   <Action name="configurespellcheck"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure"/>
+  </Menu>
+  <Menu append="settings_merge" name="window">
+   <text>&amp;Window</text>
+   <Action name="splitviewh"/>
+   <Action name="splitviewv"/>
+   <Action name="removeview"/>
+   <Separator/>
+   <Action name="new_window"/>
+   <Action name="duplicate_window"/>
+   <Separator/>
+   <Action name="newtab"/>
+   <Action name="duplicatecurrenttab"/>
+   <Action name="breakoffcurrenttab"/>
+   <Action name="removecurrenttab"/>
+   <Separator/>
+   <Action name="tab_move_left"/>
+   <Action name="tab_move_right"/>
+  </Menu>
+  <Separator weakSeparator="1"/>
+  <Menu append="about_merge" name="help" alreadyVisited="1">
+   <text>&amp;Help</text>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Separator weakSeparator="1"/>
+   <Action name="konqintro"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar iconText="icononly" noMerge="1" name="mainToolBar" newline="true" alreadyVisited="1">
+  <text>Main Toolbar</text>
+  <Action name="go_back"/>
+  <Action name="go_forward"/>
+  <Action name="go_up"/>
+  <Action name="reload"/>
+  <Action name="options_show_menubar"/>
+  <WeakSeparator/>
+  <Action name="konq_sidebartng"/>
+ </ToolBar>
+ <ToolBar hidden="true" index="1" name="extraToolBar" newline="false">
+  <text>Extra Toolbar</text>
+  <Action name="konq_sidebartng"/>
+  <Action name="findfile"/>
+  <Action name="splitviewv"/>
+  <Action name="splitviewh"/>
+  <Action name="removeview"/>
+ </ToolBar>
+ <ToolBar iconText="icononly" fullWidth="true" name="locationToolBar" newline="false">
+  <text>Location Toolbar</text>
+  <Action name="toolbar_url_combo"/>
+  <Action name="go_url"/>
+ </ToolBar>
+ <ToolBar iconSize="16" iconText="icontextright" fullWidth="true" noEdit="true" name="bookmarkToolBar" newline="true">
+  <text>Bookmark Toolbar</text>
+ </ToolBar>
+ <MainWindow>
+  <Action name="clear_location"/>
+ </MainWindow>
+ <ActionProperties>
+  <Action shortcut="F9" name="konq_sidebartng"/>
+ </ActionProperties>
+</kpartgui>

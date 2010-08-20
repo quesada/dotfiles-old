@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<Xfce xmlversion="2">
+  <Panel orientation="0" size="2" popupposition="1" icontheme="Crystal">
+    <Position monitor="0" side="3" posstate="1" x="149" y="715"/>
+  </Panel>
+  <Groups>
+    <Group>
+      <Control id="-1" filename="libdesktopmenu.so" use_default_menu="1" menu_file="/etc/xdg/xfce4/desktop/menu.xml" icon_file="/usr/share/pixmaps/xfce4_xicon1.png" show_menu_icons="1" button_title="Xfce Menu"/>
+    </Group>
+    <Group>
+      <Control id="-2" popup="0">
+        <Command term="0" sn="0">gnome-terminal</Command>
+        <Tooltip>Terminal</Tooltip>
+        <Icon id="-1">/usr/share/icons/Tango/64x64/apps/gnome-terminal.png</Icon>
+      </Control>
+    </Group>
+    <Group>
+      <Control id="-2" popup="0">
+        <Command term="0" sn="1">xffm</Command>
+        <Tooltip>File manager</Tooltip>
+        <Icon id="-1">/usr/share/icons/Tango/64x64/apps/file-manager.png</Icon>
+      </Control>
+    </Group>
+    <Group>
+      <Control id="-2" popup="0">
+        <Command term="0" sn="0">firefox</Command>
+        <Tooltip>Mozilla Firefox</Tooltip>
+        <Icon id="-1">/usr/share/icons/Tango/64x64/apps/browser.png</Icon>
+      </Control>
+    </Group>
+    <Group>
+      <Control id="-2" popup="0">
+        <Command term="0" sn="0">xchat-2</Command>
+        <Tooltip>IRC Client</Tooltip>
+        <Icon id="-1">/usr/share/icons/Tango/64x64/apps/config-users.png</Icon>
+      </Control>
+    </Group>
+    <Group>
+      <Control id="-2" popup="0">
+        <Command term="0" sn="0">rhythmbox</Command>
+        <Tooltip>Music player</Tooltip>
+        <Icon id="-1">/usr/share/icons/Tango/64x64/devices/audio-card.png</Icon>
+      </Control>
+    </Group>
+    <Group>
+      <Control id="-1" filename="libseparator.so"/>
+    </Group>
+    <Group>
+      <Control id="-1" filename="libpager.so" rows="1"/>
+    </Group>
+    <Group>
+      <Control id="-1" filename="libseparator.so"/>
+    </Group>
+    <Group>
+      <Popup>
+        <Item>
+          <Caption>Screensaver</Caption>
+          <Command term="0" sn="1">xscreensaver-demo</Command>
+          <Tooltip>Screensaver</Tooltip>
+          <Icon id="3"/>
+        </Item>
+      </Popup>
+      <Control id="-2" popup="1">
+        <Command term="0" sn="0">xfce-setting-show</Command>
+        <Tooltip>Settings</Tooltip>
+        <Icon id="-1">/usr/share/icons/Tango/64x64/apps/preferences-system-session.png</Icon>
+      </Control>
+    </Group>
+    <Group>
+      <Popup>
+        <Item>
+          <Caption>Printer Management</Caption>
+          <Command term="0" sn="1">xfprint-manager</Command>
+          <Tooltip>Printer Management</Tooltip>
+          <Icon id="9"/>
+        </Item>
+      </Popup>
+      <Control id="-2" popup="1">
+        <Command term="0" sn="1">xfprint4</Command>
+        <Tooltip>Drag file to print</Tooltip>
+        <Icon id="-1">/usr/share/icons/Tango/64x64/devices/printer.png</Icon>
+      </Control>
+    </Group>
+    <Group>
+      <Control id="-2" popup="0">
+        <Command term="0" sn="0">xfhelp4</Command>
+        <Tooltip>Manual</Tooltip>
+        <Icon id="-1">/usr/share/icons/Tango/64x64/apps/help.png</Icon>
+      </Control>
+    </Group>
+    <Group>
+      <Control id="-1" filename="libseparator.so"/>
+    </Group>
+    <Group>
+      <Control id="-1" filename="libsystembuttons.so" button1="0" button2="1" showtwo="1"/>
+    </Group>
+    <Group>
+      <Control id="-1" filename="libseparator.so"/>
+    </Group>
+    <Group>
+      <Control id="-1" filename="libclock.so">
+        <XfceClock Clock_type="1" Toggle_military="1" Toggle_am_pm="1" Toggle_secs="0"/>
+      </Control>
+    </Group>
+  </Groups>
+</Xfce>

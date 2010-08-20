@@ -1,0 +1,12 @@
+<!DOCTYPE kpartgui>
+<gui version="2" name="katequickdocumentswitcher" library="libkatequickdocumentswitcherplugin">
+ <MenuBar>
+  <Menu name="go">
+   <text>&amp;Go</text>
+   <Action name="documents_quickswitch"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default">
+  <Action shortcut="Ctrl+1; Ctrl+T" name="documents_quickswitch"/>
+ </ActionProperties>
+</gui>

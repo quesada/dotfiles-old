@@ -1,0 +1,14 @@
+[1]
+URL[$e]=file:///tmp/BuildingSkillsinPython.pdf
+Viewport=-1
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=Shell
+Height 1200=1201
+MenuBar=Disabled
+ObjectName=okular::Shell
+State=AAAA/wAAAAD9AAAAAAAAB4AAAARyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1920=1921

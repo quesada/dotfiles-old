@@ -1,0 +1,7 @@
+[Filter Settings]
+Count=0
+Enabled=true
+Shrink=true
+
+[KParts Plugins]
+khtmlkttsdpluginEnabled=false

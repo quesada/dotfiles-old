@@ -1,0 +1,13 @@
+show_frame=0
+
+[Global]
+ShowFrame=true
+Rows=1
+
+[Applications]
+dropbox=false
+easystroke=false
+gnome-power-manager=false
+gnome-volume-control-applet=false
+networkmanager applet=false
+

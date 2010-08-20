@@ -1,0 +1,10 @@
+<!DOCTYPE kpartgui>
+<gui version="1" name="findinfiles" library="katefindinfilesplugin">
+ <MenuBar>
+  <Menu name="edit">
+   <text>&amp;Edit</text>
+   <Action group="edit_find_merge" name="findinfiles_edit_find_in_files"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default"/>
+</gui>

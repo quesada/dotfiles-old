@@ -1,0 +1,336 @@
+[Document 0]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=python
+Mode=Python
+ReadWrite=true
+URL=file:///home/quesada/coding/semmod/semmod/corpus.py
+
+[Document 1]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Python
+Indentation Mode=python
+Mode=Python
+ReadWrite=true
+URL=file:///home/quesada/coding/gensim/trunk/src/gensim/matutils.py
+
+[Document 2]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=python
+Mode=Python
+ReadWrite=true
+URL=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
+
+[Document 3]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=none
+Mode=
+ReadWrite=true
+URL=file:///home/quesada/tmp/foo.py
+
+[Document 4]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=python
+Mode=Python
+ReadWrite=true
+URL=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
+
+[Document 5]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Python
+Indentation Mode=python
+Mode=Python
+ReadWrite=true
+URL=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
+
+[Document 6]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Indentation Mode=none
+Mode=fish
+ReadWrite=true
+URL=file:///home/quesada/.config/fish/config.fish
+
+[Document 7]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Python
+Indentation Mode=python
+Mode=Python
+ReadWrite=true
+URL=file:///home/quesada/coding/semmod/semmod/lsa.py
+
+[Document 8]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=none
+Mode=
+ReadWrite=true
+URL=file:///home/quesada/Documents/tasadores.txt
+
+[DocumentModel:MainWindow:0]
+Order=0,1,2,3
+SortRole=34
+
+[General]
+Name=
+
+[Kate Plugins]
+kate_kttsd=false
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katectagsplugin=false
+kateexternaltoolsplugin=false
+katefilebrowserplugin=true
+katefiletemplates=false
+katefindinfilesplugin=false
+katekonsoleplugin=true
+katemailfilesplugin=false
+kateopenheaderplugin=false
+katepybrowseplugin=false
+katequickdocumentswitcherplugin=true
+katesnippets_tngplugin=false
+katesnippetsplugin=false
+katesymbolviewerplugin=true
+katetabbarextensionplugin=true
+katetextfilterplugin=false
+katexmlcheckplugin=false
+
+[MainWindow0]
+Active ViewSpace=0
+Height 1152=1153
+Height 1200=1201
+Kate-MDI-H-Splitter=213,982,731
+Kate-MDI-Sidebar-0-Splitter=0,545,557
+Kate-MDI-Sidebar-1-Splitter=0
+Kate-MDI-Sidebar-2-Splitter=
+Kate-MDI-Sidebar-3-Splitter=
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-kate_filelist-Persistent=true
+Kate-MDI-ToolView-kate_filelist-Position=0
+Kate-MDI-ToolView-kate_filelist-Sidebar-Position=0
+Kate-MDI-ToolView-kate_filelist-Visible=false
+Kate-MDI-ToolView-kate_plugin_symbolviewer-Persistent=true
+Kate-MDI-ToolView-kate_plugin_symbolviewer-Position=0
+Kate-MDI-ToolView-kate_plugin_symbolviewer-Sidebar-Position=2
+Kate-MDI-ToolView-kate_plugin_symbolviewer-Visible=true
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Persistent=true
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Sidebar-Position=1
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Visible=true
+Kate-MDI-ToolView-kate_private_plugin_katefindinfilesplugin-Persistent=false
+Kate-MDI-ToolView-kate_private_plugin_katefindinfilesplugin-Position=3
+Kate-MDI-ToolView-kate_private_plugin_katefindinfilesplugin-Sidebar-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefindinfilesplugin-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Persistent=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Position=1
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Sidebar-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
+Kate-MDI-ToolView-katefindinfilesplugin_1-Persistent=false
+Kate-MDI-ToolView-katefindinfilesplugin_1-Position=3
+Kate-MDI-ToolView-katefindinfilesplugin_1-Sidebar-Position=1
+Kate-MDI-ToolView-katefindinfilesplugin_1-Visible=false
+Kate-MDI-V-Splitter=150,1105,333
+State=AAAA/wAAAAD9AAAAAAAABOgAAARRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1921
+Width 2048=2049
+
+[MainWindow0 Settings]
+Height 1152=1153
+Height 1200=1201
+State=AAAA/wAAAAD9AAAAAAAABOgAAARRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1921
+Width 2048=2049
+WindowState=0
+
+[MainWindow0-Splitter 0]
+Children=MainWindow0-ViewSpace 0
+Orientation=2
+Sizes=1083
+
+[MainWindow0-ViewSpace 0]
+Active View=file:///home/quesada/tmp/foo.py
+Count=4
+View 0=file:///home/quesada/coding/gensim/trunk/src/gensim/matutils.py
+View 1=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
+View 2=file:///home/quesada/coding/semmod/semmod/corpus.py
+View 3=file:///home/quesada/tmp/foo.py
+View 4=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
+View 5=file:///home/quesada/coding/gensim/trunk/src/gensim/matutils.py
+View 6=file:///home/quesada/.config/fish/config.fish
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/.config/fish/config.fish]
+CursorColumn=46
+CursorLine=52
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/.xmonad/xmonad.hs]
+CursorColumn=27
+CursorLine=125
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/.xmonad/xmonad.hs.fancy]
+CursorColumn=19
+CursorLine=153
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/gensim/miislita-fromScratch.py]
+CursorColumn=25
+CursorLine=68
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/gensim/src/gensim/interfaces.py]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/gensim/src/gensim/models/tfidfmodel.py]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/gensim/trunk/acme/lee-tasa.py]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/gensim/trunk/src/gensim/corpora/mmcorpus.py]
+CursorColumn=17
+CursorLine=32
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/gensim/trunk/src/gensim/matutils.py]
+CursorColumn=55
+CursorLine=55
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/gensim/tutorials-1-2-3.py]
+CursorColumn=0
+CursorLine=59
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/semmod/semmod/corpus.py]
+CursorColumn=7
+CursorLine=10
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/semmod/semmod/vectorspace.py]
+CursorColumn=0
+CursorLine=73
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/tmp/foo.py]
+CursorColumn=6
+CursorLine=1
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/tmp/kk.py]
+CursorColumn=0
+CursorLine=3
+
+[MainWindow0-ViewSpace 1]
+Active View=file:///home/quesada/Documents/tasadores.txt
+Count=1
+View 0=file:///home/quesada/Documents/tasadores.txt
+View 1=file:///home/quesada/Documents/tasadores.txt
+View 2=file:///home/quesada/coding/semmod/semmod/corpus.py
+View 3=file:///home/quesada/coding/semmod/semmod/lsa.py
+
+[MainWindow0-ViewSpace 1 file:///home/quesada/Documents/tasadores.txt]
+CursorColumn=1
+CursorLine=0
+
+[MainWindow0-ViewSpace 1 file:///home/quesada/coding/gensim/miislita-fromScratch.py]
+CursorColumn=5
+CursorLine=71
+
+[MainWindow0-ViewSpace 1 file:///home/quesada/coding/semmod/semmod/corpus.py]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 1 file:///home/quesada/coding/semmod/semmod/lsa.py]
+CursorColumn=33
+CursorLine=92
+
+[MainWindow0-ViewSpace 1 file:///home/quesada/coding/semmod/semmod/vectorspace.py]
+CursorColumn=0
+CursorLine=73
+
+[MainWindow0-ViewSpace 1 file:///home/quesada/notes3/notesLappySabayon.txt]
+CursorColumn=0
+CursorLine=33
+
+[Open Documents]
+Count=4
+
+[Open MainWindows]
+Count=1
+
+[Plugin:katefilebrowserplugin:MainWindow:0]
+auto sync folder=false
+filter history=
+location[$e]=file://$HOME/coding/gensim/trunk/src/gensim
+
+[Plugin:katefilebrowserplugin:MainWindow:0:dir]
+Decoration position=0
+Previews=false
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort reversed=false
+View Style=Detail
+
+[Plugin:katefindinfilesplugin::find-in-files]
+CaseSensitive=false
+FollowDirectorySymlinks=false
+LastSearchFiles=
+LastSearchItems=
+LastSearchPaths=
+Recursive=false
+RegExp=false
+
+[Plugin:katetabbarextensionplugin:MainWindow:0:view]
+button style=0
+color active=150,150,255
+color modified=255,0,0
+color previous=143,255,137
+count of rows=1
+fixed height=22
+follow current tab=true
+highlight active=true
+highlight modified=false
+highlight opacity=20
+highlight previous=true
+highlighted colors=
+highlighted documents=
+location top=true
+maximum width=150
+minimum width=102
+sort type=0
+
+[Recent Files]
+File1[$e]=$HOME/.mc/mc.keymap
+File10[$e]=$HOME/.config/fish/config.fish
+File2[$e]=$HOME/.mc/bindings
+File3[$e]=$HOME/coding/gensim/trunk/src/gensim/corpora/mmcorpus.py
+File4[$e]=$HOME/.kde4/share/apps/katepart/syntax/ruby.xml
+File5[$e]=$HOME/coding/gensim/trunk/src/gensim/similarities/docsim.py
+File6[$e]=$HOME/coding/gensim/trunk/src/gensim/interfaces.pyc
+File7[$e]=$HOME/coding/gensim/trunk/src/gensim/matutils.py
+File8[$e]=$HOME/coding/gensim/trunk/src/gensim/interfaces.py
+File9[$e]=$HOME/.kde4/share/apps/katepart/syntax/python.xml
+Name1[$e]=mc.keymap
+Name10[$e]=config.fish
+Name2[$e]=bindings
+Name3[$e]=mmcorpus.py
+Name4[$e]=ruby.xml
+Name5[$e]=docsim.py
+Name6[$e]=interfaces.pyc
+Name7[$e]=matutils.py
+Name8[$e]=interfaces.py
+Name9[$e]=python.xml

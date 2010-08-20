@@ -1,0 +1,83 @@
+[General Options]
+ShowPath=false
+ShowStatusBar=false
+
+[Kate Document Defaults]
+Allow End of Line Detection=true
+Allow Simple Mode=false
+BOM=false
+Backup Config Flags=1
+Backup Prefix=
+Backup Suffix=~
+Basic Config Flags=111673442
+Encoding=UTF-8
+End of Line=0
+Indentation Mode=normal
+Indentation Width=2
+On-The-Fly Spellcheck=false
+PageUp/PageDown Moves Cursor=false
+ProberType for Encoding Autodetection=0
+Search Dir Config Depth=3
+Tab Handling=2
+Tab Width=4
+Word Wrap=false
+Word Wrap Column=80
+
+[Kate Renderer Defaults]
+Schema=kwrite - Normal
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[Kate Vi Input Mode Settings]
+Normal Mode Mapping Keys=
+Normal Mode Mappings=
+
+[Kate View Defaults]
+Auto Center Lines=0
+Auto Completion=true
+Bookmark Menu Sorting=0
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap Indicators=1
+Folding Bar=true
+Icon Bar=false
+Line Numbers=false
+Persistent Selection=false
+Replacement Text History=
+Scroll Bar Marks=false
+Scroll Past End=false
+Search Pattern History=
+Search/Replace Flags=140
+Smart Copy Cut=false
+Vi Input Mode=false
+Vi Input Mode Hide Status Bar=false
+Vi Input Mode Steal Keys=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+
+[MainWindow]
+Height 1152=1196
+Height 1200=292
+State=AAAA/wAAAAD9AAAAAAAABQwAAASTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Width 1920=1196
+Width 2048=1292
+
+[Recent Files]
+File1[$e]=$HOME/.config/lxterminal/lxterminal.conf
+File2[$e]=$HOME/.config/lxpanel/LXDE/panels/panel
+File3[$e]=$HOME/.xinitrc
+File4[$e]=$HOME/.zshhistory
+File5[$e]=$HOME/.Xdefaults
+File6[$e]=$HOME/equo.txt
+File7[$e]=$HOME/.kde4/share/apps/katepart/katepartui.rc
+Name1[$e]=lxterminal.conf
+Name2[$e]=panel
+Name3[$e]=.xinitrc
+Name4[$e]=.zshhistory
+Name5[$e]=.Xdefaults
+Name6[$e]=equo.txt
+Name7[$e]=katepartui.rc

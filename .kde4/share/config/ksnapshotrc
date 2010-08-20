@@ -1,0 +1,10 @@
+[GENERAL]
+delay=0
+filename[$e]=file:///tmp/snapshot2.png
+includeDecorations=true
+mode=2
+
+[KFileDialog Settings]
+Height 1200=750
+Recent Files[$e]=/tmp/snapshot1.png,/tmp/snapshot1.png
+Width 1920=1200

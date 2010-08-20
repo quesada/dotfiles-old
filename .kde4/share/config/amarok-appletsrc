@@ -1,0 +1,10 @@
+[Containments][1]
+activity=
+desktop=-1
+formfactor=0
+geometry=0,0,408,939
+immutability=1
+location=0
+plugin=amarok_containment_vertical
+screen=-1
+zvalue=0

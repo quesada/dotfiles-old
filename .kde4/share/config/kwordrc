@@ -1,0 +1,86 @@
+[DockerManager]
+HiddenToolDockers=
+VisibleToolDockers=TextToolFactory_ID
+
+[Interface]
+Rulers=false
+StatusBarShowModified=false
+StatusBarShowMouse=false
+StatusBarShowPage=true
+StatusBarShowZoom=true
+ViewFormattingBreaks=false
+ViewFormattingChars=false
+ViewFormattingEndParag=false
+ViewFormattingSpace=false
+ViewFormattingTabs=false
+ViewFrameBorders=false
+Zoom=116
+ZoomMode=1
+
+[RecentFiles]
+File1[$e]=$HOME/Dropbox/MPG_overview+personnel.doc
+Name1[$e]=MPG_overview+personnel.doc
+
+[TemplateChooserDialog]
+AlwaysUseTemplate=/usr/share/apps/kword/templates/Normal/.source/A4.odt
+FullTemplateName[$e]=/usr/share/apps/kword/templates/Normal/.source/A4.odt
+LastReturnType=Template
+
+[koffice]
+DockerPlugins=kofficedockers,karbondockersplugin
+DockerPluginsDisabled=
+FlakePlugins=defaulttools,divineproportionshape,textshape
+ShapePlugins=artistictextshape,chartshape,kritashape,musicshape,pathshapes,pictureshape,spreadsheetshape
+ShapePluginsDisabled=
+TextEditingPlugins=autocorrect,changecase,spellcheck
+TextVariablePlugins=textvariables
+TextVariablePluginsDisabled=
+
+[kword]
+State=AAAA/wAAAAD9AAAAAQAAAAEAAAE+AAAENvwCAAAADvsAAAAiAFMAdAByAG8AawBlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAAKkAAACp+wAAAA4AVABvAG8AbABCAG8AeAEAAAAYAAAAWAAAAEwBAAAF/AAAAHMAAACPAAAAjwAAAI/6AAAAAQEAAAAD+wAAAC4ASwBvAFMAaABhAHAAZQBDAG8AbABsAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAQAAAAD/////AAABCQAIAAX7AAAAFgBTAHQAeQBsAGUARABvAGMAawBlAHIBAAAAAP////8AAAEMAAgABfsAAAAUAFMAdABhAHQAaQBzAHQAaQBjAHMBAAACEQAAAQ8AAAD1AQAABfsAAAAkAFQAZQB4AHQAVABvAG8AbABGAGEAYwB0AG8AcgB5AF8ASQBEAQAAAQUAAALKAAAA8AAIABz7AAAAIABTAGgAYQBwAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAHQEAAAX7AAAAIgBTAGgAYQBkAG8AdwAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAACgAAgAHPsAAAAkAFMAaQBtAHAAbABlACAAVABlAHgAdAAgAEUAZABpAHQAbwByAAAAAAD/////AAAAAAAAAAD7AAAAEgBTAGMAcgBpAHAAdABpAG4AZwAAAAAA/////wAAAJABAAAF+wAAAB4ARAB1AG0AbQB5AFQAbwBvAGwAVwBpAGQAZwBlAHQBAAAB7gAAABcAAAAAAAAAAPsAAAAwAEQAZQBmAGEAdQBsAHQAVABvAG8AbABBAHIAcgBhAG4AZwBlAFcAaQBkAGcAZQB0AQAAAggAAAAXAAAAAAAAAAD7AAAAIgBEAGUAZgBhAHUAbAB0AFQAbwBvAGwAVwBpAGQAZwBlAHQBAAACIgAAABcAAAAAAAAAAPsAAAAqAFMAbgBhAHAARwB1AGkAZABlAEMAbwBuAGYAaQBnAFcAaQBkAGcAZQB0AQAAAjwAAAAXAAAAAAAAAAD7AAAAGgBLAG8AQwBvAGwAbwByAEQAbwBjAGsAZQByAAAAAAD/////AAAAqQEAAAX7AAAAGgBTAGgAYQBwAGUAUwBlAGwAZQBjAHQAbwByAQAAA9IAAAB8AAAARwEAAAUAAAO/AAAENgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAAFAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABgAZQBkAGkAdABfAHQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAAAAACIAcABhAHIAYQBnAHIAYQBwAGgAXwB0AG8AbwBsAGIAYQByAAAAAer/////AAAAAAAAAAAAAAAcAGYAbwByAG0AYQB0AF8AdABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAAAAAAJABjAGgAYQByAGYAbwByAG0AYQB0AF8AdABvAG8AbABiAGEAcgAAAAHq/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+
+[kword][DockWidget KoColorDocker]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget KoShapeCollectionDocker]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget Scripting]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget Shadow Properties]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget Shape Properties]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget ShapeSelector]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget Statistics]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget Stroke Properties]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget StyleDocker]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget TextToolFactory_ID]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget ToolBox]
+Collapsed=false
+DockArea=2

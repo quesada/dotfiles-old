@@ -1,0 +1,24 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Encoding=UTF-8
+Exec=xbindkeys
+GenericName[en_US]=
+GenericName=
+Icon=
+MimeType=
+Name[en_US]=
+Name=
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+X-KDE-autostart-after=kdesktop 

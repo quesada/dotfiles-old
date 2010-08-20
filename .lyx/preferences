@@ -1,0 +1,92 @@
+# LyX 2.0.0svn generated this file. If you want to make your own
+# modifications you should do them from inside LyX and save.
+
+
+#
+# MISC SECTION ######################################
+#
+
+# The time interval between auto-saves in seconds.
+\autosave 60
+\serverpipe "/home/quesada/.lyx/lyxpipe"
+\user_name "quesada, Jose"
+\user_email "quesada@gmail.com"
+\preview on
+
+#
+# SCREEN & FONTS SECTION ############################
+#
+
+\screen_zoom 185
+\screen_font_roman "FreeSans"
+\screen_font_sans "FreeSans"
+\screen_font_sizes 5 7 8 9 10 12 14.4 17.260000000000002 20.739999999999998 24.879999999999999
+\fullscreen_limit true
+\fullscreen_scrollbar false
+\fullscreen_width 1000
+
+#
+# COLOR SECTION ###################################
+#
+
+\set_color "background" "#55557f"
+
+#
+# PRINTER SECTION ###################################
+#
+
+
+#
+# TEX SECTION #######################################
+#
+
+
+#
+# FILE SECTION ######################################
+#
+
+\load_session true
+\mouse_wheel_speed 0.80
+\completion_inline_delay 0.00
+\completion_inline_dots 13
+\completion_popup_delay 0.30
+\completion_popup_text true
+\backupdir_path "/home/quesada/backup/lyx"
+
+#
+# PLAIN TEXT EXPORT SECTION ##############################
+#
+
+
+#
+# SPELLCHECKER SECTION ##############################
+#
+
+\accept_compound true
+
+#
+# LANGUAGE SUPPORT SECTION ##########################
+#
+
+\spellcheck_continuously true
+\rtl false
+
+#
+# 2nd MISC SUPPORT SECTION ##########################
+#
+
+
+#
+# FORMATS SECTION ##########################
+#
+
+
+#
+# CONVERTERS SECTION ##########################
+#
+
+
+#
+# COPIERS SECTION ##########################
+#
+

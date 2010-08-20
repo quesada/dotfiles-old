@@ -1,0 +1,13 @@
+[power-manager]
+batteryBrightness=4
+batteryCriticalAction=nothing
+batteryFreqPolicy=dynamic
+batteryIdleAction=nothing
+batteryIdleTime=10
+criticalRemainTime=5
+laptopLidAction=suspend
+lockOnResume=false
+poweredBrightness=5
+poweredFreqPolicy=dynamic
+poweredIdleAction=nothing
+poweredIdleTime=60

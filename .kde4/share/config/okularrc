@@ -1,0 +1,54 @@
+Height 1152=1153
+Height 1200=1201
+State=AAAA/wAAAAD9AAAAAAAAB4AAAARTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1920=1921
+Width 2048=2049
+
+[Desktop Entry]
+FullScreen=false
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KFileDialog Settings]
+Height 1152=750
+Height 1200=750
+Recent Files[$e]=$HOME/pdf/eswc2010/Jiacoppo2010-Scalable and parallel reasoning in the Semantic\nWeb\nESWC10-phdsym.pdf,$HOME/pdf/eswc2010/SahlgrenRI intro.pdf,$HOME/pdf/Ioannou2010-rdfsim-nearDuplicateDetectionNews-eswc.pdf,$HOME/pdf/heath2010-06-crete-linked-data-now-what.pdf,$HOME/pdf/Juslin\\, Nilsson & Winman\\, 2009.PDF,$HOME/pdf/livesocialsemantics.pdf
+Width 1920=1200
+Width 2048=1200
+
+[MainWindow]
+Height 1152=1153
+Height 1200=1201
+Height 768=769
+State=AAAA/wAAAAD9AAAAAAAAB/wAAARJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=1025
+Width 1920=1921
+Width 2048=2049
+
+[Notification Messages]
+presentationInfo=false
+
+[Recent Dirs]
+okular[$e]=file://$HOME/pdf/eswc2010/,file://$HOME/pdf/,file:///data/books/scipy/
+
+[Recent Files]
+File1[$e]=$HOME/pdf/deeplearning-language-2009_tutorial_nips.pdf
+File2[$e]=$HOME/pdf/turney2010-vsm-live-2934-4846-jair.pdf
+File3[$e]=$HOME/Dropbox/irmles/irmles2010.pdf
+File4[$e]=$HOME/pdf/eswc2010/2_eswc2010_digital_proceedings/Vol_6088/978-3-642-13485-2_Book_PrintPDF-1.pdf
+File5[$e]=$HOME/pdf/Juslin, Nilsson & Winman, 2009.PDF
+File6[$e]=$HOME/pdf/262_PayneDugganNeth2007_JEPG_136-3-370-time-foraging.pdf
+File7[$e]=$HOME/Dropbox/Tsang_Vivian_Y_200811_PhD_thesis.pdf
+File8[$e]=$HOME/pictures/presentations/LDSR.png
+File9[$e]=/tmp/2005_JRC-Workshop_Sahlgren.pdf
+Name1[$e]=deeplearning-language-2009_tutorial_nips.pdf
+Name2[$e]=turney2010-vsm-live-2934-4846-jair.pdf
+Name3[$e]=irmles2010.pdf
+Name4[$e]=978-3-642-13485-2_Book_PrintPDF-1.pdf
+Name5[$e]=Juslin, Nilsson & Winman, 2009.PDF
+Name6[$e]=262_PayneDugganNeth2007_JEPG_136-3-370-time-foraging.pdf
+Name7[$e]=Tsang_Vivian_Y_200811_PhD_thesis.pdf
+Name8[$e]=LDSR.png
+Name9[$e]=2005_JRC-Workshop_Sahlgren.pdf

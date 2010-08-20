@@ -1,0 +1,19 @@
+[MainWindow]
+Height 1152=500
+Height 1200=1201
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1921
+Width 2048=750
+
+[SideBar-BrowseMode]
+CurrentPage=folders
+IsVisible=true
+
+[SideBar-FullScreenMode]
+CurrentPage=information
+IsVisible=false
+
+[SideBar-ViewMode]
+CurrentPage=operations
+IsVisible=true

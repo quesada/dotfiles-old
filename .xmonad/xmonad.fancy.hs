@@ -1,0 +1,386 @@
+import XMonad hiding ((|||))
+
+import XMonad.Actions.Promote
+import XMonad.Actions.CycleRecentWS
+import XMonad.Actions.CycleWS
+import XMonad.Actions.CycleWindows
+import XMonad.Actions.SwapWorkspaces
+import XMonad.Actions.MouseGestures
+import XMonad.Actions.FloatSnap
+import XMonad.Actions.CopyWindow
+import XMonad.Actions.Submap
+import XMonad.Actions.GridSelect
+import XMonad.Actions.SpawnOn
+import XMonad.Actions.UpdatePointer
+import XMonad.Hooks.DynamicLog
+import XMonad.Hooks.EwmhDesktops
+import XMonad.Hooks.ManageDocks
+import XMonad.Hooks.UrgencyHook
+import XMonad.Util.Run(spawnPipe)
+import XMonad.Util.EZConfig
+import XMonad.Util.Scratchpad
+import XMonad.Util.Cursor
+import XMonad.Util.Font
+import XMonad.Util.WorkspaceCompare
+import XMonad.Layout.WindowNavigation
+import XMonad.Layout.NoBorders
+import XMonad.Layout.WorkspaceDir
+import XMonad.Layout.Maximize
+import XMonad.Layout.Spacing
+import XMonad.Layout.BoringWindows
+import XMonad.Layout.Spiral
+import XMonad.Layout.Mosaic
+import XMonad.Layout.ResizableTile
+import XMonad.Layout.Tabbed
+import XMonad.Layout.Accordion
+import XMonad.Layout.Combo
+import XMonad.Layout.TwoPane
+import XMonad.Layout.Grid
+import XMonad.Layout.ToggleLayouts
+import XMonad.Layout.OneBig
+import XMonad.Layout.IM
+import XMonad.Layout.LayoutCombinators ((|||))
+--import XMonad.Prompt
+--import XMonad.Prompt.Shell
+--import XMonad.Prompt.Window
+
+import Data.List
+import Data.Ratio ((%))
+import Data.Char (isDigit)
+
+import qualified Data.Map as M
+import qualified XMonad.StackSet as W
+-- import qualified XMonad.Actions.FlexibleManipulate as Flex
+-- import qualified XMonad.Actions.Search as S
+
+import Graphics.X11.Xlib
+--import Graphics.X11.Xft
+import System.IO
+import System.IO.UTF8
+
+
+main :: IO ()
+main = do
+    sp <- mkSpawner
+    xmobar <- spawnPipe "/usr/bin/xmobar /home/orbisvicis/.xmonad/xmobar"
+    xmonad $ withUrgencyHook NoUrgencyHook $ defaultConfig
+        { borderWidth = 5
+        , focusedBorderColor = "#224477"
+        , normalBorderColor = "#222222"
+        , focusFollowsMouse = True
+        , startupHook = ewmhDesktopsStartup >> setDefaultCursor xC_left_ptr
+        , handleEventHook = ewmhDesktopsEventHook
+        , manageHook = manageSpawn sp <+> manageDocks <+> myScratchpadManageHook <+> myManageHook <+> manageHook defaultConfig
+        , layoutHook = myLayout
+        , workspaces = myWorkspaces
+        , logHook = myLogHook >> (dynamicLogWithPP $ (myPP xmobar)) >> updatePointer (Nearest)
+        , modMask = mod4Mask    -- 1 = alt  4 = windows
+        }
+        `additionalKeys`
+        (
+        -- Overriding the defaults provided by Xmonad
+        [ ((mod4Mask .|. shiftMask,     xK_Return), spawnHere sp "uxterm")
+        -- Layout.WorkspaceDir: uses Layout.Prompt to change the working directory of a workspace via a prompt
+        , ((mod4Mask .|. controlMask,   xK_x),      changeDir myXPConfig)
+        -- Actions.Promote: alternate promote function that additional swaps the master
+        , ((mod4Mask,                   xK_Return), promote)
+        -- Actions.CycleRecentWS: cycle through most recently used workspaces with repeated presses of a single key
+        , ((mod1Mask,                   xK_Tab),    cycleRecentWS [xK_Alt_L] xK_Tab xK_grave)
+        -- Actions.CycleWindows: rotate windows through the unfocused frames
+        , ((mod4Mask,                   xK_i),      rotUnfocusedUp)
+        , ((mod4Mask,                   xK_u),      rotUnfocusedDown)
+        -- Actions.CycleWindows: rotate windows through the focused frame, excluding the "next" window. Useful for Layout.TwoPane
+        , ((mod4Mask .|. controlMask,   xK_i),      rotFocusedUp)
+        , ((mod4Mask .|. controlMask,   xK_u),      rotFocusedDown)
+        -- Actions.CycleWindows: duplicate left-hand keybindings
+        , ((mod4Mask .|. controlMask,               xK_Tab),    rotUnfocusedUp)
+        , ((mod4Mask .|. controlMask .|. shiftMask, xK_Tab),    rotUnfocusedDown)
+        -- Actions.CopyWindow: redefine kill to remove the window from the current workspace if present elsewhere
+        , ((mod4Mask .|. shiftMask,     xK_c),      kill1)
+        -- Actions.CopyWindow: make window visible on all workspaces; remove window from all but current workspace
+        , ((mod4Mask,                   xK_v ),     windows copyToAll)
+        , ((mod4Mask .|. shiftMask,     xK_v ),     killAllOtherCopies)
+        -- Actions.GridSelect: display the opened windows in a 2D grid to select using keyboard or mouse
+        , ((mod4Mask,                   xK_g),      goToSelected defaultGSConfig)
+        -- Prompt.Window: pops up a prompt with window names
+        , ((mod4Mask .|. shiftMask,     xK_g),      windowPromptGoto myWindowXPConfig)
+        -- Prompt.Shell: a shell prompt
+        , ((mod4Mask .|. shiftMask,     xK_x),      shellPromptHere sp myShellXPConfig)
+        , ((mod4Mask,                   xK_p),      shellPromptHere sp myShellXPConfig)
+        -- Hooks.ManageDocks: toggle the dock gaps
+        , ((mod4Mask,                   xK_b),      sendMessage ToggleStruts)
+        -- Layout.WindowNavigation: navigate between windows directionally using arrow keys
+        , ((mod4Mask,                   xK_Right),  sendMessage $ Go R)
+        , ((mod4Mask,                   xK_Left),   sendMessage $ Go L)
+        , ((mod4Mask,                   xK_Up),     sendMessage $ Go U)
+        , ((mod4Mask,                   xK_Down),   sendMessage $ Go D)
+        -- Layout.WindowNavigation: swap windows directionally using arrow keys
+        , ((mod4Mask .|. shiftMask,     xK_Right),  sendMessage $ Swap R)
+        , ((mod4Mask .|. shiftMask,     xK_Left),   sendMessage $ Swap L)
+        , ((mod4Mask .|. shiftMask,     xK_Up),     sendMessage $ Swap U)
+        , ((mod4Mask .|. shiftMask,     xK_Down),   sendMessage $ Swap D)
+        -- Layout.WindowNavigation: move windows between sub-layouts directionally using arrow keys (for use with Layout.Combo)
+        , ((mod4Mask .|. controlMask .|. shiftMask, xK_Right), sendMessage $ Move R)
+        , ((mod4Mask .|. controlMask .|. shiftMask, xK_Left ), sendMessage $ Move L)
+        , ((mod4Mask .|. controlMask .|. shiftMask, xK_Up   ), sendMessage $ Move U)
+        , ((mod4Mask .|. controlMask .|. shiftMask, xK_Down ), sendMessage $ Move D)
+        -- Layout.ResizableTile (MirrorShrink,MirrorExpand) and Layout.Mosaic (Taller,Wider): widen/heighten windows
+        , ((mod4Mask,                   xK_s),      broadcastMessage MirrorShrink >> broadcastMessage Taller >> refresh)
+        , ((mod4Mask,                   xK_x),      broadcastMessage MirrorExpand >> broadcastMessage Wider >> refresh)
+        -- Layout.Mosaic: reset the layout. Layout.ToggleLayouts: toggle layouts
+        , ((mod4Mask .|. controlMask,   xK_space),  broadcastMessage Reset >> broadcastMessage ToggleLayout >> refresh)
+        -- Layout.*: replicate default expand/shrink keybindings (mod-h,mod-l)
+        , ((mod4Mask,                   xK_a),      sendMessage Expand)
+        , ((mod4Mask,                   xK_z),      sendMessage Shrink)
+        -- Layout.BoringWindows: overload default focus keybindings to ignore boring windows
+        , ((mod4Mask,                   xK_j),      focusUp)
+        , ((mod4Mask,                   xK_k),      focusDown)
+        , ((mod4Mask,                   xK_m),      focusMaster)
+        -- Layout.Maximize: temporarily yanks the focused window out of the layout to mostly fill the screen
+        , ((mod4Mask,               xK_backslash),  withFocused( sendMessage . maximizeRestore))
+        -- Hooks.UrgencyHook: focuses the most recently urgent window
+        , ((mod4Mask,               xK_BackSpace),  focusUrgent)
+        -- Util.Scratchpad: quake-like terminal bindings
+        , ((mod4Mask,                   xK_o),      scratchpadSpawnActionTerminal "uxterm")
+        , ((mod4Mask .|. controlMask,   xK_z),      spawn "xscreensaver-command -lock")
+        , ((mod4Mask .|. controlMask,   xK_p),      spawnHere sp myDmenu)
+        , ((0,                          xK_Print),  spawnHere sp "scrot")
+        -- multimedia keys
+        , ((0,                      0x1008ff11),    spawn "amixer -q set Master 5%-")
+        , ((0,                      0x1008ff12),    spawn "amixer -q set Master toggle")
+        , ((0,                      0x1008ff13),    spawn "amixer -q set Master 5%+")
+        , ((mod4Mask .|. controlMask,   xK_s),      spawn "dbus-send --system --print-reply --dest=org.freedesktop.Hal /org/freedesktop/Hal/devices/computer org.freedesktop.Hal.Device.SystemPowerManagement.Suspend int32:0")
+        , ((mod4Mask,                   xK_f),      spawnHere sp "thunar")
+        -- Actions.Search: Using Actions.Submap to create web database prompt searches without lots of keybindings
+        , ((mod4Mask,                   xK_grave),  submap $ searchEngineMap $ S.promptSearch mySearchXPConfig)
+        , ((mod4Mask .|. shiftMask,     xK_grave),  submap $ searchEngineMap $ S.selectSearch)
+        ]
+        ++
+        -- Actions.SwapWorkspaces: swaps workspace tags
+        [ ((mod4Mask .|. controlMask, k), windows $ swapWithCurrent i) | (i, k) <- zip (myWorkspaces) ([xK_1 .. ])]
+        ++
+        -- Binding to the numeric keypad 
+        [((m .|. mod4Mask, k), windows $ f i)
+            | (i, k) <- zip myWorkspaces numPadKeys
+            , (f, m) <- [(W.greedyView, 0), (W.shift, shiftMask)]
+        ]
+        ++
+        -- Actions.CopyWindow
+        -- mod-[1..9]                   Switch to workspace N
+        -- mod-shift-[1..9]             Move client to workspace N
+        -- mod-control-shift-[1..9]     Copy client to workspace N
+        [((m .|. mod4Mask, k), windows $ f i)
+            | (i, k) <- zip (myWorkspaces) [xK_1 ..]
+            , (f, m) <- [(W.view, 0), (W.shift, shiftMask), (copy, shiftMask .|. controlMask)]
+        ]
+        )
+        `additionalMouseBindings` -- 0 is "no modifier"
+        -- Actions.FlexibleManipulate: move and resize windows from all quadrants. Action.FloatSnap: snap to edges. Also raise to master.
+        [ ((mod4Mask,                   1),         (\w -> focus w >> windows W.shiftMaster >> Flex.mouseWindow Flex.position w >> snapMagicMove (Just 50) (Just 50) w))
+        , ((mod4Mask,                   3),         (\w -> focus w >> windows W.shiftMaster >> Flex.mouseWindow Flex.resize w >> snapMagicMouseResize 100 (Just 50) (Just 50) w))
+        , ((mod4Mask .|. controlMask,   3),         (\w -> focus w >> windows W.shiftMaster >> Flex.mouseWindow Flex.linear w >> snapMagicMouseResize 100 (Just 50) (Just 50) w))
+        -- Actions.MouseGestures: support for simple mouse gestures
+        , ((mod4Mask .|. shiftMask,     3),         mouseGesture gestures)
+        , ((mod4Mask,                   2),         (\w -> spawnHere sp "thunar"))
+        -- Actions.CycleWS: focus next/prev workspace except scratchpad
+        , ((0,                          8),         (\w -> moveTo Prev (WSIs notSP)))
+        , ((0,                          9),         (\w -> moveTo Next (WSIs notSP)))
+        -- Actions.CycleWS: move window to next/prev workspace except scratchpad
+        , ((mod4Mask,                   8),         (\w -> shiftTo Prev (WSIs notSP)))
+        , ((mod4Mask,                   9),         (\w -> shiftTo Next (WSIs notSP)))
+        -- Actions.CycleWS: move window and focus to next/prev workspace except scratchpad
+        , ((mod4Mask .|. shiftMask,     8),         (\w -> shiftTo Prev (WSIs notSP) >> moveTo Prev (WSIs notSP)))
+        , ((mod4Mask .|. shiftMask,     9),         (\w -> shiftTo Next (WSIs notSP) >> moveTo Next (WSIs notSP)))
+        -- Actions.CycleWS: focus next/prev hiddenNonEmpty workspace except scratchpad
+        , ((0,                          10),        (\w -> windows . W.greedyView =<< findWorkspace getSortByIndexNoSP Next HiddenNonEmptyWS 1))
+        , ((shiftMask,                  10),        (\w -> windows . W.greedyView =<< findWorkspace getSortByIndexNoSP Prev HiddenNonEmptyWS 1))
+        -- Actions.CycleWS: move window to next/prev hiddenNonEmpty workspace except scratchpad
+        , ((mod4Mask,                   10),        (\w -> windows . W.shift =<< findWorkspace getSortByIndexNoSP Next HiddenNonEmptyWS 1))
+        , ((mod4Mask .|. shiftMask,     10),        (\w -> windows . W.shift =<< findWorkspace getSortByIndexNoSP Prev HiddenNonEmptyWS 1))
+        -- Actions.CycleWS: move window and focus to next/prev hiddenNonEmpty workspace except scratchpad
+        , ((mod4Mask .|. controlMask,                   10),    (\w -> shiftAndView' Next))
+        , ((mod4Mask .|. controlMask .|. shiftMask,     10),    (\w -> shiftAndView' Prev))
+        ]
+        where
+            notSP = (return $ ("NSP" /=) . W.tag) :: X (WindowSpace -> Bool)
+            -- | any workspace but scratchpad
+            shiftAndView dir = findWorkspace getSortByIndex dir (WSIs notSP) 1
+                >>= \t -> (windows . W.shift $ t) >> (windows . W.greedyView $ t)
+            -- | hidden, non-empty workspaces less scratchpad
+            shiftAndView' dir = findWorkspace getSortByIndexNoSP dir HiddenNonEmptyWS 1
+                >>= \t -> (windows . W.shift $ t) >> (windows . W.greedyView $ t)
+            getSortByIndexNoSP =
+                fmap (.scratchpadFilterOutWorkspace) getSortByIndex
+
+
+            gestures = M.fromList
+                [ ([],      focus)
+                , ([U],     (\w -> focus w >> windows W.swapUp))
+                , ([D],     (\w -> focus w >> windows W.swapDown))
+                -- Actions.CycleWindows: shift the focused windows as far as possible away (halfway around the stack)
+                , ([L],     (\w -> focus w >> rotOpposite))
+                , ([R],     (\w -> focus w >> windows W.shiftMaster))
+                , ([R, D],  (\_ -> sendMessage NextLayout))
+                ]
+
+            -- Non-numeric num pad keys, sorted by number 
+            numPadKeys =
+                [ xK_KP_End,  xK_KP_Down,  xK_KP_Page_Down              -- 1, 2, 3
+                , xK_KP_Left, xK_KP_Begin, xK_KP_Right                  -- 4, 5, 6
+                , xK_KP_Home, xK_KP_Up,    xK_KP_Page_Up                -- 7, 8, 9
+                , xK_KP_Insert
+                ]
+
+            searchEngineMap method = M.fromList $
+                [ ((0, xK_d), method S.dictionary)
+                , ((0, xK_g), method S.google)
+                , ((0, xK_h), method S.hoogle)
+                , ((0, xK_i), method S.imdb)
+                , ((0, xK_m), method S.maps)
+                , ((0, xK_p), method S.multi)
+                , ((0, xK_t), method S.thesaurus)
+                , ((0, xK_w), method S.wikipedia)
+                ]
+
+            myWorkspaces :: [String]
+            myWorkspaces = map show [1..8::Int]
+
+            myLogHook :: X ()
+            myLogHook = ewmhDesktopsLogHookCustom scratchpadFilterOutWorkspace
+
+            myPP :: Handle -> PP
+            myPP din = defaultPP
+                { ppCurrent = xmobarColor focusColor ""
+                , ppVisible = xmobarColor brightTextColor ""
+                , ppHidden = xmobarColor lightTextColor ""
+                , ppHiddenNoWindows = xmobarColor lightBackgroundColor ""
+                , ppUrgent = xmobarColor urgentColor "" . xmobarStrip
+                , ppSep = " · "
+                , ppWsSep = ""
+                , ppTitle = xmobarColor focusColor "" . shorten 35
+                , ppLayout = \x ->
+                    case filter (not . isDigit) x of
+                        "Maximize Spacing  Spiral"                  -> "mSpiral"
+                        "Maximize Spacing  Mosaic"                  -> "mMosaic"
+                        "Maximize Spacing  Mirror ResizableTall"    -> "mHorizTall"
+                        "Maximize Spacing  ResizableTall"           -> "mVertTall"
+                        "Maximize Spacing  combining Tabbed Simplest and Accordion with ResizableTall"  -> "mCombo"
+                        "Maximize Spacing  TwoPane"                 -> "mTwoPane"
+                        "Maximize Spacing  GridRatio ."             -> "mTwoPane \x21aa Grid"
+                        "Maximize Spacing  Tabbed Simplest"         -> "mTabbed"
+                        "Maximize Spacing  OneBig . ."              -> "mOneBig"
+                        _                                           -> x
+                , ppSort = fmap (.scratchpadFilterOutWorkspace) getSortByTag
+                , ppOutput = System.IO.hPutStrLn din
+                }
+
+            myScratchpadManageHook = scratchpadManageHook (W.RationalRect 0.25 0.3 0.5 0.55)
+
+            myManageHook = composeAll
+                [ className =? "Nvidia-settings"            --> doFloat
+                , className =? "Gimp"                       --> doFloat
+                , className =? "CinePaint"                  --> doFloat
+                , className =? "Vncviewer"                  --> doFloat
+                , className =? "Pavucontrol"                --> doFloat
+                , className =? "Qjackctl"                   --> doFloat
+                , className =? "Dia"                        --> doFloat
+                , className =? "Volwheel"                   --> doFloat
+                , className =? "Ladiconf"                   --> doFloat
+                , title =? "Buddy List"                     --> doFloat
+                , title =? "Contact List"                   --> doFloat
+                , title =? "Ekiga"                          --> doFloat
+                , title =? "linphone-3"                     --> doFloat
+                , title =? "VLC (XVideo output)"            --> doFloat
+                , title =? "MPlayer - Video"                --> doFloat
+                , title =? "Tabhunter - Mozilla Firefox"    --> doFloat
+                , title =? "jack-keyboard"                  --> doFloat
+                , title =? "TimeMachine"                    --> doFloat
+                ]
+
+            myXPConfig :: XPConfig
+            myXPConfig = defaultXPConfig
+                { font = myFont
+                , height = 22
+                }
+
+            myShellXPConfig :: XPConfig
+            myShellXPConfig = myXPConfig
+                { bgColor = "#614A1D"
+                , fgHLight = "#ffffff"
+                , bgHLight = "#679419"
+                }
+
+            mySearchXPConfig :: XPConfig
+            mySearchXPConfig = myXPConfig
+                { fgColor = "#000000"
+                , bgColor = "#B0ACBF"
+                , fgHLight = "#ffffff"
+                , bgHLight = "#755E65"
+                }
+
+            myWindowXPConfig :: XPConfig
+            myWindowXPConfig = myXPConfig
+                { bgColor = "#A83422"
+                , fgHLight = "#ffffff"
+                , bgHLight = "#521910"
+                }
+
+
+            -- Default Layout: layoutHook defaultConfig
+            myLayout = windowNavigation $ avoidStruts $ smartBorders $ workspaceDir "~" $ maximize $ spacing 0 $ boringWindows $
+                    spiralWithDir West CW (4/5)
+                ||| mosaic 1.5 [2,1.5]
+                ||| Mirror horizTiled
+                ||| vertTiled
+                ||| combineTwo (vertTiled) (styleTabbed) (Accordion)
+                ||| toggleLayouts (screenGrid) (halfTwoPane)
+                ||| styleTabbed
+                ||| OneBig (3/4) (3/4)
+                where
+                    horizTiled = ResizableTall 2 (2/100) (4/5) []
+                    vertTiled = ResizableTall 1 (2/100) (1/2) []
+                    -- 1    nmaster: The default number of windows in the master pane
+                    -- 2    delta:   Percent of the screen to increment by when resizing panes
+                    -- 3    ratio:   Default proportion of screen occupied by the master pane
+                    screenGrid = GridRatio (16/10)
+                    halfTwoPane = TwoPane (2/100) (1/2)
+                    styleTabbed = tabbed shrinkText myTabConfig
+
+            myLayoutNames = 
+                [ "Maximize Spacing 0 Spiral"
+                , "Maximize Spacing 0 Mosaic"
+                , "Maximize Spacing 0 Mirror ResizableTall"
+                , "Maximize Spacing 0 ResizableTall"
+                , "Maximize Spacing 0 combining Tabbed Simplest and Accordion with ResizableTall"
+                , "Maximize Spacing 0 TwoPane"
+                , "Maximize Spacing 0 GridRatio 1.6"
+                , "Maximize Spacing 0 Tabbed Simplest"
+                , "Maximize Spacing 0 OneBig 0.75 0.75"
+                ]
+
+            myTabConfig :: Theme
+            myTabConfig = defaultTheme
+                { activeColor = lightBackgroundColor
+                , inactiveColor = backgroundColor
+                , urgentColor = urgentColor
+                , activeBorderColor = textColor
+                , inactiveBorderColor = darkBackgroundColor
+                , urgentBorderColor = brightTextColor
+                , activeTextColor = focusColor
+                , inactiveTextColor = textColor
+                , urgentTextColor = focusColor
+                , fontName = myFont
+                }
+
+--             myFont = "xft:Bitstream Vera Sans Mono-10:normal"
+--             focusColor = "#fffff0"              -- bright off-white
+--             textColor = "#c0c0a0"               -- dull grey-white
+--             lightTextColor = "#729fcf"          -- vivid sky-blue
+--             brightTextColor = "#984D7F"         -- grey magenta
+--             backgroundColor = "#659541"         -- pale green
+--             lightBackgroundColor = "#425c78"    -- slate blue
+--             darkBackgroundColor = "#45662C"     -- darker pale green
+--             urgentColor = "#d9b222"             -- tango orange
+-- 
+--             myDmenu = "$(dmenu_path | dmenu -fn '-*-andale mono-*-r-normal-*-*-100-*-*-*-*-iso8859-*' -nb '#000000' -nf '#FFFFFF' -sb '#9066ff' -b -p 'cinnabar: ')"
+

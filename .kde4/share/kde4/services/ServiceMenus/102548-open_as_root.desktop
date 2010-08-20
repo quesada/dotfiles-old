@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+Icon=dolphin
+Actions=OpenAsRoot
+ServiceTypes=KonqPopupMenu/Plugin,inode/directory,inode/directory-locked
+
+[Desktop Action OpenAsRoot]
+Exec=kdesu dolphin %U
+Icon=dolphin
+Name=Open as Root

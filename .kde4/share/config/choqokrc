@@ -1,0 +1,36 @@
+[Account_quesada]
+Alias=quesada
+Api=/
+CountOfPosts=20
+Enable=true
+Friends=clauwa,terraces,infinitegraph,chirpstats,dakoller,gvanrossum,lysander07,anitawaard,dcurtis,thevoodoo,lxnay,dragonflybsd,mrgunn,kendominguez,DeclanK,oscon,jasonq,pycharm,vark,bmossop,liquidpub,pcampberlin,ThisIsStartup,holgerd,system76,Harjeet,FrankVanHarmele,mite,WarMouseMeta,stevelitt,berlingtug,maxklein,stop,MultiMarkdown,mhausenblas,phonegap,iWeekend,AnthonyBarba,arc90,letsfreckle,googlewavedev,enthought,lucene,theWE_,droidcamp,RuPy,jakubpnowak,junszhao,olafhartig,80legs,timberners_lee,Wowd,GWaveExtensions,ldodds,pieropoli,mariasipka,wired,googlejobs,artvankilmer,dugsong,vwadhwa,videolectures,hamiltonulmer,RobertTolksdorf,grimsehl,citeulike,tommyh,witbrock,sitepointdotcom,Jurate,Pythonner,soloconf,PeopleBrowsr,springboardnews,dggoldst,enkido,vctips,cranatic,fredwilson,jasonHoyt,hubject,faviki,datao,cgiorgi,wefollow,mcuban,madlag,Stupeflix,cshirky,ftornay,MrTweet,davewiner,AutofocusTM,i2pi,brown2020,sclopit,pjozefak,thestartupeu,seedcamp,inma_martinez,mattroweshow
+Host=twitter.com
+MicroBlog=choqok_twitter
+Priority=0
+ReadOnly=false
+Search0=quesada,,,0,,,#eswc2010,,,1
+SearchCount=1
+ShowInQuickPost=true
+Timelines=Home,Reply,Inbox,Outbox
+UseSecureConnection=true
+UserId=
+Username=quesada
+
+[Behavior]
+countOfPosts=40
+enableSpellChecker=true
+position=960,600
+shortenOnPaste=true
+shortenerPlugin=choqok_is_gd
+
+[MainWindow]
+Height 1200=596
+State=AAAA/wAAAAD9AAAAAAAAA7wAAAIfAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1920=956
+
+[Notification Messages]
+systemtrayquitChoqok=false
+
+[QuickPost]
+QuickPostDialogSize=280,183

@@ -1,0 +1,1899 @@
+[.desktop]
+Highlighting=.desktop
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=application/x-desktop;
+Priority=0
+Section=Configuration
+Variables=kate:\s
+Wildcards=*.desktop;*.kdelnk;
+
+[4GL]
+Highlighting=4GL
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=text/x-4glsrc;text/x-4glerr;
+Priority=0
+Section=Database
+Variables=kate:\s
+Wildcards=*.4gl;*.4GL;*.err;
+
+[4GL-PER]
+Highlighting=4GL-PER
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=text/x-4glper;text/x-4glpererr;
+Priority=0
+Section=Database
+Variables=kate:\s
+Wildcards=*.per;*.PER;*.per.err;
+
+[ABAP]
+Highlighting=ABAP
+Highlighting Generated=true
+Highlighting Version=1.00
+Indenter=
+Mimetypes=text/x-abap-src;
+Priority=5
+Section=Sources
+Variables=kate:\s
+Wildcards=*.abap;*.ABAP;
+
+[ABC]
+Highlighting=ABC
+Highlighting Generated=true
+Highlighting Version=1.10
+Indenter=
+Mimetypes=text/vnd.abc;
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=*.abc;*.ABC;
+
+[AHDL]
+Highlighting=AHDL
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=text/x-ahdl;
+Priority=0
+Section=Hardware
+Variables=kate:\s
+Wildcards=*.ahdl;*.tdf;
+
+[AMPLE]
+Highlighting=AMPLE
+Highlighting Generated=true
+Highlighting Version=0.2
+Indenter=
+Mimetypes=text/x-amplesrc;
+Priority=5
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.ample;*.menu;*.startup;
+
+[ANSI C89]
+Highlighting=ANSI C89
+Highlighting Generated=true
+Highlighting Version=1.10
+Indenter=cstyle
+Mimetypes=text/x-csrc;text/x-c++src;text/x-chdr;
+Priority=2
+Section=Sources
+Variables=kate:\s
+Wildcards=*.c;*.C;*.h;
+
+[ASN.1]
+Highlighting=ASN.1
+Highlighting Generated=true
+Highlighting Version=1.00
+Indenter=
+Mimetypes=
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.asn*.asn1;
+
+[ASP]
+Highlighting=ASP
+Highlighting Generated=true
+Highlighting Version=1.03
+Indenter=
+Mimetypes=text/x-asp-src;text/x-asp-src;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.asp;
+
+[AVR Assembler]
+Highlighting=AVR Assembler
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=text/x-asm;text/x-asm-avr;
+Priority=0
+Section=Assembler
+Variables=kate:\s
+Wildcards=*.asm;*.ASM;*.asm-avr;
+
+[AWK]
+Highlighting=AWK
+Highlighting Generated=true
+Highlighting Version=0.90
+Indenter=
+Mimetypes=text/x-awk;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.awk;
+
+[ActionScript 2.0]
+Highlighting=ActionScript 2.0
+Highlighting Generated=true
+Highlighting Version=1.0
+Indenter=
+Mimetypes=text/x-actionscript;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.as;
+
+[Ada]
+Highlighting=Ada
+Highlighting Generated=true
+Highlighting Version=1.07
+Indenter=
+Mimetypes=text/x-adasrc;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.adb;*.ads;*.ada;*.a;
+
+[Alerts]
+Highlighting=Alerts
+Highlighting Generated=true
+Highlighting Version=1.08
+Indenter=
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=
+
+[Alerts_indent]
+Highlighting=Alerts_indent
+Highlighting Generated=true
+Highlighting Version=1.08
+Indenter=
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=
+
+[Ansys]
+Highlighting=Ansys
+Highlighting Generated=true
+Highlighting Version=1.1
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scientific
+Variables=kate:\s
+Wildcards=*.ans;
+
+[Apache Configuration]
+Highlighting=Apache Configuration
+Highlighting Generated=true
+Highlighting Version=1.11
+Indenter=
+Mimetypes=
+Priority=0
+Section=Configuration
+Variables=kate:\s
+Wildcards=httpd.conf;httpd2.conf;apache.conf;apache2.conf;.htaccess*;.htpasswd*;
+
+[Asm6502]
+Highlighting=Asm6502
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=text/x-asm6502;
+Priority=0
+Section=Assembler
+Variables=kate:\s
+Wildcards=*.asm;
+
+[Asterisk]
+Highlighting=Asterisk
+Highlighting Generated=true
+Highlighting Version=1.00
+Indenter=
+Mimetypes=
+Priority=0
+Section=Configuration
+Variables=kate:\s
+Wildcards=*asterisk/*.conf;
+
+[B-Method]
+Highlighting=B-Method
+Highlighting Generated=true
+Highlighting Version=0.1
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scientific
+Variables=kate:\s
+Wildcards=*.mch;*.imp;*.ref;
+
+[Bash]
+Highlighting=Bash
+Highlighting Generated=true
+Highlighting Version=2.12
+Indenter=
+Mimetypes=application/x-shellscript;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.sh;*.bash;*.ebuild;*.eclass;.bashrc;.bash_profile;.bash_login;.profile;
+
+[BibTeX]
+Highlighting=BibTeX
+Highlighting Generated=true
+Highlighting Version=1.17
+Indenter=
+Mimetypes=text/x-bib;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.bib;
+
+[Boo]
+Highlighting=Boo
+Highlighting Generated=true
+Highlighting Version=0.91
+Indenter=
+Mimetypes=text/x-boo;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.boo;
+
+[C]
+Highlighting=C
+Highlighting Generated=true
+Highlighting Version=1.44
+Indenter=cstyle
+Mimetypes=text/x-csrc;text/x-c++src;text/x-chdr;
+Priority=5
+Section=Sources
+Variables=kate:\s
+Wildcards=*.c;*.C;*.h;
+
+[C#]
+Highlighting=C#
+Highlighting Generated=true
+Highlighting Version=1.15
+Indenter=
+Mimetypes=text/x-csharp-src;text/x-csharp-hde;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.cs;
+
+[C++]
+Highlighting=C++
+Highlighting Generated=true
+Highlighting Version=1.47
+Indenter=cstyle
+Mimetypes=text/x-c++src;text/x-c++hdr;text/x-chdr;
+Priority=9
+Section=Sources
+Variables=kate:\s
+Wildcards=*.c++;*.cxx;*.cpp;*.cc;*.C;*.h;*.hh;*.H;*.h++;*.hxx;*.hpp;*.hcc;*.moc;
+
+[CGiS]
+Highlighting=CGiS
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.cgis;
+
+[CMake]
+Highlighting=CMake
+Highlighting Generated=true
+Highlighting Version=1.12
+Indenter=
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=CMakeLists.txt;*.cmake;
+
+[CSS]
+Highlighting=CSS
+Highlighting Generated=true
+Highlighting Version=2.04
+Indenter=cstyle
+Mimetypes=text/css;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.css;
+
+[CSS/PHP]
+Highlighting=CSS/PHP
+Highlighting Generated=true
+Highlighting Version=2.03
+Indenter=
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=
+
+[CUE Sheet]
+Highlighting=CUE Sheet
+Highlighting Generated=true
+Highlighting Version=0.91
+Indenter=
+Mimetypes=application/x-cue;
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=*.cue;
+
+[Cg]
+Highlighting=Cg
+Highlighting Generated=true
+Highlighting Version=1.11
+Indenter=
+Mimetypes=text/x-cgsrc;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.cg;
+
+[ChangeLog]
+Highlighting=ChangeLog
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=ChangeLog;
+
+[Cisco]
+Highlighting=Cisco
+Highlighting Generated=true
+Highlighting Version=1.10
+Indenter=
+Mimetypes=text/cisco;
+Priority=0
+Section=Configuration
+Variables=kate:\s
+Wildcards=*.cis;
+
+[Clipper]
+Highlighting=Clipper
+Highlighting Generated=true
+Highlighting Version=1.05
+Indenter=
+Mimetypes=text/x-clipper-src;
+Priority=2
+Section=Sources
+Variables=kate:\s
+Wildcards=*.prg;*.PRG;*.ch;
+
+[ColdFusion]
+Highlighting=ColdFusion
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=text/x-coldfusion;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.cfm;*.cfc;*.cfml;*.dbm;
+
+[Common Lisp]
+Highlighting=Common Lisp
+Highlighting Generated=true
+Highlighting Version=1.05
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.lisp;*.cl;*.lsp;
+
+[Component-Pascal]
+Highlighting=Component-Pascal
+Highlighting Generated=true
+Highlighting Version=1.05
+Indenter=
+Mimetypes=text/x-component-pascal;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.cp;*.bro;
+
+[D]
+Highlighting=D
+Highlighting Generated=true
+Highlighting Version=1.61
+Indenter=
+Mimetypes=text/x-dsrc;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.d;*.D;*.di;*.DI;
+
+[DTD]
+Highlighting=DTD
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=application/xml-dtd;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.dtd;
+
+[Debian Changelog]
+Highlighting=Debian Changelog
+Highlighting Generated=true
+Highlighting Version=0.64
+Indenter=
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=
+
+[Debian Control]
+Highlighting=Debian Control
+Highlighting Generated=true
+Highlighting Version=0.83
+Indenter=
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=control;
+
+[Diff]
+Highlighting=Diff
+Highlighting Generated=true
+Highlighting Version=1.11
+Indenter=
+Mimetypes=text/x-patch;
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=*.diff;*patch;
+
+[Django HTML Template]
+Highlighting=Django HTML Template
+Highlighting Generated=true
+Highlighting Version=1.2
+Indenter=
+Mimetypes=text/html;
+Priority=9
+Section=Markup
+Variables=kate:\s
+Wildcards=*.htm;*.html;
+
+[Doxygen]
+Highlighting=Doxygen
+Highlighting Generated=true
+Highlighting Version=1.31
+Indenter=
+Mimetypes=text/x-doxygen;
+Priority=9
+Section=Markup
+Variables=kate:\s
+Wildcards=*.dox;*.doxygen;
+
+[DoxygenLua]
+Highlighting=DoxygenLua
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=text/x-doxygen;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.dox;*.doxygen;
+
+[E Language]
+Highlighting=E Language
+Highlighting Generated=true
+Highlighting Version=0.21
+Indenter=
+Mimetypes=text/x-e-src;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.e;
+
+[Eiffel]
+Highlighting=Eiffel
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=text/x-eiffel-src;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.e;
+
+[Email]
+Highlighting=Email
+Highlighting Generated=true
+Highlighting Version=1.00
+Indenter=
+Mimetypes=message/rfc822;
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=*.eml;
+
+[Erlang]
+Highlighting=Erlang
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.erl;
+
+[Euphoria]
+Highlighting=Euphoria
+Highlighting Generated=true
+Highlighting Version=2.08
+Indenter=
+Mimetypes=text/x-euphoria;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.e;*.ex;*.exw;*.exu;
+
+[Fortran]
+Highlighting=Fortran
+Highlighting Generated=true
+Highlighting Version=1.12
+Indenter=
+Mimetypes=text/x-fortran-src;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.f;*.F;*.for;*.FOR;*.f90;*.F90;*.fpp;*.FPP;*.f95;*.F95;
+
+[FreeBASIC]
+Highlighting=FreeBASIC
+Highlighting Generated=true
+Highlighting Version=0.14
+Indenter=
+Mimetypes=text/x-freebasic;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.bas;*.bi;*.BAS;*.BI;
+
+[GAP]
+Highlighting=GAP
+Highlighting Generated=true
+Highlighting Version=0.2
+Indenter=
+Mimetypes=text/gap;
+Priority=0
+Section=Scientific
+Variables=kate:\s
+Wildcards=*.gd;*.gi;*.g;
+
+[GDL]
+Highlighting=GDL
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scientific
+Variables=kate:\s
+Wildcards=*.gdl;*.vcg;*.GDL;*.VCG;
+
+[GLSL]
+Highlighting=GLSL
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=text/x-glslsrc;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.glsl;*.vert;*.frag;
+
+[GNU Assembler]
+Highlighting=GNU Assembler
+Highlighting Generated=true
+Highlighting Version=1.05
+Indenter=
+Mimetypes=text/x-asm;
+Priority=0
+Section=Assembler
+Variables=kate:\s
+Wildcards=*.s;*.S;
+
+[GNU Gettext]
+Highlighting=GNU Gettext
+Highlighting Generated=true
+Highlighting Version=2.00
+Indenter=
+Mimetypes=text/x-gettext-translation;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.po;*.pot;
+
+[HTML]
+Highlighting=HTML
+Highlighting Generated=true
+Highlighting Version=1.99
+Indenter=
+Mimetypes=text/html;
+Priority=10
+Section=Markup
+Variables=kate:\s
+Wildcards=*.htm;*.html;*.shtml;*.shtm;
+
+[Haskell]
+Highlighting=Haskell
+Highlighting Generated=true
+Highlighting Version=1.9
+Indenter=haskell
+Mimetypes=text/x-haskell;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.hs;
+
+[Haxe]
+Highlighting=Haxe
+Highlighting Generated=true
+Highlighting Version=0.1
+Indenter=
+Mimetypes=text/x-hxsrc;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.hx;*.Hx;*.hX;*.HX;
+
+[IDL]
+Highlighting=IDL
+Highlighting Generated=true
+Highlighting Version=1.07
+Indenter=
+Mimetypes=text/x-idl-src;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.idl;
+
+[ILERPG]
+Highlighting=ILERPG
+Highlighting Generated=true
+Highlighting Version=1.05
+Indenter=
+Mimetypes=text/x-ilerpg-src;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=QRPG*.*;qrpg*.*;
+
+[INI Files]
+Highlighting=INI Files
+Highlighting Generated=true
+Highlighting Version=1.1
+Indenter=
+Mimetypes=
+Priority=0
+Section=Configuration
+Variables=kate:\s
+Wildcards=*.ini;*.pls;*.kcfgc;*.keymap;
+
+[Inform]
+Highlighting=Inform
+Highlighting Generated=true
+Highlighting Version=1.23
+Indenter=
+Mimetypes=text/x-inform-src;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.inf;*.h;
+
+[Intel x86 (NASM)]
+Highlighting=Intel x86 (NASM)
+Highlighting Generated=true
+Highlighting Version=1.30
+Indenter=
+Mimetypes=
+Priority=0
+Section=Assembler
+Variables=kate:\s
+Wildcards=*.asm;
+
+[JSON]
+Highlighting=JSON
+Highlighting Generated=true
+Highlighting Version=1.2
+Indenter=
+Mimetypes=application/json;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.json;
+
+[JSP]
+Highlighting=JSP
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=text/html;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.jsp;*.JSP;
+
+[Java]
+Highlighting=Java
+Highlighting Generated=true
+Highlighting Version=1.19
+Indenter=
+Mimetypes=text/x-java;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.java;
+
+[JavaScript]
+Highlighting=JavaScript
+Highlighting Generated=true
+Highlighting Version=1.18
+Indenter=cstyle
+Mimetypes=text/x-javascript;application/x-javascript;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.js;
+
+[JavaScript/PHP]
+Highlighting=JavaScript/PHP
+Highlighting Generated=true
+Highlighting Version=1.18
+Indenter=cstyle
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=
+
+[JavaScript/PlasmaDesktop]
+Highlighting=JavaScript/PlasmaDesktop
+Highlighting Generated=true
+Highlighting Version=0.1
+Indenter=
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=
+
+[Javadoc]
+Highlighting=Javadoc
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=
+
+[KBasic]
+Highlighting=KBasic
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=text/x-kbasic-src;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.kbasic;
+
+[KDev-PG\x5b-Qt\x5d Grammar]
+Highlighting=KDev-PG[-Qt] Grammar
+Highlighting Generated=true
+Highlighting Version=0.24
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.g;
+
+[Kate File Template]
+Highlighting=Kate File Template
+Highlighting Generated=true
+Highlighting Version=1.00
+Indenter=
+Mimetypes=
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.katetemplate;
+
+[LDIF]
+Highlighting=LDIF
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=application/directory;
+Priority=0
+Section=Database
+Variables=kate:\s
+Wildcards=*.ldif;
+
+[LPC]
+Highlighting=LPC
+Highlighting Generated=true
+Highlighting Version=0.76
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.c;*.h;*.inc;*.o;
+
+[LSL]
+Highlighting=LSL
+Highlighting Generated=true
+Highlighting Version=1.20
+Indenter=
+Mimetypes=text/x-lsl;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.lsl;
+
+[LaTeX]
+Highlighting=LaTeX
+Highlighting Generated=true
+Highlighting Version=1.41
+Indenter=
+Mimetypes=text/x-tex;
+Priority=10
+Section=Markup
+Variables=kate:\s
+Wildcards=*.tex;*.ltx;*.dtx;*.sty;*.cls;*.bbx;*.cbx;*.lbx;
+
+[Lex/Flex]
+Highlighting=Lex/Flex
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.l;*.lex;*.flex;
+
+[LilyPond]
+Highlighting=LilyPond
+Highlighting Generated=true
+Highlighting Version=3.05
+Indenter=lilypond
+Mimetypes=text/x-lilypond;
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=*.ly;*.LY;*.ily;*.ILY;*.lyi;*.LYI;
+
+[Literate Haskell]
+Highlighting=Literate Haskell
+Highlighting Generated=true
+Highlighting Version=1.9
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.lhs;
+
+[Logtalk]
+Highlighting=Logtalk
+Highlighting Generated=true
+Highlighting Version=1.51
+Indenter=
+Mimetypes=text/x-logtalk;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.lgt;*.config;
+
+[Lua]
+Highlighting=Lua
+Highlighting Generated=true
+Highlighting Version=1.03
+Indenter=
+Mimetypes=text/x-lua;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.lua;
+
+[M3U]
+Highlighting=M3U
+Highlighting Generated=true
+Highlighting Version=1.10
+Indenter=
+Mimetypes=audio/x-mpegurl;
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=*.m3u;
+
+[MAB-DB]
+Highlighting=MAB-DB
+Highlighting Generated=true
+Highlighting Version=1.03
+Indenter=
+Mimetypes=text/x-mab;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.mab;*.MAB;*.Mab;
+
+[MIPS Assembler]
+Highlighting=MIPS Assembler
+Highlighting Generated=true
+Highlighting Version=1.03
+Indenter=
+Mimetypes=text/x-mips;
+Priority=-1
+Section=Assembler
+Variables=kate:\s
+Wildcards=*.s;
+
+[Makefile]
+Highlighting=Makefile
+Highlighting Generated=true
+Highlighting Version=1.10
+Indenter=
+Mimetypes=text/x-makefile;
+Priority=0
+Section=Other
+Wildcards=GNUmakefile;Makefile;makefile;GNUmakefile.*;Makefile.*;makefile.*;
+
+[Mason]
+Highlighting=Mason
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.html;
+
+[Matlab]
+Highlighting=Matlab
+Highlighting Generated=true
+Highlighting Version=1.30
+Indenter=
+Mimetypes=text/mfile;
+Priority=0
+Section=Scientific
+Variables=kate:\s
+Wildcards=*.m;*.M;
+
+[Maxima]
+Highlighting=Maxima
+Highlighting Generated=true
+Highlighting Version=0.16
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scientific
+Variables=kate:\s
+Wildcards=*.mac;*.MAC;*.dem;*.DEM;
+
+[MediaWiki]
+Highlighting=MediaWiki
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=
+
+[Modelica]
+Highlighting=Modelica
+Highlighting Generated=true
+Highlighting Version=3.1
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.mo;
+
+[Modula-2]
+Highlighting=Modula-2
+Highlighting Generated=true
+Highlighting Version=1.03
+Indenter=
+Mimetypes=text/x-modula-2;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.mod;*.def;*.mi;*.md;
+
+[MonoBasic]
+Highlighting=MonoBasic
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.vb;
+
+[Motorola 68k (VASM/Devpac)]
+Highlighting=Motorola 68k (VASM/Devpac)
+Highlighting Generated=true
+Highlighting Version=1.00
+Indenter=
+Mimetypes=
+Priority=0
+Section=Assembler
+Variables=kate:\s
+Wildcards=*.s;*.i;*.S;*.I;
+
+[Motorola DSP56k]
+Highlighting=Motorola DSP56k
+Highlighting Generated=true
+Highlighting Version=1.00
+Indenter=
+Mimetypes=
+Priority=0
+Section=Assembler
+Variables=kate:\s
+Wildcards=*.asm;*.inc;*.ASM;*.INC;
+
+[Music Publisher]
+Highlighting=Music Publisher
+Highlighting Generated=true
+Highlighting Version=1.06
+Indenter=
+Mimetypes=text/x-mup;audio/x-mup;application/x-mup;audio/x-notes;
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=*.mup;*.not;
+
+[Nemerle]
+Highlighting=Nemerle
+Highlighting Generated=true
+Highlighting Version=0.32
+Indenter=
+Mimetypes=text/x-nemerle;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.n;
+
+[Normal]
+Highlighting=None
+Highlighting Generated=true
+Highlighting Version=
+Indenter=
+Mimetypes=
+Priority=0
+Section=
+Variables=kate:\s
+Wildcards=
+
+[OPAL]
+Highlighting=OPAL
+Highlighting Generated=true
+Highlighting Version=1.1
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.impl;*.sign;
+
+[Objective Caml]
+Highlighting=Objective Caml
+Highlighting Generated=true
+Highlighting Version=1.05
+Indenter=
+Mimetypes=
+Priority=10
+Section=Sources
+Variables=kate:\s
+Wildcards=*.ml;*.mli;
+
+[Objective-C]
+Highlighting=Objective-C
+Highlighting Generated=true
+Highlighting Version=1.07
+Indenter=
+Mimetypes=text/x-objc-src;text/x-c-hdr;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.m;*.h;
+
+[Objective-C++]
+Highlighting=Objective-C++
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=text/x-objcpp-src;text/x-c-hdr;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.mm;*.M;*.h;
+
+[Octave]
+Highlighting=Octave
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=text/octave;
+Priority=0
+Section=Scientific
+Variables=kate:\s
+Wildcards=*.octave;*.m;*.M;
+
+[PGN]
+Highlighting=PGN
+Highlighting Generated=true
+Highlighting Version=2.01
+Indenter=
+Mimetypes=
+Priority=5
+Section=Other
+Variables=kate:\s
+Wildcards=*.pgn;*.PGN;
+
+[PHP (HTML)]
+Highlighting=PHP (HTML)
+Highlighting Generated=true
+Highlighting Version=1.99
+Indenter=
+Mimetypes=text/x-php4-src;text/x-php3-src;text/vnd.wap.wml;application/x-php;
+Priority=10
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.php;*.php3;*.wml;*.phtml;*.phtm;*.inc;
+
+[PHP/PHP]
+Highlighting=PHP/PHP
+Highlighting Generated=true
+Highlighting Version=1.42
+Indenter=cstyle
+Mimetypes=
+Priority=5
+Section=Scripts
+Variables=kate:\s
+Wildcards=
+
+[POV-Ray]
+Highlighting=POV-Ray
+Highlighting Generated=true
+Highlighting Version=1.1
+Indenter=
+Mimetypes=text/x-povray-script;text/x-povray-include;
+Priority=2
+Section=Other
+Variables=kate:\s
+Wildcards=*.inc;*.pov;
+
+[Pango]
+Highlighting=Pango
+Highlighting Generated=true
+Highlighting Version=0.1
+Indenter=
+Mimetypes=
+Priority=10
+Section=Markup
+Variables=kate:\s
+Wildcards=
+
+[Pascal]
+Highlighting=Pascal
+Highlighting Generated=true
+Highlighting Version=1.22
+Indenter=
+Mimetypes=text/x-pascal;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.pp;*.pas;*.p;
+
+[Perl]
+Highlighting=Perl
+Highlighting Generated=true
+Highlighting Version=1.25
+Indenter=
+Mimetypes=application/x-perl;text/x-perl;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.pl;*.pm;
+
+[PicAsm]
+Highlighting=PicAsm
+Highlighting Generated=true
+Highlighting Version=1.07
+Indenter=
+Mimetypes=text/x-PicSrc;text/x-PicHdr;
+Priority=0
+Section=Assembler
+Variables=kate:\s
+Wildcards=*.src;*.SRC;*.asm;*.ASM;*.pic;*.PIC;
+
+[Pike]
+Highlighting=Pike
+Highlighting Generated=true
+Highlighting Version=1.07
+Indenter=
+Mimetypes=application/x-pike;text/x-pike;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.pike;
+
+[PostScript]
+Highlighting=PostScript
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=application/postscript;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.ps;*.ai;*.eps;
+
+[Prolog]
+Highlighting=Prolog
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=text/x-prolog;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.prolog;
+
+[PureBasic]
+Highlighting=PureBasic
+Highlighting Generated=true
+Highlighting Version=3.91
+Indenter=
+Mimetypes=text/x-purebasic;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.pb;
+
+[Python]
+Highlighting=Python
+Highlighting Generated=true
+Highlighting Version=2.09
+Indenter=python
+Mimetypes=
+Priority=0
+Section=Scripts
+Wildcards=
+
+[QML]
+Highlighting=QML
+Highlighting Generated=true
+Highlighting Version=1.3
+Indenter=cstyle
+Mimetypes=text/x-qml;application/x-qml;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.qml;
+
+[Quake Script]
+Highlighting=Quake Script
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.cfg;
+
+[R Script]
+Highlighting=R Script
+Highlighting Generated=true
+Highlighting Version=2.02
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.R;*.r;*.S;*.s;*.q;
+
+[REXX]
+Highlighting=REXX
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.rex;
+
+[RKWard output]
+Highlighting=RKWard output
+Highlighting Generated=true
+Highlighting Version=2.02
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=
+
+[RPM Spec]
+Highlighting=RPM Spec
+Highlighting Generated=true
+Highlighting Version=1.7
+Indenter=
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=*.spec;
+
+[RSI IDL]
+Highlighting=RSI IDL
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=text/x-rsiidl-src;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.pro;
+
+[RapidQ]
+Highlighting=RapidQ
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.rqb;
+
+[RenderMan RIB]
+Highlighting=RenderMan RIB
+Highlighting Generated=true
+Highlighting Version=1.00
+Indenter=
+Mimetypes=
+Priority=0
+Section=Other
+Variables=kate:\s
+Wildcards=*.rib;
+
+[Roff]
+Highlighting=Roff
+Highlighting Generated=true
+Highlighting Version=0.11
+Indenter=
+Mimetypes=
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=
+
+[Ruby]
+Highlighting=Ruby
+Highlighting Generated=true
+Highlighting Version=1.18
+Indenter=ruby
+Mimetypes=application/x-ruby;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.rb;*.rjs;*.rxml;*.xml.erb;*.js.erb;
+
+[Ruby/Rails/RHTML]
+Highlighting=Ruby/Rails/RHTML
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.rhtml;*.html.erb;
+
+[SGML]
+Highlighting=SGML
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=text/sgml;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.sgml;
+
+[SML]
+Highlighting=SML
+Highlighting Generated=true
+Highlighting Version=1.06
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.sml;*.ml;
+
+[SQL]
+Highlighting=SQL
+Highlighting Generated=true
+Highlighting Version=1.14
+Indenter=
+Mimetypes=text/x-sql;
+Priority=0
+Section=Database
+Variables=kate:\s
+Wildcards=*.sql;*.SQL;
+
+[SQL (MySQL)]
+Highlighting=SQL (MySQL)
+Highlighting Generated=true
+Highlighting Version=1.13
+Indenter=
+Mimetypes=text/x-sql;
+Priority=0
+Section=Database
+Variables=kate:\s
+Wildcards=*.sql;*.SQL;
+
+[SQL (PostgreSQL)]
+Highlighting=SQL (PostgreSQL)
+Highlighting Generated=true
+Highlighting Version=1.10
+Indenter=
+Mimetypes=text/x-sql;
+Priority=0
+Section=Database
+Variables=kate:\s
+Wildcards=*.sql;*.SQL;
+
+[Sather]
+Highlighting=Sather
+Highlighting Generated=true
+Highlighting Version=1.03
+Indenter=
+Mimetypes=text/x-sather-src;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.sa;
+
+[Scala]
+Highlighting=Scala
+Highlighting Generated=true
+Highlighting Version=1.0
+Indenter=
+Mimetypes=text/x-scala;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.scala;
+
+[Scheme]
+Highlighting=Scheme
+Highlighting Generated=true
+Highlighting Version=1.12
+Indenter=
+Mimetypes=text/x-scheme;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.scm;*.ss;*.scheme;*.guile;
+
+[SiSU]
+Highlighting=SiSU
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.sst;*.ssm;*.ssi;*._sst;*.-sst;
+
+[Sieve]
+Highlighting=Sieve
+Highlighting Generated=true
+Highlighting Version=1.05
+Indenter=
+Mimetypes=application/sieve;
+Priority=5
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.siv;
+
+[Spice]
+Highlighting=Spice
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=text/spice;
+Priority=0
+Section=Hardware
+Variables=kate:\s
+Wildcards=*.sp;*.hsp;
+
+[Stata]
+Highlighting=Stata
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.ado;*.do;
+
+[SystemC]
+Highlighting=SystemC
+Highlighting Generated=true
+Highlighting Version=0.01
+Indenter=
+Mimetypes=text/x-c++src;text/x-c++hdr;text/x-chdr;
+Priority=1
+Section=Hardware
+Variables=kate:\s
+Wildcards=*.c++;*.cxx;*.cpp;*.cc;*.C;*.h;*.hh;*.H;*.h++;*.hxx;*.hpp;*.hcc;*.moc;
+
+[TI Basic]
+Highlighting=TI Basic
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=
+Priority=0
+Section=Scientific
+Variables=kate:\s
+Wildcards=
+
+[Tcl/Tk]
+Highlighting=Tcl/Tk
+Highlighting Generated=true
+Highlighting Version=1.10
+Indenter=
+Mimetypes=text/x-tcl;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.tcl;*.tk;
+
+[Texinfo]
+Highlighting=Texinfo
+Highlighting Generated=true
+Highlighting Version=0.2
+Indenter=
+Mimetypes=application/x-texinfo;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.texi;
+
+[Troff Mandoc]
+Highlighting=Troff Mandoc
+Highlighting Generated=true
+Highlighting Version=0.11
+Indenter=
+Mimetypes=
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.1;*.2;*.3;*.4;*.5;*.6;*.7;*.8;*.1m;*.3x;*.tmac;
+
+[UnrealScript]
+Highlighting=UnrealScript
+Highlighting Generated=true
+Highlighting Version=0.92
+Indenter=
+Mimetypes=text/x-uscript;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.uc;
+
+[VHDL]
+Highlighting=VHDL
+Highlighting Generated=true
+Highlighting Version=1.10
+Indenter=
+Mimetypes=text/x-vhdl;
+Priority=0
+Section=Hardware
+Variables=kate:\s
+Wildcards=*.vhdl;*.vhd;
+
+[VRML]
+Highlighting=VRML
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=model/vrml;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.wrl;
+
+[Velocity]
+Highlighting=Velocity
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=text/x-velocity-src;text/x-vm-src;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.vm;
+
+[Verilog]
+Highlighting=Verilog
+Highlighting Generated=true
+Highlighting Version=1.08
+Indenter=
+Mimetypes=text/x-verilog-src;
+Priority=0
+Section=Hardware
+Variables=kate:\s
+Wildcards=*.v;*.V;*.vl;
+
+[WINE Config]
+Highlighting=WINE Config
+Highlighting Generated=true
+Highlighting Version=1.03
+Indenter=
+Mimetypes=
+Priority=0
+Section=Configuration
+Variables=kate:\s
+Wildcards=*.reg;
+
+[XML]
+Highlighting=XML
+Highlighting Generated=true
+Highlighting Version=2.01
+Indenter=
+Mimetypes=text/xml;text/book;text/daml;text/rdf;application/rss+xml;application/xspf+xml;image/svg+xml;application/x-designer;application/xml;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.docbook;*.xml;*.rc;*.daml;*.rdf;*.rss;*.xspf;*.xsd;*.svg;*.ui;*.kcfg;
+
+[XML (Debug)]
+Highlighting=XML (Debug)
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=
+
+[XUL]
+Highlighting=XUL
+Highlighting Generated=true
+Highlighting Version=0.11
+Indenter=
+Mimetypes=text/xul;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.xul;*.xbl;
+
+[YAML]
+Highlighting=YAML
+Highlighting Generated=true
+Highlighting Version=1.1
+Indenter=
+Mimetypes=text/yaml;
+Priority=0
+Section=Markup
+Wildcards=*.yaml;*.yml;
+
+[Yacc/Bison]
+Highlighting=Yacc/Bison
+Highlighting Generated=true
+Highlighting Version=1.03
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.y;*.yy;
+
+[Zonnon]
+Highlighting=Zonnon
+Highlighting Generated=true
+Highlighting Version=1.0
+Indenter=
+Mimetypes=text/x-zonnon;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.znn;
+
+[ferite]
+Highlighting=ferite
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=text/x-ferite-src;
+Priority=0
+Section=Scripts
+Variables=kate:\s
+Wildcards=*.fe;*.feh;
+
+[fish]
+Highlighting=Bash
+Highlighting Generated=false
+Highlighting Version=
+Indenter=
+Mimetypes=
+Priority=0
+Section=Script
+Variables=kate:\s
+Wildcards=*.fish;
+
+[fstab]
+Highlighting=fstab
+Highlighting Generated=true
+Highlighting Version=1.00
+Indenter=
+Mimetypes=
+Priority=0
+Section=Configuration
+Variables=kate:\s
+Wildcards=fstab;mtab;
+
+[mergetag text]
+Highlighting=mergetag text
+Highlighting Generated=true
+Highlighting Version=0.1
+Indenter=
+Mimetypes=
+Priority=0
+Section=Configuration
+Variables=kate:\s
+Wildcards=*.mtt;
+
+[noweb]
+Highlighting=noweb
+Highlighting Generated=true
+Highlighting Version=1.0
+Indenter=
+Mimetypes=
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.w;*.nw;
+
+[progress]
+Highlighting=progress
+Highlighting Generated=true
+Highlighting Version=1.10
+Indenter=
+Mimetypes=
+Priority=0
+Section=Database
+Variables=kate:\s
+Wildcards=*.p;*.w;*.i;*.cls;
+
+[scilab]
+Highlighting=scilab
+Highlighting Generated=true
+Highlighting Version=1.03
+Indenter=
+Mimetypes=text/x-sci;
+Priority=0
+Section=Scientific
+Variables=kate:\s
+Wildcards=*.sci;*.sce;
+
+[txt2tags]
+Highlighting=txt2tags
+Highlighting Generated=true
+Highlighting Version=1.20
+Indenter=
+Mimetypes=text/txt2tags;
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.t2t;
+
+[x.org Configuration]
+Highlighting=x.org Configuration
+Highlighting Generated=true
+Highlighting Version=1.01
+Indenter=
+Mimetypes=
+Priority=0
+Section=Configuration
+Variables=kate:\s
+Wildcards=xorg.conf;
+
+[xHarbour]
+Highlighting=xHarbour
+Highlighting Generated=true
+Highlighting Version=1.04
+Indenter=
+Mimetypes=text/x-xharbour-src;
+Priority=5
+Section=Sources
+Variables=kate:\s
+Wildcards=*.prg;*.PRG;*.ch;
+
+[xslt]
+Highlighting=xslt
+Highlighting Generated=true
+Highlighting Version=1.03
+Indenter=
+Mimetypes=
+Priority=0
+Section=Markup
+Variables=kate:\s
+Wildcards=*.xsl;*.xslt;
+
+[yacas]
+Highlighting=yacas
+Highlighting Generated=true
+Highlighting Version=1.02
+Indenter=
+Mimetypes=text/x-yacassrc;
+Priority=0
+Section=Sources
+Variables=kate:\s
+Wildcards=*.ys;

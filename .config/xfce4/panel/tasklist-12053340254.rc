@@ -1,0 +1,9 @@
+grouping=1
+all_workspaces=false
+show_label=1
+expand=true
+flat_buttons=true
+width=300
+show_handles=true
+fixed_width=true
+

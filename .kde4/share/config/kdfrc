@@ -1,0 +1,15 @@
+[KDiskFree]
+Device=100
+Free=80
+Full%=50
+Icon=20
+MountPoint=120
+Size=80
+Type=80
+UsageBar=420
+
+[MainWindow]
+Height 1200=596
+State=AAAA/wAAAAD9AAAAAAAAA7wAAADzAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1920=956

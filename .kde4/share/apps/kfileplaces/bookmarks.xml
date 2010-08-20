@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" dbusName="kfilePlaces">
+ <bookmark href="file:///home/quesada">
+  <title>Home</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-home"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273564375/0</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="remote:/">
+  <title>Network</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="network-workgroup"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273564375/1</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///">
+  <title>Root</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-red"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273564375/2</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="trash:/">
+  <title>Trash</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-trash"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273564375/3</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/quesada/Documents">
+  <title>Documents</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273585621/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/quesada/larkc">
+  <title>larkc</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273449333/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/quesada/pdf">
+  <title>pdf</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273449337/1</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/quesada/coding">
+  <title>coding</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273449342/2</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///data">
+  <title>data</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="face-angel"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273449408/3</ID>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/quesada/Dropbox">
+  <title>Dropbox</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="go-down"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273533038/0</ID>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_F4C07ED4C07E9D14</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_BC56773E5676F90A</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <bookmark href="sftp://urlwolfpack.gotdns.org:8022/home/quesada/">
+  <title>quesada</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="emblem-mounted"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1273927409/0</ID>
+    <OnlyInApp/>
+    <IsHidden>true</IsHidden>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="sftp://93.123.21.85/">
+  <title>ldsr</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="server-database"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1274303811/0</ID>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_204f1e5a_457a_4517_97eb_48bf7bfcee0e</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+</xbel>

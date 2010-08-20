@@ -1,0 +1,14 @@
+[$Version]
+update_info=mailtransports.upd:initial-kmail-migration,mailtransports.upd:initial-knode-migration
+
+[General]
+default-transport=2071051763
+
+[Transport 2071051763]
+auth=true
+encryption=TLS
+host=smtp.gmail.com
+id=2071051763
+name=gmail
+storepass=true
+user=quesada@gmail.com

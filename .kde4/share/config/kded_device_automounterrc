@@ -1,0 +1,64 @@
+[Devices][/org/freedesktop/Hal/devices/volume_label__Sabayon_Linux_5_2_amd64_K]
+Icon=media-optical
+LastNameSeen=\sSabayon Linux 5.2 amd64 K
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_0C16_E56D]
+EverMounted=true
+Icon=drive-removable-media-usb-pendrive
+LastNameSeen=USB DISK
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_204f1e5a_457a_4517_97eb_48bf7bfcee0e]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=mobileData
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_3039_3366]
+EverMounted=true
+Icon=drive-removable-media-usb-pendrive
+LastNameSeen=3.7 GiB Removable Media
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_BC56773E5676F90A]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=System Reserved
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_F4C07ED4C07E9D14]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=78.9 GiB Hard Drive
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_a616b95d_8421_4ee3_9f0f_8221d1261cda]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=%
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_d6bc92f1_5587_44d9_8e60_a096591f27d0]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=data
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_e7610740_121e_4e9e_974a_9b808e81f64d]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=230.0 GiB Hard Drive
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_f4a0f5c5_afb6_493e_8351_f09aa42cd6a2]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=data2
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_f9c369bc_f17c_4541_a17e_e8bcfddb8361]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=74.5 GiB Hard Drive
+LastSeenMounted=true

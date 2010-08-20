@@ -1,0 +1,20 @@
+Height 1200=1201
+State=AAAA/wAAAAD9AAAAAAAAAs0AAARYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Width 1920=717
+
+[MainWindow]
+CommandList=
+Height 1152=453
+Height 1200=1201
+HostList=
+SelectedSheets[$e]=ProcessTable.sgrd,SystemLoad2.sgrd,Sheet 1.sgrd
+SplitterSizeList=554,369
+State=AAAA/wAAAAD9AAAAAAAAAs0AAARYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=717
+Width 2048=510
+currentSheet=0
+isMinimized=false
+
+[Notification Messages]
+killconfirmation=false

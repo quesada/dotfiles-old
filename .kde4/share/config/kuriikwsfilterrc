@@ -1,0 +1,8 @@
+[$Version]
+update_info=kuriikwsfilter.upd:post-kde3.1/cvs
+
+[General]
+DefaultSearchEngine=
+EnableWebShortcuts=true
+FavoriteSearchEngines=dmoz,google,google_groups,google_news,webster,wikipedia
+KeywordDelimiter=:

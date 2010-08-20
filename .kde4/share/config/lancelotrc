@@ -1,0 +1,16 @@
+[Favorites]
+FavoriteURLs=/usr/share/applications/kde4/systemsettings.desktop,/usr/share/applications/kde4/dolphin.desktop,/usr/share/applications/kde4/konsole.desktop,/usr/share/applications/mozilla-firefox-3.6.desktop,/usr/share/applications/kde4/kate.desktop,/usr/share/applications/lyx-lyx.desktop,/usr/share/applications/kde4/ksysguard.desktop,/usr/share/applications/kde4/konversation.desktop,/usr/share/applications/chromium-chromium.desktop
+
+[Main]
+activationMethod=2
+appbrowserColumnLimitted=false
+appbrowserPopupSubmenus=false
+appbrowserReset=true
+enableKeepOpen=false
+enableUsageStatistics=true
+systemButton1Action=lock-screen
+systemButton2Action=menu-leave
+systemButton3Action=menu-switch-user
+
+[PlasmaRunnerManager]
+pluginWhiteList=places,windows,kill,solid,services,PowerDevil,browserhistory,shell,locations,konsolesessions,recentdocuments,calculator,bookmarks,unitconverter

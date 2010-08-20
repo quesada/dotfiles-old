@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KSysGuardWorkSheet>
+<WorkSheet title="mem" interval="0.5" locked="0" rows="3" columns="1">
+ <host port="-1" command="ksysguardd" shell="" name="localhost"/>
+ <display title="Battery" version="1" row="0" class="FancyPlotter" hScale="6" unit="" showUnit="0" column="0" autoRange="1" hLines="1" manualRange="0" vScroll="0" svgBackground="" vLines="0" vDistance="30" labels="1">
+  <beam sensorName="acpi/battery/0/batteryusage" sensorType="integer" hostName="localhost" color="0xff0057ae"/>
+ </display>
+</WorkSheet>

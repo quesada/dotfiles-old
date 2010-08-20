@@ -1,0 +1,126 @@
+[Collection Browser]
+TreeCategory=2,1
+View Mode=NormalCollections
+
+[Collection Folders]
+-1=./data/music
+Use MusicLocation=false
+
+[Cool Streams]
+Cool StreamsEnabled=false
+
+[Cover Manager]
+Window Size=1365,768
+
+[File Browser]
+Current Directory=/data/music
+
+[General]
+Browser Path=root list/files
+Debug Enabled=false
+First Run=false
+HiddenOnExit=true
+LayoutFileDeleted=true
+MainWindow Position=72,-26
+MainWindow Size=1868,1109
+
+[General Options]
+Last Dynamic Mode=Random
+Lock Layout=false
+
+[Librivox.org]
+Librivox.orgEnabled=false
+
+[Loaded Playlist Files]
+file:///data/music/mp3/Air%20-%20Everybody%20Hertz/Everybody%20Hertz%20-%20playlist.pls=
+file:///data/music/mp3/Aladdin/Aladdin-%20Special%20Edition%20Soundtrack/Aladdin.m3u=
+file:///data/music/mp3/Alejandro%20Sanz%20-%20El%20Tren%20De%20Los%20Momentos%20%5BPop%5D%5B2006%5D%5Bwww.newpct.com%5D/00-alejandro_%5Bwww.newpct.com%5D-el_tren_de_los_momentos-2006-es-%5Bwww.newpct.com%5D.m3u=
+file:///data/music/mp3/Archigram/Excursions/Excursions.m3u=
+file:///data/music/mp3/Astor%20Piazzolla/South%20American%20Getaway/South%20American%20Getaway.m3u=
+file:///data/music/mp3/Bach/Trio%20Sonatas/Trio%20Sonatas.m3u=
+file:///data/music/mp3/Bebo%20&%20Cigala%20-%20L%C3%A1grimas%20Negras%20(2003)/Bebo%20&%20Cigala%20-%20L%C3%A1grimas%20Negras%20(2003).m3u=
+file:///data/music/mp3/Beth%20Gibbons%20&%20Rustin%20Man%20(2002)%20Out%20of%20Season%20%5B%C3%A9d.%20limit%C3%A9e%5D/Out%20of%20Season%20(%C3%A9d.%20limit%C3%A9e).m3u=
+file:///data/music/mp3/Billy%20Preston/Ultimate%20Collection/Billy%20Preston%20-%20Ultimate%20Collection.m3u=
+file:///data/music/mp3/Bj%C3%B6rk%20Gu%C3%B0mundsd%C3%B3ttir/Gling-Gl%C3%B3/Gling-Gl%C3%B3.m3u=
+file:///data/music/mp3/Blade_Runner_Soundtrack_-_Esper_Edition_by_Krok/Blade%20Runner%20-%20Esper%20Edition%20(Disc%20One)/BladeRunnerEsperDiscOne.m3u=
+file:///data/music/mp3/Blade_Runner_Soundtrack_-_Esper_Edition_by_Krok/Blade%20Runner%20-%20Esper%20Edition%20(Disc%20Two)/BladeRunnerEsperDiscTwo.m3u=
+file:///data/music/mp3/Blomstedt,_San_Francisco_Symphony-Mahler._Symphony_No._2/Blomstedt,%20San%20Francisco%20Symphony-Mahler.%20Symphony%20No.%202.m3u=
+file:///data/music/mp3/Blomstedt,_San_Francisco_Symphony-Mahler._Symphony_No._2/urlicht.m3u=
+file:///data/music/mp3/Bone%20D/Into%20The%20Mix%20-%20Happy%20Hardcore/Into%20The%20Mix%20-%20Happy%20Hardcore.m3u=
+file:///data/music/mp3/Borodin%20-%20'Prince%20Igor'%20Excerpts-Symphony%20No.%202-%20In%20the%20steppes%20of%20central%20Asia/Ol%C3%A9%20Schmidt%20&%20The%20royal%20philharmonic%20Orchestra%20-%20'Prince%20Igor'%20Excerpts-Symphony%20No.%202-%20In%20the%20steppes%20of%20central%20Asia.m3u=
+file:///data/music/mp3/Borodin%20-%20'Prince%20Igor'%20Excerpts-Symphony%20No.%202-%20In%20the%20steppes%20of%20central%20Asia/Ol%C3%A9%20Schmidt%20&%20The%20royal%20philharmonic%20Orchestra%20-%20'Prince%20Igor'%20Excerpts-Symphony%20No.%202-%20In%20the%20steppes%20of%20central%20Asia.pls=
+file:///data/music/mp3/Boshida%20Teriyaki/Into%20The%20Mix%20-%20Happy%20Hardcore/Into%20The%20Mix%20-%20Happy%20Hardcore.m3u=
+file:///data/music/mp3/Breakbeat%20Era%20-%20Ultra%20Obscene/Breakbeat%20Era%20-%20Ultra-Obscene.m3u=
+file:///data/music/mp3/Burt%20Bacharach/South%20American%20Getaway/South%20American%20Getaway.m3u=
+file:///data/music/mp3/CANTELOUBE%20Joseph/Chants%20d'Auvergne%20(von%20Stade,%20Almeida,%20RPO)/Chants%20d'Auvergne%20(von%20Stade,%20Almeida,%20RPO).m3u=
+file:///data/music/mp3/Calude%20Debussy/d/Classic%20Gold%20Pr%C3%A8lude%20%C3%A0%20l'apr%C3%A8s-midi%20d'un%20faune;%20Symphonic%20Festival%20Orchestra;%20Conductor%20Alfred%20Scholz.m3u=
+file:///data/music/mp3/Calude%20Debussy/d/Classic%20Gold%20Pr%C3%A8lude%20%C3%A0%20l'apr%C3%A8s-midi%20d'un%20faune;%20Symphonic%20Festival%20Orchestra;%20Conductor%20Alfred%20Scholz.pls=
+file:///data/music/mp3/Chabuca%20Granda/South%20American%20Getaway/South%20American%20Getaway.m3u=
+file:///data/music/mp3/Christophe%20Rousset-Farinelli,%20Il%20Castrato/Christophe%20Rousset-Farinelli,%20Il%20Castrato.m3u=
+file:///data/music/mp3/Chuchu%20Valdes-Briyumba%20Palo%20Congo/Chuchu%20Valdes-Briyumba%20Palo%20Congo.m3u=
+file:///data/music/mp3/alpha%20-%20Come%20From%20Heaven/alpha%20-%20Come%20From%20Heaven.m3u=
+file:///data/music/mp3/calamaro/El%20Salm%C3%B3n%20%20Cd3/salmon%203.m3u=
+file:///data/music/mp3/calamaro/El%20Salm%C3%B3n%20%20Cd4/salmon%204.m3u=
+file:///data/music/mp3/calamaro/El%20Salm%C3%B3n%20Cd1/salmon%201.m3u=
+file:///data/music/mp3/calamaro/El%20Salm%C3%B3n%20Cd2/salmon%202.m3u=
+file:///data/music/mp3/calamaro/El%20Salm%C3%B3n%20Cd5/salmon%205.m3u=
+file:///data/music/mp3/calamaro/Grabaciones%20Encontradas%20(DOS)/GE%202.m3u=
+file:///data/music/mp3/calamaro/Grabaciones%20encontradas-Volumen%20uno/GE%201.m3u=
+file:///data/music/mp3/calamaro/Honestidad%20Brutal%20(CD1)/HB%201.m3u=
+file:///data/music/mp3/calamaro/Honestidad%20Brutal%20(CD2)/HB%202.m3u=
+file:///data/music/mp3/calamaro/Las%20Otras%20Caras%20de%20Alta%20Suciedad/Las%20Otras%20Caras%20de%20Alta%20Suciedad.m3u=
+file:///data/music/mp3/calamaro/Nadie%20Sale%20Vivo%20de%20Aqu%C3%AD/Nadie%20Sale%20Vivo%20de%20Aqu%C3%AD.m3u=
+file:///data/music/mp3/calamaro/Por%20mirarte/Por%20mirarte.m3u=
+file:///data/music/mp3/calle54/DISCO%20A/Calle%2054%20-%20Disco%20A.m3u=
+file:///data/music/mp3/calle54/DISCO%20B/Calle%2054%20-%20Disco%20B.m3u=
+
+[Lyricwiki]
+LyricWikiEnabled=false
+
+[Moodbar]
+MoodbarPaintStyle=3
+ShowMoodbarInSlider=true
+
+[MySQL]
+CheckCount=11
+UseServer=true
+
+[Phonon::AudioOutput]
+Amarok_Volume=0.8
+
+[Playback]
+Fadeout=false
+
+[Playlist Search]
+MatchAlbum=true
+MatchArtist=true
+MatchTrack=true
+
+[Playlist Sorting]
+SortPath=Bpm_asc
+
+[Plugins]
+Amarok Script ConsoleEnabled=false
+Cool StreamsEnabled=true
+Librivox.orgEnabled=true
+LyricWikiEnabled=true
+
+[Podcast View]
+Merged View=true
+
+[Podcasts]
+AutoUpdate Interval=30
+Maximum Simultaneous Downloads=4
+Maximum Simultaneous Updates=4
+
+[Saved Playlists View]
+Merged View=false
+
+[ScriptManager]
+LastUpdateCheck=1273673231
+Running Scripts=Cool Streams,Librivox.org,Lyricwiki
+
+[Service_LastFm]
+fetchSimilar=true
+scrobble=true
+sessionKey=

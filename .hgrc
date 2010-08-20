@@ -1,0 +1,13 @@
+[ui]
+ssh = ssh -C
+username = Jose Quesada <quesada@gmail.com>
+verbose = True
+
+[extensions]
+kilnauth = ~/.hg/kilnauth.py
+gestalt = ~/.hg/gestalt.py
+color =
+rebase=
+svn=/usr/lib64/python2.6/site-packages/hgsubversion
+
+

@@ -1,0 +1,31 @@
+[General]
+AutoStart=true
+
+[General Settings]
+BigDuration=10
+BigInterval=45
+DisableAccel=false
+Effect=3
+Graylevel=80
+HideMinimizeButton=false
+IgnoreIdleForTinyBreaks=true
+ImageFolder=/home/quesada
+ResetTimersAfterIdle=true
+SearchRecursiveCheck=false
+ShowTimerReset=true
+SlideInterval=10
+TinyDuration=20
+TinyInterval=10
+UseNoIdleTimer=false
+UsePlasmaReadOnly=true
+
+[Notification Messages]
+dont_show_welcome_again_for_001=false
+
+[Popup Settings]
+UseFlash=true
+UsePopup=false
+
+[SetupDimensions]
+Height 1152=686
+Width 2048=724

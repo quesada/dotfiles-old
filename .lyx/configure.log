@@ -1,0 +1,1198 @@
+INFO: checking for a Latex2e program...
+INFO: +checking for "latex"...  yes
+INFO: checking for a DVI postprocessing program...
+INFO: +checking for "pplatex"...  no
+INFO: checking for pLaTeX, the Japanese LaTeX...
+INFO: +checking for "platex"...  no
+DEBUG: Add to RC:
+\converter latex      dvi        "latex"	"latex"
+
+
+INFO: checking for a Tgif viewer and editor...
+INFO: +checking for "tgif"...  no
+INFO: checking for a Tgif viewer and editor...
+INFO: +checking for "tgif"...  no
+DEBUG: Add to RC:
+\Format tgif       obj     Tgif                   "" "auto"	"auto"	"vector"
+
+
+INFO: checking for a FIG viewer and editor...
+INFO: +checking for "xfig"...  no
+INFO: +checking for "jfig3-itext.jar"...  no
+INFO: +checking for "jfig3.jar"...  no
+INFO: checking for a FIG viewer and editor...
+INFO: +checking for "xfig"...  no
+INFO: +checking for "jfig3-itext.jar"...  no
+INFO: +checking for "jfig3.jar"...  no
+DEBUG: Add to RC:
+\Format fig        fig     FIG                    "" "auto"	"auto"	"vector"
+
+
+INFO: checking for a Dia viewer and editor...
+INFO: +checking for "dia"...  no
+INFO: checking for a Dia viewer and editor...
+INFO: +checking for "dia"...  no
+DEBUG: Add to RC:
+\Format dia        dia     DIA                    "" "auto"	"auto"	"vector"
+
+
+INFO: checking for a Grace viewer and editor...
+INFO: +checking for "xmgrace"...  no
+INFO: checking for a Grace viewer and editor...
+INFO: +checking for "xmgrace"...  no
+DEBUG: Add to RC:
+\Format agr        agr     Grace                  "" "auto"	"auto"	"vector"
+
+
+INFO: checking for a FEN viewer and editor...
+INFO: +checking for "xboard"...  no
+INFO: checking for a FEN viewer and editor...
+INFO: +checking for "xboard"...  no
+DEBUG: Add to RC:
+\Format fen        fen     FEN                    "" "auto"	"auto"	""
+
+
+INFO: checking for a SVG viewer and editor...
+INFO: +checking for "inkscape"...  no
+INFO: checking for a SVG viewer and editor...
+INFO: +checking for "inkscape"...  no
+DEBUG: Add to RC:
+\Format svg        svg     SVG                    "" "auto" "auto"	"vector"
+
+
+INFO: checking for a raster image viewer...
+INFO: +checking for "xv"...  no
+INFO: +checking for "kview"...  no
+INFO: +checking for "gimp-remote"...  no
+INFO: +checking for "gimp"...  yes
+DEBUG: Add to RC:
+\viewer_alternatives bmp gimp
+\viewer_alternatives gif gimp
+\viewer_alternatives jpg gimp
+\viewer_alternatives pbm gimp
+\viewer_alternatives pgm gimp
+\viewer_alternatives png gimp
+\viewer_alternatives ppm gimp
+\viewer_alternatives tiff gimp
+\viewer_alternatives xbm gimp
+\viewer_alternatives xpm gimp
+
+
+INFO: checking for a raster image editor...
+INFO: +checking for "gimp-remote"...  no
+INFO: +checking for "gimp"...  yes
+DEBUG: Add to RC:
+\editor_alternatives bmp gimp
+\editor_alternatives gif gimp
+\editor_alternatives jpg gimp
+\editor_alternatives pbm gimp
+\editor_alternatives pgm gimp
+\editor_alternatives png gimp
+\editor_alternatives ppm gimp
+\editor_alternatives tiff gimp
+\editor_alternatives xbm gimp
+\editor_alternatives xpm gimp
+
+
+DEBUG: Add to RC:
+\Format bmp        bmp     BMP                    "" "gimp"	"gimp"	""
+\Format gif        gif     GIF                    "" "gimp"	"gimp"	""
+\Format jpg        jpg     JPEG                   "" "gimp"	"gimp"	""
+\Format pbm        pbm     PBM                    "" "gimp"	"gimp"	""
+\Format pgm        pgm     PGM                    "" "gimp"	"gimp"	""
+\Format png        png     PNG                    "" "gimp"	"gimp"	""
+\Format ppm        ppm     PPM                    "" "gimp"	"gimp"	""
+\Format tiff       tif     TIFF                   "" "gimp"	"gimp"	""
+\Format xbm        xbm     XBM                    "" "gimp"	"gimp"	""
+\Format xpm        xpm     XPM                    "" "gimp"	"gimp"	""
+
+
+INFO: checking for a text editor...
+INFO: +checking for "sensible-editor"...  no
+INFO: +checking for "xemacs"...  no
+INFO: +checking for "gvim"...  yes
+DEBUG: Add to RC:
+\editor_alternatives asciichess gvim
+\editor_alternatives asciiimage gvim
+\editor_alternatives asciixfig gvim
+\editor_alternatives dateout gvim
+\editor_alternatives docbook gvim
+\editor_alternatives docbook-xml gvim
+\editor_alternatives dot gvim
+\editor_alternatives platex gvim
+\editor_alternatives literate gvim
+\editor_alternatives sweave gvim
+\editor_alternatives lilypond gvim
+\editor_alternatives latex gvim
+\editor_alternatives pdflatex gvim
+\editor_alternatives xetex gvim
+\editor_alternatives text gvim
+\editor_alternatives text2 gvim
+\editor_alternatives text3 gvim
+\editor_alternatives text4 gvim
+\editor_alternatives textparagraph gvim
+
+
+INFO: +checking for "kedit"...  no
+INFO: +checking for "kwrite"...  yes
+DEBUG: Add to RC:
+\editor_alternatives asciichess kwrite
+\editor_alternatives asciiimage kwrite
+\editor_alternatives asciixfig kwrite
+\editor_alternatives dateout kwrite
+\editor_alternatives docbook kwrite
+\editor_alternatives docbook-xml kwrite
+\editor_alternatives dot kwrite
+\editor_alternatives platex kwrite
+\editor_alternatives literate kwrite
+\editor_alternatives sweave kwrite
+\editor_alternatives lilypond kwrite
+\editor_alternatives latex kwrite
+\editor_alternatives pdflatex kwrite
+\editor_alternatives xetex kwrite
+\editor_alternatives text kwrite
+\editor_alternatives text2 kwrite
+\editor_alternatives text3 kwrite
+\editor_alternatives text4 kwrite
+\editor_alternatives textparagraph kwrite
+
+
+INFO: +checking for "kate"...  yes
+DEBUG: Add to RC:
+\editor_alternatives asciichess kate
+\editor_alternatives asciiimage kate
+\editor_alternatives asciixfig kate
+\editor_alternatives dateout kate
+\editor_alternatives docbook kate
+\editor_alternatives docbook-xml kate
+\editor_alternatives dot kate
+\editor_alternatives platex kate
+\editor_alternatives literate kate
+\editor_alternatives sweave kate
+\editor_alternatives lilypond kate
+\editor_alternatives latex kate
+\editor_alternatives pdflatex kate
+\editor_alternatives xetex kate
+\editor_alternatives text kate
+\editor_alternatives text2 kate
+\editor_alternatives text3 kate
+\editor_alternatives text4 kate
+\editor_alternatives textparagraph kate
+
+
+INFO: +checking for "nedit"...  no
+INFO: +checking for "gedit"...  yes
+DEBUG: Add to RC:
+\editor_alternatives asciichess gedit
+\editor_alternatives asciiimage gedit
+\editor_alternatives asciixfig gedit
+\editor_alternatives dateout gedit
+\editor_alternatives docbook gedit
+\editor_alternatives docbook-xml gedit
+\editor_alternatives dot gedit
+\editor_alternatives platex gedit
+\editor_alternatives literate gedit
+\editor_alternatives sweave gedit
+\editor_alternatives lilypond gedit
+\editor_alternatives latex gedit
+\editor_alternatives pdflatex gedit
+\editor_alternatives xetex gedit
+\editor_alternatives text gedit
+\editor_alternatives text2 gedit
+\editor_alternatives text3 gedit
+\editor_alternatives text4 gedit
+\editor_alternatives textparagraph gedit
+
+
+INFO: +checking for "notepad"...  yes
+DEBUG: Add to RC:
+\editor_alternatives asciichess notepad
+\editor_alternatives asciiimage notepad
+\editor_alternatives asciixfig notepad
+\editor_alternatives dateout notepad
+\editor_alternatives docbook notepad
+\editor_alternatives docbook-xml notepad
+\editor_alternatives dot notepad
+\editor_alternatives platex notepad
+\editor_alternatives literate notepad
+\editor_alternatives sweave notepad
+\editor_alternatives lilypond notepad
+\editor_alternatives latex notepad
+\editor_alternatives pdflatex notepad
+\editor_alternatives xetex notepad
+\editor_alternatives text notepad
+\editor_alternatives text2 notepad
+\editor_alternatives text3 notepad
+\editor_alternatives text4 notepad
+\editor_alternatives textparagraph notepad
+
+
+INFO: checking for a text editor...
+INFO: +checking for "sensible-editor"...  no
+INFO: +checking for "xemacs"...  no
+INFO: +checking for "gvim"...  yes
+DEBUG: Add to RC:
+\Format asciichess asc    "Plain text (chess output)"  "" ""	"gvim"	""
+\Format asciiimage asc    "Plain text (image)"         "" ""	"gvim"	""
+\Format asciixfig  asc    "Plain text (Xfig output)"   "" ""	"gvim"	""
+\Format dateout    tmp    "date (output)"         "" ""	"gvim"	""
+\Format docbook    sgml    DocBook                B  ""	"gvim"	"document"
+\Format docbook-xml xml   "Docbook (XML)"         "" ""	"gvim"	"document"
+\Format dot        dot    "Graphviz Dot"          "" ""	"gvim"	"vector"
+\Format platex     tex    "LaTeX (pLaTeX)"        "" "" "gvim"    "document"
+\Format literate   nw      NoWeb                  N  ""	"gvim"	"document"
+\Format sweave     Rnw    "Sweave"                S  "" "gvim"    "document"
+\Format lilypond   ly     "LilyPond music"        "" ""	"gvim"	"vector"
+\Format latex      tex    "LaTeX (plain)"         L  ""	"gvim"	"document"
+\Format pdflatex   tex    "LaTeX (pdflatex)"      "" ""	"gvim"	"document"
+\Format xetex      tex    "LaTeX (XeTeX)"         "" ""	"gvim"	"document"
+\Format text       txt    "Plain text"            a  ""	"gvim"	"document"
+\Format text2      txt    "Plain text (pstotext)" "" ""	"gvim"	"document"
+\Format text3      txt    "Plain text (ps2ascii)" "" ""	"gvim"	"document"
+\Format text4      txt    "Plain text (catdvi)"   "" ""	"gvim"	"document"
+\Format textparagraph txt "Plain Text, Join Lines" "" ""	"gvim"	"document"
+
+
+DEBUG: Add to RC:
+\viewer_alternatives asciichess gvim
+\viewer_alternatives asciiimage gvim
+\viewer_alternatives asciixfig gvim
+\viewer_alternatives dateout gvim
+\viewer_alternatives docbook gvim
+\viewer_alternatives docbook-xml gvim
+\viewer_alternatives dot gvim
+\viewer_alternatives platex gvim
+\viewer_alternatives literate gvim
+\viewer_alternatives sweave gvim
+\viewer_alternatives lilypond gvim
+\viewer_alternatives latex gvim
+\viewer_alternatives pdflatex gvim
+\viewer_alternatives xetex gvim
+\viewer_alternatives text gvim
+\viewer_alternatives text2 gvim
+\viewer_alternatives text3 gvim
+\viewer_alternatives text4 gvim
+\viewer_alternatives textparagraph gvim
+
+
+INFO: +checking for "kedit"...  no
+INFO: +checking for "kwrite"...  yes
+DEBUG: Add to RC:
+\viewer_alternatives asciichess kwrite
+\viewer_alternatives asciiimage kwrite
+\viewer_alternatives asciixfig kwrite
+\viewer_alternatives dateout kwrite
+\viewer_alternatives docbook kwrite
+\viewer_alternatives docbook-xml kwrite
+\viewer_alternatives dot kwrite
+\viewer_alternatives platex kwrite
+\viewer_alternatives literate kwrite
+\viewer_alternatives sweave kwrite
+\viewer_alternatives lilypond kwrite
+\viewer_alternatives latex kwrite
+\viewer_alternatives pdflatex kwrite
+\viewer_alternatives xetex kwrite
+\viewer_alternatives text kwrite
+\viewer_alternatives text2 kwrite
+\viewer_alternatives text3 kwrite
+\viewer_alternatives text4 kwrite
+\viewer_alternatives textparagraph kwrite
+
+
+INFO: +checking for "kate"...  yes
+DEBUG: Add to RC:
+\viewer_alternatives asciichess kate
+\viewer_alternatives asciiimage kate
+\viewer_alternatives asciixfig kate
+\viewer_alternatives dateout kate
+\viewer_alternatives docbook kate
+\viewer_alternatives docbook-xml kate
+\viewer_alternatives dot kate
+\viewer_alternatives platex kate
+\viewer_alternatives literate kate
+\viewer_alternatives sweave kate
+\viewer_alternatives lilypond kate
+\viewer_alternatives latex kate
+\viewer_alternatives pdflatex kate
+\viewer_alternatives xetex kate
+\viewer_alternatives text kate
+\viewer_alternatives text2 kate
+\viewer_alternatives text3 kate
+\viewer_alternatives text4 kate
+\viewer_alternatives textparagraph kate
+
+
+INFO: +checking for "nedit"...  no
+INFO: +checking for "gedit"...  yes
+DEBUG: Add to RC:
+\viewer_alternatives asciichess gedit
+\viewer_alternatives asciiimage gedit
+\viewer_alternatives asciixfig gedit
+\viewer_alternatives dateout gedit
+\viewer_alternatives docbook gedit
+\viewer_alternatives docbook-xml gedit
+\viewer_alternatives dot gedit
+\viewer_alternatives platex gedit
+\viewer_alternatives literate gedit
+\viewer_alternatives sweave gedit
+\viewer_alternatives lilypond gedit
+\viewer_alternatives latex gedit
+\viewer_alternatives pdflatex gedit
+\viewer_alternatives xetex gedit
+\viewer_alternatives text gedit
+\viewer_alternatives text2 gedit
+\viewer_alternatives text3 gedit
+\viewer_alternatives text4 gedit
+\viewer_alternatives textparagraph gedit
+
+
+INFO: +checking for "notepad"...  yes
+DEBUG: Add to RC:
+\viewer_alternatives asciichess notepad
+\viewer_alternatives asciiimage notepad
+\viewer_alternatives asciixfig notepad
+\viewer_alternatives dateout notepad
+\viewer_alternatives docbook notepad
+\viewer_alternatives docbook-xml notepad
+\viewer_alternatives dot notepad
+\viewer_alternatives platex notepad
+\viewer_alternatives literate notepad
+\viewer_alternatives sweave notepad
+\viewer_alternatives lilypond notepad
+\viewer_alternatives latex notepad
+\viewer_alternatives pdflatex notepad
+\viewer_alternatives xetex notepad
+\viewer_alternatives text notepad
+\viewer_alternatives text2 notepad
+\viewer_alternatives text3 notepad
+\viewer_alternatives text4 notepad
+\viewer_alternatives textparagraph notepad
+
+
+INFO: checking for an HTML previewer...
+INFO: +checking for "firefox"...  yes
+DEBUG: Add to RC:
+\Format xhtml      xhtml   "LyXHTML"              X "firefox" ""    "document"
+
+
+DEBUG: Add to RC:
+\viewer_alternatives xhtml firefox
+
+
+INFO: +checking for "mozilla"...  no
+INFO: +checking for "netscape"...  no
+INFO: checking for a BibTeX editor...
+INFO: +checking for "sensible-editor"...  no
+INFO: +checking for "jabref"...  no
+INFO: +checking for "JabRef"...  no
+INFO: +checking for "pybliographic"...  no
+INFO: +checking for "bibdesk"...  no
+INFO: +checking for "gbib"...  no
+INFO: +checking for "kbib"...  no
+INFO: +checking for "kbibtex"...  no
+INFO: +checking for "sixpack"...  no
+INFO: +checking for "bibedit"...  no
+INFO: +checking for "tkbibtexxemacs"...  no
+INFO: +checking for "gvim"...  yes
+DEBUG: Add to RC:
+\Format bibtex bib    "BibTeX"         "" ""	"gvim"	""
+
+
+DEBUG: Add to RC:
+\editor_alternatives bibtex gvim
+
+
+INFO: +checking for "kedit"...  no
+INFO: +checking for "kwrite"...  yes
+DEBUG: Add to RC:
+\editor_alternatives bibtex kwrite
+
+
+INFO: +checking for "kate"...  yes
+DEBUG: Add to RC:
+\editor_alternatives bibtex kate
+
+
+INFO: +checking for "nedit"...  no
+INFO: +checking for "gedit"...  yes
+DEBUG: Add to RC:
+\editor_alternatives bibtex gedit
+
+
+INFO: +checking for "notepad"...  yes
+DEBUG: Add to RC:
+\editor_alternatives bibtex notepad
+
+
+INFO: checking for a Postscript previewer...
+INFO: +checking for "kghostview"...  no
+INFO: +checking for "okular"...  yes
+DEBUG: Add to RC:
+\Format eps        eps     EPS                    "" "okular"	""	"vector"
+\Format ps         ps      Postscript             t  "okular"	""	"document,vector"
+
+
+DEBUG: Add to RC:
+\viewer_alternatives eps okular
+\viewer_alternatives ps okular
+
+
+INFO: +checking for "evince"...  yes
+DEBUG: Add to RC:
+\viewer_alternatives eps evince
+\viewer_alternatives ps evince
+
+
+INFO: +checking for "gv"...  no
+INFO: +checking for "ghostview"...  no
+INFO: checking for a PDF previewer...
+INFO: +checking for "kpdf"...  no
+INFO: +checking for "okular"...  yes
+DEBUG: Add to RC:
+\Format pdf        pdf    "PDF (ps2pdf)"          P  "okular"	""	"document,vector"
+\Format pdf2       pdf    "PDF (pdflatex)"        F  "okular"	""	"document,vector"
+\Format pdf3       pdf    "PDF (dvipdfm)"         m  "okular"	""	"document,vector"
+\Format pdf4       pdf    "PDF (XeTeX)"           X  "okular"	""	"document,vector"
+
+
+DEBUG: Add to RC:
+\viewer_alternatives pdf okular
+\viewer_alternatives pdf2 okular
+\viewer_alternatives pdf3 okular
+\viewer_alternatives pdf4 okular
+
+
+INFO: +checking for "evince"...  yes
+DEBUG: Add to RC:
+\viewer_alternatives pdf evince
+\viewer_alternatives pdf2 evince
+\viewer_alternatives pdf3 evince
+\viewer_alternatives pdf4 evince
+
+
+INFO: +checking for "kghostview"...  no
+INFO: +checking for "xpdf"...  no
+INFO: +checking for "acrobat"...  no
+INFO: +checking for "acroread"...  no
+INFO: +checking for "gv"...  no
+INFO: +checking for "ghostview"...  no
+INFO: checking for a DVI previewer...
+INFO: +checking for "xdvi"...  no
+INFO: +checking for "kdvi"...  no
+INFO: +checking for "okular"...  yes
+DEBUG: Add to RC:
+\Format dvi        dvi     DVI                    D  "okular"	""	"document,vector"
+
+
+DEBUG: Add to RC:
+\viewer_alternatives dvi okular
+
+
+INFO: +checking for "yap"...  no
+INFO: +checking for "dviout"...  no
+INFO: checking for an HTML previewer...
+INFO: +checking for "firefox"...  yes
+DEBUG: Add to RC:
+\Format html       html    HTML                   H  "firefox"	""	"document"
+
+
+DEBUG: Add to RC:
+\viewer_alternatives html firefox
+
+
+INFO: +checking for "mozilla"...  no
+INFO: +checking for "netscape"...  no
+INFO: checking for Noteedit...
+INFO: +checking for "noteedit"...  no
+INFO: checking for Noteedit...
+INFO: +checking for "noteedit"...  no
+DEBUG: Add to RC:
+\Format noteedit   not     Noteedit               "" "auto"	"auto"	"vector"
+
+
+INFO: checking for an OpenDocument/OpenOffice viewer...
+INFO: +checking for "swriter"...  no
+INFO: +checking for "oowriter"...  yes
+DEBUG: Add to RC:
+\editor_alternatives odt oowriter
+\editor_alternatives sxw oowriter
+
+
+INFO: +checking for "abiword"...  no
+INFO: checking for an OpenDocument/OpenOffice viewer...
+INFO: +checking for "swriter"...  no
+INFO: +checking for "oowriter"...  yes
+DEBUG: Add to RC:
+\Format odt        odt     OpenDocument           "" "oowriter"	"oowriter"	"document,vector"
+\Format sxw        sxw    "OpenOffice.Org (sxw)"  "" ""	""	"document,vector"
+
+
+DEBUG: Add to RC:
+\viewer_alternatives odt oowriter
+\viewer_alternatives sxw oowriter
+
+
+INFO: +checking for "abiword"...  no
+INFO: checking for a Rich Text and Word viewer...
+INFO: +checking for "swriter"...  no
+INFO: +checking for "oowriter"...  yes
+DEBUG: Add to RC:
+\editor_alternatives rtf oowriter
+\editor_alternatives word oowriter
+
+
+INFO: +checking for "abiword"...  no
+INFO: checking for a Rich Text and Word viewer...
+INFO: +checking for "swriter"...  no
+INFO: +checking for "oowriter"...  yes
+DEBUG: Add to RC:
+\Format rtf        rtf    "Rich Text Format"      "" ""	""	"document,vector"
+\Format word       doc    "MS Word"               W  ""	""	"document,vector"
+
+
+DEBUG: Add to RC:
+\viewer_alternatives rtf oowriter
+\viewer_alternatives word oowriter
+
+
+INFO: +checking for "abiword"...  no
+DEBUG: Add to RC:
+\Format date       ""     "date command"          "" ""	""	""
+\Format csv        csv    "Table (CSV)"  "" ""	""	"document"
+\Format fax        ""      Fax                    "" ""	""	"document"
+\Format lyx        lyx     LyX                    "" ""	""	""
+\Format lyx13x     lyx13  "LyX 1.3.x"             "" ""	""	"document"
+\Format lyx14x     lyx14  "LyX 1.4.x"             "" ""	""	"document"
+\Format lyx15x     lyx15  "LyX 1.5.x"             "" ""	""	"document"
+\Format lyx16x     lyx16  "LyX 1.6.x"             "" ""	""	"document"
+\Format clyx       cjklyx "CJK LyX 1.4.x (big5)"  "" ""	""	"document"
+\Format jlyx       cjklyx "CJK LyX 1.4.x (euc-jp)" "" ""	""	"document"
+\Format klyx       cjklyx "CJK LyX 1.4.x (euc-kr)" "" ""	""	"document"
+\Format lyxpreview lyxpreview "LyX Preview"       "" ""	""	""
+\Format lyxpreview-platex lyxpreview-platex "LyX Preview (pLaTeX)"       "" ""	""	""
+\Format pdftex     pdftex_t PDFTEX                "" ""	""	""
+\Format program    ""      Program                "" ""	""	""
+\Format pstex      pstex_t PSTEX                  "" ""	""	""
+\Format wmf        wmf    "Windows Metafile"      "" ""	""	"vector"
+\Format emf        emf    "Enhanced Metafile"     "" ""	""	"vector"
+\Format wordhtml   html   "HTML (MS Word)"        "" "" ""	"document"
+
+
+
+INFO: checking for the pdflatex program...
+INFO: +checking for "pdflatex"...  yes
+DEBUG: Add to RC:
+\converter pdflatex   pdf2       "pdflatex $$i"	"latex"
+
+
+INFO: checking for XeTeX...
+INFO: +checking for "xelatex"...  no
+DEBUG: Add to RC:
+\converter xetex      pdf4       ""	"latex"
+
+
+INFO: checking for a LaTeX/Noweb -> LyX converter...
+INFO: +checking for "tex2lyx"...  yes
+DEBUG: Add to RC:
+\converter latex      lyx        "tex2lyx -f $$i $$o"	""
+\converter literate   lyx        "tex2lyx -n -f $$i $$o"	""
+
+
+INFO: checking for a Noweb -> LaTeX converter...
+INFO: +checking for "noweave"...  no
+DEBUG: Add to RC:
+\converter literate   latex      ""	""
+\converter literate   pdflatex      ""	""
+
+
+INFO: checking for a Sweave -> LaTeX converter...
+INFO: +checking for "R"...  yes
+DEBUG: Add to RC:
+\converter sweave   latex      "R CMD Sweave $$i"	""
+\converter sweave   pdflatex      "R CMD Sweave $$i"	""
+
+
+INFO: checking for an HTML -> LaTeX converter...
+INFO: +checking for "html2latex"...  no
+INFO: +checking for "gnuhtml2latex"...  no
+INFO: +checking for "htmltolatex"...  no
+INFO: +checking for "java"...  yes
+DEBUG: Add to RC:
+\converter html       latex      "java -jar htmltolatex.jar -input $$i -output $$o"	""
+
+
+INFO: checking for an MS Word -> LaTeX converter...
+INFO: +checking for "wvCleanLatex"...  yes
+DEBUG: Add to RC:
+\converter word       latex      "wvCleanLatex $$i $$o"	""
+
+
+INFO: checking for "elyxer module"...  no
+INFO: checking for a LyX -> HTML converter...
+INFO: +checking for "elyxer.py"...  no
+INFO: +checking for "elyxer"...  no
+DEBUG: Add to RC:
+\converter lyx      html       ""	""
+
+
+INFO: checking for a LaTeX -> HTML converter...
+INFO: +checking for "htlatex"...  no
+INFO: +checking for "htlatex.sh"...  no
+INFO: +checking for "/usr/share/tex4ht/htlatex"...  no
+INFO: +checking for "tth"...  no
+INFO: +checking for "latex2html"...  no
+INFO: +checking for "hevea"...  no
+DEBUG: Add to RC:
+\converter latex      html       ""	"needaux"
+
+
+DEBUG: Add to RC:
+\copier    html       "python -tt $$s/scripts/ext_copy.py $$i $$o"
+
+
+INFO: checking for A LyX to WordPress Blog Publishing Tool...
+INFO: +checking for "lyxblogger"...  no
+INFO: checking for a LaTeX -> MS Word converter...
+INFO: +checking for "htlatex"...  no
+INFO: +checking for "htlatex.sh"...  no
+INFO: +checking for "/usr/share/tex4ht/htlatex"...  no
+DEBUG: Add to RC:
+\converter latex      wordhtml   ""	"needaux"
+
+
+INFO: checking for an OpenOffice.org -> LaTeX converter...
+INFO: +checking for "w2l"...  no
+DEBUG: Add to RC:
+\converter sxw        latex      ""	""
+
+
+INFO: checking for an OpenDocument -> LaTeX converter...
+INFO: +checking for "w2l"...  no
+DEBUG: Add to RC:
+\converter odt        latex      ""	""
+
+
+INFO: checking for a LaTeX -> Open Document converter...
+INFO: +checking for "oolatex"...  no
+INFO: +checking for "mk4ht"...  no
+INFO: +checking for "oolatex.sh"...  no
+INFO: +checking for "/usr/share/tex4ht/oolatex"...  no
+INFO: +checking for "htlatex"...  no
+DEBUG: Add to RC:
+\converter latex      odt        ""	"needaux"
+
+
+INFO: checking for a LaTeX -> RTF converter...
+INFO: +checking for "latex2rtf"...  no
+INFO: +checking for "latex2rt"...  no
+DEBUG: Add to RC:
+\converter latex      rtf        ""	"needaux"
+
+
+INFO: checking for a RTF -> HTML converter...
+INFO: +checking for "unrtf"...  no
+DEBUG: Add to RC:
+\converter rtf      html        ""	""
+
+
+INFO: checking for a PS to PDF converter...
+INFO: +checking for "ps2pdf13"...  yes
+DEBUG: Add to RC:
+\converter ps         pdf        "ps2pdf13 $$i $$o"	""
+
+
+INFO: checking for a PS to TXT converter...
+INFO: +checking for "pstotext"...  no
+DEBUG: Add to RC:
+\converter ps         text2      ""	""
+
+
+INFO: checking for a PS to TXT converter...
+INFO: +checking for "ps2ascii"...  yes
+DEBUG: Add to RC:
+\converter ps         text3      "ps2ascii $$i $$o"	""
+
+
+INFO: checking for a PS to EPS converter...
+INFO: +checking for "ps2eps"...  no
+DEBUG: Add to RC:
+\converter ps         eps      ""	""
+
+
+INFO: checking for a PDF to PS converter...
+INFO: +checking for "pdf2ps"...  yes
+DEBUG: Add to RC:
+\converter pdf         ps        "pdf2ps $$i $$o"	""
+
+
+INFO: checking for a PDF to EPS converter...
+INFO: +checking for "pdftops"...  yes
+DEBUG: Add to RC:
+\converter pdf         eps        "pdftops -eps -f 1 -l 1 $$i $$o"	""
+
+
+INFO: checking for a DVI to TXT converter...
+INFO: +checking for "catdvi"...  no
+DEBUG: Add to RC:
+\converter dvi        text4      ""	""
+
+
+INFO: checking for a DVI to PS converter...
+INFO: +checking for "dvips"...  yes
+DEBUG: Add to RC:
+\converter dvi        ps         "dvips -o $$o $$i"	""
+
+
+INFO: checking for a DVI to PDF converter...
+INFO: +checking for "dvipdfmx"...  no
+INFO: +checking for "dvipdfm"...  no
+DEBUG: Add to RC:
+\converter dvi        pdf3       ""	""
+
+
+INFO: checking for dvipng...
+INFO: +checking for "dvipng"...  no
+DEBUG: Add to RC:
+\converter lyxpreview png        ""	""
+
+
+INFO: checking for a fax program...
+INFO: +checking for "kdeprintfax"...  no
+INFO: +checking for "ksendfax"...  no
+INFO: +checking for "hylapex"...  no
+DEBUG: Add to RC:
+\converter ps         fax        ""	""
+
+
+INFO: checking for a FIG -> EPS/PPM converter...
+INFO: +checking for "fig2dev"...  no
+INFO: checking for a TIFF -> PS converter...
+INFO: +checking for "tiff2ps"...  yes
+DEBUG: Add to RC:
+\converter tiff       eps        "tiff2ps $$i > $$o"	""
+
+
+INFO: checking for a TGIF -> EPS/PPM converter...
+INFO: +checking for "tgif"...  no
+INFO: checking for a WMF -> EPS converter...
+INFO: +checking for "metafile2eps"...  no
+INFO: +checking for "wmf2eps"...  yes
+DEBUG: Add to RC:
+\converter wmf        eps        "wmf2eps -o $$o $$i"	""
+
+
+INFO: checking for an EMF -> EPS converter...
+INFO: +checking for "metafile2eps"...  no
+INFO: +checking for "wmf2eps"...  yes
+DEBUG: Add to RC:
+\converter emf        eps        "wmf2eps -o $$o $$i"	""
+
+
+INFO: checking for an EPS -> PDF converter...
+INFO: +checking for "epstopdf"...  no
+INFO: checking for a Grace -> Image converter...
+INFO: +checking for "gracebat"...  no
+INFO: checking for a Dot -> Image converter...
+INFO: +checking for "dot"...  no
+INFO: checking for a Dia -> PNG converter...
+INFO: +checking for "dia"...  no
+DEBUG: Add to RC:
+\converter dia        png        ""	""
+
+
+INFO: checking for a Dia -> EPS converter...
+INFO: +checking for "dia"...  no
+DEBUG: Add to RC:
+\converter dia        eps        ""	""
+
+
+INFO: checking for a SVG -> PDF converter...
+INFO: +checking for "rsvg-convert"...  yes
+DEBUG: Add to RC:
+\converter svg        pdf        "rsvg-convert -f pdf -o $$o $$i"	""
+
+
+INFO: checking for a SVG -> EPS converter...
+INFO: +checking for "rsvg-convert"...  yes
+DEBUG: Add to RC:
+\converter svg        eps        "rsvg-convert -f ps -o $$o $$i"	""
+
+
+INFO: checking for a SVG -> PNG converter...
+INFO: +checking for "rsvg-convert"...  yes
+DEBUG: Add to RC:
+\converter svg        png        "rsvg-convert -f png -o $$o $$i"	""
+
+
+INFO: checking for a LilyPond -> EPS/PDF/PNG converter...
+INFO: +checking for "lilypond"...  no
+INFO: checking for a Noteedit -> LilyPond converter...
+INFO: +checking for "noteedit"...  no
+DEBUG: Add to RC:
+\converter lyxpreview ppm        "python -tt $$s/scripts/lyxpreview2bitmap.py"	""
+\converter lyxpreview-platex ppm        "python -tt $$s/scripts/lyxpreview-platex2bitmap.py"	""
+\converter csv        lyx        "python -tt $$s/scripts/csv2lyx.py $$i $$o"	""
+\converter date       dateout    "python -tt $$s/scripts/date.py %d-%m-%Y > $$o"	""
+\converter docbook    docbook-xml "cp $$i $$o"	"xml"
+\converter fen        asciichess "python -tt $$s/scripts/fen2ascii.py $$i $$o"	""
+\converter fig        pdftex     "python -tt $$s/scripts/fig2pdftex.py $$i $$o"	""
+\converter fig        pstex      "python -tt $$s/scripts/fig2pstex.py $$i $$o"	""
+\converter lyx        lyx13x     "python -tt $$s/lyx2lyx/lyx2lyx -t 221 $$i > $$o"	""
+\converter lyx        lyx14x     "python -tt $$s/lyx2lyx/lyx2lyx -t 245 $$i > $$o"	""
+\converter lyx        lyx15x     "python -tt $$s/lyx2lyx/lyx2lyx -t 276 $$i > $$o"	""
+\converter lyx        lyx16x     "python -tt $$s/lyx2lyx/lyx2lyx -t 345 $$i > $$o"	""
+\converter lyx        clyx       "python -tt $$s/lyx2lyx/lyx2lyx -c big5 -t 245 $$i > $$o"	""
+\converter lyx        jlyx       "python -tt $$s/lyx2lyx/lyx2lyx -c euc_jp -t 245 $$i > $$o"	""
+\converter lyx        klyx       "python -tt $$s/lyx2lyx/lyx2lyx -c euc_kr -t 245 $$i > $$o"	""
+\converter clyx       lyx        "python -tt $$s/lyx2lyx/lyx2lyx -c big5 $$i > $$o"	""
+\converter jlyx       lyx        "python -tt $$s/lyx2lyx/lyx2lyx -c euc_jp $$i > $$o"	""
+\converter klyx       lyx        "python -tt $$s/lyx2lyx/lyx2lyx -c euc_kr $$i > $$o"	""
+
+
+
+INFO: checking for SGML-tools 2.x (DocBook), db2x scripts or xsltproc...
+INFO: +checking for "sgmltools"...  no
+INFO: +checking for "db2dvi"...  no
+INFO: +checking for "xsltproc"...  yes
+DEBUG: Add to RC:
+\converter docbook    dvi        ""	""
+\converter docbook    html       "" ""
+
+
+INFO: Checking whether TeX allows spaces in file names... yes
+DEBUG: Add to RC:
+\tex_allows_spaces true
+
+
+DEBUG: Removing file a b.tex
+DEBUG: Removing file a b.log
+DEBUG: Failed to remove file texput.log
+INFO: checking for ChkTeX...
+INFO: +checking for "chktex"...  no
+DEBUG: Add to RC:
+\chktex_command ""
+
+
+INFO: checking for BibTeX or alternative programs...
+INFO: +checking for "bibtex"...  yes
+DEBUG: Add to RC:
+\bibtex_command "bibtex"
+
+
+DEBUG: Add to RC:
+\bibtex_alternatives "bibtex"
+
+
+INFO: +checking for "bibtex8"...  yes
+DEBUG: Add to RC:
+\bibtex_alternatives "bibtex8"
+
+
+INFO: +checking for "biber"...  no
+INFO: checking for a specific Japanese BibTeX variant...
+INFO: +checking for "pbibtex"...  no
+INFO: +checking for "jbibtex"...  no
+INFO: +checking for "bibtex"...  yes
+DEBUG: Add to RC:
+\jbibtex_command "bibtex"
+
+
+INFO: checking for available index processors...
+INFO: +checking for "texindy"...  no
+INFO: +checking for "makeindex"...  yes
+DEBUG: Add to RC:
+\index_command "makeindex -c -q"
+
+
+DEBUG: Add to RC:
+\index_alternatives "makeindex -c -q"
+
+
+INFO: checking for an index processor appropriate to Japanese...
+INFO: +checking for "mendex"...  no
+INFO: +checking for "jmakeindex"...  no
+INFO: +checking for "makeindex"...  yes
+DEBUG: Add to RC:
+\jindex_command "makeindex -c -q"
+
+
+INFO: checking for the splitindex processor...
+INFO: +checking for "splitindex.pl"...  no
+INFO: +checking for "splitindex"...  no
+DEBUG: Add to RC:
+\splitindex_command ""
+
+
+INFO: checking for the splitindex processor (java version)...
+INFO: +checking for "splitindex.class"...  no
+DEBUG: Add to RC:
+\splitindex_command "java splitindex"
+
+
+INFO: checking for a nomenclature processor...
+INFO: +checking for "makeindex"...  yes
+DEBUG: Add to RC:
+\nomencl_command "makeindex -s nomencl.ist"
+
+
+INFO: checking for a spool command...
+INFO: +checking for "lp"...  yes
+DEBUG: Add to RC:
+\print_spool_printerprefix "-d "
+\print_spool_command "lp"
+
+
+DEBUG: Add to RC:
+\copier    fig        "python -tt $$s/scripts/fig_copy.py $$i $$o"
+\copier    pstex      "python -tt $$s/scripts/tex_copy.py $$i $$o $$l"
+\copier    pdftex     "python -tt $$s/scripts/tex_copy.py $$i $$o $$l"
+\copier    program    "python -tt $$s/scripts/ext_copy.py $$i $$o"
+
+
+
+DEBUG: Removing file lyxmodules.lst
+DEBUG: Failed to remove file chkmodules.tex
+INFO: +checking list of modules... 
+INFO: /usr/local/share/lyx/layouts/noweb.module
+INFO: /usr/local/share/lyx/layouts/logicalmkup.module
+INFO: /usr/local/share/lyx/layouts/initials.module
+INFO: /usr/local/share/lyx/layouts/theorems-ams-bytype.module
+INFO: /usr/local/share/lyx/layouts/eqs-within-sections.module
+INFO: /usr/local/share/lyx/layouts/foottoend.module
+INFO: /usr/local/share/lyx/layouts/hanging.module
+INFO: /usr/local/share/lyx/layouts/theorems-sec.module
+INFO: /usr/local/share/lyx/layouts/theorems-chap-bytype.module
+INFO: /usr/local/share/lyx/layouts/tabs-within-sections.module
+INFO: /usr/local/share/lyx/layouts/sweave.module
+INFO: /usr/local/share/lyx/layouts/theorems-bytype.module
+INFO: /usr/local/share/lyx/layouts/theorems-ams-extended-bytype.module
+INFO: /usr/local/share/lyx/layouts/braille.module
+INFO: /usr/local/share/lyx/layouts/linguistics.module
+INFO: /usr/local/share/lyx/layouts/theorems-ams-extended.module
+INFO: /usr/local/share/lyx/layouts/figs-within-sections.module
+INFO: /usr/local/share/lyx/layouts/theorems-chap.module
+INFO: /usr/local/share/lyx/layouts/theorems-starred.module
+INFO: /usr/local/share/lyx/layouts/theorems-ams.module
+INFO: /usr/local/share/lyx/layouts/theorems-sec-bytype.module
+INFO: /usr/local/share/lyx/layouts/minimalistic.module
+INFO: /usr/local/share/lyx/layouts/theorems-std.module
+INFO: /usr/local/share/lyx/layouts/endnotes.module
+INFO: 	done
+INFO: checking LaTeX configuration... 	auto
+DEBUG: Failed to remove file wrap_chkconfig.ltx
+DEBUG: Failed to remove file chkconfig.vars
+DEBUG: Failed to remove file chkconfig.classes
+DEBUG: Failed to remove file chklayouts.tex
+INFO: +Inspecting your LaTeX configuration.
+INFO: +checking for LaTeX version... 2009/09/24
+INFO: +checking for available hyphenation patterns... english, usenglishmax, dumylang
+INFO: +checking for default encoding (this may take a long time)
+INFO: +  checking for ec fonts... yes
+INFO: +  checking for ec support in LaTeX format... yes
+INFO: +  default encoding will be set to T1
+INFO: +checking for document class AEA [AEA]... no
+INFO: +checking for document class IEEEtran [IEEEtran]... no
+INFO: +checking for document class aapaper [aa]... no
+INFO: +checking for document class aastex [aastex]... no
+INFO: +checking for document class aa [aa]... no
+INFO: +checking for document class achemso [achemso]... no
+INFO: +checking for document class acmsiggraph [acmsiggraph]... no
+INFO: +checking for docbook  class agu-dtd...  yes
+INFO: +checking for document class agums [aguplus,agums.sty]... no
+INFO: +checking for document class amsart [amsart]... yes
+INFO: +checking for document class amsbook [amsbook]... yes
+INFO: +checking for document class apa [apa,apacite.sty]... no
+INFO: +checking for document class arab-article [arabart]... no
+INFO: +checking for document class armenian-article [article]... yes
+INFO: +checking for document class article-beamer [article]... yes
+INFO: +checking for document class article [article]... yes
+INFO: +checking for document class beamer [beamer,pgf.sty,xcolor.sty]... no
+INFO: +checking for document class book [book]... yes
+INFO: +checking for document class broadway [broadway]... no
+INFO: +checking for document class chess [article,lyxskak.sty]... no
+INFO: +checking for document class cl2emult [cl2emult]... no
+INFO: +checking for document class dinbrief [dinbrief]... no
+INFO: +checking for docbook  class docbook-book...  yes
+INFO: +checking for docbook  class docbook-chapter...  yes
+INFO: +checking for docbook  class docbook-section...  yes
+INFO: +checking for docbook  class docbook...  yes
+INFO: +checking for document class doublecol-new [doublecol-new, natbib.sty]... no
+INFO: +checking for document class dtk [dtk]... no
+INFO: +checking for document class egs [egs]... no
+INFO: +checking for document class elsarticle [elsarticle]... no
+INFO: +checking for document class elsart [elsart,amssymb.sty]... no
+INFO: +checking for document class entcs [entcs]... no
+INFO: +checking for document class europecv [europecv]... no
+INFO: +checking for document class extarticle [extarticle]... yes
+INFO: +checking for document class extbook [extbook]... yes
+INFO: +checking for document class extletter [extletter]... yes
+INFO: +checking for document class extreport [extreport]... yes
+INFO: +checking for document class foils [foils]... no
+INFO: +checking for document class g-brief2 [g-brief2]... no
+INFO: +checking for document class g-brief [g-brief]... no
+INFO: +checking for document class heb-article [article]... yes
+INFO: +checking for document class heb-letter [letter]... yes
+INFO: +checking for document class hollywood [hollywood]... no
+INFO: +checking for document class ijmpc [ws-ijmpc]... no
+INFO: +checking for document class ijmpd [ws-ijmpd]... no
+INFO: +checking for document class iopart [iopart]... no
+INFO: +checking for document class isprs [isprs]... no
+INFO: +checking for document class jarticle [jarticle]... no
+INFO: +checking for document class jbook [jbook]... no
+INFO: +checking for document class jgrga [aguplus,jgrga.sty]... no
+INFO: +checking for document class jreport [jreport]... no
+INFO: +checking for document class jsarticle [jsarticle]... no
+INFO: +checking for document class jsbook [jsbook]... no
+INFO: +checking for document class jss [jss]... no
+INFO: +checking for document class kluwer [kluwer]... no
+INFO: +checking for document class larkc [larkc, book]... no
+INFO: +checking for document class latex8 [article,latex8.sty,times.sty]... no
+INFO: +checking for document class letter [letter]... yes
+INFO: +checking for document class literate-article [article,noweb.sty]... no
+INFO: +checking for document class literate-book [book,noweb.sty]... no
+INFO: +checking for document class literate-report [report,noweb.sty]... no
+INFO: +checking for document class llncs [llncs]... no
+INFO: +checking for document class ltugboat [ltugboat]... no
+INFO: +checking for document class memoir [memoir]... yes
+INFO: +checking for document class moderncv [moderncv]... no
+INFO: +checking for document class mwart [mwart]... no
+INFO: +checking for document class mwbk [mwbk]... no
+INFO: +checking for document class mwrep [mwrep]... no
+INFO: +checking for document class paper [paper]... no
+INFO: +checking for document class powerdot [powerdot,enumitem.sty,pstricks.sty,xkeyv
+INFO: +checking for document class recipebook [scrbook]... yes
+INFO: +checking for document class report [report]... yes
+INFO: +checking for document class revtex4 [revtex4]... no
+INFO: +checking for document class revtex [revtex]... no
+INFO: +checking for document class scrartcl [scrartcl]... yes
+INFO: +checking for document class scrarticle-beamer [scrartcl]... yes
+INFO: +checking for document class scrbook [scrbook]... yes
+INFO: +checking for document class scrlettr [scrlettr]... yes
+INFO: +checking for document class scrlttr2 [scrlttr2]... yes
+INFO: +checking for document class scrreprt [scrreprt]... yes
+INFO: +checking for document class seminar [seminar]... yes
+INFO: +checking for document class siamltex [siamltex]... no
+INFO: +checking for document class sigplanconf [sigplanconf]... no
+INFO: +checking for document class simplecv [simplecv]... no
+INFO: +checking for document class singlecol-new [singlecol-new, natbib.sty]... no
+INFO: +checking for document class singlecol [singlecol, natbib.sty]... no
+INFO: +checking for document class slides [slides]... yes
+INFO: +checking for document class spie [spie]... no
+INFO: +checking for document class svglobal3 [svjour3,svglov3.clo]... no
+INFO: +checking for document class svglobal [svjour,svglobal.clo]... no
+INFO: +checking for document class svjog [svjour,svjog.clo]... no
+INFO: +checking for document class svmono [svmono]... no
+INFO: +checking for document class svmult [svmult]... no
+INFO: +checking for document class svprobth [svjour,svprobth.clo]... no
+INFO: +checking for document class tarticle [tarticle]... no
+INFO: +checking for document class tbook [tbook]... no
+INFO: +checking for document class treport [treport]... no
+INFO: +checking for document class tufte-book [tufte-book]... no
+INFO: +checking for document class tufte-handout [tufte-handout]... no
+INFO: +checking for package noweb [noweb]... no
+INFO: +checking for package endnotes [endnotes]... yes
+INFO: +checking for package braille [braille]... yes
+INFO: +checking for package covington [covington]... no
+INFO: +checking for package endnotes [endnotes]... yes
+INFO: +checking for package accents [accents]... no
+INFO: +checking for package algorithm [algorithm]... no
+INFO: +checking for package amstext [amstext]... yes
+INFO: +checking for package arabi [arabic.ldf]... no
+INFO: +checking for package array [array]... yes
+INFO: +checking for package babel [babel]... yes
+INFO: +checking for package bibtopic [bibtopic]... no
+INFO: +checking for package bm [bm]... yes
+INFO: +checking for package booktabs [booktabs]... yes
+INFO: +checking for package braille [braille]... yes
+INFO: +checking for package CJKutf8 [CJKutf8]... no
+INFO: +checking for package color [color]... yes
+INFO: +checking for package covington [covington]... no
+INFO: +checking for package csquotes [csquotes]... no
+INFO: +checking for package dvipost [dvipost]... no
+INFO: +checking for package endnotes [endnotes]... yes
+INFO: +checking for package enumitem [enumitem]... no
+INFO: +checking for package esint [esint]... no
+INFO: +checking for package ifsym [ifsym]... yes
+INFO: +checking for package ifthen [ifthen]... yes
+INFO: +checking for package fancybox [fancybox]... yes
+INFO: +checking for package fancyhdr [fancyhdr]... yes
+INFO: +checking for package framed [framed]... yes
+INFO: +checking for package geometry [geometry]... yes
+INFO: +checking for package graphicx [graphicx]... yes
+INFO: +checking for package hyperref [hyperref]... yes
+INFO: +checking for package hyphenat [hyphenat]... no
+INFO: +checking for package japanese [japanese.ldf]... no
+INFO: +checking for package jurabib [jurabib]... no
+INFO: +checking for package latex8 [latex8]... no
+INFO: +checking for package lettrine [lettrine]... no
+INFO: +checking for package listings [listings]... yes
+INFO: +checking for package lithuanian [lithuanian.ldf]... no
+INFO: +checking for package longtable [longtable]... yes
+INFO: +checking for package mathdots [mathdots]... no
+INFO: +checking for package mathrsfs [mathrsfs]... yes
+INFO: +checking for package mhchem [mhchem]... no
+INFO: +checking for package mongolian [mongolian.ldf]... no
+INFO: +checking for package natbib [natbib]... yes
+INFO: +checking for package nicefrac [nicefrac]... no
+INFO: +checking for package nomencl [nomencl]... no
+INFO: +checking for package pdfcolmk [pdfcolmk]... yes
+INFO: +checking for package pdfpages [pdfpages]... yes
+INFO: +checking for package prettyref [prettyref]... no
+INFO: +checking for package preview [preview]... no
+INFO: +checking for package rotating [rotating]... yes
+INFO: +checking for package rotfloat [rotfloat]... no
+INFO: +checking for package setspace [setspace]... yes
+INFO: +checking for package slashed [slashed]... yes
+INFO: +checking for package soul [soul]... no
+INFO: +checking for package splitidx [splitidx]... no
+INFO: +checking for package subfig [subfig]... yes
+INFO: +checking for package Sweave [Sweave]... no
+INFO: +checking for package textcomp [textcomp]... yes
+INFO: +checking for package turkmen [turkmen.ldf]... no
+INFO: +checking for package ulem [ulem]... yes
+INFO: +checking for package units [units]... no
+INFO: +checking for package url [url]... yes
+INFO: +checking for package varioref [varioref]... yes
+INFO: +checking for package wasysym [wasysym]... no
+INFO: +checking for package wrapfig [wrapfig]... no
+INFO: +checking for package xargs [xargs]... no
+INFO: +checking for package xcolor [xcolor]... no
+INFO: +checking for package psnfss [times.sty]... yes
+INFO: +checking for package avant [avant]... yes
+INFO: +checking for package bookman [bookman]... yes
+INFO: +checking for package chancery [chancery]... yes
+INFO: +checking for package charter [charter]... yes
+INFO: +checking for package courier [courier]... yes
+INFO: +checking for package helvet [helvet]... yes
+INFO: +checking for package mathpazo [mathpazo]... yes
+INFO: +checking for package mathpple [mathpple]... yes
+INFO: +checking for package mathptm [mathptm]... yes
+INFO: +checking for package mathptmx [mathptmx]... yes
+INFO: +checking for package newcent [newcent]... yes
+INFO: +checking for package pifont [pifont]... yes
+INFO: +checking for package utopia [utopia]... yes
+INFO: +checking for package ae [ae]... yes
+INFO: +checking for package bera [bera]... yes
+INFO: +checking for package ccfonts [ccfonts]... no
+INFO: +checking for package cmbright [cmbright]... yes
+INFO: +checking for package eco [eco]... yes
+INFO: +checking for package fourier [fourier]... yes
+INFO: +checking for package lmodern [lmodern]... no
+INFO: +checking for package luximono [luximono]... no
+INFO: +checking for package tipa [tipa]... no
+INFO: +checking for package zhmetrics [c70fs.fd]... no
+INFO: +Inspection done.
+INFO: +Read the file doc/LaTeXConfig.lyx for more information.
+DEBUG: Add to RC:
+\font_encoding "T1"
+
+
+DEBUG: Removing file chkconfig.ltx
+DEBUG: Removing file chkconfig.vars
+DEBUG: Removing file wrap_chkconfig.ltx
+DEBUG: Removing file wrap_chkconfig.log
+DEBUG: Removing file chklayouts.tex
+DEBUG: Removing file chkmodules.tex
+DEBUG: Failed to remove file missfont.log
+DEBUG: Removing file chklatex.ltx
+DEBUG: Removing file chklatex.log
