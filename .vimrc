@@ -165,6 +165,7 @@ behave mswin " needed to select things with shift-arrows
     :noremap ,f] :FufTag! <C-r>=expand('<cword>')<CR><CR>
     :noremap ,fc :FufRenewCache<CR>
     :noremap ,fi :FuzzyFinderEditInfo<CR>
+    :noremap ,fr :call fuf#givenfile#launch('', 0, '> ', split(glob('./**/*'), "\n"))<CR>
 
     " super find file command, will search the files recursively from current
     " directory
@@ -340,6 +341,7 @@ if has("autocmd")
     " dont see ^M again
     autocmd BufRead * silent! %s/[\r \t]\+$//
     set statusline=%<%f\ [%{fugitive#statusline()}]\ %h%m%r%=%-14.(%l,%c%V%)\ %P
+   autocmd FileType actionscript setlocal sw=4 sts=4 et
     "if version >= 700
         autocmd InsertEnter * hi StatusLine term=reverse ctermbg=0 gui=undercurl    guisp=orange
         autocmd InsertLeave * hi StatusLine term=reverse ctermfg=0 ctermbg=2 gui=bold,reverse
