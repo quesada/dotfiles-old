@@ -1,0 +1,146 @@
+2010-08-14 21:15:23		irc: connecting to server irc.oftc.net/6667...
+2010-08-14 21:15:24		irc: connected to irc.oftc.net (130.239.18.160)
+2010-08-14 21:15:24	--	solenoid.oftc.net (solenoid.oftc.net): *** Looking up your hostname...
+2010-08-14 21:15:24	--	solenoid.oftc.net (solenoid.oftc.net): *** Checking Ident
+2010-08-14 21:15:24	--	solenoid.oftc.net (solenoid.oftc.net): *** Found your hostname
+2010-08-14 21:15:34	--	solenoid.oftc.net (solenoid.oftc.net): *** No Ident response
+2010-08-14 21:15:34	--	Welcome to the OFTC Internet Relay Chat Network quesada
+2010-08-14 21:15:34	--	Your host is solenoid.oftc.net[130.239.18.160/6667], running version hybrid-7.2.2+oftc1.6.8
+2010-08-14 21:15:34	--	This server was created Mar 10 2010 at 10:10:11
+2010-08-14 21:15:34	--	solenoid.oftc.net hybrid-7.2.2+oftc1.6.8 CDGPRSabcdfgiklnorsuwxyz biklmnopstveI bkloveI
+2010-08-14 21:15:34	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=390 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=#& :are supported by this server
+2010-08-14 21:15:34	--	CHANLIMIT=#&:70 CHANNELLEN=50 CHANMODES=eIqb,k,l,imnpstMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2010-08-14 21:15:34	--	659AABMNM :your unique ID
+2010-08-14 21:15:34	--	There are 148 users and 6568 invisible on 21 servers
+2010-08-14 21:15:34	--	21 :IRC Operators online
+2010-08-14 21:15:34	--	1 :unknown connection(s)
+2010-08-14 21:15:34	--	1686 :channels formed
+2010-08-14 21:15:34	--	I have 628 clients and 1 servers
+2010-08-14 21:15:34	--	Current local users: 628  Max: 821
+2010-08-14 21:15:34	--	Current global users: 6716  Max: 7458
+2010-08-14 21:15:34	--	Highest connection count: 822 (821 clients) (62689 connections received)
+2010-08-14 21:15:34	--	- solenoid.oftc.net Message of the Day -
+2010-08-14 21:15:34	--	- Welcome to OFTC - The Open and Free Technology Community
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	- You have connected to OFTC's IRC services.
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	- We are not a general purpose chat platform, but a topical
+2010-08-14 21:15:34	--	- network intent on providing the open source and free
+2010-08-14 21:15:34	--	- software communities a means to cooperate and communicate.
+2010-08-14 21:15:34	--	- As such, illegal and off-topic activity, such as warez
+2010-08-14 21:15:34	--	- trading, may result in being barred from access.
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	- The Open and Free Technology Community was founded at the
+2010-08-14 21:15:34	--	- end of 2001 by a group of experienced members of the Open
+2010-08-14 21:15:34	--	- Source and Free Software communities; it is aimed at
+2010-08-14 21:15:34	--	- providing these communities with better communication,
+2010-08-14 21:15:34	--	- development, and support infrastructure. Our goal is to
+2010-08-14 21:15:34	--	- provide stable services to members of the community in any
+2010-08-14 21:15:34	--	- part of the world, while listening closely to their needs
+2010-08-14 21:15:34	--	- and desires.
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	- For more information on OFTC please visit http://www.oftc.net/.
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	- If you require assistance stop by in channel #oftc, or email
+2010-08-14 21:15:34	--	- support@oftc.net with details.
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	- 2008-06-19  Rotating server certificates
+2010-08-14 21:15:34	--	- ----------------------------------------
+2010-08-14 21:15:34	--	- We are slowly rotating our servers' SSL certificates.  The new
+2010-08-14 21:15:34	--	- certs are signed, indirectly, by SPI's certification authority
+2010-08-14 21:15:34	--	- and no longer by cacert's.
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	- If you use SSL to connect to our network (ports 6697 and 9999)
+2010-08-14 21:15:34	--	- and you verify the certs you need to get SPI's root cert from
+2010-08-14 21:15:34	--	- <URL:http://www.spi-inc.org/secretary/spi-cacert.crt/view>.
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	- 2007-11-23  Enabling ssl client certificates
+2010-08-14 21:15:34	--	- --------------------------------------------
+2010-08-14 21:15:34	--	- NickServ now supports auto-identification using SSL connections
+2010-08-14 21:15:34	--	- and client certificates.
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	- Please see http://www.oftc.net/oftc/NickServ/CertFP for
+2010-08-14 21:15:34	--	- more information.
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	- Thanks and enjoy your stay,
+2010-08-14 21:15:34	--	-
+2010-08-14 21:15:34	--	-         The OFTC team
+2010-08-14 21:15:34	--	End of /MOTD command.
+2010-08-14 21:15:34	--	User mode [+i] by quesada
+2010-08-15 04:51:38	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2010-08-15 04:51:38		irc: disconnecting from server...
+2010-08-15 04:51:38		irc: disconnected from server
+2010-08-15 04:51:38		irc: reconnecting to server in 30 seconds
+2010-08-15 04:52:08		irc: reconnecting to server...
+2010-08-15 04:52:08		irc: connecting to server irc.oftc.net/6667...
+2010-08-15 04:52:08		irc: connected to irc.oftc.net (109.74.200.93)
+2010-08-15 04:52:09	--	coulomb.oftc.net (coulomb.oftc.net): *** Looking up your hostname...
+2010-08-15 04:52:09	--	coulomb.oftc.net (coulomb.oftc.net): *** Checking Ident
+2010-08-15 04:52:09	--	coulomb.oftc.net (coulomb.oftc.net): *** Found your hostname
+2010-08-15 04:52:19	--	coulomb.oftc.net (coulomb.oftc.net): *** No Ident response
+2010-08-15 04:52:19		irc: nickname "quesada" is already in use, trying nickname #2 ("quesada1")
+2010-08-15 04:52:19	--	Welcome to the OFTC Internet Relay Chat Network quesada1
+2010-08-15 04:52:19	--	Your host is coulomb.oftc.net[109.74.200.93/6667], running version hybrid-7.2.2+oftc1.6.8
+2010-08-15 04:52:19	--	This server was created Apr 24 2010 at 21:34:20
+2010-08-15 04:52:19	--	coulomb.oftc.net hybrid-7.2.2+oftc1.6.8 CDGPRSabcdfgiklnorsuwxyz biklmnopstveI bkloveI
+2010-08-15 04:52:19	--	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=160 MODES=4 NICKLEN=30 PREFIX=(ov)@+ STATUSMSG=@+ TOPICLEN=390 NETWORK=OFTC MAXLIST=beI:100 MAXTARGETS=1 CHANTYPES=#& :are supported by this server
+2010-08-15 04:52:19	--	CHANLIMIT=#&:70 CHANNELLEN=50 CHANMODES=eIqb,k,l,imnpstMRS AWAYLEN=160 KNOCK ELIST=CMNTU SAFELIST EXCEPTS=e INVEX=I :are supported by this server
+2010-08-15 04:52:19	--	82VAAATZB :your unique ID
+2010-08-15 04:52:19	--	There are 137 users and 6129 invisible on 21 servers
+2010-08-15 04:52:19	--	21 :IRC Operators online
+2010-08-15 04:52:19	--	1664 :channels formed
+2010-08-15 04:52:19	--	I have 571 clients and 1 servers
+2010-08-15 04:52:19	--	Current local users: 571  Max: 736
+2010-08-15 04:52:19	--	Current global users: 6266  Max: 7204
+2010-08-15 04:52:19	--	Highest connection count: 737 (736 clients) (25526 connections received)
+2010-08-15 04:52:19	--	- coulomb.oftc.net Message of the Day -
+2010-08-15 04:52:19	--	- Welcome to OFTC - The Open and Free Technology Community
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	- You have connected to OFTC's IRC services.
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	- We are not a general purpose chat platform, but a topical
+2010-08-15 04:52:19	--	- network intent on providing the open source and free
+2010-08-15 04:52:19	--	- software communities a means to cooperate and communicate.
+2010-08-15 04:52:19	--	- As such, illegal and off-topic activity, such as warez
+2010-08-15 04:52:19	--	- trading, may result in being barred from access.
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	- The Open and Free Technology Community was founded at the
+2010-08-15 04:52:19	--	- end of 2001 by a group of experienced members of the Open
+2010-08-15 04:52:19	--	- Source and Free Software communities; it is aimed at
+2010-08-15 04:52:19	--	- providing these communities with better communication,
+2010-08-15 04:52:19	--	- development, and support infrastructure. Our goal is to
+2010-08-15 04:52:19	--	- provide stable services to members of the community in any
+2010-08-15 04:52:19	--	- part of the world, while listening closely to their needs
+2010-08-15 04:52:19	--	- and desires.
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	- For more information on OFTC please visit http://www.oftc.net/.
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	- If you require assistance stop by in channel #oftc, or email
+2010-08-15 04:52:19	--	- support@oftc.net with details.
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	- 2008-06-19  Rotating server certificates
+2010-08-15 04:52:19	--	- ----------------------------------------
+2010-08-15 04:52:19	--	- We are slowly rotating our servers' SSL certificates.  The new
+2010-08-15 04:52:19	--	- certs are signed, indirectly, by SPI's certification authority
+2010-08-15 04:52:19	--	- and no longer by cacert's.
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	- If you use SSL to connect to our network (ports 6697 and 9999)
+2010-08-15 04:52:19	--	- and you verify the certs you need to get SPI's root cert from
+2010-08-15 04:52:19	--	- <URL:http://www.spi-inc.org/secretary/spi-cacert.crt/view>.
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	- 2007-11-23  Enabling ssl client certificates
+2010-08-15 04:52:19	--	- --------------------------------------------
+2010-08-15 04:52:19	--	- NickServ now supports auto-identification using SSL connections
+2010-08-15 04:52:19	--	- and client certificates.
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	- Please see http://www.oftc.net/oftc/NickServ/CertFP for
+2010-08-15 04:52:19	--	- more information.
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	- Thanks and enjoy your stay,
+2010-08-15 04:52:19	--	-
+2010-08-15 04:52:19	--	-         The OFTC team
+2010-08-15 04:52:19	--	End of /MOTD command.
+2010-08-15 04:52:19	--	User mode [+i] by quesada1
+2010-08-15 17:44:57		irc: disconnected from server

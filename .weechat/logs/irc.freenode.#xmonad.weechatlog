@@ -1,0 +1,211 @@
+2010-08-15 11:07:01	-->	quesada (~quesada@e178203132.adsl.alicedsl.de) has joined #xmonad
+2010-08-15 11:07:01	--	Topic for #xmonad is "Topic for #xmonad: xmonad: a tiling window manager | xmonad 0.9 released! | http://xmonad.org | rss: http://xmonad.wordpress.com/feed | faq: http://xmonad.org/faq | cheatsheet: http://haskell.org/haskellwiki/Image:Xmbindings.png"
+2010-08-15 11:07:01	--	Topic set by aavogt (~aavogt@engage.uwaterloo.ca) on Fri, 09 Apr 2010 07:25:18
+2010-08-15 11:07:01	--	Nicks #xmonad: [+lambdabot +preflex [31d1] _retroj aavogt Aikawa aiko_ AlexanderS alip allbery_b amphi ampzqlox And1 andrewsw ankan ankit9 Arien__ asfethan b4taylor Baughn bremner brisbin Bruners bthomson byorgey CheariX chewbranca chris___1 cizra clanehin cornet CosmicRay cubi danklesman Dashkal davidL deadguys defn Demosthenes Dephyrial derrotebaron deteego dfkjjkfd dmwit dons drubin dweller edenc eintopf Entroacceptor ernst ezeike fabjan felipe_ flupzor fonz FunctorSalad gds gereedy gernot gwern h_noob hanneso hokapoka hoschi Hunner insecure janLo janus jaspervdj jd10_ jdoe jdq jhelwig JHoglund johanbev jones- jrk_ jrockway jubos jusa_ jvogel kabniel Kafka kenyon koniiiik ksf l0uis lda17h Liskni_si Lneuij LoganH loupgaroublond majoh mauke McManiaC mornfall MrElendig nce ndvivedi noidi npouillard nuba og01 p_l pantski pcc1 Philonous pielgrzym ponky pseup quesada raccoon_ Raku^ ramok RayNbow reinroux_ rgr ricky rlb rm34D rootzlevel rudi_s ryanakca schatan sdx23 SeveredCross shachaf smeea smly- smorg_ snapcase sperber sshc stepnem tafryn taihen TeXitoi theDon thedward_ tlonim tmug trez Valodim Vq wereHamster xAFFEE yosafbridge Zao Zepp zitune zorzar]
+2010-08-15 11:07:01	--	Channel #xmonad: 152 nicks (0 ops, 0 halfops, 2 voices, 150 normals)
+2010-08-15 11:07:02	--	URL for #xmonad: http://xmonad.org
+2010-08-15 11:07:03	--	Channel created on Wed, 25 Apr 2007 06:33:15
+2010-08-15 11:07:04	quesada	O
+2010-08-15 11:07:16	quesada	I'm getting 'gcc: error trying to exec 'as': execvp: No such file or directory
+2010-08-15 11:07:55	quesada	when executing xmonad --recompile, but no line number. I have no idea what to look for...
+2010-08-15 11:11:42	quesada	why is gcc being invoked here?
+2010-08-15 11:15:37	-->	bo0ts__ (~user@f053096015.adsl.alicedsl.de) has joined #xmonad
+2010-08-15 11:19:07	--	smorg_ is now known as smorg
+2010-08-15 11:23:20	-->	comak (~mak@dynamic-87-105-184-214.ssp.dialog.net.pl) has joined #xmonad
+2010-08-15 11:24:00	gwern	older ghc defaulting to fvia-c?
+2010-08-15 11:30:49	quesada	gwern: is this directed to me?
+2010-08-15 11:31:17	-->	tambourine (~quentin@90.11.47.17) has joined #xmonad
+2010-08-15 11:31:20	quesada	gwern: The Glorious Glasgow Haskell Compilation System, version 6.12.3   
+2010-08-15 11:32:17	quesada	it compiles a default xmonad.hs fine
+2010-08-15 11:40:42	<--	tlonim (~raghavend@unaffiliated/tlonim) has quit (Quit: WeeChat 0.3.3-dev)
+2010-08-15 11:43:04	-->	sshc_ (~sshc@174-19-193-3.bois.qwest.net) has joined #xmonad
+2010-08-15 11:43:04	<--	sshc_ (~sshc@174-19-193-3.bois.qwest.net) has quit (Changing host)
+2010-08-15 11:43:04	-->	sshc_ (~sshc@unaffiliated/sshc) has joined #xmonad
+2010-08-15 11:43:09	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-08-15 11:43:54	<--	sshc (~sshc@unaffiliated/sshc) has quit (Read error: Operation timed out)
+2010-08-15 11:55:56	<--	deteego (~deteego@d220-239-140-181.bla801.nsw.optusnet.com.au) has quit (Remote host closed the connection)
+2010-08-15 11:55:57	quesada	ok, my system is crazy. adding a comment line to an xmonad.hs that compiles breaks it with that gcc error
+2010-08-15 11:56:06	quesada	should I report it to my distro?
+2010-08-15 11:58:17	-->	chris___2 (~chris@g224099226.adsl.alicedsl.de) has joined #xmonad
+2010-08-15 12:01:35	<--	chris___1 (~chris@g224099226.adsl.alicedsl.de) has quit (Ping timeout: 276 seconds)
+2010-08-15 12:08:02	-->	chris___1 (~chris@g224099226.adsl.alicedsl.de) has joined #xmonad
+2010-08-15 12:10:45	<--	chris___2 (~chris@g224099226.adsl.alicedsl.de) has quit (Ping timeout: 240 seconds)
+2010-08-15 12:14:16	-->	dfkjjkfd_ (~paulh@7-13-ftth.onsnetstudenten.nl) has joined #xmonad
+2010-08-15 12:14:31	<--	dfkjjkfd_ (~paulh@7-13-ftth.onsnetstudenten.nl) has quit (Client Quit)
+2010-08-15 12:15:55	-->	ivanm (~ivan@115.187.254.102) has joined #xmonad
+2010-08-15 12:20:55	-->	Arien_ (~Arien___@g230062058.adsl.alicedsl.de) has joined #xmonad
+2010-08-15 12:24:24	<--	Arien__ (~Arien___@e180127239.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-08-15 12:26:56	-->	writer (Triassic@unaffiliated/writer) has joined #xmonad
+2010-08-15 12:29:30	<--	janus (~janus@2a01:4f8:120:7061::5:46a0) has quit (Quit: Quit)
+2010-08-15 12:30:36	-->	janus (janus@2a01:4f8:120:7061::5:46a0) has joined #xmonad
+2010-08-15 12:32:40	<--	ampzqlox (~firstname@pool-96-251-128-86.lsanca.fios.verizon.net) has quit (Ping timeout: 246 seconds)
+2010-08-15 12:35:13	-->	IamMilan (~milan@port-92-204-32-5.dynamic.qsc.de) has joined #xmonad
+2010-08-15 12:48:28	-->	leoncamel (~leoncamel@KD175129170046.ppp-bb.dion.ne.jp) has joined #xmonad
+2010-08-15 12:55:56	hoschi	quesada: what distro you use?
+2010-08-15 13:03:27	<--	comak (~mak@dynamic-87-105-184-214.ssp.dialog.net.pl) has quit (Read error: Connection reset by peer)
+2010-08-15 13:04:53	-->	comak (~mak@dynamic-87-105-184-214.ssp.dialog.net.pl) has joined #xmonad
+2010-08-15 13:06:35	-->	sorki (~sorki@chello085216203173.chello.sk) has joined #xmonad
+2010-08-15 13:06:55	-->	pARESit (~pit@drsd-4d05ea73.pool.mediaWays.net) has joined #xmonad
+2010-08-15 13:13:44	<--	Dashkal (~dashkal@WoWUIDev/Nexus/dashkal) has quit (Quit: zzzzzzzzzzzzzzzz)
+2010-08-15 13:14:15	<--	leoncamel (~leoncamel@KD175129170046.ppp-bb.dion.ne.jp) has quit (Quit: leaving)
+2010-08-15 13:23:17	gwern	quesada: it sounds like your system may have multiple ghcs to me
+2010-08-15 13:23:34	gwern	quesada: note that $path issues mean that 'xmonad --recompile' in a terminal may not be the same thing as mod-q
+2010-08-15 13:23:41	 *	gwern thinks
+2010-08-15 13:30:31	-->	Jimi` (~Jimi@c-174-57-83-244.hsd1.pa.comcast.net) has joined #xmonad
+2010-08-15 13:32:37	<--	gwern (~gwern@wikipedia/Gwern) has quit (Quit: Exit, pursued by a bear)
+2010-08-15 13:38:05	<--	pielgrzym (~pielgrzym@1str003.multi-play.net.pl) has quit (Quit: Opuszczam Cie Esmeraldo)
+2010-08-15 13:40:50	<--	mauke (~mauke@p3m/member/mauke) has quit (Ping timeout: 258 seconds)
+2010-08-15 13:41:04	<--	preflex (~preflex@unaffiliated/mauke/bot/preflex) has quit (Ping timeout: 240 seconds)
+2010-08-15 13:42:58	<--	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (Ping timeout: 276 seconds)
+2010-08-15 13:44:34	-->	yngress (~unknown@pdpc/supporter/active/yngress) has joined #xmonad
+2010-08-15 13:49:13	<--	hoschi (~hoschi@p548CE17E.dip.t-dialin.net) has quit (Read error: Operation timed out)
+2010-08-15 13:49:14	-->	hoschi_ (~hoschi@p548CFCA4.dip.t-dialin.net) has joined #xmonad
+2010-08-15 13:49:54	-->	Athas (~athas@0x50a157d6.alb2nxx15.dynamic.dsl.tele.dk) has joined #xmonad
+2010-08-15 13:51:46	-->	mauke (~mauke@p3m/member/mauke) has joined #xmonad
+2010-08-15 13:52:09	-->	preflex (~preflex@unaffiliated/mauke/bot/preflex) has joined #xmonad
+2010-08-15 13:52:10	--	Mode #xmonad [+v preflex] by ChanServ
+2010-08-15 13:53:09	<--	sorki (~sorki@chello085216203173.chello.sk) has quit (Quit: Lost terminal)
+2010-08-15 13:58:28	-->	watsonalgas (~diomekes@c-71-56-120-21.hsd1.ga.comcast.net) has joined #xmonad
+2010-08-15 14:01:00	-->	sorki (~sorki@chello085216203173.chello.sk) has joined #xmonad
+2010-08-15 14:08:30	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-08-15 14:13:19	-->	Stepardo (~stepardo@p54B3E298.dip.t-dialin.net) has joined #xmonad
+2010-08-15 14:21:13	<--	Stepardo (~stepardo@p54B3E298.dip.t-dialin.net) has quit (Read error: Connection reset by peer)
+2010-08-15 14:28:59	-->	bwinkler (~bwinkler@cpe-74-67-161-199.rochester.res.rr.com) has joined #xmonad
+2010-08-15 14:30:07	-->	leoncamel (~leoncamel@KD175129170046.ppp-bb.dion.ne.jp) has joined #xmonad
+2010-08-15 14:51:13	<--	MrElendig (~oh@pdpc/supporter/active/mrelendig) has quit (Ping timeout: 276 seconds)
+2010-08-15 15:13:50	<--	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (Ping timeout: 240 seconds)
+2010-08-15 15:28:00	-->	dschoepe (~dschoepe@p54AB0018.dip0.t-ipconnect.de) has joined #xmonad
+2010-08-15 15:28:03	<--	dschoepe (~dschoepe@p54AB0018.dip0.t-ipconnect.de) has quit (Changing host)
+2010-08-15 15:28:04	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-08-15 15:44:21	<--	tambourine (~quentin@90.11.47.17) has quit (Quit: Lost terminal)
+2010-08-15 15:49:08	<--	bremner (~bremner@yantan.tethera.net) has quit (Quit: ZNC - http://znc.sourceforge.net)
+2010-08-15 15:49:22	-->	bremner (~bremner@yantan.tethera.net) has joined #xmonad
+2010-08-15 16:12:38	<--	ivanm (~ivan@115.187.254.102) has quit (Remote host closed the connection)
+2010-08-15 16:19:18	--	Lneuij is now known as lneuij
+2010-08-15 16:19:18	-->	anon392526 (~Benny@40.81-166-86.customer.lyse.net) has joined #xmonad
+2010-08-15 16:28:20	-->	yitz (~abba@line236.adsl.actcom.co.il) has joined #xmonad
+2010-08-15 16:32:39	quesada	hoschi_: sabayon
+2010-08-15 16:32:53	quesada	hoschi_: good idea on multiple ghcs...
+2010-08-15 16:33:29	--	hoschi_ is now known as hoschi
+2010-08-15 16:33:53	quesada	hoschi: whereis ghc
+2010-08-15 16:33:55	quesada	ghc: /usr/bin/ghc /usr/X11R6/bin/ghc /usr/bin/X11/ghc
+2010-08-15 16:34:48	<--	bwinkler (~bwinkler@cpe-74-67-161-199.rochester.res.rr.com) has quit (Quit: Leaving)
+2010-08-15 16:36:30	hoschi	quesada: nice, but I only need ghc for xmonad
+2010-08-15 16:38:32	<--	bo0ts__ (~user@f053096015.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2010-08-15 16:38:40	-->	bo0ts__ (~user@f053096015.adsl.alicedsl.de) has joined #xmonad
+2010-08-15 16:48:14	<--	kabniel (~jonas@78-69-91-21-no77.tbcn.telia.com) has quit (Quit: leaving)
+2010-08-15 16:55:19	-->	anRch (~markmilli@64.134.243.182) has joined #xmonad
+2010-08-15 17:15:18	quesada	hoschi: sorry, I don't understand. is ghc for xmonad != system ghc?
+2010-08-15 17:16:47	bremner	it should be the same.  I suspect your /usr/bin/X11R6 and /usr/bin/X11 versions are just symlinks
+2010-08-15 17:16:58	bremner	otherwise putting ghc there is insanity
+2010-08-15 17:17:13	quesada	bremner: lemme check...
+2010-08-15 17:18:00	quesada	bremner: you are right
+2010-08-15 17:18:36	bremner	does "ghci xmonad.hs" work"?
+2010-08-15 17:18:37	quesada	so should I discard the hypothesis that I have two different ghcs on my system?
+2010-08-15 17:19:00	bremner	I guess
+2010-08-15 17:19:22	quesada	bremner: seems to work. I'm at a prompt
+2010-08-15 17:19:51	bremner	^D to exit
+2010-08-15 17:19:58	quesada	k
+2010-08-15 17:20:34	bremner	can you compile and link a simple C program?
+2010-08-15 17:21:12	quesada	haven't touched c in 10 yrs :)
+2010-08-15 17:21:27	quesada	but I'd say gcc works, as I compile from source things like lyx etc
+2010-08-15 17:21:32	-->	elpollo_ (~elpollo@pool-71-172-199-78.nwrknj.east.verizon.net) has joined #xmonad
+2010-08-15 17:22:22	bremner	ok, try "ghc --make xmonad.hs"
+2010-08-15 17:23:29	quesada	gcc: error trying to exec 'as': execvp: No such file or directory
+2010-08-15 17:23:44	bremner	ok, so you have a problem with your ghc installation
+2010-08-15 17:24:01	bremner	re-install/ask-your-distro/file-a-bug
+2010-08-15 17:24:02	quesada	right, the question is what is the problem 
+2010-08-15 17:24:09	quesada	I did already all of those :)
+2010-08-15 17:24:32	<--	sorki (~sorki@chello085216203173.chello.sk) has quit (Ping timeout: 246 seconds)
+2010-08-15 17:24:41	bremner	is sabayon a debian derivative?
+2010-08-15 17:24:47	quesada	bremner: thanks for the debugging
+2010-08-15 17:24:51	quesada	no, gentoo
+2010-08-15 17:25:45	bremner	oh, well, then I am pretty clueless how to fix. But there are loads of haskellers on gentoo.
+2010-08-15 17:25:54	bremner	well, 3 or 4 :)
+2010-08-15 17:26:01	quesada	thanks, I'll try asking there
+2010-08-15 17:26:03	elpollo_	i'm trying to change my modkey to the Menu key, but can't figure out what to set modMask to. if i run xmodmap, Menu isn't listed there.
+2010-08-15 17:26:39	elpollo_	i tried adding Menu to mod3 and then set modMask to mod3Mask, but that didn't work either
+2010-08-15 17:26:41	-->	sorki (~sorki@chello085216203173.chello.sk) has joined #xmonad
+2010-08-15 17:27:22	elpollo_	xmodmap -e "add mod3 = Menu"
+2010-08-15 17:27:26	bremner	quesada: maybe try #gentoo-haskell.  Of course they may just yell at you for using sabayon, I dunno.
+2010-08-15 17:28:52	elpollo_	anyone know where i can find a list of all KeyMask s?
+2010-08-15 17:29:57	-->	blut (~blut@S0106001d7e523ac5.ok.shawcable.net) has joined #xmonad
+2010-08-15 17:32:06	--	elpollo_ is now known as elpolloloco
+2010-08-15 17:32:52	-->	tambourine (~quentin@APoitiers-259-1-130-22.w92-134.abo.wanadoo.fr) has joined #xmonad
+2010-08-15 17:44:57		irc: disconnected from server
+2010-08-18 16:54:49	-->	quesada (~quesada@e178208038.adsl.alicedsl.de) has joined #xmonad
+2010-08-18 16:54:49	--	Topic for #xmonad is "Topic for #xmonad: xmonad: a tiling window manager | xmonad 0.9 released! | http://xmonad.org | rss: http://xmonad.wordpress.com/feed | faq: http://xmonad.org/faq | cheatsheet: http://haskell.org/haskellwiki/Image:Xmbindings.png"
+2010-08-18 16:54:49	--	Topic set by aavogt (~aavogt@engage.uwaterloo.ca) on Fri, 09 Apr 2010 07:25:18
+2010-08-18 16:54:49	--	Nicks #xmonad: [+lambdabot +preflex [31d1] _retroj _sperber_ aavogt Aikawa aiko_ AlexanderS alip allbery_b And1 andrewsw ankan ankit9 Arien__ AriMartti asfethan audunska b4taylor Baughn BigBlackDog bla bo0ts__ bobry bremner brisbin Bruners bthomson byorgey c3l CheariX chewbranca cizra clanehin_ comak CosmicRay cubi danklesman davidL deadguys defn Demosthenes Dephyrial derrotebaron deteego dfkjjkfd dmwit dons drubin dschoepe_ dweller edenc eintopf Entroacceptor ernst fabjan felipe_ flupzor fonz FunctorSalad geheimdienst gereedy gernot Gilly h_noob hanneso hokapoka hoschi_ Hunner insecure Invalido janLo janus jaspervdj jd10 jdoe jhelwig JHoglund johanbev jones- jrk_ jrockway jubos_ jusa_ jvogel kabniel kejsaren kenyon koniiiik ksf_ l0uis leoncamel Liskni_si LMMark lneuij LoganH majoh mauke McManiaC mikezackles mornfall nce ndvivedi noidi novas0x2a npouillard nuba og01 p_l pantski pcc1 Philonous ponky pseup quesada raccoon_ Raku^ ramok reinroux_ rgr rgr_ ricky rootzlevel rudi_s ryanakca sainthuck sbahra schatan sdx23 SeveredCross shachaf simplechat slabanja smeea smly- smorg snapcase sshc stepnem tafryn taihen TeXitoi the_german theDon thedward_ tmug trez trzkril uhsf Valodim Vq watsonalgas wereHamster writer xAFFEE yngress yosafbridge Zao Zepp Ziphilt zitune zorzar]
+2010-08-18 16:54:49	--	Channel #xmonad: 163 nicks (0 ops, 0 halfops, 2 voices, 161 normals)
+2010-08-18 16:54:49	--	Notice(gibson.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2010-08-18 16:54:49	--	URL for #xmonad: http://xmonad.org
+2010-08-18 16:54:50	--	Channel created on Wed, 25 Apr 2007 06:33:15
+2010-08-18 16:54:56	<--	FunctorSalad (~FunctorSa@p4FD892AA.dip0.t-ipconnect.de) has quit (Quit: finite cat is finite :()
+2010-08-18 16:59:19	quesada	anyone has a good solution for swing apps (jedit) not getting focus unless you click on them? i.e. ignoring focus follows mouse)
+2010-08-18 17:00:15	-->	tlonim (~raghavend@unaffiliated/tlonim) has joined #xmonad
+2010-08-18 17:05:11	-->	tharkun (~0@201.155.49.250) has joined #xmonad
+2010-08-18 17:08:35	uhsf	LMMark: , ((modMask .|. shiftMask,   xK_e), sendMessage MirrorExpand) , ((modMask .|. shiftMask,   xK_s), sendMessage MirrorShrink)
+2010-08-18 17:20:48	<--	uhsf (~uhsf@modemcable015.224-82-70.mc.videotron.ca) has quit (Quit: leaving)
+2010-08-18 17:21:59	-->	mrdk (~marduk@80-218-1-172.dclient.hispeed.ch) has joined #xmonad
+2010-08-18 17:22:47	-->	uhsf (~uhsf@modemcable015.224-82-70.mc.videotron.ca) has joined #xmonad
+2010-08-18 17:31:51	-->	anRch (~markmilli@64.134.69.34) has joined #xmonad
+2010-08-18 17:41:22	<--	asfethan (~asfalatus@93.185.103.222) has quit (Quit: test)
+2010-08-18 17:42:22	-->	tehdavid (~David@95.144.210.211) has joined #xmonad
+2010-08-18 17:42:52	tehdavid	hey guys, what's the best way to monitor gmail in a dzen bar? (I already use conky)
+2010-08-18 17:46:05	<--	c3l (~c3l@c-4792e253.04-264-73746f13.cust.bredbandsbolaget.se) has quit (Ping timeout: 240 seconds)
+2010-08-18 17:56:26	<--	fonz (~tp@e178121236.adsl.alicedsl.de) has quit (Ping timeout: 276 seconds)
+2010-08-18 17:56:42	-->	nyergler (~nyergler@pdpc/supporter/active/nyergler) has joined #xmonad
+2010-08-18 17:57:51	-->	fonz (~tp@e178190204.adsl.alicedsl.de) has joined #xmonad
+2010-08-18 17:59:07	-->	c3l (~c3l@c-4792e253.04-264-73746f13.cust.bredbandsbolaget.se) has joined #xmonad
+2010-08-18 18:00:48	<--	tlonim (~raghavend@unaffiliated/tlonim) has quit (Quit: WeeChat 0.3.3-dev)
+2010-08-18 18:03:26	<--	trzkril (~simon@pm-lan1.inferenzsysteme.informatik.tu-darmstadt.de) has quit (Quit: leaving)
+2010-08-18 18:07:39	-->	IamMilan (~milan@port-92-204-40-103.dynamic.qsc.de) has joined #xmonad
+2010-08-18 18:09:52	<--	the_german (~srm@pcazubi02.ipp.mpg.de) has left #xmonad
+2010-08-18 18:12:23	--	IamMilan is now known as insomniaSalt
+2010-08-18 18:12:39	-->	t3eblinder (~wolfgang@p5B200562.dip0.t-ipconnect.de) has joined #xmonad
+2010-08-18 18:12:50	<--	bobry (~superbobr@195.9.46.189) has quit (Quit: flew away...)
+2010-08-18 18:19:20	<--	writer (~writer@unaffiliated/writer) has quit (Quit: writer)
+2010-08-18 18:20:14	-->	writer (~writer@unaffiliated/writer) has joined #xmonad
+2010-08-18 18:20:25	--	zorzar is now known as zorzar_away
+2010-08-18 18:20:28	-->	egan (~egan@agricola.medieval.org) has joined #xmonad
+2010-08-18 18:22:15	egan	Hey, I'm looking to add/change the default terminal keybinding from M-S-Enter to M-x (I use additionalKeysP from EZconfig). I have tried adding a binding for "spawn $ XMonad.terminal conf" which I see on the web, but I get an error about conf not being in the scope. What am I missing?
+2010-08-18 18:25:28	allbery_b	conf is available if you use the old style key setting, not with EZConfig
+2010-08-18 18:25:45	egan	I see, so what would the proper line be?
+2010-08-18 18:27:15	geheimdienst	i guess you can just say: spawn "xterm"
+2010-08-18 18:27:19	allbery_b	I think you need to break the terminal definition out so you can reference it
+2010-08-18 18:27:21	geheimdienst	or whatever you use for terminals
+2010-08-18 18:27:51	geheimdienst	i mean, it's not gonna change so often that you absolutely need it to be in only one place
+2010-08-18 18:28:15	egan	I suppose. I guess I kinda wanted to know how to do it "correctly".
+2010-08-18 18:28:26	geheimdienst	;-)
+2010-08-18 18:28:50	geheimdienst	i guess "correctly" would be myTerminal = "xterm" and then later in your binding: spawn myTerminal
+2010-08-18 18:29:03	geheimdienst	and in the main config, terminal = myTerminal
+2010-08-18 18:29:13	allbery_b	yes
+2010-08-18 18:29:24	geheimdienst	i.e. make a top-level variable and reference it from everywhere you need it
+2010-08-18 18:31:35	-->	saintluck (~sainthuck@240-234-103-86.dynamic.dsl.tng.de) has joined #xmonad
+2010-08-18 18:31:46	egan	That works. Thanks for the advice.
+2010-08-18 18:32:11	<--	nyergler (~nyergler@pdpc/supporter/active/nyergler) has quit (Ping timeout: 248 seconds)
+2010-08-18 18:33:02	-->	RayNbow (kirika@scientia.demon.nl) has joined #xmonad
+2010-08-18 18:34:17	<--	egan (~egan@agricola.medieval.org) has left #xmonad
+2010-08-18 18:34:45	-->	zorzar (~zorzar@p4FFD0F4D.dip.t-dialin.net) has joined #xmonad
+2010-08-18 18:35:32	<--	sainthuck (~sainthuck@46-231-103-86.dynamic.dsl.tng.de) has quit (Ping timeout: 276 seconds)
+2010-08-18 18:35:32	--	saintluck is now known as sainthuck
+2010-08-18 18:36:59	<--	zorzar_away (~zorzar@p4FFD20BC.dip.t-dialin.net) has quit (Ping timeout: 248 seconds)
+2010-08-18 18:48:58	-->	pARESit (~pit@drsd-4d05ef21.pool.mediaWays.net) has joined #xmonad
+2010-08-18 18:49:28	<--	writer (~writer@unaffiliated/writer) has quit (Quit: writer)
+2010-08-18 18:56:18	-->	panurg (~panurg@dyn-184-77.fttb.kis.ru) has joined #xmonad
+2010-08-18 18:57:07	-->	amphi (~amphi@unaffiliated/amphi) has joined #xmonad
+2010-08-18 19:08:09	<--	tehdavid (~David@95.144.210.211) has quit (Quit: Lost terminal)
+2010-08-18 19:12:17	<--	deteego (~deteego@d220-239-144-18.bla801.nsw.optusnet.com.au) has quit (Remote host closed the connection)
+2010-08-18 19:13:05	<--	simplechat (~simplecha@unaffiliated/simplechat) has quit (Remote host closed the connection)
+2010-08-18 19:13:25	<--	anRch (~markmilli@64.134.69.34) has quit (Quit: anRch)
+2010-08-18 19:30:50	<--	t3eblinder (~wolfgang@p5B200562.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2010-08-18 19:36:41	<--	bo0ts__ (~user@f053097036.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2010-08-18 19:41:25	-->	writer (~writer@unaffiliated/writer) has joined #xmonad
+2010-08-18 19:44:06	-->	pting (~pting@99.32.245.41) has joined #xmonad
+2010-08-18 19:47:03	<--	xAFFEE (ejabberd@charlie333.server4you.de) has left #xmonad
+2010-08-18 19:52:13	<--	derrotebaron (~ne32jilo@faui0sr0.informatik.uni-erlangen.de) has quit (Remote host closed the connection)
+2010-08-18 19:57:28	-->	ampzqlox (~firstname@pool-96-251-128-86.lsanca.fios.verizon.net) has joined #xmonad
+2010-08-18 19:58:16	-->	Dashkal (~dashkal@WoWUIDev/Nexus/dashkal) has joined #xmonad
+2010-08-18 20:00:36	-->	derrotebaron (~ne32jilo@faui0sr0.informatik.uni-erlangen.de) has joined #xmonad
+2010-08-18 20:09:38		irc: disconnected from server

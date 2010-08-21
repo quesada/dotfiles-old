@@ -1,0 +1,11 @@
+[2010-08-20 13:17:37] weechat 0.3.3 (compiled on Aug 12 2010 10:04:15)
+[2010-08-20 13:17:37] Reading configuration file weechat.conf
+[2010-08-20 13:17:37] Reading configuration file plugins.conf
+[2010-08-20 13:17:37] Reading configuration file charset.conf
+[2010-08-20 13:17:37] Reading configuration file alias.conf
+[2010-08-20 13:17:37] Reading configuration file aspell.conf
+[2010-08-20 13:17:37] Reading configuration file logger.conf
+[2010-08-20 13:17:37] Reading configuration file xfer.conf
+[2010-08-20 13:17:37] Reading configuration file irc.conf
+[2010-08-20 13:17:53] irc: connecting to server chat.freenode.net/6667...
+[2010-08-21 04:43:43] irc: connecting to server chat.freenode.net/6667...

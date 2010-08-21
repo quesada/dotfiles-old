@@ -1,0 +1,990 @@
+2010-08-15 09:57:57	-->	quesada (~quesada@e178203132.adsl.alicedsl.de) has joined #sabayon
+2010-08-15 09:57:57	--	Topic for #sabayon is "Welcome to Sabayon Linux, the installable, Gentoo-based, preconfigured, livedisc || Sabayon 5.3 RELEASED! || Mirrors: www.sabayon.org/download || Social stuff belongs in -social || Planet: planet.sabayon.org || Please ask your question, do not ask to ask. || Sabayon 4.x repositories are now offline. There is no safe upgrade path|| NO PASTING IN CHANNEL! || Iwonder|too R.I.P"
+2010-08-15 09:57:57	--	Topic set by Azerthoth (~azerthoth@funtoo/user/azerthoth) on Thu, 15 Jul 2010 23:59:31
+2010-08-15 09:57:57	--	Nicks #sabayon: [@c0nv1ct @ChanServ @|Cadmus| AstralStorm Autie Azerthoth|D beees billie bsdfox_ chickpea chris____ DanySK denysonique deusr_ dougl Er0x fleebailey33 gadwin GHellings inaeth iwishikne jasherai lxnay|bot lxnay|two lythandrel nyshtyak omgpenguins optiz0r paar ParkerBeta paszczus paztulio pentament pestilent PKarlsson quesada Radtoo Raenk Samae Shinigami-Sama snot tangent Tina- Touchstone tyranny12 vdex Vitoriung wolfbear wolfden]
+2010-08-15 09:57:57	--	Channel #sabayon: 49 nicks (3 ops, 0 halfops, 0 voices, 46 normals)
+2010-08-15 09:57:59	--	Channel created on Mon, 12 Feb 2007 09:33:11
+2010-08-15 10:04:00	<--	deusr_ (~quassel@189.83.21.78) has quit (Read error: Connection reset by peer)
+2010-08-15 10:04:06	-->	deusr (~quassel@189.83.21.78) has joined #sabayon
+2010-08-15 10:04:30	<--	Azerthoth|D (~azerthoth@funtoo/user/azerthoth) has quit (Remote host closed the connection)
+2010-08-15 10:05:25	<--	deusr (~quassel@189.83.21.78) has quit (Remote host closed the connection)
+2010-08-15 10:05:31	--	Mode #sabayon [+l 55] by |Cadmus|
+2010-08-15 10:05:56	-->	deusr (~quassel@189.83.21.78) has joined #sabayon
+2010-08-15 10:10:37	deusr	AstralStorm: hi, I installed the gtk-qt-engine, but do not know how I apply for leave programs with gtk-qt appearance
+2010-08-15 10:12:19	AstralStorm	you need a way to set gtk themes - one is in KDE control panel, another could be gtkchtheme
+2010-08-15 10:12:39	AstralStorm	*gtk-chtheme
+2010-08-15 10:13:02	AstralStorm	or you could manually edit ~/.gtkrc-2.0
+2010-08-15 10:20:08	deusr	AstralStorm: kde panel is not showing up :/
+2010-08-15 10:23:28	deusr	AstralStorm: thanks ;)
+2010-08-15 10:27:19	-->	bf109 (~ulose@122-124-128-235.dynamic.hinet.net) has joined #sabayon
+2010-08-15 10:28:00	<--	bf109 (~ulose@122-124-128-235.dynamic.hinet.net) has left #sabayon
+2010-08-15 10:30:25	<--	deusr (~quassel@189.83.21.78) has quit (Remote host closed the connection)
+2010-08-15 10:35:44	-->	jean-francois (~jean-fran@199.207.74-86.rev.gaoland.net) has joined #sabayon
+2010-08-15 10:35:47	jean-francois	hi
+2010-08-15 10:36:45	jean-francois	Could you please explain how we can switch flash 64 to 32 ? Latest adobe flash is not supported in 64 as far as I understood.
+2010-08-15 10:36:46	jean-francois	Tx
+2010-08-15 10:45:50	-->	freeallbadgers (~badger@freeallbadgers.plus.com) has joined #sabayon
+2010-08-15 10:58:41	AstralStorm	jean-francois: install adobe-flash, then nspluginwrapper
+2010-08-15 10:58:50	AstralStorm	(or vice versa)
+2010-08-15 10:59:18	AstralStorm	then run nspluginwrapper -l and -i, possibly -a
+2010-08-15 11:00:07	<--	nyshtyak (~nyshtyak@80.249.94.192) has quit (Read error: Connection reset by peer)
+2010-08-15 11:13:09	-->	thomas82 (~x@94-192-215-34.zone6.bethere.co.uk) has joined #sabayon
+2010-08-15 11:13:21	-->	sabayonweb_90335 (5ededf16@gateway/web/freenode/ip.94.222.223.22) has joined #sabayon
+2010-08-15 11:13:30	--	Mode #sabayon [+l 58] by |Cadmus|
+2010-08-15 11:17:11	<--	sabayonweb_90335 (5ededf16@gateway/web/freenode/ip.94.222.223.22) has quit (Client Quit)
+2010-08-15 11:28:42	-->	sabayonweb_78886 (6d5cca2d@gateway/web/freenode/ip.109.92.202.45) has joined #sabayon
+2010-08-15 11:29:16	sabayonweb_78886	serbian ?
+2010-08-15 11:30:37	<--	sabayonweb_78886 (6d5cca2d@gateway/web/freenode/ip.109.92.202.45) has quit (Client Quit)
+2010-08-15 11:32:47	-->	DaZ (~drevnikoc@87-205-38-12.adsl.inetia.pl) has joined #sabayon
+2010-08-15 11:39:03	jean-francois	AstralStorm, after that I don't know how to proceed
+2010-08-15 11:39:39	AstralStorm	hmm? nspluginwrapper -l will list the plugins
+2010-08-15 11:39:54	AstralStorm	and nspluginwrapper -i <name> will wrap it to work in 64-bit browser
+2010-08-15 11:40:06	AstralStorm	your browser (esp. firefox) should pick that up
+2010-08-15 11:54:16	-->	r1k0 (~rik@cust-20-179-108-94.dyn.as47377.net) has joined #sabayon
+2010-08-15 12:08:27	-->	lorenzo (~lorenzo@host168-247-dynamic.26-79-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-15 12:11:11	-->	DanySK86 (~danysk@host164-194-dynamic.16-87-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-15 12:11:31	--	Mode #sabayon [+l 61] by |Cadmus|
+2010-08-15 12:13:04	-->	sabayonweb_64254 (48e0cbcf@gateway/web/freenode/ip.72.224.203.207) has joined #sabayon
+2010-08-15 12:13:18	sabayonweb_64254	ive got the most strange bug ever
+2010-08-15 12:14:15	sabayonweb_64254	so i do an install of gnome sabayon 5.3, equo update everything, disable some startup stuff, and setup pidgin
+2010-08-15 12:14:18	sabayonweb_64254	i reboot
+2010-08-15 12:14:26	sabayonweb_64254	and now ive got no gnome panel
+2010-08-15 12:14:52	sabayonweb_64254	i can right click into a terminal, and i can do that, but without a panel gnome isnt that fun lol
+2010-08-15 12:15:03	sabayonweb_64254	anyone got any suggestions?
+2010-08-15 12:17:06	jean-francois	a problem with 3d acceleration, I 'ondt remember how to solve it, I had same issue.
+2010-08-15 12:17:20	jean-francois	AstramStorm "nspluginwrapper -l" => "Original plugin: /usr/lib64/nspluginwrapper/x86_64/linux/npwrapper.so" and "Original plugin: /usr/lib64/nspluginwrapper/x86_64/linux/npwrapper.so"
+2010-08-15 12:17:32	sabayonweb_64254	oh cuz i can get compiz running no problem
+2010-08-15 12:17:54	jean-francois	other commands won't work "nspluginwrapper: npwrapper.so is not a valid NPAPI plugin" ?
+2010-08-15 12:18:49	sabayonweb_64254	do i just delete the .gnome folders?
+2010-08-15 12:19:21	jean-francois	there is a command to run, I used to put it in the autorun files in gnome configuration panel
+2010-08-15 12:19:52	jean-francois	I won't remember which it was, it starts something like compiz or so ....
+2010-08-15 12:20:01	sabayonweb_64254	$ gnome-panel and i get bash: gnome-panel: command not found
+2010-08-15 12:20:16	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #sabayon
+2010-08-15 12:20:24	jean-francois	could you try running in a concole fomiz-fuzion for example and see what it does
+2010-08-15 12:20:48	jean-francois	I won't be too mch of help, i don't remember well this issue.
+2010-08-15 12:21:05	sabayonweb_64254	oh ive already got compiz working lol. i used fusion icon. compiz works without a problem
+2010-08-15 12:22:18	-->	nyshtyak (~nyshtyak@80.249.81.241) has joined #sabayon
+2010-08-15 12:22:30	--	Mode #sabayon [+l 64] by |Cadmus|
+2010-08-15 12:23:12	<--	lorenzo (~lorenzo@host168-247-dynamic.26-79-r.retail.telecomitalia.it) has quit (Ping timeout: 265 seconds)
+2010-08-15 12:23:32	-->	virys (~virys@h199n1-bn-gr100.ias.bredband.telia.com) has joined #sabayon
+2010-08-15 12:23:32	<--	virys (~virys@h199n1-bn-gr100.ias.bredband.telia.com) has quit (Changing host)
+2010-08-15 12:23:32	-->	virys (~virys@unaffiliated/virys) has joined #sabayon
+2010-08-15 12:23:46	sabayonweb_64254	it wouldnt be that bad if not for the fact that most major apps have icons in the notification tray
+2010-08-15 12:24:59	<--	DanySK86 (~danysk@host164-194-dynamic.16-87-r.retail.telecomitalia.it) has quit (Ping timeout: 276 seconds)
+2010-08-15 12:31:55	<--	sabayonweb_64254 (48e0cbcf@gateway/web/freenode/ip.72.224.203.207) has quit (Quit: Page closed)
+2010-08-15 12:32:20	-->	sabayonuser (~sabayonus@cpe-72-224-203-207.maine.res.rr.com) has joined #sabayon
+2010-08-15 12:32:28	sabayonuser	back
+2010-08-15 12:32:34	sabayonuser	the webapp kicked me off
+2010-08-15 12:32:57	sabayonuser	what did I miss
+2010-08-15 12:35:13	sabayonuser	ohh my god are you serious? I uninstalled the evolution server and for some reason gnome-panel is dependant on that
+2010-08-15 12:35:19	sabayonuser	i uninstalled gnome panel
+2010-08-15 12:36:52	-->	lorenzo (~lorenzo@87.13.192.62) has joined #sabayon
+2010-08-15 12:38:02	<--	sabayonuser (~sabayonus@cpe-72-224-203-207.maine.res.rr.com) has quit (Remote host closed the connection)
+2010-08-15 12:41:54	<--	fleebailey33 (~fleebaile@unaffiliated/fleebailey33) has quit (Ping timeout: 245 seconds)
+2010-08-15 12:43:39	-->	Giggaflop (~Mr_bo_jan@host86-155-88-226.range86-155.btcentralplus.com) has joined #sabayon
+2010-08-15 12:43:42	-->	fleebailey33 (~fleebaile@unaffiliated/fleebailey33) has joined #sabayon
+2010-08-15 12:46:16	jean-francois	AstralStorm any idea what to do ? I don't understand ....
+2010-08-15 12:46:17	jean-francois	http://pastebin.com/2VN0Hi6Q
+2010-08-15 12:46:44	-->	shocklateboy92 (~lasath@123-243-11-156.static.tpgi.com.au) has joined #sabayon
+2010-08-15 12:46:57	shocklateboy92	hey
+2010-08-15 12:47:05	shocklateboy92	with the KDE 4.5 update?
+2010-08-15 12:47:11	shocklateboy92	the wait..
+2010-08-15 12:47:19	shocklateboy92	seriously, how long
+2010-08-15 12:47:25	shocklateboy92	like hours...
+2010-08-15 12:47:27	shocklateboy92	days..
+2010-08-15 12:47:29	shocklateboy92	or weeks?
+2010-08-15 12:48:21	jean-francois	it's no more than hour or couple of.
+2010-08-15 12:48:31	jean-francois	depending upon your hardware
+2010-08-15 12:49:05	-->	sabayonweb_81242 (5ededf16@gateway/web/freenode/ip.94.222.223.22) has joined #sabayon
+2010-08-15 12:50:44	<--	sabayonweb_81242 (5ededf16@gateway/web/freenode/ip.94.222.223.22) has quit (Client Quit)
+2010-08-15 12:51:28	<--	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Remote host closed the connection)
+2010-08-15 12:51:52	lythandrel	shocklateboy92: when it's ready
+2010-08-15 12:57:13	-->	fleebailey34 (~fleebaile@unaffiliated/fleebailey33) has joined #sabayon
+2010-08-15 12:57:15	<--	fleebailey33 (~fleebaile@unaffiliated/fleebailey33) has quit (Ping timeout: 265 seconds)
+2010-08-15 13:00:54	shocklateboy92	from past experience
+2010-08-15 13:01:01	shocklateboy92	what would your guess be
+2010-08-15 13:01:02	shocklateboy92	?
+2010-08-15 13:05:10	<--	DaZ (~drevnikoc@87-205-38-12.adsl.inetia.pl) has quit (Read error: Connection reset by peer)
+2010-08-15 13:11:57	jean-francois	Flash issue : any idea how to switch to 32 bits ?
+2010-08-15 13:11:58	jean-francois	http://pastebin.com/2VN0Hi6Q
+2010-08-15 13:14:11	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #sabayon
+2010-08-15 13:20:45	-->	DHalens (~DHalens@unaffiliated/dhalens) has joined #sabayon
+2010-08-15 13:21:36	<--	jean-francois (~jean-fran@199.207.74-86.rev.gaoland.net) has quit (Remote host closed the connection)
+2010-08-15 13:34:08	<--	virys (~virys@unaffiliated/virys) has quit (Remote host closed the connection)
+2010-08-15 13:38:36	<--	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Remote host closed the connection)
+2010-08-15 13:53:46	-->	sabayonweb_67756 (51b67af0@gateway/web/freenode/ip.81.182.122.240) has joined #sabayon
+2010-08-15 13:53:51	<--	thomas82 (~x@94-192-215-34.zone6.bethere.co.uk) has quit (Remote host closed the connection)
+2010-08-15 13:53:56	sabayonweb_67756	hello
+2010-08-15 13:54:07	sabayonweb_67756	need help please
+2010-08-15 13:54:27	sabayonweb_67756	nvidia driver how to install?
+2010-08-15 14:00:14	DHalens	equo update && equo install nvidia-drivers
+2010-08-15 14:03:37	<--	sabayonweb_67756 (51b67af0@gateway/web/freenode/ip.81.182.122.240) has quit (Quit: Page closed)
+2010-08-15 14:04:30	--	Mode #sabayon [+l 61] by |Cadmus|
+2010-08-15 14:08:07	-->	sabayonweb_24452 (46ee919d@gateway/web/freenode/ip.70.238.145.157) has joined #sabayon
+2010-08-15 14:09:05	-->	dMaggot (~david@201.227.175.3) has joined #sabayon
+2010-08-15 14:10:34	<--	r1k0 (~rik@cust-20-179-108-94.dyn.as47377.net) has quit (Ping timeout: 240 seconds)
+2010-08-15 14:14:33	<--	sabayonweb_24452 (46ee919d@gateway/web/freenode/ip.70.238.145.157) has quit (Ping timeout: 252 seconds)
+2010-08-15 14:17:31	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #sabayon
+2010-08-15 14:40:29	-->	MeaCulpa (~MeaCulpa@221.239.217.79) has joined #sabayon
+2010-08-15 15:01:07	 *	PKarlsson is away: Away
+2010-08-15 15:02:00	-->	lxnay|bo1 (~fabio@host180-48-dynamic.249-95-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-15 15:02:00	<--	lxnay|bo1 (~fabio@host180-48-dynamic.249-95-r.retail.telecomitalia.it) has quit (Changing host)
+2010-08-15 15:02:00	-->	lxnay|bo1 (~fabio@gentoo/developer/lxnay) has joined #sabayon
+2010-08-15 15:02:29	--	Mode #sabayon [+l 64] by |Cadmus|
+2010-08-15 15:04:39	-->	lxnay|three (~lxnay@host180-48-dynamic.249-95-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-15 15:05:07	<--	lxnay|two (~lxnay@95.233.48.201) has quit (Ping timeout: 255 seconds)
+2010-08-15 15:05:25	<--	lxnay|bot (~fabio@gentoo/developer/lxnay) has quit (Ping timeout: 252 seconds)
+2010-08-15 15:08:01	-->	laci (~laci@dsl51B66F8F.pool.t-online.hu) has joined #sabayon
+2010-08-15 15:08:03	<--	laci (~laci@dsl51B66F8F.pool.t-online.hu) has quit (Changing host)
+2010-08-15 15:08:04	-->	laci (~laci@unaffiliated/laci) has joined #sabayon
+2010-08-15 15:17:16	-->	sabayonweb_36523 (29c93ffd@gateway/web/freenode/ip.41.201.63.253) has joined #sabayon
+2010-08-15 15:18:37	sabayonweb_36523	how to install testdisk on to sabayon
+2010-08-15 15:20:48	<--	sabayonweb_36523 (29c93ffd@gateway/web/freenode/ip.41.201.63.253) has left #sabayon
+2010-08-15 15:25:52	<--	nyshtyak (~nyshtyak@80.249.81.241) has quit (Quit: В этой жизни меня подводят доброта и порядочность)
+2010-08-15 15:27:05	-->	MeaCulpa1 (~MeaCulpa@221.239.217.79) has joined #sabayon
+2010-08-15 15:28:47	-->	nyshtyak (~nyshtyak@80.249.81.241) has joined #sabayon
+2010-08-15 15:30:14	<--	MeaCulpa (~MeaCulpa@221.239.217.79) has quit (Ping timeout: 265 seconds)
+2010-08-15 15:31:22	-->	sabayonweb_53980 (4fdec314@gateway/web/freenode/ip.79.222.195.20) has joined #sabayon
+2010-08-15 15:31:45	sabayonweb_53980	How can i disable text coloring of the terminal?
+2010-08-15 15:37:19	DHalens	!g disable color in terminal
+2010-08-15 15:37:21	@|Cadmus|	Google  | IT Resource Center forums - disable co @ http://forums11.itrc.hp.com/service/forums/questionanswer.do?threadId=1122387 | Disable color printing in Cixtrix/ter @ http://www.experts-exchange.com/OS/Microsoft_Operating_Systems/Windows/2000/Q_21163683.html | Turn on or off color syntax highlighti @ http://www.cyberciti.biz/faq/turn-on-or-off-color-syntax-highlighting-in-vi-or-vim/ |
+2010-08-15 15:37:23	@|Cadmus|	EmacsWiki: Color Theme Questions @ http://www.emacswiki.org/emacs/ColorThemeQuestions
+2010-08-15 15:38:21	<--	billie (~billie@gentoo/developer/billie) has quit (Remote host closed the connection)
+2010-08-15 15:38:26	-->	billie (~billie@gentoo/developer/billie) has joined #sabayon
+2010-08-15 15:39:29	<--	billie (~billie@gentoo/developer/billie) has quit (Client Quit)
+2010-08-15 15:39:48	<--	Giggaflop (~Mr_bo_jan@host86-155-88-226.range86-155.btcentralplus.com) has quit (Remote host closed the connection)
+2010-08-15 15:42:46	--	sabayonweb_53980 is now known as mr4m
+2010-08-15 15:45:00	<--	laci (~laci@unaffiliated/laci) has quit (Quit: Távozom)
+2010-08-15 15:51:27	 *	PKarlsson is back (gone 00:50:21)
+2010-08-15 15:53:48	mr4m	DHalens: Thanks, but i think the color output is a global thing.
+2010-08-15 15:55:04	DHalens	hmm... anyway, a few commands accept the --nocolor param so unless it's a big issue, you can live with that
+2010-08-15 15:55:31	mr4m	i'm trying to change the text color for a boot splash which uses a white background.
+2010-08-15 15:56:35	mr4m	The specified text color is ignored ecause of the global colouring.
+2010-08-15 16:05:38	-->	billie (~billie@gentoo/developer/billie) has joined #sabayon
+2010-08-15 16:08:28	<--	mr4m (4fdec314@gateway/web/freenode/ip.79.222.195.20) has left #sabayon
+2010-08-15 16:13:19	<--	dMaggot (~david@201.227.175.3) has quit (Ping timeout: 264 seconds)
+2010-08-15 16:13:29	--	Mode #sabayon [+l 61] by |Cadmus|
+2010-08-15 16:30:47	-->	dMaggot (~david@201.227.175.3) has joined #sabayon
+2010-08-15 16:40:03	-->	david_ (~david@201.227.175.3) has joined #sabayon
+2010-08-15 16:40:28	<--	dMaggot (~david@201.227.175.3) has quit (Read error: No route to host)
+2010-08-15 16:45:03	-->	Giggaflop (~Mr_bo_jan@host86-155-88-226.range86-155.btcentralplus.com) has joined #sabayon
+2010-08-15 16:51:17	<--	MeaCulpa1 (~MeaCulpa@221.239.217.79) has left #sabayon ("Vajrayana is no Buddhism!")
+2010-08-15 16:52:11	-->	sabayonuser (~sabayonus@host61-143-dynamic.55-82-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-15 16:52:18	<--	david_ (~david@201.227.175.3) has quit (Ping timeout: 245 seconds)
+2010-08-15 16:52:20	-->	MeaCulpa1 (~MeaCulpa@221.239.217.79) has joined #sabayon
+2010-08-15 16:59:49	-->	david_ (~david@201.227.175.3) has joined #sabayon
+2010-08-15 17:00:30	--	Mode #sabayon [+l 64] by |Cadmus|
+2010-08-15 17:03:42	<--	freeallbadgers (~badger@freeallbadgers.plus.com) has quit (Ping timeout: 276 seconds)
+2010-08-15 17:04:21	-->	freeallbadgers (~badger@freeallbadgers.plus.com) has joined #sabayon
+2010-08-15 17:06:34	-->	sabayonuser2 (~sabayonus@90.189.183.219) has joined #sabayon
+2010-08-15 17:07:10	-->	sabayonweb_17530 (4fdec314@gateway/web/freenode/ip.79.222.195.20) has joined #sabayon
+2010-08-15 17:08:44	<--	sabayonuser2 (~sabayonus@90.189.183.219) has quit (Client Quit)
+2010-08-15 17:08:55	sabayonweb_17530	How can i force Sabayon to ignore errors on startup, so i can view the silent boot splash?
+2010-08-15 17:09:09	<--	david_ (~david@201.227.175.3) has quit (Ping timeout: 252 seconds)
+2010-08-15 17:09:21	Giggaflop	umm
+2010-08-15 17:09:26	Giggaflop	if your having errors
+2010-08-15 17:09:32	Giggaflop	you might wanna fix them
+2010-08-15 17:10:38	<--	freeallbadgers (~badger@freeallbadgers.plus.com) has quit (Ping timeout: 245 seconds)
+2010-08-15 17:11:06	sabayonweb_17530	No, i like them. : > i mean in QEmu.
+2010-08-15 17:11:40	sabayonweb_17530	i just want to test the boot splash without rebooting.
+2010-08-15 17:13:16	-->	alphad (~quassel@41.66.6.54) has joined #sabayon
+2010-08-15 17:15:02	DHalens	there's a command for that, check the gentoo guide for splash
+2010-08-15 17:21:25	-->	P_Kable (~P_Kable@ALyon-554-1-137-178.w86-219.abo.wanadoo.fr) has joined #sabayon
+2010-08-15 17:25:56	-->	freeallbadgers (~badger@freeallbadgers.plus.com) has joined #sabayon
+2010-08-15 17:27:14	<--	sabayonweb_17530 (4fdec314@gateway/web/freenode/ip.79.222.195.20) has quit (Quit: Page closed)
+2010-08-15 17:28:03	-->	genfool (~genfool@unaffiliated/genfool) has joined #sabayon
+2010-08-15 17:29:07	-->	sabayonweb_35077 (59e775a5@gateway/web/freenode/ip.89.231.117.165) has joined #sabayon
+2010-08-15 17:29:28	--	Mode #sabayon [+l 67] by |Cadmus|
+2010-08-15 17:30:43	<--	sabayonweb_35077 (59e775a5@gateway/web/freenode/ip.89.231.117.165) has quit (Client Quit)
+2010-08-15 17:33:34	-->	Greywhind (~Greywhind@pool-96-238-43-241.prvdri.fios.verizon.net) has joined #sabayon
+2010-08-15 17:43:18	-->	sabayonuser2 (~sabayonus@ool-18e45c73.dyn.optonline.net) has joined #sabayon
+2010-08-15 17:44:57		irc: disconnected from server
+2010-08-18 15:15:57	-->	quesada (~quesada@e178208038.adsl.alicedsl.de) has joined #sabayon
+2010-08-18 15:15:57	--	Topic for #sabayon is "Welcome to Sabayon Linux, the installable, Gentoo-based, preconfigured, livedisc || Sabayon 5.3 RELEASED! || Mirrors: www.sabayon.org/download || Social stuff belongs in -social || Planet: planet.sabayon.org || Please ask your question, do not ask to ask. || Sabayon 4.x repositories are now offline. There is no safe upgrade path|| NO PASTING IN CHANNEL! || Iwonder|too R.I.P"
+2010-08-18 15:15:57	--	Topic set by Azerthoth (~azerthoth@funtoo/user/azerthoth) on Thu, 15 Jul 2010 23:59:31
+2010-08-18 15:15:57	--	Nicks #sabayon: [@ChanServ @|Cadmus| AstralStorm Autie beees bsdfox c0nv1ct cad DanySK DaZ denysonique DHalens dontpanic dougl Enlik Er0x fleebailey33 freeallbadgers Gadwin genfool GHellings1 Giggaflop inaeth iwishikne jasherai|away kiuma koo5 laci lorenzo_ MeaCulpa MeaCulpa1 me|kor nakee_ ogunay omgpenguins optiz0r paar__ ParkerBeta paszczus paztulio pentament pestilent quesada Radtoo Raenk Samae Shinigami-Sama Sleepy63 snot tangent Tina- Touchstone tyranny12 vdex virys Vitoriung wolfden]
+2010-08-18 15:15:57	--	Channel #sabayon: 57 nicks (2 ops, 0 halfops, 0 voices, 55 normals)
+2010-08-18 15:15:59	--	Channel created on Mon, 12 Feb 2007 09:33:11
+2010-08-18 15:18:06	<--	MeaCulpa (~MeaCulpa@221.239.217.79) has quit (Ping timeout: 240 seconds)
+2010-08-18 15:19:24	<--	me|kor (~melkor@srbk-d9324d0e.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-08-18 15:22:27	-->	Greywhind (~Greywhind@fw-34-18.cs.brown.edu) has joined #sabayon
+2010-08-18 15:24:48	<--	Greywhind (~Greywhind@fw-34-18.cs.brown.edu) has quit (Client Quit)
+2010-08-18 15:25:14	-->	Greywhind (~Greywhind@fw-34-17.cs.brown.edu) has joined #sabayon
+2010-08-18 15:28:31	<--	cad (~cad@88.254.65.167) has quit (Ping timeout: 255 seconds)
+2010-08-18 15:50:14	-->	sheepbat (~lev3k@c-98-238-227-32.hsd1.ca.comcast.net) has joined #sabayon
+2010-08-18 15:54:35	-->	user_ (~vaishali@c-69-181-40-175.hsd1.ca.comcast.net) has joined #sabayon
+2010-08-18 15:55:18	-->	lythandrel (~lythandre@unaffiliated/lythandrel) has joined #sabayon
+2010-08-18 15:56:00	--	Mode #sabayon [+l 66] by |Cadmus|
+2010-08-18 15:57:47	user_	hi friends...i have installed sabayon yesterday but I am noticing that its using only 36 GB of my HDD even though i have a 80 GB hdd. I am enclosing my fdisk and df -h results. Please help.
+2010-08-18 15:58:04	user_	fdisk shows the following http://www.sabayon.org/pastie/4618
+2010-08-18 15:58:21	user_	df shows the following http://www.sabayon.org/pastie/4619
+2010-08-18 15:58:49	-->	lxnay|lappie (~fabio@93.69.44.210) has joined #sabayon
+2010-08-18 16:02:06	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #sabayon
+2010-08-18 16:12:27	lythandrel	user_:36 + 36 == 72
+2010-08-18 16:12:40	lythandrel	which is pretty darned close to 80
+2010-08-18 16:13:18	-->	CaptainSifff (~CaptainSi@wthp131d.physik.uni-wuerzburg.de) has joined #sabayon
+2010-08-18 16:14:00	--	Mode #sabayon [+l 69] by |Cadmus|
+2010-08-18 16:20:09	kiuma	hello, I've installed gnome-light, but now in both kde and gnome the screen becomes white after few seconds they've been started, how can I solve this ?
+2010-08-18 16:36:18	DHalens	you updated the kernel or graphic drivers too and compiz is somehow failing to start
+2010-08-18 16:37:03	user_	but  does sabayon use half of it for its internal purspose? I see only 36 allocated for my suage.
+2010-08-18 16:39:08	user_	i know for ext4 it reserves some disk space for its use, but half of the disk is a little too much in the asking
+2010-08-18 16:39:09	DHalens	user_: i see 36 for / and 36 for /home (that is, if i understand the lvm thing...)
+2010-08-18 16:40:00	user_	is that normal?
+2010-08-18 16:41:08	user_	i thought the root wont require that much
+2010-08-18 16:41:27	DHalens	well, the one who assigned the space was you...
+2010-08-18 16:41:49	DHalens	or at least, the one who told the partitioner to autoasign the space was you
+2010-08-18 16:41:49	user_	LOL...well...all I did was a next, next, next bro
+2010-08-18 16:42:33	DHalens	heh, that's the reason some devs want to add a next button for search and delete all data in the computer
+2010-08-18 16:42:45	user_	i used the automatic partioner and just left at that, did not look into it with details. I guess I should reinstall with manual partition
+2010-08-18 16:43:02	DHalens	you can resize the partitions
+2010-08-18 16:43:21	DHalens	but don't ask me, i have no idea of how to do that with lvm
+2010-08-18 16:43:40	user_	u made me jump off the seat bro...even i am scared of that stuff
+2010-08-18 16:44:06	user_	well...not scared...for its a fresh install ...at the max all i have to do a fresh install again.
+2010-08-18 16:44:40	DHalens	up to you but if you reinstall, please at least read what the installer says...
+2010-08-18 16:44:55	user_	you betcha...better I do
+2010-08-18 16:45:10	DHalens	once installed you can ignore anything and as long as you're not root user, you won't break it
+2010-08-18 16:45:19	-->	psymin (~psymin@host-69-146-8-222.static.bresnan.net) has joined #sabayon
+2010-08-18 16:45:39	user_	ok bro...thank you
+2010-08-18 16:46:09	user_	off to work...will come in the evening and do a fresh install...i'll google for some good article on paritioning size
+2010-08-18 16:46:09	<--	virys (~virys@unaffiliated/virys) has quit (Quit: leaving)
+2010-08-18 16:46:41	-->	virys (~virys@unaffiliated/virys) has joined #sabayon
+2010-08-18 16:46:47	user_	i keep getting jitters when it comes to allocating...for no clue how much i have to give for each partition
+2010-08-18 16:46:55	user_	and with this LVM...i am lost
+2010-08-18 16:47:27	DHalens	well, check recommended requirements at the officiial anounce or the wiki
+2010-08-18 16:54:43	-->	paar_ (~paar@111-254-127-194.dynamic.hinet.net) has joined #sabayon
+2010-08-18 16:55:28	<--	virys (~virys@unaffiliated/virys) has quit (Quit: Konversation terminated!)
+2010-08-18 16:56:05	-->	virys (~virys@h199n1-bn-gr100.ias.bredband.telia.com) has joined #sabayon
+2010-08-18 16:57:11	<--	virys (~virys@h199n1-bn-gr100.ias.bredband.telia.com) has left #sabayon
+2010-08-18 16:58:15	<--	paar__ (~paar@111-254-137-107.dynamic.hinet.net) has quit (Ping timeout: 246 seconds)
+2010-08-18 17:01:36	-->	virys (~virys@unaffiliated/virys) has joined #sabayon
+2010-08-18 17:02:01	<--	lxnay|lappie (~fabio@93.69.44.210) has quit (Ping timeout: 252 seconds)
+2010-08-18 17:04:32	-->	huntz0r (~huntz0r__@94.168.156.120) has joined #sabayon
+2010-08-18 17:15:58	-->	lxnay|lappie (~fabio@93.69.11.58) has joined #sabayon
+2010-08-18 17:17:17	<--	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Remote host closed the connection)
+2010-08-18 17:17:58	-->	billie (~billie@gentoo/developer/billie) has joined #sabayon
+2010-08-18 17:19:22	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #sabayon
+2010-08-18 17:19:59	--	Mode #sabayon [+l 72] by |Cadmus|
+2010-08-18 17:27:08	-->	PKarlsson (~PKarlsson@unaffiliated/trixon) has joined #sabayon
+2010-08-18 17:46:59	<--	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Remote host closed the connection)
+2010-08-18 17:47:07	<--	ogunay (~ogunay@77.92.128.2) has quit (Quit: WeeChat 0.3.0)
+2010-08-18 17:47:50	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #sabayon
+2010-08-18 17:54:49	<--	psymin (~psymin@host-69-146-8-222.static.bresnan.net) has left #sabayon ("Leaving")
+2010-08-18 17:59:25	<--	lorenzo_ (~lorenzo@host70-245-dynamic.32-79-r.retail.telecomitalia.it) has quit (Ping timeout: 240 seconds)
+2010-08-18 18:01:50	-->	Thev00d00 (~v00d00@unaffiliated/thev00d00) has joined #sabayon
+2010-08-18 18:02:26	<--	Thev00d00 (~v00d00@unaffiliated/thev00d00) has quit (Remote host closed the connection)
+2010-08-18 18:02:44	-->	Thev00d00 (~v00d00@unaffiliated/thev00d00) has joined #sabayon
+2010-08-18 18:07:38	<--	laci (~laci@unaffiliated/laci) has quit (Quit: Távozom)
+2010-08-18 18:12:37	<--	CaptainSifff (~CaptainSi@wthp131d.physik.uni-wuerzburg.de) has quit (Quit: KVIrc 4.1.0 Equilibrium http://www.kvirc.net/)
+2010-08-18 18:12:37	-->	lorenzo_ (~lorenzo@host80-191-dynamic.18-79-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-18 18:13:05	-->	nakee__ (~nakee@85-250-145-245.bb.netvision.net.il) has joined #sabayon
+2010-08-18 18:13:56	<--	nakee_ (~nakee@85-250-133-21.bb.netvision.net.il) has quit (Ping timeout: 245 seconds)
+2010-08-18 18:19:17	<--	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Remote host closed the connection)
+2010-08-18 18:19:59	--	Mode #sabayon [+l 69] by |Cadmus|
+2010-08-18 18:33:51	-->	laci_ (~laci@dsl5402A5FB.pool.t-online.hu) has joined #sabayon
+2010-08-18 18:37:56	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #sabayon
+2010-08-18 18:49:04	<--	Giggaflop (~Mr_bo_jan@85.211.46.114) has quit (Ping timeout: 265 seconds)
+2010-08-18 19:02:10	<--	DHalens (~DHalens@unaffiliated/dhalens) has quit (Quit: bbl)
+2010-08-18 19:07:03	<--	lxnay|lappie (~fabio@93.69.11.58) has quit (Ping timeout: 240 seconds)
+2010-08-18 19:14:05	<--	Thev00d00 (~v00d00@unaffiliated/thev00d00) has quit (Remote host closed the connection)
+2010-08-18 19:14:46	-->	me|kor (~melkor@srbk-d9325cb7.pool.mediaWays.net) has joined #sabayon
+2010-08-18 19:20:16	<--	me|kor (~melkor@srbk-d9325cb7.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-08-18 19:31:23	<--	nakee__ (~nakee@85-250-145-245.bb.netvision.net.il) has quit (Remote host closed the connection)
+2010-08-18 19:31:53	-->	nakee__ (~nakee@85-250-145-245.bb.netvision.net.il) has joined #sabayon
+2010-08-18 19:37:45	<--	nakee__ (~nakee@85-250-145-245.bb.netvision.net.il) has quit (Remote host closed the connection)
+2010-08-18 19:37:59	--	Mode #sabayon [+l 66] by |Cadmus|
+2010-08-18 19:38:11	-->	nakee__ (~nakee@85-250-145-245.bb.netvision.net.il) has joined #sabayon
+2010-08-18 19:47:07	-->	lxnay|lappie (~fabio@93.69.46.45) has joined #sabayon
+2010-08-18 20:02:02	-->	Channel6 (~blah@unaffiliated/yourkicks) has joined #sabayon
+2010-08-18 20:02:58	--	Mode #sabayon [+l 69] by |Cadmus|
+2010-08-18 20:04:23	<--	lorenzo_ (~lorenzo@host80-191-dynamic.18-79-r.retail.telecomitalia.it) has quit (Quit: Leaving)
+2010-08-18 20:04:49	-->	lorenzo (~lorenzo@host80-191-dynamic.18-79-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-18 20:09:38		irc: disconnected from server
+2010-08-19 15:21:18	-->	quesada (~quesada@e178199212.adsl.alicedsl.de) has joined #sabayon
+2010-08-19 15:21:18	--	Topic for #sabayon is "Welcome to Sabayon Linux, the installable, Gentoo-based, preconfigured, livedisc || Sabayon 5.3 RELEASED! || Mirrors: www.sabayon.org/download || Social stuff belongs in -social || Planet: planet.sabayon.org || Please ask your question, do not ask to ask. || Sabayon 4.x repositories are now offline. There is no safe upgrade path|| NO PASTING IN CHANNEL! || Iwonder|too R.I.P"
+2010-08-19 15:21:18	--	Topic set by Azerthoth (~azerthoth@funtoo/user/azerthoth) on Thu, 15 Jul 2010 23:59:30
+2010-08-19 15:21:18	--	Nicks #sabayon: [@ChanServ 94SAAGLBP [Enrico] AstralStorm AuroraPixi Autie beees bsdfox c0nv1ct DanySK denysonique dontpanic dougl Enlik Er0x fleebailey33 freeallbadgers Gadwin GHellings GHellings1 Giggaflop_ Guest47522 inaeth iwishikne jasherai|away kook_ lorenzo lxnay|three lythandrel MeaCulpa mnabil nakee ogunay omgpenguins optiz0r paar ParkerBeta paszczus_ paztulio pentament pestilent quesada Radtoo Raenk sabayonuser2 Samae Shinigami-Sama Sleepy63 snot tangent Thev00d00 Tina- Touchstone tyranny12 vdex Vitoriung wolfbear]
+2010-08-19 15:21:18	--	Channel #sabayon: 57 nicks (1 op, 0 halfops, 0 voices, 56 normals)
+2010-08-19 15:21:20	--	Channel created on Mon, 12 Feb 2007 09:33:11
+2010-08-19 15:27:35	-->	Greywhind (~Greywhind@fw-34-17.cs.brown.edu) has joined #sabayon
+2010-08-19 15:39:02	-->	sheepbat (~lev3k@c-98-238-227-32.hsd1.ca.comcast.net) has joined #sabayon
+2010-08-19 15:39:50	--	Guest47522 is now known as |Cadmus|
+2010-08-19 15:40:20	--	|Cadmus| is now known as Guest44448
+2010-08-19 15:42:36	-->	DHalens (~DHalens@unaffiliated/dhalens) has joined #sabayon
+2010-08-19 15:48:44	-->	sabayonweb_43075 (18c1b774@gateway/web/freenode/ip.24.193.183.116) has joined #sabayon
+2010-08-19 15:48:56	<--	sabayonweb_43075 (18c1b774@gateway/web/freenode/ip.24.193.183.116) has quit (Client Quit)
+2010-08-19 16:01:01	<--	lorenzo (~lorenzo@host215-192-dynamic.43-79-r.retail.telecomitalia.it) has quit (Ping timeout: 272 seconds)
+2010-08-19 16:11:45	-->	glide (~glide@S01060016b61c8923.wp.shawcable.net) has joined #sabayon
+2010-08-19 16:13:45	-->	lorenzo (~lorenzo@host170-241-dynamic.17-87-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-19 16:17:38	<--	sabayonuser2 (~sabayonus@ip69-17-239-28.vif.net) has quit (Remote host closed the connection)
+2010-08-19 16:18:43	<--	Shinigami-Sama (~Pewpew@unaffiliated/setsuna-xero) has quit (Ping timeout: 264 seconds)
+2010-08-19 16:19:28	-->	sabayonuser (~sabayonus@201-88-115-185.bsaco700.dsl.brasiltelecom.net.br) has joined #sabayon
+2010-08-19 16:20:20	<--	sabayonuser (~sabayonus@201-88-115-185.bsaco700.dsl.brasiltelecom.net.br) has quit (Client Quit)
+2010-08-19 16:21:49	<--	mnabil (~mnabil@41.234.69.105) has quit (Ping timeout: 260 seconds)
+2010-08-19 16:26:23	<--	glide (~glide@S01060016b61c8923.wp.shawcable.net) has quit (Remote host closed the connection)
+2010-08-19 16:28:49	-->	laci (~laci@unaffiliated/laci) has joined #sabayon
+2010-08-19 16:33:38	<--	MeaCulpa (~MeaCulpa@221.239.217.79) has quit (Quit: Lost terminal)
+2010-08-19 16:33:54	-->	MeaCulpa (~MeaCulpa@221.239.217.79) has joined #sabayon
+2010-08-19 16:34:40	-->	mnabil (~mnabil@41.234.71.37) has joined #sabayon
+2010-08-19 16:39:20	-->	ermin (4deed6fb@gateway/web/freenode/ip.77.238.214.251) has joined #sabayon
+2010-08-19 16:40:50	--	Guest44448 is now known as |Cadmus|
+2010-08-19 16:41:20	--	|Cadmus| is now known as Guest77229
+2010-08-19 16:47:55	<--	ermin (4deed6fb@gateway/web/freenode/ip.77.238.214.251) has quit (Ping timeout: 252 seconds)
+2010-08-19 16:50:16	-->	Phazorx (~paco@77.239.236.193) has joined #sabayon
+2010-08-19 16:50:46	Phazorx	very lame question - how do i make it so copy buffer is shared between xorg and consoles?
+2010-08-19 16:51:29	Phazorx	basicaly being able to paste things into console (/dev/tty kind of console, not xterm) which have been copied under X?
+2010-08-19 17:04:51	Enlik	maybe xclip will do, I'm not sure. If you use it on tty, it would be needed to set -display option I think (or DISPLAY variable).
+2010-08-19 17:05:17	Enlik	I was told about this tool on this channel,too :)
+2010-08-19 17:06:45	<--	sheepbat (~lev3k@c-98-238-227-32.hsd1.ca.comcast.net) has quit (Ping timeout: 276 seconds)
+2010-08-19 17:06:50	 *	Enlik should install a clipboard manager for his E17
+2010-08-19 17:07:26	<--	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Remote host closed the connection)
+2010-08-19 17:10:34	Phazorx	Enlik: i was looking for some conig option actually
+2010-08-19 17:11:09	Phazorx	so buffers are always shared and no special tool needed to be launched at copy time to make it happen
+2010-08-19 17:14:24	-->	sabayonweb_65407 (b2bb46b0@gateway/web/freenode/ip.178.187.70.176) has joined #sabayon
+2010-08-19 17:15:33	<--	sabayonweb_65407 (b2bb46b0@gateway/web/freenode/ip.178.187.70.176) has quit (Client Quit)
+2010-08-19 17:17:31	Enlik	Phazorx: I don't think if this is possible; only 'screen' tool comes to my mind, but it doesn't use X copy buffer, it has its own
+2010-08-19 17:18:20	-->	bunty (~mbunty@pa-67-235-1-229.dhcp.embarqhsd.net) has joined #sabayon
+2010-08-19 17:22:33	bunty	any ideas when 5.4 will be out ?
+2010-08-19 17:22:41	Thev00d00	bunty: nope
+2010-08-19 17:22:56	Thev00d00	bunty: sabayon has rolling releases anyway
+2010-08-19 17:22:56	bunty	hehe just thought i'd start something. lol
+2010-08-19 17:23:12	Thev00d00	so just keep up with updates
+2010-08-19 17:23:15	bunty	was just about to download a daily iso
+2010-08-19 17:23:22	Thev00d00	bunty: cool
+2010-08-19 17:23:36	laci	join #sabyaon
+2010-08-19 17:23:40	Thev00d00	bunty: thats probably wise, will have some installer fixes
+2010-08-19 17:23:43	Thev00d00	laci: ? lol
+2010-08-19 17:23:55	laci	:)
+2010-08-19 17:23:57	bunty	yes i had it on my pc a while ago. but i had some issues
+2010-08-19 17:24:12	bunty	so i went playing around with others.
+2010-08-19 17:24:24	bunty	thought i loved gentoo back in the day
+2010-08-19 17:24:29	bunty	though*
+2010-08-19 17:24:42	laci	user error Thev00d00
+2010-08-19 17:24:46	bunty	lol
+2010-08-19 17:26:43	bunty	dont think my laptop has 2gb for the iso though. lol Time to delete some RAW files
+2010-08-19 17:27:39	Thev00d00	I /HATE/ lanchpad
+2010-08-19 17:27:43	Thev00d00	sigh
+2010-08-19 17:28:45	laci	I should install a sabayon
+2010-08-19 17:28:52	bunty	haha
+2010-08-19 17:30:22	laci	I cant figure out why dont works my card reader on my gentoo
+2010-08-19 17:31:03	bunty	hrm
+2010-08-19 17:31:07	Thev00d00	laci: just build a sabayon kernel?
+2010-08-19 17:31:20	bunty	how do u list fiewire devices in linux?
+2010-08-19 17:31:23	laci	but I have an installed virtual sabayon (vbox)
+2010-08-19 17:31:35	Thev00d00	bunty: no idea, sorry
+2010-08-19 17:31:36	laci	on sabayon works correctly
+2010-08-19 17:31:54	Thev00d00	.g linux list firewire
+2010-08-19 17:31:55	ParkerBeta	Thev00d00: http://lwn.net/Articles/216157/
+2010-08-19 17:32:09	Thev00d00	bunty: ls1394
+2010-08-19 17:32:15	bunty	awesome
+2010-08-19 17:32:17	bunty	ty
+2010-08-19 17:32:56	laci	Thev00d00, sabayon kernel?
+2010-08-19 17:33:09	laci	how?
+2010-08-19 17:33:13	Thev00d00	laci: yeah "linux-sabayon"
+2010-08-19 17:33:23	laci	layman -a sabayond
+2010-08-19 17:33:28	laci	-d
+2010-08-19 17:33:48	laci	with genkernel
+2010-08-19 17:33:54	laci	or how
+2010-08-19 17:34:11	laci	everithying is working welll
+2010-08-19 17:34:24	laci	but this card reader mad me crazy
+2010-08-19 17:34:41	Thev00d00	laci: just emerge that package
+2010-08-19 17:34:48	Thev00d00	it will build and install a kernel for you
+2010-08-19 17:34:57	Thev00d00	a default sabayon kernel
+2010-08-19 17:35:12	laci	is it in the portage tree?
+2010-08-19 17:35:23	Thev00d00	laci: its on the sabayon overlay
+2010-08-19 17:35:28	laci	ahamm
+2010-08-19 17:35:31	laci	ok
+2010-08-19 17:35:41	bunty	hrm.. i dont have ls1394..
+2010-08-19 17:35:57	Thev00d00	bunty: no, doesnt look like we provide it
+2010-08-19 17:36:16	Thev00d00	bunty: you will need to build it from source
+2010-08-19 17:36:25	bunty	but it says /dev/raw1394 initialized
+2010-08-19 17:36:50	bunty	wonder how i link it as a video device
+2010-08-19 17:37:02	Thev00d00	oh i see
+2010-08-19 17:37:44	Thev00d00	bunty: like i say, i dont have any firewire stuff
+2010-08-19 17:39:01	lythandrel	laci: card readers act strange under linux...
+2010-08-19 17:39:30	-->	me|kor (~melkor@srbk-d9324adb.pool.mediaWays.net) has joined #sabayon
+2010-08-19 17:40:23	bunty	yea i heard ya. im just playing around. Just got my firewire cable 5minutes ago and hooked up the handycam.
+2010-08-19 17:40:30	laci	Thev00d00,
+2010-08-19 17:40:31	laci	sys-kernel/linux-sabayon [ Masked ]
+2010-08-19 17:40:32	laci	      Latest version available: 2.6.35
+2010-08-19 17:40:32	laci	      Latest version installed: [ Not Installed ]
+2010-08-19 17:40:40	laci	it is what I need?
+2010-08-19 17:40:53	Thev00d00	laci: well, did you card reader work under sabayon?
+2010-08-19 17:41:09	laci	yes
+2010-08-19 17:41:24	Thev00d00	laci: yes you will want that package then
+2010-08-19 17:41:24	laci	if I use sabayon the card reader works
+2010-08-19 17:41:46	laci	ok unmask and emerge
+2010-08-19 17:41:49	--	Guest77229 is now known as |Cadmus|
+2010-08-19 17:41:51	lythandrel	laci: the drive assignments aren't like /dev/sda - it's like /dev/mmcblk0
+2010-08-19 17:42:09	-->	sabayonweb_87890 (18964c15@gateway/web/freenode/ip.24.150.76.21) has joined #sabayon
+2010-08-19 17:42:20	--	|Cadmus| is now known as Guest94805
+2010-08-19 17:42:53	<--	sabayonweb_87890 (18964c15@gateway/web/freenode/ip.24.150.76.21) has left #sabayon
+2010-08-19 17:43:00	laci	hmm I have to learn more english
+2010-08-19 17:50:06	laci	>> Compiling 2.6.35-sabayon bzImage...
+2010-08-19 17:50:44	-->	sabayonuser (~sabayonus@cgiserver.uni-mb.si) has joined #sabayon
+2010-08-19 17:50:47	<--	sabayonuser (~sabayonus@cgiserver.uni-mb.si) has left #sabayon
+2010-08-19 18:01:28	-->	ichernetsky (~ivan@port-74-adslby-pool38.infonet.by) has joined #sabayon
+2010-08-19 18:02:36	ichernetsky	What's Entropy's cache dir? I am trying to upgrade, but '47617.2/37488.2 kB <->  100% [==========>] => 95.3kB/sec : ETA: (infinite)' when downloading nvidia-drivers
+2010-08-19 18:03:33	bunty	ok. dvgrab sees the camera :)
+2010-08-19 18:13:04	bunty	bbl
+2010-08-19 18:13:57	<--	bunty (~mbunty@pa-67-235-1-229.dhcp.embarqhsd.net) has left #sabayon
+2010-08-19 18:15:37	DHalens	ichernetsky: it's just a little issue because of a mess with a kernel and graphic drivers revision. let it redownload. it won't happen again
+2010-08-19 18:19:41	ichernetsky	DHalens: OK
+2010-08-19 18:20:07	Phazorx	could someone please suggest a guide on befriendng xorg with "media keys" whci get reported in syslog but have no desired effect
+2010-08-19 18:20:10	Phazorx	i recon i need to use setkeycodes and xmodmap... but i am not sure exactly how
+2010-08-19 18:26:26	<--	Phazorx (~paco@77.239.236.193) has quit (Quit: Lost terminal)
+2010-08-19 18:29:37	-->	Phazorx (~pavelkoll@77.239.236.193) has joined #sabayon
+2010-08-19 18:42:50	--	Guest94805 is now known as |Cadmus|
+2010-08-19 18:43:19	--	|Cadmus| is now known as Guest38058
+2010-08-19 18:47:39	-->	glide (~glide@S01060016b61c8923.wp.shawcable.net) has joined #sabayon
+2010-08-19 19:08:39	<--	Guest38058 (~|Cadmus|@vm.sabayon.disco.unimib.it) has left #sabayon
+2010-08-19 19:08:47	-->	|Cadmus|9 (~|Cadmus|@vm.sabayon.disco.unimib.it) has joined #sabayon
+2010-08-19 19:10:41	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #sabayon
+2010-08-19 19:15:59	<--	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Read error: Connection reset by peer)
+2010-08-19 19:17:33	<--	ogunay (~ogunay@77.92.128.2) has quit (Quit: WeeChat 0.3.0)
+2010-08-19 19:18:25	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #sabayon
+2010-08-19 19:18:26	-->	virys (~virys@unaffiliated/virys) has joined #sabayon
+2010-08-19 19:19:08	--	kook_ is now known as koo5
+2010-08-19 19:33:22	<--	nakee (~nakee@85-250-142-228.bb.netvision.net.il) has quit (Ping timeout: 252 seconds)
+2010-08-19 19:36:29	-->	nakee_ (~nakee@109-186-214-119.bb.netvision.net.il) has joined #sabayon
+2010-08-19 19:38:33	<--	mnabil (~mnabil@41.234.71.37) has quit (Ping timeout: 240 seconds)
+2010-08-19 19:40:34	-->	Channel6 (~blah@unaffiliated/yourkicks) has joined #sabayon
+2010-08-19 19:43:52	--	|Cadmus|9 is now known as |Cadmus|
+2010-08-19 19:44:21	--	|Cadmus| is now known as Guest15975
+2010-08-19 20:03:21	Thev00d00	ichernetsky: /var/lib/entropy
+2010-08-19 20:03:28	Thev00d00	ichernetsky: somewhere in there
+2010-08-19 20:09:47	<--	laci (~laci@unaffiliated/laci) has quit (Quit: Távozom)
+2010-08-19 20:18:36	-->	xpuser (4a3ce402@gateway/web/freenode/ip.74.60.228.2) has joined #sabayon
+2010-08-19 20:19:13	xpuser	hello
+2010-08-19 20:20:05	xpuser	i was trying to join a windows channel using a webclient and i keep getting a message about please register
+2010-08-19 20:20:18	xpuser	and i have used that channel many times
+2010-08-19 20:20:46	xpuser	anyone can share what could be the issue
+2010-08-19 20:21:15	glide	wndows channel?
+2010-08-19 20:21:23	xpuser	yes
+2010-08-19 20:21:29	xpuser	#windows
+2010-08-19 20:21:49	glide	i joined it
+2010-08-19 20:21:52	glide	it's redirected
+2010-08-19 20:21:58	glide	##windows
+2010-08-19 20:22:07	xpuser	i tried that too
+2010-08-19 20:22:17	xpuser	keeps saying to register
+2010-08-19 20:22:29	Thev00d00	!kick xpuser go ask in #freenode
+2010-08-19 20:22:34	glide	lol
+2010-08-19 20:22:40	Thev00d00	what an idiot
+2010-08-19 20:23:00	glide	how in the world did he end up here
+2010-08-19 20:23:09	Thev00d00	lord knows
+2010-08-19 20:23:20	xpuser	##windows Cannot join channel (+r) - you need to be identified with services
+2010-08-19 20:23:52	glide	:)
+2010-08-19 20:24:00	Thev00d00	xpuser: go away!
+2010-08-19 20:24:09	<--	xpuser (4a3ce402@gateway/web/freenode/ip.74.60.228.2) has left #sabayon
+2010-08-19 20:24:15	Thev00d00	=)
+2010-08-19 20:27:44	Phazorx	so... if it tells you to register - you go to some random channel and ask a question on how to bypass that rather than registering as you been told?
+2010-08-19 20:28:12	Phazorx	boy... that MS software definitely acts like -20 to int
+2010-08-19 20:28:29	glide	"one click" mentality
+2010-08-19 20:28:40	<--	lorenzo (~lorenzo@host170-241-dynamic.17-87-r.retail.telecomitalia.it) has quit (Quit: Leaving)
+2010-08-19 20:28:51	glide	sorry, i can't do that, i only have one click
+2010-08-19 20:29:02	glide	:P
+2010-08-19 20:29:16	<--	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Remote host closed the connection)
+2010-08-19 20:31:01	--	Thev00d00 is now known as Thev00d00|2
+2010-08-19 20:31:06	--	Thev00d00|2 is now known as Thev00d00
+2010-08-19 20:31:30	-->	laci (~laci@unaffiliated/laci) has joined #sabayon
+2010-08-19 20:31:40	Thev00d00	heh @ http://i.imgur.com/ZMIwP.jpg
+2010-08-19 20:42:51	--	Guest15975 is now known as |Cadmus|
+2010-08-19 20:43:13	laci	Thev00d00,
+2010-08-19 20:43:21	--	|Cadmus| is now known as Guest54578
+2010-08-19 20:43:26	laci	I did emerge linux sabayon
+2010-08-19 20:43:32	Thev00d00	okay cool
+2010-08-19 20:43:36	laci	how should startit
+2010-08-19 20:43:46	Thev00d00	you need to rebuild your drivers first
+2010-08-19 20:43:53	Thev00d00	then add it grub
+2010-08-19 20:43:58	Thev00d00	then boot it
+2010-08-19 20:44:06	Thev00d00	its a kernel afterall =)
+2010-08-19 20:45:16	laci	where the kernel is
+2010-08-19 20:46:54	Thev00d00	laci: you know how you would upgrade your kernel?
+2010-08-19 20:46:59	Thev00d00	you need todo that
+2010-08-19 20:50:37	laci	test
+2010-08-19 20:50:41	laci	brb
+2010-08-19 20:50:45	<--	laci (~laci@unaffiliated/laci) has quit (Quit: Távozom)
+2010-08-19 20:52:33	-->	sheepbat (~lev3k@c-98-238-227-32.hsd1.ca.comcast.net) has joined #sabayon
+2010-08-19 20:55:47	-->	alphad (~quassel@41.66.6.59) has joined #sabayon
+2010-08-19 20:56:56	-->	laci (~laci@unaffiliated/laci) has joined #sabayon
+2010-08-19 20:57:04	laci	re
+2010-08-19 20:57:24	Thev00d00	?
+2010-08-19 20:57:26	laci	if I reinstall the nvidia-driver
+2010-08-19 20:57:37	laci	it si still using my old kernel
+2010-08-19 20:58:09	Thev00d00	laci: you need to eselect kernel
+2010-08-19 20:58:16	laci	yeah
+2010-08-19 20:58:18	laci	ok
+2010-08-19 20:58:39	<--	alphad (~quassel@41.66.6.59) has quit (Remote host closed the connection)
+2010-08-19 21:00:23	laci	nvidia driver is intalling
+2010-08-19 21:00:41	laci	:)
+2010-08-19 21:01:20	laci	done, test
+2010-08-19 21:01:27	<--	laci (~laci@unaffiliated/laci) has quit (Remote host closed the connection)
+2010-08-19 21:03:31	-->	laci (~laci@unaffiliated/laci) has joined #sabayon
+2010-08-19 21:03:41	laci	re
+2010-08-19 21:04:05	Thev00d00	laci: why you writing re?
+2010-08-19 21:04:29	laci	bad habbit
+2010-08-19 21:04:30	-->	joost_op (~joost@86.92.194.222) has joined #sabayon
+2010-08-19 21:04:40	laci	hungarian irc
+2010-08-19 21:04:46	laci	( Kernel ): [ Linux localhost 2.6.35-sabayon #1 SMP Thu Aug 19 18:22:09 CEST 2010 i686 Intel(R) Pentium(R) 4 CPU 2.80GHz GenuineIntel GNU/Linux ]
+2010-08-19 21:05:17	laci	:)
+2010-08-19 21:05:23	Thev00d00	w00t
+2010-08-19 21:05:28	laci	and see the card reader
+2010-08-19 21:05:36	Thev00d00	yay
+2010-08-19 21:05:48	laci	yeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+2010-08-19 21:06:29	laci	works
+2010-08-19 21:06:33	laci	automatic
+2010-08-19 21:06:33	Thev00d00	=D
+2010-08-19 21:06:41	laci	open a window
+2010-08-19 21:06:57	laci	and there I can see what is on the sd card
+2010-08-19 21:08:25	laci	ty Thev00d00
+2010-08-19 21:12:46	Thev00d00	np
+2010-08-19 21:15:30	glide	how do you get hte flash plugin for firefox again?
+2010-08-19 21:15:49	laci	should remove the sabayon overlay
+2010-08-19 21:16:32	glide	nvm
+2010-08-19 21:16:35	DHalens	just install it from the package manager...
+2010-08-19 21:16:44	glide	DHalens: found it
+2010-08-19 21:16:49	lythandrel	?? flash64
+2010-08-19 21:16:50	glide	somehow, firefox lost it
+2010-08-19 21:16:54	Guest54578	flash64[1]: Adobe has temporarily halted production of 64 bit flash, but don't despair, 32 bit for linux still is around.
+2010-08-19 21:16:57	Guest54578	flash64[2]: equo install nspluginwrapper    (so we can use the updated 32 bit flash on 64 bit systems)
+2010-08-19 21:16:58	Guest54578	flash64[3]: If you were using 64 bit flash and it STOPPED working, reinstall flash, THEN install nspluginwrapper.
+2010-08-19 21:17:00	Guest54578	flash64[4]: You may run into sound problems, see ?? killpulse
+2010-08-19 21:21:36	Phazorx	htm... any guideance for someone fighting with Fn+XX keys on laptop and xorg
+2010-08-19 21:22:36	Phazorx	i know i am supposed to use setkeycodes ... but i cant find any guide on how
+2010-08-19 21:24:13	lythandrel	Thev00d00: re - is rehi...
+2010-08-19 21:24:25	lythandrel	Thev00d00: it's an old-timers greeting
+2010-08-19 21:25:01	<--	joost_op (~joost@86.92.194.222) has quit (Remote host closed the connection)
+2010-08-19 21:25:50	Thev00d00	oh right
+2010-08-19 21:30:08	<--	lxnay|three (~lxnay@95.237.105.145) has quit (Ping timeout: 255 seconds)
+2010-08-19 21:30:11	-->	lxnay (~lxnay@gentoo/developer/lxnay) has joined #sabayon
+2010-08-19 21:43:51	--	Guest54578 is now known as |Cadmus|
+2010-08-19 21:44:11	-->	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has joined #sabayon
+2010-08-19 21:44:21	--	|Cadmus| is now known as Guest15867
+2010-08-19 21:46:55	<--	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has quit (Client Quit)
+2010-08-19 21:47:18	-->	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has joined #sabayon
+2010-08-19 21:53:23	<--	me|kor (~melkor@srbk-d9324adb.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-08-19 21:53:47	sabayonuser	hello.. how to configure Network controller: RaLink RT2600 802.11 MIMO
+2010-08-19 21:54:27	sabayonuser	i'm using a live cd and my wireless was not recognized
+2010-08-19 21:56:53	<--	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has left #sabayon ("Leaving")
+2010-08-19 21:57:09	-->	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has joined #sabayon
+2010-08-19 21:58:20	<--	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has left #sabayon ("Leaving")
+2010-08-19 22:03:10	-->	Shinigami-Sama (~Pewpew@unaffiliated/setsuna-xero) has joined #sabayon
+2010-08-19 22:11:25	--	94SAAGLBP is now known as wolfden
+2010-08-19 22:16:30	-->	billie (~billie@gentoo/developer/billie) has joined #sabayon
+2010-08-19 22:23:38	<--	Channel6 (~blah@unaffiliated/yourkicks) has quit (Remote host closed the connection)
+2010-08-19 22:27:33	-->	superGear (supergear@my.barbie.wears.no-panties.org) has joined #sabayon
+2010-08-19 22:32:22	<--	tyranny12 (~tyranny12@unaffiliated/tyranny) has quit (Ping timeout: 276 seconds)
+2010-08-19 22:45:49	--	Guest15867 is now known as |Cadmus|
+2010-08-19 22:46:18	--	|Cadmus| is now known as Guest65893
+2010-08-19 22:47:26	-->	sabayonuser2 (~sabayonus@brsg-4dbb0a14.pool.mediaWays.net) has joined #sabayon
+2010-08-19 22:49:50	sabayonuser2	Hello,i have twonvidia gfx cards.!is a nvidia 460 and the other is a 8400gs. 2 screens are conckted to the 460 which i had in twin viwe 1 monitor is coneckted to the 8400 as a seperate x. Since this morning i can only use the monitor coneckted to the 8400 and the ones on the 460 wont start. I can set it up in nvidia settings again but no change.
+2010-08-19 22:50:02	<--	Phazorx (~pavelkoll@77.239.236.193) has quit (Read error: Connection reset by peer)
+2010-08-19 22:50:34	-->	Phazorx (~pavelkoll@77.239.236.193) has joined #sabayon
+2010-08-19 23:05:29	<--	sabayonuser2 (~sabayonus@brsg-4dbb0a14.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-08-19 23:05:36	<--	Greywhind (~Greywhind@fw-34-17.cs.brown.edu) has quit (Quit: leaving)
+2010-08-19 23:08:09	-->	sabayonuser2 (~sabayonus@brsg-4dbb0a14.pool.mediaWays.net) has joined #sabayon
+2010-08-19 23:09:25	sabayonuser2	Somebody an idea why it refuses to load my xorg.conf?
+2010-08-19 23:11:12	-->	katoda (~katoda@87-205-56-89.adsl.inetia.pl) has joined #sabayon
+2010-08-19 23:14:09	<--	superGear (supergear@my.barbie.wears.no-panties.org) has quit (Ping timeout: 252 seconds)
+2010-08-19 23:16:44	-->	sublime (~sublime@cpe-72-224-203-207.maine.res.rr.com) has joined #sabayon
+2010-08-19 23:20:36	<--	sublime (~sublime@cpe-72-224-203-207.maine.res.rr.com) has quit (Client Quit)
+2010-08-19 23:20:36	-->	sublime (~sublime@cpe-72-224-203-207.maine.res.rr.com) has joined #sabayon
+2010-08-19 23:20:50	<--	quesada (~quesada@e178199212.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-19 23:20:50		irc: disconnected from server
+2010-08-19 23:21:33	-->	quesada (~quesada@e178199212.adsl.alicedsl.de) has joined #sabayon
+2010-08-19 23:21:33	--	Topic for #sabayon is "Welcome to Sabayon Linux, the installable, Gentoo-based, preconfigured, livedisc || Sabayon 5.3 RELEASED! || Mirrors: www.sabayon.org/download || Social stuff belongs in -social || Planet: planet.sabayon.org || Please ask your question, do not ask to ask. || Sabayon 4.x repositories are now offline. There is no safe upgrade path|| NO PASTING IN CHANNEL! || Iwonder|too R.I.P"
+2010-08-19 23:21:33	--	Topic set by Azerthoth (~azerthoth@funtoo/user/azerthoth) on Thu, 15 Jul 2010 23:59:30
+2010-08-19 23:21:33	--	Nicks #sabayon: [@ChanServ AstralStorm AuroraPixi Autie beees billie bsdfox c0nv1ct DanySK denysonique DHalens dontpanic dougl Enlik Er0x fleebailey33 freeallbadgers Gadwin GHellings GHellings1 Giggaflop_ glide Guest65893 ichernetsky inaeth iwishikne jasherai|away katoda koo5 laci lxnay lythandrel MeaCulpa nakee_ omgpenguins optiz0r paar ParkerBeta paszczus_ paztulio pentament pestilent Phazorx quesada Radtoo Raenk sabayonuser2 Samae sheepbat Shinigami-Sama Sleepy63 snot sublime tangent Thev00d00 Tina- Touchstone vdex virys Vitoriung wolfbear wolfden]
+2010-08-19 23:21:33	--	Channel #sabayon: 62 nicks (1 op, 0 halfops, 0 voices, 61 normals)
+2010-08-19 23:21:39	--	Channel created on Mon, 12 Feb 2007 09:33:11
+2010-08-19 23:27:31	<--	sabayonuser2 (~sabayonus@brsg-4dbb0a14.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-08-19 23:27:39	-->	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has joined #sabayon
+2010-08-19 23:27:52	sabayonuser	hello
+2010-08-19 23:28:32	sabayonuser	how do i configure my wireless Network controller: RaLink RT2600 802.11 MIMO
+2010-08-19 23:32:42	wolfden	sabayonuser: I'm pretty sure that is in our wiki
+2010-08-19 23:33:41	sabayonuser	well.. i couldn't figure it out.. :) i am on that page now
+2010-08-19 23:34:04	sabayonuser	http://wiki.sabayonlinux.org/index.php?title=HOWTO:_Enable_wireless_with_ipw2200
+2010-08-19 23:35:32	sabayonuser	i have a LevelOne card with the Ralink chip
+2010-08-19 23:36:03	sabayonuser	is that supported in Sabayon?
+2010-08-19 23:39:40	Thev00d00	sabayonuser: probablyu
+2010-08-19 23:44:00	<--	katoda (~katoda@87-205-56-89.adsl.inetia.pl) has quit (Quit: KVIrc Insomnia 4.0.0, revision: 4223, sources date: 20100125, built on: 2010-03-26 12:41:00 UTC http://www.kvirc.net/)
+2010-08-19 23:44:27	-->	meshuggah (~meshuggah@unaffiliated/meshuggah) has joined #sabayon
+2010-08-19 23:46:49	--	Guest65893 is now known as |Cadmus|
+2010-08-19 23:47:01	<--	Thev00d00 (~v00d00@unaffiliated/thev00d00) has quit (Remote host closed the connection)
+2010-08-19 23:47:19	--	|Cadmus| is now known as Guest88960
+2010-08-19 23:47:32	<--	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has quit (Ping timeout: 240 seconds)
+2010-08-19 23:48:42	-->	Thev00d00 (~v00d00@unaffiliated/thev00d00) has joined #sabayon
+2010-08-19 23:50:29	<--	Thev00d00 (~v00d00@unaffiliated/thev00d00) has quit (Remote host closed the connection)
+2010-08-19 23:51:50	-->	tyr12 (~tyr12@unaffiliated/tyranny) has joined #sabayon
+2010-08-19 23:52:19	-->	tyranny12 (~tyranny12@unaffiliated/tyranny) has joined #sabayon
+2010-08-19 23:55:11	<--	laci (~laci@unaffiliated/laci) has quit (Quit: Távozom)
+2010-08-20 00:06:04	-->	sabayonuser (~sabayonus@host9-136-dynamic.32-79-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-20 00:06:09	<--	sabayonuser (~sabayonus@host9-136-dynamic.32-79-r.retail.telecomitalia.it) has left #sabayon
+2010-08-20 00:06:17	-->	silasdavis (~sabayonus@92.7.102.127) has joined #sabayon
+2010-08-20 00:11:22	<--	silasdavis (~sabayonus@92.7.102.127) has quit (Remote host closed the connection)
+2010-08-20 00:17:32	<--	MeaCulpa (~MeaCulpa@221.239.217.79) has quit (Quit: http://ucarenya.com/)
+2010-08-20 00:18:20	-->	sabayonweb_21503 (970f1119@gateway/web/freenode/ip.151.15.17.25) has joined #sabayon
+2010-08-20 00:23:27	--	Mode #sabayon [+o tangent] by ChanServ
+2010-08-20 00:23:54	--	Mode #sabayon [-l] by tangent
+2010-08-20 00:24:55	<--	Guest88960 (~|Cadmus|@vm.sabayon.disco.unimib.it) has left #sabayon
+2010-08-20 00:25:19	-->	|Cadmus|8 (~|Cadmus|@vm.sabayon.disco.unimib.it) has joined #sabayon
+2010-08-20 00:31:51	-->	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has joined #sabayon
+2010-08-20 00:32:04	sabayonuser	hello
+2010-08-20 00:32:18	sabayonuser	well.. my wireless started to work..
+2010-08-20 00:32:59	sabayonuser	all by itself....strange
+2010-08-20 00:45:54	Shinigami-Sama	yo
+2010-08-20 00:46:01	Shinigami-Sama	sabayonuser: usb dongle?
+2010-08-20 00:47:49	--	|Cadmus|8 is now known as |Cadmus|
+2010-08-20 00:48:19	--	|Cadmus| is now known as Guest91222
+2010-08-20 00:48:20	<--	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has quit (Read error: Connection reset by peer)
+2010-08-20 00:48:56	<--	sabayonweb_21503 (970f1119@gateway/web/freenode/ip.151.15.17.25) has quit (Ping timeout: 252 seconds)
+2010-08-20 00:56:41	<--	Guest91222 (~|Cadmus|@vm.sabayon.disco.unimib.it) has left #sabayon
+2010-08-20 00:56:48	-->	|Cadmus|5 (~|Cadmus|@vm.sabayon.disco.unimib.it) has joined #sabayon
+2010-08-20 01:04:09	-->	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has joined #sabayon
+2010-08-20 01:08:08	-->	sabayonuser2 (~sabayonus@62.140.34.67) has joined #sabayon
+2010-08-20 01:08:37	<--	sabayonuser (~sabayonus@74-60-228-2.gar.clearwire-wmx.net) has quit (Ping timeout: 260 seconds)
+2010-08-20 01:12:57	<--	Shinigami-Sama (~Pewpew@unaffiliated/setsuna-xero) has quit (Ping timeout: 276 seconds)
+2010-08-20 01:16:20	-->	rmb (~sabayonus@62.140.34.67) has joined #sabayon
+2010-08-20 01:16:50	<--	sabayonuser2 (~sabayonus@62.140.34.67) has quit (Quit: Leaving)
+2010-08-20 01:16:54	<--	rmb (~sabayonus@62.140.34.67) has left #sabayon
+2010-08-20 01:25:36	-->	Shinigami-Sama (~Pewpew@unaffiliated/setsuna-xero) has joined #sabayon
+2010-08-20 01:26:34	-->	alphad (~alphad@41.66.6.33) has joined #sabayon
+2010-08-20 01:32:37	-->	genfool (~genfool@unaffiliated/genfool) has joined #sabayon
+2010-08-20 01:46:48	--	|Cadmus|5 is now known as |Cadmus|
+2010-08-20 01:47:07	<--	|Cadmus| (~|Cadmus|@vm.sabayon.disco.unimib.it) has left #sabayon
+2010-08-20 01:47:31	-->	|Cadmus| (~|Cadmus|@unaffiliated/emxyzptlk) has joined #sabayon
+2010-08-20 01:47:31	--	Mode #sabayon [+o |Cadmus|] by ChanServ
+2010-08-20 01:48:58	--	Mode #sabayon [+bb *!*abayonu@*.acanac.net *!*inuxuse@*.acanac.net] by |Cadmus|
+2010-08-20 01:49:03	--	Mode #sabayon [+l 70] by |Cadmus|
+2010-08-20 01:49:08	--	Mode #sabayon [+l 70] by |Cadmus|
+2010-08-20 01:55:54	<--	alphad (~alphad@41.66.6.33) has quit (Remote host closed the connection)
+2010-08-20 01:57:14	<--	lythandrel (~lythandre@unaffiliated/lythandrel) has quit (Read error: No route to host)
+2010-08-20 01:59:51	<--	sublime (~sublime@cpe-72-224-203-207.maine.res.rr.com) has quit (Quit: Leaving)
+2010-08-20 02:00:47	--	Mode #sabayon [+l 67] by |Cadmus|
+2010-08-20 02:09:14	-->	Channel6 (~blah@unaffiliated/yourkicks) has joined #sabayon
+2010-08-20 02:12:43	-->	lythandrel (~lythandre@unaffiliated/lythandrel) has joined #sabayon
+2010-08-20 02:18:52	<--	glide (~glide@S01060016b61c8923.wp.shawcable.net) has quit (Remote host closed the connection)
+2010-08-20 02:31:56	<--	billie (~billie@gentoo/developer/billie) has quit (Ping timeout: 246 seconds)
+2010-08-20 02:39:20	<--	DHalens (~DHalens@unaffiliated/dhalens) has quit (Quit: time to snore...)
+2010-08-20 02:48:55	-->	oyster (~oyster@188.123.242.69) has joined #sabayon
+2010-08-20 02:49:07	oyster	hi
+2010-08-20 02:50:29	oyster	i'm trying to install kde 4.5 from gentoo overlay following this guide http://www.gentoo.org/proj/en/desktop/kde/kde4-guide.xml#live and i don't have /etc/portage/package.keywords directory O_o it's a file. What do i do?
+2010-08-20 02:59:50	<--	Phazorx (~pavelkoll@77.239.236.193) has quit (Quit: Phazorx)
+2010-08-20 03:01:57	Radtoo	oyster: portage isn't really a good idea with sabayon
+2010-08-20 03:02:57	lythandrel	oyster: that's a huge undertaking....   and all directories are files in linux based systems
+2010-08-20 03:03:41	lythandrel	?? portage
+2010-08-20 03:03:44	@|Cadmus|	portage[1]: is the source package manager for sabayon and other gentoo based distros.  http://wiki.sabayonlinux.org/index.php?title=En:HOWTO:_The_Complete_Portage_Guide
+2010-08-20 03:03:48	@|Cadmus|	portage[2]: Please keep in mind, being familiar with portage involves quite a bit more than just typing "emerge package".
+2010-08-20 03:04:02	lythandrel	read teh portage guide first, oyster.  then decide if that's something you want to do.
+2010-08-20 03:04:36	lythandrel	oyster: keep in mind that gentoo isn't even bringing in kde 4.5 to portage yet... it is remaining in the overlay until it's a bit more stable and complete.
+2010-08-20 03:06:06	oyster	lythandrel: I don't actually=) Just wanna get tiling in kwin.
+2010-08-20 03:06:23	oyster	Maybe i really shouldn't do that:D
+2010-08-20 03:07:42	-->	sabayonweb_11575 (4f06f761@gateway/web/freenode/ip.79.6.247.97) has joined #sabayon
+2010-08-20 03:08:05	sabayonweb_11575	Can't get flash works on Opera (x86_64)
+2010-08-20 03:14:57	Radtoo	Last thing I heard was that 64 bit flash was discontinued or temporarily suspended by adobe, and that you need to use a 32bit browser with the 32bit plugin (firefox-bin... for instance) to run flash
+2010-08-20 03:15:07	Radtoo	Probably nothing has changed about that yet.
+2010-08-20 03:15:59	Radtoo	Releases of 64 bit flash, I should say - I don't know what they develop.
+2010-08-20 03:16:10	sabayonweb_11575	Radtoo: I tried to re-install nspluginwrapper but Oper still doesn't reproduce flash on YT
+2010-08-20 03:16:41	Radtoo	Might want to use the html5 variant of youtube if nothing helps, or firefox-bin
+2010-08-20 03:16:51	oyster	sabayonweb_11575: have you tried 'nspluginwrapper -a -v -i'?
+2010-08-20 03:17:17	Radtoo	but I'm not an opera user, I don't know if it even should work or not. :D
+2010-08-20 03:17:28	Radtoo	Just that probably a 64bit of opera may not work
+2010-08-20 03:18:54	sabayonweb_11575	oyster: http://dpaste.com/231429/
+2010-08-20 03:20:08	oyster	I've had the same errors about that plugins, but that fixed flashplayer problems in ff and chromium=)
+2010-08-20 03:20:34	<--	DanySK (~danysk@host164-194-dynamic.16-87-r.retail.telecomitalia.it) has quit (Remote host closed the connection)
+2010-08-20 03:20:52	sabayonweb_11575	oyster: mmm... Ok. I'll check tomorrow... Now I'm going to zzz.... Bye!
+2010-08-20 03:21:29	oyster	bye
+2010-08-20 03:25:02	-->	DanySK (~danysk@host164-194-dynamic.16-87-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-20 03:25:07	<--	sabayonweb_11575 (4f06f761@gateway/web/freenode/ip.79.6.247.97) has quit (Ping timeout: 252 seconds)
+2010-08-20 03:25:48	<--	lxnay (~lxnay@gentoo/developer/lxnay) has quit (Ping timeout: 260 seconds)
+2010-08-20 03:36:13	<--	oyster (~oyster@188.123.242.69) has quit (Remote host closed the connection)
+2010-08-20 03:36:46	--	Mode #sabayon [+l 64] by |Cadmus|
+2010-08-20 03:41:52	-->	dave_64 (~dave@66-172-246-41.longlines.com) has joined #sabayon
+2010-08-20 03:45:36	genfool	?? nocd
+2010-08-20 03:45:38	@|Cadmus|	nocd: Running and installing Sabayon from USB using UNetbootin or Linux Live USB Creator - http://forum.sabayonlinux.org/viewtopic.php?f=50&t=8518
+2010-08-20 03:51:20	<--	Giggaflop_ (~Mr_bo_jan@85.211.35.172) has quit (Remote host closed the connection)
+2010-08-20 03:53:09	-->	iRedWar (188171a7@gateway/web/freenode/ip.24.129.113.167) has joined #sabayon
+2010-08-20 03:53:33	iRedWar	Greetings.
+2010-08-20 03:53:58	dave_64	hi
+2010-08-20 03:54:06	genfool	hello iRedWar
+2010-08-20 03:54:13	iRedWar	hallo
+2010-08-20 03:55:48	iRedWar	Workingon virtualizing. The kernel modules with virtualbox a little bit difficult to configure.  I wanted to know if anyone here has a preffered virtualizer?
+2010-08-20 03:56:01	iRedWar	I ve got virt_manager getting set to run
+2010-08-20 03:56:40	dave_64	huh?  i just installed vbox a few days ago and it worked out of the box
+2010-08-20 03:58:23	iRedWar	I think if I got rid of the version i have of VBOX right now, prior to the updates, I mmight now have the problems I have had.  I am able to make it work, but I have to  keep loading kernal mods every boot
+2010-08-20 03:58:36	iRedWar	But just asking if anyone has a preference for Sabayon
+2010-08-20 03:59:06	dave_64	add the modules to a config file....let me check which one
+2010-08-20 04:00:17	dave_64	add to /etc/conf.d/modules : modules="vboxdrv vboxnetadp vboxnetflt"
+2010-08-20 04:01:15	iRedWar	yeah.. Im having to mess around with that. I got it from the forum, it works but have to do it every boot up
+2010-08-20 04:02:00	iRedWar	But, I am looking to try others, just for the heck of it, I just did not know if there was in particular. I already loaded up virt_manager, and I m lworking on it as we speak
+2010-08-20 04:02:07	dave_64	did you add that line at the end of the file, on a line by itself?  were you root?
+2010-08-20 04:02:24	iRedWar	Yes I was root, and I added it on a line on its own
+2010-08-20 04:02:55	iRedWar	So not sure what I am doing wrong there, I just saw someone else had the same problem, .. the line is there.. so not sure why i Have to keep loading it in terminal
+2010-08-20 04:03:03	dave_64	maybe you need to add a carriage return after adding the line
+2010-08-20 04:03:04	iRedWar	But its ok, I mean, it runs great when I do it
+2010-08-20 04:03:22	iRedWar	That is a good idea, I did not think about that, is that how yours looks like>
+2010-08-20 04:03:23	iRedWar	?
+2010-08-20 04:04:34	<--	ichernetsky (~ivan@port-74-adslby-pool38.infonet.by) has left #sabayon
+2010-08-20 04:05:37	dave_64	all i know is that there are some config files that need a carriage return after the last line.  in fact, i messed up my install (WINXP) and installed it as root, so i didnt get around to adding anything to modules
+2010-08-20 04:06:24	dave_64	my keyboard has a stuck key ...the shift key is stuck down, so i have to type with caps lock on
+2010-08-20 04:06:58	iRedWar	dave_64 I am trying to mess around with WINXP x86 sp 3, but I keep getting the error, ISO not bootable.  Looked up some forums,and ppl were having problems.  I dont know if  I was in root.  But the error actually is no bootable media is found
+2010-08-20 04:07:08	iRedWar	I was able to ge tFedora12 to work though
+2010-08-20 04:07:10	dave_64	humidity is off the chart around here this past two months
+2010-08-20 04:07:19	iRedWar	Where are you at dave?
+2010-08-20 04:07:28	iRedWar	Im in FLorida, its pretty hot out here
+2010-08-20 04:07:35	iRedWar	Humid  uggh
+2010-08-20 04:07:41	dave_64	iowa
+2010-08-20 04:07:48	iRedWar	stay cool budy
+2010-08-20 04:07:57	iRedWar	Its hot and sticky out here
+2010-08-20 04:08:10	genfool	dave_64,  I find that if I do not spill beer on the kb, the keys do not stick.
+2010-08-20 04:08:34	dave_64	iRedWar: type    modprobe vboxdrv      before trying to install
+2010-08-20 04:08:36	iRedWar	I find if I spill keys on the keyboard, that my computer runs faster
+2010-08-20 04:08:57	iRedWar	dave_64 right before the install
+2010-08-20 04:08:58	iRedWar	?
+2010-08-20 04:09:16	iRedWar	Spill beer
+2010-08-20 04:09:20	iRedWar	I just saw that
+2010-08-20 04:09:21	iRedWar	doh
+2010-08-20 04:09:29	dave_64	anytime after linux is booted.....yeah,  beer...heh, heh
+2010-08-20 04:12:58	dave_64	are you sure your cdrom is mounted?
+2010-08-20 04:13:35	iRedWar	Yeah it is.  I am working on it now, but I actually want to save this install.. and really test out virt manager have you used it yet?
+2010-08-20 04:13:54	dave_64	no
+2010-08-20 04:14:00	iRedWar	that command you gave me btw is what I use  when I first work it
+2010-08-20 04:14:14	iRedWar	But XP ISO, checksum is good, not sure what the deal is there
+2010-08-20 04:14:32	iRedWar	I also have some ISO with seven 32 bit, but that failed too initially
+2010-08-20 04:14:47	iRedWar	But that was before I did the additional lines.. So as we speak I m working on adding it
+2010-08-20 04:15:20	iRedWar	But I think Im going to try to use Virt_manager with 2008 Server guest and Sabayon as HOst
+2010-08-20 04:16:22	iRedWar	XP Ill throw int here
+2010-08-20 04:16:54	iRedWar	I noticed no how to, if I get it to work the way Im hoping, I would like to add to the forums... so I just submit it right?
+2010-08-20 04:17:09	iRedWar	(virt_manager how to)
+2010-08-20 04:17:21	iRedWar	Very scant what is out there
+2010-08-20 04:17:23	dave_64	i don't know much about virtualization.  I just played with it a few times,  and recently installed winxp to see if i could still do it
+2010-08-20 04:18:04	genfool	you could add it to the wiki, under "how to"
+2010-08-20 04:19:44	iRedWar	Awesome, Im taking notes right now, so I got it on my Tomboy, and as I get through it I ll keep doing it
+2010-08-20 04:19:47	iRedWar	ththen post
+2010-08-20 04:20:17	iRedWar	I think this would be very useful, especially for those that are looking for alternative hypervisors
+2010-08-20 04:20:24	iRedWar	or virtualizers I mena
+2010-08-20 04:20:25	dave_64	yeah, i see vbox is already in the wiki howto
+2010-08-20 04:20:50	iRedWar	yeah, it was very helpful, its where i got also that vbox moddrv stuff
+2010-08-20 04:20:51	iRedWar	also
+2010-08-20 04:21:41	iRedWar	So that was very helpful. Just slightly buggy, just not sure why I am having the hard time with the XP ISO, but I did have screwed up repos before, and it appears, that I may actually need to update  VOBX anyways
+2010-08-20 04:21:45	iRedWar	VBOX
+2010-08-20 04:22:10	iRedWar	Meanwhile, last night I installed virt_manager, with QEMU and working the modules part as we speak
+2010-08-20 04:22:37	dave_64	is the winxp in the form of an iso?  it should be an image
+2010-08-20 04:25:05	iRedWar	ISO are not images?
+2010-08-20 04:25:16	iRedWar	What am I misisng?
+2010-08-20 04:25:50	dave_64	if the file is of the form, winxp.iso    it is not an image....it (the .iso file) needs to be burned as an image
+2010-08-20 04:26:05	iRedWar	This was burned into my CD then I moved it
+2010-08-20 04:26:19	iRedWar	I used ISO BURN
+2010-08-20 04:26:22	iRedWar	But ok
+2010-08-20 04:26:28	dave_64	is the cd bootable
+2010-08-20 04:26:38	iRedWar	Its bootable on its own yes
+2010-08-20 04:27:02	dave_64	when you boot with the cd in place,  does it come up with the winxp installer?
+2010-08-20 04:27:08	iRedWar	yes
+2010-08-20 04:27:24	dave_64	ok, then it's an image...it should work with vbox
+2010-08-20 04:27:46	iRedWar	yup that is what is throwing me for the loop there.   But... we will see
+2010-08-20 04:27:55	iRedWar	I m working on it now
+2010-08-20 04:28:11	dave_64	how are you starting vbox?
+2010-08-20 04:29:26	iRedWar	with the modprobe
+2010-08-20 04:29:39	iRedWar	It works with the other ISO's when I do that
+2010-08-20 04:29:47	iRedWar	including my server 2003
+2010-08-20 04:30:29	dave_64	i mean, are you starting vbox from a terminal with the command: VirtualBox
+2010-08-20 04:31:37	iRedWar	I was running it form terminal before
+2010-08-20 04:31:42	iRedWar	from
+2010-08-20 04:31:54	iRedWar	Let me run it, I was just editing
+2010-08-20 04:31:58	iRedWar	with VIM
+2010-08-20 04:32:28	dave_64	and did you type: modprobe vboxdrv        at a root terminal before running VirtualBox    (at a user terminal_
+2010-08-20 04:33:20	-->	chris____ (~chris@c-98-236-80-223.hsd1.wv.comcast.net) has joined #sabayon
+2010-08-20 04:33:43	iRedWar	when I did it yes, and it did the trick
+2010-08-20 04:33:53	iRedWar	I have to do it everytime I shut down Sabayon
+2010-08-20 04:34:07	iRedWar	But if I leave it on, of course I can shut down vmachine and bring it back up fine
+2010-08-20 04:34:41	dave_64	ok, my problem is i ran the VirtualBox    command from a root terminal....which,  is wrong,   as far as i know, but it works
+2010-08-20 04:34:45	-->	DoctorPepper (~smz@41.92.55.236) has joined #sabayon
+2010-08-20 04:35:13	DoctorPepper	hi guys!
+2010-08-20 04:35:20	dave_64	hi
+2010-08-20 04:35:32	lythandrel	?? vboxdrv
+2010-08-20 04:35:33	@|Cadmus|	vboxdrv[x]: No definition found for word.
+2010-08-20 04:35:38	iRedWar	Hi Dcr Peper
+2010-08-20 04:35:41	lythandrel	?? virtualbox
+2010-08-20 04:35:43	@|Cadmus|	virtualbox: see vbox.
+2010-08-20 04:35:44	iRedWar	DoctorPepper
+2010-08-20 04:35:44	dave_64	?? vbox
+2010-08-20 04:35:47	@|Cadmus|	vbox[1]: To configure virtualbox, after installation do the following
+2010-08-20 04:35:49	@|Cadmus|	vbox[2]: modprobe vboxdrv ; modprobe vboxnetadp ; modprobe vboxnetflt
+2010-08-20 04:35:51	@|Cadmus|	vbox[3]: then add the following line to the end of /etc/conf.d/modules
+2010-08-20 04:35:51	iRedWar	hello lythandrel
+2010-08-20 04:35:53	@|Cadmus|	vbox[4]: modules="vboxdrv vboxnetadp vboxnetflt"
+2010-08-20 04:35:57	lythandrel	there... that'll tell you how to have it going continually.
+2010-08-20 04:36:29	iRedWar	ahh
+2010-08-20 04:36:38	iRedWar	I thinjk I di dhtis
+2010-08-20 04:36:40	iRedWar	yeah
+2010-08-20 04:36:42	dave_64	are you using virtualbox-bin?
+2010-08-20 04:36:44	iRedWar	did
+2010-08-20 04:36:51	iRedWar	umm
+2010-08-20 04:37:06	iRedWar	good question
+2010-08-20 04:37:12	dave_64	type: equo search virtualbox
+2010-08-20 04:37:12	iRedWar	I think I just type virtualbox
+2010-08-20 04:37:43	iRedWar	just did
+2010-08-20 04:37:54	iRedWar	Wait was I suppose to be in root when I did equo?
+2010-08-20 04:38:00	dave_64	yes
+2010-08-20 04:38:14	iRedWar	I got a print out, but I ll do it again
+2010-08-20 04:38:15	dave_64	any package manager functions require root
+2010-08-20 04:38:16	iRedWar	in root
+2010-08-20 04:38:23	iRedWar	Yeah forgot
+2010-08-20 04:38:28	DoctorPepper	can any help me please i have a issue with video images not displaying in dagron an kaffeine when playing any kind of video  but the soubd psrt wok just fine
+2010-08-20 04:38:32	iRedWar	should I pastebin
+2010-08-20 04:38:33	iRedWar	?
+2010-08-20 04:39:00	dave_64	which one is installed?
+2010-08-20 04:39:22	iRedWar	its still running
+2010-08-20 04:39:25	DoctorPepper	both
+2010-08-20 04:39:25	iRedWar	here we go
+2010-08-20 04:40:02	iRedWar	virtualbox 3.2.8
+2010-08-20 04:41:06	dave_64	iRedWar: maybe you should run: equo remove virtualbox         then run: equo install virtualbox-bin
+2010-08-20 04:41:19	iRedWar	I ll do that right now
+2010-08-20 04:42:51	iRedWar	funny, it claims that its not installed
+2010-08-20 04:42:55	iRedWar	But its there
+2010-08-20 04:43:04	dave_64	DoctorPepper: have you tried mplayer?
+2010-08-20 04:43:22	iRedWar	> ## ATTENTION: virtualbox is not installed. >>    ? When you wrote virtualbox You Meant(tm) one of these below? >>     # app-emulation/virtualbox-bin:0 ? >>     # app-emulation/virtualbox-modules:0,2.6.34-sabayon ?
+2010-08-20 04:43:48	iRedWar	is this a possible conflict?
+2010-08-20 04:44:07	DoctorPepper	dave mplayer and vlc works
+2010-08-20 04:44:31		irc: disconnected from server
+2010-08-20 04:45:17	-->	quesada1 (~quesada@e178196216.adsl.alicedsl.de) has joined #sabayon
+2010-08-20 04:45:17	--	Topic for #sabayon is "Welcome to Sabayon Linux, the installable, Gentoo-based, preconfigured, livedisc || Sabayon 5.3 RELEASED! || Mirrors: www.sabayon.org/download || Social stuff belongs in -social || Planet: planet.sabayon.org || Please ask your question, do not ask to ask. || Sabayon 4.x repositories are now offline. There is no safe upgrade path|| NO PASTING IN CHANNEL! || Iwonder|too R.I.P"
+2010-08-20 04:45:17	--	Topic set by Azerthoth (~azerthoth@funtoo/user/azerthoth) on Thu, 15 Jul 2010 23:59:30
+2010-08-20 04:45:17	--	Nicks #sabayon: [@ChanServ @tangent @|Cadmus| AstralStorm AuroraPixi Autie beees bsdfox c0nv1ct Channel6 chris____ DanySK dave_64 denysonique DoctorPepper dontpanic dougl Enlik Er0x fleebailey33 freeallbadgers Gadwin genfool GHellings GHellings1 inaeth iRedWar iwishikne jasherai|away koo5 lythandrel meshuggah nakee_ omgpenguins optiz0r paar ParkerBeta paszczus_ paztulio pentament pestilent quesada quesada1 Radtoo Raenk Samae sheepbat Shinigami-Sama Sleepy63 snot Tina- Touchstone tyr12 tyranny12 vdex virys Vitoriung wolfbear wolfden]
+2010-08-20 04:45:17	--	Channel #sabayon: 59 nicks (3 ops, 0 halfops, 0 voices, 56 normals)
+2010-08-20 04:45:17	--	Notice(asimov.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2010-08-20 04:45:23	--	Channel created on Mon, 12 Feb 2007 09:33:11
+2010-08-20 04:45:46	--	Mode #sabayon [+l 67] by |Cadmus|
+2010-08-20 04:45:49	dave_64	DoctorPepper: mplayer can handle more types of encoding than some of the others
+2010-08-20 04:46:32	DoctorPepper	i actually use ogv and ogm only
+2010-08-20 04:47:29	dave_64	DoctorPepper: i only used Dragon player a couple of times...i didn't like it, so i use mplayer or vlc
+2010-08-20 04:47:42	<--	quesada (~quesada@e178199212.adsl.alicedsl.de) has quit (Ping timeout: 240 seconds)
+2010-08-20 04:48:11	iRedWar	To make it work I usually have to do this...   for m in vbox{drv,netadp,netflt}; do modprobe $m; done
+2010-08-20 04:48:36	iRedWar	Now, here is the thing.... I noticed in the equo search...   I have a lot of not installs, at least listed
+2010-08-20 04:48:55	iRedWar	How about if we remove all instances of virtualbox and do another install
+2010-08-20 04:49:21	iRedWar	maybe this is just a matter of what I was experiencing with some kernal issues that I just recently resovled
+2010-08-20 04:49:40	dave_64	iRedWar: just run: equo remove virtualbox      then run: equo install virtualbox-bin
+2010-08-20 04:51:27	iRedWar	equo remove virtual box asked about whch one... so should i just remove each one?
+2010-08-20 04:51:40	iRedWar	Or remove all other the virtualbox bin
+2010-08-20 04:52:19	dave_64	man,  now i'm getting confused   :)     you're call
+2010-08-20 04:54:09	dave_64	all i know is my "notes"  suggest installing virtualbox-bin    and then do the other things cadmus showed you
+2010-08-20 04:54:12	dave_64	?? vbox
+2010-08-20 04:54:13	@|Cadmus|	vbox[1]: To configure virtualbox, after installation do the following
+2010-08-20 04:54:15	@|Cadmus|	vbox[2]: modprobe vboxdrv ; modprobe vboxnetadp ; modprobe vboxnetflt
+2010-08-20 04:54:17	@|Cadmus|	vbox[3]: then add the following line to the end of /etc/conf.d/modules
+2010-08-20 04:54:19	@|Cadmus|	vbox[4]: modules="vboxdrv vboxnetadp vboxnetflt"
+2010-08-20 04:56:19	dave_64	the first 2 items are to run vbox without rebooting...the last two items are to allow you to run vbox without loading the modules after every reboot
+2010-08-20 04:56:38	iRedWar	Ok.. Im going to do it
+2010-08-20 04:56:55	<--	DoctorPepper (~smz@41.92.55.236) has quit (Remote host closed the connection)
+2010-08-20 04:56:56	-->	jp1 (~sabayonus@c-71-57-130-208.hsd1.fl.comcast.net) has joined #sabayon
+2010-08-20 04:56:56	iRedWar	Sorry for confusion dave_64 but I appreciate the help
+2010-08-20 04:57:08	dave_64	no problem...good luck
+2010-08-20 04:57:24	iRedWar	damn lightening storm out here is bad.. I think it iwill work out fine the new vbox install
+2010-08-20 04:57:32	iRedWar	whois lythandrel
+2010-08-20 04:57:43	iRedWar	lythandrel
+2010-08-20 04:57:44	iRedWar	Are you in jax like me?
+2010-08-20 04:57:45	dave_64	ask her
+2010-08-20 04:57:49	iRedWar	IF you are, this is Ralph
+2010-08-20 04:57:51	iRedWar	ok
+2010-08-20 04:58:00	iRedWar	Somebody here must be in my JaxLug group
+2010-08-20 04:58:22	iRedWar	Wow this lightening out here is killer
+2010-08-20 04:58:44	dave_64	got ups?
+2010-08-20 04:58:59	iRedWar	well Im fine there, its the broadband that I could use
+2010-08-20 04:59:08	iRedWar	Comcast is kinda ...iffy in my area
+2010-08-20 04:59:25	iRedWar	and the lightening is right outside my window
+2010-08-20 04:59:39	iRedWar	UPS protects the machines, but not my connection
+2010-08-20 05:00:14	dave_64	machines are more important than the connection
+2010-08-20 05:00:39	dave_64	gtg.  good luck
+2010-08-20 05:00:57	iRedWar	see you dave and thanks again
+2010-08-20 05:03:47	<--	jp1 (~sabayonus@c-71-57-130-208.hsd1.fl.comcast.net) has quit (Quit: Leaving)
+2010-08-20 05:03:52	<--	dave_64 (~dave@66-172-246-41.longlines.com) has left #sabayon ("Konversation terminated!")
+2010-08-20 05:04:40	<--	Channel6 (~blah@unaffiliated/yourkicks) has quit (Quit: Leaving)
+2010-08-20 05:04:46	--	Mode #sabayon [+l 63] by |Cadmus|
+2010-08-20 05:05:05	-->	sublime (~sublime@cpe-72-224-203-207.maine.res.rr.com) has joined #sabayon
+2010-08-20 05:05:05	<--	sublime (~sublime@cpe-72-224-203-207.maine.res.rr.com) has quit (Client Quit)
+2010-08-20 05:08:49	<--	virys (~virys@unaffiliated/virys) has quit (Remote host closed the connection)
+2010-08-20 05:21:32	<--	DanySK (~danysk@host164-194-dynamic.16-87-r.retail.telecomitalia.it) has quit (Ping timeout: 260 seconds)
+2010-08-20 05:33:32	-->	sabayonweb_66508 (55ab052d@gateway/web/freenode/ip.85.171.5.45) has joined #sabayon
+2010-08-20 05:34:48	-->	dMaggot (~david@201.227.175.3) has joined #sabayon
+2010-08-20 05:35:07	sabayonweb_66508	hello all
+2010-08-20 05:39:59	-->	david (~david@201.227.175.3) has joined #sabayon
+2010-08-20 05:40:26	--	david is now known as Guest2980
+2010-08-20 05:40:52	<--	dMaggot (~david@201.227.175.3) has quit (Read error: No route to host)
+2010-08-20 05:48:20	-->	dMaggot (~david@201.227.175.3) has joined #sabayon
+2010-08-20 05:48:23	<--	Guest2980 (~david@201.227.175.3) has quit (Quit: Konversation terminated!)
+2010-08-20 05:48:54	<--	dMaggot (~david@201.227.175.3) has quit (Read error: Connection reset by peer)
+2010-08-20 05:52:24	-->	dontpanic_11 (~dontpanic@adsl-146-250-136.mob.bellsouth.net) has joined #sabayon
+2010-08-20 05:55:41	<--	dontpanic (~dontpanic@adsl-220-188-105.mob.bellsouth.net) has quit (Ping timeout: 276 seconds)
+2010-08-20 06:16:26	<--	omgpenguins (~mro_work@173-12-189-113-oregon.hfc.comcastbusiness.net) has quit (Ping timeout: 276 seconds)
+2010-08-20 06:17:38	-->	omgpenguins (~mro_work@173-12-189-113-oregon.hfc.comcastbusiness.net) has joined #sabayon
+2010-08-20 06:32:31	lythandrel	iRedWar: i'm in south florida - two closest lugs are FLUX and SWFLUG.
+2010-08-20 06:37:48	--	dontpanic_11 is now known as dontpanic
+2010-08-20 06:49:45	-->	catalyst64 (a5e4e7be@gateway/web/freenode/ip.165.228.231.190) has joined #sabayon
+2010-08-20 07:09:36	<--	catalyst64 (a5e4e7be@gateway/web/freenode/ip.165.228.231.190) has quit (Quit: Page closed)
+2010-08-20 07:21:30	-->	me|kor (~melkor@srbk-d9324adb.pool.mediaWays.net) has joined #sabayon
+2010-08-20 07:52:25	denysonique	sabayonweb_66508, hi
+2010-08-20 07:52:25	-->	sabayonweb_76083 (520a94b8@gateway/web/freenode/ip.82.10.148.184) has joined #sabayon
+2010-08-20 07:52:31	--	sabayonweb_76083 is now known as denysonique_web
+2010-08-20 07:57:17	-->	laci (~laci@unaffiliated/laci) has joined #sabayon
+2010-08-20 07:59:19	<--	denysonique_web (520a94b8@gateway/web/freenode/ip.82.10.148.184) has quit (Quit: Page closed)
+2010-08-20 08:02:33	-->	MeaCulpa (~MeaCulpa@211.167.127.6) has joined #sabayon
+2010-08-20 08:05:53	<--	me|kor (~melkor@srbk-d9324adb.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-08-20 08:11:16	-->	ogunay (~ogunay@77.92.128.2) has joined #sabayon
+2010-08-20 08:13:27	<--	ogunay (~ogunay@77.92.128.2) has quit (Client Quit)
+2010-08-20 08:13:48	-->	ogunay (~ogunay@77.92.128.2) has joined #sabayon
+2010-08-20 08:16:09	<--	laci (~laci@unaffiliated/laci) has quit (Quit: Távozom)
+2010-08-20 08:37:37	<--	sheepbat (~lev3k@c-98-238-227-32.hsd1.ca.comcast.net) has quit (Ping timeout: 272 seconds)
+2010-08-20 09:03:32	-->	sheepbat (~lev3k@c-98-238-227-32.hsd1.ca.comcast.net) has joined #sabayon
+2010-08-20 09:05:00	-->	lythandrel_ (~lythandre@c-98-211-159-8.hsd1.fl.comcast.net) has joined #sabayon
+2010-08-20 09:05:21	<--	lythandrel (~lythandre@unaffiliated/lythandrel) has quit (Read error: No route to host)
+2010-08-20 09:07:36	<--	MeaCulpa (~MeaCulpa@211.167.127.6) has quit (Quit: http://ucarenya.com)
+2010-08-20 09:10:19	<--	sheepbat (~lev3k@c-98-238-227-32.hsd1.ca.comcast.net) has quit (Ping timeout: 258 seconds)
+2010-08-20 09:23:43	<--	tangent (~tangent@unaffiliated/lythandrel) has quit (Ping timeout: 245 seconds)
+2010-08-20 09:32:00	-->	Phazorx (~pavelkoll@77.239.236.193) has joined #sabayon
+2010-08-20 09:38:49	-->	tangent (~tangent@unaffiliated/lythandrel) has joined #sabayon
+2010-08-20 09:52:45	-->	AjeZ (~AjeZ@host131-198-dynamic.45-79-r.retail.telecomitalia.it) has joined #sabayon
+2010-08-20 09:52:45	<--	AjeZ (~AjeZ@host131-198-dynamic.45-79-r.retail.telecomitalia.it) has quit (Changing host)
+2010-08-20 09:52:45	-->	AjeZ (~AjeZ@unaffiliated/ajez) has joined #sabayon
+2010-08-20 09:56:18	<--	AjeZ (~AjeZ@unaffiliated/ajez) has quit (Client Quit)
+2010-08-20 10:31:00	-->	demanufacture (~demanu@chello089078008029.chello.pl) has joined #sabayon
+2010-08-20 10:31:20	demanufacture	how to extract wavpack to wav files?
+2010-08-20 10:34:16	Shinigami-Sama	with ffmpeg?
+2010-08-20 10:34:20	Shinigami-Sama	or mplayer?
+2010-08-20 10:35:18	demanufacture	mplayer reads it as one sound file
+2010-08-20 10:36:07	demanufacture	only amarok after extract it by wvunpack reads one wav file as many songs
+2010-08-20 10:36:29	demanufacture	but i dont know how to extract this wave file to simple files
+2010-08-20 10:36:30	Shinigami-Sama	wavpack is just lossless compression
+2010-08-20 10:37:03	demanufacture	yes i know
+2010-08-20 10:37:12	demanufacture	i have many songs in one wavpack
+2010-08-20 10:37:20	demanufacture	and i want extract them
+2010-08-20 10:38:00	--	lythandrel_ is now known as lythandrel
+2010-08-20 10:38:18	<--	lythandrel (~lythandre@c-98-211-159-8.hsd1.fl.comcast.net) has quit (Changing host)
+2010-08-20 10:38:18	-->	lythandrel (~lythandre@unaffiliated/lythandrel) has joined #sabayon
+2010-08-20 10:38:46	demanufacture	Shinigami-Sama I just want have many wave files, not one wavpack
+2010-08-20 10:40:57	<--	Shinigami-Sama (~Pewpew@unaffiliated/setsuna-xero) has quit (Ping timeout: 240 seconds)
+2010-08-20 10:49:20	beees	you'll need the proper times for each song
+2010-08-20 10:49:40	beees	which... I hope, it has encoded in an internal cue sheet
+2010-08-20 10:53:37	-->	Shinigami-Sama (~Pewpew@unaffiliated/setsuna-xero) has joined #sabayon
+2010-08-20 10:59:50	demanufacture	beees: and how to do it
+2010-08-20 11:00:00	demanufacture	it in encoded
+2010-08-20 11:00:06	demanufacture	cause amarok can read it
+2010-08-20 11:12:24	beees	dunno, that's for you to look up
+2010-08-20 11:12:43	beees	you can easily extract the cuesheet though and go through the times
+2010-08-20 11:15:43	-->	bunty (~mbunty@pa-67-235-1-229.dhcp.embarqhsd.net) has joined #sabayon
+2010-08-20 11:16:15	bunty	hey guys. I just downloaded the sabayon daily iso. What app do i use to put it on to a usn stick? I forgot. lol
+2010-08-20 11:17:01	-->	nakee__ (~nakee@109-186-15-100.bb.netvision.net.il) has joined #sabayon
+2010-08-20 11:17:43	--	Mode #sabayon [+l 66] by |Cadmus|
+2010-08-20 11:19:16	<--	nakee_ (~nakee@109-186-214-119.bb.netvision.net.il) has quit (Ping timeout: 272 seconds)
+2010-08-20 11:20:43	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #sabayon
+2010-08-20 11:30:54	<--	beees (~beees@ool-44c19036.dyn.optonline.net) has quit (Ping timeout: 265 seconds)
+2010-08-20 11:34:03	<--	AuroraPixi (~Pixi@ns.wiscdns.com) has quit (Ping timeout: 240 seconds)
+2010-08-20 12:10:12		irc: disconnected from server
+2010-08-21 11:43:34	-->	quesada1 (~quesada@e178195135.adsl.alicedsl.de) has joined #sabayon
+2010-08-21 11:43:35	--	Topic for #sabayon is "Welcome to Sabayon Linux, the installable, Gentoo-based, preconfigured, livedisc || Sabayon 5.3 RELEASED! || Mirrors: www.sabayon.org/download || Social stuff belongs in -social || Planet: planet.sabayon.org || Please ask your question, do not ask to ask. || Sabayon 4.x repositories are now offline. There is no safe upgrade path|| NO PASTING IN CHANNEL! || Iwonder|too R.I.P"
+2010-08-21 11:43:35	--	Topic set by Azerthoth (~azerthoth@funtoo/user/azerthoth) on Thu, 15 Jul 2010 23:59:31
+2010-08-21 11:43:35	--	Nicks #sabayon: [@ChanServ @|Cadmus| alphad AstralStorm Autie beees c0nv1ct chris____ DaZ denysonique dontpanic dougl dyingmuppet Enlik Er0x fleebailey33 freeallbadgers gadwin GHellings GHellings1 Greywhind inaeth iwishikne jasherai|away joost_op Kalafok koo5 lorenzo lxnay|lappie lythandrel MeaCulpa meshuggah nakee__ omgpenguins optiz0r paar ParkerBeta paszczus_ paztulio pentament pestilent quesada1 Radtoo Raenk Ronis_BR sabayonuser2 Samae Shinigami-Sama Sleepy63 snot tangent Tina- Touchstone vdex virys Vitoriung wolfbear wolfden]
+2010-08-21 11:43:35	--	Channel #sabayon: 58 nicks (2 ops, 0 halfops, 0 voices, 56 normals)
+2010-08-21 11:43:37	--	Channel created on Mon, 12 Feb 2007 09:33:11
+2010-08-21 11:57:35	joost_op	Kalafok: hmm?
+2010-08-21 11:57:49	joost_op	hold on a sec
+2010-08-21 11:59:07	joost_op	Kalafok: 1752 in the end of the  number is you rite?
+2010-08-21 12:10:34	-->	sabayonweb_60294 (5f4bd8d8@gateway/web/freenode/ip.95.75.216.216) has joined #sabayon
