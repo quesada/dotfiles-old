@@ -4388,3 +4388,6 @@
 2010-08-21 12:08:31	<--	tizbac (~X_X@host15-187-dynamic.35-79-r.retail.telecomitalia.it) has quit (Ping timeout: 252 seconds)
 2010-08-21 12:09:07	-->	tizbac (~X_X@host15-187-dynamic.35-79-r.retail.telecomitalia.it) has joined #vim
 2010-08-21 12:12:49	<--	tizbac (~X_X@host15-187-dynamic.35-79-r.retail.telecomitalia.it) has quit (Read error: No route to host)
+2010-08-21 12:15:30	<--	abhinav (~abhinav@122.172.105.88) has quit (Ping timeout: 265 seconds)
+2010-08-21 12:16:11	Ademan	can anyone explain this line to me?
+2010-08-21 12:16:13	Ademan	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif

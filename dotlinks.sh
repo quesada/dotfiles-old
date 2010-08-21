@@ -28,6 +28,10 @@ ln -s $DOTDIR/.xmonad
 mv $HOME/.lyx $DOTDIR/
 ln -s $DOTDIR/.lyx
 
+mv $HOME/.weechat $DOTDIR/
+ln -s $DOTDIR/.weechat
+
+
 
 # files
 mv $HOME/.Xdefaults $DOTDIR/

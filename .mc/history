@@ -17,11 +17,6 @@
 1=dis
 2=miis
 
-[inpmc.fm.mkdir]
-0=oldproj
-1=data
-2=miislita
-
 [user-fmt-input]
 0=half type name | size | perm
 
@@ -30,12 +25,6 @@
 1=half type name          perm
 2=half type name | owner | perm
 3=half type name | owner |  perm
-
-[input-2]
-0=/home/quesada/wuala/WualaDrive/myfiles/music/recent
-
-[input-1]
-0=/mnt/mobileData/extra/music/recent
 
 [inpmc.hotlist.add]
 0=/home/quesada/down
@@ -50,6 +39,153 @@
 0=1000000
 1=000000
 2=0
+
+[inpmc.fm.mkdir]
+0=oldproj
+1=data
+2=miislita
+3=challenges
+4=factforge-queries
+5=models
+6=wiki-mar2008
+7=test
+
+[Dir Hist New Right Panel]
+0=/home/quesada/down/scipy2010_intro_tutorials.zip#uzip/scipy2010_intro_tutorials
+1=/home/quesada/down/scipy2010_intro_tutorials.zip#uzip
+2=/home/quesada/down/euroscipy_beginners_lecture_notes
+3=/home/quesada/.xmonad
+4=/data/corpora/miIslitaLsi
+5=/data/corpora
+6=/data
+7=/home/quesada/wuala
+8=/home/quesada/wuala/WualaDrive
+9=/home/quesada/wuala/WualaDrive/myfiles/doc/doc
+10=/home/quesada/wuala/WualaDrive/myfiles
+11=/home/quesada/wuala/WualaDrive/myfiles/doc
+12=/mnt/backup/storeBackup/home
+13=/home/quesada/Desktop
+14=/home/quesada/Dropbox/Dropbox/books/python
+15=/home/quesada/Dropbox/Dropbox/books
+16=/home/quesada/Dropbox/Dropbox
+17=/home/quesada/Dropbox/books
+18=/home/quesada/Dropbox/researchscientist.2
+19=/home/quesada/Dropbox/data/miislita
+20=/home/quesada/Dropbox/data
+21=/home/quesada/larkc/WP2/d2.3.2
+22=/data/projects/mpi_timing_tests/tmp
+23=/data/projects/mpi_timing_tests/tmp/results
+24=/data/projects/mpi_timing_tests/tmp/results/processed_measurements/800ws=10seed=600run=1.csv_0.05_0.1/cleaned
+25=/data/projects/mpi_timing_tests/tmp/results/processed_measurements
+26=/data/projects/mpi_timing_tests/tmp/results/processed_measurements/800ws=10seed=600run=1.csv_0.05_0.1
+27=/data/projects/mpi_timing_tests/tmp/results/processed_measurements/800ws=10seed=600run=1.csv_0.05_0.1/compared2reference
+28=/home/quesada/.mc
+29=/home/quesada/coding/tfidf2
+30=/home/quesada/.vim/syntax
+31=/home/quesada/.vim/autoload
+32=/home/quesada/.vim/doc
+33=/home/quesada/.vim/plugin
+34=/home/ftp
+35=/home/quesada/down
+36=/home/quesada/down/vim-fuzzyfinder.zip#uzip
+37=/data/projects/mpi_timing_tests/data/results
+38=/home/quesada/.vim
+39=/home/quesada/Dropbox (copy)/dotfiles
+40=/home/quesada/Dropbox (copy)
+41=/home
+42=/
+43=/mnt
+44=/mnt/mobileData
+45=/mnt/mobileData/extra
+46=/mnt/mobileData/extra/onholdCoding
+47=/home/quesada/Dropbox
+48=/home/quesada/coding/tfidf/data/challenges/factforge-queries
+49=/home/quesada/coding/tfidf/data/challenges
+50=/home/quesada/coding/tfidf/data
+51=/home/quesada/coding/tfidf/data/corpora
+52=/home/quesada/coding/tfidf/data/corpora/wiki-mar2008
+53=/home/quesada/larkc/WP2/d2.3.2latex
+54=/home/quesada/larkc/WP2
+55=/home/quesada/larkc
+56=/home/quesada
+57=/home/quesada/coding
+58=/home/quesada/coding/tfidf
+59=/home/quesada/coding/tfidf/tfidf
+
+[cmdline]
+0=OB
+1=.vim
+2=/
+3=f
+4=cd ~
+5=q
+6=codi
+7=cd fwi
+8=quit
+9=coding
+10=
+
+[Dir Hist New Left Panel]
+0=/usr/share/vim/vim72
+1=/usr/share/vim
+2=/usr/share
+3=/usr
+4=/mnt/backup
+5=/mnt/backup/old_storeBackup
+6=/mnt/backup/old_storeBackup/home
+7=/mnt/backup/old_storeBackup/home/2010.06.21_07.35.23
+8=/mnt/backup/old_storeBackup/home/2010.06.21_07.35.23/quesada
+9=/mnt/backup/old_storeBackup/home/2010.06.21_07.35.23/quesada/.vim/syntax
+10=/mnt/backup/old_storeBackup/home/2010.06.21_07.35.23/quesada/.vim
+11=/mnt/mobileData/extra/jose/USBstick/TC UP/TC-addons
+12=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles/syntax
+13=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles/plugin
+14=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles/ftplugin/python
+15=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles/ftplugin
+16=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles
+17=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim
+18=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools
+19=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS
+20=/mnt/mobileData/extra/jose/USBstick/TC UP
+21=/mnt/mobileData/extra/jose/USBstick
+22=/mnt/mobileData
+23=/mnt
+24=/data/projects
+25=/data/projects/mpi_timing_tests
+26=/data/projects/mpi_timing_tests/data
+27=/data/projects/mpi_timing_tests/data/results/raw_measurements
+28=/data/projects/mpi_timing_tests/data/results
+29=/data/projects/mpi_timing_tests/data/results/processed_measurements/cleaned
+30=/data/projects/mpi_timing_tests/data/results/processed_measurements/compared2reference
+31=/data/projects/mpi_timing_tests/data/results/processed_measurements
+32=/mnt/mobileData/extra/music/music
+33=/mnt/mobileData/extra/music/recent
+34=/home/quesada/.vimperator
+35=/home/quesada/.vim/plugin
+36=/home/quesada/.vim/bundle/vim-fugitive
+37=/home/quesada/.vim/bundle
+38=/home/quesada/.vim
+39=/home/quesada/Dropbox/music
+40=/home/quesada/Dropbox
+41=/home/quesada/Dropbox (copy)
+42=/mnt/mobileData/extra/music
+43=/mnt/mobileData/extra
+44=/mnt/mobileData/extra/jose
+45=/mnt/mobileData/extra/jose/kwantes
+46=/mnt/mobileData/extra/jose/kwantes/tools
+47=/data/projects/keyword_extraction_from_queries
+48=/data/projects/keyword_extraction_from_queries/rudimentary
+49=/data/projects/keyword_extraction_from_queries/rudimentary/39queries-d2.3.2
+50=/home/quesada/coding/tfidf/models
+51=/home
+52=/
+53=/data/corpora
+54=/data
+55=/data/paralelizationbackup
+56=/home/quesada
+57=/home/quesada/coding
+58=/home/quesada/coding/tfidf
+59=/home/quesada/coding/tfidf/test
 
 [input-def]
 0=*
@@ -90,140 +226,19 @@
 32=/home/quesada/bin/
 33=/home/quesada/tmp/
 34=/home/quesada/.vim/
+35=/home/quesada/Dropbox/
+36=/home/quesada/coding/tfidf/data/challenges/factforge-queries/
+37=/home/quesada/coding/tfidf/data/corpora/wiki-mar2008/
+38=/home/quesada/coding/tfidf/test/
+39=/home/quesada/.weechat/perl/autoload/
+40=/home/quesada/Dropbox/dotfiles/
 
-[Dir Hist New Right Panel]
-0=/home/quesada/.kde4/share/config
-1=/home/quesada/.kde4/share
-2=/home/quesada/.kde4
-3=/home/quesada/wuala/WualaDrive/myfiles/coding
-4=/home/quesada/down/scipy2010_intro_tutorials.zip#uzip/scipy2010_intro_tutorials/slides
-5=/home/quesada/down/scipy2010_intro_tutorials.zip#uzip/scipy2010_intro_tutorials/circulate
-6=/home/quesada/down/scipy2010_intro_tutorials.zip#uzip/scipy2010_intro_tutorials
-7=/home/quesada/down/scipy2010_intro_tutorials.zip#uzip
-8=/home/quesada/down/euroscipy_beginners_lecture_notes
-9=/home/quesada/.xmonad
-10=/data/corpora/miIslitaLsi
-11=/data/corpora
-12=/data
-13=/home/quesada/wuala
-14=/home/quesada/wuala/WualaDrive
-15=/home/quesada/wuala/WualaDrive/myfiles/doc/doc
-16=/home/quesada/wuala/WualaDrive/myfiles
-17=/home/quesada/wuala/WualaDrive/myfiles/doc
-18=/mnt/backup/storeBackup/home
-19=/home/quesada/Desktop
-20=/home/quesada/Dropbox/Dropbox/books/python
-21=/home/quesada/Dropbox/Dropbox/books
-22=/home/quesada/Dropbox/Dropbox
-23=/home/quesada/Dropbox/books
-24=/home/quesada/Dropbox/researchscientist.2
-25=/home/quesada/Dropbox/data/miislita
-26=/home/quesada/Dropbox/data
-27=/home/quesada/Dropbox
-28=/home/quesada/larkc
-29=/home/quesada/larkc/WP2/d2.3.2
-30=/home/quesada/larkc/WP2
-31=/home/quesada/larkc/WP2/d2.3.2latex
-32=/data/projects/mpi_timing_tests/tmp
-33=/data/projects/mpi_timing_tests/tmp/results
-34=/data/projects/mpi_timing_tests/tmp/results/processed_measurements/800ws=10seed=600run=1.csv_0.05_0.1/cleaned
-35=/data/projects/mpi_timing_tests/tmp/results/processed_measurements
-36=/data/projects/mpi_timing_tests/tmp/results/processed_measurements/800ws=10seed=600run=1.csv_0.05_0.1
-37=/data/projects/mpi_timing_tests/tmp/results/processed_measurements/800ws=10seed=600run=1.csv_0.05_0.1/compared2reference
-38=/home/quesada/.mc
-39=/home/quesada/coding/tfidf2
-40=/home/quesada/.vim/syntax
-41=/home/quesada/.vim/autoload
-42=/home/quesada/.vim/doc
-43=/home/quesada/.vim/plugin
-44=/home/ftp
-45=/home/quesada/coding
-46=/home/quesada/coding/tfidf
-47=/home/quesada/down
-48=/home/quesada/down/vim-fuzzyfinder.zip#uzip
-49=/data/projects/mpi_timing_tests/data/results
-50=/home/quesada/.vim
-51=/home/quesada/Dropbox (copy)/dotfiles
-52=/home/quesada/Dropbox (copy)
-53=/home/quesada
-54=/home
-55=/
-56=/mnt
-57=/mnt/mobileData
-58=/mnt/mobileData/extra
-59=/mnt/mobileData/extra/onholdCoding
+[input-2]
+0=/home/quesada/wuala/WualaDrive/myfiles/music/recent
+1=/data/backup
+2=/home/quesada/Dropbox/dotfiles/.weechat
 
-[cmdline]
-0=OB
-1=.vim
-2=/
-3=f
-4=cd ~
-5=q
-6=codi
-7=cd fwi
-8=quit
-9=coding
-10=
-
-[Dir Hist New Left Panel]
-0=/home/quesada/wuala/WualaDrive/myfiles/pdf
-1=/home/quesada/wuala/WualaDrive/myfiles/coding
-2=/mnt/mobileData/extra/moviesRa
-3=/home/quesada/wuala/WualaDrive/myfiles/dotfiles
-4=/home/quesada/.kde
-5=/home/quesada/.kde4/share/apps
-6=/home/quesada/.kde4/share
-7=/home/quesada/.kde4
-8=/home/quesada/wuala/WualaDrive/myfiles/doc/presentations
-9=/home/quesada/wuala/WualaDrive/myfiles/doc
-10=/home/quesada/wuala/WualaDrive/myfiles
-11=/home/quesada/wuala/WualaDrive
-12=/usr/share/vim/vim72
-13=/usr/share/vim
-14=/usr/share
-15=/usr
-16=/mnt/backup
-17=/mnt/backup/old_storeBackup
-18=/mnt/backup/old_storeBackup/home
-19=/mnt/backup/old_storeBackup/home/2010.06.21_07.35.23
-20=/mnt/backup/old_storeBackup/home/2010.06.21_07.35.23/quesada
-21=/mnt/backup/old_storeBackup/home/2010.06.21_07.35.23/quesada/.vim/syntax
-22=/mnt/backup/old_storeBackup/home/2010.06.21_07.35.23/quesada/.vim
-23=/mnt/mobileData/extra/jose/USBstick/TC UP/TC-addons
-24=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles/syntax
-25=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles/plugin
-26=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles/ftplugin/python
-27=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles/ftplugin
-28=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim/vimfiles
-29=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools/vim
-30=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS/Tools
-31=/mnt/mobileData/extra/jose/USBstick/TC UP/PLUGINS
-32=/mnt/mobileData/extra/jose/USBstick/TC UP
-33=/mnt/mobileData/extra/jose/USBstick
-34=/mnt/mobileData/extra/jose
-35=/mnt/mobileData/extra
-36=/mnt/mobileData
-37=/mnt
-38=/
-39=/data
-40=/data/projects
-41=/data/projects/mpi_timing_tests
-42=/data/projects/mpi_timing_tests/data
-43=/data/projects/mpi_timing_tests/data/results/raw_measurements
-44=/data/projects/mpi_timing_tests/data/results
-45=/data/projects/mpi_timing_tests/data/results/processed_measurements/cleaned
-46=/data/projects/mpi_timing_tests/data/results/processed_measurements/compared2reference
-47=/data/projects/mpi_timing_tests/data/results/processed_measurements
-48=/mnt/mobileData/extra/music/music
-49=/mnt/mobileData/extra/music
-50=/mnt/mobileData/extra/music/recent
-51=/home/quesada/.vimperator
-52=/home/quesada/.vim/plugin
-53=/home/quesada/.vim/bundle/vim-fugitive
-54=/home/quesada/.vim/bundle
-55=/home/quesada/.vim
-56=/home/quesada/Dropbox/music
-57=/home/quesada/Dropbox
-58=/home/quesada
-59=/home
+[input-1]
+0=/mnt/mobileData/extra/music/recent
+1=/home/quesada/backup
+2=/home/quesada/.weechat

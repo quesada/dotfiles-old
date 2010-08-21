@@ -292,7 +292,9 @@ shell/.pl
 shell/.rb
     Open=%var{EDITOR:vim} %f
 
-
+# R
+shell/.R
+	Open=%var{EDITOR:vim} %f
 
 ### Documentation ###
 

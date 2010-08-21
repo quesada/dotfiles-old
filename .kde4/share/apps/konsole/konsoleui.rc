@@ -62,7 +62,7 @@
  <ActionProperties scheme="Default">
   <Action shortcut="Ctrl+Shift+B" name="add_bookmark"/>
   <Action shortcut="" name="help_contents"/>
-  <Action shortcut="Ctrl+T" name="new-tab"/>
+  <Action shortcut="Ctrl+Shift+T" name="new-tab"/>
   <Action shortcut="Ctrl+N" name="new-window"/>
   <Action shortcut="Ctrl+." name="options_configure_keybinding"/>
   <Action shortcut="Ctrl+M" name="show-menubar"/>

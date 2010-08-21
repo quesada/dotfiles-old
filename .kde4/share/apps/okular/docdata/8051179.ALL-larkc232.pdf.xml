@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE documentInfo>
-<documentInfo url="/home/quesada/Dropbox/d2.3.2latex/ALL-larkc232.pdf">
+<documentInfo url="/home/quesada/larkc/WP2/d2.3.2latex/ALL-larkc232.pdf">
  <pageList/>
  <generalInfo>
   <history>
-   <oldPage viewport="2;C2:1.00265:0.586784:1"/>
-   <oldPage viewport="4;C2:1.00265:0.848113:1"/>
-   <oldPage viewport="6;C2:1.00265:0.476034:1"/>
    <oldPage viewport="8;C2:1.00265:0.739065:1"/>
    <oldPage viewport="10;C2:1.00265:0.370091:1"/>
    <oldPage viewport="12;C2:1.00265:0.643807:1"/>
@@ -14,11 +11,14 @@
    <oldPage viewport="16;C2:1.00265:0.550151:1"/>
    <oldPage viewport="18;C2:1.00265:0.823867:1"/>
    <oldPage viewport="20;C2:1.00265:0.566465:1"/>
-   <current viewport="18;C2:1.00265:0.981571:1"/>
+   <oldPage viewport="18;C2:0.499593:0.244208:1"/>
+   <oldPage viewport="17;C2:0.499593:1:1"/>
+   <oldPage viewport="18;C2:0.499593:0.755329:1"/>
+   <current viewport="19;C2:0.499593:0:1"/>
   </history>
   <views>
    <view name="PageView">
-    <zoom mode="1" value="1.58582"/>
+    <zoom mode="1" value="1.27336"/>
    </view>
   </views>
  </generalInfo>
