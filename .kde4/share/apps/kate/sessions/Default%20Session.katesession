@@ -38,10 +38,10 @@ URL=file:///home/quesada/tmp/foo.py
 Bookmarks=
 Encoding=UTF-8
 Highlighting=None
-Indentation Mode=python
-Mode=Python
+Indentation Mode=none
+Mode=
 ReadWrite=true
-URL=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
+URL=file:///home/quesada/coding/esa/tests.py
 
 [Document 5]
 Bookmarks=
@@ -80,7 +80,7 @@ ReadWrite=true
 URL=file:///home/quesada/Documents/tasadores.txt
 
 [DocumentModel:MainWindow:0]
-Order=0,1,2,3
+Order=0,1,2,3,4
 SortRole=34
 
 [General]
@@ -94,7 +94,7 @@ katectagsplugin=false
 kateexternaltoolsplugin=false
 katefilebrowserplugin=true
 katefiletemplates=false
-katefindinfilesplugin=false
+katefindinfilesplugin=true
 katekonsoleplugin=true
 katemailfilesplugin=false
 kateopenheaderplugin=false
@@ -163,10 +163,10 @@ Orientation=2
 Sizes=1083
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/quesada/tmp/foo.py
-Count=4
-View 0=file:///home/quesada/coding/gensim/trunk/src/gensim/matutils.py
-View 1=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
+Active View=file:///home/quesada/coding/esa/tests.py
+Count=2
+View 0=file:///home/quesada/tmp/foo.py
+View 1=file:///home/quesada/coding/esa/tests.py
 View 2=file:///home/quesada/coding/semmod/semmod/corpus.py
 View 3=file:///home/quesada/tmp/foo.py
 View 4=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
@@ -184,6 +184,10 @@ CursorLine=125
 [MainWindow0-ViewSpace 0 file:///home/quesada/.xmonad/xmonad.hs.fancy]
 CursorColumn=19
 CursorLine=153
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/esa/tests.py]
+CursorColumn=0
+CursorLine=35
 
 [MainWindow0-ViewSpace 0 file:///home/quesada/coding/gensim/miislita-fromScratch.py]
 CursorColumn=25
@@ -226,8 +230,8 @@ CursorColumn=0
 CursorLine=73
 
 [MainWindow0-ViewSpace 0 file:///home/quesada/tmp/foo.py]
-CursorColumn=6
-CursorLine=1
+CursorColumn=0
+CursorLine=0
 
 [MainWindow0-ViewSpace 0 file:///home/quesada/tmp/kk.py]
 CursorColumn=0
@@ -266,7 +270,7 @@ CursorColumn=0
 CursorLine=33
 
 [Open Documents]
-Count=4
+Count=5
 
 [Open MainWindows]
 Count=1
@@ -274,7 +278,7 @@ Count=1
 [Plugin:katefilebrowserplugin:MainWindow:0]
 auto sync folder=false
 filter history=
-location[$e]=file://$HOME/coding/gensim/trunk/src/gensim
+location[$e]=file://$HOME/coding/esa/
 
 [Plugin:katefilebrowserplugin:MainWindow:0:dir]
 Decoration position=0
@@ -287,11 +291,11 @@ View Style=Detail
 
 [Plugin:katefindinfilesplugin::find-in-files]
 CaseSensitive=false
-FollowDirectorySymlinks=false
-LastSearchFiles=
-LastSearchItems=
-LastSearchPaths=
-Recursive=false
+FollowDirectorySymlinks=true
+LastSearchFiles=\\0
+LastSearchItems=from tfidf.
+LastSearchPaths=file:///home/quesada/coding/esa
+Recursive=true
 RegExp=false
 
 [Plugin:katetabbarextensionplugin:MainWindow:0:view]
@@ -314,23 +318,23 @@ minimum width=102
 sort type=0
 
 [Recent Files]
-File1[$e]=$HOME/.mc/mc.keymap
-File10[$e]=$HOME/.config/fish/config.fish
-File2[$e]=$HOME/.mc/bindings
-File3[$e]=$HOME/coding/gensim/trunk/src/gensim/corpora/mmcorpus.py
-File4[$e]=$HOME/.kde4/share/apps/katepart/syntax/ruby.xml
-File5[$e]=$HOME/coding/gensim/trunk/src/gensim/similarities/docsim.py
-File6[$e]=$HOME/coding/gensim/trunk/src/gensim/interfaces.pyc
-File7[$e]=$HOME/coding/gensim/trunk/src/gensim/matutils.py
-File8[$e]=$HOME/coding/gensim/trunk/src/gensim/interfaces.py
-File9[$e]=$HOME/.kde4/share/apps/katepart/syntax/python.xml
-Name1[$e]=mc.keymap
-Name10[$e]=config.fish
-Name2[$e]=bindings
-Name3[$e]=mmcorpus.py
-Name4[$e]=ruby.xml
-Name5[$e]=docsim.py
-Name6[$e]=interfaces.pyc
-Name7[$e]=matutils.py
-Name8[$e]=interfaces.py
-Name9[$e]=python.xml
+File1[$e]=$HOME/.mc/bindings
+File10[$e]=$HOME/coding/esa/tests.py
+File2[$e]=$HOME/coding/gensim/trunk/src/gensim/corpora/mmcorpus.py
+File3[$e]=$HOME/.kde4/share/apps/katepart/syntax/ruby.xml
+File4[$e]=$HOME/coding/gensim/trunk/src/gensim/similarities/docsim.py
+File5[$e]=$HOME/coding/gensim/trunk/src/gensim/interfaces.pyc
+File6[$e]=$HOME/coding/gensim/trunk/src/gensim/matutils.py
+File7[$e]=$HOME/coding/gensim/trunk/src/gensim/interfaces.py
+File8[$e]=$HOME/.kde4/share/apps/katepart/syntax/python.xml
+File9[$e]=$HOME/.config/fish/config.fish
+Name1[$e]=bindings
+Name10[$e]=tests.py
+Name2[$e]=mmcorpus.py
+Name3[$e]=ruby.xml
+Name4[$e]=docsim.py
+Name5[$e]=interfaces.pyc
+Name6[$e]=matutils.py
+Name7[$e]=interfaces.py
+Name8[$e]=python.xml
+Name9[$e]=config.fish

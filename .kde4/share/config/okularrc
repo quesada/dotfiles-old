@@ -13,7 +13,7 @@ AutomaticDetectionLanguage=1
 [KFileDialog Settings]
 Height 1152=750
 Height 1200=750
-Recent Files[$e]=$HOME/pdf/eswc2010/Jiacoppo2010-Scalable and parallel reasoning in the Semantic\nWeb\nESWC10-phdsym.pdf,$HOME/pdf/eswc2010/SahlgrenRI intro.pdf,$HOME/pdf/Ioannou2010-rdfsim-nearDuplicateDetectionNews-eswc.pdf,$HOME/pdf/heath2010-06-crete-linked-data-now-what.pdf,$HOME/pdf/Juslin\\, Nilsson & Winman\\, 2009.PDF,$HOME/pdf/livesocialsemantics.pdf
+Recent Files[$e]=$HOME/pdf/eswc2010/Jiacoppo2010-Scalable and parallel reasoning in the Semantic\nWeb\nESWC10-phdsym.pdf,$HOME/Dropbox/pdf/Hills-CD-network-AssocStructJML.pdf,$HOME/pdf/eswc2010/SahlgrenRI intro.pdf,$HOME/pdf/Ioannou2010-rdfsim-nearDuplicateDetectionNews-eswc.pdf,$HOME/pdf/heath2010-06-crete-linked-data-now-what.pdf,$HOME/pdf/Juslin\\, Nilsson & Winman\\, 2009.PDF,$HOME/pdf/livesocialsemantics.pdf
 Width 1920=1200
 Width 2048=1200
 
@@ -22,7 +22,7 @@ Height 1152=1153
 Height 1200=1201
 Height 768=769
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAxAAAAC+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB/wAAARJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1024=1025
 Width 1920=1921
@@ -32,26 +32,20 @@ Width 2048=2049
 presentationInfo=false
 
 [Recent Dirs]
-okular[$e]=file://$HOME/pdf/eswc2010/,file://$HOME/pdf/,file:///data/books/scipy/
+okular[$e]=file://$HOME/Dropbox/pdf/,file://$HOME/pdf/eswc2010/,file://$HOME/pdf/
 
 [Recent Files]
-File1[$e]=$HOME/pdf/deeplearning-language-2009_tutorial_nips.pdf
-File10[$e]=$HOME/larkc/WP2/d2.3.2latex/ALL-larkc232.pdf
-File2[$e]=$HOME/pdf/turney2010-vsm-live-2934-4846-jair.pdf
-File3[$e]=$HOME/pdf/eswc2010/2_eswc2010_digital_proceedings/Vol_6088/978-3-642-13485-2_Book_PrintPDF-1.pdf
-File4[$e]=$HOME/pdf/Juslin, Nilsson & Winman, 2009.PDF
-File5[$e]=$HOME/pdf/262_PayneDugganNeth2007_JEPG_136-3-370-time-foraging.pdf
-File6[$e]=$HOME/pictures/presentations/LDSR.png
-File7[$e]=/tmp/2005_JRC-Workshop_Sahlgren.pdf
-File8[$e]=/tmp/Using_wex_parser.pdf
-File9[$e]=/tmp/sumatra_euroscipy2010_small.pdf
-Name1[$e]=deeplearning-language-2009_tutorial_nips.pdf
-Name10[$e]=ALL-larkc232.pdf
-Name2[$e]=turney2010-vsm-live-2934-4846-jair.pdf
-Name3[$e]=978-3-642-13485-2_Book_PrintPDF-1.pdf
-Name4[$e]=Juslin, Nilsson & Winman, 2009.PDF
-Name5[$e]=262_PayneDugganNeth2007_JEPG_136-3-370-time-foraging.pdf
-Name6[$e]=LDSR.png
-Name7[$e]=2005_JRC-Workshop_Sahlgren.pdf
-Name8[$e]=Using_wex_parser.pdf
-Name9[$e]=sumatra_euroscipy2010_small.pdf
+File1[$e]=$HOME/pdf/262_PayneDugganNeth2007_JEPG_136-3-370-time-foraging.pdf
+File2[$e]=$HOME/pictures/presentations/LDSR.png
+File3[$e]=$HOME/pdf/leePincombeCogSci2005.pdf
+File4[$e]=$HOME/larkc/WP2/d2.3.2latex/ALL-larkc232.pdf
+File5[$e]=$HOME/pdf/gabrilovich2009-WikipediaExplicitSemanticAnalysis.pdf
+File6[$e]=/data/books/scipy/scipy.chm
+File7[$e]=/tmp/AssocStructJML.pdf
+Name1[$e]=262_PayneDugganNeth2007_JEPG_136-3-370-time-foraging.pdf
+Name2[$e]=LDSR.png
+Name3[$e]=leePincombeCogSci2005.pdf
+Name4[$e]=ALL-larkc232.pdf
+Name5[$e]=gabrilovich2009-WikipediaExplicitSemanticAnalysis.pdf
+Name6[$e]=scipy.chm
+Name7[$e]=AssocStructJML.pdf

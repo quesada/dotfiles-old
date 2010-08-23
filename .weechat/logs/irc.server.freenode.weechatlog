@@ -610,3 +610,1276 @@
 2010-08-21 11:43:35	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
 2010-08-21 11:53:05	--	#ubuntu: #ubuntu-unregged :Forwarding to another channel
 2010-08-21 11:53:06	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-22 04:42:02	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2010-08-22 04:42:02		irc: disconnecting from server...
+2010-08-22 04:42:02		irc: disconnected from server
+2010-08-22 04:42:02		irc: reconnecting to server in 30 seconds
+2010-08-22 04:42:32		irc: reconnecting to server...
+2010-08-22 04:42:32		irc: connecting to server chat.freenode.net/6667...
+2010-08-22 04:42:33		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-22 04:42:33	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-22 04:42:33	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-22 04:42:33	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-22 04:42:45	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-22 04:42:45		irc: nickname "quesada1" is already in use, trying nickname #3 ("quesada2")
+2010-08-22 04:42:45	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-22 04:42:45	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-22 04:42:45	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-22 04:42:45	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-22 04:42:45	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-22 04:42:45	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-22 04:42:45	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-22 04:42:45	--	There are 785 users and 50109 invisible on 23 servers
+2010-08-22 04:42:45	--	34 :IRC Operators online
+2010-08-22 04:42:45	--	11 :unknown connection(s)
+2010-08-22 04:42:45	--	36581 :channels formed
+2010-08-22 04:42:45	--	I have 4457 clients and 1 servers
+2010-08-22 04:42:45	--	4457 6922 :Current local users 4457, max 6922
+2010-08-22 04:42:45	--	50894 64361 :Current global users 50894, max 64361
+2010-08-22 04:42:45	--	Highest connection count: 6923 (6922 clients) (3061316 connections received)
+2010-08-22 04:42:45	--	- gibson.freenode.net Message of the Day -
+2010-08-22 04:42:45	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-22 04:42:45	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-22 04:42:45	--	-
+2010-08-22 04:42:45	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-22 04:42:45	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-22 04:42:45	--	- helped establish a new kind of science fiction literature
+2010-08-22 04:42:45	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-22 04:42:45	--	- and described virtual reality long before we saw the
+2010-08-22 04:42:45	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-22 04:42:45	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-22 04:42:45	--	-
+2010-08-22 04:42:45	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-22 04:42:45	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-22 04:42:45	--	-
+2010-08-22 04:42:45	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-22 04:42:45	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-22 04:42:45	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-22 04:42:45	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-22 04:42:45	--	- support.
+2010-08-22 04:42:45	--	-
+2010-08-22 04:42:45	--	- By connecting to freenode you indicate that you have read
+2010-08-22 04:42:45	--	- and agree to adhere to our policies and procedures as per
+2010-08-22 04:42:45	--	- the website (http://freenode.net). We would like to remind
+2010-08-22 04:42:45	--	- you that unauthorized public logging of channels on the
+2010-08-22 04:42:45	--	- network is prohibited. Public channel logging should only
+2010-08-22 04:42:45	--	- take place where the channel owner(s) has requested this
+2010-08-22 04:42:45	--	- and users of the channel are all made aware (if you are
+2010-08-22 04:42:45	--	- publically logging your channel, you may wish to keep a
+2010-08-22 04:42:45	--	- notice in topic and perhaps as a on-join message).
+2010-08-22 04:42:45	--	-
+2010-08-22 04:42:45	--	- By registering your nickname with Nickserv you agree that you
+2010-08-22 04:42:46	--	- are 13 years of age, or older. For more information about the
+2010-08-22 04:42:46	--	- Children's Online Privacy Protection Act please see their
+2010-08-22 04:42:46	--	- website at (http://www.coppa.org).
+2010-08-22 04:42:46	--	-
+2010-08-22 04:42:46	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-22 04:42:46	--	- indicates your acceptance of this policy. For details on
+2010-08-22 04:42:46	--	- freenode network policy, please take a look at our policy
+2010-08-22 04:42:46	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-22 04:42:46	--	- the network!
+2010-08-22 04:42:46	--	-
+2010-08-22 04:42:46	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-22 04:42:46	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-22 04:42:46	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-22 04:42:46	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-22 04:42:46	--	- [http://geeknic.org]
+2010-08-22 04:42:46	--	-
+2010-08-22 04:42:46	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-22 04:42:46	--	- a not for profit organisation registered in England and Wales.
+2010-08-22 04:42:46	--	-
+2010-08-22 04:42:46	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-22 04:42:46	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-22 04:42:46	--	-
+2010-08-22 04:42:46	--	- Thank you for using freenode!
+2010-08-22 04:42:46	--	-
+2010-08-22 04:42:46	--	End of /MOTD command.
+2010-08-22 04:42:46	--	User mode [+i] by quesada2
+2010-08-22 04:42:46	--	CTCP requested by frigg: VERSION
+2010-08-22 04:42:46	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-22 04:42:48	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-22 04:42:48	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-22 04:42:50	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-22 04:42:52	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 01:20:37	--	Link:: e178195093.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 01:20:45	=!=	irc: reading data on socket: error 2 (connection closed by peer)
+2010-08-23 01:20:45		irc: disconnecting from server...
+2010-08-23 01:20:46		irc: disconnected from server
+2010-08-23 01:20:46		irc: reconnecting to server in 30 seconds
+2010-08-23 01:21:17		irc: reconnecting to server...
+2010-08-23 01:21:17		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 01:21:23		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 01:21:23	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 01:21:24	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 01:21:25	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 01:21:37	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 01:21:38	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 01:21:38	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 01:21:38	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 01:21:38	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 01:21:38	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 01:21:38	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 01:21:38	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 01:21:38	--	There are 799 users and 51610 invisible on 23 servers
+2010-08-23 01:21:38	--	35 :IRC Operators online
+2010-08-23 01:21:38	--	12 :unknown connection(s)
+2010-08-23 01:21:38	--	36697 :channels formed
+2010-08-23 01:21:38	--	I have 4729 clients and 1 servers
+2010-08-23 01:21:38	--	4729 6922 :Current local users 4729, max 6922
+2010-08-23 01:21:38	--	52409 64361 :Current global users 52409, max 64361
+2010-08-23 01:21:38	--	Highest connection count: 6923 (6922 clients) (3077853 connections received)
+2010-08-23 01:21:38	--	- gibson.freenode.net Message of the Day -
+2010-08-23 01:21:38	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 01:21:39	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 01:21:39	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 01:21:39	--	- helped establish a new kind of science fiction literature
+2010-08-23 01:21:39	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 01:21:39	--	- and described virtual reality long before we saw the
+2010-08-23 01:21:39	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 01:21:39	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 01:21:39	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 01:21:39	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 01:21:39	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 01:21:39	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 01:21:39	--	- support.
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	- By connecting to freenode you indicate that you have read
+2010-08-23 01:21:39	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 01:21:39	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 01:21:39	--	- you that unauthorized public logging of channels on the
+2010-08-23 01:21:39	--	- network is prohibited. Public channel logging should only
+2010-08-23 01:21:39	--	- take place where the channel owner(s) has requested this
+2010-08-23 01:21:39	--	- and users of the channel are all made aware (if you are
+2010-08-23 01:21:39	--	- publically logging your channel, you may wish to keep a
+2010-08-23 01:21:39	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 01:21:39	--	- are 13 years of age, or older. For more information about the
+2010-08-23 01:21:39	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 01:21:39	--	- website at (http://www.coppa.org).
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 01:21:39	--	- indicates your acceptance of this policy. For details on
+2010-08-23 01:21:39	--	- freenode network policy, please take a look at our policy
+2010-08-23 01:21:39	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 01:21:39	--	- the network!
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 01:21:39	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 01:21:39	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 01:21:39	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 01:21:39	--	- [http://geeknic.org]
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 01:21:39	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 01:21:39	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	- Thank you for using freenode!
+2010-08-23 01:21:39	--	-
+2010-08-23 01:21:39	--	End of /MOTD command.
+2010-08-23 01:21:39	--	User mode [+i] by quesada2
+2010-08-23 01:21:39	--	CTCP requested by frigg: VERSION
+2010-08-23 01:21:40	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 01:21:41	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 01:21:41	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-23 01:21:56	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-23 01:21:56	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 02:25:01	--	Link:: e178195093.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 02:25:36	=!=	irc: reading data on socket: error 2 (connection closed by peer)
+2010-08-23 02:25:43		irc: disconnecting from server...
+2010-08-23 02:26:00		irc: disconnected from server
+2010-08-23 02:26:00		irc: reconnecting to server in 30 seconds
+2010-08-23 02:26:30		irc: reconnecting to server...
+2010-08-23 02:26:32		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 02:26:58		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 02:27:13	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 02:27:18	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 02:27:26	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 02:27:31	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 02:27:38	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 02:27:44	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 02:27:50	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 02:27:54	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 02:28:03	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 02:28:11	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 02:28:13	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 02:28:16	--	There are 784 users and 50828 invisible on 23 servers
+2010-08-23 02:28:18	--	35 :IRC Operators online
+2010-08-23 02:28:18	--	13 :unknown connection(s)
+2010-08-23 02:28:19	--	36637 :channels formed
+2010-08-23 02:28:20	--	I have 4684 clients and 1 servers
+2010-08-23 02:28:21	--	4684 6922 :Current local users 4684, max 6922
+2010-08-23 02:28:21	--	51612 64361 :Current global users 51612, max 64361
+2010-08-23 02:28:22	--	Highest connection count: 6923 (6922 clients) (3078772 connections received)
+2010-08-23 02:28:22	--	- gibson.freenode.net Message of the Day -
+2010-08-23 02:28:22	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 02:28:22	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 02:28:22	--	-
+2010-08-23 02:28:23	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 02:28:23	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 02:28:23	--	- helped establish a new kind of science fiction literature
+2010-08-23 02:28:23	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 02:28:24	--	- and described virtual reality long before we saw the
+2010-08-23 02:28:24	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 02:28:24	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 02:28:24	--	-
+2010-08-23 02:28:24	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 02:28:24	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 02:28:25	--	-
+2010-08-23 02:28:25	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 02:28:25	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 02:28:25	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 02:28:25	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 02:28:25	--	- support.
+2010-08-23 02:28:25	--	-
+2010-08-23 02:28:26	--	- By connecting to freenode you indicate that you have read
+2010-08-23 02:28:26	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 02:28:26	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 02:28:27	--	- you that unauthorized public logging of channels on the
+2010-08-23 02:28:27	--	- network is prohibited. Public channel logging should only
+2010-08-23 02:28:27	--	- take place where the channel owner(s) has requested this
+2010-08-23 02:28:28	--	- and users of the channel are all made aware (if you are
+2010-08-23 02:28:29	--	- publically logging your channel, you may wish to keep a
+2010-08-23 02:28:29	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 02:28:29	--	-
+2010-08-23 02:28:29	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 02:28:29	--	- are 13 years of age, or older. For more information about the
+2010-08-23 02:28:29	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 02:28:29	--	- website at (http://www.coppa.org).
+2010-08-23 02:28:29	--	-
+2010-08-23 02:28:30	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 02:28:30	--	- indicates your acceptance of this policy. For details on
+2010-08-23 02:28:30	--	- freenode network policy, please take a look at our policy
+2010-08-23 02:28:30	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 02:28:30	--	- the network!
+2010-08-23 02:28:30	--	-
+2010-08-23 02:28:30	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 02:28:30	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 02:28:30	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 02:28:32	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 02:28:32	--	- [http://geeknic.org]
+2010-08-23 02:28:32	--	-
+2010-08-23 02:28:32	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 02:28:32	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 02:28:32	--	-
+2010-08-23 02:28:32	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 02:28:32	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 02:28:32	--	-
+2010-08-23 02:28:32	--	- Thank you for using freenode!
+2010-08-23 02:28:32	--	-
+2010-08-23 02:28:32	--	End of /MOTD command.
+2010-08-23 02:28:33	--	User mode [+i] by quesada2
+2010-08-23 02:28:34	--	CTCP requested by frigg: VERSION
+2010-08-23 02:28:40	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 02:29:06	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 02:29:12	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-23 02:29:13	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-23 02:29:23	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 02:56:58	--	Link:: e178195093.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 02:56:59	=!=	irc: sending data to server: 32 Broken pipe
+2010-08-23 02:56:59	=!=	irc: reading data on socket: error 32 (connection closed by peer)
+2010-08-23 02:56:59		irc: disconnecting from server...
+2010-08-23 02:57:01		irc: disconnected from server
+2010-08-23 02:57:01		irc: reconnecting to server in 30 seconds
+2010-08-23 02:57:32		irc: reconnecting to server...
+2010-08-23 02:57:33		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 02:57:44		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 02:57:47	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 02:57:47	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 02:57:47	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 02:57:57	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 02:58:00	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 02:58:01	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 02:58:02	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 02:58:02	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 02:58:03	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 02:58:03	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 02:58:03	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 02:58:03	--	There are 777 users and 50258 invisible on 22 servers
+2010-08-23 02:58:03	--	35 :IRC Operators online
+2010-08-23 02:58:03	--	19 :unknown connection(s)
+2010-08-23 02:58:03	--	36563 :channels formed
+2010-08-23 02:58:03	--	I have 4674 clients and 1 servers
+2010-08-23 02:58:03	--	4674 6922 :Current local users 4674, max 6922
+2010-08-23 02:58:03	--	51035 64361 :Current global users 51035, max 64361
+2010-08-23 02:58:03	--	Highest connection count: 6923 (6922 clients) (3079234 connections received)
+2010-08-23 02:58:03	--	- gibson.freenode.net Message of the Day -
+2010-08-23 02:58:03	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 02:58:03	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 02:58:03	--	-
+2010-08-23 02:58:03	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 02:58:03	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 02:58:03	--	- helped establish a new kind of science fiction literature
+2010-08-23 02:58:03	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 02:58:03	--	- and described virtual reality long before we saw the
+2010-08-23 02:58:04	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 02:58:04	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 02:58:04	--	-
+2010-08-23 02:58:04	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 02:58:04	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 02:58:04	--	-
+2010-08-23 02:58:04	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 02:58:04	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 02:58:04	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 02:58:04	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 02:58:04	--	- support.
+2010-08-23 02:58:05	--	-
+2010-08-23 02:58:05	--	- By connecting to freenode you indicate that you have read
+2010-08-23 02:58:05	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 02:58:05	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 02:58:06	--	- you that unauthorized public logging of channels on the
+2010-08-23 02:58:06	--	- network is prohibited. Public channel logging should only
+2010-08-23 02:58:06	--	- take place where the channel owner(s) has requested this
+2010-08-23 02:58:06	--	- and users of the channel are all made aware (if you are
+2010-08-23 02:58:06	--	- publically logging your channel, you may wish to keep a
+2010-08-23 02:58:06	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 02:58:06	--	-
+2010-08-23 02:58:06	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 02:58:06	--	- are 13 years of age, or older. For more information about the
+2010-08-23 02:58:06	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 02:58:06	--	- website at (http://www.coppa.org).
+2010-08-23 02:58:06	--	-
+2010-08-23 02:58:06	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 02:58:06	--	- indicates your acceptance of this policy. For details on
+2010-08-23 02:58:06	--	- freenode network policy, please take a look at our policy
+2010-08-23 02:58:07	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 02:58:07	--	- the network!
+2010-08-23 02:58:07	--	-
+2010-08-23 02:58:07	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 02:58:07	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 02:58:07	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 02:58:07	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 02:58:07	--	- [http://geeknic.org]
+2010-08-23 02:58:07	--	-
+2010-08-23 02:58:07	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 02:58:07	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 02:58:07	--	-
+2010-08-23 02:58:07	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 02:58:07	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 02:58:07	--	-
+2010-08-23 02:58:07	--	- Thank you for using freenode!
+2010-08-23 02:58:07	--	-
+2010-08-23 02:58:07	--	End of /MOTD command.
+2010-08-23 02:58:08	--	User mode [+i] by quesada2
+2010-08-23 02:58:08	--	CTCP requested by frigg: VERSION
+2010-08-23 02:58:08	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 02:58:13	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 02:58:15	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-23 02:58:56	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-23 02:59:06	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 03:41:13	--	Link:: e178195093.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 03:44:13	=!=	irc: reading data on socket: error 32 (connection closed by peer)
+2010-08-23 03:44:20		irc: disconnecting from server...
+2010-08-23 03:59:54		irc: disconnected from server
+2010-08-23 03:59:54		irc: reconnecting to server in 30 seconds
+2010-08-23 04:00:25		irc: reconnecting to server...
+2010-08-23 04:00:26		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 04:00:55		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 04:00:58	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 04:00:59	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 04:00:59	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 04:01:06	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 04:01:08	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 04:01:09	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 04:01:10	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 04:01:11	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 04:01:11	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 04:01:11	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 04:01:11	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 04:01:11	--	There are 770 users and 50115 invisible on 22 servers
+2010-08-23 04:01:11	--	35 :IRC Operators online
+2010-08-23 04:01:11	--	15 :unknown connection(s)
+2010-08-23 04:01:11	--	36569 :channels formed
+2010-08-23 04:01:11	--	I have 4630 clients and 1 servers
+2010-08-23 04:01:12	--	4630 6922 :Current local users 4630, max 6922
+2010-08-23 04:01:12	--	50885 64361 :Current global users 50885, max 64361
+2010-08-23 04:01:12	--	Highest connection count: 6923 (6922 clients) (3080019 connections received)
+2010-08-23 04:01:12	--	- gibson.freenode.net Message of the Day -
+2010-08-23 04:01:12	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 04:01:12	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 04:01:12	--	-
+2010-08-23 04:01:12	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 04:01:12	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 04:01:12	--	- helped establish a new kind of science fiction literature
+2010-08-23 04:01:12	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 04:01:12	--	- and described virtual reality long before we saw the
+2010-08-23 04:01:12	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 04:01:12	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 04:01:12	--	-
+2010-08-23 04:01:12	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 04:01:12	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 04:01:13	--	-
+2010-08-23 04:01:13	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 04:01:13	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 04:01:13	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 04:01:13	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 04:01:13	--	- support.
+2010-08-23 04:01:13	--	-
+2010-08-23 04:01:13	--	- By connecting to freenode you indicate that you have read
+2010-08-23 04:01:13	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 04:01:13	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 04:01:13	--	- you that unauthorized public logging of channels on the
+2010-08-23 04:01:13	--	- network is prohibited. Public channel logging should only
+2010-08-23 04:01:13	--	- take place where the channel owner(s) has requested this
+2010-08-23 04:01:13	--	- and users of the channel are all made aware (if you are
+2010-08-23 04:01:13	--	- publically logging your channel, you may wish to keep a
+2010-08-23 04:01:13	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 04:01:13	--	-
+2010-08-23 04:01:13	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 04:01:13	--	- are 13 years of age, or older. For more information about the
+2010-08-23 04:01:13	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 04:01:13	--	- website at (http://www.coppa.org).
+2010-08-23 04:01:13	--	-
+2010-08-23 04:01:13	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 04:01:13	--	- indicates your acceptance of this policy. For details on
+2010-08-23 04:01:13	--	- freenode network policy, please take a look at our policy
+2010-08-23 04:01:13	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 04:01:13	--	- the network!
+2010-08-23 04:01:13	--	-
+2010-08-23 04:01:13	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 04:01:13	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 04:01:13	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 04:01:13	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 04:01:13	--	- [http://geeknic.org]
+2010-08-23 04:01:13	--	-
+2010-08-23 04:01:13	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 04:01:13	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 04:01:13	--	-
+2010-08-23 04:01:13	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 04:01:13	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 04:01:13	--	-
+2010-08-23 04:01:13	--	- Thank you for using freenode!
+2010-08-23 04:01:13	--	-
+2010-08-23 04:01:13	--	End of /MOTD command.
+2010-08-23 04:01:13	--	User mode [+i] by quesada2
+2010-08-23 04:01:13	--	CTCP requested by frigg: VERSION
+2010-08-23 04:01:17	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 04:01:26	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 04:01:30	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-23 04:01:31	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-23 04:01:32	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 04:45:00	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2010-08-23 04:45:07		irc: disconnecting from server...
+2010-08-23 04:45:42		irc: disconnected from server
+2010-08-23 04:45:42		irc: reconnecting to server in 30 seconds
+2010-08-23 04:46:13		irc: reconnecting to server...
+2010-08-23 04:46:13		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 04:46:39		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 04:46:44	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 04:46:49	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 04:46:50	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 04:46:51	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 04:46:52	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 04:46:54	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 04:46:54	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 04:46:54	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 04:46:57	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 04:47:00	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 04:47:01	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 04:47:02	--	There are 766 users and 49963 invisible on 22 servers
+2010-08-23 04:47:03	--	35 :IRC Operators online
+2010-08-23 04:47:04	--	22 :unknown connection(s)
+2010-08-23 04:47:04	--	36570 :channels formed
+2010-08-23 04:47:05	--	I have 4614 clients and 1 servers
+2010-08-23 04:47:06	--	4614 6922 :Current local users 4614, max 6922
+2010-08-23 04:47:07	--	50729 64361 :Current global users 50729, max 64361
+2010-08-23 04:47:08	--	Highest connection count: 6923 (6922 clients) (3080572 connections received)
+2010-08-23 04:47:08	--	- gibson.freenode.net Message of the Day -
+2010-08-23 04:47:08	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 04:47:10	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 04:47:11	--	-
+2010-08-23 04:47:11	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 04:47:12	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 04:47:12	--	- helped establish a new kind of science fiction literature
+2010-08-23 04:47:12	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 04:47:12	--	- and described virtual reality long before we saw the
+2010-08-23 04:47:12	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 04:47:12	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 04:47:12	--	-
+2010-08-23 04:47:12	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 04:47:12	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 04:47:12	--	-
+2010-08-23 04:47:12	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 04:47:13	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 04:47:13	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 04:47:13	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 04:47:13	--	- support.
+2010-08-23 04:47:13	--	-
+2010-08-23 04:47:13	--	- By connecting to freenode you indicate that you have read
+2010-08-23 04:47:13	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 04:47:14	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 04:47:14	--	- you that unauthorized public logging of channels on the
+2010-08-23 04:47:14	--	- network is prohibited. Public channel logging should only
+2010-08-23 04:47:14	--	- take place where the channel owner(s) has requested this
+2010-08-23 04:47:14	--	- and users of the channel are all made aware (if you are
+2010-08-23 04:47:16	--	- publically logging your channel, you may wish to keep a
+2010-08-23 04:47:16	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 04:47:17	--	-
+2010-08-23 04:47:17	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 04:47:17	--	- are 13 years of age, or older. For more information about the
+2010-08-23 04:47:17	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 04:47:18	--	- website at (http://www.coppa.org).
+2010-08-23 04:47:19	--	-
+2010-08-23 04:47:20	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 04:47:20	--	- indicates your acceptance of this policy. For details on
+2010-08-23 04:47:21	--	- freenode network policy, please take a look at our policy
+2010-08-23 04:47:21	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 04:47:23	--	- the network!
+2010-08-23 04:47:23	--	-
+2010-08-23 04:47:23	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 04:47:24	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 04:47:24	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 04:47:24	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 04:47:25	--	- [http://geeknic.org]
+2010-08-23 04:47:25	--	-
+2010-08-23 04:47:25	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 04:47:26	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 04:47:26	--	-
+2010-08-23 04:47:27	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 04:47:27	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 04:47:27	--	-
+2010-08-23 04:47:27	--	- Thank you for using freenode!
+2010-08-23 04:47:27	--	-
+2010-08-23 04:47:27	--	End of /MOTD command.
+2010-08-23 04:47:28	--	User mode [+i] by quesada2
+2010-08-23 04:48:26	--	CTCP requested by frigg: VERSION
+2010-08-23 04:48:31	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 04:48:33	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 04:48:38	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-23 04:48:42	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-23 04:49:08	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 05:13:36	--	Link:: e178202102.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 05:14:01	=!=	irc: reading data on socket: error 104 (connection closed by peer)
+2010-08-23 05:14:06		irc: disconnecting from server...
+2010-08-23 05:14:19		irc: disconnected from server
+2010-08-23 05:14:19		irc: reconnecting to server in 30 seconds
+2010-08-23 05:14:50		irc: reconnecting to server...
+2010-08-23 05:14:53		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 05:15:08		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 05:15:14	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 05:15:16	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 05:15:16	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 05:15:20	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 05:15:21	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 05:15:22	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 05:15:22	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 05:15:22	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 05:15:22	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 05:15:22	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 05:15:22	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 05:15:22	--	There are 767 users and 49677 invisible on 22 servers
+2010-08-23 05:15:22	--	35 :IRC Operators online
+2010-08-23 05:15:22	--	11 :unknown connection(s)
+2010-08-23 05:15:22	--	36519 :channels formed
+2010-08-23 05:15:22	--	I have 4555 clients and 1 servers
+2010-08-23 05:15:22	--	4555 6922 :Current local users 4555, max 6922
+2010-08-23 05:15:22	--	50444 64361 :Current global users 50444, max 64361
+2010-08-23 05:15:22	--	Highest connection count: 6923 (6922 clients) (3080888 connections received)
+2010-08-23 05:15:22	--	- gibson.freenode.net Message of the Day -
+2010-08-23 05:15:22	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 05:15:22	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 05:15:22	--	-
+2010-08-23 05:15:22	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 05:15:22	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 05:15:22	--	- helped establish a new kind of science fiction literature
+2010-08-23 05:15:22	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 05:15:22	--	- and described virtual reality long before we saw the
+2010-08-23 05:15:22	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 05:15:23	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 05:15:23	--	-
+2010-08-23 05:15:23	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 05:15:23	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 05:15:23	--	-
+2010-08-23 05:15:23	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 05:15:23	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 05:15:23	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 05:15:23	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 05:15:23	--	- support.
+2010-08-23 05:15:23	--	-
+2010-08-23 05:15:23	--	- By connecting to freenode you indicate that you have read
+2010-08-23 05:15:23	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 05:15:23	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 05:15:23	--	- you that unauthorized public logging of channels on the
+2010-08-23 05:15:23	--	- network is prohibited. Public channel logging should only
+2010-08-23 05:15:23	--	- take place where the channel owner(s) has requested this
+2010-08-23 05:15:23	--	- and users of the channel are all made aware (if you are
+2010-08-23 05:15:24	--	- publically logging your channel, you may wish to keep a
+2010-08-23 05:15:24	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 05:15:24	--	-
+2010-08-23 05:15:24	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 05:15:24	--	- are 13 years of age, or older. For more information about the
+2010-08-23 05:15:24	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 05:15:24	--	- website at (http://www.coppa.org).
+2010-08-23 05:15:24	--	-
+2010-08-23 05:15:24	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 05:15:24	--	- indicates your acceptance of this policy. For details on
+2010-08-23 05:15:24	--	- freenode network policy, please take a look at our policy
+2010-08-23 05:15:24	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 05:15:24	--	- the network!
+2010-08-23 05:15:25	--	-
+2010-08-23 05:15:25	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 05:15:25	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 05:15:25	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 05:15:25	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 05:15:25	--	- [http://geeknic.org]
+2010-08-23 05:15:25	--	-
+2010-08-23 05:15:25	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 05:15:25	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 05:15:25	--	-
+2010-08-23 05:15:25	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 05:15:25	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 05:15:25	--	-
+2010-08-23 05:15:25	--	- Thank you for using freenode!
+2010-08-23 05:15:25	--	-
+2010-08-23 05:15:25	--	End of /MOTD command.
+2010-08-23 05:15:25	--	User mode [+i] by quesada2
+2010-08-23 05:15:25	--	CTCP requested by frigg: VERSION
+2010-08-23 05:15:30	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 05:15:37	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 05:15:38	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-23 05:15:43	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-23 05:15:48	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 05:41:14	--	Link:: e178202102.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 05:41:56	=!=	irc: reading data on socket: error 104 (connection closed by peer)
+2010-08-23 05:41:58		irc: disconnecting from server...
+2010-08-23 05:42:25		irc: disconnected from server
+2010-08-23 05:42:25		irc: reconnecting to server in 30 seconds
+2010-08-23 05:42:58		irc: reconnecting to server...
+2010-08-23 05:43:00		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 05:43:36		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 05:43:48	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 05:43:51	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 05:43:52	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 05:43:54	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 05:43:56	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 05:43:56	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 05:43:57	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 05:43:57	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 05:43:57	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 05:43:57	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 05:43:57	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 05:43:57	--	There are 764 users and 49451 invisible on 22 servers
+2010-08-23 05:43:57	--	35 :IRC Operators online
+2010-08-23 05:43:57	--	17 :unknown connection(s)
+2010-08-23 05:43:57	--	36518 :channels formed
+2010-08-23 05:43:58	--	I have 4462 clients and 1 servers
+2010-08-23 05:43:58	--	4462 6922 :Current local users 4462, max 6922
+2010-08-23 05:43:59	--	50215 64361 :Current global users 50215, max 64361
+2010-08-23 05:43:59	--	Highest connection count: 6923 (6922 clients) (3081200 connections received)
+2010-08-23 05:44:00	--	- gibson.freenode.net Message of the Day -
+2010-08-23 05:44:00	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 05:44:00	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 05:44:00	--	-
+2010-08-23 05:44:00	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 05:44:01	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 05:44:01	--	- helped establish a new kind of science fiction literature
+2010-08-23 05:44:01	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 05:44:01	--	- and described virtual reality long before we saw the
+2010-08-23 05:44:01	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 05:44:01	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 05:44:01	--	-
+2010-08-23 05:44:01	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 05:44:02	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 05:44:02	--	-
+2010-08-23 05:44:02	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 05:44:02	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 05:44:02	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 05:44:02	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 05:44:02	--	- support.
+2010-08-23 05:44:02	--	-
+2010-08-23 05:44:02	--	- By connecting to freenode you indicate that you have read
+2010-08-23 05:44:02	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 05:44:02	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 05:44:02	--	- you that unauthorized public logging of channels on the
+2010-08-23 05:44:03	--	- network is prohibited. Public channel logging should only
+2010-08-23 05:44:03	--	- take place where the channel owner(s) has requested this
+2010-08-23 05:44:06	--	- and users of the channel are all made aware (if you are
+2010-08-23 05:44:07	--	- publically logging your channel, you may wish to keep a
+2010-08-23 05:44:07	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 05:44:08	--	-
+2010-08-23 05:44:08	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 05:44:09	--	- are 13 years of age, or older. For more information about the
+2010-08-23 05:44:09	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 05:44:09	--	- website at (http://www.coppa.org).
+2010-08-23 05:44:09	--	-
+2010-08-23 05:44:09	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 05:44:09	--	- indicates your acceptance of this policy. For details on
+2010-08-23 05:44:09	--	- freenode network policy, please take a look at our policy
+2010-08-23 05:44:09	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 05:44:09	--	- the network!
+2010-08-23 05:44:09	--	-
+2010-08-23 05:44:09	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 05:44:09	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 05:44:09	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 05:44:09	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 05:44:09	--	- [http://geeknic.org]
+2010-08-23 05:44:09	--	-
+2010-08-23 05:44:09	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 05:44:10	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 05:44:10	--	-
+2010-08-23 05:44:10	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 05:44:10	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 05:44:10	--	-
+2010-08-23 05:44:10	--	- Thank you for using freenode!
+2010-08-23 05:44:10	--	-
+2010-08-23 05:44:10	--	End of /MOTD command.
+2010-08-23 05:44:10	--	User mode [+i] by quesada2
+2010-08-23 05:44:10	--	CTCP requested by frigg: VERSION
+2010-08-23 05:44:18	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 05:44:53	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 05:45:03	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-23 05:45:20	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-23 05:45:41	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 05:57:08	--	Link:: e178202102.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 05:57:12	=!=	irc: reading data on socket: error 104 (connection closed by peer)
+2010-08-23 05:57:12		irc: disconnecting from server...
+2010-08-23 05:57:15		irc: disconnected from server
+2010-08-23 05:57:15		irc: reconnecting to server in 30 seconds
+2010-08-23 05:57:46		irc: reconnecting to server...
+2010-08-23 05:57:49		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 05:58:29		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 05:58:39	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 05:58:44	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 05:58:51	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 05:59:10	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 05:59:21	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 05:59:34	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 05:59:43	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 05:59:50	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 05:59:53	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 05:59:56	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 05:59:58	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 05:59:58	--	There are 764 users and 49322 invisible on 22 servers
+2010-08-23 05:59:59	--	35 :IRC Operators online
+2010-08-23 06:00:00	--	22 :unknown connection(s)
+2010-08-23 06:00:00	--	36486 :channels formed
+2010-08-23 06:00:00	--	I have 4447 clients and 1 servers
+2010-08-23 06:00:01	--	4447 6922 :Current local users 4447, max 6922
+2010-08-23 06:00:03	--	50086 64361 :Current global users 50086, max 64361
+2010-08-23 06:00:03	--	Highest connection count: 6923 (6922 clients) (3081361 connections received)
+2010-08-23 06:00:04	--	- gibson.freenode.net Message of the Day -
+2010-08-23 06:00:05	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 06:00:06	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 06:00:07	--	-
+2010-08-23 06:00:08	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 06:00:08	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 06:00:11	--	- helped establish a new kind of science fiction literature
+2010-08-23 06:00:12	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 06:00:12	--	- and described virtual reality long before we saw the
+2010-08-23 06:00:13	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 06:00:15	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 06:00:15	--	-
+2010-08-23 06:00:15	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 06:00:16	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 06:00:16	--	-
+2010-08-23 06:00:17	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 06:00:17	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 06:00:18	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 06:00:18	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 06:00:18	--	- support.
+2010-08-23 06:00:18	--	-
+2010-08-23 06:00:18	--	- By connecting to freenode you indicate that you have read
+2010-08-23 06:00:19	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 06:00:19	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 06:00:20	--	- you that unauthorized public logging of channels on the
+2010-08-23 06:00:21	--	- network is prohibited. Public channel logging should only
+2010-08-23 06:00:23	--	- take place where the channel owner(s) has requested this
+2010-08-23 06:00:29	--	- and users of the channel are all made aware (if you are
+2010-08-23 06:00:32	--	- publically logging your channel, you may wish to keep a
+2010-08-23 06:00:33	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 06:00:33	--	-
+2010-08-23 06:00:34	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 06:00:35	--	- are 13 years of age, or older. For more information about the
+2010-08-23 06:00:35	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 06:00:36	--	- website at (http://www.coppa.org).
+2010-08-23 06:00:36	--	-
+2010-08-23 06:00:36	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 06:00:37	--	- indicates your acceptance of this policy. For details on
+2010-08-23 06:00:37	--	- freenode network policy, please take a look at our policy
+2010-08-23 06:00:37	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 06:00:37	--	- the network!
+2010-08-23 06:00:38	--	-
+2010-08-23 06:00:38	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 06:00:38	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 06:00:38	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 06:00:39	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 06:00:39	--	- [http://geeknic.org]
+2010-08-23 06:00:40	--	-
+2010-08-23 06:00:40	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 06:00:41	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 06:00:42	--	-
+2010-08-23 06:00:43	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 06:00:43	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 06:00:43	--	-
+2010-08-23 06:00:43	--	- Thank you for using freenode!
+2010-08-23 06:00:44	--	-
+2010-08-23 06:00:45	--	End of /MOTD command.
+2010-08-23 06:00:46	--	User mode [+i] by quesada2
+2010-08-23 06:00:47	--	CTCP requested by frigg: VERSION
+2010-08-23 06:00:59	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 06:02:30	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 06:02:38	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-23 06:03:39	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-23 06:04:36	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 06:29:10	--	Link:: e178202102.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 06:29:22	=!=	irc: reading data on socket: error 104 (connection closed by peer)
+2010-08-23 06:29:24		irc: disconnecting from server...
+2010-08-23 06:29:32		irc: disconnected from server
+2010-08-23 06:29:33		irc: reconnecting to server in 30 seconds
+2010-08-23 06:30:03		irc: reconnecting to server...
+2010-08-23 06:30:05		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 06:32:05		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 06:32:22	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 06:32:36	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 06:32:46	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 06:33:14	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 06:33:29	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 06:33:39	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 06:33:47	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 06:33:56	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 06:34:11	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 06:34:25	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 06:34:34	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 06:34:43	--	There are 765 users and 49040 invisible on 22 servers
+2010-08-23 06:34:53	--	34 :IRC Operators online
+2010-08-23 06:35:05	--	22 :unknown connection(s)
+2010-08-23 06:35:11	--	36451 :channels formed
+2010-08-23 06:35:15	--	I have 4376 clients and 1 servers
+2010-08-23 06:35:16	--	4376 6922 :Current local users 4376, max 6922
+2010-08-23 06:35:17	--	49805 64361 :Current global users 49805, max 64361
+2010-08-23 06:35:19	--	Highest connection count: 6923 (6922 clients) (3081642 connections received)
+2010-08-23 06:35:20	--	- gibson.freenode.net Message of the Day -
+2010-08-23 06:35:21	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 06:35:21	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 06:35:21	--	-
+2010-08-23 06:35:22	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 06:35:22	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 06:35:22	--	- helped establish a new kind of science fiction literature
+2010-08-23 06:35:22	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 06:35:23	--	- and described virtual reality long before we saw the
+2010-08-23 06:35:23	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 06:35:23	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 06:35:23	--	-
+2010-08-23 06:35:23	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 06:35:24	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 06:35:24	--	-
+2010-08-23 06:35:24	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 06:35:25	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 06:35:26	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 06:35:26	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 06:35:26	--	- support.
+2010-08-23 06:35:27	--	-
+2010-08-23 06:35:27	--	- By connecting to freenode you indicate that you have read
+2010-08-23 06:35:27	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 06:35:28	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 06:35:28	--	- you that unauthorized public logging of channels on the
+2010-08-23 06:35:29	--	- network is prohibited. Public channel logging should only
+2010-08-23 06:35:29	--	- take place where the channel owner(s) has requested this
+2010-08-23 06:35:38	--	- and users of the channel are all made aware (if you are
+2010-08-23 06:35:45	--	- publically logging your channel, you may wish to keep a
+2010-08-23 06:35:56	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 06:36:05	--	-
+2010-08-23 06:36:11	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 06:36:19	--	- are 13 years of age, or older. For more information about the
+2010-08-23 06:36:33	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 06:36:39	--	- website at (http://www.coppa.org).
+2010-08-23 06:36:50	--	-
+2010-08-23 06:37:00	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 06:37:09	--	- indicates your acceptance of this policy. For details on
+2010-08-23 06:37:16	--	- freenode network policy, please take a look at our policy
+2010-08-23 06:37:27	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 06:37:33	--	- the network!
+2010-08-23 06:37:36	--	-
+2010-08-23 06:37:39	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 06:37:40	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 06:37:45	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 06:37:46	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 06:37:46	--	- [http://geeknic.org]
+2010-08-23 06:37:47	--	-
+2010-08-23 06:37:47	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 06:37:48	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 06:37:49	--	-
+2010-08-23 06:37:50	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 06:37:50	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 06:37:51	--	-
+2010-08-23 06:37:51	--	- Thank you for using freenode!
+2010-08-23 06:37:51	--	-
+2010-08-23 06:37:52	--	End of /MOTD command.
+2010-08-23 06:37:53	--	User mode [+i] by quesada2
+2010-08-23 06:37:57	--	CTCP requested by frigg: VERSION
+2010-08-23 06:38:16	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 06:41:54	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 06:42:30	--	Link:: e178202102.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 06:42:34	=!=	irc: reading data on socket: error 104 (connection closed by peer)
+2010-08-23 06:42:35		irc: disconnecting from server...
+2010-08-23 06:42:45		irc: disconnected from server
+2010-08-23 06:42:46		irc: reconnecting to server in 30 seconds
+2010-08-23 06:43:34		irc: reconnecting to server...
+2010-08-23 06:43:38		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 06:44:27		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 06:44:39	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 06:44:47	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 06:44:54	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 06:45:04	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 06:45:12	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 06:45:28	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 06:45:37	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 06:45:44	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 06:45:51	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 06:45:58	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 06:46:00	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 06:46:01	--	There are 766 users and 48982 invisible on 22 servers
+2010-08-23 06:46:03	--	34 :IRC Operators online
+2010-08-23 06:46:04	--	13 :unknown connection(s)
+2010-08-23 06:46:04	--	36458 :channels formed
+2010-08-23 06:46:04	--	I have 4356 clients and 1 servers
+2010-08-23 06:46:04	--	4356 6922 :Current local users 4356, max 6922
+2010-08-23 06:46:04	--	49748 64361 :Current global users 49748, max 64361
+2010-08-23 06:46:05	--	Highest connection count: 6923 (6922 clients) (3081759 connections received)
+2010-08-23 06:46:05	--	- gibson.freenode.net Message of the Day -
+2010-08-23 06:46:06	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 06:46:06	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 06:46:07	--	-
+2010-08-23 06:46:07	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 06:46:07	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 06:46:07	--	- helped establish a new kind of science fiction literature
+2010-08-23 06:46:07	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 06:46:07	--	- and described virtual reality long before we saw the
+2010-08-23 06:46:07	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 06:46:07	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 06:46:07	--	-
+2010-08-23 06:46:08	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 06:46:08	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 06:46:08	--	-
+2010-08-23 06:46:08	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 06:46:08	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 06:46:08	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 06:46:08	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 06:46:08	--	- support.
+2010-08-23 06:46:08	--	-
+2010-08-23 06:46:08	--	- By connecting to freenode you indicate that you have read
+2010-08-23 06:46:08	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 06:46:08	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 06:46:08	--	- you that unauthorized public logging of channels on the
+2010-08-23 06:46:08	--	- network is prohibited. Public channel logging should only
+2010-08-23 06:46:08	--	- take place where the channel owner(s) has requested this
+2010-08-23 06:46:12	--	- and users of the channel are all made aware (if you are
+2010-08-23 06:46:12	--	- publically logging your channel, you may wish to keep a
+2010-08-23 06:46:12	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 06:46:15	--	-
+2010-08-23 06:46:15	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 06:46:16	--	- are 13 years of age, or older. For more information about the
+2010-08-23 06:46:16	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 06:46:17	--	- website at (http://www.coppa.org).
+2010-08-23 06:46:17	--	-
+2010-08-23 06:46:17	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 06:46:18	--	- indicates your acceptance of this policy. For details on
+2010-08-23 06:46:19	--	- freenode network policy, please take a look at our policy
+2010-08-23 06:46:19	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 06:46:19	--	- the network!
+2010-08-23 06:46:20	--	-
+2010-08-23 06:46:20	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 06:46:20	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 06:46:21	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 06:46:22	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 06:46:22	--	- [http://geeknic.org]
+2010-08-23 06:46:24	--	-
+2010-08-23 06:46:24	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 06:46:24	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 06:46:25	--	-
+2010-08-23 06:46:25	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 06:46:26	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 06:46:27	--	-
+2010-08-23 06:46:27	--	- Thank you for using freenode!
+2010-08-23 06:46:27	--	-
+2010-08-23 06:46:27	--	End of /MOTD command.
+2010-08-23 06:46:28	--	User mode [+i] by quesada2
+2010-08-23 06:46:28	--	CTCP requested by frigg: VERSION
+2010-08-23 06:46:35	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 06:48:23	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 06:48:32	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-23 06:48:36	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-23 06:49:42	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 07:59:09	=!=	irc: sending data to server: 32 Broken pipe
+2010-08-23 08:13:47	--	Link:: e178202102.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 08:16:49	=!=	irc: reading data on socket: error 32 (connection closed by peer)
+2010-08-23 08:17:04		irc: disconnecting from server...
+2010-08-23 08:20:46		irc: disconnected from server
+2010-08-23 08:20:47		irc: reconnecting to server in 30 seconds
+2010-08-23 08:21:19		irc: reconnecting to server...
+2010-08-23 08:21:20		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 08:21:29		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 08:21:33	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 08:21:33	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 08:21:33	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 08:21:44	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 08:21:44	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 08:21:44	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 08:21:44	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 08:21:44	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 08:21:44	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 08:21:44	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 08:21:45	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 08:21:45	--	There are 785 users and 49342 invisible on 22 servers
+2010-08-23 08:21:45	--	34 :IRC Operators online
+2010-08-23 08:21:45	--	16 :unknown connection(s)
+2010-08-23 08:21:45	--	36538 :channels formed
+2010-08-23 08:21:45	--	I have 4362 clients and 1 servers
+2010-08-23 08:21:45	--	4362 6922 :Current local users 4362, max 6922
+2010-08-23 08:21:45	--	50127 64361 :Current global users 50127, max 64361
+2010-08-23 08:21:45	--	Highest connection count: 6923 (6922 clients) (3082712 connections received)
+2010-08-23 08:21:45	--	- gibson.freenode.net Message of the Day -
+2010-08-23 08:21:45	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 08:21:45	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 08:21:45	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 08:21:45	--	- helped establish a new kind of science fiction literature
+2010-08-23 08:21:45	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 08:21:45	--	- and described virtual reality long before we saw the
+2010-08-23 08:21:45	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 08:21:45	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 08:21:45	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 08:21:45	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 08:21:45	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 08:21:45	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 08:21:45	--	- support.
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	- By connecting to freenode you indicate that you have read
+2010-08-23 08:21:45	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 08:21:45	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 08:21:45	--	- you that unauthorized public logging of channels on the
+2010-08-23 08:21:45	--	- network is prohibited. Public channel logging should only
+2010-08-23 08:21:45	--	- take place where the channel owner(s) has requested this
+2010-08-23 08:21:45	--	- and users of the channel are all made aware (if you are
+2010-08-23 08:21:45	--	- publically logging your channel, you may wish to keep a
+2010-08-23 08:21:45	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 08:21:45	--	- are 13 years of age, or older. For more information about the
+2010-08-23 08:21:45	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 08:21:45	--	- website at (http://www.coppa.org).
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 08:21:45	--	- indicates your acceptance of this policy. For details on
+2010-08-23 08:21:45	--	- freenode network policy, please take a look at our policy
+2010-08-23 08:21:45	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 08:21:45	--	- the network!
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 08:21:45	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 08:21:45	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 08:21:45	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 08:21:45	--	- [http://geeknic.org]
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 08:21:45	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 08:21:45	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	- Thank you for using freenode!
+2010-08-23 08:21:45	--	-
+2010-08-23 08:21:45	--	End of /MOTD command.
+2010-08-23 08:21:45	--	User mode [+i] by quesada2
+2010-08-23 08:21:56	--	CTCP requested by frigg: VERSION
+2010-08-23 08:22:00	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 08:22:00	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 08:22:00	--	ChanServ (ChanServ@services.): [#gentoo] Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2010-08-23 08:22:00	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-08-23 08:22:06	--	ChanServ (ChanServ@services.): [#ubuntu-unregged] Please register your nickname to join #ubuntu - we are experiencing technical difficulties. Instructions at http://freenode.net/faq.shtml#nicksetup
+2010-08-23 08:57:16	--	Link:: e178202102.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 08:58:20	=!=	irc: reading data on socket: error 32 (connection closed by peer)
+2010-08-23 08:58:31		irc: disconnecting from server...
+2010-08-23 09:00:41		irc: disconnected from server
+2010-08-23 09:00:42		irc: reconnecting to server in 30 seconds
+2010-08-23 09:01:44		irc: reconnecting to server...
+2010-08-23 09:01:45		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 09:06:39		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 09:07:16	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 09:07:25	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 09:07:37	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 09:07:44	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 09:07:54	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 09:08:08	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 09:08:12	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 09:08:14	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 09:08:15	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 09:08:17	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 09:08:19	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 09:08:21	--	There are 797 users and 50211 invisible on 22 servers
+2010-08-23 09:08:22	--	34 :IRC Operators online
+2010-08-23 09:08:24	--	15 :unknown connection(s)
+2010-08-23 09:08:24	--	36601 :channels formed
+2010-08-23 09:08:25	--	I have 4442 clients and 1 servers
+2010-08-23 09:08:26	--	4442 6922 :Current local users 4442, max 6922
+2010-08-23 09:08:27	--	51008 64361 :Current global users 51008, max 64361
+2010-08-23 09:08:28	--	Highest connection count: 6923 (6922 clients) (3083245 connections received)
+2010-08-23 09:08:29	--	- gibson.freenode.net Message of the Day -
+2010-08-23 09:08:30	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 09:08:31	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 09:08:32	--	-
+2010-08-23 09:08:32	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 09:08:34	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 09:08:35	--	- helped establish a new kind of science fiction literature
+2010-08-23 09:08:36	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 09:08:38	--	- and described virtual reality long before we saw the
+2010-08-23 09:08:40	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 09:08:41	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 09:08:43	--	-
+2010-08-23 09:08:44	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 09:08:45	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 09:08:46	--	-
+2010-08-23 09:08:46	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 09:08:47	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 09:08:47	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 09:08:47	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 09:08:48	--	- support.
+2010-08-23 09:08:48	--	-
+2010-08-23 09:08:48	--	- By connecting to freenode you indicate that you have read
+2010-08-23 09:08:48	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 09:08:49	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 09:08:49	--	- you that unauthorized public logging of channels on the
+2010-08-23 09:08:49	--	- network is prohibited. Public channel logging should only
+2010-08-23 09:08:59	--	- take place where the channel owner(s) has requested this
+2010-08-23 09:09:01	--	- and users of the channel are all made aware (if you are
+2010-08-23 09:09:02	--	- publically logging your channel, you may wish to keep a
+2010-08-23 09:09:04	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 09:09:04	--	-
+2010-08-23 09:09:05	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 09:09:08	--	- are 13 years of age, or older. For more information about the
+2010-08-23 09:09:09	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 09:09:10	--	- website at (http://www.coppa.org).
+2010-08-23 09:09:10	--	-
+2010-08-23 09:09:11	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 09:09:12	--	- indicates your acceptance of this policy. For details on
+2010-08-23 09:09:13	--	- freenode network policy, please take a look at our policy
+2010-08-23 09:09:13	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 09:09:13	--	- the network!
+2010-08-23 09:09:14	--	-
+2010-08-23 09:09:15	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 09:09:15	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 09:09:15	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 09:09:16	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 09:09:16	--	- [http://geeknic.org]
+2010-08-23 09:09:16	--	-
+2010-08-23 09:09:17	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 09:09:17	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 09:09:17	--	-
+2010-08-23 09:09:17	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 09:09:17	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 09:09:17	--	-
+2010-08-23 09:09:17	--	- Thank you for using freenode!
+2010-08-23 09:09:17	--	-
+2010-08-23 09:09:17	--	End of /MOTD command.
+2010-08-23 09:09:19	--	User mode [+i] by quesada2
+2010-08-23 09:09:20	--	CTCP requested by frigg: VERSION
+2010-08-23 09:09:32	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 09:12:13	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 09:13:44	--	Link:: e178202102.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 09:13:47	=!=	irc: reading data on socket: error 32 (connection closed by peer)
+2010-08-23 09:13:47		irc: disconnecting from server...
+2010-08-23 09:14:11		irc: disconnected from server
+2010-08-23 09:14:19		irc: reconnecting to server in 30 seconds
+2010-08-23 09:16:35		irc: reconnecting to server...
+2010-08-23 09:16:44		irc: connecting to server chat.freenode.net/6667...
+2010-08-23 09:20:07		irc: connected to chat.freenode.net (213.179.58.83)
+2010-08-23 09:21:10	--	gibson.freenode.net (gibson.freenode.net): *** Looking up your hostname...
+2010-08-23 09:21:23	--	gibson.freenode.net (gibson.freenode.net): *** Checking Ident
+2010-08-23 09:21:35	--	gibson.freenode.net (gibson.freenode.net): *** Found your hostname
+2010-08-23 09:21:44	--	gibson.freenode.net (gibson.freenode.net): *** No Ident response
+2010-08-23 09:21:50	--	Welcome to the freenode Internet Relay Chat Network quesada2
+2010-08-23 09:21:57	--	Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.0.0
+2010-08-23 09:22:01	--	This server was created Sat Jan 30 2010 at 01:13:47 CET
+2010-08-23 09:22:04	--	gibson.freenode.net ircd-seven-1.0.0 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-08-23 09:22:09	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-08-23 09:22:15	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-08-23 09:22:24	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-08-23 09:22:37	--	There are 804 users and 50583 invisible on 22 servers
+2010-08-23 09:22:44	--	34 :IRC Operators online
+2010-08-23 09:22:48	--	17 :unknown connection(s)
+2010-08-23 09:22:50	--	36650 :channels formed
+2010-08-23 09:22:51	--	I have 4494 clients and 1 servers
+2010-08-23 09:22:54	--	4494 6922 :Current local users 4494, max 6922
+2010-08-23 09:23:00	--	51387 64361 :Current global users 51387, max 64361
+2010-08-23 09:23:08	--	Highest connection count: 6923 (6922 clients) (3083430 connections received)
+2010-08-23 09:23:22	--	- gibson.freenode.net Message of the Day -
+2010-08-23 09:23:36	--	- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+2010-08-23 09:23:46	--	- SSC Networks (www.ssc.no) for sponsoring this server!
+2010-08-23 09:23:55	--	-
+2010-08-23 09:24:22	--	- GIBSON, WILLIAM (1948-) He is married with two children. In
+2010-08-23 09:24:47	--	- the early 1980s he wrote Neuromancer, and with this novel he
+2010-08-23 09:25:05	--	- helped establish a new kind of science fiction literature
+2010-08-23 09:25:35	--	- called cyberpunk. William Gibson defined the word cyberspace,
+2010-08-23 09:25:57	--	- and described virtual reality long before we saw the
+2010-08-23 09:26:13	--	- similarities with todays Internet. He has won the Hugo Award,
+2010-08-23 09:26:29	--	- Nebula Award and the Philipp K. Dick Award.
+2010-08-23 09:26:40	--	-
+2010-08-23 09:26:50	--	- You're using freenode, a service of Peer-Directed Projects
+2010-08-23 09:27:04	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-08-23 09:27:56	--	-
+2010-08-23 09:29:12	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-08-23 09:30:18	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-08-23 09:31:10	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-08-23 09:32:09	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-08-23 09:32:37	--	- support.
+2010-08-23 09:32:55	--	-
+2010-08-23 09:33:17	--	- By connecting to freenode you indicate that you have read
+2010-08-23 09:33:38	--	- and agree to adhere to our policies and procedures as per
+2010-08-23 09:34:26	--	- the website (http://freenode.net). We would like to remind
+2010-08-23 09:35:23	--	- you that unauthorized public logging of channels on the
+2010-08-23 09:35:36	--	- network is prohibited. Public channel logging should only
+2010-08-23 09:35:55	--	- take place where the channel owner(s) has requested this
+2010-08-23 09:36:00	--	- and users of the channel are all made aware (if you are
+2010-08-23 09:36:04	--	- publically logging your channel, you may wish to keep a
+2010-08-23 09:36:10	--	- notice in topic and perhaps as a on-join message).
+2010-08-23 09:36:14	--	-
+2010-08-23 09:36:18	--	- By registering your nickname with Nickserv you agree that you
+2010-08-23 09:36:22	--	- are 13 years of age, or older. For more information about the
+2010-08-23 09:36:23	--	- Children's Online Privacy Protection Act please see their
+2010-08-23 09:36:24	--	- website at (http://www.coppa.org).
+2010-08-23 09:36:26	--	-
+2010-08-23 09:36:27	--	- freenode runs an open proxy scanner. Your use of the network
+2010-08-23 09:36:29	--	- indicates your acceptance of this policy. For details on
+2010-08-23 09:36:30	--	- freenode network policy, please take a look at our policy
+2010-08-23 09:36:31	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-08-23 09:36:33	--	- the network!
+2010-08-23 09:36:33	--	-
+2010-08-23 09:36:33	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-08-23 09:36:33	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-08-23 09:36:33	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-08-23 09:36:33	--	- success with Picnics for Geeks across the globe, more info at
+2010-08-23 09:36:34	--	- [http://geeknic.org]
+2010-08-23 09:36:34	--	-
+2010-08-23 09:36:34	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-08-23 09:36:34	--	- a not for profit organisation registered in England and Wales.
+2010-08-23 09:36:34	--	-
+2010-08-23 09:36:34	--	- If you support the work we do and wish to donate to the PDPC,
+2010-08-23 09:36:35	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-08-23 09:36:35	--	-
+2010-08-23 09:36:35	--	- Thank you for using freenode!
+2010-08-23 09:36:35	--	-
+2010-08-23 09:36:35	--	End of /MOTD command.
+2010-08-23 09:36:36	--	User mode [+i] by quesada2
+2010-08-23 09:36:38	--	CTCP requested by frigg: VERSION
+2010-08-23 09:36:53	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-08-23 09:40:32	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2010-08-23 09:40:38	--	Link:: e178202102.adsl.alicedsl.de (Ping timeout: 265 seconds)
+2010-08-23 09:40:43	=!=	irc: reading data on socket: error 32 (connection closed by peer)
+2010-08-23 09:40:43		irc: disconnecting from server...
+2010-08-23 09:40:54		irc: disconnected from server
+2010-08-23 09:40:55		irc: reconnecting to server in 30 seconds
+2010-08-23 09:41:48		irc: reconnecting to server...
+2010-08-23 09:41:50		irc: connecting to server chat.freenode.net/6667...

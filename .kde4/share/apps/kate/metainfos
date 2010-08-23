@@ -119,6 +119,17 @@ ReadWrite=true
 Time=2010,7,25,16,13,19
 URL=file:///home/quesada/.xmonad/xmonad.myoxymor00n.hs
 
+[file:///home/quesada/coding/esa/tests.py]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=none
+MD5=032b607bb76ac0f94ea6b856d17558f9
+Mode=
+ReadWrite=true
+Time=2010,8,21,16,31,35
+URL=file:///home/quesada/coding/esa/tests.py
+
 [file:///home/quesada/coding/gensim-lastWithHg/src/gensim/test/test_corpora.py]
 Bookmarks=
 Encoding=UTF-8
@@ -193,7 +204,7 @@ Indentation Mode=python
 MD5=09124f4b47205a827913e334773ad54b
 Mode=Python
 ReadWrite=true
-Time=2010,8,18,15,16,35
+Time=2010,8,21,16,31,34
 URL=file:///home/quesada/coding/gensim/trunk/src/gensim/matutils.py
 
 [file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py]
@@ -204,7 +215,7 @@ Indentation Mode=python
 MD5=818d50d5216eb594377c2cb4e4c9a9dd
 Mode=Python
 ReadWrite=true
-Time=2010,8,18,15,16,35
+Time=2010,8,21,16,31,34
 URL=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
 
 [file:///home/quesada/coding/semmod/semmod/corpus.py]
@@ -215,8 +226,19 @@ Indentation Mode=python
 MD5=bbb4c685b86d4b719f9c5c34f91835b5
 Mode=Python
 ReadWrite=true
-Time=2010,8,18,15,16,35
+Time=2010,8,21,16,31,34
 URL=file:///home/quesada/coding/semmod/semmod/corpus.py
+
+[file:///home/quesada/tmp/foo.py]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Indentation Mode=none
+MD5=acbd18db4cc2f85cedef654fccc4a4d8
+Mode=
+ReadWrite=true
+Time=2010,8,21,16,31,34
+URL=file:///home/quesada/tmp/foo.py
 
 [file:///home/quesada/tmp/kk.py]
 Bookmarks=
@@ -228,14 +250,3 @@ Mode=Python
 ReadWrite=true
 Time=2010,8,18,14,51,24
 URL=file:///home/quesada/tmp/kk.py
-
-[file:///home/quesada/tmp/sampleSegFault.py]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Python
-Indentation Mode=python
-MD5=268f6254350217a959e5d0420de14d29
-Mode=Python
-ReadWrite=true
-Time=2010,7,21,16,40,6
-URL=file:///home/quesada/tmp/sampleSegFault.py

@@ -67,7 +67,7 @@ katectagsplugin=false
 kateexternaltoolsplugin=false
 katefilebrowserplugin=true
 katefiletemplates=false
-katefindinfilesplugin=false
+katefindinfilesplugin=true
 katekonsoleplugin=true
 katemailfilesplugin=false
 kateopenheaderplugin=false
@@ -102,10 +102,10 @@ Folding Bar=false
 Icon Bar=false
 Line Numbers=false
 Persistent Selection=false
-Replacement Text History=gvim,\\\\t,firefox,localfreq,corpusmat,//
+Replacement Text History=from esa.,gvim,\\\\t,firefox,localfreq,corpusmat,//
 Scroll Bar Marks=true
 Scroll Past End=false
-Search Pattern History=kate,\\\\s+,konqueror,counts,miIslita,/
+Search Pattern History=from tfidf.,kate,\\\\s+,konqueror,counts,miIslita,/
 Search/Replace Flags=1038
 Smart Copy Cut=true
 Vi Input Mode=false
@@ -119,24 +119,24 @@ AutoSyncronize=false
 SetEditor=true
 
 [MainWindow]
-Height 1152=374
+Height 1152=1153
 Height 1200=1201
-State=AAAA/wAAAAD9AAAAAAAAAxsAAAFdAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABOgAAARRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1921
-Width 2048=795
+Width 2048=2049
 
 [Notification Messages]
 OnSave-WrongPythonEncodingHeader=true
 Pipe To Terminal Warning=false
 
 [Plugin:katefindinfilesplugin::find-in-files]
-CaseSensitive=true
+CaseSensitive=false
 FollowDirectorySymlinks=false
-LastSearchFiles=*,*.h\\,*.hxx\\,*.cpp\\,*.cc\\,*.C\\,*.cxx\\,*.idl\\,*.c,*.cpp\\,*.cc\\,*.C\\,*.cxx\\,*.c,*.h\\,*.hxx\\,*.idl
+LastSearchFiles=
 LastSearchItems=
 LastSearchPaths=
-Recursive=true
+Recursive=false
 RegExp=false
 
 [Plugin:katesnippets_tngplugin:enabled-snippets]

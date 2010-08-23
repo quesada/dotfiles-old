@@ -9,6 +9,9 @@ import qualified Data.Map        as M
 import XMonad.Layout.Tabbed
 import XMonad.Layout.ResizableTile
 import XMonad.Layout.Grid
+import XMonad.Layout.IM
+import XMonad.Layout.ThreeColumns
+import XMonad.Layout.Spiral
 import XMonad.Layout.Magnifier
 import XMonad.Layout.TabBarDecoration
 import XMonad.Hooks.DynamicLog hiding (shorten)
@@ -142,6 +145,9 @@ myMouseBindings (XConfig {XMonad.modMask = modMask}) = M.fromList $
       prevNonEmptyWS = \_ -> moveTo Prev (WSIs (liftM (not .) isVisible))
 
 myLayout = avoidStrutsOn[U] $ tiled
+           ||| spiral (6/7)
+           ||| Grid
+           ||| ThreeCol 1 (3/100) (1/2) ||| ThreeColMid 1 (3/100) (1/2)
            ||| Mirror tiled
            ||| magnify Grid
            ||| tabs

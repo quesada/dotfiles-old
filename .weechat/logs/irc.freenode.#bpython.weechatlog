@@ -4,3 +4,186 @@
 2010-08-21 11:54:00	--	Nicks #bpython: [[Arfrever] bob_f CIA-73 derdon einalex hyperboreean m4k3r magcius marienz plundra quesada1 ronny Seamus Sebastinas whubr]
 2010-08-21 11:54:00	--	Channel #bpython: 15 nicks (0 ops, 0 halfops, 0 voices, 15 normals)
 2010-08-21 11:54:03	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-21 12:27:27	-->	federico2 (~fede@unaffiliated/federico2) has joined #bpython
+2010-08-21 12:43:11	<--	derdon (~quassel@p5B3E55F0.dip.t-dialin.net) has quit (Read error: Connection reset by peer)
+2010-08-21 13:05:52	<--	einalex (~einalex@mayanna.org) has left #bpython
+2010-08-21 13:13:43	-->	derdon (~quassel@p5B3E27B6.dip.t-dialin.net) has joined #bpython
+2010-08-21 13:45:45	<--	federico2 (~fede@unaffiliated/federico2) has quit (Remote host closed the connection)
+2010-08-21 13:49:10	-->	federico2 (~fede@unaffiliated/federico2) has joined #bpython
+2010-08-21 14:56:55	-->	Trundle (~andy@p5B14DD4E.dip.t-dialin.net) has joined #bpython
+2010-08-21 14:57:15	Trundle	Hello.
+2010-08-21 15:00:42	derdon	hi Trundle!
+2010-08-21 15:01:16	<--	federico2 (~fede@unaffiliated/federico2) has quit (Read error: Connection reset by peer)
+2010-08-21 15:01:16	derdon	Trundle: today I realised something
+2010-08-21 15:01:23	derdon	my tests suck!
+2010-08-21 15:01:29	-->	federico2 (~fede@unaffiliated/federico2) has joined #bpython
+2010-08-21 15:03:00	Trundle	Then fix it!
+2010-08-21 15:08:35	derdon	I will do!
+2010-08-21 15:09:06	derdon	Trundle: have you already read my new issues?
+2010-08-21 15:09:48	Trundle	Not in detail, I think at least on of it is a duplicate.
+2010-08-21 15:10:15	derdon	could be
+2010-08-21 16:51:45	<--	m4k3r (~maker@host157-81-dynamic.10-87-r.retail.telecomitalia.it) has quit (Ping timeout: 255 seconds)
+2010-08-22 00:17:05	-->	ikanobori (~simon@unaffiliated/ikanobori) has joined #bpython
+2010-08-22 00:17:12	ikanobori	Hi.
+2010-08-22 00:17:22	Trundle	Hello Simon!
+2010-08-22 00:18:16	ikanobori	Hello, Andreas man.
+2010-08-22 00:18:40	Trundle	How are you?
+2010-08-22 00:18:58	ikanobori	Sad that the world has fallen to the sway of capitalism.
+2010-08-22 00:19:02	ikanobori	But otherwise fine.
+2010-08-22 00:19:13	ikanobori	bob_f: My ex will be living in a studio in notting hill..
+2010-08-22 00:19:44	Trundle	Why do you hate capitalism?
+2010-08-22 00:19:53	ikanobori	I have to work.
+2010-08-22 00:20:39	Trundle	Right.
+2010-08-22 00:20:45	Trundle	But the alternatives?
+2010-08-22 00:21:18	ikanobori	Thre is none.
+2010-08-22 00:32:27	ikanobori	Trundle: What have you endeavoured on today?
+2010-08-22 00:32:34	ikanobori	Trundle: How is the i18n merge going?
+2010-08-22 00:34:53	Trundle	I don't know, I'm not working on it.
+2010-08-22 00:37:21	ikanobori	Trundle: http://hakim.se/experiments/html5/keylight/03
+2010-08-22 00:39:00	Trundle	hmm
+2010-08-22 00:39:11	derdon	wow!
+2010-08-22 00:40:14	Trundle	No sound for me :(
+2010-08-22 00:40:16	ikanobori	http://hakim.se/experiments/html5/trail/03/
+2010-08-22 00:40:24	ikanobori	Or whatever is in hakim.se/experiments it's all awesome
+2010-08-22 00:41:36	Trundle	Like your fridgr?
+2010-08-22 00:44:45	ikanobori	What is currently the best way to download single songs?
+2010-08-22 00:46:23	Trundle	Ask someone who has it.
+2010-08-22 00:51:12	ikanobori	Do you have Winnes latest song?
+2010-08-22 00:51:49	Trundle	I don't think so.
+2010-08-22 00:52:25	ikanobori	Oeps! Google Chrome kan geen verbinding maken met torrents.thepiratebay.org
+2010-08-22 00:56:40	Trundle	Compose your own song!
+2010-08-22 00:59:56	<--	federico2 (~fede@unaffiliated/federico2) has quit (Quit: Leaving)
+2010-08-22 01:03:26	ikanobori	Keine Jugendfreigabe gemäß § 14 JuSchG
+2010-08-22 01:09:15	Trundle	Nothing for you.
+2010-08-22 01:10:53	<--	ikanobori (~simon@unaffiliated/ikanobori) has quit (Quit: leaving)
+2010-08-22 01:26:13	<--	derdon (~quassel@p5B3E27B6.dip.t-dialin.net) has quit (Ping timeout: 258 seconds)
+2010-08-22 02:20:47	<--	Trundle (~andy@p5B14DD4E.dip.t-dialin.net) has quit (Remote host closed the connection)
+2010-08-22 04:42:02		irc: disconnected from server
+2010-08-22 04:42:54	-->	quesada2 (~quesada@e178195093.adsl.alicedsl.de) has joined #bpython
+2010-08-22 04:42:54	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-22 04:42:54	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-22 04:42:54	--	Nicks #bpython: [[Arfrever] bob_f CIA-73 hyperboreean magcius marienz plundra quesada1 quesada2 ronny Seamus Sebastinas whubr]
+2010-08-22 04:42:54	--	Channel #bpython: 13 nicks (0 ops, 0 halfops, 0 voices, 13 normals)
+2010-08-22 04:43:14	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-22 04:45:43	<--	quesada1 (~quesada@e178195135.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-22 11:23:47	-->	maker02 (~maker@host202-80-dynamic.32-79-r.retail.telecomitalia.it) has joined #bpython
+2010-08-22 12:45:14	-->	ikanobori (~simon@unaffiliated/ikanobori) has joined #bpython
+2010-08-22 12:45:52	 *	ikanobori freaks
+2010-08-22 12:48:25	ikanobori	bob_f: sup son
+2010-08-22 12:57:50	-->	federico2 (~fede@unaffiliated/federico2) has joined #bpython
+2010-08-22 14:01:05	-->	lars_bauer (~lars_baue@0x535e877a.banxx4.dynamic.dsl.tele.dk) has joined #bpython
+2010-08-22 15:00:54	bob_f	ikanobori: Notting Hill ? That's like 5 minutes from my office. :)
+2010-08-22 15:20:28	<--	maker02 (~maker@host202-80-dynamic.32-79-r.retail.telecomitalia.it) has quit (Ping timeout: 276 seconds)
+2010-08-22 15:52:48	<--	ikanobori (~simon@unaffiliated/ikanobori) has quit (Quit: leaving)
+2010-08-22 16:32:07	federico2	Sherlock Holmes place?
+2010-08-22 18:51:04	-->	Trundle (~andy@p5B1331A3.dip.t-dialin.net) has joined #bpython
+2010-08-22 18:51:17	Trundle	Hello.
+2010-08-22 19:03:51	federico2	Hello Trundle.
+2010-08-22 19:04:52	Trundle	hi federico2!
+2010-08-22 19:31:12	<--	federico2 (~fede@unaffiliated/federico2) has quit (Quit: Leaving)
+2010-08-22 19:43:54	-->	maker02 (~maker@host13-91-dynamic.32-79-r.retail.telecomitalia.it) has joined #bpython
+2010-08-22 20:53:21	-->	derdon (~quassel@p5B3E3760.dip.t-dialin.net) has joined #bpython
+2010-08-22 21:18:23	-->	federico2 (~fede@unaffiliated/federico2) has joined #bpython
+2010-08-22 21:41:39	<--	maker02 (~maker@host13-91-dynamic.32-79-r.retail.telecomitalia.it) has quit (Ping timeout: 240 seconds)
+2010-08-22 22:37:41	-->	aschueler (~alec@host86-131-222-46.range86-131.btcentralplus.com) has joined #bpython
+2010-08-22 22:57:27	-->	bauer_ (~lars_baue@0x535e877a.banxx4.dynamic.dsl.tele.dk) has joined #bpython
+2010-08-22 22:57:46	<--	lars_bauer (~lars_baue@0x535e877a.banxx4.dynamic.dsl.tele.dk) has quit (Quit: Ex-Chat)
+2010-08-22 23:55:39	bob_f	federico2: Sherlock Holmes lives on Baker Street, which is nowhere near Notting Hill. :)
+2010-08-22 23:55:51	 *	federico2 hides
+2010-08-22 23:59:01	marienz	they're both in london
+2010-08-23 00:03:32	bob_f	London's a big place !
+2010-08-23 00:03:40	Trundle	Lies!
+2010-08-23 00:04:30	<--	bauer_ (~lars_baue@0x535e877a.banxx4.dynamic.dsl.tele.dk) has quit (Read error: Connection reset by peer)
+2010-08-23 00:13:33	federico2	Plus, Baker Street is now far from Notting Hill, but Sherlock Holmes lived a lot of time ago. Days, even weeks.
+2010-08-23 00:15:14	derdon	good night!
+2010-08-23 00:20:04	<--	derdon (~quassel@p5B3E3760.dip.t-dialin.net) has quit (Ping timeout: 265 seconds)
+2010-08-23 00:24:34	<--	magcius (~jstpierre@unaffiliated/magcius) has quit (Ping timeout: 240 seconds)
+2010-08-23 00:25:54	-->	magcius (~jstpierre@unaffiliated/magcius) has joined #bpython
+2010-08-23 00:28:15	<--	Trundle (~andy@p5B1331A3.dip.t-dialin.net) has quit (Ping timeout: 272 seconds)
+2010-08-23 00:31:20	-->	Trundle (~andy@p5B1331A3.dip.t-dialin.net) has joined #bpython
+2010-08-23 00:48:44	<--	federico2 (~fede@unaffiliated/federico2) has quit (Quit: Leaving)
+2010-08-23 01:20:37	<--	quesada2 (~quesada@e178195093.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-23 01:20:45		irc: disconnected from server
+2010-08-23 01:21:46	-->	quesada2 (~quesada@e178195093.adsl.alicedsl.de) has joined #bpython
+2010-08-23 01:21:46	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-23 01:21:46	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-23 01:21:46	--	Nicks #bpython: [[Arfrever] aschueler bob_f CIA-73 hyperboreean magcius marienz plundra quesada2 ronny Seamus Sebastinas Trundle whubr]
+2010-08-23 01:21:46	--	Channel #bpython: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2010-08-23 01:22:08	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-23 02:25:01	<--	quesada2 (~quesada@e178195093.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-23 02:25:59		irc: disconnected from server
+2010-08-23 02:29:25	-->	quesada2 (~quesada@e178195093.adsl.alicedsl.de) has joined #bpython
+2010-08-23 02:29:25	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-23 02:29:25	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-23 02:29:25	--	Nicks #bpython: [[Arfrever] aschueler bob_f CIA-73 hyperboreean magcius marienz plundra quesada2 ronny Seamus_ Sebastinas Trundle whubr]
+2010-08-23 02:29:25	--	Channel #bpython: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2010-08-23 02:29:47	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-23 02:56:58	<--	quesada2 (~quesada@e178195093.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-23 02:57:01		irc: disconnected from server
+2010-08-23 03:00:09	-->	quesada2 (~quesada@e178195093.adsl.alicedsl.de) has joined #bpython
+2010-08-23 03:00:10	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-23 03:00:10	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-23 03:00:10	--	Nicks #bpython: [[Arfrever] aschueler bob_f CIA-73 hyperboreean magcius marienz plundra quesada2 ronny Seamus_ Sebastinas Trundle whubr]
+2010-08-23 03:00:10	--	Channel #bpython: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2010-08-23 03:00:33	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-23 03:40:57	<--	quesada2 (~quesada@e178195093.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-23 03:59:52		irc: disconnected from server
+2010-08-23 04:01:32	-->	quesada2 (~quesada@e178195093.adsl.alicedsl.de) has joined #bpython
+2010-08-23 04:01:33	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-23 04:01:33	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-23 04:01:33	--	Nicks #bpython: [[Arfrever] aschueler bob_f CIA-73 hyperboreean magcius marienz plundra quesada2 ronny Seamus_ Sebastinas Trundle whubr]
+2010-08-23 04:01:33	--	Channel #bpython: 14 nicks (0 ops, 0 halfops, 0 voices, 14 normals)
+2010-08-23 04:02:07	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-23 04:30:38	<--	Trundle (~andy@p5B1331A3.dip.t-dialin.net) has quit (Remote host closed the connection)
+2010-08-23 04:45:40		irc: disconnected from server
+2010-08-23 04:49:09	-->	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has joined #bpython
+2010-08-23 04:49:09	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-23 04:49:09	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-23 04:49:09	--	Nicks #bpython: [[Arfrever] bob_f CIA-73 hyperboreean magcius marienz plundra quesada2 ronny Seamus_ Sebastinas whubr]
+2010-08-23 04:49:09	--	Channel #bpython: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2010-08-23 04:49:33	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-23 05:13:36	<--	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-23 05:14:17		irc: disconnected from server
+2010-08-23 05:15:48	-->	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has joined #bpython
+2010-08-23 05:15:48	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-23 05:15:48	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-23 05:15:48	--	Nicks #bpython: [[Arfrever] bob_f CIA-73 hyperboreean magcius marienz plundra quesada2 ronny Seamus_ Sebastinas whubr]
+2010-08-23 05:15:48	--	Channel #bpython: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2010-08-23 05:16:14	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-23 05:41:10	<--	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-23 05:42:23		irc: disconnected from server
+2010-08-23 05:45:45	-->	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has joined #bpython
+2010-08-23 05:45:46	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-23 05:45:46	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-23 05:45:46	--	Nicks #bpython: [[Arfrever] bob_f CIA-73 hyperboreean magcius marienz plundra quesada2 ronny Seamus_ Sebastinas whubr]
+2010-08-23 05:45:47	--	Channel #bpython: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2010-08-23 05:46:09	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-23 05:57:08	<--	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-23 05:57:13		irc: disconnected from server
+2010-08-23 06:04:37	-->	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has joined #bpython
+2010-08-23 06:04:37	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-23 06:04:37	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-23 06:04:38	--	Nicks #bpython: [[Arfrever] bob_f CIA-73 hyperboreean magcius marienz plundra quesada2 ronny Seamus_ Sebastinas whubr]
+2010-08-23 06:04:38	--	Channel #bpython: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2010-08-23 06:05:02	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-23 06:29:10	<--	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-23 06:29:31		irc: disconnected from server
+2010-08-23 06:42:44		irc: disconnected from server
+2010-08-23 06:49:42	-->	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has joined #bpython
+2010-08-23 06:49:44	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-23 06:49:50	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-23 06:49:58	--	Nicks #bpython: [[Arfrever] bob_f CIA-73 hyperboreean magcius marienz plundra quesada2 ronny Seamus_ Sebastinas whubr]
+2010-08-23 06:50:03	--	Channel #bpython: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2010-08-23 06:51:58	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-23 08:13:06	<--	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-23 08:20:44		irc: disconnected from server
+2010-08-23 08:22:06	-->	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has joined #bpython
+2010-08-23 08:22:06	--	Topic for #bpython is "NO ANIME | http://www.bpython-interpreter.org/ | hg clone https://bitbucket.org/bobf/bpython/ | Latest release: bpython 0.9.7.1 | http://bpaste.net/ | [ yescalona] how to make bpython like ipython?"
+2010-08-23 08:22:06	--	Topic set by bob_f (~bob@unaffiliated/bob-f/x-6028553) on Tue, 10 Aug 2010 14:50:52
+2010-08-23 08:22:06	--	Nicks #bpython: [[Arfrever] bob_f CIA-73 hyperboreean magcius marienz plundra quesada2 ronny Seamus_ Sebastinas whubr]
+2010-08-23 08:22:06	--	Channel #bpython: 12 nicks (0 ops, 0 halfops, 0 voices, 12 normals)
+2010-08-23 08:22:27	--	Channel created on Tue, 27 Jan 2009 06:28:49
+2010-08-23 08:57:16	<--	quesada2 (~quesada@e178202102.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-08-23 09:00:39		irc: disconnected from server
+2010-08-23 09:14:08		irc: disconnected from server
+2010-08-23 09:40:53		irc: disconnected from server

@@ -15,9 +15,9 @@ slashdot.org         ".slashdot.org"      "/"          1336750262    0 __utma   
 [.google.bg]
 www.google.bg        ".google.bg"         "/"          1336750286    0 PREF                 4    ID=8121738ce9105077:TM=1273678286:LM=1273678286:S=EAldy274h26ZHIyL
 [.isohunt.com]
-isohunt.com          ".isohunt.com"       "/"          1298013408    0 __utmz               4    139404715.1282245409.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
-isohunt.com          ".isohunt.com"       "/"          1313781544    0 phpbb2mysql_data     4    a%3A2%3A%7Bs%3A11%3A%22autologinid%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22userid%22%3Bi%3A-1%3B%7D
-isohunt.com          ".isohunt.com"       "/"          1345317440    0 __utma               4    64285424.1983202488.1282245406.1282245406.1282245406.1
+isohunt.com          ".isohunt.com"       "/"          1298155342    0 __utmz               4    64285424.1282387343.2.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+isohunt.com          ".isohunt.com"       "/"          1313923528    0 phpbb2mysql_data     4    a%3A2%3A%7Bs%3A11%3A%22autologinid%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22userid%22%3Bi%3A-1%3B%7D
+isohunt.com          ".isohunt.com"       "/"          1345459409    0 __utma               4    64285424.1983202488.1282245406.1282245406.1282387343.2
 [.sourceforge.net]
 sourceforge.net      ".sourceforge.net"   "/"          1289725652    0 __utmz               4    191645736.1273957652.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
 sourceforge.net      ".sourceforge.net"   "/"          1337029652    0 __utma               4    191645736.618777968.1273957652.1273957652.1273957652.1
@@ -29,7 +29,7 @@ www.sabayon.org      ".sabayon.org"       "/"          1289811879    0 __utmz   
 www.sabayon.org      ".sabayon.org"       "/"          1337118293    0 __utma               4    177713447.757537385.1274043879.1274043879.1274046293.2
 [.btjunkie.org]
 btjunkie.org         ".btjunkie.org"      "/"          1290337598    0 __utmz               4    223426504.1274569599.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none)
-btjunkie.org         ".btjunkie.org"      "/"          1345317464    0 __utma               4    223426504.537623742.1274569599.1282234672.1282245465.3
+btjunkie.org         ".btjunkie.org"      "/"          1345459341    0 __utma               4    223426504.537623742.1274569599.1282245465.1282387342.4
 [.bit.ly]
 bit.ly               ".bit.ly"            "/"          1290933830    0 _bit                 6    4c051ca6-0009d-031a0-baa08fa8
 [tweetphoto.com]
@@ -174,20 +174,21 @@ rww.tw               ".rww.tw"            "/"          1296473220    0 _bit     
 [.mnd.ly]
 mnd.ly               ".mnd.ly"            "/"          1296477425    0 _bit                 6    4c59b351-001b2-07a5a-b3a08fa8
 [isohunt.com]
-isohunt.com          ""                   "/"          1282364879    0 phpAds_blockAd[328]  4    1282321679
-isohunt.com          ""                   "/"          1282364891    0 phpAds_blockAd[324]  4    1282321691
-isohunt.com          ""                   "/"          1282364892    0 phpAds_blockAd[391]  4    1282321692
-isohunt.com          ""                   "/"          1282364893    0 phpAds_blockAd[432]  4    1282321693
-isohunt.com          ""                   "/"          1282375095    0 phpAds_blockAd[430]  4    1282331895
-isohunt.com          ""                   "/"          1282375114    0 phpAds_blockAd[390]  4    1282331914
-isohunt.com          ""                   "/"          1282375116    0 phpAds_blockAd[392]  4    1282331916
-isohunt.com          ""                   "/"          1282375118    0 phpAds_blockAd[361]  4    1282331918
+isohunt.com          ""                   "/"          1282517068    0 phpAds_blockAd[361]  4    1282473868
+isohunt.com          ""                   "/"          1282517069    0 phpAds_blockAd[391]  4    1282473869
+isohunt.com          ""                   "/"          1282517076    0 phpAds_blockAd[324]  4    1282473876
+isohunt.com          ""                   "/"          1282517077    0 phpAds_blockAd[328]  4    1282473877
+isohunt.com          ""                   "/"          1282517079    0 phpAds_blockAd[432]  4    1282473879
+isohunt.com          ""                   "/"          1282517079    0 phpAds_blockAd[430]  4    1282473879
+isohunt.com          ""                   "/"          1282517100    0 phpAds_blockAd[366]  4    1282473900
 [.zedo.com]
 d3.zedo.com          ".zedo.com"          "/"          1284827176    0 ZEDOIDX              4    21
-d3.zedo.com          ".zedo.com"          "/"          1284837414    0 FFCap                4    1326B790,150248,150349|0,5,5:2,5,5
+d3.zedo.com          ".d3.zedo.com"       "/"          1298155349    0 __utmz               4    2419877.1282387349.1.1.utmcsr=isohunt.com|utmccn=(referral)|utmcmd=referral|utmcct=/js/iframeAd.php
+d3.zedo.com          ".d3.zedo.com"       "/"          1345459349    0 __utma               4    2419877.2118669864.1282387349.1282387349.1282387349.1
+d3.zedo.com          ".zedo.com"          "/"          1284979358    0 FFCap                4    1326B790,150248,150349|1,5,5:2,5,5
 [.vsindex.com]
-www.vsindex.com      ".vsindex.com"       "/"          1298013413    0 __utmz               4    40005669.1282245413.2.2.utmcsr=isohunt.com|utmccn=(referral)|utmcmd=referral|utmcct=/js/iframeAd.php
-www.vsindex.com      ".vsindex.com"       "/"          1345317415    0 __utma               4    40005669.1632755071.1282235178.1282235178.1282245413.2
+www.vsindex.com      ".vsindex.com"       "/"          1298155359    0 __utmz               4    40005669.1282387360.3.3.utmcsr=d3.zedo.com|utmccn=(referral)|utmcmd=referral|utmcct=/jsc/d3/ff2.html
+www.vsindex.com      ".vsindex.com"       "/"          1345459359    0 __utma               4    40005669.1632755071.1282235178.1282245413.1282387360.3
 [.addthis.com]
 s7.addthis.com       ".addthis.com"       "/"          1854242393    0 uid                  4    4c6d5b332c1b1c8a
-s7.addthis.com       ".addthis.com"       "/"          1854242393    0 psc                  4    4
+s7.addthis.com       ".addthis.com"       "/"          1854242393    0 psc                  4    3
