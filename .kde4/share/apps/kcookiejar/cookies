@@ -15,9 +15,9 @@ slashdot.org         ".slashdot.org"      "/"          1336750262    0 __utma   
 [.google.bg]
 www.google.bg        ".google.bg"         "/"          1336750286    0 PREF                 4    ID=8121738ce9105077:TM=1273678286:LM=1273678286:S=EAldy274h26ZHIyL
 [.isohunt.com]
-isohunt.com          ".isohunt.com"       "/"          1298155342    0 __utmz               4    64285424.1282387343.2.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
-isohunt.com          ".isohunt.com"       "/"          1313923528    0 phpbb2mysql_data     4    a%3A2%3A%7Bs%3A11%3A%22autologinid%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22userid%22%3Bi%3A-1%3B%7D
-isohunt.com          ".isohunt.com"       "/"          1345459409    0 __utma               4    64285424.1983202488.1282245406.1282245406.1282387343.2
+isohunt.com          ".isohunt.com"       "/"          1298791528    0 __utmz               4    64285424.1283023528.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+isohunt.com          ".isohunt.com"       "/"          1314559667    0 phpbb2mysql_data     4    a%3A2%3A%7Bs%3A11%3A%22autologinid%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22userid%22%3Bi%3A-1%3B%7D
+isohunt.com          ".isohunt.com"       "/"          1346095554    0 __utma               4    64285424.103924128.1283023528.1283023528.1283023528.1
 [.sourceforge.net]
 sourceforge.net      ".sourceforge.net"   "/"          1289725652    0 __utmz               4    191645736.1273957652.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
 sourceforge.net      ".sourceforge.net"   "/"          1337029652    0 __utma               4    191645736.618777968.1273957652.1273957652.1273957652.1
@@ -29,17 +29,17 @@ www.sabayon.org      ".sabayon.org"       "/"          1289811879    0 __utmz   
 www.sabayon.org      ".sabayon.org"       "/"          1337118293    0 __utma               4    177713447.757537385.1274043879.1274043879.1274046293.2
 [.btjunkie.org]
 btjunkie.org         ".btjunkie.org"      "/"          1290337598    0 __utmz               4    223426504.1274569599.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none)
-btjunkie.org         ".btjunkie.org"      "/"          1345459341    0 __utma               4    223426504.537623742.1274569599.1282245465.1282387342.4
+btjunkie.org         ".btjunkie.org"      "/"          1346094956    0 __utma               4    223426504.537623742.1274569599.1282950100.1283022957.6
 [.bit.ly]
 bit.ly               ".bit.ly"            "/"          1290933830    0 _bit                 6    4c051ca6-0009d-031a0-baa08fa8
 [tweetphoto.com]
-tweetphoto.com       ""                   "/"          2069801840    0 CAKEPHP              4    i1u6q79beti99go25327s9p482
+tweetphoto.com       ""                   "/"          2072101673    0 CAKEPHP              4    i1u6q79beti99go25327s9p482
 [.slidesha.re]
 slidesha.re          ".slidesha.re"       "/"          1290937538    0 _bit                 6    4c052b22-003e5-04068-b5a08fa8
 [.nyti.ms]
 nyti.ms              ".nyti.ms"           "/"          1290948894    0 _bit                 6    4c05577e-002a6-00405-b8a08fa8
 [mrtweet.com]
-mrtweet.com          ""                   "/"          1286132228    0 _TwAnalyzer_session  6    BAh7CjoQX2NzcmZfdG9rZW4iMWpXeWRCNjB6UDVLOE9hcHlLM1N0WTNuaEhoWnIxSXdUSktuRHY1dEVtdVE9OhFwYWdlX2hpc3RvcnlbCCIhaHR0cDovL21ydHdlZXQuY29tL3NpZ25pbj91PSIhaHR0cDovL21ydHdlZXQuY29tL2hvbWU%2Fcz11cCIhaHR0cDovL21ydHdlZXQuY29tL3NpZ25pbj91PToPc2Vzc2lvbl9pZCIlZDJlMWVhOTRmZjFlYWZkNWVlOTNmOWQyOTFkNGM5OTEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA6EW9yaWdpbmFsX3VyaSIPL2hvbWU%2Fcz11cA%3D%3D--dc077e751cb0ea7b0b6051f152eaf15b13d631e8
+mrtweet.com          ""                   "/"          1288432088    0 _TwAnalyzer_session  6    BAh7CjoRcGFnZV9oaXN0b3J5WwgiIWh0dHA6Ly9tcnR3ZWV0LmNvbS9ob21lP3M9dXAiIWh0dHA6Ly9tcnR3ZWV0LmNvbS9zaWduaW4%2FdT0iIWh0dHA6Ly9tcnR3ZWV0LmNvbS9ob21lP3M9dXA6EF9jc3JmX3Rva2VuIjFqV3lkQjYwelA1SzhPYXB5SzNTdFkzbmhIaFpyMUl3VEpLbkR2NXRFbXVRPToRb3JpZ2luYWxfdXJpIg8vaG9tZT9zPXVwIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOg9zZXNzaW9uX2lkIiVkMmUxZWE5NGZmMWVhZmQ1ZWU5M2Y5ZDI5MWQ0Yzk5MQ%3D%3D--390933d9995ff9d577d89dc939634c0695b04521
 [.mbist.ro]
 mbist.ro             ".mbist.ro"          "/"          1290948895    0 _bit                 6    4c05577f-00060-06a51-b2a08fa8
 [.ericri.es]
@@ -56,13 +56,13 @@ mzl.la               ".mzl.la"            "/"          1290990167    0 _bit     
 [.flic.kr]
 flic.kr              ".flic.kr"           "/"          2127585600    0 BX                   4    2b2v01160bu5o&b=3&s=pk
 [flic.kr]
-flic.kr              ""                   "/"          1372488869    0 localization         4    en-us%3Bxx%3Bgr
+flic.kr              ""                   "/"          1377791876    0 localization         4    en-us%3Bxx%3Bgr
 [skrci.me]
-skrci.me             ""                   ""           1312401186    0 SMR                  0    3Cip7KnfmErovJe3AhLL8OyPA4qj7eAW
+skrci.me             ""                   ""           1314719706    0 SMR                  0    3Cip7KnfmErovJe3AhLL8OyPA4qj7eAW
 [.flickr.com]
 www.flickr.com       ".flickr.com"        "/"          2127585600    0 BX                   4    df4r24l60bu5p&b=3&s=bb
-www.flickr.com       ".flickr.com"        "/"          1433289874    0 flbkt                4    testname%3Dsocial_upsell_message%26bucket%3Db%26_exp%3D1278979474%3A2ce46492e8e7eafdfd165bbb9a6f4437
-www.flickr.com       ".flickr.com"        "/"          1372488870    0 localization         4    en-us%3Bxx%3Bgr
+www.flickr.com       ".flickr.com"        "/"          1438681692    0 flbkt                4    testname%3Dsocial_upsell_message%26bucket%3Db%26_exp%3D1284371292%3Aa6f92ae3153bf7de84e75b4270cf091d
+www.flickr.com       ".flickr.com"        "/"          1377791876    0 localization         4    en-us%3Bxx%3Bgr
 [.twitpic.com]
 twitpic.com          ".twitpic.com"       "/"          2551005940    0 twitpic1             4    qbobfcspg3q3urkh6clchl21o1
 [.4sq.com]
@@ -77,8 +77,6 @@ oreil.ly             ".oreil.ly"          "/"          1291025951    0 _bit     
 on.ted.com           ".on.ted.com"        "/"          1307031554    0 snowball             4    826102f0-5090-012d-80f4-1231390c1602
 [n.pr]
 n.pr                 ""                   "/"          1291027510    0 _bit                 6    4c068a96-001fb-06926-b2a08fa8
-[.vark.com]
-vark.com             ".vark.com"          "/"          1283028261    0 v                    6    BAh7CDoPc2Vzc2lvbl9pZCIlZDYzMjYzNDNhMjkwZGNkMzA0NmY3YWRkYTI1YTdjOWQ6E3NpZ251cF9kZXRhaWxzewg6CXR5cGUiCmdyb3VwOg1ncm91cF9pZGkDamUBOhJzb3VyY2Vfc3VmZml4MDoQX2NzcmZfdG9rZW4iMUR3NDdqNGkvYWpESUllTUVEOURCdkV3ci9yY0RpcmVQWGRFdTR4UUdDMEk9--ca50523d4b7ed8bd023aa1d5b2138179aded683a
 [.huff.to]
 huff.to              ".huff.to"           "/"          1291049241    0 _bit                 6    4c06df79-00060-0770a-91a08fa8
 [.tnw.to]
@@ -99,7 +97,7 @@ www.fastcompany.com  ".fastcompany.com"   "/"          1306675062    0 fastcache
 [.otf.me]
 otf.me               ".otf.me"            "/"          1307116601    0 snowball             4    86625e50-5156-012d-f61a-123138003234
 [.vimeo.com]
-vimeo.com            ".vimeo.com"         "/"          1593241460    0 uid                  4    0
+vimeo.com            ".vimeo.com"         "/"          1598521701    0 uid                  4    0
 [icio.us]
 icio.us              ""                   "/"          1310749270    0 delicious_us_production 4    jvluPS3XEtjv5.XlW9MXw.U2yh_SZYP1V4YPz0LNr91RmBosIUPeId35Wv1Gq03NqTWexwaPDBOby.hze0PI_.e64.8jD95HHSCIPCe9ew7riMd7HbzuwsOg.l9exkvPGGr1ou69d.UDZ3MBeq465bNZMWpmV6Sb8hM5TXw8DP6VjoAe3ElAwscrxpvN9uys3skqCpEsQ22u9a2344uyNj3yvTjoOvTFVGZ.izeZVD0KEj3EMzTDxy7Swrb_UT2C62sFO9T6o.kAM9uuJjhLZgIYvzNAJEJCg5GBger2CUCZnVSndgjuDj95prsdqMpCQMOEaYoDeqA-
 [tiny.cc]
@@ -163,8 +161,6 @@ idek.net             ""                   "/"          1343069832    0 clickthru
 text-processing.com  ""                   "/"          1312311427    0 csrftoken            4    dbed460410a14b03adf2142b7a463ba7
 [bt.io]
 bt.io                ""                   "/"          1312397836    0 snowball             4    1e980ff5-77bd-41bc-8db6-991110cb0a0b
-[.openstructs.org]
-openstructs.org      ".openstructs.org"   "/"          1282867813    0 SESSa73aae5bdb40f5f8edb0dc864b7aafb8 4    5c224ba3f3dd0035c5bdfd5c11bc3cbc
 [.fflick.com]
 fflick.com           ".fflick.com"        "/"          1283461620    0 wmsg                 4    1
 [.sdut.us]
@@ -173,22 +169,29 @@ sdut.us              ".sdut.us"           "/"          1296409615    0 _bit     
 rww.tw               ".rww.tw"            "/"          1296473220    0 _bit                 6    4c59a2e4-00329-024cd-b8a08fa8
 [.mnd.ly]
 mnd.ly               ".mnd.ly"            "/"          1296477425    0 _bit                 6    4c59b351-001b2-07a5a-b3a08fa8
-[isohunt.com]
-isohunt.com          ""                   "/"          1282517068    0 phpAds_blockAd[361]  4    1282473868
-isohunt.com          ""                   "/"          1282517069    0 phpAds_blockAd[391]  4    1282473869
-isohunt.com          ""                   "/"          1282517076    0 phpAds_blockAd[324]  4    1282473876
-isohunt.com          ""                   "/"          1282517077    0 phpAds_blockAd[328]  4    1282473877
-isohunt.com          ""                   "/"          1282517079    0 phpAds_blockAd[432]  4    1282473879
-isohunt.com          ""                   "/"          1282517079    0 phpAds_blockAd[430]  4    1282473879
-isohunt.com          ""                   "/"          1282517100    0 phpAds_blockAd[366]  4    1282473900
 [.zedo.com]
 d3.zedo.com          ".zedo.com"          "/"          1284827176    0 ZEDOIDX              4    21
 d3.zedo.com          ".d3.zedo.com"       "/"          1298155349    0 __utmz               4    2419877.1282387349.1.1.utmcsr=isohunt.com|utmccn=(referral)|utmcmd=referral|utmcct=/js/iframeAd.php
 d3.zedo.com          ".d3.zedo.com"       "/"          1345459349    0 __utma               4    2419877.2118669864.1282387349.1282387349.1282387349.1
-d3.zedo.com          ".zedo.com"          "/"          1284979358    0 FFCap                4    1326B790,150248,150349|1,5,5:2,5,5
+d3.zedo.com          ".zedo.com"          "/"          1285542142    0 FFCap                4    1326B790,159518,150248,150349|0,9,1:0,13,5:1,13,5
 [.vsindex.com]
-www.vsindex.com      ".vsindex.com"       "/"          1298155359    0 __utmz               4    40005669.1282387360.3.3.utmcsr=d3.zedo.com|utmccn=(referral)|utmcmd=referral|utmcct=/jsc/d3/ff2.html
-www.vsindex.com      ".vsindex.com"       "/"          1345459359    0 __utma               4    40005669.1632755071.1282235178.1282245413.1282387360.3
+www.vsindex.com      ".vsindex.com"       "/"          1298718105    0 __utmz               4    40005669.1282950106.4.4.utmcsr=d3.zedo.com|utmccn=(referral)|utmcmd=referral|utmcct=/jsc/d3/ff2.html
+www.vsindex.com      ".vsindex.com"       "/"          1346022143    0 __utma               4    40005669.1632755071.1282235178.1282387360.1282950106.4
 [.addthis.com]
 s7.addthis.com       ".addthis.com"       "/"          1854242393    0 uid                  4    4c6d5b332c1b1c8a
-s7.addthis.com       ".addthis.com"       "/"          1854242393    0 psc                  4    3
+s7.addthis.com       ".addthis.com"       "/"          1854242393    0 psc                  4    0
+[.adperium.com]
+ad.adperium.com      ".adperium.com"      "/"          1285442166    0 rsi_segs             4    10001
+[.twitter.com]
+twitter.com          ".twitter.com"       "/"          1283766474    0 k                    4    85.178.192.171.1283161674270703
+[twitter.com]
+twitter.com          ""                   "/"          1285753674    0 guest_id             4    128316167427779524
+[.techstartu.ps]
+techstartu.ps        ".techstartu.ps"     "/"          2145916799    0 reddit_first         4    %7B%22organic_pos%22%3A%201%2C%20%22firsttime%22%3A%20%22first%22%7D
+[.aol.de]
+alicesuchedns.aol.de ""                   "/aol"       1317116895    0 userid               0    9026875170209568485
+alicesuchedns.aol.de ".aol.de"            "/"          1317116895    0 unified_prefs        4    age=300810&safesearch=2
+[.scl.md]
+scl.md               ".scl.md"            "/"          1298692096    0 _bit                 6    4c7b7e60-00185-01485-d8ac8fa8
+[.thecovemovie.com]
+www.thecovemovie.com ".thecovemovie.com"  "/"          1314697700    0 ANONID40333          4    15db97a5-3150-42d3-aadf-4780f1f16064

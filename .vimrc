@@ -404,6 +404,18 @@ if has("autocmd")
 
    "to get equally spaced buffer windows independent of the main GVIM window size.
     autocmd VimResized * wincmd =
+
+    " hightlight whitespaces. Important for git and other vcs
+    highlight ExtraWhitespace ctermbg=red guibg=red
+    match ExtraWhitespace /\s\+$/
+    autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+    autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+    autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+    autocmd BufWinLeave * call clearmatches()
+
+    " Resolving performance problems on the hightlight whitespaces
+    autocmd BufWinLeave * call clearmatches()
+
 else
    " Copy indent from current line when starting a new line (typing <CR>
    set autoindent    " always set autoindenting on

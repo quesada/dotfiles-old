@@ -1,0 +1,326 @@
+time 1282752500
+new [description:"reading design book" entry:"1282752500" status:"pending" uuid:"ac9f493a-675a-a7d0-aa9f-959a939b8702"]
+---
+time 1282752505
+old [description:"reading design book" entry:"1282752500" status:"pending" uuid:"ac9f493a-675a-a7d0-aa9f-959a939b8702"]
+new [description:"reading design book" entry:"1282752500" start:"1282752505" status:"pending" uuid:"ac9f493a-675a-a7d0-aa9f-959a939b8702"]
+---
+time 1282753784
+new [description:"brandao letter" entry:"1282753784" status:"pending" uuid:"4206d44d-77b8-621c-aebe-57f443f7a90e"]
+---
+time 1282753795
+new [description:"hotel innsbruck" entry:"1282753795" status:"pending" uuid:"2f19a52c-0db0-b58f-19ce-bce674b43855"]
+---
+time 1282753814
+new [description:"get streaming corpus for plain text" entry:"1282753814" status:"pending" uuid:"e8c0677a-4033-2a30-4c60-746e128f8396"]
+---
+time 1282753821
+old [description:"get streaming corpus for plain text" entry:"1282753814" status:"pending" uuid:"e8c0677a-4033-2a30-4c60-746e128f8396"]
+new [description:"get streaming corpus for plain text" entry:"1282753814" start:"1282753821" status:"pending" uuid:"e8c0677a-4033-2a30-4c60-746e128f8396"]
+---
+time 1282753837
+old [description:"reading design book" entry:"1282752500" start:"1282752505" status:"pending" uuid:"ac9f493a-675a-a7d0-aa9f-959a939b8702"]
+new [description:"reading design book" entry:"1282752500" status:"pending" uuid:"ac9f493a-675a-a7d0-aa9f-959a939b8702"]
+---
+time 1282753876
+new [description:"fix dotifles. move to sync wuala" entry:"1282753876" status:"pending" uuid:"594043ce-dba5-9cba-d1bc-57399e0b4009"]
+---
+time 1282754130
+old [description:"reading design book" entry:"1282752500" status:"pending" uuid:"ac9f493a-675a-a7d0-aa9f-959a939b8702"]
+new [description:"reading design book" end:"1282754130" entry:"1282752500" status:"completed" uuid:"ac9f493a-675a-a7d0-aa9f-959a939b8702"]
+---
+time 1282754161
+new [description:"read fb paper, write review" entry:"1282754161" status:"pending" uuid:"c6e1331d-55e4-bef3-468e-98de15a5d849"]
+---
+time 1282765996
+new [description:"move server" entry:"1282765996" priority:"M" project:"esa" status:"pending" uuid:"94250c01-aaff-f81a-4052-00dffa09307d"]
+---
+time 1282766016
+new [description:"write insurance letter 1 and 2" entry:"1282766016" priority:"M" project:"esa" status:"pending" uuid:"a5ac7eb8-aad9-0e38-a5d3-e794e0edd727"]
+---
+time 1282774113
+new [description:"move money madre" entry:"1282774113" priority:"M" project:"esa" status:"pending" uuid:"db1bc8c5-f0f7-707a-46b2-c43e4907bd08"]
+---
+time 1282806282
+new [description:"apply beijing embassy" entry:"1282806282" priority:"M" project:"esa" status:"pending" uuid:"5c8c735e-e9df-87b0-1736-56cf7510a6ef"]
+---
+time 1282809974
+new [description:"make loadDictionary use cpickle, and read from a mem fs" entry:"1282809974" priority:"M" status:"pending" uuid:"a1a9c58e-f0a1-91c1-f177-caaddb8ee9d8"]
+---
+time 1282810273
+old [description:"get streaming corpus for plain text" entry:"1282753814" start:"1282753821" status:"pending" uuid:"e8c0677a-4033-2a30-4c60-746e128f8396"]
+new [description:"get streaming corpus for plain text" entry:"1282753814" status:"pending" uuid:"e8c0677a-4033-2a30-4c60-746e128f8396"]
+---
+time 1282810316
+old [description:"get streaming corpus for plain text" entry:"1282753814" status:"pending" uuid:"e8c0677a-4033-2a30-4c60-746e128f8396"]
+new [description:"get streaming corpus for plain text" entry:"1282753814" start:"1282810316" status:"pending" uuid:"e8c0677a-4033-2a30-4c60-746e128f8396"]
+---
+time 1282810915
+new [description:"buy usb3 enclosure" entry:"1282810915" priority:"M" status:"pending" uuid:"c1e6809d-6417-d399-d362-ce136cfef5ec"]
+---
+time 1282843823
+new [description:"get empadronamiento http://www.maec.es/SUBWEBS/EMBAJADAS/BERLIN/ES/MENUPPAL/SECCIONCONSULARBERLIN/REGISTROCONSULAR/Paginas/Registroconsular.aspx" entry:"1282843823" priority:"M" status:"pending" uuid:"2b7435ad-f7d5-1d16-a5a5-d12d6c61987b"]
+---
+time 1282926867
+old [description:"get streaming corpus for plain text" entry:"1282753814" start:"1282810316" status:"pending" uuid:"e8c0677a-4033-2a30-4c60-746e128f8396"]
+new [description:"get streaming corpus for plain text" end:"1282926867" entry:"1282753814" start:"1282810316" status:"completed" uuid:"e8c0677a-4033-2a30-4c60-746e128f8396"]
+---
+time 1282926885
+new [description:"follow up opencoffee mails" entry:"1282926885" priority:"M" status:"pending" uuid:"4d02d479-7e14-07b6-da12-9d22d46e32b7"]
+---
+time 1282927609
+old [description:"hotel innsbruck" entry:"1282753795" status:"pending" uuid:"2f19a52c-0db0-b58f-19ce-bce674b43855"]
+new [description:"hotel innsbruck" end:"1282927609" entry:"1282753795" status:"completed" uuid:"2f19a52c-0db0-b58f-19ce-bce674b43855"]
+---
+time 1282930970
+new [description:"upload slides with workflow" entry:"1282930970" priority:"M" status:"pending" uuid:"f7dd06e7-9f63-76d1-b5ad-f4d01908f05e"]
+---
+time 1282934201
+new [description:"lee wiki" entry:"1282934201" priority:"M" status:"pending" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+---
+time 1282934228
+new [description:"cpickle large gensim wiki objects" entry:"1282934228" priority:"M" status:"pending" uuid:"c23feec9-842f-c027-5455-84b80442119d"]
+---
+time 1282934235
+old [description:"cpickle large gensim wiki objects" entry:"1282934228" priority:"M" status:"pending" uuid:"c23feec9-842f-c027-5455-84b80442119d"]
+new [description:"cpickle large gensim wiki objects" entry:"1282934228" priority:"M" start:"1282934235" status:"pending" uuid:"c23feec9-842f-c027-5455-84b80442119d"]
+---
+time 1282937893
+new [description:"get otorrino appointment" entry:"1282937893" priority:"M" status:"pending" uuid:"e6712905-60f3-6380-7d89-15dd02f1bf8a"]
+---
+time 1282983612
+old [description:"cpickle large gensim wiki objects" entry:"1282934228" priority:"M" start:"1282934235" status:"pending" uuid:"c23feec9-842f-c027-5455-84b80442119d"]
+new [description:"cpickle large gensim wiki objects" end:"1282983612" entry:"1282934228" priority:"M" start:"1282934235" status:"completed" uuid:"c23feec9-842f-c027-5455-84b80442119d"]
+---
+time 1282983617
+old [description:"make loadDictionary use cpickle, and read from a mem fs" entry:"1282809974" priority:"M" status:"pending" uuid:"a1a9c58e-f0a1-91c1-f177-caaddb8ee9d8"]
+new [description:"make loadDictionary use cpickle, and read from a mem fs" entry:"1282809974" priority:"M" start:"1282983617" status:"pending" uuid:"a1a9c58e-f0a1-91c1-f177-caaddb8ee9d8"]
+---
+time 1282983670
+new [description:"create object that reproduces a run" entry:"1282983670" priority:"M" status:"pending" uuid:"9ed8af9a-64e6-5411-83a5-690b1acfecc7"]
+---
+time 1282983783
+old [description:"make loadDictionary use cpickle, and read from a mem fs" entry:"1282809974" priority:"M" start:"1282983617" status:"pending" uuid:"a1a9c58e-f0a1-91c1-f177-caaddb8ee9d8"]
+new [description:"make loadDictionary use cpickle, and read from a mem fs" entry:"1282809974" priority:"M" status:"pending" uuid:"a1a9c58e-f0a1-91c1-f177-caaddb8ee9d8"]
+---
+time 1282983791
+old [description:"lee wiki" entry:"1282934201" priority:"M" status:"pending" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+new [description:"lee wiki" entry:"1282934201" priority:"M" start:"1282983791" status:"pending" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+---
+time 1282983819
+old [description:"lee wiki" entry:"1282934201" priority:"M" start:"1282983791" status:"pending" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+new [description:"lee wiki" entry:"1282934201" priority:"M" status:"pending" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+---
+time 1282983826
+old [description:"make loadDictionary use cpickle, and read from a mem fs" entry:"1282809974" priority:"M" status:"pending" uuid:"a1a9c58e-f0a1-91c1-f177-caaddb8ee9d8"]
+new [description:"make loadDictionary use cpickle, and read from a mem fs" entry:"1282809974" priority:"M" start:"1282983826" status:"pending" uuid:"a1a9c58e-f0a1-91c1-f177-caaddb8ee9d8"]
+---
+time 1282989366
+old [description:"make loadDictionary use cpickle, and read from a mem fs" entry:"1282809974" priority:"M" start:"1282983826" status:"pending" uuid:"a1a9c58e-f0a1-91c1-f177-caaddb8ee9d8"]
+new [description:"make loadDictionary use cpickle, and read from a mem fs" end:"1282989366" entry:"1282809974" priority:"M" start:"1282983826" status:"completed" uuid:"a1a9c58e-f0a1-91c1-f177-caaddb8ee9d8"]
+---
+time 1282989394
+old [description:"lee wiki" entry:"1282934201" priority:"M" status:"pending" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+new [description:"lee wiki" entry:"1282934201" priority:"M" start:"1282989394" status:"pending" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+---
+time 1282991273
+new [description:"lk request for FIS" entry:"1282991273" priority:"M" status:"pending" uuid:"b3a8a70c-6021-1b44-2ef8-a7541bf67eb2"]
+---
+time 1282994557
+old [description:"lee wiki" entry:"1282934201" priority:"M" start:"1282989394" status:"pending" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+new [description:"lee wiki" entry:"1282934201" priority:"M" status:"pending" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+---
+time 1282994585
+new [description:"add preprocessing module, run porter stemmer" entry:"1282994585" priority:"M" status:"pending" uuid:"9f54e464-7534-ad64-77da-d4f89f877050"]
+---
+time 1282994589
+old [description:"add preprocessing module, run porter stemmer" entry:"1282994585" priority:"M" status:"pending" uuid:"9f54e464-7534-ad64-77da-d4f89f877050"]
+new [description:"add preprocessing module, run porter stemmer" entry:"1282994585" priority:"M" start:"1282994589" status:"pending" uuid:"9f54e464-7534-ad64-77da-d4f89f877050"]
+---
+time 1283078821
+old [description:"add preprocessing module, run porter stemmer" entry:"1282994585" priority:"M" start:"1282994589" status:"pending" uuid:"9f54e464-7534-ad64-77da-d4f89f877050"]
+new [description:"add preprocessing module, run porter stemmer" end:"1283078821" entry:"1282994585" priority:"M" start:"1282994589" status:"completed" uuid:"9f54e464-7534-ad64-77da-d4f89f877050"]
+---
+time 1283078831
+old [description:"lee wiki" entry:"1282934201" priority:"M" status:"pending" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+new [description:"lee wiki" end:"1283078831" entry:"1282934201" priority:"M" status:"completed" uuid:"00db59f4-778d-a7d0-9f3f-f156685f0730"]
+---
+time 1283079655
+old [description:"move money madre" entry:"1282774113" priority:"M" project:"esa" status:"pending" uuid:"db1bc8c5-f0f7-707a-46b2-c43e4907bd08"]
+new [description:"move money madre" end:"1283079655" entry:"1282774113" priority:"M" project:"esa" status:"completed" uuid:"db1bc8c5-f0f7-707a-46b2-c43e4907bd08"]
+---
+time 1283081888
+new [description:"save missing words in a query" entry:"1283081888" priority:"M" status:"pending" uuid:"7d834c31-2529-b976-52a4-aa0556d4ee76"]
+---
+time 1283081914
+new [description:"implement docs as average of word vetcs" entry:"1283081914" priority:"M" status:"pending" uuid:"65d26893-32d8-63fd-d832-7bb7321422a9"]
+---
+time 1283081949
+new [description:"compare cos doc-doc using column vectors and using the esa doc vector" entry:"1283081949" priority:"M" status:"pending" uuid:"eefb772c-2f1f-039e-ef91-84576a0552c4"]
+---
+time 1283082262
+new [description:"write test for Dictionary.doc2bow" entry:"1283082262" priority:"M" project:"esa" status:"pending" uuid:"53166a9b-2ee4-e664-f713-791cc1b80005"]
+---
+time 1283082287
+old [description:"apply beijing embassy" entry:"1282806282" priority:"M" project:"esa" status:"pending" uuid:"5c8c735e-e9df-87b0-1736-56cf7510a6ef"]
+new [description:"apply beijing embassy" entry:"1282806282" priority:"M" project:"beijing" status:"pending" uuid:"5c8c735e-e9df-87b0-1736-56cf7510a6ef"]
+---
+time 1283082301
+old [description:"write insurance letter 1 and 2" entry:"1282766016" priority:"M" project:"esa" status:"pending" uuid:"a5ac7eb8-aad9-0e38-a5d3-e794e0edd727"]
+new [description:"write insurance letter 1 and 2" entry:"1282766016" priority:"M" project:"paperwork" status:"pending" uuid:"a5ac7eb8-aad9-0e38-a5d3-e794e0edd727"]
+---
+time 1283082312
+old [description:"move server" entry:"1282765996" priority:"M" project:"esa" status:"pending" uuid:"94250c01-aaff-f81a-4052-00dffa09307d"]
+new [description:"move server" entry:"1282765996" priority:"M" project:"paperwork" status:"pending" uuid:"94250c01-aaff-f81a-4052-00dffa09307d"]
+---
+time 1283082325
+old [description:"read fb paper, write review" entry:"1282754161" status:"pending" uuid:"c6e1331d-55e4-bef3-468e-98de15a5d849"]
+new [description:"read fb paper, write review" entry:"1282754161" project:"paperwork" status:"pending" uuid:"c6e1331d-55e4-bef3-468e-98de15a5d849"]
+---
+time 1283082332
+old [description:"read fb paper, write review" entry:"1282754161" project:"paperwork" status:"pending" uuid:"c6e1331d-55e4-bef3-468e-98de15a5d849"]
+new [description:"read fb paper, write review" due:"1283032800" entry:"1282754161" project:"paperwork" status:"pending" uuid:"c6e1331d-55e4-bef3-468e-98de15a5d849"]
+---
+time 1283082372
+old [description:"write test for Dictionary.doc2bow" entry:"1283082262" priority:"M" project:"esa" status:"pending" uuid:"53166a9b-2ee4-e664-f713-791cc1b80005"]
+new [description:"write test for Dictionary.doc2bow" entry:"1283082262" priority:"M" project:"esa" start:"1283082372" status:"pending" uuid:"53166a9b-2ee4-e664-f713-791cc1b80005"]
+---
+time 1283082677
+new [description:"symlink gensim, remove sys.path.add, test" entry:"1283082677" priority:"M" status:"pending" uuid:"4f9d0699-4db4-f3d2-70c9-503459f7ed72"]
+---
+time 1283083891
+old [description:"symlink gensim, remove sys.path.add, test" entry:"1283082677" priority:"M" status:"pending" uuid:"4f9d0699-4db4-f3d2-70c9-503459f7ed72"]
+new [description:"symlink gensim, remove sys.path.add, test" end:"1283083891" entry:"1283082677" priority:"M" status:"completed" uuid:"4f9d0699-4db4-f3d2-70c9-503459f7ed72"]
+---
+time 1283083913
+old [description:"implement docs as average of word vetcs" entry:"1283081914" priority:"M" status:"pending" uuid:"65d26893-32d8-63fd-d832-7bb7321422a9"]
+new [description:"implement docs as average of word vetcs" entry:"1283081914" priority:"M" project:"esa" status:"pending" uuid:"65d26893-32d8-63fd-d832-7bb7321422a9"]
+---
+time 1283083925
+old [description:"save missing words in a query" entry:"1283081888" priority:"M" status:"pending" uuid:"7d834c31-2529-b976-52a4-aa0556d4ee76"]
+new [description:"save missing words in a query" entry:"1283081888" priority:"M" project:"esa" status:"pending" uuid:"7d834c31-2529-b976-52a4-aa0556d4ee76"]
+---
+time 1283083948
+old [description:"compare cos doc-doc using column vectors and using the esa doc vector" entry:"1283081949" priority:"M" status:"pending" uuid:"eefb772c-2f1f-039e-ef91-84576a0552c4"]
+new [description:"compare cos doc-doc using column vectors and using the esa doc vector" entry:"1283081949" priority:"M" project:"esa" status:"pending" uuid:"eefb772c-2f1f-039e-ef91-84576a0552c4"]
+---
+time 1283083961
+old [description:"create object that reproduces a run" entry:"1282983670" priority:"M" status:"pending" uuid:"9ed8af9a-64e6-5411-83a5-690b1acfecc7"]
+new [description:"create object that reproduces a run" entry:"1282983670" priority:"M" project:"esa" status:"pending" uuid:"9ed8af9a-64e6-5411-83a5-690b1acfecc7"]
+---
+time 1283089350
+new [description:"create sample data for the human-minors example running it through WikiExistingParsing" entry:"1283089350" priority:"M" status:"pending" uuid:"1b56dc65-5141-b85a-1172-e527198eae5b"]
+---
+time 1283089380
+old [description:"create sample data for the human-minors example running it through WikiExistingParsing" entry:"1283089350" priority:"M" status:"pending" uuid:"1b56dc65-5141-b85a-1172-e527198eae5b"]
+new [description:"create sample data for the human-minors example running it through WikiExistingParsing" entry:"1283089350" priority:"M" start:"1283089380" status:"pending" uuid:"1b56dc65-5141-b85a-1172-e527198eae5b"]
+---
+time 1283093424
+old [description:"create sample data for the human-minors example running it through WikiExistingParsing" entry:"1283089350" priority:"M" start:"1283089380" status:"pending" uuid:"1b56dc65-5141-b85a-1172-e527198eae5b"]
+new [description:"create sample data for the human-minors example running it through WikiExistingParsing" end:"1283093424" entry:"1283089350" priority:"M" start:"1283089380" status:"completed" uuid:"1b56dc65-5141-b85a-1172-e527198eae5b"]
+---
+time 1283104984
+new [description:"draw workflow" entry:"1283104984" priority:"M" status:"pending" uuid:"197f29c8-b916-b490-32bf-db7e4cce1b92"]
+---
+time 1283104994
+old [description:"draw workflow" entry:"1283104984" priority:"M" status:"pending" uuid:"197f29c8-b916-b490-32bf-db7e4cce1b92"]
+new [description:"draw workflow" entry:"1283104984" priority:"M" start:"1283104994" status:"pending" uuid:"197f29c8-b916-b490-32bf-db7e4cce1b92"]
+---
+time 1283105001
+old [description:"draw workflow" entry:"1283104984" priority:"M" start:"1283104994" status:"pending" uuid:"197f29c8-b916-b490-32bf-db7e4cce1b92"]
+new [description:"draw workflow" entry:"1283104984" priority:"M" status:"pending" uuid:"197f29c8-b916-b490-32bf-db7e4cce1b92"]
+---
+time 1283105007
+old [description:"draw workflow" entry:"1283104984" priority:"M" status:"pending" uuid:"197f29c8-b916-b490-32bf-db7e4cce1b92"]
+new [description:"draw workflow" end:"1283105007" entry:"1283104984" priority:"M" status:"completed" uuid:"197f29c8-b916-b490-32bf-db7e4cce1b92"]
+---
+time 1283151454
+old [description:"brandao letter" entry:"1282753784" status:"pending" uuid:"4206d44d-77b8-621c-aebe-57f443f7a90e"]
+new [description:"brandao letter" end:"1283151454" entry:"1282753784" status:"completed" uuid:"4206d44d-77b8-621c-aebe-57f443f7a90e"]
+---
+time 1283157445
+new [description:"ulrike mail" entry:"1283157445" priority:"M" status:"pending" uuid:"590cc549-a27b-e882-5aed-1bcfcb80fa55"]
+---
+time 1283157453
+new [description:"google mail" entry:"1283157453" priority:"M" status:"pending" uuid:"34ee8254-6850-c174-8c37-882578a905e3"]
+---
+time 1283161260
+new [description:"apply autumn school" due:"1283119200" entry:"1283161260" priority:"M" status:"pending" uuid:"da9556f5-53ad-da3e-f74e-b9a6f191a777"]
+---
+time 1283179627
+old [description:"get otorrino appointment" entry:"1282937893" priority:"M" status:"pending" uuid:"e6712905-60f3-6380-7d89-15dd02f1bf8a"]
+new [description:"get otorrino appointment" end:"1283179627" entry:"1282937893" priority:"M" status:"completed" uuid:"e6712905-60f3-6380-7d89-15dd02f1bf8a"]
+---
+time 1283179647
+old [description:"lk request for FIS" entry:"1282991273" priority:"M" status:"pending" uuid:"b3a8a70c-6021-1b44-2ef8-a7541bf67eb2"]
+new [description:"lk request for FIS" end:"1283179647" entry:"1282991273" priority:"M" status:"completed" uuid:"b3a8a70c-6021-1b44-2ef8-a7541bf67eb2"]
+---
+time 1283191106
+old [description:"read fb paper, write review" due:"1283032800" entry:"1282754161" project:"paperwork" status:"pending" uuid:"c6e1331d-55e4-bef3-468e-98de15a5d849"]
+new [description:"read fb paper, write review" due:"1283032800" end:"1283191106" entry:"1282754161" project:"paperwork" status:"completed" uuid:"c6e1331d-55e4-bef3-468e-98de15a5d849"]
+---
+time 1283191114
+old [description:"write test for Dictionary.doc2bow" entry:"1283082262" priority:"M" project:"esa" start:"1283082372" status:"pending" uuid:"53166a9b-2ee4-e664-f713-791cc1b80005"]
+new [description:"write test for Dictionary.doc2bow" entry:"1283082262" priority:"M" project:"esa" status:"pending" uuid:"53166a9b-2ee4-e664-f713-791cc1b80005"]
+---
+time 1283239789
+old [description:"apply autumn school" due:"1283119200" entry:"1283161260" priority:"M" status:"pending" uuid:"da9556f5-53ad-da3e-f74e-b9a6f191a777"]
+new [description:"apply autumn school" due:"1283119200" end:"1283239789" entry:"1283161260" priority:"M" status:"completed" uuid:"da9556f5-53ad-da3e-f74e-b9a6f191a777"]
+---
+time 1283239851
+new [description:"do plot with existing data" entry:"1283239851" priority:"M" status:"pending" uuid:"7b6c3e2b-0e47-3cb0-0874-4cd41f49f1d6"]
+---
+time 1283245685
+old [description:"follow up opencoffee mails" entry:"1282926885" priority:"M" status:"pending" uuid:"4d02d479-7e14-07b6-da12-9d22d46e32b7"]
+new [description:"follow up opencoffee mails" end:"1283245685" entry:"1282926885" priority:"M" status:"completed" uuid:"4d02d479-7e14-07b6-da12-9d22d46e32b7"]
+---
+time 1283253651
+old [description:"upload slides with workflow" entry:"1282930970" priority:"M" status:"pending" uuid:"f7dd06e7-9f63-76d1-b5ad-f4d01908f05e"]
+new [description:"upload slides with workflow" end:"1283253651" entry:"1282930970" priority:"M" status:"completed" uuid:"f7dd06e7-9f63-76d1-b5ad-f4d01908f05e"]
+---
+time 1283258786
+old [description:"write test for Dictionary.doc2bow" entry:"1283082262" priority:"M" project:"esa" status:"pending" uuid:"53166a9b-2ee4-e664-f713-791cc1b80005"]
+new [description:"write test for Dictionary.doc2bow" entry:"1283082262" priority:"M" project:"esa" start:"1283258786" status:"pending" uuid:"53166a9b-2ee4-e664-f713-791cc1b80005"]
+---
+time 1283260334
+old [description:"write test for Dictionary.doc2bow" entry:"1283082262" priority:"M" project:"esa" start:"1283258786" status:"pending" uuid:"53166a9b-2ee4-e664-f713-791cc1b80005"]
+new [description:"write test for Dictionary.doc2bow" end:"1283260334" entry:"1283082262" priority:"M" project:"esa" start:"1283258786" status:"completed" uuid:"53166a9b-2ee4-e664-f713-791cc1b80005"]
+---
+time 1283260963
+old [description:"save missing words in a query" entry:"1283081888" priority:"M" project:"esa" status:"pending" uuid:"7d834c31-2529-b976-52a4-aa0556d4ee76"]
+new [description:"save missing words in a query" end:"1283260963" entry:"1283081888" priority:"M" project:"esa" status:"completed" uuid:"7d834c31-2529-b976-52a4-aa0556d4ee76"]
+---
+time 1283260996
+new [description:"look at missing words in lee" entry:"1283260996" priority:"M" status:"pending" uuid:"961e87f5-8713-82df-156b-0b4ffd050979"]
+---
+time 1283261004
+old [description:"look at missing words in lee" entry:"1283260996" priority:"M" status:"pending" uuid:"961e87f5-8713-82df-156b-0b4ffd050979"]
+new [description:"look at missing words in lee" entry:"1283260996" priority:"M" project:"esa" status:"pending" uuid:"961e87f5-8713-82df-156b-0b4ffd050979"]
+---
+time 1283261018
+old [description:"look at missing words in lee" entry:"1283260996" priority:"M" project:"esa" status:"pending" uuid:"961e87f5-8713-82df-156b-0b4ffd050979"]
+new [description:"look at missing words in lee" entry:"1283260996" priority:"M" project:"esa" start:"1283261018" status:"pending" uuid:"961e87f5-8713-82df-156b-0b4ffd050979"]
+---
+time 1283263641
+old [description:"look at missing words in lee" entry:"1283260996" priority:"M" project:"esa" start:"1283261018" status:"pending" uuid:"961e87f5-8713-82df-156b-0b4ffd050979"]
+new [description:"look at missing words in lee" end:"1283263641" entry:"1283260996" priority:"M" project:"esa" start:"1283261018" status:"completed" uuid:"961e87f5-8713-82df-156b-0b4ffd050979"]
+---
+time 1283263659
+old [description:"implement docs as average of word vetcs" entry:"1283081914" priority:"M" project:"esa" status:"pending" uuid:"65d26893-32d8-63fd-d832-7bb7321422a9"]
+new [description:"implement docs as average of word vetcs" entry:"1283081914" priority:"M" project:"esa" start:"1283263659" status:"pending" uuid:"65d26893-32d8-63fd-d832-7bb7321422a9"]
+---
+time 1283268705
+new [description:"in xls, mark the cells where dbpedia is not implied" entry:"1283268705" priority:"M" status:"pending" uuid:"9c1356a4-70d5-485d-e95d-fa834713b104"]
+---
+time 1283273086
+old [description:"move server" entry:"1282765996" priority:"M" project:"paperwork" status:"pending" uuid:"94250c01-aaff-f81a-4052-00dffa09307d"]
+new [description:"move server" due:"1283205600" entry:"1282765996" priority:"M" project:"paperwork" status:"pending" uuid:"94250c01-aaff-f81a-4052-00dffa09307d"]
+---
+time 1283273119
+old [description:"get empadronamiento http://www.maec.es/SUBWEBS/EMBAJADAS/BERLIN/ES/MENUPPAL/SECCIONCONSULARBERLIN/REGISTROCONSULAR/Paginas/Registroconsular.aspx" entry:"1282843823" priority:"M" status:"pending" uuid:"2b7435ad-f7d5-1d16-a5a5-d12d6c61987b"]
+new [description:"get empadronamiento http://www.maec.es/SUBWEBS/EMBAJADAS/BERLIN/ES/MENUPPAL/SECCIONCONSULARBERLIN/REGISTROCONSULAR/Paginas/Registroconsular.aspx" entry:"1282843823" priority:"M" project:"paperwork" status:"pending" uuid:"2b7435ad-f7d5-1d16-a5a5-d12d6c61987b"]
+---
+time 1283273127
+old [description:"in xls, mark the cells where dbpedia is not implied" entry:"1283268705" priority:"M" status:"pending" uuid:"9c1356a4-70d5-485d-e95d-fa834713b104"]
+new [description:"in xls, mark the cells where dbpedia is not implied" end:"1283273127" entry:"1283268705" priority:"M" status:"completed" uuid:"9c1356a4-70d5-485d-e95d-fa834713b104"]
+---

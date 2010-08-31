@@ -209,3 +209,91 @@
 2010-08-18 19:58:16	-->	Dashkal (~dashkal@WoWUIDev/Nexus/dashkal) has joined #xmonad
 2010-08-18 20:00:36	-->	derrotebaron (~ne32jilo@faui0sr0.informatik.uni-erlangen.de) has joined #xmonad
 2010-08-18 20:09:38		irc: disconnected from server
+2010-08-25 21:12:55	-->	quesada (~quesada@e178205201.adsl.alicedsl.de) has joined #xmonad
+2010-08-25 21:12:55	--	Topic for #xmonad is "Topic for #xmonad: xmonad: a tiling window manager | xmonad 0.9 released! | http://xmonad.org | rss: http://xmonad.wordpress.com/feed | faq: http://xmonad.org/faq | cheatsheet: http://haskell.org/haskellwiki/Image:Xmbindings.png"
+2010-08-25 21:12:55	--	Topic set by aavogt (~aavogt@engage.uwaterloo.ca) on Fri, 09 Apr 2010 07:25:18
+2010-08-25 21:12:55	--	Nicks #xmonad: [+lambdabot +preflex [31d1] aavogt adimit Aikawa aiko- akosch AlexanderS alip allbery_b ampzqlox And1 andrewsw ankan ArchGT Arien__ AriMartti asfethan astrocub Athas audunska b4taylor Baughn bla blut bremner brisbin Bruners bthomson byorgey c3l CheariX clanehin_ cncl comak cornet CosmicRay cubi danklesman Dashkal davidL deadguys debiandebian_ defn defre Demosthenes Dephyrial dfkjjkfd dmwit dons dropdrive drubin dschoepe dweller edenc eintopf Entroacceptor ernst fabjan_ fadein felipe_ flupzor fonz FunctorSalad_ gds gereedy gernot Gilly Guest5970 gwern hanneso hokapoka hugo_ Hunner insecure insomniaSalt janLo janus jd10 jdoe jelly12gen jhelwig JHoglund johanbev jones- jrockway jubos_ jusa_ jvogel kabniel Kafka kejsaren kenyon ksf_ l0uis Liskni_si LoganH loupgaroublond majoh mauke McManiaC mikezackles millertime minami nce noidi npouillard nuba p_l pantski pARESit Paul-S pcc1 pielgrzym ponky pseup pting quesada raccoon_ Raku^ ramok RayNbow reinroux_ rgr ricky rlb rootzlevel rudi_s_ sbahra schatan sdx23 SeveredCross shachaf slabanja smeea smly- smorg snapcase sperber sshc stepnem surgeon tafryn taihen tcb TeXitoi theDon tmug trez trzkril tux_mark_5 Valodim Vq watsonalgas wawawawa_ wereHamster yitz yosafbridge Zao Ziphilt zitune]
+2010-08-25 21:12:55	--	Channel #xmonad: 162 nicks (0 ops, 0 halfops, 2 voices, 160 normals)
+2010-08-25 21:12:55	--	URL for #xmonad: http://xmonad.org
+2010-08-25 21:12:57	--	Channel created on Wed, 25 Apr 2007 06:33:15
+2010-08-25 21:13:26	quesada	I have one 'floating' window (say an 'open' dialog) that I want to make bigger. How do I do this?
+2010-08-25 21:15:11	fadein	quesada: press your mod key while you right-click drag the window
+2010-08-25 21:15:48	quesada	fadein: thanks, I found this too on the man page :) sorry about the basic question
+2010-08-25 21:24:22	-->	kaolbrec (~kaolbrec@95.149.91.183) has joined #xmonad
+2010-08-25 21:28:19	-->	novas0x2a (~mike@womp.fihn.net) has joined #xmonad
+2010-08-25 21:35:09	-->	xAFFEE (ejabberd@charlie333.server4you.de) has joined #xmonad
+2010-08-25 21:44:24	-->	zbeasnyy (~mornfall@ip-89-102-11-250.net.upcbroadband.cz) has joined #xmonad
+2010-08-25 21:51:05	-->	markand (~markand@unaffiliated/markand) has joined #xmonad
+2010-08-25 21:51:06	markand	hello
+2010-08-25 21:55:03	<--	zbeasnyy (~mornfall@ip-89-102-11-250.net.upcbroadband.cz) has quit (Quit: the old ways are lost)
+2010-08-25 21:55:08	-->	mornfall (~mornfall@anna.fi.muni.cz) has joined #xmonad
+2010-08-25 21:55:11	<--	mornfall (~mornfall@anna.fi.muni.cz) has quit (Changing host)
+2010-08-25 21:55:11	-->	mornfall (~mornfall@kde/developer/mornfall) has joined #xmonad
+2010-08-25 21:59:09	<--	RayNbow (kirika@scientia.demon.nl) has quit (Quit: When science finally locates the center of the universe, some people will be surprised to learn they're not it)
+2010-08-25 21:59:23	markand	is there a way to remove this ugly cross pointer ?
+2010-08-25 21:59:38	<--	dweller (avalan@stallman2.rootnode.net) has quit (Quit: leaving)
+2010-08-25 21:59:58	mauke	http://haskell.org/haskellwiki/Xmonad/Frequently_asked_questions#Setting_the_X_cursor
+2010-08-25 22:00:09	markand	thanks
+2010-08-25 22:00:15	-->	Philonous (~uart14@2a01:198:4e9:3:223:54ff:fe47:dee3) has joined #xmonad
+2010-08-25 22:02:28	-->	avalan (avalan@stallman2.rootnode.net) has joined #xmonad
+2010-08-25 22:03:18	--	avalan is now known as dweller
+2010-08-25 22:11:02	FunctorSalad_	hmm what's the managehook for *not* floating any windows by default, again?
+2010-08-25 22:13:10	FunctorSalad_	oh sorry TFM knows http://haskell.org/haskellwiki/Xmonad/General_xmonad.hs_config_tips#Making_windows_unfloat
+2010-08-25 22:15:57	markand	http://pastebin.com/PsFfVsev with this, I get a lot of error while recompiling xmonad
+2010-08-25 22:16:02	markand	I don't understand what is wrong
+2010-08-25 22:16:28	mauke	missing argument in call to onWorkspace?
+2010-08-25 22:16:39	mauke	IIRC onWorkspace takes 3 args
+2010-08-25 22:17:23	FunctorSalad_	XMonad.Core runOnWorkspaces :: (WindowSpace -> X WindowSpace) -> X ()
+2010-08-25 22:17:39	markand	layoutHook = A ||| B ||| onWorkspace "foo" D C
+2010-08-25 22:17:42	markand	I saw this
+2010-08-25 22:17:49	mauke	yes
+2010-08-25 22:17:54	mauke	that's three arguments
+2010-08-25 22:17:57	markand	yes
+2010-08-25 22:18:07	FunctorSalad_	on. singular
+2010-08-25 22:18:10	markand	but I don't know what I should write instead of "C"
+2010-08-25 22:18:35	FunctorSalad_	s/on/oh/
+2010-08-25 22:18:49	mauke	layoutHints (Tall 1 0.03 0.5) ||| Full ||| simplestFloat
+2010-08-25 22:20:57	 *	markand needs to learn haskell
+2010-08-25 22:24:12	-->	koniiiik (johnny64@phoenix.wheel.sk) has joined #xmonad
+2010-08-25 22:29:21	rgr	complete black out : whats the command to pull the latest xmonad libraries?
+2010-08-25 22:30:03	mauke	darcs pull
+2010-08-25 22:30:43	rgr	thought there was some xmonad specific thing.
+2010-08-25 22:33:03	<--	trzkril (~simon@p4FF0C842.dip.t-dialin.net) has quit (Quit: leaving)
+2010-08-25 22:33:22	rgr	no, it was something else. damn it.
+2010-08-25 22:33:25	rgr	can tremember
+2010-08-25 22:33:47	<--	tcb (~tcberner_@123-127.5-85.cust.bluewin.ch) has quit (Quit: Verlassend)
+2010-08-25 22:39:26	FunctorSalad_	cabal install xmonad? that'll install the latest release though, not the development version
+2010-08-25 22:41:11	rgr	that was it.
+2010-08-25 22:41:29	rgr	so just "darcs pull"? and then how to build? sorry, looking for quick update-
+2010-08-25 22:42:45	-->	kaolbrec_ (~kaolbrec@95.149.91.183) has joined #xmonad
+2010-08-25 22:43:38	<--	kaolbrec_ (~kaolbrec@95.149.91.183) has quit (Remote host closed the connection)
+2010-08-25 22:43:44	<--	kaolbrec (~kaolbrec@95.149.91.183) has quit (Ping timeout: 258 seconds)
+2010-08-25 22:44:04	<--	ampzqlox (~firstname@pool-96-251-128-86.lsanca.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2010-08-25 22:46:08	-->	ampzqlox (~firstname@pool-96-251-128-86.lsanca.fios.verizon.net) has joined #xmonad
+2010-08-25 22:46:11	<--	Paul-S (~paul@88-105-207-39.dynamic.dsl.as9105.com) has quit (Ping timeout: 240 seconds)
+2010-08-25 22:46:14	<--	ampzqlox (~firstname@pool-96-251-128-86.lsanca.fios.verizon.net) has quit (Remote host closed the connection)
+2010-08-25 22:48:20	markand	haskell is pretty cool
+2010-08-25 22:49:24	-->	ampzqlox (~firstname@pool-96-251-128-86.lsanca.fios.verizon.net) has joined #xmonad
+2010-08-25 22:57:34	<--	mornfall (~mornfall@kde/developer/mornfall) has quit (Quit: bork bork)
+2010-08-25 22:57:42	-->	zbeasnyy (~mornfall@ip-89-102-11-250.net.upcbroadband.cz) has joined #xmonad
+2010-08-25 23:02:13	<--	kejsaren (~kejsaren@111.25.95.91.static.ras.siw.siwnet.net) has quit (Ping timeout: 276 seconds)
+2010-08-25 23:03:10	-->	kejsaren (~kejsaren@111.25.95.91.static.ras.siw.siwnet.net) has joined #xmonad
+2010-08-25 23:22:03	-->	rob| (~rob@95-90-48-82-dynip.superkabel.de) has joined #xmonad
+2010-08-25 23:22:59	<--	watsonalgas (~diomekes@c-71-56-120-21.hsd1.ga.comcast.net) has quit (Ping timeout: 265 seconds)
+2010-08-25 23:30:09	markand	how can I enable some space at the top of my screen ?
+2010-08-25 23:30:47	Zao	Use gaps?
+2010-08-25 23:31:05	Zao	Or if whatever you want to put there supports struts, avoidStruts.
+2010-08-25 23:31:14	markand	yes I would like to
+2010-08-25 23:31:16	markand	okay I check
+2010-08-25 23:31:17	markand	thanks
+2010-08-25 23:31:25	Zao	http://xmonad.org/xmonad-docs/xmonad-contrib/XMonad-Layout-Gaps.html and http://xmonad.org/xmonad-docs/xmonad-contrib/XMonad-Hooks-ManageDocks.html
+2010-08-25 23:34:38	markand	there is so much of xmonad contrib it's great :)
+2010-08-25 23:38:54	markand	it works !
+2010-08-25 23:38:56	markand	thanks Zao
+2010-08-25 23:41:28	<--	dweller (avalan@stallman2.rootnode.net) has quit (Quit: leaving)
+2010-08-25 23:42:15	-->	avalan (avalan@stallman2.rootnode.net) has joined #xmonad
+2010-08-25 23:42:34	--	avalan is now known as dweller
+2010-08-25 23:44:18	<--	Dashkal (~dashkal@WoWUIDev/Nexus/dashkal) has quit (Quit: leaving)
+2010-08-25 23:53:09	-->	Dashkal (~dashkal@WoWUIDev/Nexus/dashkal) has joined #xmonad
+2010-08-25 23:57:06	<--	comak (~mak@dynamic-87-105-244-182.ssp.dialog.net.pl) has quit (Remote host closed the connection)
+2010-08-25 23:57:20		irc: disconnected from server

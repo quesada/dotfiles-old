@@ -55,6 +55,9 @@ InfoOutput=4
 [blogilo]
 InfoOutput=4
 
+[cantor]
+InfoOutput=4
+
 [choqok]
 InfoOutput=4
 
@@ -212,6 +215,9 @@ InfoOutput=4
 InfoOutput=4
 
 [ktorrent]
+InfoOutput=4
+
+[kuser]
 InfoOutput=4
 
 [kwalletd]

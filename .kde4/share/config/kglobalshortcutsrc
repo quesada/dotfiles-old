@@ -25,7 +25,7 @@ stop_after_current=Meta+Shift+V,Meta+Shift+V,Stop after current Track
 toggleMainWindow=Meta+P,Meta+P,Toggle Main Window
 
 [choqok]
-_k_friendly_name=choqok
+_k_friendly_name=Choqok
 choqok_new_post=Meta+Ctrl+T,Meta+Ctrl+T,Quick Post
 toggle_mainwin=Meta+Ctrl+C,Meta+Ctrl+C,Minimize
 update_timeline=Meta+Ctrl+F5,Meta+Ctrl+F5,Update Timelines
@@ -159,7 +159,7 @@ solid=none,none,Run Command (runner "Devices" only)
 windows=none,none,Run Command (runner "Windows" only)
 
 [ktorrent]
-_k_friendly_name=ktorrent
+_k_friendly_name=KTorrent
 queue_pause=Alt+Shift+P,Alt+Shift+P,Pause KTorrent
 queue_suspend=,Alt+Shift+P,Suspend Torrents
 show_kt=Alt+Shift+T,Alt+Shift+T,Show/Hide KTorrent

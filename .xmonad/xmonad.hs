@@ -14,6 +14,8 @@ import XMonad.Layout.ThreeColumns
 import XMonad.Layout.Spiral
 import XMonad.Layout.Magnifier
 import XMonad.Layout.TabBarDecoration
+import XMonad.Layout.MosaicAlt
+import qualified Data.Map as M
 import XMonad.Hooks.DynamicLog hiding (shorten)
 import XMonad.Actions.CycleWS
 import XMonad.Hooks.ManageDocks
@@ -145,6 +147,7 @@ myMouseBindings (XConfig {XMonad.modMask = modMask}) = M.fromList $
       prevNonEmptyWS = \_ -> moveTo Prev (WSIs (liftM (not .) isVisible))
 
 myLayout = avoidStrutsOn[U] $ tiled
+           ||| MosaicAlt M.empty
            ||| spiral (6/7)
            ||| Grid
            ||| ThreeCol 1 (3/100) (1/2) ||| ThreeColMid 1 (3/100) (1/2)

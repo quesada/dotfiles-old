@@ -8,26 +8,37 @@ Host=twitter.com
 MicroBlog=choqok_twitter
 Priority=0
 ReadOnly=false
-Search0=quesada,,,0,,,#eswc2010,,,1
-SearchCount=1
+SearchCount=0
 ShowInQuickPost=true
 Timelines=Home,Reply,Inbox,Outbox
 UseSecureConnection=true
 UserId=
 Username=quesada
 
+[Appearance]
+isCustomUi=true
+readBackColor=41,41,41
+readForeColor=149,149,149
+unreadBackColor=37,33,42
+unreadForeColor=138,138,138
+
 [Behavior]
 countOfPosts=40
 enableSpellChecker=true
-position=960,600
+position=0,18
 shortenOnPaste=true
 shortenerPlugin=choqok_is_gd
 
+[Colors]
+CurrentPalette=Forty Colors
+
 [MainWindow]
+Height 1152=1130
 Height 1200=596
-State=AAAA/wAAAAD9AAAAAAAAA7wAAAIfAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAABOgAAAQ5AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1920=956
+Width 2048=1256
 
 [Notification Messages]
 systemtrayquitChoqok=false

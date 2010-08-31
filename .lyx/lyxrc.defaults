@@ -7,7 +7,9 @@
 \converter latex      dvi        "latex"	"latex"
 \Format tgif       obj     Tgif                   "" "auto"	"auto"	"vector"
 \Format fig        fig     FIG                    "" "auto"	"auto"	"vector"
-\Format dia        dia     DIA                    "" "auto"	"auto"	"vector"
+\editor_alternatives dia dia
+\Format dia        dia     DIA                    "" "dia"	"dia"	"vector"
+\viewer_alternatives dia dia
 \Format agr        agr     Grace                  "" "auto"	"auto"	"vector"
 \Format fen        fen     FEN                    "" "auto"	"auto"	""
 \Format svg        svg     SVG                    "" "auto" "auto"	"vector"
@@ -252,7 +254,8 @@
 \viewer_alternatives textparagraph notepad
 \Format xhtml      xhtml   "LyXHTML"              X "firefox" ""    "document"
 \viewer_alternatives xhtml firefox
-\Format bibtex bib    "BibTeX"         "" ""	"gvim"	""
+\Format bibtex bib    "BibTeX"         "" ""	"jabref"	""
+\editor_alternatives bibtex jabref
 \editor_alternatives bibtex gvim
 \editor_alternatives bibtex kwrite
 \editor_alternatives bibtex kate
@@ -276,6 +279,10 @@
 \viewer_alternatives pdf2 evince
 \viewer_alternatives pdf3 evince
 \viewer_alternatives pdf4 evince
+\viewer_alternatives pdf xpdf
+\viewer_alternatives pdf2 xpdf
+\viewer_alternatives pdf3 xpdf
+\viewer_alternatives pdf4 xpdf
 \Format dvi        dvi     DVI                    D  "okular"	""	"document,vector"
 \viewer_alternatives dvi okular
 \Format html       html    HTML                   H  "firefox"	""	"document"
@@ -323,10 +330,10 @@
 \converter sweave   pdflatex      "R CMD Sweave $$i"	""
 \converter html       latex      "java -jar htmltolatex.jar -input $$i -output $$o"	""
 \converter word       latex      "wvCleanLatex $$i $$o"	""
-\converter lyx      html       ""	""
-\converter latex      html       ""	"needaux"
-\copier    html       "python -tt $$s/scripts/ext_copy.py $$i $$o"
-\converter latex      wordhtml   ""	"needaux"
+\converter lyx      html       "elyxer --directory $$r $$i $$o"	""
+\copier    html       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
+\converter lyx      wordhtml       "python -m elyxer --html --directory $$r $$i $$o"	""
+\copier    wordhtml       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
 \converter sxw        latex      ""	""
 \converter odt        latex      ""	""
 \converter latex      odt        ""	"needaux"
@@ -346,8 +353,8 @@
 \converter tiff       eps        "tiff2ps $$i > $$o"	""
 \converter wmf        eps        "wmf2eps -o $$o $$i"	""
 \converter emf        eps        "wmf2eps -o $$o $$i"	""
-\converter dia        png        ""	""
-\converter dia        eps        ""	""
+\converter dia        png        "dia -e $$o -t png $$i"	""
+\converter dia        eps        "dia -e $$o -t eps $$i"	""
 \converter svg        pdf        "rsvg-convert -f pdf -o $$o $$i"	""
 \converter svg        eps        "rsvg-convert -f ps -o $$o $$i"	""
 \converter svg        png        "rsvg-convert -f png -o $$o $$i"	""

@@ -335,10 +335,86 @@ inReplyToPostId=17633618063
 inReplyToUserId=14075441
 inReplyToUserName=Quesada
 isPrivate=false
-isRead=false
+isRead=true
 postId=17662420927
 source=web
 text=@Quesada Whoa.
+
+[21580317724]
+authorDescription=Plant Pathologist, epidemiologist and ecologist who works with R, GIS. I prefer to spend my time with classic Jeeps and photography getting outside.
+authorId=14334354
+authorLocation=
+authorProfileImageUrl=http://a2.twimg.com/profile_images/517059746/me_normal.jpg
+authorRealName=Adam Sparks
+authorUrl=
+authorUserName=earlycj5
+creationDateTime=2010,8,19,16,12,39
+favorited=false
+inReplyToPostId=
+inReplyToUserId=
+inReplyToUserName=
+isPrivate=false
+isRead=false
+postId=21580317724
+source=<a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text=Bummer.  I thought Mendeley was finally open source when I first saw this. RT @Quesada: blog: Mendeley goes open:  http://bit.ly/9ZM9F3
+
+[21583734645]
+authorDescription=Chief scientist @ mendeley.com - geneticist - indie rock musician. That last one is kind of stretching it.
+authorId=16515488
+authorLocation=
+authorProfileImageUrl=http://a2.twimg.com/profile_images/1050735450/me_office_plaid_beard4_Jul2010_normal.jpg
+authorRealName=Jason Hoyt
+authorUrl=
+authorUserName=jasonHoyt
+creationDateTime=2010,8,19,16,58,5
+favorited=false
+inReplyToPostId=
+inReplyToUserId=
+inReplyToUserName=
+isPrivate=false
+isRead=false
+postId=21583734645
+source=<a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+text=Also entitled "Mendeley bares all" :) RT @Quesada: blog: Mendeley goes open: http://bit.ly/9ZM9F3
+
+[22121721041]
+authorDescription=Researcher (PhD): e-learning, online communities, social media, PLE, e-portfolio, m-learning, evaluation). A young mother and Web 2.0 fan.
+authorId=29845106
+authorLocation=
+authorProfileImageUrl=http://a2.twimg.com/profile_images/913539942/IB_1861_normal.JPG
+authorRealName=Ilona Buchem
+authorUrl=
+authorUserName=mediendidaktik
+creationDateTime=2010,8,25,23,41,11
+favorited=false
+inReplyToPostId=
+inReplyToUserId=15015126
+inReplyToUserName=wollepb
+isPrivate=false
+isRead=false
+postId=22121721041
+source=<a href="http://www.hootsuite.com" rel="nofollow">HootSuite</a>
+text=@wollepb THX for Invite! RT @Quesada: blog: #Mendeley goes open: http://bit.ly/9ZM9F3
+
+[22164189863]
+authorDescription=Semantic Web researcher
+authorId=15751681
+authorLocation=
+authorProfileImageUrl=http://a3.twimg.com/profile_images/57828523/iri-southpark-small_normal.JPG
+authorRealName=Irene Celino
+authorUrl=
+authorUserName=iricelino
+creationDateTime=2010,8,26,11,35,56
+favorited=false
+inReplyToPostId=
+inReplyToUserId=
+inReplyToUserName=
+isPrivate=false
+isRead=false
+postId=22164189863
+source=<a href="http://www.echofon.com/" rel="nofollow">Echofon</a>
+text=Mendeley goes open: public release of API http://bit.ly/9ZM9F3 (RT @Quesada, @FrankVanHarmele) #linkeddata #opendata
 
 [5502153972]
 authorDescription=former philosopher, psychologist, ai programmer now working in R+D gov funding

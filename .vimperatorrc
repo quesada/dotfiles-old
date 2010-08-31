@@ -1,3 +1,5 @@
 noremap <C-c> <C-v><C-c>
 noremap <C-v> <C-v><C-v>
+set showstatuslinks=2
+hi StatusLine grey
 

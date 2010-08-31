@@ -161,3 +161,14 @@
 2010-08-20 13:17:37		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
 2010-08-21 11:51:39		perl: loading script "/home/quesada/.weechat/perl/autoload/rainbow_text.pl"
 2010-08-21 11:51:39		perl: registered script "rainbow_text", version 0.3 (colours the channel text with according nick colour. Highlight messages will be fully highlighted)
+2010-08-25 21:12:18		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-08-25 21:12:25	=!=	irc: unknown option for "server" command
+2010-08-25 21:12:42	=!=	irc: command "join" must be executed on connected irc server
+2010-08-25 23:57:20		Options reloaded from weechat.conf
+2010-08-25 23:57:20		Options reloaded from plugins.conf
+2010-08-25 23:57:20		Options reloaded from charset.conf
+2010-08-25 23:57:20		Options reloaded from alias.conf
+2010-08-25 23:57:20		Options reloaded from aspell.conf
+2010-08-25 23:57:20		Options reloaded from logger.conf
+2010-08-25 23:57:20		Options reloaded from xfer.conf
+2010-08-25 23:57:20		Options reloaded from irc.conf

@@ -29,11 +29,19 @@ DEBUG: Add to RC:
 
 
 INFO: checking for a Dia viewer and editor...
-INFO: +checking for "dia"...  no
-INFO: checking for a Dia viewer and editor...
-INFO: +checking for "dia"...  no
+INFO: +checking for "dia"...  yes
 DEBUG: Add to RC:
-\Format dia        dia     DIA                    "" "auto"	"auto"	"vector"
+\editor_alternatives dia dia
+
+
+INFO: checking for a Dia viewer and editor...
+INFO: +checking for "dia"...  yes
+DEBUG: Add to RC:
+\Format dia        dia     DIA                    "" "dia"	"dia"	"vector"
+
+
+DEBUG: Add to RC:
+\viewer_alternatives dia dia
 
 
 INFO: checking for a Grace viewer and editor...
@@ -383,7 +391,15 @@ INFO: +checking for "mozilla"...  no
 INFO: +checking for "netscape"...  no
 INFO: checking for a BibTeX editor...
 INFO: +checking for "sensible-editor"...  no
-INFO: +checking for "jabref"...  no
+INFO: +checking for "jabref"...  yes
+DEBUG: Add to RC:
+\Format bibtex bib    "BibTeX"         "" ""	"jabref"	""
+
+
+DEBUG: Add to RC:
+\editor_alternatives bibtex jabref
+
+
 INFO: +checking for "JabRef"...  no
 INFO: +checking for "pybliographic"...  no
 INFO: +checking for "bibdesk"...  no
@@ -394,10 +410,6 @@ INFO: +checking for "sixpack"...  no
 INFO: +checking for "bibedit"...  no
 INFO: +checking for "tkbibtexxemacs"...  no
 INFO: +checking for "gvim"...  yes
-DEBUG: Add to RC:
-\Format bibtex bib    "BibTeX"         "" ""	"gvim"	""
-
-
 DEBUG: Add to RC:
 \editor_alternatives bibtex gvim
 
@@ -471,7 +483,14 @@ DEBUG: Add to RC:
 
 
 INFO: +checking for "kghostview"...  no
-INFO: +checking for "xpdf"...  no
+INFO: +checking for "xpdf"...  yes
+DEBUG: Add to RC:
+\viewer_alternatives pdf xpdf
+\viewer_alternatives pdf2 xpdf
+\viewer_alternatives pdf3 xpdf
+\viewer_alternatives pdf4 xpdf
+
+
 INFO: +checking for "acrobat"...  no
 INFO: +checking for "acroread"...  no
 INFO: +checking for "gv"...  no
@@ -630,34 +649,23 @@ DEBUG: Add to RC:
 INFO: checking for "elyxer module"...  no
 INFO: checking for a LyX -> HTML converter...
 INFO: +checking for "elyxer.py"...  no
-INFO: +checking for "elyxer"...  no
+INFO: +checking for "elyxer"...  yes
 DEBUG: Add to RC:
-\converter lyx      html       ""	""
-
-
-INFO: checking for a LaTeX -> HTML converter...
-INFO: +checking for "htlatex"...  no
-INFO: +checking for "htlatex.sh"...  no
-INFO: +checking for "/usr/share/tex4ht/htlatex"...  no
-INFO: +checking for "tth"...  no
-INFO: +checking for "latex2html"...  no
-INFO: +checking for "hevea"...  no
-DEBUG: Add to RC:
-\converter latex      html       ""	"needaux"
+\converter lyx      html       "elyxer --directory $$r $$i $$o"	""
 
 
 DEBUG: Add to RC:
-\copier    html       "python -tt $$s/scripts/ext_copy.py $$i $$o"
+\copier    html       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
 
 
 INFO: checking for A LyX to WordPress Blog Publishing Tool...
 INFO: +checking for "lyxblogger"...  no
-INFO: checking for a LaTeX -> MS Word converter...
-INFO: +checking for "htlatex"...  no
-INFO: +checking for "htlatex.sh"...  no
-INFO: +checking for "/usr/share/tex4ht/htlatex"...  no
 DEBUG: Add to RC:
-\converter latex      wordhtml   ""	"needaux"
+\converter lyx      wordhtml       "python -m elyxer --html --directory $$r $$i $$o"	""
+
+
+DEBUG: Add to RC:
+\copier    wordhtml       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
 
 
 INFO: checking for an OpenOffice.org -> LaTeX converter...
@@ -795,15 +803,15 @@ INFO: +checking for "gracebat"...  no
 INFO: checking for a Dot -> Image converter...
 INFO: +checking for "dot"...  no
 INFO: checking for a Dia -> PNG converter...
-INFO: +checking for "dia"...  no
+INFO: +checking for "dia"...  yes
 DEBUG: Add to RC:
-\converter dia        png        ""	""
+\converter dia        png        "dia -e $$o -t png $$i"	""
 
 
 INFO: checking for a Dia -> EPS converter...
-INFO: +checking for "dia"...  no
+INFO: +checking for "dia"...  yes
 DEBUG: Add to RC:
-\converter dia        eps        ""	""
+\converter dia        eps        "dia -e $$o -t eps $$i"	""
 
 
 INFO: checking for a SVG -> PDF converter...
@@ -990,60 +998,60 @@ INFO: +checking for default encoding (this may take a long time)
 INFO: +  checking for ec fonts... yes
 INFO: +  checking for ec support in LaTeX format... yes
 INFO: +  default encoding will be set to T1
-INFO: +checking for document class AEA [AEA]... no
+INFO: +checking for document class AEA [AEA,amsmath.sty,harvard.sty,multicol.sty,sets
 INFO: +checking for document class IEEEtran [IEEEtran]... no
 INFO: +checking for document class aapaper [aa]... no
-INFO: +checking for document class aastex [aastex]... no
+INFO: +checking for document class aastex [aastex,amssymb.sty,latexsym.sty,natbib.sty
 INFO: +checking for document class aa [aa]... no
-INFO: +checking for document class achemso [achemso]... no
-INFO: +checking for document class acmsiggraph [acmsiggraph]... no
+INFO: +checking for document class achemso [achemso,caption.sty,courier.sty,cleveref.
+INFO: +checking for document class acmsiggraph [acmsiggraph,lineno.sty]... no
 INFO: +checking for docbook  class agu-dtd...  yes
 INFO: +checking for document class agums [aguplus,agums.sty]... no
 INFO: +checking for document class amsart [amsart]... yes
 INFO: +checking for document class amsbook [amsbook]... yes
-INFO: +checking for document class apa [apa,apacite.sty]... no
-INFO: +checking for document class arab-article [arabart]... no
+INFO: +checking for document class apa [apa,apacite.sty,endfloat.sty,endnotes.sty]...
+INFO: +checking for document class arab-article [arabart,arabrep,altxext.sty,arabext.
 INFO: +checking for document class armenian-article [article]... yes
-INFO: +checking for document class article-beamer [article]... yes
+INFO: +checking for document class article-beamer [article,beamerarticle.sty,keyval.s
 INFO: +checking for document class article [article]... yes
-INFO: +checking for document class beamer [beamer,pgf.sty,xcolor.sty]... no
+INFO: +checking for document class beamer [beamer,amssymb.sty,hyperref.sty,pgf.sty,xc
 INFO: +checking for document class book [book]... yes
-INFO: +checking for document class broadway [broadway]... no
-INFO: +checking for document class chess [article,lyxskak.sty]... no
-INFO: +checking for document class cl2emult [cl2emult]... no
+INFO: +checking for document class broadway [broadway,extramarks.sty,fancyhdr.sty,las
+INFO: +checking for document class chess [article,calc.sty,lambda.sty,lyxskak.sty]...
+INFO: +checking for document class cl2emult [cl2emult,multicol.sty]... no
 INFO: +checking for document class dinbrief [dinbrief]... no
 INFO: +checking for docbook  class docbook-book...  yes
 INFO: +checking for docbook  class docbook-chapter...  yes
 INFO: +checking for docbook  class docbook-section...  yes
 INFO: +checking for docbook  class docbook...  yes
-INFO: +checking for document class doublecol-new [doublecol-new, natbib.sty]... no
-INFO: +checking for document class dtk [dtk]... no
+INFO: +checking for document class doublecol-new [doublecol-new,amsmath.sty,amssymb.s
+INFO: +checking for document class dtk [dtk,dtklogos.sty,filecontents.sty,multicol.st
 INFO: +checking for document class egs [egs]... no
-INFO: +checking for document class elsarticle [elsarticle]... no
-INFO: +checking for document class elsart [elsart,amssymb.sty]... no
-INFO: +checking for document class entcs [entcs]... no
-INFO: +checking for document class europecv [europecv]... no
+INFO: +checking for document class elsarticle [elsarticle,natbib.sty,pifont.sty]...
+INFO: +checking for document class elsart [elsart,amssymb.sty,latexsym.sty]... no
+INFO: +checking for document class entcs [entcs,amssymb.sty,entcsmacro.sty,hyperref.s
+INFO: +checking for document class europecv [europecv,fancyhdr.sty,longtable.sty,ucs.
 INFO: +checking for document class extarticle [extarticle]... yes
 INFO: +checking for document class extbook [extbook]... yes
 INFO: +checking for document class extletter [extletter]... yes
 INFO: +checking for document class extreport [extreport]... yes
 INFO: +checking for document class foils [foils]... no
-INFO: +checking for document class g-brief2 [g-brief2]... no
-INFO: +checking for document class g-brief [g-brief]... no
-INFO: +checking for document class heb-article [article]... yes
+INFO: +checking for document class g-brief2 [g-brief2,europs.sty]... no
+INFO: +checking for document class g-brief [g-brief,europs.sty]... no
+INFO: +checking for document class heb-article [article,theorem.sty]... yes
 INFO: +checking for document class heb-letter [letter]... yes
-INFO: +checking for document class hollywood [hollywood]... no
-INFO: +checking for document class ijmpc [ws-ijmpc]... no
-INFO: +checking for document class ijmpd [ws-ijmpd]... no
-INFO: +checking for document class iopart [iopart]... no
-INFO: +checking for document class isprs [isprs]... no
-INFO: +checking for document class jarticle [jarticle]... no
-INFO: +checking for document class jbook [jbook]... no
+INFO: +checking for document class hollywood [hollywood,calc.sty,fancyhdr.sty,ulem.st
+INFO: +checking for document class ijmpc [ws-ijmpc,amsmath.sty,amssymb.sty,rotating.s
+INFO: +checking for document class ijmpd [ws-ijmpd,amsmath.sty,amssymb.sty,rotating.s
+INFO: +checking for document class iopart [iopart,amsmath.sty,amssymb.sty,iopams.sty,
+INFO: +checking for document class isprs [isprs,epsfig.sty,times.sty]... no
+INFO: +checking for document class jarticle [jarticle,j-article]... no
+INFO: +checking for document class jbook [jbook,j-book]... no
 INFO: +checking for document class jgrga [aguplus,jgrga.sty]... no
-INFO: +checking for document class jreport [jreport]... no
+INFO: +checking for document class jreport [jreport,j-report]... no
 INFO: +checking for document class jsarticle [jsarticle]... no
 INFO: +checking for document class jsbook [jsbook]... no
-INFO: +checking for document class jss [jss]... no
+INFO: +checking for document class jss [jss,ae.sty,color.sty,fancyvrb.sty,hyperref.st
 INFO: +checking for document class kluwer [kluwer]... no
 INFO: +checking for document class larkc [larkc, book]... no
 INFO: +checking for document class latex8 [article,latex8.sty,times.sty]... no
@@ -1051,44 +1059,44 @@ INFO: +checking for document class letter [letter]... yes
 INFO: +checking for document class literate-article [article,noweb.sty]... no
 INFO: +checking for document class literate-book [book,noweb.sty]... no
 INFO: +checking for document class literate-report [report,noweb.sty]... no
-INFO: +checking for document class llncs [llncs]... no
+INFO: +checking for document class llncs [llncs,aliascnt.sty,multicol.sty]... no
 INFO: +checking for document class ltugboat [ltugboat]... no
 INFO: +checking for document class memoir [memoir]... yes
-INFO: +checking for document class moderncv [moderncv]... no
+INFO: +checking for document class moderncv [moderncv,color.sty,fancyhdr.sty,hyperref
 INFO: +checking for document class mwart [mwart]... no
 INFO: +checking for document class mwbk [mwbk]... no
 INFO: +checking for document class mwrep [mwrep]... no
 INFO: +checking for document class paper [paper]... no
-INFO: +checking for document class powerdot [powerdot,enumitem.sty,pstricks.sty,xkeyv
+INFO: +checking for document class powerdot [powerdot,enumitem.sty,hyperref.sty,pstri
 INFO: +checking for document class recipebook [scrbook]... yes
 INFO: +checking for document class report [report]... yes
-INFO: +checking for document class revtex4 [revtex4]... no
-INFO: +checking for document class revtex [revtex]... no
+INFO: +checking for document class revtex4 [revtex4,natbib.sty,revsymb.sty]... no
+INFO: +checking for document class revtex [revtex,revtex.sty]... no
 INFO: +checking for document class scrartcl [scrartcl]... yes
-INFO: +checking for document class scrarticle-beamer [scrartcl]... yes
+INFO: +checking for document class scrarticle-beamer [scrartcl,beamerarticle.sty,keyv
 INFO: +checking for document class scrbook [scrbook]... yes
 INFO: +checking for document class scrlettr [scrlettr]... yes
 INFO: +checking for document class scrlttr2 [scrlttr2]... yes
 INFO: +checking for document class scrreprt [scrreprt]... yes
-INFO: +checking for document class seminar [seminar]... yes
+INFO: +checking for document class seminar [seminar,sem-page.sty]... yes
 INFO: +checking for document class siamltex [siamltex]... no
-INFO: +checking for document class sigplanconf [sigplanconf]... no
+INFO: +checking for document class sigplanconf [sigplanconf,natbib.sty]... no
 INFO: +checking for document class simplecv [simplecv]... no
-INFO: +checking for document class singlecol-new [singlecol-new, natbib.sty]... no
+INFO: +checking for document class singlecol-new [singlecol-new,amsmath.sty,amssymb.s
 INFO: +checking for document class singlecol [singlecol, natbib.sty]... no
 INFO: +checking for document class slides [slides]... yes
-INFO: +checking for document class spie [spie]... no
-INFO: +checking for document class svglobal3 [svjour3,svglov3.clo]... no
+INFO: +checking for document class spie [spie,cite.sty]... no
+INFO: +checking for document class svglobal3 [svjour3,svglov3.clo,natbib.sty]... no
 INFO: +checking for document class svglobal [svjour,svglobal.clo]... no
-INFO: +checking for document class svjog [svjour,svjog.clo]... no
-INFO: +checking for document class svmono [svmono]... no
-INFO: +checking for document class svmult [svmult]... no
+INFO: +checking for document class svjog [svjour,svjog.clo,natbib.sty]... no
+INFO: +checking for document class svmono [svmono,natbib.sty]... no
+INFO: +checking for document class svmult [svmult,natbib.sty]... no
 INFO: +checking for document class svprobth [svjour,svprobth.clo]... no
-INFO: +checking for document class tarticle [tarticle]... no
-INFO: +checking for document class tbook [tbook]... no
-INFO: +checking for document class treport [treport]... no
-INFO: +checking for document class tufte-book [tufte-book]... no
-INFO: +checking for document class tufte-handout [tufte-handout]... no
+INFO: +checking for document class tarticle [tarticle,plext.sty]... no
+INFO: +checking for document class tbook [tbook,plext.sty]... no
+INFO: +checking for document class treport [treport,plext.sty]... no
+INFO: +checking for document class tufte-book [tufte-book,bibentry.sty,fancyhdr.sty,m
+INFO: +checking for document class tufte-handout [tufte-handout,bibentry.sty,fancyhdr
 INFO: +checking for package noweb [noweb]... no
 INFO: +checking for package endnotes [endnotes]... yes
 INFO: +checking for package braille [braille]... yes
@@ -1116,6 +1124,7 @@ INFO: +checking for package ifsym [ifsym]... yes
 INFO: +checking for package ifthen [ifthen]... yes
 INFO: +checking for package fancybox [fancybox]... yes
 INFO: +checking for package fancyhdr [fancyhdr]... yes
+INFO: +checking for package float [float]... yes
 INFO: +checking for package framed [framed]... yes
 INFO: +checking for package geometry [geometry]... yes
 INFO: +checking for package graphicx [graphicx]... yes
