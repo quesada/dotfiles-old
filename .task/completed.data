@@ -19,3 +19,4 @@
 [description:"write test for Dictionary.doc2bow" end:"1283260334" entry:"1283082262" priority:"M" project:"esa" start:"1283258786" status:"completed" uuid:"53166a9b-2ee4-e664-f713-791cc1b80005"]
 [description:"save missing words in a query" end:"1283260963" entry:"1283081888" priority:"M" project:"esa" status:"completed" uuid:"7d834c31-2529-b976-52a4-aa0556d4ee76"]
 [description:"look at missing words in lee" end:"1283263641" entry:"1283260996" priority:"M" project:"esa" start:"1283261018" status:"completed" uuid:"961e87f5-8713-82df-156b-0b4ffd050979"]
+[description:"in xls, mark the cells where dbpedia is not implied" end:"1283273127" entry:"1283268705" priority:"M" status:"completed" uuid:"9c1356a4-70d5-485d-e95d-fa834713b104"]

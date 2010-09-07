@@ -1,6 +1,7 @@
 [Layout]
 DisplayNames=us
 IndicatorOnly=false
+Layout=us
 LayoutList=us
 Model=pc104
 Options=
@@ -9,4 +10,6 @@ ShowFlag=true
 ShowSingle=true
 SwitchMode=Global
 Use=true
-Layout=us
+
+[Notification Messages]
+systemtrayquitKDE Keyboard Layout Switcher=false

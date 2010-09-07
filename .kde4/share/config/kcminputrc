@@ -9,7 +9,7 @@ RepeatDelay=169
 RepeatRate=25
 
 [Mouse]
-Acceleration=2
+Acceleration=3
 MouseButtonMapping=RightHanded
 ReverseScrollPolarity=false
 Threshold=4

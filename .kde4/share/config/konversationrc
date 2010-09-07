@@ -5,11 +5,11 @@ update_info=konversation.upd:1.1-rememberline,konversation.upd:1.1-markerlines,k
 AliasList=gauge /exec gauge,cmd /exec cmd,uptime /exec uptime,sysinfo /exec sysinfo,bug /exec bug,kdeversion /exec kdeversion,fortune /exec fortune,mail /exec mail,tinyurl /exec tinyurl,sayclip /exec sayclip,media /exec media,audio /exec media audio,video /exec media video
 
 [Appearance]
-ChannelSplitterSizes=1080,173
+ChannelSplitterSizes=524,173
 CloseButtons=true
 NickColor8=0,0,255
 ShowTabBarCloseButton=false
-TopicSplitterSizes=26,988
+TopicSplitterSizes=26,362
 
 [Autoreplace List]
 Direction0=o
@@ -175,8 +175,10 @@ ShowAwayMessage=false
 [MainWindow]
 Height 1152=1130
 Height 1200=1201
-State=AAAA/wAAAAD9AAAAAAAABOgAAAQ5AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Height 900=500
+State=AAAA/wAAAAD9AAAAAAAAArwAAAHEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+Width 1600=700
 Width 1920=1916
 Width 2048=1256
 

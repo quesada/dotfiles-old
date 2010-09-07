@@ -963,3 +963,138 @@
 2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kcmdisplayrc.upd' for new updates
 2010-08-15T23:13:55 Checking update-file '/usr/share/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
 2010-08-18T15:02:54 Checking update-file '/usr/share/apps/kconf_update/kate-2.4.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/audiocd.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kwin.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kaccel.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kwin3_plugin.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kcalcrc.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kpat_update_cardwidth.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kcharselect.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kwin_focus1.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/korganizer.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kwinsticky.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kcmcddb-emailsettings.upd' for new updates
+2010-09-04T17:16:04 Checking update-file '/usr/share/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/konversation.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/kpgp.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2010-09-04T17:16:05 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2010-09-04T17:16:05 plasma-add-shortcut-to-menu.upd: !! Script 'plasma-add-shortcut-to-menu-update' not found in line 2 : 'Script=plasma-add-shortcut-to-menu-update'
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/favicons.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/kalarm.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/devicepreference.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/kwin_on_off.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/mailtransports.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2010-09-04T17:16:05 kioslave.upd: Found new update 'kde2.2/r1'
+2010-09-04T17:16:05 kioslave.upd: Skipping update 'kde2.2/r1'
+2010-09-04T17:16:05 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/ksmserver.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/krdb.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/kwin_focus2.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/kfmclient_3_2.upd' for new updates
+2010-09-04T17:16:05 Checking update-file '/usr/share/apps/kconf_update/kwiniconify.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwin_on_off.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kfmclient_3_2.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwin_focus2.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwinsticky.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwiniconify.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/konversation.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/mailtransports.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kcmcddb-emailsettings.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwin_focus1.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kcalcrc.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/krdb.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/audiocd.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kalarm.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwin.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwin3_plugin.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/korganizer.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2010-09-05T19:19:46 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2010-09-05T19:19:46 plasma-add-shortcut-to-menu.upd: !! Script 'plasma-add-shortcut-to-menu-update' not found in line 2 : 'Script=plasma-add-shortcut-to-menu-update'
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kpgp.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kcharselect.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/devicepreference.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kpat_update_cardwidth.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/ksmserver.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2010-09-05T19:19:46 kioslave.upd: Found new update 'kde2.2/r1'
+2010-09-05T19:19:46 kioslave.upd: Skipping update 'kde2.2/r1'
+2010-09-05T19:19:46 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kaccel.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/favicons.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2010-09-05T19:19:46 Checking update-file '/usr/share/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/audiocd.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwin.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kaccel.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kuriikwsfilter.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kcookiescfg.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwin3_plugin.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kcalcrc.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwin_fsp_workarounds_1.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kpat_update_cardwidth.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kcharselect.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwin_focus1.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/klipper-kconfigxt.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/korganizer.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kded.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwinsticky.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kcmcddb-emailsettings.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwinupdatewindowsettings.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/konversation.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kpgp.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kcmdisplayrc.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/plasma-add-shortcut-to-menu.upd' for new updates
+2010-09-06T00:25:19 plasma-add-shortcut-to-menu.upd: Found new update '4.1LauncherShortcut'
+2010-09-06T00:25:19 plasma-add-shortcut-to-menu.upd: !! Script 'plasma-add-shortcut-to-menu-update' not found in line 2 : 'Script=plasma-add-shortcut-to-menu-update'
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/favicons.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kalarm.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/devicepreference.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwin_on_off.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kio_help.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwin_update_tabbox_settings.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/mailtransports.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kioslave.upd' for new updates
+2010-09-06T00:25:19 kioslave.upd: Found new update 'kde2.2/r1'
+2010-09-06T00:25:19 kioslave.upd: Skipping update 'kde2.2/r1'
+2010-09-06T00:25:19 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/ksmserver.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/krdb.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwin_focus2.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kfmclient_3_2.upd' for new updates
+2010-09-06T00:25:19 Checking update-file '/usr/share/apps/kconf_update/kwiniconify.upd' for new updates

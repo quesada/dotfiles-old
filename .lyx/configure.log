@@ -1,3 +1,9 @@
+DEBUG: Create directory clipart.
+DEBUG: Create directory doc.
+DEBUG: Create directory examples.
+DEBUG: Create directory images.
+DEBUG: Create directory kbd.
+DEBUG: Create directory scripts.
 INFO: checking for a Latex2e program...
 INFO: +checking for "latex"...  yes
 INFO: checking for a DVI postprocessing program...
@@ -29,19 +35,11 @@ DEBUG: Add to RC:
 
 
 INFO: checking for a Dia viewer and editor...
-INFO: +checking for "dia"...  yes
-DEBUG: Add to RC:
-\editor_alternatives dia dia
-
-
+INFO: +checking for "dia"...  no
 INFO: checking for a Dia viewer and editor...
-INFO: +checking for "dia"...  yes
+INFO: +checking for "dia"...  no
 DEBUG: Add to RC:
-\Format dia        dia     DIA                    "" "dia"	"dia"	"vector"
-
-
-DEBUG: Add to RC:
-\viewer_alternatives dia dia
+\Format dia        dia     DIA                    "" "auto"	"auto"	"vector"
 
 
 INFO: checking for a Grace viewer and editor...
@@ -72,47 +70,21 @@ INFO: checking for a raster image viewer...
 INFO: +checking for "xv"...  no
 INFO: +checking for "kview"...  no
 INFO: +checking for "gimp-remote"...  no
-INFO: +checking for "gimp"...  yes
-DEBUG: Add to RC:
-\viewer_alternatives bmp gimp
-\viewer_alternatives gif gimp
-\viewer_alternatives jpg gimp
-\viewer_alternatives pbm gimp
-\viewer_alternatives pgm gimp
-\viewer_alternatives png gimp
-\viewer_alternatives ppm gimp
-\viewer_alternatives tiff gimp
-\viewer_alternatives xbm gimp
-\viewer_alternatives xpm gimp
-
-
+INFO: +checking for "gimp"...  no
 INFO: checking for a raster image editor...
 INFO: +checking for "gimp-remote"...  no
-INFO: +checking for "gimp"...  yes
+INFO: +checking for "gimp"...  no
 DEBUG: Add to RC:
-\editor_alternatives bmp gimp
-\editor_alternatives gif gimp
-\editor_alternatives jpg gimp
-\editor_alternatives pbm gimp
-\editor_alternatives pgm gimp
-\editor_alternatives png gimp
-\editor_alternatives ppm gimp
-\editor_alternatives tiff gimp
-\editor_alternatives xbm gimp
-\editor_alternatives xpm gimp
-
-
-DEBUG: Add to RC:
-\Format bmp        bmp     BMP                    "" "gimp"	"gimp"	""
-\Format gif        gif     GIF                    "" "gimp"	"gimp"	""
-\Format jpg        jpg     JPEG                   "" "gimp"	"gimp"	""
-\Format pbm        pbm     PBM                    "" "gimp"	"gimp"	""
-\Format pgm        pgm     PGM                    "" "gimp"	"gimp"	""
-\Format png        png     PNG                    "" "gimp"	"gimp"	""
-\Format ppm        ppm     PPM                    "" "gimp"	"gimp"	""
-\Format tiff       tif     TIFF                   "" "gimp"	"gimp"	""
-\Format xbm        xbm     XBM                    "" "gimp"	"gimp"	""
-\Format xpm        xpm     XPM                    "" "gimp"	"gimp"	""
+\Format bmp        bmp     BMP                    "" "auto"	"auto"	""
+\Format gif        gif     GIF                    "" "auto"	"auto"	""
+\Format jpg        jpg     JPEG                   "" "auto"	"auto"	""
+\Format pbm        pbm     PBM                    "" "auto"	"auto"	""
+\Format pgm        pgm     PGM                    "" "auto"	"auto"	""
+\Format png        png     PNG                    "" "auto"	"auto"	""
+\Format ppm        ppm     PPM                    "" "auto"	"auto"	""
+\Format tiff       tif     TIFF                   "" "auto"	"auto"	""
+\Format xbm        xbm     XBM                    "" "auto"	"auto"	""
+\Format xpm        xpm     XPM                    "" "auto"	"auto"	""
 
 
 INFO: checking for a text editor...
@@ -165,53 +137,9 @@ DEBUG: Add to RC:
 \editor_alternatives textparagraph kwrite
 
 
-INFO: +checking for "kate"...  yes
-DEBUG: Add to RC:
-\editor_alternatives asciichess kate
-\editor_alternatives asciiimage kate
-\editor_alternatives asciixfig kate
-\editor_alternatives dateout kate
-\editor_alternatives docbook kate
-\editor_alternatives docbook-xml kate
-\editor_alternatives dot kate
-\editor_alternatives platex kate
-\editor_alternatives literate kate
-\editor_alternatives sweave kate
-\editor_alternatives lilypond kate
-\editor_alternatives latex kate
-\editor_alternatives pdflatex kate
-\editor_alternatives xetex kate
-\editor_alternatives text kate
-\editor_alternatives text2 kate
-\editor_alternatives text3 kate
-\editor_alternatives text4 kate
-\editor_alternatives textparagraph kate
-
-
+INFO: +checking for "kate"...  no
 INFO: +checking for "nedit"...  no
-INFO: +checking for "gedit"...  yes
-DEBUG: Add to RC:
-\editor_alternatives asciichess gedit
-\editor_alternatives asciiimage gedit
-\editor_alternatives asciixfig gedit
-\editor_alternatives dateout gedit
-\editor_alternatives docbook gedit
-\editor_alternatives docbook-xml gedit
-\editor_alternatives dot gedit
-\editor_alternatives platex gedit
-\editor_alternatives literate gedit
-\editor_alternatives sweave gedit
-\editor_alternatives lilypond gedit
-\editor_alternatives latex gedit
-\editor_alternatives pdflatex gedit
-\editor_alternatives xetex gedit
-\editor_alternatives text gedit
-\editor_alternatives text2 gedit
-\editor_alternatives text3 gedit
-\editor_alternatives text4 gedit
-\editor_alternatives textparagraph gedit
-
-
+INFO: +checking for "gedit"...  no
 INFO: +checking for "notepad"...  yes
 DEBUG: Add to RC:
 \editor_alternatives asciichess notepad
@@ -307,53 +235,9 @@ DEBUG: Add to RC:
 \viewer_alternatives textparagraph kwrite
 
 
-INFO: +checking for "kate"...  yes
-DEBUG: Add to RC:
-\viewer_alternatives asciichess kate
-\viewer_alternatives asciiimage kate
-\viewer_alternatives asciixfig kate
-\viewer_alternatives dateout kate
-\viewer_alternatives docbook kate
-\viewer_alternatives docbook-xml kate
-\viewer_alternatives dot kate
-\viewer_alternatives platex kate
-\viewer_alternatives literate kate
-\viewer_alternatives sweave kate
-\viewer_alternatives lilypond kate
-\viewer_alternatives latex kate
-\viewer_alternatives pdflatex kate
-\viewer_alternatives xetex kate
-\viewer_alternatives text kate
-\viewer_alternatives text2 kate
-\viewer_alternatives text3 kate
-\viewer_alternatives text4 kate
-\viewer_alternatives textparagraph kate
-
-
+INFO: +checking for "kate"...  no
 INFO: +checking for "nedit"...  no
-INFO: +checking for "gedit"...  yes
-DEBUG: Add to RC:
-\viewer_alternatives asciichess gedit
-\viewer_alternatives asciiimage gedit
-\viewer_alternatives asciixfig gedit
-\viewer_alternatives dateout gedit
-\viewer_alternatives docbook gedit
-\viewer_alternatives docbook-xml gedit
-\viewer_alternatives dot gedit
-\viewer_alternatives platex gedit
-\viewer_alternatives literate gedit
-\viewer_alternatives sweave gedit
-\viewer_alternatives lilypond gedit
-\viewer_alternatives latex gedit
-\viewer_alternatives pdflatex gedit
-\viewer_alternatives xetex gedit
-\viewer_alternatives text gedit
-\viewer_alternatives text2 gedit
-\viewer_alternatives text3 gedit
-\viewer_alternatives text4 gedit
-\viewer_alternatives textparagraph gedit
-
-
+INFO: +checking for "gedit"...  no
 INFO: +checking for "notepad"...  yes
 DEBUG: Add to RC:
 \viewer_alternatives asciichess notepad
@@ -391,15 +275,7 @@ INFO: +checking for "mozilla"...  no
 INFO: +checking for "netscape"...  no
 INFO: checking for a BibTeX editor...
 INFO: +checking for "sensible-editor"...  no
-INFO: +checking for "jabref"...  yes
-DEBUG: Add to RC:
-\Format bibtex bib    "BibTeX"         "" ""	"jabref"	""
-
-
-DEBUG: Add to RC:
-\editor_alternatives bibtex jabref
-
-
+INFO: +checking for "jabref"...  no
 INFO: +checking for "JabRef"...  no
 INFO: +checking for "pybliographic"...  no
 INFO: +checking for "bibdesk"...  no
@@ -411,6 +287,10 @@ INFO: +checking for "bibedit"...  no
 INFO: +checking for "tkbibtexxemacs"...  no
 INFO: +checking for "gvim"...  yes
 DEBUG: Add to RC:
+\Format bibtex bib    "BibTeX"         "" ""	"gvim"	""
+
+
+DEBUG: Add to RC:
 \editor_alternatives bibtex gvim
 
 
@@ -420,17 +300,9 @@ DEBUG: Add to RC:
 \editor_alternatives bibtex kwrite
 
 
-INFO: +checking for "kate"...  yes
-DEBUG: Add to RC:
-\editor_alternatives bibtex kate
-
-
+INFO: +checking for "kate"...  no
 INFO: +checking for "nedit"...  no
-INFO: +checking for "gedit"...  yes
-DEBUG: Add to RC:
-\editor_alternatives bibtex gedit
-
-
+INFO: +checking for "gedit"...  no
 INFO: +checking for "notepad"...  yes
 DEBUG: Add to RC:
 \editor_alternatives bibtex notepad
@@ -449,12 +321,7 @@ DEBUG: Add to RC:
 \viewer_alternatives ps okular
 
 
-INFO: +checking for "evince"...  yes
-DEBUG: Add to RC:
-\viewer_alternatives eps evince
-\viewer_alternatives ps evince
-
-
+INFO: +checking for "evince"...  no
 INFO: +checking for "gv"...  no
 INFO: +checking for "ghostview"...  no
 INFO: checking for a PDF previewer...
@@ -474,23 +341,9 @@ DEBUG: Add to RC:
 \viewer_alternatives pdf4 okular
 
 
-INFO: +checking for "evince"...  yes
-DEBUG: Add to RC:
-\viewer_alternatives pdf evince
-\viewer_alternatives pdf2 evince
-\viewer_alternatives pdf3 evince
-\viewer_alternatives pdf4 evince
-
-
+INFO: +checking for "evince"...  no
 INFO: +checking for "kghostview"...  no
-INFO: +checking for "xpdf"...  yes
-DEBUG: Add to RC:
-\viewer_alternatives pdf xpdf
-\viewer_alternatives pdf2 xpdf
-\viewer_alternatives pdf3 xpdf
-\viewer_alternatives pdf4 xpdf
-
-
+INFO: +checking for "xpdf"...  no
 INFO: +checking for "acrobat"...  no
 INFO: +checking for "acroread"...  no
 INFO: +checking for "gv"...  no
@@ -649,23 +502,45 @@ DEBUG: Add to RC:
 INFO: checking for "elyxer module"...  no
 INFO: checking for a LyX -> HTML converter...
 INFO: +checking for "elyxer.py"...  no
-INFO: +checking for "elyxer"...  yes
+INFO: +checking for "elyxer"...  no
 DEBUG: Add to RC:
-\converter lyx      html       "elyxer --directory $$r $$i $$o"	""
+\converter lyx      html       ""	""
+
+
+INFO: checking for a LaTeX -> HTML converter...
+INFO: +checking for "htlatex"...  no
+INFO: +checking for "htlatex.sh"...  no
+INFO: +checking for "/usr/share/tex4ht/htlatex"...  no
+INFO: +checking for "tth"...  no
+INFO: +checking for "latex2html"...  no
+INFO: +checking for "hevea"...  no
+DEBUG: Add to RC:
+\converter latex      html       ""	"needaux"
 
 
 DEBUG: Add to RC:
-\copier    html       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
+\copier    html       "python -tt $$s/scripts/ext_copy.py $$i $$o"
 
 
 INFO: checking for A LyX to WordPress Blog Publishing Tool...
 INFO: +checking for "lyxblogger"...  no
+INFO: checking for a LyX -> MS Word converter...
+INFO: +checking for "elyxer.py"...  no
+INFO: +checking for "elyxer"...  no
 DEBUG: Add to RC:
-\converter lyx      wordhtml       "python -m elyxer --html --directory $$r $$i $$o"	""
+\converter lyx      wordhtml       ""	""
+
+
+INFO: checking for a LaTeX -> MS Word converter...
+INFO: +checking for "htlatex"...  no
+INFO: +checking for "htlatex.sh"...  no
+INFO: +checking for "/usr/share/tex4ht/htlatex"...  no
+DEBUG: Add to RC:
+\converter latex      wordhtml   ""	"needaux"
 
 
 DEBUG: Add to RC:
-\copier    wordhtml       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
+\copier    wordhtml       "python -tt $$s/scripts/ext_copy.py $$i $$o"
 
 
 INFO: checking for an OpenOffice.org -> LaTeX converter...
@@ -803,15 +678,15 @@ INFO: +checking for "gracebat"...  no
 INFO: checking for a Dot -> Image converter...
 INFO: +checking for "dot"...  no
 INFO: checking for a Dia -> PNG converter...
-INFO: +checking for "dia"...  yes
+INFO: +checking for "dia"...  no
 DEBUG: Add to RC:
-\converter dia        png        "dia -e $$o -t png $$i"	""
+\converter dia        png        ""	""
 
 
 INFO: checking for a Dia -> EPS converter...
-INFO: +checking for "dia"...  yes
+INFO: +checking for "dia"...  no
 DEBUG: Add to RC:
-\converter dia        eps        "dia -e $$o -t eps $$i"	""
+\converter dia        eps        ""	""
 
 
 INFO: checking for a SVG -> PDF converter...
@@ -961,30 +836,30 @@ DEBUG: Add to RC:
 DEBUG: Removing file lyxmodules.lst
 DEBUG: Failed to remove file chkmodules.tex
 INFO: +checking list of modules... 
-INFO: /usr/local/share/lyx/layouts/noweb.module
-INFO: /usr/local/share/lyx/layouts/logicalmkup.module
-INFO: /usr/local/share/lyx/layouts/initials.module
-INFO: /usr/local/share/lyx/layouts/theorems-ams-bytype.module
-INFO: /usr/local/share/lyx/layouts/eqs-within-sections.module
-INFO: /usr/local/share/lyx/layouts/foottoend.module
-INFO: /usr/local/share/lyx/layouts/hanging.module
-INFO: /usr/local/share/lyx/layouts/theorems-sec.module
-INFO: /usr/local/share/lyx/layouts/theorems-chap-bytype.module
-INFO: /usr/local/share/lyx/layouts/tabs-within-sections.module
-INFO: /usr/local/share/lyx/layouts/sweave.module
-INFO: /usr/local/share/lyx/layouts/theorems-bytype.module
-INFO: /usr/local/share/lyx/layouts/theorems-ams-extended-bytype.module
-INFO: /usr/local/share/lyx/layouts/braille.module
-INFO: /usr/local/share/lyx/layouts/linguistics.module
-INFO: /usr/local/share/lyx/layouts/theorems-ams-extended.module
-INFO: /usr/local/share/lyx/layouts/figs-within-sections.module
-INFO: /usr/local/share/lyx/layouts/theorems-chap.module
-INFO: /usr/local/share/lyx/layouts/theorems-starred.module
-INFO: /usr/local/share/lyx/layouts/theorems-ams.module
-INFO: /usr/local/share/lyx/layouts/theorems-sec-bytype.module
-INFO: /usr/local/share/lyx/layouts/minimalistic.module
-INFO: /usr/local/share/lyx/layouts/theorems-std.module
-INFO: /usr/local/share/lyx/layouts/endnotes.module
+INFO: /home/quesada/bin/share/lyx/layouts/eqs-within-sections.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-sec.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-starred.module
+INFO: /home/quesada/bin/share/lyx/layouts/foottoend.module
+INFO: /home/quesada/bin/share/lyx/layouts/linguistics.module
+INFO: /home/quesada/bin/share/lyx/layouts/figs-within-sections.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/endnotes.module
+INFO: /home/quesada/bin/share/lyx/layouts/braille.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-chap-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/noweb.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-std.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams-extended-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/initials.module
+INFO: /home/quesada/bin/share/lyx/layouts/hanging.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-chap.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-sec-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams.module
+INFO: /home/quesada/bin/share/lyx/layouts/minimalistic.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams-extended.module
+INFO: /home/quesada/bin/share/lyx/layouts/tabs-within-sections.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/sweave.module
+INFO: /home/quesada/bin/share/lyx/layouts/logicalmkup.module
 INFO: 	done
 INFO: checking LaTeX configuration... 	auto
 DEBUG: Failed to remove file wrap_chkconfig.ltx
@@ -1007,6 +882,7 @@ INFO: +checking for document class achemso [achemso,caption.sty,courier.sty,clev
 INFO: +checking for document class acmsiggraph [acmsiggraph,lineno.sty]... no
 INFO: +checking for docbook  class agu-dtd...  yes
 INFO: +checking for document class agums [aguplus,agums.sty]... no
+INFO: +checking for document class agutex [agutex]... no
 INFO: +checking for document class amsart [amsart]... yes
 INFO: +checking for document class amsbook [amsbook]... yes
 INFO: +checking for document class apa [apa,apacite.sty,endfloat.sty,endnotes.sty]...
@@ -1097,11 +973,11 @@ INFO: +checking for document class tbook [tbook,plext.sty]... no
 INFO: +checking for document class treport [treport,plext.sty]... no
 INFO: +checking for document class tufte-book [tufte-book,bibentry.sty,fancyhdr.sty,m
 INFO: +checking for document class tufte-handout [tufte-handout,bibentry.sty,fancyhdr
-INFO: +checking for package noweb [noweb]... no
 INFO: +checking for package endnotes [endnotes]... yes
-INFO: +checking for package braille [braille]... yes
 INFO: +checking for package covington [covington]... no
 INFO: +checking for package endnotes [endnotes]... yes
+INFO: +checking for package braille [braille]... yes
+INFO: +checking for package noweb [noweb]... no
 INFO: +checking for package accents [accents]... no
 INFO: +checking for package algorithm [algorithm]... no
 INFO: +checking for package amstext [amstext]... yes

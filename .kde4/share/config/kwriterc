@@ -2,6 +2,11 @@
 ShowPath=false
 ShowStatusBar=false
 
+[KFileDialog Settings]
+Height 900=540
+Recent Files[$e]=$HOME/equoEmergeDeps.txt,$HOME/equoEmergeDeps.txt
+Width 1600=864
+
 [Kate Document Defaults]
 Allow End of Line Detection=true
 Allow Simple Mode=false
@@ -60,9 +65,11 @@ Word Completion Minimal Word Length=3
 [MainWindow]
 Height 1152=1196
 Height 1200=292
-State=AAAA/wAAAAD9AAAAAAAABQwAAASTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Height 900=578
+State=AAAA/wAAAAD9AAAAAAAAAmQAAAIqAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 StatusBar=Disabled
 ToolBarsMovable=Disabled
+Width 1600=612
 Width 1920=1196
 Width 2048=1292
 
@@ -74,6 +81,7 @@ File4[$e]=$HOME/.zshhistory
 File5[$e]=$HOME/.Xdefaults
 File6[$e]=$HOME/equo.txt
 File7[$e]=$HOME/.kde4/share/apps/katepart/katepartui.rc
+File8[$e]=$HOME/equoEmergeDeps.txt
 Name1[$e]=lxterminal.conf
 Name2[$e]=panel
 Name3[$e]=.xinitrc
@@ -81,3 +89,4 @@ Name4[$e]=.zshhistory
 Name5[$e]=.Xdefaults
 Name6[$e]=equo.txt
 Name7[$e]=katepartui.rc
+Name8[$e]=equoEmergeDeps.txt

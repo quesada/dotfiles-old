@@ -235,6 +235,9 @@ InfoOutput=4
 [kwrite]
 InfoOutput=4
 
+[kxkb]
+InfoOutput=4
+
 [lancelot]
 InfoOutput=4
 
@@ -254,6 +257,9 @@ InfoOutput=4
 InfoOutput=2
 
 [plasma-desktop]
+InfoOutput=4
+
+[policykit1-kde]
 InfoOutput=4
 
 [rsibreak]

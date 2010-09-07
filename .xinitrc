@@ -4,23 +4,28 @@ export SAL_USE_VCLPLUGIN=gen
 # 2- all java apps being a grey rectangle without this:
 wmname LG3D
 
+# connect to the web
+#/usr/bin/nm-applet&
+
 # synch with the clouds
-/home/quesada/.dropbox-dist/dropboxd&
+#/home/quesada/.dropbox-dist/dropboxd&
 /home/quesada/wuala/wualacmd&
-dropbox start -i&
+#dropbox start -i&
 
 # tray
 trayer --edge top --align right --width 10 --widthtype request --height 18 --transparent true&
 
 # startup apps
-/usr/bin/xflux -l 52.30, 13.25&
+#/usr/bin/xflux -l 52.30, 13.25&
+#/usr/bin/redshift -l 52.30:13.25
 /usr/bin/workrave&
 /usr/local/bin/lyx&
 /usr/bin/konsole&
 /usr/bin/firefox&
-/usr/bin/workrave&
 easystroke&
 krunner&
+/usr/bin/xfce4-power-manager&
+/usr/bin/xfce4-volumed&
 
 # damn bell from hell
 xset b off&

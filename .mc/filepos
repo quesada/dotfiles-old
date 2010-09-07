@@ -1,3 +1,9 @@
+/data/projects/mpi_timing_tests/change_prefix.py -1;0;0
+/data/projects/mpi_timing_tests/config.properties -1;0;0
+/data/projects/mpi_timing_tests/data/reference/01_0 -1;0;0
+/data/projects/mpi_timing_tests/data/reference/reference.csv -1;0;0
+/data/projects/mpi_timing_tests/data/results/raw_measurements/01_0 -1;0;0
+/data/projects/mpi_timing_tests/data/results/raw_measurements/800ws=10seed=600run=1.csv_mean0timesstd/01_0 -1;0;0
 /data/corpora/wiki/kristallParsing/README.txt -1;0;0
 /data/corpora/wiki/kristallParsing/wikidump-20080312.tar -1;0;0
 /home/quesada/doc/tasadores.txt -1;0;0
@@ -167,7 +173,6 @@
 /data/projects/mpi_timing_tests/data/results/raw_measurements/800ws=10seed=600run=1.csv_mean0timesstd/01_3 -1;0;0
 /data/projects/mpi_timing_tests/data/results/raw_measurements/800ws=10seed=600run=1.csv_mean0timesstd/01_2 -1;0;0
 /data/projects/mpi_timing_tests/data/results/raw_measurements/800ws=10seed=600run=1.csv_mean0timesstd/01_1 -1;0;0
-/data/projects/mpi_timing_tests/data/results/raw_measurements/800ws=10seed=600run=1.csv_mean0timesstd/01_0 -1;0;0
 /data/projects/mpi_timing_tests/data/results/raw_measurements/800ws=10seed=600run=1.csv_mean0timesstd/25_1 -1;0;0
 /data/projects/mpi_timing_tests/data/results/raw_measurements/800ws=10seed=600run=1.csv_mean0timesstd/25_2 -1;0;0
 /data/projects/mpi_timing_tests/data/results/raw_measurements/800ws=10seed=600run=1.csv_mean0timesstd/25_3 -1;0;0

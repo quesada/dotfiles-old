@@ -7,42 +7,20 @@
 \converter latex      dvi        "latex"	"latex"
 \Format tgif       obj     Tgif                   "" "auto"	"auto"	"vector"
 \Format fig        fig     FIG                    "" "auto"	"auto"	"vector"
-\editor_alternatives dia dia
-\Format dia        dia     DIA                    "" "dia"	"dia"	"vector"
-\viewer_alternatives dia dia
+\Format dia        dia     DIA                    "" "auto"	"auto"	"vector"
 \Format agr        agr     Grace                  "" "auto"	"auto"	"vector"
 \Format fen        fen     FEN                    "" "auto"	"auto"	""
 \Format svg        svg     SVG                    "" "auto" "auto"	"vector"
-\viewer_alternatives bmp gimp
-\viewer_alternatives gif gimp
-\viewer_alternatives jpg gimp
-\viewer_alternatives pbm gimp
-\viewer_alternatives pgm gimp
-\viewer_alternatives png gimp
-\viewer_alternatives ppm gimp
-\viewer_alternatives tiff gimp
-\viewer_alternatives xbm gimp
-\viewer_alternatives xpm gimp
-\editor_alternatives bmp gimp
-\editor_alternatives gif gimp
-\editor_alternatives jpg gimp
-\editor_alternatives pbm gimp
-\editor_alternatives pgm gimp
-\editor_alternatives png gimp
-\editor_alternatives ppm gimp
-\editor_alternatives tiff gimp
-\editor_alternatives xbm gimp
-\editor_alternatives xpm gimp
-\Format bmp        bmp     BMP                    "" "gimp"	"gimp"	""
-\Format gif        gif     GIF                    "" "gimp"	"gimp"	""
-\Format jpg        jpg     JPEG                   "" "gimp"	"gimp"	""
-\Format pbm        pbm     PBM                    "" "gimp"	"gimp"	""
-\Format pgm        pgm     PGM                    "" "gimp"	"gimp"	""
-\Format png        png     PNG                    "" "gimp"	"gimp"	""
-\Format ppm        ppm     PPM                    "" "gimp"	"gimp"	""
-\Format tiff       tif     TIFF                   "" "gimp"	"gimp"	""
-\Format xbm        xbm     XBM                    "" "gimp"	"gimp"	""
-\Format xpm        xpm     XPM                    "" "gimp"	"gimp"	""
+\Format bmp        bmp     BMP                    "" "auto"	"auto"	""
+\Format gif        gif     GIF                    "" "auto"	"auto"	""
+\Format jpg        jpg     JPEG                   "" "auto"	"auto"	""
+\Format pbm        pbm     PBM                    "" "auto"	"auto"	""
+\Format pgm        pgm     PGM                    "" "auto"	"auto"	""
+\Format png        png     PNG                    "" "auto"	"auto"	""
+\Format ppm        ppm     PPM                    "" "auto"	"auto"	""
+\Format tiff       tif     TIFF                   "" "auto"	"auto"	""
+\Format xbm        xbm     XBM                    "" "auto"	"auto"	""
+\Format xpm        xpm     XPM                    "" "auto"	"auto"	""
 \editor_alternatives asciichess gvim
 \editor_alternatives asciiimage gvim
 \editor_alternatives asciixfig gvim
@@ -81,44 +59,6 @@
 \editor_alternatives text3 kwrite
 \editor_alternatives text4 kwrite
 \editor_alternatives textparagraph kwrite
-\editor_alternatives asciichess kate
-\editor_alternatives asciiimage kate
-\editor_alternatives asciixfig kate
-\editor_alternatives dateout kate
-\editor_alternatives docbook kate
-\editor_alternatives docbook-xml kate
-\editor_alternatives dot kate
-\editor_alternatives platex kate
-\editor_alternatives literate kate
-\editor_alternatives sweave kate
-\editor_alternatives lilypond kate
-\editor_alternatives latex kate
-\editor_alternatives pdflatex kate
-\editor_alternatives xetex kate
-\editor_alternatives text kate
-\editor_alternatives text2 kate
-\editor_alternatives text3 kate
-\editor_alternatives text4 kate
-\editor_alternatives textparagraph kate
-\editor_alternatives asciichess gedit
-\editor_alternatives asciiimage gedit
-\editor_alternatives asciixfig gedit
-\editor_alternatives dateout gedit
-\editor_alternatives docbook gedit
-\editor_alternatives docbook-xml gedit
-\editor_alternatives dot gedit
-\editor_alternatives platex gedit
-\editor_alternatives literate gedit
-\editor_alternatives sweave gedit
-\editor_alternatives lilypond gedit
-\editor_alternatives latex gedit
-\editor_alternatives pdflatex gedit
-\editor_alternatives xetex gedit
-\editor_alternatives text gedit
-\editor_alternatives text2 gedit
-\editor_alternatives text3 gedit
-\editor_alternatives text4 gedit
-\editor_alternatives textparagraph gedit
 \editor_alternatives asciichess notepad
 \editor_alternatives asciiimage notepad
 \editor_alternatives asciixfig notepad
@@ -195,44 +135,6 @@
 \viewer_alternatives text3 kwrite
 \viewer_alternatives text4 kwrite
 \viewer_alternatives textparagraph kwrite
-\viewer_alternatives asciichess kate
-\viewer_alternatives asciiimage kate
-\viewer_alternatives asciixfig kate
-\viewer_alternatives dateout kate
-\viewer_alternatives docbook kate
-\viewer_alternatives docbook-xml kate
-\viewer_alternatives dot kate
-\viewer_alternatives platex kate
-\viewer_alternatives literate kate
-\viewer_alternatives sweave kate
-\viewer_alternatives lilypond kate
-\viewer_alternatives latex kate
-\viewer_alternatives pdflatex kate
-\viewer_alternatives xetex kate
-\viewer_alternatives text kate
-\viewer_alternatives text2 kate
-\viewer_alternatives text3 kate
-\viewer_alternatives text4 kate
-\viewer_alternatives textparagraph kate
-\viewer_alternatives asciichess gedit
-\viewer_alternatives asciiimage gedit
-\viewer_alternatives asciixfig gedit
-\viewer_alternatives dateout gedit
-\viewer_alternatives docbook gedit
-\viewer_alternatives docbook-xml gedit
-\viewer_alternatives dot gedit
-\viewer_alternatives platex gedit
-\viewer_alternatives literate gedit
-\viewer_alternatives sweave gedit
-\viewer_alternatives lilypond gedit
-\viewer_alternatives latex gedit
-\viewer_alternatives pdflatex gedit
-\viewer_alternatives xetex gedit
-\viewer_alternatives text gedit
-\viewer_alternatives text2 gedit
-\viewer_alternatives text3 gedit
-\viewer_alternatives text4 gedit
-\viewer_alternatives textparagraph gedit
 \viewer_alternatives asciichess notepad
 \viewer_alternatives asciiimage notepad
 \viewer_alternatives asciixfig notepad
@@ -254,19 +156,14 @@
 \viewer_alternatives textparagraph notepad
 \Format xhtml      xhtml   "LyXHTML"              X "firefox" ""    "document"
 \viewer_alternatives xhtml firefox
-\Format bibtex bib    "BibTeX"         "" ""	"jabref"	""
-\editor_alternatives bibtex jabref
+\Format bibtex bib    "BibTeX"         "" ""	"gvim"	""
 \editor_alternatives bibtex gvim
 \editor_alternatives bibtex kwrite
-\editor_alternatives bibtex kate
-\editor_alternatives bibtex gedit
 \editor_alternatives bibtex notepad
 \Format eps        eps     EPS                    "" "okular"	""	"vector"
 \Format ps         ps      Postscript             t  "okular"	""	"document,vector"
 \viewer_alternatives eps okular
 \viewer_alternatives ps okular
-\viewer_alternatives eps evince
-\viewer_alternatives ps evince
 \Format pdf        pdf    "PDF (ps2pdf)"          P  "okular"	""	"document,vector"
 \Format pdf2       pdf    "PDF (pdflatex)"        F  "okular"	""	"document,vector"
 \Format pdf3       pdf    "PDF (dvipdfm)"         m  "okular"	""	"document,vector"
@@ -275,14 +172,6 @@
 \viewer_alternatives pdf2 okular
 \viewer_alternatives pdf3 okular
 \viewer_alternatives pdf4 okular
-\viewer_alternatives pdf evince
-\viewer_alternatives pdf2 evince
-\viewer_alternatives pdf3 evince
-\viewer_alternatives pdf4 evince
-\viewer_alternatives pdf xpdf
-\viewer_alternatives pdf2 xpdf
-\viewer_alternatives pdf3 xpdf
-\viewer_alternatives pdf4 xpdf
 \Format dvi        dvi     DVI                    D  "okular"	""	"document,vector"
 \viewer_alternatives dvi okular
 \Format html       html    HTML                   H  "firefox"	""	"document"
@@ -330,10 +219,12 @@
 \converter sweave   pdflatex      "R CMD Sweave $$i"	""
 \converter html       latex      "java -jar htmltolatex.jar -input $$i -output $$o"	""
 \converter word       latex      "wvCleanLatex $$i $$o"	""
-\converter lyx      html       "elyxer --directory $$r $$i $$o"	""
-\copier    html       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
-\converter lyx      wordhtml       "python -m elyxer --html --directory $$r $$i $$o"	""
-\copier    wordhtml       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
+\converter lyx      html       ""	""
+\converter latex      html       ""	"needaux"
+\copier    html       "python -tt $$s/scripts/ext_copy.py $$i $$o"
+\converter lyx      wordhtml       ""	""
+\converter latex      wordhtml   ""	"needaux"
+\copier    wordhtml       "python -tt $$s/scripts/ext_copy.py $$i $$o"
 \converter sxw        latex      ""	""
 \converter odt        latex      ""	""
 \converter latex      odt        ""	"needaux"
@@ -353,8 +244,8 @@
 \converter tiff       eps        "tiff2ps $$i > $$o"	""
 \converter wmf        eps        "wmf2eps -o $$o $$i"	""
 \converter emf        eps        "wmf2eps -o $$o $$i"	""
-\converter dia        png        "dia -e $$o -t png $$i"	""
-\converter dia        eps        "dia -e $$o -t eps $$i"	""
+\converter dia        png        ""	""
+\converter dia        eps        ""	""
 \converter svg        pdf        "rsvg-convert -f pdf -o $$o $$i"	""
 \converter svg        eps        "rsvg-convert -f ps -o $$o $$i"	""
 \converter svg        png        "rsvg-convert -f png -o $$o $$i"	""

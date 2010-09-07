@@ -3,7 +3,7 @@
 <WorkSheet title="System Load" interval="0.5" locked="1" rows="3" columns="1">
  <host port="-1" command="ksysguardd" shell="" name="localhost"/>
  <display title="CPU History" version="1" row="0" class="FancyPlotter" hScale="6" unit="" showUnit="0" column="0" autoRange="0" hLines="1" manualRange="0" vScroll="0" svgBackground="widgets/plot-background" vLines="0" vDistance="30" labels="1">
-  <beam sensorType="float" hostName="localhost" regexpSensorName="cpu/cpu.*/TotalLoad" color="0xffff8000,0xffe20800"/>
+  <beam sensorType="float" hostName="localhost" regexpSensorName="cpu/cpu.*/TotalLoad" color="0xffff8000,0xffe20800,0xfff3c300,0xffff0000,0xff00a900,0xff0028a9,0xffa92928,0xff28a929"/>
  </display>
  <display title="Memory and Swap History" version="1" row="1" class="FancyPlotter" hScale="6" unit="" showUnit="0" column="0" autoRange="0" hLines="1" manualRange="0" vScroll="0" svgBackground="widgets/plot-background" vLines="0" vDistance="30" labels="1">
   <beam sensorName="mem/physical/application" sensorType="integer" hostName="localhost" summationName="Memory" color="0xffc000c0"/>

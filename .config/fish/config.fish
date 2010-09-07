@@ -20,7 +20,7 @@ set R_HISTFILE ~/.Rhistory
 set HGEDITOR /usr/bin/vim.gnome
 set EDITOR /usr/bin/vim.gnome
 # set env variables
-set PATH /sbin /usr/local/bin /usr/bin /bin /opt/bin /usr/x86_64-pc-linux-gnu/gcc-bin/4.4.2 /home/quesada/bin	/home/quesada/wuala
+set PATH /usr/local/sbin/ /sbin /usr/local/bin /usr/bin /bin /opt/bin /usr/x86_64-pc-linux-gnu/gcc-bin/4.4.2 /home/quesada/bin  /home/quesada/bin/bin	/home/quesada/wuala
 
 # fish vars
 

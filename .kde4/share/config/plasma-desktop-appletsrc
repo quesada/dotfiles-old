@@ -15,7 +15,7 @@ zvalue=0
 activity=Desktop
 desktop=-1
 formfactor=0
-geometry=0,0,1920,1200
+geometry=0,0,1600,900
 immutability=1
 location=0
 plugin=desktop
@@ -36,7 +36,7 @@ wallpaperposition=0
 activity=Desktop
 desktop=-1
 formfactor=0
-geometry=1926,0,1024,768
+geometry=1606,0,1024,768
 immutability=1
 location=0
 plugin=desktop
@@ -57,7 +57,7 @@ wallpaperposition=0
 activity=
 desktop=-1
 formfactor=3
-geometry=10076,-1206,70,1200
+geometry=10053,-906,47,900
 immutability=1
 location=5
 plugin=panel
@@ -65,7 +65,7 @@ screen=0
 zvalue=150
 
 [Containments][3][Applets][10]
-geometry=0,1128,66,50
+geometry=0,828,43,50
 immutability=1
 plugin=digital-clock
 zvalue=0
@@ -97,11 +97,11 @@ sourceAppletId=10
 sourceAppletPluginName=digital-clock
 
 [Containments][3][Applets][10][LayoutInformation]
-Order=4
+Order=3
 
 [Containments][3][Applets][10][PopupApplet]
-DialogHeight=257
-DialogWidth=274
+DialogHeight=253
+DialogWidth=240
 
 [Containments][3][Applets][12][Configuration]
 Share=false
@@ -120,21 +120,8 @@ screen=-1
 sortColumn=-1
 zvalue=17
 
-[Containments][3][Applets][19]
-geometry=0,882,66,34
-immutability=1
-plugin=notifier
-zvalue=0
-
-[Containments][3][Applets][19][LayoutInformation]
-Order=2
-
-[Containments][3][Applets][19][PopupApplet]
-DialogHeight=306
-DialogWidth=252
-
 [Containments][3][Applets][4]
-geometry=0,0,66,34
+geometry=0,0,43,43
 immutability=1
 plugin=launcher
 zvalue=0
@@ -150,7 +137,7 @@ DialogWidth=454
 global=Alt+F1
 
 [Containments][3][Applets][6]
-geometry=0,38,66,840
+geometry=0,47,43,490
 immutability=1
 plugin=tasks
 zvalue=0
@@ -163,7 +150,7 @@ highlightWindows=true
 Order=1
 
 [Containments][3][Applets][7]
-geometry=0,920,66,204
+geometry=0,541,43,283
 immutability=1
 plugin=systemtray
 zvalue=0
@@ -178,7 +165,7 @@ plugin=notifier
 zvalue=0
 
 [Containments][3][Applets][7][Configuration][Applets][24]
-geometry=3,170,24,24
+geometry=4.5,217,24,24
 immutability=1
 plugin=battery
 zvalue=0
@@ -215,15 +202,15 @@ sourceAppletId=7
 sourceAppletPluginName=systemtray
 
 [Containments][3][Applets][7][LayoutInformation]
-Order=3
+Order=2
 
 [Containments][3][Applets][7][PopupApplet]
-DialogHeight=45
-DialogWidth=426
+DialogHeight=33
+DialogWidth=410
 
 [Containments][3][Configuration]
-maximumSize=70,1200
-minimumSize=70,1200
+maximumSize=47,900
+minimumSize=47,900
 
 [General]
 immutability=1

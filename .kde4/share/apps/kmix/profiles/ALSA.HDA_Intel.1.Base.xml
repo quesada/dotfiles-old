@@ -13,10 +13,12 @@
 <control id="^Headphone:0$" subcontrols=".*" tab="Base" show="simple" />
 <control id="^Speaker:0$" subcontrols=".*" tab="Base" show="simple" />
 <control id="^Capture:0$" subcontrols=".*" tab="Base" show="simple" />
+<control id="^Line_Jack_Mode:0$" subcontrols=".*" tab="Base" show="simple" />
+<control id="^Capture:1$" subcontrols=".*" tab="Base" show="simple" />
+<control id="^Input_Source:0$" subcontrols=".*" tab="Base" show="simple" />
+<control id="^Input_Source:1$" subcontrols=".*" tab="Base" show="simple" />
+<control id="^Mux:1$" subcontrols=".*" tab="Base" show="simple" />
 <control id="^Mic_Jack_Mode:0$" subcontrols=".*" tab="Base" show="extended" />
-<control id="^IEC958:0$" subcontrols=".*" tab="Base" show="extended" />
-<control id="^IEC958_Default_PCM:0$" subcontrols=".*" tab="Base" show="extended" />
-<control id="^IEC958_Playback_Source:0$" subcontrols=".*" tab="Base" show="extended" />
 <control id="^Beep:0$" subcontrols=".*" tab="Base" show="extended" />
 <control id="^Mux:0$" subcontrols=".*" tab="Base" show="extended" />
 <control id="^.*$" subcontrols=".*" tab="Base" show="extended" />

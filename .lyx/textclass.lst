@@ -12,6 +12,7 @@
 "acmsiggraph" "acmsiggraph" "article (ACM SIGGRAPH)" "false" "acmsiggraph.cls,lineno.sty"
 "agu-dtd" "AGU-article" "AGU article (SGML)" "true" ""
 "agums" "aguplus" "article (AGU++ manuscript)" "false" "aguplus.cls,agums.sty"
+"agutex" "agutex" "article (AGU)" "false" "agutex.cls"
 "amsart" "amsart" "article (AMS)" "true" ""
 "amsbook" "amsbook" "book (AMS)" "true" ""
 "apa" "apa" "article (APA)" "false" "apa.cls,apacite.sty,endfloat.sty"

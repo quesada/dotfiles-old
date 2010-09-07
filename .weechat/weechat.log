@@ -1,28 +1,11 @@
-[2010-08-25 21:12:17] weechat 0.3.3 (compiled on Aug 12 2010 10:04:15)
-[2010-08-25 21:12:17] Reading configuration file weechat.conf
-[2010-08-25 21:12:17] Reading configuration file plugins.conf
-[2010-08-25 21:12:17] Reading configuration file charset.conf
-[2010-08-25 21:12:17] Reading configuration file alias.conf
-[2010-08-25 21:12:17] Reading configuration file aspell.conf
-[2010-08-25 21:12:18] Reading configuration file logger.conf
-[2010-08-25 21:12:18] Reading configuration file xfer.conf
-[2010-08-25 21:12:18] Reading configuration file irc.conf
-[2010-08-25 21:12:34] irc: connecting to server chat.freenode.net/6667...
-[2010-08-25 23:57:19] Signal SIGHUP received, reloading configuration files
-[2010-08-25 23:57:19] Reloading configuration file weechat.conf
-[2010-08-25 23:57:20] Reloading configuration file plugins.conf
-[2010-08-25 23:57:20] Reloading configuration file charset.conf
-[2010-08-25 23:57:20] Reloading configuration file alias.conf
-[2010-08-25 23:57:20] Reloading configuration file aspell.conf
-[2010-08-25 23:57:20] Reloading configuration file logger.conf
-[2010-08-25 23:57:20] Reloading configuration file xfer.conf
-[2010-08-25 23:57:20] Reloading configuration file irc.conf
-[2010-08-25 23:57:20] Terminal lost, exiting WeeChat...
-[2010-08-25 23:57:20] Writing configuration file plugins.conf 
-[2010-08-25 23:57:20] Writing configuration file irc.conf 
-[2010-08-25 23:57:20] Writing configuration file xfer.conf 
-[2010-08-25 23:57:20] Writing configuration file logger.conf 
-[2010-08-25 23:57:20] Writing configuration file aspell.conf 
-[2010-08-25 23:57:20] Writing configuration file alias.conf 
-[2010-08-25 23:57:20] Writing configuration file charset.conf 
-[2010-08-25 23:57:20] Writing configuration file weechat.conf 
+[2010-09-06 01:25:53] weechat 0.3.3 (compiled on Aug 12 2010 10:04:15)
+[2010-09-06 01:25:53] Reading configuration file weechat.conf
+[2010-09-06 01:25:53] Reading configuration file plugins.conf
+[2010-09-06 01:25:53] Reading configuration file alias.conf
+[2010-09-06 01:25:53] Reading configuration file charset.conf
+[2010-09-06 01:25:53] Reading configuration file aspell.conf
+[2010-09-06 01:25:53] Reading configuration file irc.conf
+[2010-09-06 01:25:53] Reading configuration file xfer.conf
+[2010-09-06 01:25:53] Reading configuration file logger.conf
+[2010-09-06 01:26:05] irc: connecting to server chat.freenode.net/6667...
+[2010-09-06 02:23:53] irc: connecting to server chat.freenode.net/6667...

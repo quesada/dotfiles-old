@@ -9,11 +9,23 @@ Icon=drive-removable-media-usb-pendrive
 LastNameSeen=USB DISK
 LastSeenMounted=false
 
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_1e97e0e1_a777_41b5_8f49_3e991198a079]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=sys
+LastSeenMounted=true
+
 [Devices][/org/freedesktop/Hal/devices/volume_uuid_204f1e5a_457a_4517_97eb_48bf7bfcee0e]
 EverMounted=true
 Icon=drive-removable-media-usb
 LastNameSeen=mobileData
 LastSeenMounted=false
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_2f4e8e6e_c443_453f_9f29_8ad7d5678c68]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=78.3 GiB Hard Drive
+LastSeenMounted=true
 
 [Devices][/org/freedesktop/Hal/devices/volume_uuid_3039_3366]
 EverMounted=true
@@ -27,6 +39,12 @@ Icon=drive-harddisk
 LastNameSeen=System Reserved
 LastSeenMounted=false
 
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_EF83_7B1B]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=STORE N GO
+LastSeenMounted=false
+
 [Devices][/org/freedesktop/Hal/devices/volume_uuid_F4C07ED4C07E9D14]
 EverMounted=true
 Icon=drive-harddisk
@@ -38,6 +56,18 @@ EverMounted=true
 Icon=drive-harddisk
 LastNameSeen=%
 LastSeenMounted=true
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_c0bdaf21_911e_48be_9708_4b2af66222fe]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=data
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/Hal/devices/volume_uuid_c1a76d8b_5be0_4781_9234_c2001904edf5]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=backup
+LastSeenMounted=false
 
 [Devices][/org/freedesktop/Hal/devices/volume_uuid_d6bc92f1_5587_44d9_8e60_a096591f27d0]
 EverMounted=true

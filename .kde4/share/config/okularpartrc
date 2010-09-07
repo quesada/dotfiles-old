@@ -1,3 +1,6 @@
+[General]
+UseKTTSD=false
+
 [Main View]
 ShowLeftPanel=false
 SplitterSizes=208,1837
@@ -5,4 +8,3 @@ SplitterSizes=208,1837
 [PageView]
 TrimMargins=true
 ViewContinuous=false
-ViewMode=1

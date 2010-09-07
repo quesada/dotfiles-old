@@ -1,10 +1,12 @@
 [GENERAL]
 delay=0
-filename[$e]=file:///tmp/snapshot2.png
+filename[$e]=file://$HOME/down/snapshot4.png
 includeDecorations=true
 mode=2
 
 [KFileDialog Settings]
 Height 1200=750
-Recent Files[$e]=/tmp/snapshot1.png,/tmp/snapshot1.png
+Height 900=570
+Recent Files[$e]=$HOME/down/snapshot2.png,$HOME/down/snapshot3.png
+Width 1600=912
 Width 1920=1200

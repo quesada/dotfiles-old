@@ -10,4 +10,3 @@
 [description:"ulrike mail" entry:"1283157445" priority:"M" status:"pending" uuid:"590cc549-a27b-e882-5aed-1bcfcb80fa55"]
 [description:"google mail" entry:"1283157453" priority:"M" status:"pending" uuid:"34ee8254-6850-c174-8c37-882578a905e3"]
 [description:"do plot with existing data" entry:"1283239851" priority:"M" status:"pending" uuid:"7b6c3e2b-0e47-3cb0-0874-4cd41f49f1d6"]
-[description:"in xls, mark the cells where dbpedia is not implied" end:"1283273127" entry:"1283268705" priority:"M" status:"completed" uuid:"9c1356a4-70d5-485d-e95d-fa834713b104"]

@@ -33,12 +33,21 @@ volumeRCapture=0
 
 [MixerALSA::HDA_Intel:1.DevCapture:0]
 is_muted=false
-is_recsrc=true
+is_recsrc=false
 name=Capture
 volumeL=0
 volumeLCapture=15
 volumeR=0
 volumeRCapture=15
+
+[MixerALSA::HDA_Intel:1.DevCapture:1]
+is_muted=false
+is_recsrc=false
+name=Capture 2
+volumeL=0
+volumeLCapture=0
+volumeR=0
+volumeRCapture=0
 
 [MixerALSA::HDA_Intel:1.DevHeadphone:0]
 is_muted=false
@@ -77,11 +86,41 @@ volumeLCapture=0
 volumeR=0
 volumeRCapture=0
 
+[MixerALSA::HDA_Intel:1.DevInput_Source:0]
+enum_id=0
+is_muted=false
+is_recsrc=false
+name=Input Source
+volumeL=0
+volumeLCapture=0
+volumeR=0
+volumeRCapture=0
+
+[MixerALSA::HDA_Intel:1.DevInput_Source:1]
+enum_id=0
+is_muted=false
+is_recsrc=false
+name=Input Source 2
+volumeL=0
+volumeLCapture=0
+volumeR=0
+volumeRCapture=0
+
+[MixerALSA::HDA_Intel:1.DevLine_Jack_Mode:0]
+enum_id=0
+is_muted=false
+is_recsrc=false
+name=Line Jack Mode
+volumeL=0
+volumeLCapture=0
+volumeR=0
+volumeRCapture=0
+
 [MixerALSA::HDA_Intel:1.DevMaster:0]
 is_muted=false
 is_recsrc=false
 name=Master
-volumeL=38
+volumeL=19
 volumeLCapture=0
 volumeR=0
 volumeRCapture=0
@@ -105,6 +144,15 @@ volumeLCapture=0
 volumeR=0
 volumeRCapture=0
 
+[MixerALSA::HDA_Intel:1.DevMux:1]
+is_muted=false
+is_recsrc=false
+name=Mux 2
+volumeL=0
+volumeLCapture=0
+volumeR=0
+volumeRCapture=0
+
 [MixerALSA::HDA_Intel:1.DevPCM:0]
 is_muted=false
 is_recsrc=false
@@ -121,6 +169,45 @@ name=Speaker
 volumeL=64
 volumeLCapture=0
 volumeR=64
+volumeRCapture=0
+
+[MixerALSA::HDA_NVidia:1]
+name=
+
+[MixerALSA::HDA_NVidia:1.DevIEC958:0]
+is_muted=false
+is_recsrc=false
+name=IEC958
+volumeL=0
+volumeLCapture=0
+volumeR=0
+volumeRCapture=0
+
+[MixerALSA::HDA_NVidia:1.DevIEC958:1]
+is_muted=false
+is_recsrc=false
+name=IEC958 2
+volumeL=0
+volumeLCapture=0
+volumeR=0
+volumeRCapture=0
+
+[MixerALSA::HDA_NVidia:1.DevIEC958:2]
+is_muted=false
+is_recsrc=false
+name=IEC958 3
+volumeL=0
+volumeLCapture=0
+volumeR=0
+volumeRCapture=0
+
+[MixerALSA::HDA_NVidia:1.DevIEC958:3]
+is_muted=false
+is_recsrc=false
+name=IEC958 4
+volumeL=0
+volumeLCapture=0
+volumeR=0
 volumeRCapture=0
 
 [MixerALSA::Xonar_ST:1]

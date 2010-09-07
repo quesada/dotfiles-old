@@ -1,5 +1,5 @@
 [Auto Allow]
-The name org.kde.kwalletd was not provided by any .service files=KDE Daemon,KMail,Choqok
+The name org.kde.kwalletd was not provided by any .service files=KDE Daemon,KMail,Choqok,KNetworkManager,KDE Control Module
 
 [Wallet]
 Close When Idle=false

@@ -107,7 +107,7 @@ toolBarFont=FreeSans,11,-1,5,50,0,0,0,0,0
 widgetStyle=oxygen
 
 [KDE]
-AutoSelectDelay=323
+AutoSelectDelay=1064
 ChangeCursor=true
 DoubleClickInterval=400
 ShowDeleteCommand=true
@@ -128,7 +128,7 @@ Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Previews=false
-Recent URLs[$e]=$HOME/.xmonad/,$HOME/tmp/,$HOME/pdf/eswc2010/,$HOME/.mc/,$HOME/Dropbox/pdf/,$HOME/Dropbox/
+Recent URLs[$e]=$HOME/.xmonad/,$HOME/tmp/,$HOME/.mc/,$HOME/Dropbox/,$HOME/down/
 Show Bookmarks=false
 Show Full Path=false
 Show Preview=false

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=inode-directory
+Name=data
+Type=Link
+URL[$e]=file:///data/
+X-KDE-LastOpenedWith=dolphin

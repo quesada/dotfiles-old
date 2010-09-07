@@ -2,9 +2,10 @@
 ## Editing this file manually may cause lyx to crash.
 
 [recent files]
-/home/quesada/china.lyx
-/home/quesada/Dropbox/noteslyx/notes.lyx
 /home/quesada/noteslyx/notes.lyx
+/home/quesada/Dropbox/noteslyx/notes.lyx
+/home/quesada/Dropbox/noteslyx/longSparqlQueries.lyx
+/home/quesada/china.lyx
 /home/quesada/noteslyx/timingESA.lyx
 /home/quesada/noteslyx/adviceOnline.lyx
 /home/quesada/noteslyx/eswc.lyx
@@ -14,12 +15,10 @@
 /home/quesada/noteslyx/Vitaetest.lyx
 
 [last opened files]
-1, /home/quesada/newfile1.lyx
-0, /home/quesada/noteslyx/notes.lyx
-0, /home/quesada/Dropbox/noteslyx/notes.lyx
 
 [cursor positions]
-1038, 7, /home/quesada/Dropbox/noteslyx/notes.lyx
+0, 0, /home/quesada/Dropbox/noteslyx/longSparqlQueries.lyx
+1, 7, /home/quesada/Dropbox/noteslyx/notes.lyx
 29, 16, /home/quesada/china.lyx
 27, 392, /home/quesada/larkc/WP2/d2.3.2/Discussion and conclussions.lyx
 18, 0, /home/quesada/larkc/WP2/d2.3.2/Explicit Semantic Analysis.lyx
@@ -40,7 +39,7 @@
 0, 70, /home/quesada/noteslyx/lainerPost.lyx
 11, 34, /home/quesada/noteslyx/lyx tricks.lyx
 70, 0, /home/quesada/noteslyx/mouse.lyx
-443, 0, /home/quesada/noteslyx/notes.lyx
+448, 0, /home/quesada/noteslyx/notes.lyx
 0, 0, /home/quesada/noteslyx/paramsSpaces.lyx
 6, 27, /home/quesada/noteslyx/scratch.lyx
 20, 37, /home/quesada/noteslyx/timingESA.lyx
@@ -56,4 +55,4 @@
 [last commands]
 
 [bookmarks]
-0, 1038, 1, /home/quesada/Dropbox/noteslyx/notes.lyx
+0, 448, 1, /home/quesada/noteslyx/notes.lyx

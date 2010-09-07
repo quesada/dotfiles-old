@@ -10,8 +10,10 @@ Favorites=/home/quesada/.kde4/share/apps/konsole/Shell.profile
 [MainWindow]
 Height 1152=1153
 Height 1200=396
+Height 900=901
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAxAAAAF2AAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAwAAAANpAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
+Width 1600=768
 Width 1920=1129
 Width 2048=784

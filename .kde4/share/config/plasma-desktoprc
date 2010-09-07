@@ -3,10 +3,10 @@ CurrentPalette=Forty Colors
 
 [PlasmaViews][2]
 Offset=0
-panelVisibility=1
+panelVisibility=0
 
 [PlasmaViews][2][Sizes]
-lastsize=1200
+lastsize=900
 
 [PlasmaViews][2][Sizes][Horizontal1920]
 max=1920,28
@@ -21,16 +21,22 @@ offset=0
 size=70,1152
 
 [PlasmaViews][2][Sizes][Vertical1200]
-max=70,1200
-min=70,1200
+max=-1,-1
+min=-1,-1
 offset=0
-size=70,1200
+size=800,360
 
 [PlasmaViews][2][Sizes][Vertical768]
-max=70,768
-min=70,768
+max=47,768
+min=47,768
 offset=0
-size=70,768
+size=47,768
+
+[PlasmaViews][2][Sizes][Vertical900]
+max=47,900
+min=47,900
+offset=0
+size=47,900
 
 [Runners][Bookmarks]
 dbfile=/home/quesada/.mozilla/firefox/uq3g6doz.default/places.sqlite

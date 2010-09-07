@@ -1,2 +1,82 @@
+[AudioDevice_Playback/recording through the PulseAudio sound server_capture]
+cardName=Playback/recording through the PulseAudio sound server
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-8
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_Playback/recording through the PulseAudio sound server_playback]
+cardName=Playback/recording through the PulseAudio sound server
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-3
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_pci:10de:0be2:103c:1521:3:playback]
+cardName=HDA NVidia (NVIDIA HDMI) #3
+deleted=false
+deviceNumber=3
+hotpluggable=false
+iconName=audio-card
+index=-2
+initialPreference=33
+isAdvanced=true
+
+[AudioDevice_pci:10de:0be2:103c:1521:7:playback]
+cardName=HDA NVidia (NVIDIA HDMI) #7
+deleted=false
+deviceNumber=7
+hotpluggable=false
+iconName=audio-card
+index=-4
+initialPreference=29
+isAdvanced=true
+
+[AudioDevice_pci:10de:0be2:103c:1521:8:playback]
+cardName=HDA NVidia (NVIDIA HDMI) #8
+deleted=false
+deviceNumber=8
+hotpluggable=false
+iconName=audio-card
+index=-5
+initialPreference=28
+isAdvanced=true
+
+[AudioDevice_pci:10de:0be2:103c:1521:9:playback]
+cardName=HDA NVidia (NVIDIA HDMI) #9
+deleted=false
+deviceNumber=9
+hotpluggable=false
+iconName=audio-card
+index=-6
+initialPreference=27
+isAdvanced=true
+
+[AudioDevice_pci:8086:3b56:103c:1521:0:capture]
+cardName=HDA Intel (STAC92xx Analog)
+deleted=false
+deviceNumber=0
+hotpluggable=false
+iconName=audio-card
+index=-7
+initialPreference=36
+isAdvanced=false
+
+[AudioDevice_pci:8086:3b56:103c:1521:0:playback]
+cardName=HDA Intel (STAC92xx Analog)
+deleted=false
+deviceNumber=0
+hotpluggable=false
+iconName=audio-card
+index=-1
+initialPreference=36
+isAdvanced=false
+
 [Globals]
-nextIndex=1
+nextIndex=9

@@ -1,5 +1,8 @@
+[Notification Messages]
+systemtrayquitGuidance Power Manager=false
+
 [power-manager]
-batteryBrightness=4
+batteryBrightness=3
 batteryCriticalAction=nothing
 batteryFreqPolicy=dynamic
 batteryIdleAction=nothing
@@ -7,7 +10,7 @@ batteryIdleTime=10
 criticalRemainTime=5
 laptopLidAction=suspend
 lockOnResume=false
-poweredBrightness=5
+poweredBrightness=0
 poweredFreqPolicy=dynamic
 poweredIdleAction=nothing
 poweredIdleTime=60

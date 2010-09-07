@@ -1,0 +1,197 @@
+# KDE Cookie File v2
+#
+# Host               Domain               Path         Exp.date   Prot Name                 Sec  Value
+[.google.com]
+www.google.com       ".google.com"        "/mail/help/" 1339938794    0 __utma               4    173272373.707980037.1276866794.1276866794.1276866794.1
+www.google.com       ".google.com"        "/mail/help/" 1292634794    0 __utmz               4    173272373.1276866794.1.1.utmcsr=mail.google.com|utmccn=(referral)|utmcmd=referral|utmcct=/
+www.google.com       ".google.com"        "/accounts/" 1292634794    0 __utmz               4    173272373.1276866794.1.1.utmcsr=mail.google.com|utmccn=(referral)|utmcmd=referral|utmcct=/
+www.google.com       ".google.com"        "/accounts/" 1339938794    0 __utma               4    173272373.707980037.1276866794.1276866794.1276866794.1
+code.google.com      ".google.com"        "/"          1336687705    0 PREF                 4    ID=ece51deab8d394d8:TM=1273615705:LM=1273615705:S=3lPDPeAEmVKNfjsY
+code.google.com      ".code.google.com"   "/"          1289464377    0 __utmz               4    247248150.1273696378.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+code.google.com      ".code.google.com"   "/"          1336768377    0 __utma               4    247248150.1429681980.1273696378.1273696378.1273696378.1
+[.slashdot.org]
+slashdot.org         ".slashdot.org"      "/"          1289445324    0 __utmz               4    9273847.1273677324.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+slashdot.org         ".slashdot.org"      "/"          1336750262    0 __utma               4    9273847.1168402429.1273677324.1273677324.1273677324.1
+[.google.bg]
+www.google.bg        ".google.bg"         "/"          1336750286    0 PREF                 4    ID=8121738ce9105077:TM=1273678286:LM=1273678286:S=EAldy274h26ZHIyL
+[.isohunt.com]
+isohunt.com          ".isohunt.com"       "/"          1298791528    0 __utmz               4    64285424.1283023528.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+isohunt.com          ".isohunt.com"       "/"          1314559667    0 phpbb2mysql_data     4    a%3A2%3A%7Bs%3A11%3A%22autologinid%22%3Bs%3A0%3A%22%22%3Bs%3A6%3A%22userid%22%3Bi%3A-1%3B%7D
+isohunt.com          ".isohunt.com"       "/"          1346095554    0 __utma               4    64285424.103924128.1283023528.1283023528.1283023528.1
+[.sourceforge.net]
+sourceforge.net      ".sourceforge.net"   "/"          1289725652    0 __utmz               4    191645736.1273957652.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+sourceforge.net      ".sourceforge.net"   "/"          1337029652    0 __utma               4    191645736.618777968.1273957652.1273957652.1273957652.1
+[.last.fm]
+www.last.fm          ".last.fm"           "/"          1587016644    0 AnonSession          4    11c094211d6f6e00fa874c7c8459bc69-0b9a5f7ea97bb30e1f51f6b9958f6f078d85f44c705f467f36efeb07a44f163b
+www.last.fm          ".last.fm"           "/"          1305136644    0 AnonTrack            4    4ca12db33b21d8db9aeff3a9c2fe8a0a
+[.sabayon.org]
+www.sabayon.org      ".sabayon.org"       "/"          1289811879    0 __utmz               4    177713447.1274043879.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none)
+www.sabayon.org      ".sabayon.org"       "/"          1337118293    0 __utma               4    177713447.757537385.1274043879.1274043879.1274046293.2
+[.btjunkie.org]
+btjunkie.org         ".btjunkie.org"      "/"          1290337598    0 __utmz               4    223426504.1274569599.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none)
+btjunkie.org         ".btjunkie.org"      "/"          1346094956    0 __utma               4    223426504.537623742.1274569599.1282950100.1283022957.6
+[.bit.ly]
+bit.ly               ".bit.ly"            "/"          1290933830    0 _bit                 6    4c051ca6-0009d-031a0-baa08fa8
+[tweetphoto.com]
+tweetphoto.com       ""                   "/"          2072101673    0 CAKEPHP              4    i1u6q79beti99go25327s9p482
+[.slidesha.re]
+slidesha.re          ".slidesha.re"       "/"          1290937538    0 _bit                 6    4c052b22-003e5-04068-b5a08fa8
+[.nyti.ms]
+nyti.ms              ".nyti.ms"           "/"          1290948894    0 _bit                 6    4c05577e-002a6-00405-b8a08fa8
+[mrtweet.com]
+mrtweet.com          ""                   "/"          1288432088    0 _TwAnalyzer_session  6    BAh7CjoRcGFnZV9oaXN0b3J5WwgiIWh0dHA6Ly9tcnR3ZWV0LmNvbS9ob21lP3M9dXAiIWh0dHA6Ly9tcnR3ZWV0LmNvbS9zaWduaW4%2FdT0iIWh0dHA6Ly9tcnR3ZWV0LmNvbS9ob21lP3M9dXA6EF9jc3JmX3Rva2VuIjFqV3lkQjYwelA1SzhPYXB5SzNTdFkzbmhIaFpyMUl3VEpLbkR2NXRFbXVRPToRb3JpZ2luYWxfdXJpIg8vaG9tZT9zPXVwIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsAOg9zZXNzaW9uX2lkIiVkMmUxZWE5NGZmMWVhZmQ1ZWU5M2Y5ZDI5MWQ0Yzk5MQ%3D%3D--390933d9995ff9d577d89dc939634c0695b04521
+[.mbist.ro]
+mbist.ro             ".mbist.ro"          "/"          1290948895    0 _bit                 6    4c05577f-00060-06a51-b2a08fa8
+[.ericri.es]
+ericri.es            ".ericri.es"         "/"          1290948898    0 _bit                 6    4c055782-0037c-00150-b3a08fa8
+[.cot.ag]
+cot.ag               ".cot.ag"            "/"          1290948905    0 _bit                 6    4c055789-00114-05d53-91a08fa8
+[.j.mp]
+j.mp                 ".j.mp"              "/"          1290990165    0 _bit                 6    4c05f8b5-00363-00bd2-aba08fa8
+[.youtube.com]
+www.youtube.com      ".youtube.com"       "/"          1296195766    0 VISITOR_INFO1_LIVE   4    YZ4dm0jMf-c
+www.youtube.com      ".youtube.com"       "/"          1591095783    0 PREF                 4    f1=40000000
+[.mzl.la]
+mzl.la               ".mzl.la"            "/"          1290990167    0 _bit                 6    4c05f8b7-00299-04276-b8a08fa8
+[.flic.kr]
+flic.kr              ".flic.kr"           "/"          2127585600    0 BX                   4    2b2v01160bu5o&b=3&s=pk
+[flic.kr]
+flic.kr              ""                   "/"          1377791876    0 localization         4    en-us%3Bxx%3Bgr
+[skrci.me]
+skrci.me             ""                   ""           1314719706    0 SMR                  0    3Cip7KnfmErovJe3AhLL8OyPA4qj7eAW
+[.flickr.com]
+www.flickr.com       ".flickr.com"        "/"          2127585600    0 BX                   4    df4r24l60bu5p&b=3&s=bb
+www.flickr.com       ".flickr.com"        "/"          1438681692    0 flbkt                4    testname%3Dsocial_upsell_message%26bucket%3Db%26_exp%3D1284371292%3Aa6f92ae3153bf7de84e75b4270cf091d
+www.flickr.com       ".flickr.com"        "/"          1377791876    0 localization         4    en-us%3Bxx%3Bgr
+[.twitpic.com]
+twitpic.com          ".twitpic.com"       "/"          2551005940    0 twitpic1             4    qbobfcspg3q3urkh6clchl21o1
+[.4sq.com]
+4sq.com              ".4sq.com"           "/"          1290990172    0 _bit                 6    4c05f8bc-003a2-02d63-b2a08fa8
+[.imageshack.us]
+img16.imageshack.us  ".imageshack.us"     "/"          2145916555    0 is_uuid              4    b12c4ae5f4e742aa8e734bcb7ca7b06e
+[yovisto.com]
+yovisto.com          ""                   "/play"      1307014597    0 uuid                 0    3138663
+[.oreil.ly]
+oreil.ly             ".oreil.ly"          "/"          1291025951    0 _bit                 6    4c06847f-00182-06965-b2a08fa8
+[.ted.com]
+on.ted.com           ".on.ted.com"        "/"          1307031554    0 snowball             4    826102f0-5090-012d-80f4-1231390c1602
+[n.pr]
+n.pr                 ""                   "/"          1291027510    0 _bit                 6    4c068a96-001fb-06926-b2a08fa8
+[.huff.to]
+huff.to              ".huff.to"           "/"          1291049241    0 _bit                 6    4c06df79-00060-0770a-91a08fa8
+[.tnw.to]
+tnw.to               ".tnw.to"            "/"          1307054842    0 snowball             4    bb01a730-50c6-012d-bff1-12313b046174
+[.pep.si]
+pep.si               ".pep.si"            "/"          1291049245    0 _bit                 6    4c06df7d-00191-014bd-b2a08fa8
+[.amzn.to]
+amzn.to              ".amzn.to"           "/"          1291049245    0 _bit                 6    4c06df7d-0037c-06a1a-aba08fa8
+[.tcrn.ch]
+tcrn.ch              ".tcrn.ch"           "/"          1291054678    0 _bit                 6    4c06f4b6-001b8-017a0-b8a08fa8
+[.fax.org]
+fax.org              ".fax.org"           "/"          1291076446    0 _bit                 6    4c0749be-00187-056ea-aba08fa8
+[.sitepoint.com]
+www.sitepoint.com    ""                   "/"          1309347259    0 SPabc                4    b
+[.fastcompany.com]
+www.fastcompany.com  ".fastcompany.com"   "/"          1307107062    0 SESS016578d1318953fcdc44103ac4a9b3f3 4    0naogopd7nduoognc2e0dfmcf2
+www.fastcompany.com  ".fastcompany.com"   "/"          1306675062    0 fastcache            4    false
+[.otf.me]
+otf.me               ".otf.me"            "/"          1307116601    0 snowball             4    86625e50-5156-012d-f61a-123138003234
+[.vimeo.com]
+vimeo.com            ".vimeo.com"         "/"          1598521701    0 uid                  4    0
+[icio.us]
+icio.us              ""                   "/"          1310749270    0 delicious_us_production 4    jvluPS3XEtjv5.XlW9MXw.U2yh_SZYP1V4YPz0LNr91RmBosIUPeId35Wv1Gq03NqTWexwaPDBOby.hze0PI_.e64.8jD95HHSCIPCe9ew7riMd7HbzuwsOg.l9exkvPGGr1ou69d.UDZ3MBeq465bNZMWpmV6Sb8hM5TXw8DP6VjoAe3ElAwscrxpvN9uys3skqCpEsQ22u9a2344uyNj3yvTjoOvTFVGZ.izeZVD0KEj3EMzTDxy7Swrb_UT2C62sFO9T6o.kAM9uuJjhLZgIYvzNAJEJCg5GBger2CUCZnVSndgjuDj95prsdqMpCQMOEaYoDeqA-
+[tiny.cc]
+tiny.cc              ""                   ""           1338750997    0 tycctj5bs            0    1275592597
+tiny.cc              ""                   ""           1344020214    0 tycc0jvrk            0    1280861814
+[.productcampberlin.org]
+www.productcampberlin.org ".productcampberlin.org" "/"          1307271780    0 VisitorCookie        4    e247a7ed-e480-4efd-9d60-d6b03da22fe2
+[digg.com]
+digg.com             ""                   "/"          1307292170    0 ccc                  4    1
+digg.com             ""                   "/"          1584546170    0 dcookie              4    f96a42a2ec8178c4237ff1a6dd4a4307
+[.bbc.co.uk]
+id.bbc.co.uk         ".bbc.co.uk"         "/"          1401983434    0 BBC-UID              4    441c70db4c53ecea1314d88200d0023316d41b3ef000704c52a933bf99121c8f0Mozilla%2f5%2e0%20%28compatible%3b%20Konqueror%2f4%2e4%3b%20Linux%29%20KHTML%2f4%2e4%2e3%20%28like%20Gecko%29
+[.engadget.com]
+b.engadget.com       ".engadget.com"      "/"          1292400701    0 UNAUTHID             4    1.d995b15c78a111df8ee4fd1c4c0fb2d6.3bd6
+www.engadget.com     ""                   "/"          1854242393    0 _csoot               4    1276622342712
+www.engadget.com     ".engadget.com"      "/"          1339694655    0 s_pers               4    %20s_getnr%3D1276622655386-New%7C1339694655386%3B%20s_nrgvo%3DNew%7C1339694655394%3B
+[planca.st]
+planca.st            ""                   "/"          1309275298    0 snowball             4    ba3330e8-42c3-47d3-bd7f-7feae9078625
+[cnt.to]
+cnt.to               ""                   "/"          1309275310    0 exp_last_visit       4    962397310
+cnt.to               ""                   "/"          1309275310    0 exp_last_activity    4    1277757310
+[.muo.fm]
+muo.fm               ".muo.fm"            "/"          1293269719    0 _bit                 6    4c28c137-00299-05bec-b8a08fa8
+[.es.pn]
+es.pn                ".es.pn"             "/"          1293269719    0 _bit                 6    4c28c137-003d8-04344-b3a08fa8
+[paidcontent.co.uk]
+paidcontent.co.uk    ""                   "/"          1309275321    0 exp_last_visit       4    962397321
+paidcontent.co.uk    ""                   "/"          1309275321    0 exp_last_activity    4    1277757321
+[.ij.org]
+iam.ij.org           ".iam.ij.org"        "/"          1293290072    0 _bit                 6    4c2910b8-000ba-021a4-b4a08fa8
+[imgur.com]
+imgur.com            ""                   "/"          1309355059    0 OAID                 4    5b4ff173a08f276e19a5630ef0c76519
+[.wsj.com]
+on.wsj.com           ".on.wsj.com"        "/"          1293356063    0 _bit                 6    4c2a127f-0010e-02aa4-91a08fa8
+[.zqi.me]
+zqi.me               ".zqi.me"            "/"          1293386667    0 _bit                 6    4c2a8a0b-001cb-02790-b8a08fa8
+[.mapmytracks.com]
+www.mapmytracks.com  ""                   "/"          1310505294    0 exp_last_visit       4    963605694
+www.mapmytracks.com  ""                   "/"          1310505294    0 exp_last_activity    4    1278965694
+[github.com]
+github.com           ""                   "/"          1577865600    0 _github_ses          6    BAh7BzoRbG9jYWxlX2d1ZXNzIgdlbiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA%3D%3D--b2f4d450281a26d0ac300bc70585b38942866880
+[.kck.st]
+kck.st               ".kck.st"            "/"          1294740886    0 _bit                 6    4c3f33f6-000a5-05e41-91a08fa8
+[bothsid.es]
+bothsid.es           ""                   "/"          1310746494    0 snowball             4    2b4eb006-9b51-47d7-9573-19d2725f6661
+[.4ms.me]
+4ms.me               ".4ms.me"            "/"          1294770037    0 _bit                 6    4c3fa5d5-0000b-0768f-aba08fa8
+[.selnd.com]
+selnd.com            ".selnd.com"         "/"          1294770037    0 _bit                 6    4c3fa5d5-00092-076d1-aba08fa8
+[.qype.co.uk]
+www.qype.co.uk       ""                   "/"          1310775638    0 ab_testing_biz_landing_pages 4    A2
+www.qype.co.uk       ""                   "/"          1310775638    0 ab_testing_adsense_place_page_test 4    B4
+www.qype.co.uk       ""                   "/"          1310775638    0 ab_testing_top_city_pricing 4    A2
+www.qype.co.uk       ""                   "/"          1310775638    0 ab_testing_place_v2  4    B4
+www.qype.co.uk       ""                   "/"          1310775638    0 ab_testing_fulltext_search 4    A4
+www.qype.co.uk       ""                   "/"          1312397820    0 top_tabs             4    ---+%0A-+883%0A-+3%0A-+4%0A-+2%0A-+884%0A-+8%0A-+%3Agettext_key%3A+Events+%40top_tabs%0A++%3Aurl%3A+%2F%25%7Bdomain_id%7D%2Fevents%0A++%3Aid%3A+events%0A
+www.qype.co.uk       ""                   "/"          1312397820    0 tooltips             4    ---+%0Aa%3A+2%0A
+[idek.net]
+idek.net             ""                   "/"          1343069832    0 clickthru-logging    4    idek.net-1280861832.4679-85.178.195.26-263216626
+[text-processing.com]
+text-processing.com  ""                   "/"          1312311427    0 csrftoken            4    dbed460410a14b03adf2142b7a463ba7
+[bt.io]
+bt.io                ""                   "/"          1312397836    0 snowball             4    1e980ff5-77bd-41bc-8db6-991110cb0a0b
+[.fflick.com]
+fflick.com           ".fflick.com"        "/"          1283461620    0 wmsg                 4    1
+[.sdut.us]
+sdut.us              ".sdut.us"           "/"          1296409615    0 _bit                 6    4c58aa6f-0004e-00de4-b5a08fa8
+[.rww.tw]
+rww.tw               ".rww.tw"            "/"          1296473220    0 _bit                 6    4c59a2e4-00329-024cd-b8a08fa8
+[.mnd.ly]
+mnd.ly               ".mnd.ly"            "/"          1296477425    0 _bit                 6    4c59b351-001b2-07a5a-b3a08fa8
+[.zedo.com]
+d3.zedo.com          ".zedo.com"          "/"          1284827176    0 ZEDOIDX              4    21
+d3.zedo.com          ".d3.zedo.com"       "/"          1298155349    0 __utmz               4    2419877.1282387349.1.1.utmcsr=isohunt.com|utmccn=(referral)|utmcmd=referral|utmcct=/js/iframeAd.php
+d3.zedo.com          ".d3.zedo.com"       "/"          1345459349    0 __utma               4    2419877.2118669864.1282387349.1282387349.1282387349.1
+d3.zedo.com          ".zedo.com"          "/"          1285542142    0 FFCap                4    1326B790,159518,150248,150349|0,9,1:0,13,5:1,13,5
+[.vsindex.com]
+www.vsindex.com      ".vsindex.com"       "/"          1298718105    0 __utmz               4    40005669.1282950106.4.4.utmcsr=d3.zedo.com|utmccn=(referral)|utmcmd=referral|utmcct=/jsc/d3/ff2.html
+www.vsindex.com      ".vsindex.com"       "/"          1346022143    0 __utma               4    40005669.1632755071.1282235178.1282387360.1282950106.4
+[.addthis.com]
+s7.addthis.com       ".addthis.com"       "/"          1854242393    0 uid                  4    4c6d5b332c1b1c8a
+s7.addthis.com       ".addthis.com"       "/"          1854242393    0 psc                  4    0
+[.adperium.com]
+ad.adperium.com      ".adperium.com"      "/"          1285442166    0 rsi_segs             4    10001
+[.twitter.com]
+twitter.com          ".twitter.com"       "/"          1283766474    0 k                    4    85.178.192.171.1283161674270703
+[twitter.com]
+twitter.com          ""                   "/"          1285753674    0 guest_id             4    128316167427779524
+[.techstartu.ps]
+techstartu.ps        ".techstartu.ps"     "/"          2145916799    0 reddit_first         4    %7B%22organic_pos%22%3A%201%2C%20%22firsttime%22%3A%20%22first%22%7D
+[.aol.de]
+alicesuchedns.aol.de ""                   "/aol"       1317116895    0 userid               0    9026875170209568485
+alicesuchedns.aol.de ".aol.de"            "/"          1317116895    0 unified_prefs        4    age=300810&safesearch=2
+[.scl.md]
+scl.md               ".scl.md"            "/"          1298692096    0 _bit                 6    4c7b7e60-00185-01485-d8ac8fa8
+[.thecovemovie.com]
+www.thecovemovie.com ".thecovemovie.com"  "/"          1314697700    0 ANONID40333          4    15db97a5-3150-42d3-aadf-4780f1f16064
