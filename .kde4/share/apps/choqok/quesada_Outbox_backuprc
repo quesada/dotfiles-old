@@ -14,6 +14,8 @@ inReplyToUserName=clauwa
 isPrivate=true
 isRead=true
 postId=1196314927
+repeatedFrom=
+repeatedPostId=
 source=
 text=hi Claudia. I missed the phd symposium but if you have time tonight I'd like to talk with you about twitter and streams. Ping me if u see me
 
@@ -33,6 +35,8 @@ inReplyToUserName=revodavid
 isPrivate=true
 isRead=true
 postId=378386564
+repeatedFrom=
+repeatedPostId=
 source=
 text=Hi David. Just contacted sysadmin; he says it redirects to www. I guess it's a good compromise; most browsers would do that for you. thanks!
 
@@ -52,6 +56,8 @@ inReplyToUserName=tinjaw
 isPrivate=true
 isRead=true
 postId=43365970
+repeatedFrom=
+repeatedPostId=
 source=
 text=hey Tinjaw. I'm getting into python. I have a largish project in mind and libraries are better than the Ruby ones (rdflib, networkx, numpy)
 
@@ -71,6 +77,8 @@ inReplyToUserName=tinjaw
 isPrivate=true
 isRead=true
 postId=44201797
+repeatedFrom=
+repeatedPostId=
 source=
 text=Chaim, is there any way to 'send selected blog to console' in pydev? Or in any other editor? I use python interactively, need a kb shortcut
 
@@ -90,6 +98,8 @@ inReplyToUserName=scotchi
 isPrivate=true
 isRead=true
 postId=44521563
+repeatedFrom=
+repeatedPostId=
 source=
 text=HI Scott; Still up for dinner tomorrow 10PM? I don't think I know your address. I'm in P-berg, Gaudy str 20. Talk soon
 
@@ -109,6 +119,8 @@ inReplyToUserName=bengee
 isPrivate=true
 isRead=true
 postId=44555042
+repeatedFrom=
+repeatedPostId=
 source=
 text=Hey Ben! saw your presentation at ISWC2008. Your stuff rocks. I hope you make it big with paggr. If you are ever in Berlin, give me a shout!
 
@@ -128,5 +140,7 @@ inReplyToUserName=JofArnold
 isPrivate=true
 isRead=true
 postId=79175186
+repeatedFrom=
+repeatedPostId=
 source=
 text=Hi Jof, I'm in London this week. Scott wheeler told me you may know if there's anything going on for startup ppl. planning to go to opencafe

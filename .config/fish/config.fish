@@ -20,7 +20,7 @@ set R_HISTFILE ~/.Rhistory
 set HGEDITOR /usr/bin/vim.gnome
 set EDITOR /usr/bin/vim.gnome
 # set env variables
-set PATH /usr/local/sbin/ /sbin /usr/local/bin /usr/bin /bin /opt/bin /usr/x86_64-pc-linux-gnu/gcc-bin/4.4.2 /home/quesada/bin  /home/quesada/bin/bin	/home/quesada/wuala
+set PATH /home/quesada/bin/bin /sbin /usr/local/bin /usr/bin /bin /opt/bin /usr/x86_64-pc-linux-gnu/gcc-bin/4.4.2 /home/quesada/bin	/home/quesada/wuala
 
 # fish vars
 
@@ -82,6 +82,7 @@ function eu; equo update & equo install equo entropy --relaxed; end;
 function ei; equo install ; end;
 function es; equo search ; end;
 
+function pb; ssh quesada@192.168.1.20; end;
 function mpi;	ssh 141.14.157.1; end;
 function hiwi16; ssh 172.22.0.104; end;
 function tmpi; ssh -l quesada -L 12345:172.22.0.104:22 canetoad.mpib-berlin.mpg.de; end;

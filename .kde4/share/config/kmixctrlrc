@@ -33,7 +33,7 @@ volumeRCapture=0
 
 [MixerALSA::HDA_Intel:1.DevCapture:0]
 is_muted=false
-is_recsrc=false
+is_recsrc=true
 name=Capture
 volumeL=0
 volumeLCapture=15
@@ -42,12 +42,12 @@ volumeRCapture=15
 
 [MixerALSA::HDA_Intel:1.DevCapture:1]
 is_muted=false
-is_recsrc=false
+is_recsrc=true
 name=Capture 2
 volumeL=0
-volumeLCapture=0
+volumeLCapture=15
 volumeR=0
-volumeRCapture=0
+volumeRCapture=15
 
 [MixerALSA::HDA_Intel:1.DevHeadphone:0]
 is_muted=false
@@ -87,7 +87,7 @@ volumeR=0
 volumeRCapture=0
 
 [MixerALSA::HDA_Intel:1.DevInput_Source:0]
-enum_id=0
+enum_id=1
 is_muted=false
 is_recsrc=false
 name=Input Source
@@ -97,7 +97,7 @@ volumeR=0
 volumeRCapture=0
 
 [MixerALSA::HDA_Intel:1.DevInput_Source:1]
-enum_id=0
+enum_id=1
 is_muted=false
 is_recsrc=false
 name=Input Source 2
@@ -107,7 +107,7 @@ volumeR=0
 volumeRCapture=0
 
 [MixerALSA::HDA_Intel:1.DevLine_Jack_Mode:0]
-enum_id=0
+enum_id=8821520
 is_muted=false
 is_recsrc=false
 name=Line Jack Mode
@@ -120,7 +120,7 @@ volumeRCapture=0
 is_muted=false
 is_recsrc=false
 name=Master
-volumeL=19
+volumeL=64
 volumeLCapture=0
 volumeR=0
 volumeRCapture=0

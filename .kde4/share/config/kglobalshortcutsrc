@@ -165,7 +165,7 @@ Lock Session=Ctrl+Alt+L,Ctrl+Alt+L,Lock Session
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,Ctrl+Alt+Shift+Del,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,Ctrl+Alt+Shift+PgUp,Reboot Without Confirmation
-Run Command=Pause,Alt+F2,Run Command
+Run Command=Ins,Alt+F2,Run Command
 Run Command on clipboard contents=Alt+Shift+F2,Alt+Shift+F2,Run Command on clipboard contents
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Show System Activity
 Switch User=Ctrl+Alt+Ins,Ctrl+Alt+Ins,Switch User
@@ -177,7 +177,7 @@ solid=none,none,Run Command (runner "Devices" only)
 windows=none,none,Run Command (runner "Windows" only)
 
 [ktorrent]
-_k_friendly_name=ktorrent
+_k_friendly_name=KTorrent
 queue_pause=Alt+Shift+P,Alt+Shift+P,Pause KTorrent
 queue_suspend=,Alt+Shift+P,Suspend Torrents
 show_kt=Alt+Shift+T,Alt+Shift+T,Show/Hide KTorrent

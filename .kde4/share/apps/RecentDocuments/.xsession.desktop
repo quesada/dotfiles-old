@@ -1,6 +1,0 @@
-[Desktop Entry]
-Icon=text-plain
-Name=.xsession
-Type=Link
-URL[$e]=file://$HOME/.xsession
-X-KDE-LastOpenedWith=kwrite

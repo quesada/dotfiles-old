@@ -1,4 +1,4 @@
-# created by KDE, Tue Sep 7 14:20:57 2010
+# created by KDE, Sat Sep 11 15:10:31 2010
 #
 # If you do not want KDE to override your GTK settings, select
 # Appearance -> Colors in the System Settings and disable the checkbox
@@ -7,29 +7,29 @@
 #
 style "default"
 {
-  bg[NORMAL] = { 0.286, 0.306, 0.345 }
-  bg[SELECTED] = { 0.471, 0.533, 0.612 }
-  bg[INSENSITIVE] = { 0.286, 0.306, 0.345 }
-  bg[ACTIVE] = { 0.247, 0.267, 0.298 }
-  bg[PRELIGHT] = { 0.286, 0.306, 0.345 }
+  bg[NORMAL] = { 0.859, 0.843, 0.831 }
+  bg[SELECTED] = { 0.263, 0.675, 0.910 }
+  bg[INSENSITIVE] = { 0.859, 0.843, 0.831 }
+  bg[ACTIVE] = { 0.729, 0.702, 0.682 }
+  bg[PRELIGHT] = { 0.859, 0.843, 0.831 }
 
-  base[NORMAL] = { 0.235, 0.251, 0.282 }
-  base[SELECTED] = { 0.471, 0.533, 0.612 }
-  base[INSENSITIVE] = { 0.286, 0.306, 0.345 }
-  base[ACTIVE] = { 0.471, 0.533, 0.612 }
-  base[PRELIGHT] = { 0.471, 0.533, 0.612 }
+  base[NORMAL] = { 1.000, 1.000, 1.000 }
+  base[SELECTED] = { 0.263, 0.675, 0.910 }
+  base[INSENSITIVE] = { 0.859, 0.843, 0.831 }
+  base[ACTIVE] = { 0.263, 0.675, 0.910 }
+  base[PRELIGHT] = { 0.263, 0.675, 0.910 }
 
-  text[NORMAL] = { 0.824, 0.871, 0.941 }
-  text[SELECTED] = { 0.820, 0.882, 0.957 }
-  text[INSENSITIVE] = { 0.247, 0.267, 0.298 }
-  text[ACTIVE] = { 0.820, 0.882, 0.957 }
-  text[PRELIGHT] = { 0.820, 0.882, 0.957 }
+  text[NORMAL] = { 0.094, 0.086, 0.082 }
+  text[SELECTED] = { 1.000, 1.000, 1.000 }
+  text[INSENSITIVE] = { 0.729, 0.702, 0.682 }
+  text[ACTIVE] = { 1.000, 1.000, 1.000 }
+  text[PRELIGHT] = { 1.000, 1.000, 1.000 }
 
-  fg[NORMAL] = { 0.714, 0.757, 0.816 }
-  fg[SELECTED] = { 0.820, 0.882, 0.957 }
-  fg[INSENSITIVE] = { 0.247, 0.267, 0.298 }
-  fg[ACTIVE] = { 0.714, 0.757, 0.816 }
-  fg[PRELIGHT] = { 0.714, 0.757, 0.816 }
+  fg[NORMAL] = { 0.106, 0.098, 0.094 }
+  fg[SELECTED] = { 1.000, 1.000, 1.000 }
+  fg[INSENSITIVE] = { 0.729, 0.702, 0.682 }
+  fg[ACTIVE] = { 0.106, 0.098, 0.094 }
+  fg[PRELIGHT] = { 0.106, 0.098, 0.094 }
 }
 
 class "*" style "default"
@@ -47,7 +47,7 @@ widget "gtk-tooltips" style "ToolTip"
 
 style "MenuItem"
 {
-  bg[PRELIGHT] = { 0.471, 0.533, 0.612 }
+  bg[PRELIGHT] = { 0.263, 0.675, 0.910 }
 }
 
 class "*MenuItem" style "MenuItem"

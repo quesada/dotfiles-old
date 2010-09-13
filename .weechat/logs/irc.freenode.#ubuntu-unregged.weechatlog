@@ -1233,3 +1233,713 @@
 2010-08-23 09:00:39		irc: disconnected from server
 2010-08-23 09:14:08		irc: disconnected from server
 2010-08-23 09:40:52		irc: disconnected from server
+2010-09-09 00:58:33	-->	quesada (~quesada@chello212186009091.tirol.surfer.at) has joined #ubuntu-unregged
+2010-09-09 00:58:33	--	Topic for #ubuntu-unregged is "If you haven't already, then please register your nickname to join #ubuntu - We are experiencing technical difficulties. Instructions at https://help.ubuntu.com/community/InternetRelayChat/Registration - Use « /join #ubuntu » to eventually join the support channel)"
+2010-09-09 00:58:33	--	Topic set by LjL (~ljl@unaffiliated/ljl) on Wed, 08 Sep 2010 18:01:16
+2010-09-09 00:58:33	--	Nicks #ubuntu-unregged: [@bazhang @ChanServ @ejat @FloodBot1 @FloodBot2 @FloodBot3 @FloodBot4 @IdleOne @idoru @kloeri @LjL @LjL-Temp @marienz @mquin @niko @Pici @rww @tomaw @tsimpson @zkriesse [NNUser] __wolverine _harri_ Akuma allik Ameth apelgate aprovencio avi_ awolfson Bananaburger basso bergman BlaDe^ blink BLZbubba_ brebrebrebre buntunub catojo cbobach cdpuk chcat claw cwill damian dankobum_ DaZ dddw dgm_077 dthacker emc esperegu Finnish flowbee__ flutra fntstcdn frankbro Funhouse G-Bleezy gartral geenna german Greyhound- Guest5427 Guldlok hoppyite invader jdpillon jean-claude jofo JonMelamut jrolland-kubuntu kad_ kadu kavurt kdog Kitar|st Konstigt krachny Line_ lol_h luist MAAAAAD maverick meisterB merkelis Milos__ mqueiros_ Mud murphy mythlove n0sq_ naund NDPMacBook Nich__ ninjai nUboon2Age numen o0ze oblu OmegaPhil1 padeBoi PaulB PEBMAC permalac phonic Plinker_ poff prince_ pushpop quesada Ralfi renato rgreening roffe ServerTechPro Shurakai_ silverpower_ silverraindog Simon-MPFH SJr Skynet- sladen slashiter SmartSsa snow_usa sp219 styx____ SubCool subcool_ tankdriver tdn techhelper1 testi__ TheNull thierry__ thopiekar Tomcat_ha Toothpick travisgriggs u7_ usr13 Vanadis vox Walzmyn WarHitex wazzup Wursti xow ZMR zyware]
+2010-09-09 00:58:33	--	Channel #ubuntu-unregged: 151 nicks (20 ops, 0 halfops, 0 voices, 131 normals)
+2010-09-09 00:58:35	--	Channel created on Tue, 27 Jan 2009 06:27:44
+2010-09-09 00:58:38	@FloodBot1	Hi quesada, this is a security check to ensure that you're a human: What is the last letter of the English alphabet?
+2010-09-09 00:58:44	quesada	z
+2010-09-09 00:58:47	<--	thierry__ (~thierry@88.173.63.71) has quit (Client Quit)
+2010-09-09 00:58:47	@FloodBot1	quesada: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 00:59:19	-->	sgh (~quassel@0x4dd5bf76.adsl.cybercity.dk) has joined #ubuntu-unregged
+2010-09-09 00:59:20	@FloodBot1	Hi sgh, this is a security check to ensure that you're a human: How much is 6 and 2 (7+2)? (type a digit)
+2010-09-09 00:59:25	-->	wessel (~wessel@93.125.149.188) has joined #ubuntu-unregged
+2010-09-09 00:59:28	@FloodBot1	Hi wessel, this is a security check to ensure that you're a human: How many seconds are there in a minute? (type digits)
+2010-09-09 00:59:34	@FloodBot1	invader: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 00:59:47	@FloodBot1	wessel: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:00:28	-->	nafri (~irfan@blk-89-198-57.eastlink.ca) has joined #ubuntu-unregged
+2010-09-09 01:00:30	@FloodBot1	Hi nafri, this is a security check to ensure that you're a human: What is the letter of the alphabet immediately after A?
+2010-09-09 01:00:40	-->	cblock (~cblock@rrcs-76-79-183-154.west.biz.rr.com) has joined #ubuntu-unregged
+2010-09-09 01:00:43	@FloodBot1	Hi cblock, this is a security check to ensure that you're a human: Is Ubuntu the best operating system in the world?
+2010-09-09 01:00:48	-->	manuel_ (~manuel@88.147.8.202) has joined #ubuntu-unregged
+2010-09-09 01:00:49	@FloodBot1	Hi manuel_, this is a security check to ensure that you're a human: What is the first name of Richard Stallman (the founder of the GNU toolsuite that Ubuntu uses)?
+2010-09-09 01:01:37	@FloodBot1	manuel_: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:01:46	-->	ltibor65 (~ltibor65@C3E4D535.dsl.pool.telekom.hu) has joined #ubuntu-unregged
+2010-09-09 01:01:48	@FloodBot1	Hi ltibor65, this is a security check to ensure that you're a human: APT is Ubuntu's packaging system. How many letters does the word 'APT' have? (type a digit)
+2010-09-09 01:01:48	-->	jshriver (~jshriver@cblmdm24-53-177-197.buckeyecom.net) has joined #ubuntu-unregged
+2010-09-09 01:01:52	@FloodBot1	Hi jshriver, this is a security check to ensure that you're a human: What language is spoken in Germany?
+2010-09-09 01:01:59	-->	Sumo-Ente (~cvhansen@i577A41EA.versanet.de) has joined #ubuntu-unregged
+2010-09-09 01:02:05	@FloodBot1	Hi Sumo-Ente, this is a security check to ensure that you're a human: What color is an orange orango?
+2010-09-09 01:02:14	@FloodBot1	jshriver: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:02:32	<--	cbobach (~cbobach@0x83a4f5be.abnxx3.adsl-dhcp.tele.dk) has quit (Ping timeout: 272 seconds)
+2010-09-09 01:02:35	-->	lorentz_ (~lorentz@88.207.167.102) has joined #ubuntu-unregged
+2010-09-09 01:02:39	@FloodBot1	ltibor65: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:02:40	@FloodBot1	Hi lorentz_, this is a security check to ensure that you're a human: Type the number 4 in letters, not in digits
+2010-09-09 01:02:59	<--	naund (~naund@p5DF12744.dip0.t-ipconnect.de) has left #ubuntu-unregged
+2010-09-09 01:03:27	-->	fujnky (~quassel@adsl-dyn-88-208-134-35.heliweb.de) has joined #ubuntu-unregged
+2010-09-09 01:03:30	@FloodBot1	Hi fujnky, this is a security check to ensure that you're a human: How many letters are there in the word 'free' as in speech? (type a digit)
+2010-09-09 01:03:42	-->	schmidt0r (~daniel@dslb-188-100-154-079.pools.arcor-ip.net) has joined #ubuntu-unregged
+2010-09-09 01:03:45	@FloodBot1	Hi schmidt0r, this is a security check to ensure that you're a human: A terminal is the place where you type commands in Linux. How many letters does the word 'terminal' have? (type a digit)
+2010-09-09 01:04:09	-->	Erikw (~Erikw@c-b21e86a4-74736162.cust.telenor.se) has joined #ubuntu-unregged
+2010-09-09 01:04:10	@FloodBot1	Hi Erikw, this is a security check to ensure that you're a human: What is the first name of Richard Stallman (the founder of the GNU toolsuite that Ubuntu uses)?
+2010-09-09 01:04:14	@FloodBot1	schmidt0r: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:04:24	-->	LohnS_ (~LeeWJ@dhcp-077-248-233-051.chello.nl) has joined #ubuntu-unregged
+2010-09-09 01:04:26	@FloodBot1	Hi LohnS_, this is a security check to ensure that you're a human: What continent is France in?
+2010-09-09 01:04:31	<--	lorentz_ (~lorentz@88.207.167.102) has left #ubuntu-unregged
+2010-09-09 01:05:29	-->	TimeRider (~steve@82.132.248.218) has joined #ubuntu-unregged
+2010-09-09 01:05:30	@FloodBot1	Hi TimeRider, this is a security check to ensure that you're a human: How much is 2 and 1 (2+1)? (type a digit)
+2010-09-09 01:05:31	<--	roffe (~roffe@92-33-182-163.tn.glocalnet.net) has quit (Ping timeout: 276 seconds)
+2010-09-09 01:05:56	-->	Bertrand (~bl8@88.207.167.102) has joined #ubuntu-unregged
+2010-09-09 01:05:59	@FloodBot1	Hi Bertrand, this is a security check to ensure that you're a human: What day comes before Sunday?
+2010-09-09 01:06:02	-->	jb__ (~jb@2a01:e35:8a43:5ea0:211:9ff:fe5a:746a) has joined #ubuntu-unregged
+2010-09-09 01:06:03	@FloodBot1	Hi jb__, this is a security check to ensure that you're a human: What color is an orange orango?
+2010-09-09 01:06:22	-->	kain_ (~kain@208.92.20.86) has joined #ubuntu-unregged
+2010-09-09 01:06:22	<--	Bertrand (~bl8@88.207.167.102) has left #ubuntu-unregged
+2010-09-09 01:06:22	@FloodBot1	Hi kain_, this is a security check to ensure that you're a human: What is the letter between S and U in the alphabet?
+2010-09-09 01:06:34	-->	xover (~rich@41-218-199-3-adsl-dyn.4u.com.gh) has joined #ubuntu-unregged
+2010-09-09 01:06:36	-->	omarts (~omarts@41.96.42.8) has joined #ubuntu-unregged
+2010-09-09 01:06:37	@FloodBot1	Hi xover, this is a security check to ensure that you're a human: What language is spoken in Italy?
+2010-09-09 01:06:39	@FloodBot1	Hi omarts, this is a security check to ensure that you're a human: What is the first letter in the word 'Gentoo'?
+2010-09-09 01:06:45	@FloodBot1	kain_: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:07:06	<--	omarts (~omarts@41.96.42.8) has quit (Client Quit)
+2010-09-09 01:07:27	<--	sgh (~quassel@0x4dd5bf76.adsl.cybercity.dk) has quit (Remote host closed the connection)
+2010-09-09 01:07:32	@FloodBot1	xover: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:07:54	<--	jshriver (~jshriver@cblmdm24-53-177-197.buckeyecom.net) has left #ubuntu-unregged
+2010-09-09 01:08:06	-->	donkeyyy (~computer0@d24-141-167-11.home.cgocable.net) has joined #ubuntu-unregged
+2010-09-09 01:08:10	@FloodBot1	Hi donkeyyy, this is a security check to ensure that you're a human: What is Mark Shuttleworth's (Ubuntu's founder) first name?
+2010-09-09 01:08:20	@FloodBot1	donkeyyy: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:08:21	-->	skyladyy (~eugenia@151.82.136.246) has joined #ubuntu-unregged
+2010-09-09 01:08:22	<--	kain_ (~kain@208.92.20.86) has left #ubuntu-unregged
+2010-09-09 01:08:22	@FloodBot1	Hi skyladyy, this is a security check to ensure that you're a human: How many days are in a week? (type a digit)
+2010-09-09 01:08:27	-->	lukosanthropos (~lukosanth@92.28.14.154) has joined #ubuntu-unregged
+2010-09-09 01:08:32	@FloodBot1	Hi lukosanthropos, this is a security check to ensure that you're a human: What is the first letter of the English alphabet?
+2010-09-09 01:08:35	-->	cewalker (~cewalker@ubuntu755.dosa.northwestern.edu) has joined #ubuntu-unregged
+2010-09-09 01:08:39	@FloodBot1	Hi cewalker, this is a security check to ensure that you're a human: APT is Ubuntu's packaging system. How many letters does the word 'APT' have? (type a digit)
+2010-09-09 01:08:40	<--	maverick (~maverick@193.34.64.84) has quit (Quit: Leaving)
+2010-09-09 01:08:41	-->	di||itante (~di||itant@w220.z064000227.nyc-ny.dsl.cnc.net) has joined #ubuntu-unregged
+2010-09-09 01:08:42	@FloodBot1	Hi di||itante, this is a security check to ensure that you're a human: How much is 3 and 4 (3+4)? (type a digit)
+2010-09-09 01:08:45	-->	nero_ (~nero@ip-81-11-229-3.dsl.scarlet.be) has joined #ubuntu-unregged
+2010-09-09 01:08:48	@FloodBot1	Hi nero_, this is a security check to ensure that you're a human: How much is 3 times 2 (3*2)? (type a digit)
+2010-09-09 01:09:04	@FloodBot1	nero_: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:09:18	@FloodBot1	cewalker: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:09:20	<--	skyladyy (~eugenia@151.82.136.246) has quit (Client Quit)
+2010-09-09 01:09:30	-->	sgh (~quassel@0x4dd5bf76.adsl.cybercity.dk) has joined #ubuntu-unregged
+2010-09-09 01:09:32	-->	june (~june@125.107.1.213) has joined #ubuntu-unregged
+2010-09-09 01:09:33	@FloodBot1	Hi sgh, this is a security check to ensure that you're a human: How much is 6 and 2 (7+2)? (type a digit)
+2010-09-09 01:09:36	@FloodBot1	Hi june, this is a security check to ensure that you're a human: What color is a red carpet?
+2010-09-09 01:09:52	<--	cewalker (~cewalker@ubuntu755.dosa.northwestern.edu) has quit (Read error: Connection reset by peer)
+2010-09-09 01:09:57	-->	donnkeyyyy (~u7@bas1-oakville30-2925331708.dsl.bell.ca) has joined #ubuntu-unregged
+2010-09-09 01:09:58	<--	xover (~rich@41-218-199-3-adsl-dyn.4u.com.gh) has left #ubuntu-unregged
+2010-09-09 01:09:59	@FloodBot1	Hi donnkeyyyy, this is a security check to ensure that you're a human: What is the first digit in the number 456?
+2010-09-09 01:10:51	-->	s0me0ne (~kvirc@cpc1-walt6-0-0-cust855.13-2.cable.virginmedia.com) has joined #ubuntu-unregged
+2010-09-09 01:10:53	-->	u7__ (~u7@d24-141-167-11.home.cgocable.net) has joined #ubuntu-unregged
+2010-09-09 01:10:54	@FloodBot1	Hi s0me0ne, this is a security check to ensure that you're a human: What is the first name of Richard Stallman (the founder of the GNU toolsuite that Ubuntu uses)?
+2010-09-09 01:10:57	@FloodBot1	Hi u7__, this is a security check to ensure that you're a human: Type the word 'KDE' (KDE is an alternative to GNOME, used in Kubuntu)
+2010-09-09 01:11:20	@FloodBot1	s0me0ne: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:11:47	-->	magical (~magical@87-194-209-56.bethere.co.uk) has joined #ubuntu-unregged
+2010-09-09 01:11:48	<--	magical (~magical@87-194-209-56.bethere.co.uk) has quit (Changing host)
+2010-09-09 01:11:48	-->	magical (~magical@unaffiliated/magical) has joined #ubuntu-unregged
+2010-09-09 01:11:48	@FloodBot1	Hi magical, this is a security check to ensure that you're a human: What is the language spoken in France?
+2010-09-09 01:11:50	<--	s0me0ne (~kvirc@cpc1-walt6-0-0-cust855.13-2.cable.virginmedia.com) has left #ubuntu-unregged
+2010-09-09 01:11:50	@FloodBot1	Hi magical, this is a security check to ensure that you're a human: What is the language spoken in France?
+2010-09-09 01:12:15	<--	LohnS_ (~LeeWJ@dhcp-077-248-233-051.chello.nl) has quit (Ping timeout: 245 seconds)
+2010-09-09 01:13:08	<--	donkeyyy (~computer0@d24-141-167-11.home.cgocable.net) has quit (Ping timeout: 240 seconds)
+2010-09-09 01:13:08	<--	u7_ (~u7@d24-141-167-11.home.cgocable.net) has quit (Ping timeout: 240 seconds)
+2010-09-09 01:13:23	<--	june (~june@125.107.1.213) has quit (Remote host closed the connection)
+2010-09-09 01:13:34	-->	Hopsa (~Hopsa@h156n2fls32o256.telia.com) has joined #ubuntu-unregged
+2010-09-09 01:13:46	@FloodBot1	Hi Hopsa, this is a security check to ensure that you're a human: How much is 3 times 2 (3*2)? (type a digit)
+2010-09-09 01:14:20	<--	donnkeyyyy (~u7@bas1-oakville30-2925331708.dsl.bell.ca) has quit (Ping timeout: 240 seconds)
+2010-09-09 01:14:28	@FloodBot1	Hopsa: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:14:28	-->	MadAGu (~madagu@ppp079166110178.dsl.hol.gr) has joined #ubuntu-unregged
+2010-09-09 01:14:32	@FloodBot1	Hi MadAGu, this is a security check to ensure that you're a human: Which language is spoken in Japan?
+2010-09-09 01:14:44	<--	Hopsa (~Hopsa@h156n2fls32o256.telia.com) has left #ubuntu-unregged
+2010-09-09 01:16:04	-->	ndeah (~ndeah@p54BD991E.dip0.t-ipconnect.de) has joined #ubuntu-unregged
+2010-09-09 01:16:08	@FloodBot1	Hi ndeah, this is a security check to ensure that you're a human: Which language is spoken in Japan?
+2010-09-09 01:16:23	-->	stefan_ (~stefan@p54837C4D.dip.t-dialin.net) has joined #ubuntu-unregged
+2010-09-09 01:16:27	@FloodBot1	Hi stefan_, this is a security check to ensure that you're a human: What is the first letter in the word 'Ubuntu'?
+2010-09-09 01:16:50	<--	TimeRider (~steve@82.132.248.218) has quit (Ping timeout: 240 seconds)
+2010-09-09 01:17:06	<--	stefan_ (~stefan@p54837C4D.dip.t-dialin.net) has left #ubuntu-unregged
+2010-09-09 01:17:06	<--	krachny (~dan@stgt-5f73af06.pool.mediaWays.net) has quit (Quit: Wacka Wacka)
+2010-09-09 01:17:11	-->	harjot (~quassel@5ad2b64a.bb.sky.com) has joined #ubuntu-unregged
+2010-09-09 01:17:13	@FloodBot1	Hi harjot, this is a security check to ensure that you're a human: What day comes before Saturday?
+2010-09-09 01:17:52	-->	Zensursula (~quassel@brln-4dbc6066.pool.mediaWays.net) has joined #ubuntu-unregged
+2010-09-09 01:17:53	@FloodBot1	ndeah: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:17:53	@FloodBot1	Hi Zensursula, this is a security check to ensure that you're a human: Type the number 1 in letters, not in digits
+2010-09-09 01:18:10	<--	ndeah (~ndeah@p54BD991E.dip0.t-ipconnect.de) has left #ubuntu-unregged
+2010-09-09 01:18:52	<--	lukosanthropos (~lukosanth@92.28.14.154) has left #ubuntu-unregged
+2010-09-09 01:18:52	-->	s0n1c (~s0n1c@CPE000f3d646695-CM001a6680ca8a.cpe.net.cable.rogers.com) has joined #ubuntu-unregged
+2010-09-09 01:18:53	@FloodBot1	harjot: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:18:56	@FloodBot1	Hi s0n1c, this is a security check to ensure that you're a human: How much is 2 and 1 (2+1)? (type a digit)
+2010-09-09 01:19:05	-->	Gokul__ (Gokul@121.245.39.238) has joined #ubuntu-unregged
+2010-09-09 01:19:09	@FloodBot1	Hi Gokul__, this is a security check to ensure that you're a human: Type the word 'KDE' (KDE is an alternative to GNOME, used in Kubuntu)
+2010-09-09 01:19:21	<--	s0n1c (~s0n1c@CPE000f3d646695-CM001a6680ca8a.cpe.net.cable.rogers.com) has quit (Remote host closed the connection)
+2010-09-09 01:19:41	-->	s0n1c (~s0n1c@CPE000f3d646695-CM001a6680ca8a.cpe.net.cable.rogers.com) has joined #ubuntu-unregged
+2010-09-09 01:19:41	-->	strangeUn (~user@chello084115174066.graz.surfer.at) has joined #ubuntu-unregged
+2010-09-09 01:19:42	@FloodBot1	Hi s0n1c, this is a security check to ensure that you're a human: How much is 2 and 1 (2+1)? (type a digit)
+2010-09-09 01:19:47	@FloodBot1	Hi strangeUn, this is a security check to ensure that you're a human: Type the number 9 in letters, not in digits
+2010-09-09 01:19:49	<--	gartral (~gareth@unaffiliated/gartral) has quit (Ping timeout: 276 seconds)
+2010-09-09 01:19:54	<--	merkelis (~a@78-60-41-156.static.zebra.lt) has quit (Ping timeout: 265 seconds)
+2010-09-09 01:19:56	-->	jerknextdoor (~cldershem@adsl-69-230-56-226.dsl.irvnca.pacbell.net) has joined #ubuntu-unregged
+2010-09-09 01:19:59	@FloodBot1	Hi jerknextdoor, this is a security check to ensure that you're a human: What is the last digit in the number 345?
+2010-09-09 01:20:01	-->	cewalker (~cewalker@ubuntu755.dosa.northwestern.edu) has joined #ubuntu-unregged
+2010-09-09 01:20:03	@FloodBot1	Hi cewalker, this is a security check to ensure that you're a human: APT is Ubuntu's packaging system. How many letters does the word 'APT' have? (type a digit)
+2010-09-09 01:20:05	<--	jerknextdoor (~cldershem@adsl-69-230-56-226.dsl.irvnca.pacbell.net) has left #ubuntu-unregged
+2010-09-09 01:20:08	@FloodBot1	strangeUn: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:20:20	-->	jerknextdoor (~cldershem@adsl-69-230-56-226.dsl.irvnca.pacbell.net) has joined #ubuntu-unregged
+2010-09-09 01:20:20	@FloodBot1	Hi jerknextdoor, this is a security check to ensure that you're a human: What is the last digit in the number 345?
+2010-09-09 01:20:37	@FloodBot1	jerknextdoor: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:20:50	@FloodBot1	Gokul__: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:20:53	<--	jerknextdoor (~cldershem@adsl-69-230-56-226.dsl.irvnca.pacbell.net) has left #ubuntu-unregged
+2010-09-09 01:20:56	-->	al__ (~al@ip-95-220-120-160.bb.netbynet.ru) has joined #ubuntu-unregged
+2010-09-09 01:20:58	<--	MAAAAAD (~MAAAAD@p4FD10EDB.dip0.t-ipconnect.de) has quit (Ping timeout: 276 seconds)
+2010-09-09 01:20:59	@FloodBot1	Hi al__, this is a security check to ensure that you're a human: A terminal is the place where you type commands in Linux. How many letters does the word 'terminal' have? (type a digit)
+2010-09-09 01:21:09	<--	al__ (~al@ip-95-220-120-160.bb.netbynet.ru) has left #ubuntu-unregged
+2010-09-09 01:21:29	-->	bsaibes (~bsaibes@cpe-66-68-21-79.austin.res.rr.com) has joined #ubuntu-unregged
+2010-09-09 01:21:32	-->	gartral (~gareth@unaffiliated/gartral) has joined #ubuntu-unregged
+2010-09-09 01:21:32	@FloodBot1	Hi bsaibes, this is a security check to ensure that you're a human: What language is spoken in Germany?
+2010-09-09 01:21:38	@FloodBot1	Hi gartral, this is a security check to ensure that you're a human: Type the number 3 in letters, not in digits
+2010-09-09 01:22:04	<--	s0n1c (~s0n1c@CPE000f3d646695-CM001a6680ca8a.cpe.net.cable.rogers.com) has quit (Remote host closed the connection)
+2010-09-09 01:22:13	-->	bonerz (~cldershem@adsl-69-230-56-226.dsl.irvnca.pacbell.net) has joined #ubuntu-unregged
+2010-09-09 01:22:16	@FloodBot1	Hi bonerz, this is a security check to ensure that you're a human: What is the first letter of the English alphabet?
+2010-09-09 01:22:18	--	bonerz is now known as jerknextdoor
+2010-09-09 01:22:20	@FloodBot1	jerknextdoor, you've changed your nickname, so I'll have to ask again: What is the last digit in the number 345?
+2010-09-09 01:22:29	<--	jerknextdoor (~cldershem@adsl-69-230-56-226.dsl.irvnca.pacbell.net) has left #ubuntu-unregged
+2010-09-09 01:22:47	<--	strangeUn (~user@chello084115174066.graz.surfer.at) has left #ubuntu-unregged
+2010-09-09 01:23:41	-->	era (~eric@ool-4a595381.dyn.optonline.net) has joined #ubuntu-unregged
+2010-09-09 01:23:42	@FloodBot1	Hi era, this is a security check to ensure that you're a human: What is Linus Torvalds's (the creator of Linux) last name?
+2010-09-09 01:23:55	@FloodBot1	era: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:24:02	<--	sgh (~quassel@0x4dd5bf76.adsl.cybercity.dk) has quit (Ping timeout: 240 seconds)
+2010-09-09 01:24:16	<--	ltibor65 (~ltibor65@C3E4D535.dsl.pool.telekom.hu) has quit (Quit: Távozom)
+2010-09-09 01:24:21	<--	Finnish (~urkki@212-146-42-161.bb.dnainternet.fi) has quit (Quit: Ex-Chat)
+2010-09-09 01:24:33	-->	sgh (~quassel@0x4dd5bf76.adsl.cybercity.dk) has joined #ubuntu-unregged
+2010-09-09 01:24:37	@FloodBot1	Hi sgh, this is a security check to ensure that you're a human: How much is 6 and 2 (7+2)? (type a digit)
+2010-09-09 01:26:23	-->	phantomdata (~jordancox@64-83-201-13.dhcp.stcd.mn.charter.com) has joined #ubuntu-unregged
+2010-09-09 01:26:27	@FloodBot1	Hi phantomdata, this is a security check to ensure that you're a human: Type the number 3 in letters, not in digits
+2010-09-09 01:26:29	-->	skijunkie92 (~cthulu@lawn-143-215-109-191.lawn.gatech.edu) has joined #ubuntu-unregged
+2010-09-09 01:26:32	@FloodBot1	Hi skijunkie92, this is a security check to ensure that you're a human: What is the first letter in the word 'Gentoo'?
+2010-09-09 01:26:35	<--	aprovencio (~xand@189.63.241.128) has quit (Read error: Operation timed out)
+2010-09-09 01:26:40	@FloodBot1	skijunkie92: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:26:53	<--	u7__ (~u7@d24-141-167-11.home.cgocable.net) has quit (Ping timeout: 252 seconds)
+2010-09-09 01:27:42	<--	catojo (~catojo@201.29.158.185) has quit (Quit: Ex-Chat)
+2010-09-09 01:28:03	-->	_raven_ (~raven@dslb-094-216-081-045.pools.arcor-ip.net) has joined #ubuntu-unregged
+2010-09-09 01:28:06	@FloodBot1	Hi _raven_, this is a security check to ensure that you're a human: How much is 10 minus 5 (10-5)? (type a digit)
+2010-09-09 01:28:20	-->	hega (~root@187.142.221.22) has joined #ubuntu-unregged
+2010-09-09 01:28:24	@FloodBot1	Hi hega, this is a security check to ensure that you're a human: How many months are there in a year? (type digits)
+2010-09-09 01:28:25	<--	_raven_ (~raven@dslb-094-216-081-045.pools.arcor-ip.net) has left #ubuntu-unregged
+2010-09-09 01:28:34	-->	IceF (~icefisher@93-136-3-204.adsl.net.t-com.hr) has joined #ubuntu-unregged
+2010-09-09 01:28:34	<--	hega (~root@187.142.221.22) has quit (Client Quit)
+2010-09-09 01:28:34	@FloodBot1	Hi IceF, this is a security check to ensure that you're a human: How many legs does a cat have? (type a digit)
+2010-09-09 01:28:53	@FloodBot1	IceF: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:29:28	<--	fujnky (~quassel@adsl-dyn-88-208-134-35.heliweb.de) has quit (Read error: Connection reset by peer)
+2010-09-09 01:30:11	-->	AkumaStreak (~jeni@c-24-15-52-35.hsd1.il.comcast.net) has joined #ubuntu-unregged
+2010-09-09 01:30:14	@FloodBot1	Hi AkumaStreak, this is a security check to ensure that you're a human: How much is 3 times 2 (3*2)? (type a digit)
+2010-09-09 01:30:54	-->	aguitel (~aguitel@200-127-239-150.cab.prima.net.ar) has joined #ubuntu-unregged
+2010-09-09 01:30:56	@FloodBot1	Hi aguitel, this is a security check to ensure that you're a human: Which number lies between 8 and 10? (type a digit)
+2010-09-09 01:31:11	<--	AkumaStreak (~jeni@c-24-15-52-35.hsd1.il.comcast.net) has quit (Client Quit)
+2010-09-09 01:31:18	<--	skijunkie92 (~cthulu@lawn-143-215-109-191.lawn.gatech.edu) has left #ubuntu-unregged
+2010-09-09 01:31:21	<--	OmegaPhil1 (de1337@ns305581.ovh.net) has left #ubuntu-unregged
+2010-09-09 01:31:23	-->	Yoosef (~chatzilla@217.219.243.206) has joined #ubuntu-unregged
+2010-09-09 01:31:25	-->	OmegaPhil1 (de1337@ns305581.ovh.net) has joined #ubuntu-unregged
+2010-09-09 01:31:26	@FloodBot1	Hi Yoosef, this is a security check to ensure that you're a human: How much is 2 times 2 (2*2)? (type a digit)
+2010-09-09 01:31:29	@FloodBot1	Hi OmegaPhil1, this is a security check to ensure that you're a human: What is the main official language in Spain?
+2010-09-09 01:31:35	<--	harjot (~quassel@5ad2b64a.bb.sky.com) has quit (Remote host closed the connection)
+2010-09-09 01:31:47	-->	barberan (~kvirc@80.92.106.75) has joined #ubuntu-unregged
+2010-09-09 01:31:47	<--	cblock (~cblock@rrcs-76-79-183-154.west.biz.rr.com) has quit (Remote host closed the connection)
+2010-09-09 01:31:48	@FloodBot1	Yoosef: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:31:52	@FloodBot1	Hi barberan, this is a security check to ensure that you're a human: What continent is China in?
+2010-09-09 01:32:03	-->	RPMiSO (~DS_@cpc2-aztw22-0-0-cust408.aztw.cable.virginmedia.com) has joined #ubuntu-unregged
+2010-09-09 01:32:05	@FloodBot1	Hi RPMiSO, this is a security check to ensure that you're a human: How much is 3 times 3 (3*3)? (type a digit)
+2010-09-09 01:32:05	<--	manuel_ (~manuel@88.147.8.202) has quit (Quit: Ik ga weg)
+2010-09-09 01:32:17	@FloodBot1	RPMiSO: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:32:19	<--	Yoosef (~chatzilla@217.219.243.206) has left #ubuntu-unregged
+2010-09-09 01:32:19	@FloodBot1	aguitel: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:32:30	<--	RPMiSO (~DS_@cpc2-aztw22-0-0-cust408.aztw.cable.virginmedia.com) has left #ubuntu-unregged
+2010-09-09 01:32:31	<--	aguitel (~aguitel@200-127-239-150.cab.prima.net.ar) has left #ubuntu-unregged
+2010-09-09 01:32:34	-->	Cassapanco (~giulio@151.77.28.246) has joined #ubuntu-unregged
+2010-09-09 01:32:34	-->	sharky (~sharky@c-66-177-111-122.hsd1.fl.comcast.net) has joined #ubuntu-unregged
+2010-09-09 01:32:35	@FloodBot1	Hi Cassapanco, this is a security check to ensure that you're a human: What is Mark Shuttleworth's (Ubuntu's founder) first name?
+2010-09-09 01:32:41	@FloodBot1	Hi sharky, this is a security check to ensure that you're a human: APT is Ubuntu's packaging system. How many letters does the word 'APT' have? (type a digit)
+2010-09-09 01:32:51	<--	Cassapanco (~giulio@151.77.28.246) has left #ubuntu-unregged
+2010-09-09 01:33:02	-->	Nich_ (~steven@brmn-4d0afd68.pool.mediaWays.net) has joined #ubuntu-unregged
+2010-09-09 01:33:05	@FloodBot1	Hi Nich_, this is a security check to ensure that you're a human: How much is 10 minus 5 (10-5)? (type a digit)
+2010-09-09 01:33:24	@FloodBot1	sharky: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:34:11	-->	Luca_Nola (~luciano@ppp-91-25.98-62.inwind.it) has joined #ubuntu-unregged
+2010-09-09 01:34:15	@FloodBot1	Hi Luca_Nola, this is a security check to ensure that you're a human: Which letter lies between B and D in the alphabet?
+2010-09-09 01:34:21	-->	cblock (~cblock@rrcs-76-79-183-154.west.biz.rr.com) has joined #ubuntu-unregged
+2010-09-09 01:34:25	@FloodBot1	Hi cblock, this is a security check to ensure that you're a human: Is Ubuntu the best operating system in the world?
+2010-09-09 01:34:32	-->	|barberan| (~kvirc@80.92.106.75) has joined #ubuntu-unregged
+2010-09-09 01:34:32	@FloodBot1	Hi |barberan|, this is a security check to ensure that you're a human: What is Linus Torvalds's (the creator of Linux) last name?
+2010-09-09 01:34:36	<--	Luca_Nola (~luciano@ppp-91-25.98-62.inwind.it) has quit (Client Quit)
+2010-09-09 01:34:53	@FloodBot1	|barberan|: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:34:53	<--	testi__ (~testi@adsl-84-227-135-185.adslplus.ch) has quit (Ping timeout: 265 seconds)
+2010-09-09 01:34:54	<--	IceF (~icefisher@93-136-3-204.adsl.net.t-com.hr) has quit
+2010-09-09 01:35:13	-->	gaurav (~gaurav@27.248.109.45) has joined #ubuntu-unregged
+2010-09-09 01:35:18	@FloodBot1	Hi gaurav, this is a security check to ensure that you're a human: How many legs does a human have? (type a digit)
+2010-09-09 01:35:31	-->	Hipster (~Hipster@131.94.186.40) has joined #ubuntu-unregged
+2010-09-09 01:35:35	@FloodBot1	Hi Hipster, this is a security check to ensure that you're a human: Type the number 5 in letters, not in digits
+2010-09-09 01:36:07	-->	m4dv0y (~pancho@nat-cc-inf.campus.utfsm.cl) has joined #ubuntu-unregged
+2010-09-09 01:36:10	@FloodBot1	Hi m4dv0y, this is a security check to ensure that you're a human: What number comes immediately after 1? (type a digit)
+2010-09-09 01:36:22	<--	Nich__ (~steven@brmn-4d0aefbb.pool.mediaWays.net) has quit (Ping timeout: 252 seconds)
+2010-09-09 01:36:35	-->	FUN (~administr@gsv95-1-82-233-15-171.fbx.proxad.net) has joined #ubuntu-unregged
+2010-09-09 01:36:38	@FloodBot1	Hi FUN, this is a security check to ensure that you're a human: Type the word 'UNIX' (UNIX is the old operating system that Linux loosely mimicks)
+2010-09-09 01:36:44	<--	m4dv0y (~pancho@nat-cc-inf.campus.utfsm.cl) has left #ubuntu-unregged
+2010-09-09 01:37:04	-->	nebula (~nebula@87.254.162.8) has joined #ubuntu-unregged
+2010-09-09 01:37:04	@FloodBot1	FUN: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:37:07	@FloodBot1	Hi nebula, this is a security check to ensure that you're a human: How many days are in a week? (type a digit)
+2010-09-09 01:37:07	<--	Hipster (~Hipster@131.94.186.40) has left #ubuntu-unregged
+2010-09-09 01:37:14	-->	docelic (~docelic@p5798871F.dip0.t-ipconnect.de) has joined #ubuntu-unregged
+2010-09-09 01:37:18	@FloodBot1	Hi docelic, this is a security check to ensure that you're a human: How many days are in a week? (type a digit)
+2010-09-09 01:37:19	<--	docelic (~docelic@p5798871F.dip0.t-ipconnect.de) has left #ubuntu-unregged
+2010-09-09 01:37:26	<--	barberan (~kvirc@80.92.106.75) has quit (Ping timeout: 258 seconds)
+2010-09-09 01:37:34	<--	cwill (~cwilliams@206.205.108.2) has quit (Quit: Leaving.)
+2010-09-09 01:37:38	-->	barisubuntu (~baris@188.3.34.74) has joined #ubuntu-unregged
+2010-09-09 01:37:38	<--	barisubuntu (~baris@188.3.34.74) has quit (Changing host)
+2010-09-09 01:37:38	-->	barisubuntu (~baris@unaffiliated/barisubuntu) has joined #ubuntu-unregged
+2010-09-09 01:37:38	@FloodBot1	Hi barisubuntu, this is a security check to ensure that you're a human: Type the number 2 in letters, not in digits
+2010-09-09 01:37:39	@FloodBot1	Hi barisubuntu, this is a security check to ensure that you're a human: Type the number 2 in letters, not in digits
+2010-09-09 01:37:48	<--	barisubuntu (~baris@unaffiliated/barisubuntu) has left #ubuntu-unregged
+2010-09-09 01:38:29	-->	dmatt (~quassel@adsl-dyn228.78-98-74.t-com.sk) has joined #ubuntu-unregged
+2010-09-09 01:38:30	@FloodBot1	Hi dmatt, this is a security check to ensure that you're a human: Is Ubuntu the best operating system in the world?
+2010-09-09 01:38:59	-->	MuadDib_ (~muaddib@49.98.0-93.rev.gaoland.net) has joined #ubuntu-unregged
+2010-09-09 01:39:00	@FloodBot1	Hi MuadDib_, this is a security check to ensure that you're a human: What continent is China in?
+2010-09-09 01:39:07	@FloodBot1	dmatt: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:39:27	<--	MuadDib_ (~muaddib@49.98.0-93.rev.gaoland.net) has quit (Client Quit)
+2010-09-09 01:40:04	-->	Riotta (~riot777@chello089078221095.chello.pl) has joined #ubuntu-unregged
+2010-09-09 01:40:04	<--	Riotta (~riot777@chello089078221095.chello.pl) has quit (Changing host)
+2010-09-09 01:40:04	-->	Riotta (~riot777@unaffiliated/riot777) has joined #ubuntu-unregged
+2010-09-09 01:40:04	@FloodBot1	Hi Riotta, this is a security check to ensure that you're a human: Type the word 'swap' (a swap partition or file is a place on disk providing virtual memory)
+2010-09-09 01:40:08	@FloodBot1	Hi Riotta, this is a security check to ensure that you're a human: Type the word 'swap' (a swap partition or file is a place on disk providing virtual memory)
+2010-09-09 01:40:09	-->	alexxio (~alexxio@93-35-52-175.ip53.fastwebnet.it) has joined #ubuntu-unregged
+2010-09-09 01:40:10	@FloodBot1	Hi alexxio, this is a security check to ensure that you're a human: What is the last digit in the number 345?
+2010-09-09 01:40:30	<--	gartral (~gareth@unaffiliated/gartral) has quit (Ping timeout: 258 seconds)
+2010-09-09 01:40:45	<--	invader (~vader@76.91.84.222) has quit (Remote host closed the connection)
+2010-09-09 01:41:03	-->	aprovencio (~xand@189.63.241.128) has joined #ubuntu-unregged
+2010-09-09 01:41:03	@FloodBot1	Hi aprovencio, this is a security check to ensure that you're a human: What language is spoken in Italy?
+2010-09-09 01:41:09	<--	Riotta (~riot777@unaffiliated/riot777) has left #ubuntu-unregged
+2010-09-09 01:41:37	<--	FUN (~administr@gsv95-1-82-233-15-171.fbx.proxad.net) has left #ubuntu-unregged
+2010-09-09 01:42:03	<--	Sumo-Ente (~cvhansen@i577A41EA.versanet.de) has quit (Quit: Ex-Chat)
+2010-09-09 01:42:15	-->	gartral (~gareth@unaffiliated/gartral) has joined #ubuntu-unregged
+2010-09-09 01:42:18	@FloodBot1	Hi gartral, this is a security check to ensure that you're a human: Type the number 3 in letters, not in digits
+2010-09-09 01:43:37	-->	TimeRider (~steve@188-220-33-123.zone11.bethere.co.uk) has joined #ubuntu-unregged
+2010-09-09 01:43:38	@FloodBot1	Hi TimeRider, this is a security check to ensure that you're a human: How much is 2 and 1 (2+1)? (type a digit)
+2010-09-09 01:44:03	-->	FUN (~administr@gsv95-1-82-233-15-171.fbx.proxad.net) has joined #ubuntu-unregged
+2010-09-09 01:44:41	-->	amoeba (~amoeba@drl-dhcp052.sas.upenn.edu) has joined #ubuntu-unregged
+2010-09-09 01:44:45	@FloodBot1	Hi amoeba, this is a security check to ensure that you're a human: What is the last digit in the number 345?
+2010-09-09 01:45:07	@FloodBot1	amoeba: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:45:19	-->	hxn_ (~hxn_@109.129.235.146) has joined #ubuntu-unregged
+2010-09-09 01:45:22	@FloodBot1	Hi hxn_, this is a security check to ensure that you're a human: What is the first letter in the word 'Ubuntu'?
+2010-09-09 01:45:28	-->	msimard (~msimard@modemcable118.24-203-24.mc.videotron.ca) has joined #ubuntu-unregged
+2010-09-09 01:45:31	@FloodBot1	Hi msimard, this is a security check to ensure that you're a human: How much is 3 times 2 (3*2)? (type a digit)
+2010-09-09 01:45:38	-->	lurk (~lurk@206.124.12.162) has joined #ubuntu-unregged
+2010-09-09 01:45:39	@FloodBot1	Hi lurk, this is a security check to ensure that you're a human: What color is a blue butterfly?
+2010-09-09 01:45:50	-->	hfaw (~0x@49.130.221.87.dynamic.jazztel.es) has joined #ubuntu-unregged
+2010-09-09 01:45:50	-->	jim__ (~jim@d515382D7.access.telenet.be) has joined #ubuntu-unregged
+2010-09-09 01:45:51	@FloodBot1	lurk: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:45:53	<--	hfaw (~0x@49.130.221.87.dynamic.jazztel.es) has left #ubuntu-unregged
+2010-09-09 01:45:54	@FloodBot1	Hi hfaw, this is a security check to ensure that you're a human: What is the first digit in the number 456?
+2010-09-09 01:45:55	<--	aprovencio (~xand@189.63.241.128) has left #ubuntu-unregged
+2010-09-09 01:45:56	@FloodBot1	Hi jim__, this is a security check to ensure that you're a human: What color was Napoleon's white horse?
+2010-09-09 01:46:02	-->	dragondon (~quassel@dhcp-0-f-66-a5-76-8b.cpe.mountaincable.net) has joined #ubuntu-unregged
+2010-09-09 01:46:06	@FloodBot1	Hi dragondon, this is a security check to ensure that you're a human: What is the last digit in the number 987?
+2010-09-09 01:46:31	-->	NoraDeniro (~hordesofb@c-68-52-143-172.hsd1.tn.comcast.net) has joined #ubuntu-unregged
+2010-09-09 01:46:33	@FloodBot1	Hi NoraDeniro, this is a security check to ensure that you're a human: What color is a blue butterfly?
+2010-09-09 01:46:42	@FloodBot1	dragondon: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:46:43	-->	xime (~xperey@host28.200-80-164.static.telmex.net.ar) has joined #ubuntu-unregged
+2010-09-09 01:46:47	@FloodBot1	Hi xime, this is a security check to ensure that you're a human: What is the first digit in the number 123?
+2010-09-09 01:46:55	--	jim__ is now known as jimbauwens
+2010-09-09 01:46:58	@FloodBot1	jimbauwens, you've changed your nickname, so I'll have to ask again: What is the first letter in the word 'Gentoo'?
+2010-09-09 01:47:12	<--	jimbauwens (~jim@d515382D7.access.telenet.be) has left #ubuntu-unregged
+2010-09-09 01:47:12	<--	msimard (~msimard@modemcable118.24-203-24.mc.videotron.ca) has quit (Client Quit)
+2010-09-09 01:47:13	@FloodBot1	msimard: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:47:23	-->	kevinSJ (~kevinSJ@c-516de055.737-1-64736c10.cust.bredbandsbolaget.se) has joined #ubuntu-unregged
+2010-09-09 01:47:25	@FloodBot1	Hi kevinSJ, this is a security check to ensure that you're a human: How many letters are there in the word 'free' as in speech? (type a digit)
+2010-09-09 01:47:27	-->	lolwat_ (~lolwat@host81-158-221-15.range81-158.btcentralplus.com) has joined #ubuntu-unregged
+2010-09-09 01:47:30	@FloodBot1	Hi lolwat_, this is a security check to ensure that you're a human: What language do Russians speak in Russia?
+2010-09-09 01:47:58	<--	FUN (~administr@gsv95-1-82-233-15-171.fbx.proxad.net) has left #ubuntu-unregged
+2010-09-09 01:47:59	<--	lolwat_ (~lolwat@host81-158-221-15.range81-158.btcentralplus.com) has quit (Client Quit)
+2010-09-09 01:48:02	-->	ashish (~ashish@triband-mum-120.63.0.199.mtnl.net.in) has joined #ubuntu-unregged
+2010-09-09 01:48:03	-->	macedo (~macedo@187.19.154.53) has joined #ubuntu-unregged
+2010-09-09 01:48:04	@FloodBot1	Hi ashish, this is a security check to ensure that you're a human: Pastebin is a site where you should paste your error message, to avoid flooding the channel. How many letters are in the word 'pastebin'? (type a digit)
+2010-09-09 01:48:07	@FloodBot1	Hi macedo, this is a security check to ensure that you're a human: How many legs does a cat have? (type a digit)
+2010-09-09 01:48:21	@FloodBot1	ashish: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:48:30	--	ashish is now known as Guest73730
+2010-09-09 01:48:30	@FloodBot1	Guest73730, you've changed your nickname, so I'll have to ask again: What is the letter between S and U in the alphabet?
+2010-09-09 01:48:39	@FloodBot1	Guest73730: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:48:52	@FloodBot1	Guest73730: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:48:57	-->	Ljungmann (~m8@82.211.197.40) has joined #ubuntu-unregged
+2010-09-09 01:48:57	@FloodBot1	Hi Ljungmann, this is a security check to ensure that you're a human: What is the letter of the alphabet immediately after A?
+2010-09-09 01:49:01	<--	kevinSJ (~kevinSJ@c-516de055.737-1-64736c10.cust.bredbandsbolaget.se) has left #ubuntu-unregged
+2010-09-09 01:49:03	-->	claw_ (~claw@pD95657B2.dip.t-dialin.net) has joined #ubuntu-unregged
+2010-09-09 01:49:03	@FloodBot1	Hi claw_, this is a security check to ensure that you're a human: Which language is spoken in Japan?
+2010-09-09 01:49:18	@FloodBot1	Ljungmann: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:49:29	<--	Ljungmann (~m8@82.211.197.40) has left #ubuntu-unregged
+2010-09-09 01:49:31	<--	claw (~claw@pD9563CD1.dip.t-dialin.net) has quit (Ping timeout: 276 seconds)
+2010-09-09 01:49:33	--	claw_ is now known as claw
+2010-09-09 01:49:35	@FloodBot1	claw, you've changed your nickname, so I'll have to ask again: How much is 3 times 3 (3*3)? (type a digit)
+2010-09-09 01:50:21	-->	strangeUn (~user@chello084115174066.graz.surfer.at) has joined #ubuntu-unregged
+2010-09-09 01:50:52	<--	Guldlok (~mvs@95.166.161.93) has left #ubuntu-unregged
+2010-09-09 01:50:56	-->	Freduardo (~Freduardo@229.93-66-87.adsl-dyn.isp.belgacom.be) has joined #ubuntu-unregged
+2010-09-09 01:50:57	@FloodBot1	Hi Freduardo, this is a security check to ensure that you're a human: What is the last digit in the number 987?
+2010-09-09 01:51:30	-->	jesuselifelet (~jesuselif@187.153.241.60) has joined #ubuntu-unregged
+2010-09-09 01:51:32	@FloodBot1	Hi jesuselifelet, this is a security check to ensure that you're a human: What color is a brown bug?
+2010-09-09 01:51:33	<--	xime (~xperey@host28.200-80-164.static.telmex.net.ar) has quit (Client Quit)
+2010-09-09 01:51:38	<--	macedo (~macedo@187.19.154.53) has quit (Client Quit)
+2010-09-09 01:51:44	-->	djedi_ (~dustin@slc-gw.sendoutcards.net) has joined #ubuntu-unregged
+2010-09-09 01:51:46	@FloodBot1	Hi djedi_, this is a security check to ensure that you're a human: Type the word 'GNOME' (GNOME is Ubuntu's graphical interface)
+2010-09-09 01:51:54	<--	Guest73730 (~ashish@triband-mum-120.63.0.199.mtnl.net.in) has quit (Client Quit)
+2010-09-09 01:52:02	<--	Simon-MPFH (~simon@phantom.mpfh.co.uk) has quit (Quit: Leaving)
+2010-09-09 01:52:12	-->	Fableflame (~tyler@adsl-157-98-200.clt.bellsouth.net) has joined #ubuntu-unregged
+2010-09-09 01:52:13	@FloodBot1	Hi Fableflame, this is a security check to ensure that you're a human: What number comes immediately after 1? (type a digit)
+2010-09-09 01:52:15	-->	wensleydale (~wensleyda@host86-158-225-161.range86-158.btcentralplus.com) has joined #ubuntu-unregged
+2010-09-09 01:52:17	@FloodBot1	Hi wensleydale, this is a security check to ensure that you're a human: How many hours are there in a day? (type digits)
+2010-09-09 01:52:26	@FloodBot1	wensleydale: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:52:29	@FloodBot1	Fableflame: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:52:35	<--	dmatt (~quassel@adsl-dyn228.78-98-74.t-com.sk) has quit (Remote host closed the connection)
+2010-09-09 01:52:46	<--	Fableflame (~tyler@adsl-157-98-200.clt.bellsouth.net) has left #ubuntu-unregged
+2010-09-09 01:52:52	@FloodBot1	Freduardo: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:53:02	--	Gokul__ is now known as anand23
+2010-09-09 01:53:19	-->	Ken2 (~kenneth@host86-139-126-13.range86-139.btcentralplus.com) has joined #ubuntu-unregged
+2010-09-09 01:53:23	@FloodBot1	Hi Ken2, this is a security check to ensure that you're a human: How many fingers are in a hand? (type a digit)
+2010-09-09 01:53:37	@FloodBot1	Ken2: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:53:44	-->	jonsaint (~jonsaint@cpc3-wolv14-2-0-cust511.wolv.cable.virginmedia.com) has joined #ubuntu-unregged
+2010-09-09 01:53:46	<--	padeBoi (~pade@212-149-233-178.bb.dnainternet.fi) has quit (Quit: Ho HOI!)
+2010-09-09 01:53:48	<--	Freduardo (~Freduardo@229.93-66-87.adsl-dyn.isp.belgacom.be) has left #ubuntu-unregged
+2010-09-09 01:53:48	@FloodBot1	Hi jonsaint, this is a security check to ensure that you're a human: What color is a black horse?
+2010-09-09 01:53:48	<--	Ken2 (~kenneth@host86-139-126-13.range86-139.btcentralplus.com) has left #ubuntu-unregged
+2010-09-09 01:54:20	<--	kadu (~kadu@187.23.85.228) has quit (Ping timeout: 240 seconds)
+2010-09-09 01:54:22	<--	apelgate (~apel@s83-191-241-173.cust.tele2.se) has quit (Quit: This computer has gone to sleep)
+2010-09-09 01:54:50	-->	JM (~Bass10@c-76-113-194-7.hsd1.mn.comcast.net) has joined #ubuntu-unregged
+2010-09-09 01:54:53	@FloodBot1	Hi JM, this is a security check to ensure that you're a human: What is the last letter of the English alphabet?
+2010-09-09 01:55:07	<--	lurk (~lurk@206.124.12.162) has quit (Quit: Leaving)
+2010-09-09 01:55:12	-->	apelgate (~apel@s83-191-241-173.cust.tele2.se) has joined #ubuntu-unregged
+2010-09-09 01:55:15	@FloodBot1	Hi apelgate, this is a security check to ensure that you're a human: What continent is France in?
+2010-09-09 01:56:04	-->	donnkeyyyy (~u7@d24-141-167-11.home.cgocable.net) has joined #ubuntu-unregged
+2010-09-09 01:56:07	@FloodBot1	Hi donnkeyyyy, this is a security check to ensure that you're a human: What is the first digit in the number 456?
+2010-09-09 01:56:23	@FloodBot1	donnkeyyyy: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:56:23	<--	JM (~Bass10@c-76-113-194-7.hsd1.mn.comcast.net) has quit (Max SendQ exceeded)
+2010-09-09 01:56:34	-->	pengyang (~pengyang@dyn-155-98-4-138.coe.utah.edu) has joined #ubuntu-unregged
+2010-09-09 01:56:34	@FloodBot1	Hi pengyang, this is a security check to ensure that you're a human: How many days are in a week? (type a digit)
+2010-09-09 01:56:57	@FloodBot1	pengyang: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:57:47	-->	grendel (~grendel@d204-154.icpnet.pl) has joined #ubuntu-unregged
+2010-09-09 01:57:49	<--	wensleydale (~wensleyda@host86-158-225-161.range86-158.btcentralplus.com) has quit (Quit: Leaving)
+2010-09-09 01:57:49	-->	agnostic (~ag@kevin-preece.demon.co.uk) has joined #ubuntu-unregged
+2010-09-09 01:57:49	@FloodBot1	Hi grendel, this is a security check to ensure that you're a human: Type the word 'GNOME' (GNOME is Ubuntu's graphical interface)
+2010-09-09 01:57:53	@FloodBot1	Hi agnostic, this is a security check to ensure that you're a human: What is Linus Torvalds's (the creator of Linux) last name?
+2010-09-09 01:57:54	-->	farhad (~alex@host52-55-dynamic.18-79-r.retail.telecomitalia.it) has joined #ubuntu-unregged
+2010-09-09 01:57:54	<--	grendel (~grendel@d204-154.icpnet.pl) has left #ubuntu-unregged
+2010-09-09 01:57:57	@FloodBot1	Hi farhad, this is a security check to ensure that you're a human: What day comes before Saturday?
+2010-09-09 01:57:58	<--	farhad (~alex@host52-55-dynamic.18-79-r.retail.telecomitalia.it) has left #ubuntu-unregged
+2010-09-09 01:58:08	<--	|barberan| (~kvirc@80.92.106.75) has quit (Ping timeout: 258 seconds)
+2010-09-09 01:58:11	<--	gaurav (~gaurav@27.248.109.45) has quit (Remote host closed the connection)
+2010-09-09 01:58:51	-->	GauravButola (~gaurav@27.248.109.45) has joined #ubuntu-unregged
+2010-09-09 01:58:52	@FloodBot1	Hi GauravButola, this is a security check to ensure that you're a human: How much is 3 times 3 (3*3)? (type a digit)
+2010-09-09 01:59:03	-->	gruyen (~rfirmin@38.105.65.144) has joined #ubuntu-unregged
+2010-09-09 01:59:06	-->	Robert_Zenz (~robert@chello084114214250.5.15.vie.surfer.at) has joined #ubuntu-unregged
+2010-09-09 01:59:06	@FloodBot1	Hi gruyen, this is a security check to ensure that you're a human: APT is Ubuntu's packaging system. How many letters does the word 'APT' have? (type a digit)
+2010-09-09 01:59:09	@FloodBot1	Hi Robert_Zenz, this is a security check to ensure that you're a human: What language is spoken in Italy?
+2010-09-09 01:59:20	-->	pits (~Bite@8.244.221.87.dynamic.jazztel.es) has joined #ubuntu-unregged
+2010-09-09 01:59:20	@FloodBot1	Hi pits, this is a security check to ensure that you're a human: Type the number 7 in letters, not in digits
+2010-09-09 01:59:26	@FloodBot1	gruyen: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:59:44	<--	gruyen (~rfirmin@38.105.65.144) has left #ubuntu-unregged
+2010-09-09 01:59:45	-->	Shingo-- (~quassel@187.119.162.1) has joined #ubuntu-unregged
+2010-09-09 01:59:49	@FloodBot1	Robert_Zenz: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 01:59:52	@FloodBot1	Hi Shingo--, this is a security check to ensure that you're a human: What is the last month of the year?
+2010-09-09 01:59:59	<--	Robert_Zenz (~robert@chello084114214250.5.15.vie.surfer.at) has left #ubuntu-unregged
+2010-09-09 02:00:24	<--	anand23 (Gokul@121.245.39.238) has left #ubuntu-unregged
+2010-09-09 02:00:26	@FloodBot1	Shingo--: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:00:58	-->	icf7 (~icf7@p50829469.dip0.t-ipconnect.de) has joined #ubuntu-unregged
+2010-09-09 02:01:00	@FloodBot1	Hi icf7, this is a security check to ensure that you're a human: What color is a red carpet?
+2010-09-09 02:01:17	@FloodBot1	icf7: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:01:34	<--	Shingo-- (~quassel@187.119.162.1) has left #ubuntu-unregged
+2010-09-09 02:01:34	@FloodBot1	agnostic: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:01:40	<--	hxn_ (~hxn_@109.129.235.146) has quit (Quit: Quitte)
+2010-09-09 02:01:46	-->	acke- (~acke-@84-217-54-245.tn.glocalnet.net) has joined #ubuntu-unregged
+2010-09-09 02:01:49	@FloodBot1	Hi acke-, this is a security check to ensure that you're a human: How much is 10 minus 7 (10-7)? (type a digit)
+2010-09-09 02:01:50	-->	jon1 (~jon@athedsl-245947.home.otenet.gr) has joined #ubuntu-unregged
+2010-09-09 02:01:54	@FloodBot1	Hi jon1, this is a security check to ensure that you're a human: What is the first name of Richard Stallman (the founder of the GNU toolsuite that Ubuntu uses)?
+2010-09-09 02:02:33	@FloodBot1	acke-: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:02:34	-->	amanita_ (~amanita@catv-86-101-106-132.catv.broadband.hu) has joined #ubuntu-unregged
+2010-09-09 02:02:34	<--	TheNull (null@unaffiliated/TheNull) has quit (Ping timeout: 276 seconds)
+2010-09-09 02:02:35	@FloodBot1	Hi amanita_, this is a security check to ensure that you're a human: What is the language spoken in France?
+2010-09-09 02:02:38	@LjL	GauravButola: yeah of course substituting your real password and email (also, don't put the <>)
+2010-09-09 02:02:58	@FloodBot1	amanita_: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:03:52	-->	janek (~janek@metroeth-nat34.217.146.194.generacja.pl) has joined #ubuntu-unregged
+2010-09-09 02:03:56	@FloodBot1	Hi janek, this is a security check to ensure that you're a human: What is the last name of Andrew Tanenbaum (the creator of Minix, which inspired the creation of Linux)?
+2010-09-09 02:04:02	<--	Toothpick (~Toothpick@bzq-79-183-203-187.red.bezeqint.net) has left #ubuntu-unregged
+2010-09-09 02:04:07	-->	Toothpick (~Toothpick@bzq-79-183-203-187.red.bezeqint.net) has joined #ubuntu-unregged
+2010-09-09 02:04:08	@FloodBot1	Hi Toothpick, this is a security check to ensure that you're a human: What is the last digit in the number 758?
+2010-09-09 02:04:15	@FloodBot1	Toothpick: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:04:19	<--	Ralfi (~ZiegenB@dslb-088-073-204-227.pools.arcor-ip.net) has quit (Quit: Ex-Chat)
+2010-09-09 02:04:56	<--	murphy (~murphy@95.105.29.140.dynamic.neft.ufanet.ru) has quit (Remote host closed the connection)
+2010-09-09 02:05:34	<--	amanita_ (~amanita@catv-86-101-106-132.catv.broadband.hu) has left #ubuntu-unregged
+2010-09-09 02:05:44	<--	Toothpick (~Toothpick@bzq-79-183-203-187.red.bezeqint.net) has left #ubuntu-unregged
+2010-09-09 02:05:59	<--	cblock (~cblock@rrcs-76-79-183-154.west.biz.rr.com) has quit (Remote host closed the connection)
+2010-09-09 02:06:12	-->	xOrphenochx (~jasonruiz@pool-173-65-93-96.tampfl.fios.verizon.net) has joined #ubuntu-unregged
+2010-09-09 02:06:13	@FloodBot1	Hi xOrphenochx, this is a security check to ensure that you're a human: What color is a violet violin?
+2010-09-09 02:06:13	-->	sabio (~juan@83.44.58.82) has joined #ubuntu-unregged
+2010-09-09 02:06:14	@FloodBot1	Hi sabio, this is a security check to ensure that you're a human: What is the last letter in the word 'Macintosh'?
+2010-09-09 02:06:36	@LjL	GauravButola: you need to check your mail
+2010-09-09 02:07:02	-->	_L30_ (~chatzilla@117.195.226.110) has joined #ubuntu-unregged
+2010-09-09 02:07:04	@FloodBot1	Hi _L30_, this is a security check to ensure that you're a human: Pastebin is a site where you should paste your error message, to avoid flooding the channel. How many letters are in the word 'pastebin'? (type a digit)
+2010-09-09 02:07:07	-->	fulmi (~fulmi@178.2.182.218) has joined #ubuntu-unregged
+2010-09-09 02:07:09	@FloodBot1	Hi fulmi, this is a security check to ensure that you're a human: Type the number 9 in letters, not in digits
+2010-09-09 02:07:12	<--	_L30_ (~chatzilla@117.195.226.110) has quit (Changing host)
+2010-09-09 02:07:12	-->	_L30_ (~chatzilla@unaffiliated/-l30-/x-4300537) has joined #ubuntu-unregged
+2010-09-09 02:07:16	@FloodBot1	Hi _L30_, this is a security check to ensure that you're a human: Pastebin is a site where you should paste your error message, to avoid flooding the channel. How many letters are in the word 'pastebin'? (type a digit)
+2010-09-09 02:07:27	@FloodBot1	fulmi: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:07:35	-->	a94060 (~avi@nat02-asb-ext.rutgers.edu) has joined #ubuntu-unregged
+2010-09-09 02:07:36	@FloodBot1	Hi a94060, this is a security check to ensure that you're a human: How many letters are in the word 'dpkg', which is the program that install and removes packages in Ubuntu? (type a digit)
+2010-09-09 02:07:42	<--	_L30_ (~chatzilla@unaffiliated/-l30-/x-4300537) has left #ubuntu-unregged
+2010-09-09 02:07:52	<--	jonsaint (~jonsaint@cpc3-wolv14-2-0-cust511.wolv.cable.virginmedia.com) has quit (Quit: Leaving)
+2010-09-09 02:07:59	<--	fulmi (~fulmi@178.2.182.218) has quit (Client Quit)
+2010-09-09 02:08:14	@FloodBot1	a94060: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:08:34	<--	a94060 (~avi@nat02-asb-ext.rutgers.edu) has left #ubuntu-unregged
+2010-09-09 02:08:43	-->	nilg (~user@85.239.138.109) has joined #ubuntu-unregged
+2010-09-09 02:08:45	@FloodBot1	Hi nilg, this is a security check to ensure that you're a human: What is the language of England?
+2010-09-09 02:08:54	<--	sabio (~juan@83.44.58.82) has quit (Client Quit)
+2010-09-09 02:09:01	-->	sinisterstuf (~snoflake@PPK-BR02-41-182-103-159.ipb.na) has joined #ubuntu-unregged
+2010-09-09 02:09:04	@FloodBot1	Hi sinisterstuf, this is a security check to ensure that you're a human: What is the letter of the alphabet immediately after A?
+2010-09-09 02:09:42	<--	NoraDeniro (~hordesofb@c-68-52-143-172.hsd1.tn.comcast.net) has quit (Ping timeout: 265 seconds)
+2010-09-09 02:10:42	<--	pits (~Bite@8.244.221.87.dynamic.jazztel.es) has left #ubuntu-unregged
+2010-09-09 02:10:45	@FloodBot1	sinisterstuf: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:11:06	-->	danilo_ (~danilo@93-40-97-252.ip38.fastwebnet.it) has joined #ubuntu-unregged
+2010-09-09 02:11:07	-->	Vardan (~vgevorgya@46.70.19.226) has joined #ubuntu-unregged
+2010-09-09 02:11:08	@FloodBot1	Hi danilo_, this is a security check to ensure that you're a human: How much is 6 minus 3 (6-3)? (type a digit)
+2010-09-09 02:11:11	@FloodBot1	Hi Vardan, this is a security check to ensure that you're a human: Ubuntu comes with about 30000 packages compiled for you. How many letters are in the word 'compile'? (type a digit)
+2010-09-09 02:11:11	<--	Vardan (~vgevorgya@46.70.19.226) has left #ubuntu-unregged
+2010-09-09 02:11:26	<--	gartral (~gareth@unaffiliated/gartral) has quit (Ping timeout: 252 seconds)
+2010-09-09 02:11:39	-->	BlackExplotioN (~ilhan@88.246.115.127) has joined #ubuntu-unregged
+2010-09-09 02:11:42	@FloodBot1	danilo_: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:11:45	@FloodBot1	Hi BlackExplotioN, this is a security check to ensure that you're a human: What number comes immediately before 10? (type a digit)
+2010-09-09 02:11:54	-->	DJVistaMan (~Anthony@bas1-montreal30-2925414423.dsl.bell.ca) has joined #ubuntu-unregged
+2010-09-09 02:11:57	@FloodBot1	Hi DJVistaMan, this is a security check to ensure that you're a human: What is the first month of the year?
+2010-09-09 02:12:00	<--	BlackExplotioN (~ilhan@88.246.115.127) has quit (Remote host closed the connection)
+2010-09-09 02:12:29	-->	Kebap23 (~Max@d189180.adsl.hansenet.de) has joined #ubuntu-unregged
+2010-09-09 02:12:31	-->	cypher-neo (~sean@h208.161.140.67.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2010-09-09 02:12:34	@FloodBot1	Hi Kebap23, this is a security check to ensure that you're a human: What is the last digit in the number 758?
+2010-09-09 02:12:37	@FloodBot1	Hi cypher-neo, this is a security check to ensure that you're a human: What is the first digit in the number 293?
+2010-09-09 02:12:44	-->	Jinxed-- (~Jinxed---@147.177.40.62) has joined #ubuntu-unregged
+2010-09-09 02:12:46	@FloodBot1	Hi Jinxed--, this is a security check to ensure that you're a human: How much is 10 minus 7 (10-7)? (type a digit)
+2010-09-09 02:12:50	@FloodBot1	cypher-neo: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:12:56	-->	madmax_x (~frank@18263008.cst.lightpath.net) has joined #ubuntu-unregged
+2010-09-09 02:12:59	--	cypher-neo is now known as Guest12199
+2010-09-09 02:12:59	@FloodBot1	Hi madmax_x, this is a security check to ensure that you're a human: How many letters are in the word 'dpkg', which is the program that install and removes packages in Ubuntu? (type a digit)
+2010-09-09 02:13:02	@FloodBot1	Guest12199, you've changed your nickname, so I'll have to ask again: How many seconds are there in a minute? (type digits)
+2010-09-09 02:13:08	-->	ciccioxyz0 (~ciccioxyz@host110-96-dynamic.56-82-r.retail.telecomitalia.it) has joined #ubuntu-unregged
+2010-09-09 02:13:11	@FloodBot1	Hi ciccioxyz0, this is a security check to ensure that you're a human: How many legs does a human have? (type a digit)
+2010-09-09 02:13:14	-->	gartral (~gareth@unaffiliated/gartral) has joined #ubuntu-unregged
+2010-09-09 02:13:19	<--	Guest12199 (~sean@h208.161.140.67.dynamic.ip.windstream.net) has quit (Client Quit)
+2010-09-09 02:13:19	@FloodBot1	Hi gartral, this is a security check to ensure that you're a human: Type the number 3 in letters, not in digits
+2010-09-09 02:13:56	-->	dibber (~kevin@c-67-185-230-153.hsd1.wa.comcast.net) has joined #ubuntu-unregged
+2010-09-09 02:13:59	@FloodBot1	Hi dibber, this is a security check to ensure that you're a human: How much is 10 minus 5 (10-5)? (type a digit)
+2010-09-09 02:14:00	-->	cypher-neo_ (~sean@h208.161.140.67.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2010-09-09 02:14:00	@FloodBot1	Hi cypher-neo_, this is a security check to ensure that you're a human: How many days are in a week? (type a digit)
+2010-09-09 02:14:22	-->	Runar (~Runar@77.106.159.108) has joined #ubuntu-unregged
+2010-09-09 02:14:26	@FloodBot1	dibber: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:14:28	@FloodBot1	Hi Runar, this is a security check to ensure that you're a human: What color was Napoleon's white horse?
+2010-09-09 02:14:36	--	DJVistaMan is now known as DJVistaMan_
+2010-09-09 02:14:36	@FloodBot1	DJVistaMan_, you've changed your nickname, so I'll have to ask again: APT is Ubuntu's packaging system. How many letters does the word 'APT' have? (type a digit)
+2010-09-09 02:15:03	<--	DJVistaMan_ (~Anthony@bas1-montreal30-2925414423.dsl.bell.ca) has left #ubuntu-unregged
+2010-09-09 02:15:19	@FloodBot1	Runar: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:15:25	<--	sinisterstuf (~snoflake@PPK-BR02-41-182-103-159.ipb.na) has quit (Ping timeout: 252 seconds)
+2010-09-09 02:15:37	-->	hebert (~hebert@187.58.102.84) has joined #ubuntu-unregged
+2010-09-09 02:15:38	@FloodBot1	Hi hebert, this is a security check to ensure that you're a human: What day comes after Tuesday?
+2010-09-09 02:15:42	-->	renedox (~renedox@120.138.18.121) has joined #ubuntu-unregged
+2010-09-09 02:15:45	@FloodBot1	Hi renedox, this is a security check to ensure that you're a human: Ubuntu comes with about 30000 packages compiled for you. How many letters are in the word 'compile'? (type a digit)
+2010-09-09 02:15:46	-->	BlackExplotioN (~ilhan@88.246.115.127) has joined #ubuntu-unregged
+2010-09-09 02:15:47	@FloodBot1	Hi BlackExplotioN, this is a security check to ensure that you're a human: What number comes immediately before 10? (type a digit)
+2010-09-09 02:15:48	--	hebert is now known as hebertsilva
+2010-09-09 02:15:52	@FloodBot1	hebertsilva, you've changed your nickname, so I'll have to ask again: How many letters are in the word 'Debian', which is the distribution upon which Ubuntu is built? (type a digit)
+2010-09-09 02:16:02	<--	dibber (~kevin@c-67-185-230-153.hsd1.wa.comcast.net) has left #ubuntu-unregged
+2010-09-09 02:16:02	@FloodBot1	Kebap23: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:16:17	<--	dragondon (~quassel@dhcp-0-f-66-a5-76-8b.cpe.mountaincable.net) has quit (Remote host closed the connection)
+2010-09-09 02:16:42	-->	sinisterstuf (~snoflake@PPK-BR02-41-182-103-159.ipb.na) has joined #ubuntu-unregged
+2010-09-09 02:16:45	@FloodBot1	Hi sinisterstuf, this is a security check to ensure that you're a human: What is the letter of the alphabet immediately after A?
+2010-09-09 02:17:10	<--	danilo_ (~danilo@93-40-97-252.ip38.fastwebnet.it) has quit (Quit: Sto andando via)
+2010-09-09 02:17:21	@FloodBot1	sinisterstuf: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:17:24	-->	oln (~oln@public-80-133.hig.no) has joined #ubuntu-unregged
+2010-09-09 02:17:27	@FloodBot1	Hi oln, this is a security check to ensure that you're a human: What is the main official language in Spain?
+2010-09-09 02:17:39	-->	C-S-B (~csb@78.147.230.213) has joined #ubuntu-unregged
+2010-09-09 02:17:40	-->	cypher-neo__ (~sean@h208.161.140.67.dynamic.ip.windstream.net) has joined #ubuntu-unregged
+2010-09-09 02:17:40	@FloodBot1	Hi C-S-B, this is a security check to ensure that you're a human: How much is 3 and 4 (3+4)? (type a digit)
+2010-09-09 02:17:41	@FloodBot1	Hi cypher-neo__, this is a security check to ensure that you're a human: How many legs does a cat have? (type a digit)
+2010-09-09 02:17:45	-->	sgh_ (~quassel@0x4dd5bf76.adsl.cybercity.dk) has joined #ubuntu-unregged
+2010-09-09 02:17:48	@FloodBot1	Hi sgh_, this is a security check to ensure that you're a human: What is the last letter in the word 'Linux' (Linux is the kernel upon which Ubuntu is built)?
+2010-09-09 02:17:49	<--	cypher-neo_ (~sean@h208.161.140.67.dynamic.ip.windstream.net) has quit (Client Quit)
+2010-09-09 02:17:52	<--	cypher-neo__ (~sean@h208.161.140.67.dynamic.ip.windstream.net) has quit (Read error: Connection reset by peer)
+2010-09-09 02:18:01	-->	bolt_ (~bolt@81.9.23.129) has joined #ubuntu-unregged
+2010-09-09 02:18:04	@FloodBot1	Hi bolt_, this is a security check to ensure that you're a human: Which language is spoken in Japan?
+2010-09-09 02:18:07	<--	ciccioxyz0 (~ciccioxyz@host110-96-dynamic.56-82-r.retail.telecomitalia.it) has quit (Quit: Sto andando via)
+2010-09-09 02:18:14	-->	gup (~rtype@1ba55-1-82-246-140-204.fbx.proxad.net) has joined #ubuntu-unregged
+2010-09-09 02:18:17	@FloodBot1	Hi gup, this is a security check to ensure that you're a human: Type the number 4 in letters, not in digits
+2010-09-09 02:18:37	-->	qwerty (~qwerty@ppp079166077109.dsl.hol.gr) has joined #ubuntu-unregged
+2010-09-09 02:18:46	@FloodBot1	Hi qwerty, this is a security check to ensure that you're a human: Type the number 9 in letters, not in digits
+2010-09-09 02:18:52	<--	bolt_ (~bolt@81.9.23.129) has quit (Client Quit)
+2010-09-09 02:19:01	<--	sgh (~quassel@0x4dd5bf76.adsl.cybercity.dk) has quit (Ping timeout: 272 seconds)
+2010-09-09 02:19:02	-->	TheNull (null@user-0c8h3nk.cable.mindspring.com) has joined #ubuntu-unregged
+2010-09-09 02:19:05	@FloodBot1	Hi TheNull, this is a security check to ensure that you're a human: How much is 6 and 2 (7+2)? (type a digit)
+2010-09-09 02:19:10	<--	TheNull (null@user-0c8h3nk.cable.mindspring.com) has quit (Changing host)
+2010-09-09 02:19:10	-->	TheNull (null@unaffiliated/TheNull) has joined #ubuntu-unregged
+2010-09-09 02:19:10	--	qwerty is now known as Guest78593
+2010-09-09 02:19:11	@FloodBot1	Hi TheNull, this is a security check to ensure that you're a human: How much is 6 and 2 (7+2)? (type a digit)
+2010-09-09 02:19:14	@FloodBot1	Guest78593, you've changed your nickname, so I'll have to ask again: What is Mark Shuttleworth's (Ubuntu's founder) first name?
+2010-09-09 02:19:31	-->	MrWilly (~MrWilly@mx2.proofpoint.com) has joined #ubuntu-unregged
+2010-09-09 02:19:36	@FloodBot1	Hi MrWilly, this is a security check to ensure that you're a human: How many letters are in the word 'dpkg', which is the program that install and removes packages in Ubuntu? (type a digit)
+2010-09-09 02:19:49	<--	Guest78593 (~qwerty@ppp079166077109.dsl.hol.gr) has quit (Client Quit)
+2010-09-09 02:19:57	<--	gup (~rtype@1ba55-1-82-246-140-204.fbx.proxad.net) has quit (Client Quit)
+2010-09-09 02:19:59	<--	MrWilly (~MrWilly@mx2.proofpoint.com) has left #ubuntu-unregged
+2010-09-09 02:20:16	@LjL	Kebap23: whops!
+2010-09-09 02:20:48	<--	hebertsilva (~hebert@187.58.102.84) has left #ubuntu-unregged
+2010-09-09 02:21:13	-->	Nich__ (~steven@brmn-4d0ad917.pool.mediaWays.net) has joined #ubuntu-unregged
+2010-09-09 02:21:13	@FloodBot1	Hi Nich__, this is a security check to ensure that you're a human: What color was Napoleon's white horse?
+2010-09-09 02:21:20	<--	FloodBot4 (~floodbot@ubuntu/bot/floodbot) has quit (Quit: Maintenance - Requested by LjL)
+2010-09-09 02:21:32	-->	STN- (~sampo@a91-154-61-201.elisa-laajakaista.fi) has joined #ubuntu-unregged
+2010-09-09 02:21:33	@FloodBot1	Hi STN-, this is a security check to ensure that you're a human: What is the main official language in Spain?
+2010-09-09 02:21:38	<--	BlackExplotioN (~ilhan@88.246.115.127) has quit (Quit: Ex-Chat)
+2010-09-09 02:21:40	-->	grayhane (~jim@75-30-92-142.lightspeed.iplsin.sbcglobal.net) has joined #ubuntu-unregged
+2010-09-09 02:21:44	@FloodBot1	Hi grayhane, this is a security check to ensure that you're a human: How many letters does 'ls' (a command to list files in Ubuntu) have? (type a digit)
+2010-09-09 02:21:46	<--	renedox (~renedox@120.138.18.121) has quit (Remote host closed the connection)
+2010-09-09 02:21:47	-->	FloodBot4 (~floodbot@ubuntu/bot/floodbot) has joined #ubuntu-unregged
+2010-09-09 02:21:47	--	Mode #ubuntu-unregged [+o FloodBot4] by ChanServ
+2010-09-09 02:21:49	-->	brett\ (~brett@128.224.252.2) has joined #ubuntu-unregged
+2010-09-09 02:21:52	@FloodBot1	Hi brett\, this is a security check to ensure that you're a human: How much is 3 and 4 (3+4)? (type a digit)
+2010-09-09 02:22:00	@FloodBot1	brett\: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:22:00	-->	renedox (~renedox@120.138.18.121) has joined #ubuntu-unregged
+2010-09-09 02:22:06	@FloodBot1	grayhane: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:22:09	@FloodBot1	Hi renedox, this is a security check to ensure that you're a human: Ubuntu comes with about 30000 packages compiled for you. How many letters are in the word 'compile'? (type a digit)
+2010-09-09 02:22:29	@FloodBot1	STN-: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:22:50	-->	alex2222 (~akruth@88.128.47.99) has joined #ubuntu-unregged
+2010-09-09 02:22:51	-->	alfonzo1955 (~alfonzo19@CPE00265ac9327a-CM00252e23fb58.cpe.net.cable.rogers.com) has joined #ubuntu-unregged
+2010-09-09 02:22:52	@FloodBot1	Hi alex2222, this is a security check to ensure that you're a human: What language is spoken in Italy?
+2010-09-09 02:22:54	@FloodBot1	Hi alfonzo1955, this is a security check to ensure that you're a human: Which number lies between 8 and 10? (type a digit)
+2010-09-09 02:23:01	-->	sisif (~itch@188.25.9.228) has joined #ubuntu-unregged
+2010-09-09 02:23:03	@FloodBot1	Hi sisif, this is a security check to ensure that you're a human: What color is a blue butterfly?
+2010-09-09 02:23:23	@FloodBot1	alex2222: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:23:42	@FloodBot1	alfonzo1955: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:23:49	-->	larsivi (~quassel@188.113.74.106) has joined #ubuntu-unregged
+2010-09-09 02:23:54	@FloodBot1	Hi larsivi, this is a security check to ensure that you're a human: How much is 4 and 5 (4+5)? (type a digit)
+2010-09-09 02:23:54	<--	FloodBot4 (~floodbot@ubuntu/bot/floodbot) has quit (Client Quit)
+2010-09-09 02:23:56	<--	Nich_ (~steven@brmn-4d0afd68.pool.mediaWays.net) has quit (Ping timeout: 245 seconds)
+2010-09-09 02:24:05	-->	alexbh (~alexbh@p5B32B888.dip.t-dialin.net) has joined #ubuntu-unregged
+2010-09-09 02:24:08	@FloodBot1	Hi alexbh, this is a security check to ensure that you're a human: What letter is between P and R in the Latin alphabet?
+2010-09-09 02:24:14	<--	alfonzo1955 (~alfonzo19@CPE00265ac9327a-CM00252e23fb58.cpe.net.cable.rogers.com) has left #ubuntu-unregged
+2010-09-09 02:24:22	-->	FloodBot4 (~floodbot@ubuntu/bot/floodbot) has joined #ubuntu-unregged
+2010-09-09 02:24:22	--	Mode #ubuntu-unregged [+o FloodBot4] by ChanServ
+2010-09-09 02:24:25	@FloodBot1	alexbh: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:24:32	-->	sree (~srbalach@cs182210.pp.htv.fi) has joined #ubuntu-unregged
+2010-09-09 02:24:32	@FloodBot1	Hi sree, this is a security check to ensure that you're a human: Type the number 1 in letters, not in digits
+2010-09-09 02:24:41	-->	becoming_insane (~demigod@213.244.200.220) has joined #ubuntu-unregged
+2010-09-09 02:24:44	@FloodBot1	Hi becoming_insane, this is a security check to ensure that you're a human: How many days are in a week? (type a digit)
+2010-09-09 02:25:02	<--	STN- (~sampo@a91-154-61-201.elisa-laajakaista.fi) has left #ubuntu-unregged
+2010-09-09 02:25:05	-->	MAAAAD (~MAAAAD@p4FD10EDB.dip0.t-ipconnect.de) has joined #ubuntu-unregged
+2010-09-09 02:25:05	@FloodBot1	Hi MAAAAD, this is a security check to ensure that you're a human: What is the first letter in the word 'Gentoo'?
+2010-09-09 02:25:17	-->	mshafiullah (~mshafiull@137.48.138.81) has joined #ubuntu-unregged
+2010-09-09 02:25:20	<--	grayhane (~jim@75-30-92-142.lightspeed.iplsin.sbcglobal.net) has quit (Client Quit)
+2010-09-09 02:25:20	@FloodBot1	sree: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:25:26	@FloodBot1	Hi mshafiullah, this is a security check to ensure that you're a human: Type the word 'Canonical' (Canonical is the company that funds Ubuntu)
+2010-09-09 02:25:32	<--	mshafiullah (~mshafiull@137.48.138.81) has quit (Client Quit)
+2010-09-09 02:25:40	@FloodBot1	MAAAAD: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:25:40	-->	Jajjax (~user@ua-83-227-220-12.cust.bredbandsbolaget.se) has joined #ubuntu-unregged
+2010-09-09 02:25:41	<--	FloodBot1 (~floodbot@ubuntu/bot/floodbot) has quit (Quit: Maintenance - Updating)
+2010-09-09 02:25:51	<--	sisif (~itch@188.25.9.228) has quit (Client Quit)
+2010-09-09 02:25:53	<--	MAAAAD (~MAAAAD@p4FD10EDB.dip0.t-ipconnect.de) has left #ubuntu-unregged
+2010-09-09 02:25:56	-->	FloodBot1 (~floodbot@ubuntu/bot/floodbot) has joined #ubuntu-unregged
+2010-09-09 02:25:57	--	Mode #ubuntu-unregged [+o FloodBot1] by ChanServ
+2010-09-09 02:26:06	-->	ericm (~ericm@216.169.203.6) has joined #ubuntu-unregged
+2010-09-09 02:26:07	@FloodBot1	Hi ericm, this is a security check to ensure that you're a human: What color is a violet violin?
+2010-09-09 02:26:11	-->	sisif (~itch@188.25.9.228) has joined #ubuntu-unregged
+2010-09-09 02:26:14	@FloodBot1	Hi sisif, this is a security check to ensure that you're a human: What color is a blue butterfly?
+2010-09-09 02:26:25	@FloodBot1	sisif: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:26:30	@FloodBot1	ericm: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:26:58	<--	travisgriggs (~travis@97-114-88-222.spkn.qwest.net) has left #ubuntu-unregged
+2010-09-09 02:27:10	-->	jnev (~jnev@71.95.140.155) has joined #ubuntu-unregged
+2010-09-09 02:27:10	<--	sinisterstuf (~snoflake@PPK-BR02-41-182-103-159.ipb.na) has quit (Quit: Leaving)
+2010-09-09 02:27:11	@FloodBot1	Hi jnev, this is a security check to ensure that you're a human: What is the last letter in the word 'Linux' (Linux is the kernel upon which Ubuntu is built)?
+2010-09-09 02:27:14	-->	bart_ (~bart@cpe-76-185-15-205.tx.res.rr.com) has joined #ubuntu-unregged
+2010-09-09 02:27:16	<--	sisif (~itch@188.25.9.228) has left #ubuntu-unregged
+2010-09-09 02:27:16	@FloodBot1	Hi bart_, this is a security check to ensure that you're a human: What is Mark Shuttleworth's (Ubuntu's founder) first name?
+2010-09-09 02:27:30	-->	pjman (~travis@mspinternet.navitaire.com) has joined #ubuntu-unregged
+2010-09-09 02:27:31	@FloodBot1	jnev: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:27:36	@FloodBot1	Hi pjman, this is a security check to ensure that you're a human: What is the letter of the alphabet immediately after A?
+2010-09-09 02:27:46	<--	renedox (~renedox@120.138.18.121) has left #ubuntu-unregged
+2010-09-09 02:27:49	@FloodBot1	pjman: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:28:24	<--	jnev (~jnev@71.95.140.155) has left #ubuntu-unregged
+2010-09-09 02:28:56	-->	brendan_1 (~brendan@150.253.88.114) has joined #ubuntu-unregged
+2010-09-09 02:28:59	-->	scott__ (~scott@timesys-gw0.cust.expedient.net) has joined #ubuntu-unregged
+2010-09-09 02:28:59	@FloodBot1	Hi brendan_1, this is a security check to ensure that you're a human: What is the letter of the alphabet immediately before E?
+2010-09-09 02:29:40	@FloodBot1	Hi scott__, this is a security check to ensure that you're a human: What number comes immediately before 10? (type a digit)
+2010-09-09 02:29:40	-->	vlads (~vladymir@150.165.63.86) has joined #ubuntu-unregged
+2010-09-09 02:29:40	@FloodBot1	Hi vlads, this is a security check to ensure that you're a human: What is the first letter of the English alphabet?
+2010-09-09 02:29:53	<--	vlads (~vladymir@150.165.63.86) has quit (Client Quit)
+2010-09-09 02:29:53	@FloodBot1	vlads: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:29:56	-->	awoodland (~woodalan@81.2.107.211) has joined #ubuntu-unregged
+2010-09-09 02:29:57	@FloodBot1	Hi awoodland, this is a security check to ensure that you're a human: What is the number between 4 and 6? (type a digit)
+2010-09-09 02:30:09	-->	wakan (~wakan@mar13-5-83-156-135-64.fbx.proxad.net) has joined #ubuntu-unregged
+2010-09-09 02:30:12	@FloodBot1	Hi wakan, this is a security check to ensure that you're a human: How many months are there in a year? (type digits)
+2010-09-09 02:30:13	<--	pjman (~travis@mspinternet.navitaire.com) has quit (Client Quit)
+2010-09-09 02:30:17	<--	ericm (~ericm@216.169.203.6) has quit (Client Quit)
+2010-09-09 02:30:31	-->	maxx (~mark@net-188-153-20-131.cust.dsl.teletu.it) has joined #ubuntu-unregged
+2010-09-09 02:30:35	@FloodBot1	Hi maxx, this is a security check to ensure that you're a human: What is the last letter in the word 'Linux' (Linux is the kernel upon which Ubuntu is built)?
+2010-09-09 02:30:40	<--	icf7 (~icf7@p50829469.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2010-09-09 02:31:02	<--	awoodland (~woodalan@81.2.107.211) has quit (Read error: Connection reset by peer)
+2010-09-09 02:31:04	-->	ameetp (~ameetp@cpe-70-123-133-172.austin.res.rr.com) has joined #ubuntu-unregged
+2010-09-09 02:31:08	@FloodBot1	Hi ameetp, this is a security check to ensure that you're a human: What color is a black horse?
+2010-09-09 02:31:27	-->	bozo2 (~oysronni@92.80-202-222.nextgentel.com) has joined #ubuntu-unregged
+2010-09-09 02:31:30	@FloodBot1	Hi bozo2, this is a security check to ensure that you're a human: What is the language of England?
+2010-09-09 02:31:31	<--	ameetp (~ameetp@cpe-70-123-133-172.austin.res.rr.com) has left #ubuntu-unregged
+2010-09-09 02:31:39	-->	Law506 (~quassel@nis-165-91-190-231.dhcp.tamu.edu) has joined #ubuntu-unregged
+2010-09-09 02:31:43	@FloodBot1	Hi Law506, this is a security check to ensure that you're a human: Which language is spoken in Japan?
+2010-09-09 02:31:48	<--	jon1 (~jon@athedsl-245947.home.otenet.gr) has quit (Quit: Leaving)
+2010-09-09 02:32:02	-->	Stevethepirate (~noxville@clam.leg.uct.ac.za) has joined #ubuntu-unregged
+2010-09-09 02:32:06	@FloodBot1	Hi Stevethepirate, this is a security check to ensure that you're a human: How much is 2 times 2 (2*2)? (type a digit)
+2010-09-09 02:32:25	<--	Law506 (~quassel@nis-165-91-190-231.dhcp.tamu.edu) has quit (Remote host closed the connection)
+2010-09-09 02:32:26	-->	awoodland (~woodalan@81.2.107.211) has joined #ubuntu-unregged
+2010-09-09 02:32:27	@FloodBot1	Hi awoodland, this is a security check to ensure that you're a human: What is the number between 4 and 6? (type a digit)
+2010-09-09 02:32:45	-->	BunnyG (~BunnyG@77.17.186.116.tmi.telenormobil.no) has joined #ubuntu-unregged
+2010-09-09 02:32:47	@FloodBot1	Hi BunnyG, this is a security check to ensure that you're a human: What continent is France in?
+2010-09-09 02:32:51	<--	bozo2 (~oysronni@92.80-202-222.nextgentel.com) has left #ubuntu-unregged
+2010-09-09 02:32:56	<--	BunnyG (~BunnyG@77.17.186.116.tmi.telenormobil.no) has quit (Client Quit)
+2010-09-09 02:33:19	-->	steve_ (~steve@142.Red-88-12-70.dynamicIP.rima-tde.net) has joined #ubuntu-unregged
+2010-09-09 02:33:20	-->	Trek (~Trek@TENSEIGA.RES.CMU.EDU) has joined #ubuntu-unregged
+2010-09-09 02:33:20	@FloodBot1	Hi steve_, this is a security check to ensure that you're a human: What is the last letter in the word 'Linux' (Linux is the kernel upon which Ubuntu is built)?
+2010-09-09 02:33:23	@FloodBot1	Hi Trek, this is a security check to ensure that you're a human: How much is 10 minus 5 (10-5)? (type a digit)
+2010-09-09 02:33:30	<--	jdpillon (~jdpillon@lns-bzn-49f-81-56-164-193.adsl.proxad.net) has quit (Ping timeout: 240 seconds)
+2010-09-09 02:33:31	<--	Trek (~Trek@TENSEIGA.RES.CMU.EDU) has quit (Read error: Connection reset by peer)
+2010-09-09 02:33:36	@FloodBot1	steve_: Thanks! Now type /join #ubuntu to join.  Register if you don't want to do this again: https://help.ubuntu.com/community/InternetRelayChat/Registration
+2010-09-09 02:34:08	-->	Sergeant_Pony (~Rich@pool-108-7-1-148.bstnma.east.verizon.net) has joined #ubuntu-unregged
+2010-09-09 02:34:09	@FloodBot1	Hi Sergeant_Pony, this is a security check to ensure that you're a human: What color is the Sun (as viewed from Earth)?
+2010-09-09 02:34:21	<--	Nich__ (~steven@brmn-4d0ad917.pool.mediaWays.net) has quit (Ping timeout: 265 seconds)
+2010-09-09 02:34:27	-->	Omar`` (~yoyo@bas1-montreal07-1176500401.dsl.bell.ca) has joined #ubuntu-unregged
+2010-09-09 02:34:30	@FloodBot1	Hi Omar``, this is a security check to ensure that you're a human: How much is 6 minus 3 (6-3)? (type a digit)
+2010-09-09 02:34:55	-->	murphy (~murphy@94.41.217.248.dynamic.neft.ufanet.ru) has joined #ubuntu-unregged
+2010-09-09 02:34:58	@FloodBot1	Hi murphy, this is a security check to ensure that you're a human: How many letters are in the word 'Debian', which is the distribution upon which Ubuntu is built? (type a digit)
+2010-09-09 02:35:13	<--	GauravButola (~gaurav@27.248.109.45) has quit (Ping timeout: 276 seconds)
+2010-09-09 02:35:19	<--	german (~german@186.89.81.130) has quit (Ping timeout: 265 seconds)
+2010-09-09 02:35:22	<--	alex2222 (~akruth@88.128.47.99) has quit (Ping timeout: 240 seconds)
+2010-09-09 02:35:32	<--	agnostic (~ag@kevin-preece.demon.co.uk) has quit
+2010-09-09 02:35:33	-->	alessiofachechi (~alessio@151.61.105.25) has joined #ubuntu-unregged
+2010-09-09 02:35:36	@FloodBot1	Hi alessiofachechi, this is a security check to ensure that you're a human: What day comes after Monday?
+2010-09-09 13:15:48		irc: disconnected from server
+2010-09-09 13:16:34	-->	quesada (~quesada@ydvlpt1-249-248.uibk.ac.at) has joined #ubuntu-unregged
+2010-09-09 13:16:35	--	Topic for #ubuntu-unregged is "If you haven't already, then please register your nickname to join #ubuntu - We are experiencing technical difficulties. Instructions at https://help.ubuntu.com/community/InternetRelayChat/Registration - Use « /join #ubuntu » to eventually join the support channel)"
+2010-09-09 13:16:35	--	Topic set by LjL (~ljl@unaffiliated/ljl) on Wed, 08 Sep 2010 18:01:16
+2010-09-09 13:16:35	--	Nicks #ubuntu-unregged: [@bazhang @ChanServ @FloodBot1 @FloodBot2 @FloodBot3 @FloodBot4 @IdleOne @idoru @kloeri @marienz @mquin @niko @Pici @rww @tomaw @tsimpson @zkriesse arf_ C-S-B cwill larsivi lelamal merkelis quesada sergiusens ServerTech Skynet- SmallR2002 StErMi Walzmyn]
+2010-09-09 13:16:35	--	Channel #ubuntu-unregged: 30 nicks (17 ops, 0 halfops, 0 voices, 13 normals)
+2010-09-09 13:16:37	@FloodBot1	Hi quesada, this is a security check to ensure that you're a human: What is the last letter of the English alphabet?
+2010-09-09 13:16:46	--	Channel created on Tue, 27 Jan 2009 06:27:44
+2010-09-09 13:18:40	-->	SJr (~sjr@S01060008029e1eb2.vc.shawcable.net) has joined #ubuntu-unregged
+2010-09-09 13:27:33	-->	tankdriver (~quassel@d91-128-254-70.cust.tele2.at) has joined #ubuntu-unregged
+2010-09-09 14:13:43	-->	hoppyite (~quassel@unaffiliated/hoppyite) has joined #ubuntu-unregged
+2010-09-09 14:14:25	-->	oln (~oln@ws43087.studby.hig.no) has joined #ubuntu-unregged
+2010-09-09 14:17:17	<--	cwill (~cwilliams@pool-173-59-241-233.bltmmd.fios.verizon.net) has quit (Quit: Leaving.)
+2010-09-09 14:26:37	-->	murphy (~murphy@94.41.149.23.dynamic.ufanet.ru) has joined #ubuntu-unregged
+2010-09-09 14:26:39	@FloodBot1	Hi murphy, this is a security check to ensure that you're a human: How many letters are in the word 'Debian', which is the distribution upon which Ubuntu is built? (type a digit)
+2010-09-09 14:31:16	<--	arf_ (~arf@75.80.69.255) has quit (Quit: Leaving)
+2010-09-09 14:32:11	<--	lelamal (~quassel@87.19.103.102) has quit (Read error: Operation timed out)
+2010-09-09 14:33:04	-->	lelamal (~quassel@87.19.98.230) has joined #ubuntu-unregged
+2010-09-09 14:38:05	-->	n0sq (~quassel@mo-65-41-216-18.sta.embarqhsd.net) has joined #ubuntu-unregged
+2010-09-09 14:49:04	-->	steve_ (~steve@84.236.232.220) has joined #ubuntu-unregged
+2010-09-09 14:50:37	-->	Walzmy_ (~quassel@h237.3.96.216.static.ip.windstream.net) has joined #ubuntu-unregged
+2010-09-09 14:51:26	<--	Walzmyn (~quassel@h237.3.96.216.static.ip.windstream.net) has quit (Read error: Connection reset by peer)
+2010-09-09 15:02:36	-->	ilers (~ilers@141.23.21.159) has joined #ubuntu-unregged
+2010-09-09 15:02:39	@FloodBot1	Hi ilers, this is a security check to ensure that you're a human: How many fingers are in a hand? (type a digit)
+2010-09-09 15:04:21	<--	StErMi (~emanuele@87.19.205.206) has quit (Read error: Connection reset by peer)
+2010-09-09 15:06:56	-->	naftilos76 (~quassel@cpe-256265.ip.primehome.com) has joined #ubuntu-unregged
+2010-09-09 15:09:16	<--	ilers (~ilers@141.23.21.159) has quit (Ping timeout: 252 seconds)
+2010-09-09 15:09:42	<--	ServerTech (~ServerTec@triband-mum-59.183.145.138.mtnl.net.in) has quit (Read error: Connection reset by peer)
+2010-09-09 15:10:21	-->	ServerTech (~ServerTec@triband-mum-59.183.145.138.mtnl.net.in) has joined #ubuntu-unregged
+2010-09-09 15:10:21	@FloodBot1	Hi ServerTech, this is a security check to ensure that you're a human: What is the last digit in the number 987?
+2010-09-09 15:15:27	-->	tjubaluba (~karlw@42.204.181.62.in-addr.dgcsystems.net) has joined #ubuntu-unregged
+2010-09-09 15:19:08	<--	ServerTech (~ServerTec@triband-mum-59.183.145.138.mtnl.net.in) has left #ubuntu-unregged

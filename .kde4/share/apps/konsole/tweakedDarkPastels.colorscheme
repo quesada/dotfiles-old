@@ -44,7 +44,7 @@ Color=240,223,175
 Transparency=false
 
 [Color4]
-Color=52,102,164
+Color=89,149,164
 Transparency=false
 
 [Color4Intense]
@@ -58,7 +58,7 @@ Transparency=false
 
 [Color5Intense]
 Bold=true
-Color=131,11,236
+Color=137,152,236
 Transparency=false
 
 [Color6]

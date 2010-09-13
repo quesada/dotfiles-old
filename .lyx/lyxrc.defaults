@@ -156,7 +156,8 @@
 \viewer_alternatives textparagraph notepad
 \Format xhtml      xhtml   "LyXHTML"              X "firefox" ""    "document"
 \viewer_alternatives xhtml firefox
-\Format bibtex bib    "BibTeX"         "" ""	"gvim"	""
+\Format bibtex bib    "BibTeX"         "" ""	"jabref"	""
+\editor_alternatives bibtex jabref
 \editor_alternatives bibtex gvim
 \editor_alternatives bibtex kwrite
 \editor_alternatives bibtex notepad
@@ -219,12 +220,10 @@
 \converter sweave   pdflatex      "R CMD Sweave $$i"	""
 \converter html       latex      "java -jar htmltolatex.jar -input $$i -output $$o"	""
 \converter word       latex      "wvCleanLatex $$i $$o"	""
-\converter lyx      html       ""	""
-\converter latex      html       ""	"needaux"
-\copier    html       "python -tt $$s/scripts/ext_copy.py $$i $$o"
-\converter lyx      wordhtml       ""	""
-\converter latex      wordhtml   ""	"needaux"
-\copier    wordhtml       "python -tt $$s/scripts/ext_copy.py $$i $$o"
+\converter lyx      html       "elyxer --directory $$r $$i $$o"	""
+\copier    html       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
+\converter lyx      wordhtml       "python -m elyxer --html --directory $$r $$i $$o"	""
+\copier    wordhtml       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
 \converter sxw        latex      ""	""
 \converter odt        latex      ""	""
 \converter latex      odt        ""	"needaux"

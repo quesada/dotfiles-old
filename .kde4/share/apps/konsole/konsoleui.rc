@@ -69,5 +69,6 @@
   <Action shortcut="Ctrl+3" name="split-view-left-right"/>
   <Action shortcut="Ctrl+2" name="split-view-top-bottom"/>
   <Action shortcut="F11" name="view-full-screen"/>
+  <Action shortcut="" name="remote-connection"/>
  </ActionProperties>
 </kpartgui>

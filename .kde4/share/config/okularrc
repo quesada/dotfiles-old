@@ -13,7 +13,9 @@ AutomaticDetectionLanguage=1
 [KFileDialog Settings]
 Height 1152=750
 Height 1200=750
-Recent Files[$e]=$HOME/pdf/eswc2010/Jiacoppo2010-Scalable and parallel reasoning in the Semantic\nWeb\nESWC10-phdsym.pdf,$HOME/Dropbox/pdf/mifi2010_submission_10-cataneseFacebook.pdf,$HOME/Dropbox/pdf/RecciaJones2010-randomRepresentations-R641B.pdf,$HOME/Dropbox/pdf/Hills-CD-network-AssocStructJML.pdf,$HOME/pdf/eswc2010/SahlgrenRI intro.pdf,$HOME/pdf/Ioannou2010-rdfsim-nearDuplicateDetectionNews-eswc.pdf,$HOME/pdf/heath2010-06-crete-linked-data-now-what.pdf,$HOME/pdf/Juslin\\, Nilsson & Winman\\, 2009.PDF,$HOME/pdf/livesocialsemantics.pdf
+Height 900=570
+Recent Files[$e]=$HOME/pdf/Burnstein2000-modularEssayGrading.pdf,$HOME/pdf/FIS_2010MLama.pdf
+Width 1600=912
 Width 1920=1200
 Width 2048=1200
 
@@ -23,10 +25,10 @@ Height 1200=1201
 Height 768=769
 Height 900=878
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAA9QAAANNAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABOgAAARJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1024=1025
-Width 1600=980
+Width 1600=1596
 Width 1920=1921
 Width 2048=2049
 
@@ -34,14 +36,26 @@ Width 2048=2049
 presentationInfo=false
 
 [Recent Dirs]
-okular[$e]=file://$HOME/Dropbox/pdf/,file://$HOME/pdf/eswc2010/,file://$HOME/pdf/
+okular[$e]=file://$HOME/pdf/,file://$HOME/Dropbox/pdf/,file://$HOME/pdf/eswc2010/
 
 [Recent Files]
-File1[$e]=$HOME/larkc/WP2/d2.3.2latex/ALL-larkc232.pdf
-File2[$e]=$HOME/down/comic_judge_dredd__dc__002.cbr
-File3[$e]=$HOME/down/resume(2).pdf
-File4[$e]=$HOME/down/year2Review.pdf
-Name1[$e]=ALL-larkc232.pdf
-Name2[$e]=comic_judge_dredd__dc__002.cbr
-Name3[$e]=resume(2).pdf
-Name4[$e]=year2Review.pdf
+File1[$e]=$HOME/down/resume(2).pdf
+File10[$e]=/tmp/FIS_2010MLama.pdf
+File2[$e]=$HOME/down/year2Review.pdf
+File3[$e]=$HOME/down/pr2010manual_en.pdf
+File4[$e]=$HOME/down/year2Review(2).pdf
+File5[$e]=$HOME/year2Review.pdf
+File6[$e]=zip:/home/quesada/down/year2Review.zip/year2Review.pdf
+File7[$e]=$HOME/down/AIJflier_A4.pdf
+File8[$e]=$HOME/down/ict-wp-2011-12_en.pdf
+File9[$e]=$HOME/down/ECIR2010_Semantically_Enhanced_TF.pdf
+Name1[$e]=resume(2).pdf
+Name10[$e]=FIS_2010MLama.pdf
+Name2[$e]=year2Review.pdf
+Name3[$e]=pr2010manual_en.pdf
+Name4[$e]=year2Review(2).pdf
+Name5[$e]=year2Review.pdf
+Name6[$e]=year2Review.pdf
+Name7[$e]=AIJflier_A4.pdf
+Name8[$e]=ict-wp-2011-12_en.pdf
+Name9[$e]=ECIR2010_Semantically_Enhanced_TF.pdf

@@ -71,7 +71,7 @@
   <Action shortcut="Ctrl+C" name="copy"/>
   <Action shortcut="Ctrl+," name="edit-current-profile"/>
   <Action shortcut="Ctrl+V; Shift+Ins" name="paste"/>
-  <Action shortcut="Ctrl+R" name="rename-session"/>
+  <Action shortcut="Ctrl+Shift+R" name="rename-session"/>
   <Action shortcut="Ctrl+M" name="show-menubar"/>
  </ActionProperties>
 </kpartgui>

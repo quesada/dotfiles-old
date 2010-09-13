@@ -15074,3 +15074,684 @@
 2010-09-06 03:38:39	-->	jmonreal (~jmonreal@201.215.57.173) has joined #gentoo
 2010-09-06 03:39:06	RAX_bg	well i cant execute this command
 2010-09-06 03:39:24	RAX_bg	i can post u the error
+2010-09-09 01:00:22	-->	quesada (~quesada@chello212186009091.tirol.surfer.at) has joined #gentoo
+2010-09-09 01:00:22	--	Topic for #gentoo is " Gentoo Linux Support | Can't speak? /join #gentoo-ops | libpng12.{so|la} issues? http://dpaste.de/zjNI/ | X Server 1.6? Bust KB/Mouse? xrl.us/bfqrjt - 1.8? xrl.us/bhjxem | Flash + amd64? dpaste.de/0aEv/ | Problems with .la files? dpaste.org/QMjK/ | masked by license? xrl.us/bhunqc | emerge broken? bugs.gentoo.org/330937#c15"
+2010-09-09 01:00:22	--	Topic set by NeddySeagoon (~NeddySeag@gentoo/developer/NeddySeagoon) on Wed, 01 Sep 2010 23:15:11
+2010-09-09 01:00:22	--	Nicks #gentoo: [@a3li @Alfred @astinus @avenj @blackace @bonsaikitten @gen2 @Naamah @seemant @SwifT @Zoidberg +ABCD +bloodnoc +blueness +chiguire +chithead +cla +dabbott +Dave2 +doc|home +essy +Fieldy +fox2mike +Griffon26 +Halcy0n +hlieberman +hwoarang +idl0r +jayne +jmbsvicetto +Johnm +Joky +jtrucks +kernelsensei +kojiro +kolmodin +LoRez +marienz +Martinp23 +mpagano_ +neurogeek +niko +peper +radhermit +RichiH +ssuominen +swegener +tanderson +tomaw +Tommy[D] +wimt +Zorry [Enrico] [GuS] [JackD] [LeON] \DSAFEW\ _flow_ _mwoodj_ _ng _Smash__ _Unode _ZeVoluciON `moebius` `VL a3Dman aaronyy AB3JU abstract3d adamkex adisbladis Adriaan Aerus ahf aidecoe` aimka` alamar alarch Aletheuo AlexanderS alienvenom AllenJB allisterb amee2k ami andip andreax andrey2 Androw AntiLiberal AntiSpamMeta apelgate applejack apraxhren ArneBab Asen-Ger aslag astra-x aurous Autie auxoid avacore AwoL Azerthoth B-Man B_Chaos Backup BadAtom Balcora barbaraH barnaba Barul basilo_ Baybal bbee BCMM BD|skutcher bearsh Belliash Belna Belxjander bertodsera BigJ bit` BitCrypt bitdancer biz BjH blacke Blackmore BlackmoreWork blackratdog blacktoo blitzkrieg3 blu bobshaffer bobstone bolt Bonilla Boohbah boris64 bragon BrendenB Bruners bsdfox bsstephan bts3685|vps bubu^ buntfalke bXi Byan c0nv1ct c1pher|home c3l cab calzifer cambi candybar Cap_J_L_Picard Caplain CartoonCat ccherrett Cen cfchris6 chainsawbike chetnick chickens chitragupt chizu_ Chris[A] christian_home christian_labs chron_ ciacon_ ckoehler clever Clex clind clock_cycles CMoH cnu codeboundfuture colyte comawhite compact CompanionCube cookiemon5ter cOoL-z CpuID CrazyEddy crescendo cristianonet crnd croepha crs crurik csd ct ctibor Cueball CybDev cyberpunkrocker CyberSix cybersystem Cybertinus cynyr cz_jc D-ion Daltx Damme danc86 Dark_Ebola darkrose dashboard Dave123 deadeyes defragger dennis_____ denysonique deso dhendrix diddly dislo dispraekailo Dj_Dexter DjMadness djoot DLange dli dngr dobie_gillis Doc235 doh doki_pen DonJaime doug_ndndn Downer dstien dubkat duke DURgod DustyDin1o Dutchy duus dwn dwnichols dylix ea815 edit_21 edit_lp2 edoceo eDose edwtjo egilkh ekneuss electricnude elektr elprespufferfish elron emma eN_Joy_ enaut_ EO_ eos_ Er0x Erayd erikwt ernetas ernetas_ ernov Error323 errordeveloper Evil2ooo evilbulg1rian ewoud Exposure ext eyescream Eythan ezzieyguywuf fadein Farssi fatpelt_laptop fedux felipe fenre|ux ferret few_ fim FinboySlick finn Fiouz fireglow firesock flasheeur Flikker flokuehn floppym flori flq foser fow fragalot FrankDNJ freeallbadgers friehmaen Frigolit froy Fuchs fufler FullFlannelJacke funtoo_nbu Gabe_G23 gajop galderromo ganadist gandhijee gardintrapp Garibaldi GarthPS GarthPS-bis gartt gasparov gaugino gauthier gcorvala gdc genewitch GenKreton Gentle` geo27 gizmore gk3 Glider gnac_ GNU\colossus gnuyoga gohn go|dfish granquet greg_nux grey_wolf grishnav Griz64 grodzilla growl Guest13032 Guest38907 Guest4580 Guest61390 guibou GuntherDW hackeron HackMaster|NOC hadees hal2050 handle hanez Hapsbanan harlekin HarryS hatseflats hazard hengha hesperaux Hexi HeXiLeD hgb ho-ax hobodave hoepen__ hokapoka_ hpaces Hum hungnv hurikhan77 Hyperion2010 iamben IAmRoot ibqn icewind idoru iElectric ikonia imcsk8 indietrash InDigo176 infojunky IoGA Iraqi irk Ironnads isaacvv ivanich j0inty j24 jacob__ jaime_ jakk janus jareth_ jarmo jaynk Jazz[rus] jbrouault jefferai jemark jeremymcs JoeHazzers_ Joggl johnzorn joschi josh0x0 jrgill jtrudeau jupiter15 jwm k[- Kalafok kale Kambus Kame2 KamusHadenes kartooon kavakava KaZeR kc8pxy kc8pxy_ keelson kerframil Keruspe kexman khine_ kikiriki killermouse0 kingsley kiorky kiri kmunkki Kneta_ Kobzar kokx kolhell kongo2002 koollman kosiini kosmikus krivetko kuma k|- LameBMX lan3y Langer lapo latenite lejonet lemonchicken Lenny_ leprosys lestat letharion lhnz likewhoa linked Liothen lizx34 lloydhuang lmi lorenzo lrvick LSD` luckz luka lukasg luminoso Lupu_ Lurq lynxxxnyl lysanderslair m4rku5 MadSir Maescool Marbug marcan marens markatto mason-l MasterPrenium mastertheknife Matkinson mattmatteh mattyy matx Maxdamantus MaxX|23 me262 melek Meliorator mephist0 Mepho merlijn MethoS- mgraf micneon MiKaJ mikc mikkoc milobit Milos__ mingdao misterJack mistik1 Mitlik mitsutaka mjrosenb mmatton mmoebius mnabil moamahi MoL0ToV Monkeh Monkeh|Lap monsieurp MooingLemur MorbidDK Morg0th morse Mr_Smoke Mrkva MrPaper mrpink57 mrq MrRat mschiff muedhive1 mueli muh2000 murphs mystica555_ n17ikh Naib Nam narthollis Natch| Natenom nemysis Neo|Desktop Nephyrin Nereid NetHawk ngochai Niamor Nibato nickm_ Nijverheid Niklas__E Nikoli NineX no-use nocternal nofpu nolaiz nolimitsoya NoNaMeNo notze nrezinorn NullAcht25 obrith oc80z octomancer oldezcat omgwtfbbqhax Openfree` or4n orcish_mage ordex Ordog_by Osiris` otih Ox1 PabOu- padde page Paleo pb pcfreak30 PeanutHorst peeaivo peitolm PennStater pentament Pepe_ pepperoni Peps peratu PerfMonk pestilent phlux phlux- PhotoJim PicCard_Away Pikel[A] pj_b pLr Po0ky ponky ponyofdeath porthimus pressenter prgrmr PRJL-vIk34 prowlah prozzerg prudhvi psmolen pths PZ qdii qnrq qubit quesada Quick-Nic qyekm r0bertz_ ra1nb0w Radegast Raenk Ralafe raw_ rdo redarrow redfox redpepper Reikoku|MBP rellig Renfield Resistance Resonanz respekt rgk rhonabwy richiefrich RickyLoad ringl_ ripdisk River_Rat robert_ robink Rodya ROKO__ romb romee Ronald RonaldH rooky rootzlevel roude rowth roxxo rvalles RypPn s0x_ S[h]O[r]T sabocat sacx sahib saintdev Samae samitheberber Sandman-Slayer Sandra Santana Sazpaimon_ schlort schroedinbug Seadog_ SecretAgent sedrik segy sergio_ sgeerts Shados shadowdaemon shdb sheldonh shellsage shiznix shmock shpaq shpaq` ShrekLappy sicherha sigi sigma_f sigma_g silverraindog Simba Simkin simplesimon2k Sipingal sirjaren Siskmarek Skizorager skoch Skunky sl33v3 slaytanic Smiley smorg smurfd_ snubby soa2ii soka soloslinger SonOfBuzz Sotek soul9 spacex sparx spenguin[work] SpineShank Sput spY|da srcerer SS3 starcoder Starvirus stephenh_ SteveGriff StexX stinky stintel Stonefish strikeu_ stuarth stuuf styx____ subanomic subpy suiside sujeet SuperFlo suser sushiyant sven^ svm_invictvs Swind t\zz talso tamiko tangent Tanktalus tdr Terrortoertchen thddx the_5th_wheel The_Ball the_lord the_q thechauffeur theklone_home themiddleman theneb_ TheOnly Thev00d00 ThiefMaster thomasa88 thomasa89 thomasg thune3 tiberius_ tibyke Tiger timahvo1 TitanOfOld tjen tmacedo tobij tochiz toe Tomas Tommy` Toothpick Tosh- tox2ik TravisB treak007 Tricia Tristam tsb turanmo twmi tzfardaya Uhkis UncleRemus underling UNIXgod UQlev urbee u|core v2k valczir valheru vantage Varox vderyagin vickthom viddy violetina Viperlin virys Visual` Vito11 vitovt vold volodim_ Vorpal vortexx vsTerminus vsync wackl wagnerrp wahooooo waninkoko waninkoko__ WarHitex wart___ way2strong wchun Weedy weirdedout wereHamster Weust`afk weuxel Wicla wietze WildFlame willikins Wojo Woody2143 Wooga wOPr worch WormDrink wulfen xake xales Xanadu xargs xbskid xdr Xel Xelnor xgenesis Xintruder Xjs|moonshine xteejx xtrix xvilka y3llow yahwa z35 Zaba Zaister zatteliet zc00gii zed|merge zeist ZenToo- zeroedout zeuclas Ziggy` zImage zmack znull Zom zomGreg zortz Zougloub zsol Zucca zykes- |Briareos| |MA|]
+2010-09-09 01:00:22	--	Channel #gentoo: 884 nicks (11 ops, 0 halfops, 41 voices, 832 normals)
+2010-09-09 01:00:22	--	URL for #gentoo: http://www.gentoo.org
+2010-09-09 01:00:24	--	Channel created on Sat, 15 Sep 2001 05:15:36
+2010-09-09 01:01:06	-->	monofuel (~monofuel@24-247-60-190.static.aldl.mi.charter.com) has joined #gentoo
+2010-09-09 01:01:10	quesada	I need to convert OO slides -> pdf. The built-in coverter (file>export) is horrible. Anyone knows a good online one?
+2010-09-09 01:01:13	-->	fken (~quassel@2a01:e34:ee29:9be0:6ef0:49ff:fe0b:eba1) has joined #gentoo
+2010-09-09 01:01:15	-->	fractal_heart (~matomic@mzhang-linux.ucsd.edu) has joined #gentoo
+2010-09-09 01:01:53	-->	BlackBinary (~Blackbina@84-72-47-251.dclient.hispeed.ch) has joined #gentoo
+2010-09-09 01:02:07	<--	flq (~flq@64.15.75.131) has left #gentoo
+2010-09-09 01:02:08	auxoid	there is a line: (**) Option "xkb_layout" "us,ru" , but I can't change layout to "ru"
+2010-09-09 01:02:20	kolhell	sahib: also, are you following the handbook?  6: Installing the Gentoo Base System, did you follow the steps under "Copy DNS Info?"
+2010-09-09 01:02:23	sahib	kolhell: I did as gentoo handbook said
+2010-09-09 01:03:01	kolhell	sahib: Was that in response to my first two questions or my second two questions?
+2010-09-09 01:04:13	<--	Kalafok (~K@82-171-101-117.ip.telfort.nl) has quit (Read error: Connection reset by peer)
+2010-09-09 01:04:16	<--	Iraqi (~Iraqi@unaffiliated/iraqi) has quit (Ping timeout: 264 seconds)
+2010-09-09 01:04:25	-->	anAngel (~Angel@83.148.80.195) has joined #gentoo
+2010-09-09 01:04:25	-->	Kalafok (~K@82-171-101-117.ip.telfort.nl) has joined #gentoo
+2010-09-09 01:04:34	sahib	kolhell: dont know net-setup utility, so...
+2010-09-09 01:05:01	<--	TravisB (~TravisB@ool-457e2525.dyn.optonline.net) has quit (Ping timeout: 252 seconds)
+2010-09-09 01:05:01	Renfield	Is it possible to somehow "hardcode" a device link for /dev/hda just like in the olden days?
+2010-09-09 01:05:19	auxoid	bonsaikitten, don't you know how to find out the reason of such a behavior?
+2010-09-09 01:05:22	<--	mikkoc (~mikko@host55-17-dynamic.60-82-r.retail.telecomitalia.it) has quit (Ping timeout: 255 seconds)
+2010-09-09 01:05:42	<--	monofuel (~monofuel@24-247-60-190.static.aldl.mi.charter.com) has quit (Remote host closed the connection)
+2010-09-09 01:05:49	<--	xake (~xake@liten.csbnet.se) has quit (Quit: Ex-Chat)
+2010-09-09 01:07:12	-->	hell_razer (~HellRaise@128-167-94-178.pool.ukrtel.net) has joined #gentoo
+2010-09-09 01:08:28	-->	schnoobby (~schnoobby@wrzb-4d0044fd.pool.mediaWays.net) has joined #gentoo
+2010-09-09 01:09:12	-->	Iraqi (~Iraqi@unaffiliated/iraqi) has joined #gentoo
+2010-09-09 01:09:28	<--	svm_invictvs (~dk_schrut@unaffiliated/svminvictvs/x-938456) has quit (Quit: This computer has gone to sleep)
+2010-09-09 01:09:46	kolhell	sahib: so when you loaded off of the cd for the first time you typed "ifconfig" to verify if it was working and eth0 was already there and ready to go?
+2010-09-09 01:10:23	sahib	kolhell: ...so I still dont get your first question, there is no "first time" meaning before, dunno net-setup (neither see it merged) and lshw sees the card, kernel module is loaded, but ifconfig eth0 said ifc aint exist
+2010-09-09 01:10:34	<--	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Remote host closed the connection)
+2010-09-09 01:10:49	-->	s0me0ne (~kvirc@cpc1-walt6-0-0-cust855.13-2.cable.virginmedia.com) has joined #gentoo
+2010-09-09 01:11:13	Niklas__E	is there any way I chan check which libs firefox uses?
+2010-09-09 01:11:56	<--	mattyy (~matty@host126-64-static.23-87-b.business.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2010-09-09 01:12:02	<--	Raenk (~Raenk@189.186.27.177) has quit (Ping timeout: 272 seconds)
+2010-09-09 01:12:06	-->	Raenk_ (~Raenk@189.186.27.225) has joined #gentoo
+2010-09-09 01:12:13	-->	mattyy (~matty@host126-64-static.23-87-b.business.telecomitalia.it) has joined #gentoo
+2010-09-09 01:12:30	kolhell	sahib: nevermind, dunno then :(
+2010-09-09 01:12:32	@bonsaikitten	auxoid: no idea
+2010-09-09 01:12:45	qubit	Niklas__E: ldd `which firefox`
+2010-09-09 01:13:04	-->	cricket[b] (cricket@elk-calix-dhcp-2-99.dsl.wwt.net) has joined #gentoo
+2010-09-09 01:13:22	<--	xteejx (~teej@94-194-121-85.zone8.bethere.co.uk) has quit (Ping timeout: 240 seconds)
+2010-09-09 01:13:34	Renfield	How do I compile glibc against new kernel headers while running on an older kernel?
+2010-09-09 01:13:37	<--	AwoL (~aburn02s@sw-026.socialwork.illinois.edu) has quit (Remote host closed the connection)
+2010-09-09 01:14:06	sahib	kolhell: and yes, setup found that card without problem, but my system did not .... there is one more strange thing, lshw says model RTL-8139/8139C/8139C+ but sign on the chip says " rtl8139D  81526Q1"
+2010-09-09 01:15:43	<--	lhnz (~lhnz@188-223-83-48.zone14.bethere.co.uk) has quit (Ping timeout: 255 seconds)
+2010-09-09 01:15:44	<--	vitovt (~vitovt@40-25-132-95.pool.ukrtel.net) has quit (Read error: Connection reset by peer)
+2010-09-09 01:15:53	<--	RonaldH (~Ronald@g10094.upc-g.chello.nl) has quit (Quit: Leaving)
+2010-09-09 01:15:59	-->	vitovt (~vitovt@40-25-132-95.pool.ukrtel.net) has joined #gentoo
+2010-09-09 01:16:28	--	vitovt is now known as Guest91253
+2010-09-09 01:16:36	<--	indietrash (~indietras@public-83-4.hig.no) has quit (Quit: Lost terminal)
+2010-09-09 01:16:55	-->	lhnz (~lhnz@188-223-83-48.zone14.bethere.co.uk) has joined #gentoo
+2010-09-09 01:18:13	<--	Raenk_ (~Raenk@189.186.27.225) has quit (Ping timeout: 272 seconds)
+2010-09-09 01:18:35	-->	log0ut|away (~oh@cmy174.neoplus.adsl.tpnet.pl) has joined #gentoo
+2010-09-09 01:18:41	-->	Raenk (~Raenk@189.186.3.15) has joined #gentoo
+2010-09-09 01:19:01	-->	surgeon (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has joined #gentoo
+2010-09-09 01:19:25	-->	GlemSom (~glemsom@0x5da34bca.cpe.ge-1-1-0-1105.sdnqu1.customer.tele.dk) has joined #gentoo
+2010-09-09 01:19:50	<--	Niklas__E (~kvirc@h-93-47.A193.priv.bahnhof.se) has quit (Quit: KVIrc 4.1.0 Equilibrium http://www.kvirc.net/)
+2010-09-09 01:20:03	-->	Nesrallah (~user@189.38.148.204) has joined #gentoo
+2010-09-09 01:20:10	<--	Ronald (~Ronald@g10094.upc-g.chello.nl) has quit (Quit: Leaving)
+2010-09-09 01:20:36	AllenJB	sahib: probably just a variant on the C. Try both the 8139too and 8139cp drivers (assuming they both still exist)
+2010-09-09 01:20:37	-->	mlevvy (~lewy@194-bi1-3.acn.waw.pl) has joined #gentoo
+2010-09-09 01:20:38	<--	latenite (~latenite@i59F77DFE.versanet.de) has quit (Quit: Ex-Chat)
+2010-09-09 01:21:07	<--	Guest91253 (~vitovt@40-25-132-95.pool.ukrtel.net) has quit (Ping timeout: 276 seconds)
+2010-09-09 01:21:16	AllenJB	sahib: You can see what modules (drivers) the livecd has loaded by running "lsmod" from it (the livecd kernel uses modules for virtually all drivers iirc)
+2010-09-09 01:21:24	sahib	AllenJB: neither worked, already trided, but installer uses 8139too 100%
+2010-09-09 01:21:39	sahib	lshw aint lie ;)
+2010-09-09 01:22:00	<--	Renfield (~Renfield@unaffiliated/renfield) has quit (Read error: Connection reset by peer)
+2010-09-09 01:22:09	sahib	which leads me to an idea...
+2010-09-09 01:22:26	AllenJB	*cough cough* Assuming manufacturers always change the pci ids / usb ids / etc when they change the hardware
+2010-09-09 01:22:36	 *	AllenJB gives Belkin the evil eye
+2010-09-09 01:22:41	<--	jemark (~mark@94.75.214.34) has quit (Ping timeout: 245 seconds)
+2010-09-09 01:22:46	Terrortoertchen	^^
+2010-09-09 01:22:54	<--	ext (bajs@c83-254-209-161.bredband.comhem.se) has quit (Quit: leaving)
+2010-09-09 01:23:26	<--	Blackmore (~Blackmore@pichove.org) has quit (Quit: Yes, brave Sir Blackmore turned about. And gallantly he chickened out.)
+2010-09-09 01:23:37	sahib	heading down to serverroon, will connect to irc from that room...
+2010-09-09 01:23:44	sahib	*server room
+2010-09-09 01:24:03	-->	hololeap (~hololeap@c-71-196-180-239.hsd1.co.comcast.net) has joined #gentoo
+2010-09-09 01:24:53	-->	ext (bajs@c83-254-209-161.bredband.comhem.se) has joined #gentoo
+2010-09-09 01:26:30	-->	SmrdutaBota (~SmrdutaBo@gate-koleje.zcu.cz) has joined #gentoo
+2010-09-09 01:26:40	--	SmrdutaBota is now known as sahib_
+2010-09-09 01:26:52	sahib_	here I am again :)
+2010-09-09 01:27:53	Terrortoertchen	welcome back ^^
+2010-09-09 01:28:29	<--	Eythan (~Eythan@81.251.47.150) has quit (Quit: Leaving)
+2010-09-09 01:29:15	--	jaime_ is now known as jaime
+2010-09-09 01:29:22	<--	lhnz (~lhnz@188-223-83-48.zone14.bethere.co.uk) has quit (Ping timeout: 276 seconds)
+2010-09-09 01:30:21	-->	lhnz (~lhnz@188-223-83-48.zone14.bethere.co.uk) has joined #gentoo
+2010-09-09 01:30:26	auxoid	bonsaikitten, thanks anyway
+2010-09-09 01:30:39	-->	foetus (~norbi@p57AA1043.dip0.t-ipconnect.de) has joined #gentoo
+2010-09-09 01:31:02	<--	|Briareos| (~briareos@151.66.47.213) has quit (Quit: bb!)
+2010-09-09 01:31:04	<--	moamahi (~moamahi@host85-50-static.12-87-b.business.telecomitalia.it) has quit (Quit: This computer has gone to sleep)
+2010-09-09 01:32:58	-->	solarised (~solaris@solaris.wiredlab.eu) has joined #gentoo
+2010-09-09 01:32:59	<--	solarised (~solaris@solaris.wiredlab.eu) has quit (Max SendQ exceeded)
+2010-09-09 01:33:08	-->	shentino (~shentino@71.92.116.151) has joined #gentoo
+2010-09-09 01:33:25	-->	frankiebones (~gdf@ool-18b88ebd.dyn.optonline.net) has joined #gentoo
+2010-09-09 01:33:54	<--	NoNaMeNo (~NoNaMeNo@tb213-185-227-85.cust.teknikbyran.com) has quit (Quit: Bai bai)
+2010-09-09 01:35:24	sahib_	Oh my, gimme a kick, it is called eth1, but init tries only eth0, how do I switch that?
+2010-09-09 01:35:37	-->	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #gentoo
+2010-09-09 01:35:54	@bonsaikitten	sahib_: /etc/udev/rules.d/70-persistent-rules or something like it
+2010-09-09 01:36:10	@bonsaikitten	sahib_: remove the eth0 and eth1 entries from there
+2010-09-09 01:36:37	@bonsaikitten	or copy the /etc/init.d/net.eth0 init script to net.eth1 and make sure it starts
+2010-09-09 01:36:47	<--	shentino (~shentino@71.92.116.151) has quit (Remote host closed the connection)
+2010-09-09 01:36:50	<--	duus (~duus@mail.kristian-duus.dk) has quit (Ping timeout: 240 seconds)
+2010-09-09 01:37:08	<--	Kambus (~kambus@193.226.248.77) has quit (Ping timeout: 240 seconds)
+2010-09-09 01:38:02	sahib_	bonsaikitten: eth0 doesnt exist, hope overwriting eth1 to eth0 in those rules will work
+2010-09-09 01:38:24	iamben	sahib_: if you jsut clear out the rules file, it will reset the naming, and your card will become eth0 again
+2010-09-09 01:38:46	<--	notze (~pussy@e180015134.adsl.alicedsl.de) has quit (Ping timeout: 265 seconds)
+2010-09-09 01:38:56	<--	blueness (~hnsctq40@gentoo/developer/blueness) has quit (Quit: Ex-Chat)
+2010-09-09 01:39:08	@bonsaikitten	both ways work
+2010-09-09 01:39:18	sahib_	should be easier and more "clean-like", yes, thats what Ill do
+2010-09-09 01:39:31	<--	codeboundfuture (~matt@24-236-161-57.dhcp.bycy.mi.charter.com) has quit (Read error: Connection reset by peer)
+2010-09-09 01:39:35	-->	[SkG] (~SkG@unaffiliated/skg/x-897332) has joined #gentoo
+2010-09-09 01:40:01	<--	Raenk (~Raenk@189.186.3.15) has quit (Ping timeout: 255 seconds)
+2010-09-09 01:40:59	-->	Raenk (~Raenk@189.174.209.150) has joined #gentoo
+2010-09-09 01:41:11	<--	Nibato (Nibato@tn-76-7-150-129.dhcp.embarqhsd.net) has quit
+2010-09-09 01:41:40	-->	rescbr (~rescbr@mail.ltia.fc.unesp.br) has joined #gentoo
+2010-09-09 01:41:47	-->	rescbr_ (~rescbr@mail.ltia.fc.unesp.br) has joined #gentoo
+2010-09-09 01:41:54	<--	rescbr_ (~rescbr@mail.ltia.fc.unesp.br) has quit (Client Quit)
+2010-09-09 01:42:05	auxoid	another question: why 'startx' launches X server nicely, but gmd just crashes repeatedly several times?
+2010-09-09 01:42:48	-->	Nibato (Nibato@tn-76-7-150-129.dhcp.embarqhsd.net) has joined #gentoo
+2010-09-09 01:42:57	-->	Renfield (~Renfield@unaffiliated/renfield) has joined #gentoo
+2010-09-09 01:45:57	<--	cambi (~Adium@n099h086.wsr.mun.ca) has quit (Quit: Leaving.)
+2010-09-09 01:46:08	<--	Renfield (~Renfield@unaffiliated/renfield) has quit (Read error: Network is unreachable)
+2010-09-09 01:47:00	AllenJB	auxoid: What do the logs tell you? (/var/log/Xorg.0.log, /var/log/messages)
+2010-09-09 01:47:22	<--	UQlev (~yuriy@212.50.99.8) has quit (Read error: Connection reset by peer)
+2010-09-09 01:47:35	-->	quadtree (~quadtree@c-76-21-195-65.hsd1.va.comcast.net) has joined #gentoo
+2010-09-09 01:47:47	<--	BCMM (~ben@unaffiliated/bcmm) has quit (Ping timeout: 258 seconds)
+2010-09-09 01:48:12	-->	indietrash (~indietras@public-83-4.hig.no) has joined #gentoo
+2010-09-09 01:48:38	<--	dli (~dli@dsl-69-171-156-216.acanac.net) has quit (Remote host closed the connection)
+2010-09-09 01:48:52	<--	Nesrallah (~user@189.38.148.204) has left #gentoo
+2010-09-09 01:48:52	Terrortoertchen	if startx runs the server fine, it can be just a gdm problem
+2010-09-09 01:49:06	Terrortoertchen	oh :-) AlleJB was faster
+2010-09-09 01:49:48	Terrortoertchen	sry i'm drunk because it's my birthday
+2010-09-09 01:49:57	Terrortoertchen	<<--- Bad Kiddie ^^
+2010-09-09 01:50:01	-->	latenite (~latenite@i59F77DFE.versanet.de) has joined #gentoo
+2010-09-09 01:50:19	-->	torrid_luna (~torrid@port-92-206-113-31.dynamic.qsc.de) has joined #gentoo
+2010-09-09 01:50:29	-->	dli (~dli@dsl-69-171-156-216.acanac.net) has joined #gentoo
+2010-09-09 01:50:31	<--	Raenk (~Raenk@189.174.209.150) has quit (Ping timeout: 272 seconds)
+2010-09-09 01:50:36	<--	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Remote host closed the connection)
+2010-09-09 01:50:40	iElectric	don't sit on #gentoo for your birthday
+2010-09-09 01:51:00	mystica555_	go out and party or something lol
+2010-09-09 01:51:07	AllenJB	s/your birthday/when drunk/
+2010-09-09 01:51:25	<--	latenite (~latenite@i59F77DFE.versanet.de) has left #gentoo
+2010-09-09 01:51:33	Terrortoertchen	party is going on already, but half an eye needs to be in the chan ^^ don't ask
+2010-09-09 01:51:35	auxoid	AllenJB, hm.. /var/log/Xorg.0.log is the same as with executing 'startx'
+2010-09-09 01:51:41	<--	wOPr (~wOPr@adsl-ull-27-219.47-151.net24.it) has left #gentoo
+2010-09-09 01:52:08	<--	mattyy (~matty@host126-64-static.23-87-b.business.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2010-09-09 01:52:10	<--	Iraqi (~Iraqi@unaffiliated/iraqi) has quit (Ping timeout: 255 seconds)
+2010-09-09 01:52:17	Terrortoertchen	and, i have go to work in 8 hours ^^ sucks hard
+2010-09-09 01:52:22	mystica555_	would it be advisable, or recommended, or even usable, to utilize a non-gentoo patched gcc for gentoo?
+2010-09-09 01:52:28	mystica555_	ie, gcc-4.5.1 plain
+2010-09-09 01:52:48	<--	foetus (~norbi@p57AA1043.dip0.t-ipconnect.de) has quit (Quit: leaving)
+2010-09-09 01:53:06	-->	Iraqi (~Iraqi@unaffiliated/iraqi) has joined #gentoo
+2010-09-09 01:53:07	@bonsaikitten	no
+2010-09-09 01:53:21	@bonsaikitten	well, you can do that, but it'll change some bugs for others
+2010-09-09 01:53:27	@bonsaikitten	usually not worth the pain
+2010-09-09 01:53:35	-->	vitovt (~vitovt@40-25-132-95.pool.ukrtel.net) has joined #gentoo
+2010-09-09 01:54:00	sahib_	great, worked :) One thing more I need, where do I write nameservers for an ifc to stay in resolv.conf after reboot?
+2010-09-09 01:54:13	--	vitovt is now known as Guest67150
+2010-09-09 01:54:22	<--	apelgate (~apel@s83-191-241-173.cust.tele2.se) has quit (Quit: This computer has gone to sleep)
+2010-09-09 01:54:31	-->	codeboundfuture (~matt@24-236-161-57.dhcp.bycy.mi.charter.com) has joined #gentoo
+2010-09-09 01:55:12	-->	apelgate (~apel@s83-191-241-173.cust.tele2.se) has joined #gentoo
+2010-09-09 01:55:57	auxoid	AllenJB, and in /var/log/messages there are errors of this kind: kernel: [ 6299.851464] gdmgreeter[9498] trap invalid opcode ip:7fee2264025b sp:7fff4fcf1240 error:0 in libpixman-1.so.0.18.2
+2010-09-09 01:56:14	<--	Thev00d00 (~v00d00@unaffiliated/thev00d00) has quit (Remote host closed the connection)
+2010-09-09 01:56:26	auxoid	should I rebuild "pixman" ?
+2010-09-09 01:56:44	-->	Thev00d00 (~v00d00@unaffiliated/thev00d00) has joined #gentoo
+2010-09-09 01:56:52	--	tochiz is now known as tochz_afk
+2010-09-09 01:56:57	<--	Azerthoth (~azerthoth@funtoo/user/azerthoth) has quit (Remote host closed the connection)
+2010-09-09 01:57:17	<--	gdc (55cccd57@gateway/web/freenode/ip.85.204.205.87) has quit (Quit: Page closed)
+2010-09-09 01:57:22	-->	kryl (~kryl@2a01:e35:2e06:de80:226:c7ff:fe33:e22e) has joined #gentoo
+2010-09-09 01:57:24	kryl	hi
+2010-09-09 01:57:29	@bonsaikitten	auxoid: invalid opcode means you built for the wrong CPU
+2010-09-09 01:57:31	@bonsaikitten	kryl: hellp
+2010-09-09 01:57:34	@bonsaikitten	hello even
+2010-09-09 01:57:54	kryl	I have a problem with emerge update the ebuild cdrdao fail to compile ! any ideas please ?
+2010-09-09 01:58:37	blacktoo	kryl: more imput please
+2010-09-09 01:58:37	@bonsaikitten	kryl: if it is the one I've seen for the last few days you might want to use the -r1 ebuild
+2010-09-09 01:59:10	kryl	I'll sent the report in few minutes
+2010-09-09 01:59:43	kryl	bonsaikitten, 3.2.1 ou 1.2.3 :)
+2010-09-09 01:59:49	-->	duus (~duus@mail.kristian-duus.dk) has joined #gentoo
+2010-09-09 01:59:52	<--	gizmore (~gizmore@unaffiliated/gizmore) has quit (Quit: The geeks shall inherit the properties and methods of object earth)
+2010-09-09 02:00:28	auxoid	bonsaikitten, oh.. really? ) I have an AMD Phenom CPU and -march=native in CFLAGS in /etc/make.conf. Is this the problem?
+2010-09-09 02:00:30	<--	leprosys (~leprosys@unaffiliated/leprosys) has quit (Quit: Leaving)
+2010-09-09 02:00:41	kryl	1.2.3 :)
+2010-09-09 02:00:59	@bonsaikitten	auxoid: it shouldn't be, but invalid opcode usually means that you tried to use features that your cpu doesn't have
+2010-09-09 02:00:59	<--	ordex (~linuxaro@gentoo/user/ordex) has quit (Ping timeout: 260 seconds)
+2010-09-09 02:01:28	auxoid	hm..
+2010-09-09 02:01:38	auxoid	I'll check now
+2010-09-09 02:02:11	kryl	ok the details are there : http://pastebin.com/HHkuFxgk
+2010-09-09 02:03:12	-->	evelyette (~evelyette@BSN-95-233-106.dsl.siol.net) has joined #gentoo
+2010-09-09 02:03:46	@bonsaikitten	kryl: yes, try the -r1 ebuild
+2010-09-09 02:04:14	-->	tsccof (~tsccof@201-89-150-87.cslce700.dsl.brasiltelecom.net.br) has joined #gentoo
+2010-09-09 02:04:45	auxoid	bonsaikitten, I also have "Illegal instruction" error in some apps, is this also because of cpu?
+2010-09-09 02:04:54	AllenJB	auxoid: If you're unsure what's wrong, pastebin the output of "emerge --info"
+2010-09-09 02:04:59	-->	Renfield (~Renfield@unaffiliated/renfield) has joined #gentoo
+2010-09-09 02:05:02	AllenJB	auxoid: Yes, most likely
+2010-09-09 02:05:11	-->	Azerthoth (~azerthoth@funtoo/user/azerthoth) has joined #gentoo
+2010-09-09 02:05:18	@bonsaikitten	auxoid: yes, but I do wonder how you managed to trigger it
+2010-09-09 02:05:28	Renfield	Well, I finally got the system to boot, by downgrading to udev 141.
+2010-09-09 02:05:52	@bonsaikitten	Renfield: SYSFS_DEPRECATED_V2 strikes again? :)
+2010-09-09 02:06:00	Renfield	No, I never had that enabled.
+2010-09-09 02:06:09	kryl	gotcha :) thank you
+2010-09-09 02:06:33	@bonsaikitten	Renfield: now that's kinda unexpected
+2010-09-09 02:06:37	Renfield	Heh.
+2010-09-09 02:06:45	Renfield	Not in my life it isn't.
+2010-09-09 02:06:46	auxoid	bobshaffer, for example when I browse in firefox, it crashes with this error
+2010-09-09 02:06:52	auxoid	oh, sorry
+2010-09-09 02:07:04	auxoid	bonsaikitten, the message was for you :)
+2010-09-09 02:07:17	@bonsaikitten	auxoid: received :)
+2010-09-09 02:07:55	orcish_mage	what can trigger a 'touch: cannot touch `/vservers/prototype/TEST': No space left on device' message EXCEPT no space. df says: /dev/mapper/vg0--raid-vserver--prototype 3096336   1832364   1106700  63% /vservers/prototype
+2010-09-09 02:08:09	orcish_mage	i am puzzeled by this
+2010-09-09 02:08:09	@bonsaikitten	orcish_mage: df -i
+2010-09-09 02:08:14	@bonsaikitten	welcome to inode hell
+2010-09-09 02:08:22	Terrortoertchen	hehhe ^^
+2010-09-09 02:08:25	-->	xteejx (~teej@94-194-121-85.zone8.bethere.co.uk) has joined #gentoo
+2010-09-09 02:08:27	<--	kolhell (~kolhell@c-71-62-120-158.hsd1.va.comcast.net) has quit (Quit: leaving)
+2010-09-09 02:08:31	<--	BlackBinary (~Blackbina@84-72-47-251.dclient.hispeed.ch) has quit (Quit: KVIrc 3.4.0 Virgo http://www.kvirc.net/)
+2010-09-09 02:08:42	<--	Nibato (Nibato@tn-76-7-150-129.dhcp.embarqhsd.net) has quit
+2010-09-09 02:08:43	@bonsaikitten	in-place upgrade to btrfs is fun
+2010-09-09 02:08:44	auxoid	AllenJB, here is emerge --info: http://paste.pocoo.org/show/259676/
+2010-09-09 02:08:45	orcish_mage	riight.
+2010-09-09 02:09:02	<--	jaime (~quassel@unaffiliated/jaime) has quit (Remote host closed the connection)
+2010-09-09 02:09:11	orcish_mage	so this means I gots too many small files, right?
+2010-09-09 02:09:25	@bonsaikitten	yes
+2010-09-09 02:09:29	<--	[GuS] (~MysT@unaffiliated/gus/x-663402) has quit (Read error: Connection reset by peer)
+2010-09-09 02:09:39	Toothpick	90% of all problems are with emerge, what does it say about gentoo?
+2010-09-09 02:09:48	@bonsaikitten	many filesystems do not have that design weakness
+2010-09-09 02:10:01	@bonsaikitten	Toothpick: fail early, fail often?
+2010-09-09 02:10:07	-->	Nibato (Nibato@tn-76-7-150-129.dhcp.embarqhsd.net) has joined #gentoo
+2010-09-09 02:10:14	-->	jaime (~quassel@unaffiliated/jaime) has joined #gentoo
+2010-09-09 02:10:17	Toothpick	bonsaikitten: hmmm.. explain?
+2010-09-09 02:10:17	@bonsaikitten	at least portage is honest and says error when an error occured
+2010-09-09 02:10:23	orcish_mage	does max inode count depend on FS size upon creation?
+2010-09-09 02:10:27	@bonsaikitten	not success like some other yum-my package managers
+2010-09-09 02:10:28	-->	kio (~lam@38.98.68.19) has joined #gentoo
+2010-09-09 02:10:38	AllenJB	auxoid: At a rnadom guess, your CPU doesn't support one of the sse instruction sets you've enabled. When using -march=native, you shouldn't specify any other -m flags - gcc will work out what your CPU supports and enable the appropriate ones for you
+2010-09-09 02:10:40	@bonsaikitten	orcish_mage: yes, but it can also be changed at mkfs time
+2010-09-09 02:10:47	<--	kio (~lam@38.98.68.19) has left #gentoo
+2010-09-09 02:11:05	Toothpick	bonsaikitten: i never encountered an error with yum
+2010-09-09 02:11:13	orcish_mage	bonsaikitten: can it also be changd later on?
+2010-09-09 02:11:23	@bonsaikitten	orcish_mage: as far as I know no
+2010-09-09 02:11:23	violetina	Toothpick--
+2010-09-09 02:11:40	@bonsaikitten	Toothpick: it never says error, even if it just suicided and left a large crater
+2010-09-09 02:11:47	@bonsaikitten	I don't consider it a package manager
+2010-09-09 02:12:12	Toothpick	violetina: what was that for?
+2010-09-09 02:12:25	AllenJB	auxoid: (This is referring to the CFLAGS setting, by the way)
+2010-09-09 02:12:27	violetina	Toothpick: disrespecting portage
+2010-09-09 02:12:49	orcish_mage	i suspected inodes already, but last time I ran into it was what, like 8 years ago...
+2010-09-09 02:13:09	@bonsaikitten	orcish_mage: I'd suggest using a saner filesystem.
+2010-09-09 02:13:18	<--	Resonanz (~sergei@p4FF5ED51.dip.t-dialin.net) has quit (Remote host closed the connection)
+2010-09-09 02:13:22	@bonsaikitten	XFS, reiserfs and btrfs, for example, don't have inode limits
+2010-09-09 02:13:39	indietrash	bonsaikitten: need to undelete a file ASAP
+2010-09-09 02:13:42	indietrash	bonsaikitten: ext3. halp.
+2010-09-09 02:13:43	AllenJB	auxoid: As a side note, you may want to add the following line under your CFLAGS line in make.conf, to make CXXFLAGS match CFLAGS: CXXFLAGS="${CFLAGS}"
+2010-09-09 02:13:58	@bonsaikitten	indietrash: unmount it, don't write stuff onit, learn about forensics
+2010-09-09 02:14:04	Toothpick	violetina: thats not true, if that was the case i would have moved to ubuntu
+2010-09-09 02:14:12	Toothpick	violetina: i like gentoo because i can choose
+2010-09-09 02:14:14	indietrash	bonsaikitten: no other way?
+2010-09-09 02:14:30	<--	`VL (~vl@82.138.2.25) has quit (Quit: `VL)
+2010-09-09 02:14:30	auxoid	AllenJB, Oh, I thougth it is already set to ${CFLAGS}
+2010-09-09 02:14:33	@bonsaikitten	indietrash: none reliable
+2010-09-09 02:15:00	indietrash	bonsaikitten: fffffffffff
+2010-09-09 02:15:00	@bonsaikitten	indietrash: undeletion is not a design goal of ext*
+2010-09-09 02:15:00	@bonsaikitten	indietrash: oh., I forgot
+2010-09-09 02:15:02	@bonsaikitten	restore from backup
+2010-09-09 02:15:04	 *	bonsaikitten bows
+2010-09-09 02:15:08	AllenJB	auxoid: You have to re-set CXXFLAGS if you change CFLAGS from the default, due to the order in which the configuration files are read
+2010-09-09 02:15:13	violetina	Toothpick: if emerge fails for me it is mostly me to blame
+2010-09-09 02:15:31	-->	MrHyde (~alek@178.219.24.60) has joined #gentoo
+2010-09-09 02:15:52	orcish_mage	bonsaikitten: I use ext4. does ext3 do sth. saner with inodes?
+2010-09-09 02:15:53	-->	BlackBinary (~Blackbina@84-72-47-251.dclient.hispeed.ch) has joined #gentoo
+2010-09-09 02:16:12	sahib_	that damn Celeron 433MHz is gonna start in 30 secs, incredible speed
+2010-09-09 02:16:15	Toothpick	violetina: today for example emerge failed for me, why? because there was a dependency that was not included in the packages
+2010-09-09 02:16:17	-->	Seadog (~Seadog@188-220-216-187.zone11.bethere.co.uk) has joined #gentoo
+2010-09-09 02:16:18	auxoid	AllenJB, thanks. But I haven't understood: do I have wrong settings in my CFLAGS or not?
+2010-09-09 02:16:21	Toothpick	how are u to blame here
+2010-09-09 02:16:32	@bonsaikitten	orcish_mage: no, ext4 is actually a bit more efficient
+2010-09-09 02:16:43	@bonsaikitten	Toothpick: file bug
+2010-09-09 02:16:44	violetina	Toothpick: well that means someone messed up an ebuild
+2010-09-09 02:16:50	@bonsaikitten	Toothpick: bugs.gentoo.org is your friend
+2010-09-09 02:16:53	kryl	I don't understand why sometime wget doesn't work like that : http://pastebin.com/uxbFiFP0
+2010-09-09 02:17:01	auxoid	AllenJB, and what should I rebuild after changing CFLAGS and CXXFLAGS?
+2010-09-09 02:17:20	<--	Aerus (~aerus@213.151.5.43) has quit (Remote host closed the connection)
+2010-09-09 02:17:21	violetina	Toothpick: still not emerge to blame ;)
+2010-09-09 02:17:30	kryl	and then if I download the file in my browser and put it in /usr/portage/distfiles it doesn't work too !
+2010-09-09 02:17:46	<--	sahib_ (~SmrdutaBo@gate-koleje.zcu.cz) has quit (Quit: thanx for your help ;))
+2010-09-09 02:17:57	<--	GlemSom (~glemsom@0x5da34bca.cpe.ge-1-1-0-1105.sdnqu1.customer.tele.dk) has quit (Remote host closed the connection)
+2010-09-09 02:17:57	AllenJB	auxoid: You should set CFLAGS as follows, then rebuild everything (with "emerge -e @world"): CFLAGS="-march=native -O2 -pipe"
+2010-09-09 02:18:26	Toothpick	violentina stop thinking emerge is some kind of god
+2010-09-09 02:18:37	auxoid	AllenJB, thank you. I'll try this. I hope this will fix a lot of current problems
+2010-09-09 02:18:38	AllenJB	auxoid: Basically anything you compiled since you broke the CFLAGS is likely to be broken
+2010-09-09 02:18:46	orcish_mage	bonsaikitten: so can I just raise the inode number with -N in mkfs?
+2010-09-09 02:18:51	@bonsaikitten	orcish_mage: at create time yes
+2010-09-09 02:19:02	<--	Seadog_ (~Seadog@188-220-216-187.zone11.bethere.co.uk) has quit (Ping timeout: 272 seconds)
+2010-09-09 02:19:05	Renfield	Is there any recent documentation for configuring NIS with Gentoo? I'm not finding it.
+2010-09-09 02:19:06	-->	egoleo (~egoleo@41.190.90.249) has joined #gentoo
+2010-09-09 02:19:07	orcish_mage	yea at create time
+2010-09-09 02:19:09	@bonsaikitten	Toothpick: as I said, if there's a bug make us aware of it
+2010-09-09 02:19:10	auxoid	AllenJB, got it. Thanks
+2010-09-09 02:19:11	<--	shmock (~alek@178.219.24.60) has quit (Ping timeout: 272 seconds)
+2010-09-09 02:19:13	@bonsaikitten	Toothpick: bugs.gentoo.org
+2010-09-09 02:19:39	-->	tehdavid (~David@host109-152-213-208.range109-152.btcentralplus.com) has joined #gentoo
+2010-09-09 02:19:44	<--	kojiro (~koj@gentoo/contributor/kojiro) has quit (Quit: peace)
+2010-09-09 02:20:50	orcish_mage	indeed, creating a 2G filesystem with only 196608 inodes isn't too sane...
+2010-09-09 02:21:22	-->	kinetic87 (~hololeap@c-71-196-180-239.hsd1.co.comcast.net) has joined #gentoo
+2010-09-09 02:21:29	xteejx	Question: What kernel option do I need to enable to allow net access in Gentoo in VirtualBox?
+2010-09-09 02:21:38	xteejx	My eth0 isn't found
+2010-09-09 02:22:02	-->	svm_invictvs (~dk_schrut@unaffiliated/svminvictvs/x-938456) has joined #gentoo
+2010-09-09 02:22:39	@bonsaikitten	xteejx: that's an amd pcnet32 by default
+2010-09-09 02:22:52	@bonsaikitten	xteejx: or possibly an intel e100 if I'm not mistaken
+2010-09-09 02:22:54	kryl	bonsaikitten, do u have an idea for my last package who would not emerge ? http://pastebin.com/uxbFiFP0
+2010-09-09 02:23:09	xteejx	Hmm...both were already selected
+2010-09-09 02:23:25	@bonsaikitten	kryl: what's the nameserver in /etc/resolv.conf ?
+2010-09-09 02:23:28	-->	Ronald (~Ronald@g10094.upc-g.chello.nl) has joined #gentoo
+2010-09-09 02:23:31	<--	slaytanic (~slaytanic@200-55-71-205.dsl.prima.net.ar) has quit (Ping timeout: 245 seconds)
+2010-09-09 02:24:01	<--	Thev00d00 (~v00d00@unaffiliated/thev00d00) has quit (Remote host closed the connection)
+2010-09-09 02:24:12	<--	Caplain (~shayne@pool-108-9-132-70.tampfl.fios.verizon.net) has quit (Quit: Caplain out)
+2010-09-09 02:24:28	-->	fatticus (~hololeap@c-71-196-180-239.hsd1.co.comcast.net) has joined #gentoo
+2010-09-09 02:24:33	xteejx	bonsaikitten: I see it, it's in the ISA/EISA/PCI support bit... thank you!! :)
+2010-09-09 02:24:33	<--	Skizorager (~quassel@91.180.97.144) has quit (Read error: Connection reset by peer)
+2010-09-09 02:24:38	<--	hololeap (~hololeap@c-71-196-180-239.hsd1.co.comcast.net) has quit (Ping timeout: 276 seconds)
+2010-09-09 02:24:39	kryl	I use my own nameserver bind with 127.0.0.1 and my ISP nameserver : 212.27.40.240
+2010-09-09 02:24:41	--	Gentle` is now known as Gentle
+2010-09-09 02:24:43	@bonsaikitten	xteejx: lspci :)
+2010-09-09 02:24:50	-->	kolhell (~kolhell@c-71-62-120-158.hsd1.va.comcast.net) has joined #gentoo
+2010-09-09 02:24:54	-->	contempt (~cli@host236-135-dynamic.31-79-r.retail.telecomitalia.it) has joined #gentoo
+2010-09-09 02:24:59	-->	ugh_ (~quassel@118.128.199.134) has joined #gentoo
+2010-09-09 02:25:00	@bonsaikitten	kryl: hmm. possibly buggy
+2010-09-09 02:25:11	@bonsaikitten	kryl: you could use 4.2.2.1 or 8.8.8.8 to test
+2010-09-09 02:25:21	kryl	bonsaikitten, but I'm not sure it's a nameserver problem if you look at the paste I did you can see I resolve it ... and my browser do too
+2010-09-09 02:25:22	kolhell	I just rebooted after finishing gentoo installation then realized I forgot to set my root password.
+2010-09-09 02:25:24	<--	Nibato (Nibato@tn-76-7-150-129.dhcp.embarqhsd.net) has quit
+2010-09-09 02:25:27	kolhell	What the hell do I do now?
+2010-09-09 02:25:33	kryl	lol ok
+2010-09-09 02:25:35	kryl	special...
+2010-09-09 02:25:36	-->	slaytanic (~slaytanic@200-55-71-205.dsl.prima.net.ar) has joined #gentoo
+2010-09-09 02:25:41	xteejx	No wot recompile the kernel and copy the bzimage :) woohoo
+2010-09-09 02:25:45	@bonsaikitten	kolhell: reboot with init=/bin/bash on the kernel command line
+2010-09-09 02:25:49	xteejx	*Now to
+2010-09-09 02:26:15	hell_razer	i want all acces to my pptpd server i have rule only for my network "iptables -A INPUT -s 192.168.0.0/24 -p tcp -m state --state NEW -m tcp --dport 1723 -j ACCEPT" how to change it for allow all to conenct
+2010-09-09 02:26:25	kolhell	bonsaikitten: thanks.  That will get me in so I can passwd and change it?
+2010-09-09 02:26:31	<--	kinetic87 (~hololeap@c-71-196-180-239.hsd1.co.comcast.net) has quit (Ping timeout: 246 seconds)
+2010-09-09 02:26:36	@bonsaikitten	kolhell: yes
+2010-09-09 02:26:50	-->	Nibato (Nibato@tn-76-7-150-129.dhcp.embarqhsd.net) has joined #gentoo
+2010-09-09 02:26:51	<--	kolhell (~kolhell@c-71-62-120-158.hsd1.va.comcast.net) has quit (Client Quit)
+2010-09-09 02:26:51	@bonsaikitten	it also shows that physical access compromises machines easily
+2010-09-09 02:26:52	<--	schnoobby (~schnoobby@wrzb-4d0044fd.pool.mediaWays.net) has quit (Quit: Leaving)
+2010-09-09 02:26:54	xteejx	Isn't that a bit insecure?
+2010-09-09 02:27:01	-->	GMFlash (~anonymous@cpe-24-166-110-93.neo.res.rr.com) has joined #gentoo
+2010-09-09 02:27:02	xteejx	My thought exactly!
+2010-09-09 02:28:27	-->	Caplain (~shayne@pool-108-9-132-70.tampfl.fios.verizon.net) has joined #gentoo
+2010-09-09 02:28:31	<--	orcish_mage (~zaphod828@239.200.217.87.dynamic.jazztel.es) has quit (Ping timeout: 272 seconds)
+2010-09-09 02:28:58	-->	inad922 (~inad925@53d83939.adsl.enternet.hu) has joined #gentoo
+2010-09-09 02:29:40	<--	xteejx (~teej@94-194-121-85.zone8.bethere.co.uk) has quit (Quit: Ex-Chat)
+2010-09-09 02:29:40	<--	Iraqi (~Iraqi@unaffiliated/iraqi) has quit (Ping timeout: 265 seconds)
+2010-09-09 02:29:40	-->	orcish_mage (~zaphod828@225.201.217.87.dynamic.jazztel.es) has joined #gentoo
+2010-09-09 02:29:40	inad922	hello
+2010-09-09 02:29:40	Toothpick	hi
+2010-09-09 02:29:50	inad922	Anyone having problems with the 1.7 series X.org with the mouse wheel not working. xev doesn't even show the event when I scroll...
+2010-09-09 02:30:11	<--	log0ut|away (~oh@cmy174.neoplus.adsl.tpnet.pl) has left #gentoo
+2010-09-09 02:30:11	inad922	And I can't find anything usefull with google or on the mousedrv man page
+2010-09-09 02:30:16	inad922	-l
+2010-09-09 02:30:29	<--	ugh_ (~quassel@118.128.199.134) has quit (Ping timeout: 276 seconds)
+2010-09-09 02:30:53	-->	AwoL (~aburn02s@sw-026.socialwork.illinois.edu) has joined #gentoo
+2010-09-09 02:32:07	<--	jtrudeau (~jeff@75.150.71.83) has quit (Quit: Leaving)
+2010-09-09 02:33:00	-->	notze (~pussy@e180015134.adsl.alicedsl.de) has joined #gentoo
+2010-09-09 02:33:14	<--	vsTerminus (~vsterminu@wnpgmb0810w-ad08-125-176.dynamic.mts.net) has quit (Remote host closed the connection)
+2010-09-09 02:33:27	Toothpick	netstat shows me a lot of open sockets that the program /tmp/dbus-eXWBq1tzUu opened.
+2010-09-09 02:33:27	Toothpick	is it normal?
+2010-09-09 02:33:46	<--	fatticus (~hololeap@c-71-196-180-239.hsd1.co.comcast.net) has quit (Quit: Leaving)
+2010-09-09 02:33:59	-->	kolhell (~kolhell@c-71-62-120-158.hsd1.va.comcast.net) has joined #gentoo
+2010-09-09 02:34:49	suser	Toothpick: wow, i have a lot of the same
+2010-09-09 02:34:55	suser	Toothpick: it must be
+2010-09-09 13:15:48		irc: disconnected from server
+2010-09-09 13:16:38	-->	quesada (~quesada@ydvlpt1-249-248.uibk.ac.at) has joined #gentoo
+2010-09-09 13:16:38	--	Topic for #gentoo is " Gentoo Linux Support | Can't speak? /join #gentoo-ops | libpng12.{so|la} issues? http://dpaste.de/zjNI/ | X Server 1.6? Bust KB/Mouse? xrl.us/bfqrjt - 1.8? xrl.us/bhjxem | Flash + amd64? dpaste.de/0aEv/ | Problems with .la files? dpaste.org/QMjK/ | masked by license? xrl.us/bhunqc | emerge broken? bugs.gentoo.org/330937#c15"
+2010-09-09 13:16:38	--	Topic set by NeddySeagoon (~NeddySeag@gentoo/developer/NeddySeagoon) on Wed, 01 Sep 2010 23:15:11
+2010-09-09 13:16:39	--	Nicks #gentoo: [@a3li @Alfred @astinus @avenj @blackace @bonsaikitten @gen2 @Naamah @seemant @SwifT +ABCD +ayoy +bloodnoc +blueness +Caster +chiguire +chithead +cla` +dabbott +Dave2 +doc|home +essy +Fieldy +fox2mike +Griffon26 +Halcy0n +hlieberman +hwoarang +idl0r +jayne +jmbsvicetto +Johnm +jtrucks +kernelsensei +kolmodin +LoRez +marienz +Martinp23 +mpagano_ +niko +ppr +radhermit +RichiH +ssuominen +swegener +tanderson +tomaw +Tommy[D] +wimt +Zorry [[sroracle]] [JackD] [LeON] \DSAFEW\ _flow_ _Lurq _mwoodj_ _ng _Smash__ _Unode _ZeVoluciON a-v a3Dman aaronyy AB3JU abstract3d ackit adamkex adisbladis Adriaan ahf aidecoe` aja Ak1ra alamar alarch Aletheuo AlexanderS alexine_dsouza alienvenom AllenJB allisterb amee2k ami amitprakash andip andreax andrey2 Androw AntiLiberal AntiSpamMeta apelgate applejack apraxhren ArneBab asarch aslag aurous Autie avacore Azerthoth Backup BadAtom Balcora barbaraH barnaba Barul Baybal bbee BD|skutcher bearsh Belna Belxjander bertodsera BigJ bigmatt bigmonk bit` BitCrypt bitdancer BitOBear biz BjH blacke Blackmore BlackmoreWork blackratdog blacktoo blitzkrieg3 blu bluetux bluLDG12345 bobshaffer bobstone bolt Bonilla Boohbah boris64_ bragon BrendenB Bruners bsdfox bsstephan bts3685|vps bXi Byan c0nv1ct c1pher|home c3l cab calzifer candybar Cap_J_L_Picard Caplain CartoonCat ccherrett Cen cfchris6_ chainsawbike chetnick chickens chitragupt chizu_ Chris[A] christian_home christian_labs chron_ ciacon clever Clex clock_cycles cnu codeboundfuture colyte comawhite compact CompanionCube cookiemon5ter cOoL-z cow_ CrazyEddy CrazyWoods crescendo cricket[b] crnd croepha crono_logical crs crurik ct ctibor Cueball CybDev cyberpunkrocker CyberSix cybersystem Cybertinus cynyr D-ion Daltx Damme danc86 darkrose dashboard Dave123 deadeyes defragger dennis denysonique dhendrix dhx_m diddly Disk dispraekailo DjMadness djoot DLange dli dMaggot dngr dobie_gillis Doc235 doh doki_pen DonJaime doug_ndndn Downer dstien dubkat Duke dumb_ass DURgod DustyDingo Dutchy duus dwnichols dylix ea815 edit_21 edit_lp2 edoceo eDose edwtjo egilkh egoleo ekneuss electricnude elektr elprespufferfish elron emma eN_Joy_ enderw99 EO_ eos Er0x_ Erayd erikwt ernetas ernetas_ ernov Error323 errordeveloper evelyette Evil2ooo evilbulg1rian ewoud Exposure ext ezzieyguywuf fadein Farmer_ Farssi fatpelt_laptop fdd fedux fenre|ux ferret few_ fim finn Fiouz fireglow firesock fixl flasheeur Flikker flokuehn floppym flori FlunkZz fow fractal_heart fragalot freeallbadgers friehmaen Frigolit frostwork froy Fuchs fufler FullFlannelJacke funtoo_nbu Gabe_G23 gajop galderromo ganadist gandhijee gardintrapp Garibaldi gartt gaurdro gcorvala` genewitch GenKreton Gentle geo27 gk3 Glider GMFlash gnac_ GNU\colossus gnuyoga go|dfish granquet greg_nux grey_wolf grishnav Griz64 growl grumpyrj Guest13032 Guest13118 Guest4580 Guest61390 guibou GuntherDW hackeron HackMaster|NOC hadees hal2050 handle hanez Hapsbanan harlekin HarryS hatseflats hazard hesperaux Hexi HeXiLeD hgb ho-ax_ hoepen_ hokapoka_ hpaces Hum hungnv hurikhan77 Hyperion2010 iamben IAmRoot ibqn icewind idoru iElectric iGO ikonia indietrash InDigo176 infojunky IoGA Iraqi irk Ironnads isaacvv ivanich ivanich|wrk IWHBYD j24 jaime_ jakk janus jareth_ jarmo jaynk jbrouault jefferai jeremymcs JoeHazzers Joggl johnzorn joschi jrgill jupiter15 jwm k[- Kalafok kale Kame2 KamusHadenes kartooon Katana kavakava KaZeR kc8pxy kc8pxy__ keelson kerframil Keruspe kexman killermouse0 kingsley kiri kmunkki Kneta_ Kobzar kokx kongo2002 koollman kosiini kosmikus krivetko kuma Kunalagon k|- LameBMX lan3y Langer Lap_64 lapo legeoX lejonet lemonchicken Lenny_ leprosys lestat letharion lhnz likewhoa linked Liothen lizx34 lloydhuang lmi loaret lrvick LSD` luckz lukasg luminoso Lupu lysanderslair m4rku5 MadSir Maescool makkksimal mamac Marbug marcan marens markatto mason-l MasterPrenium mastertheknife mastro mastroDani Matkinson mattmatteh matx Maxdamantus MaxX|23 mazzachre me262 melek Meliorator mephist0 Mepho merlijn Metallicall mgraf micneon MiKaJ mikc Miles milobit Milos mingdao misterJack mistik1 Mitlik mjrosenb mmatton mmoebius mnabil MoL0ToV momonster Monkeh monsieurp MooingLemur MorbidDK morfic morse Moult Mr_Smoke Mrkva MrPaper mrpink57 mrq_ MrRat muedhive1 mueli muh2000 murphs mystica555_ n17ikh Naib Nam narthollis Natch| Natenom nemysis Neo|Desktop Nephyrin Nereid NetHawk ngochai Niamor Nibato nickm_ Nikoli NineX no-use nocternal nofpu nolaiz nqs nrezinorn NullAcht25 obrith oc80z octomancer oldezcat omgwtfbbqhax opcode0x90 Openfree` or4n orcish_mage Osiris` otih Ox1 PabOu- padde page Paleo pb pcfreak30 PeanutHorst peitolm PennStater pentament Pepe_ pepperoni Peps peratu PerfMonk pestilent phlux phlux- PhotoJim PicCard_Away Pikel[A] pj_b pLr Po0ky polyhymnia ponky ponyofdeath porthimus pressenter PreZLaptop prgrmr PRJL-vIk34 prowlah prozzerg psmolen pths QinGW qnrq qubit quesada Quick-Nic r0bertz_ radka Ralafe raw_ rdo redarrow redfox redpepper Reikoku|MBP rellig Renfield rescbr Resistance respekt rgk rhonabwy richiefrich ringl_ River_Rat robert_ robink roby Rodya ROKO__ romb romee Ronald|Work rooky rootzlevel ROSHA roude rowth roxxo rufnut rvalles RypPn s0x S[h]O[r]T sabocat Samae samitheberber Sandman-Slayer Sandra SanityInFlux Santana Sazpaimon schlort schroedinbug Seadog SecretAgent sedrik segy sephinroth sgeerts Shados ShadowBelmolve shadowdaemon shal3r shdb sheldonh shellsage shiznix shpaq shpaq` ShrekLappy sicherha sigi sigma_f sigma_g silverraindog Simba Simkin Sipingal sirjaren skoch Skunky sl33v3_ slaytanic Smiley smorg smurfd_ snubby soa2ii soka soloslinger SonOfBuzz Sotek soul9 sparx spenguin[work] SpineShank Sput spY|da srcerer starcoder Starvirus stephenh_ SteveGriff StexX stinky stintel Stonefish strankan strikeu__ stuarth stuuf subanomic subpy suguiura suiside sujeet SuperFlo sven^ Swind t\zz talso tamiko tangent Tanktalus tdr thddx the_5th_wheel The_Ball The_Wraith thechauffeur theklone_home theneb_ TheOnly|afk ThiefMaster thomasa88 thomasa89 thomasg tiberius_ tibyke Tiger timahvo1 tjen_ tmacedo tobij tochz_afk toe Tomas___ Tommy` Toothpick Tosh- tox2ik Tricia troyyan Trystam tsb tsccof turanmo twmi tzfardaya ugh_ Uhkis UncleRemus underling UQlev urbee v2k valczir vantage vickthom viddy violetina Viperlin Visual` Vito11 vitovt vold volodim Vorpal vsTerminus vsync wackl wagnerrp wahooooo waninkoko waninkoko_ WarHitex wart___ way2strong Weedy weirdedout wereHamster Weust`afk weuxel Wicla wietze wiktor_b WildFlame willikins windowshasyou Wizzleby Wojo Woody2143 Wooga worch_ WormDrink wulfen xales Xanadu xargs xbskid xdr Xel Xelnor xgenesis Xintruder Xjs|moonshine xtrix xvilka y3llow yahwa yawniek Ycarene yekm z35 Zaba Zaister zatteliet zc00gii zeist ZenToo- zen|merge zeroedout zeuclas Ziggy` zImage zmack znull Zom zomGreg zortz Zougloub zsol Zucca zykes- |MA|]
+2010-09-09 13:16:39	--	Channel #gentoo: 832 nicks (10 ops, 0 halfops, 40 voices, 782 normals)
+2010-09-09 13:16:39	--	URL for #gentoo: http://www.gentoo.org
+2010-09-09 13:16:49	-->	kiorky (~kiorky@cryptelium.net) has joined #gentoo
+2010-09-09 13:17:13	--	Channel created on Sat, 15 Sep 2001 05:15:36
+2010-09-09 13:17:27	<--	kiorky (~kiorky@cryptelium.net) has quit (Client Quit)
+2010-09-09 13:17:27	-->	kiorky (~kiorky@cryptelium.net) has joined #gentoo
+2010-09-09 13:18:30	-->	torrid_luna (~torrid@port-92-206-113-31.dynamic.qsc.de) has joined #gentoo
+2010-09-09 13:18:56	-->	ming_zym (~ming_zym@121.0.29.226) has joined #gentoo
+2010-09-09 13:19:08	-->	surgeon (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has joined #gentoo
+2010-09-09 13:19:10	lukasg	dhx_m, +foo means that the flag "foo" is enabled by default by the package. As far as I know, that's about the only place where the syntax with a + in front is valid
+2010-09-09 13:19:49	<--	\DSAFEW\ (~dsafew@c-67-174-52-184.hsd1.ca.comcast.net) has quit (Ping timeout: 252 seconds)
+2010-09-09 13:20:05	<--	underling (~underling@nat/cisco/x-wzvrnxlxmnhzjfzz) has quit (Remote host closed the connection)
+2010-09-09 13:21:04	-->	edannenbe (~edannenbe@mail.blooparkstudios.de) has joined #gentoo
+2010-09-09 13:21:19	<--	Metallicall (~RickyLoad@rickyload.kvirc.fr) has quit (Quit: Beaucoup encore il te reste à apprendre. Essayer KVirc tu dois [Andaris4.1 sur http://kvirc.fr])
+2010-09-09 13:21:38	-->	RickyLoad (~RickyLoad@rickyload.kvirc.fr) has joined #gentoo
+2010-09-09 13:22:43	<--	slaytanic (~slaytanic@200-55-71-205.dsl.prima.net.ar) has quit (Ping timeout: 240 seconds)
+2010-09-09 13:23:50	dhx_m	lukasg: thanks, I think I may be confused with some other issue (use mask probably)
+2010-09-09 13:24:51	-->	slaytanic (~slaytanic@200-55-71-205.dsl.prima.net.ar) has joined #gentoo
+2010-09-09 13:25:10	-->	underling (~underling@nat/cisco/x-agsfpntdskfbadew) has joined #gentoo
+2010-09-09 13:25:11	rufnut	my encrypted swap is no longer recognized , anyone good with lvm dm-crypt ?
+2010-09-09 13:26:04	lukasg	dhx_m, ah, yes, use.mask can be quite non-intuitive (for example, to unmask a USE flag that has been masked by a profile one places -foo in profile/use.mask)
+2010-09-09 13:26:04	<--	surgeon (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has quit (Ping timeout: 260 seconds)
+2010-09-09 13:26:07	-->	johd (~johd@90.146.55.47) has joined #gentoo
+2010-09-09 13:26:25	mystica555_	double-negative = positive ? :)
+2010-09-09 13:26:38	lukasg	mystica555_, exactly :)
+2010-09-09 13:26:54	mystica555_	i dont not like that :)
+2010-09-09 13:26:59	lukasg	or "delete the mask"
+2010-09-09 13:27:02	mystica555_	yeah
+2010-09-09 13:27:24	dhx_m	lukasg: yep this one threw me off as the Gnome overlay didn't have a use.mask blocking gtk3 (it is masked in the arch profile I presume)
+2010-09-09 13:28:05	clever	dhx_m: dont have any ideas about my masked glib though?
+2010-09-09 13:28:30	lukasg	mystica555_, yeah, it kinda goes against the convention of having *.unmask files. But then again, it's only ever used in profiles, so users don't generally have to edit it (one could, with /etc/portage/profile/use.mask)
+2010-09-09 13:28:37	-->	themiddleman (~rob@c-174-52-137-42.hsd1.ut.comcast.net) has joined #gentoo
+2010-09-09 13:28:44	<--	ROSHA (~rosha@188.158.158.221) has quit (Remote host closed the connection)
+2010-09-09 13:29:53	ernov	anybody to share nice synaptics configuration via xorg.conf?
+2010-09-09 13:29:53	lukasg	dhx_m, yep, profiles are being cascaded, and that cascade can be quite deep. I'm currently working on a tool to exactly figure out where a USE flag has been set / disabled / masked
+2010-09-09 13:29:57	<--	torrid_luna (~torrid@port-92-206-113-31.dynamic.qsc.de) has quit (Ping timeout: 240 seconds)
+2010-09-09 13:30:00	-->	inode33 (debian-tor@gateway/tor-sasl/inode33) has joined #gentoo
+2010-09-09 13:31:00	<--	rescbr (~rescbr@187.66.105.42) has quit (Ping timeout: 272 seconds)
+2010-09-09 13:31:03	ernov	another question for this morning is that why ffserver becomes unavailable on remote host when a user logs into x? i use ffserver for simple streaming, and mplayer for receiving that stream - it hangs when user logs into kde
+2010-09-09 13:31:06	likewhoa	rufnut: what's the problem?
+2010-09-09 13:31:27	dhx_m	clever: I'm not the best person to ask sorry (glib 2.25.15 is pulling in fine on ~amd64 btw)
+2010-09-09 13:31:33	-->	rescbr (~rescbr@187.66.105.42) has joined #gentoo
+2010-09-09 13:31:43	clever	lukasg: sounds like you know more about profiles, it seems glib is masked in the uclibc profile, any way to get gtk+ installed?
+2010-09-09 13:31:56	-->	oTo (User-37531@122.194.181.224) has joined #gentoo
+2010-09-09 13:32:08	lukasg	clever, yeah, I'm currently looking at your issue :) Couldn't find a mask yet though
+2010-09-09 13:32:10	rufnut	I cannot seam to activate my swap likewhoa after an lvm upgrade , I think
+2010-09-09 13:32:27	clever	dhx_m: yeah, it works fine on my default profile, the problem was the uclibc profile
+2010-09-09 13:32:37	likewhoa	what's the output of your command? pastebin
+2010-09-09 13:32:47	-->	bethebunny (~bunny@216-45-228-131-minneapolis-mn.hfc.comcastbusiness.net) has joined #gentoo
+2010-09-09 13:32:56	rufnut	 /dev/mapper/ext4-swap: open failed: No such file or directory << ok I will pastebin more
+2010-09-09 13:32:57	<--	inode33 (debian-tor@gateway/tor-sasl/inode33) has quit (Remote host closed the connection)
+2010-09-09 13:33:17	clever	rufnut: sounds like LVM didnt find anything
+2010-09-09 13:33:21	rufnut	there is nothing in mapper , I guess something has changed ?
+2010-09-09 13:33:29	clever	rufnut: re-run pvscan and see what it finds
+2010-09-09 13:33:29	-->	surgeon (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has joined #gentoo
+2010-09-09 13:33:33	rufnut	yeah it finds root though ?
+2010-09-09 13:33:35	lukasg	clever, check out /usr/portage/profiles/uclibc/packages line 16 - <dev-libs/glib-2.5
+2010-09-09 13:33:41	<--	polyhymnia (~polyhymni@2001:470:f8cb::2) has quit (Ping timeout: 272 seconds)
+2010-09-09 13:33:44	likewhoa	why is your swap a lvm logical volume for?
+2010-09-09 13:34:02	<--	asarch (~asarch@187.132.139.111) has quit (Remote host closed the connection)
+2010-09-09 13:34:07	rufnut	its in the encrypted container
+2010-09-09 13:34:17	rufnut	I just did it that way ?
+2010-09-09 13:34:17	clever	likewhoa: ive done the same thing, sometimes i want to grow/shrink the swap and dont want to move any neighboring partitions
+2010-09-09 13:34:29	likewhoa	then it has nothing to do with lvm
+2010-09-09 13:34:32	rufnut	oh yeah , thats handy as well
+2010-09-09 13:34:47	likewhoa	clever: i never had to grow/shrink my swap, i hardly use swap with 8G of ram
+2010-09-09 13:35:09	-->	polyhymnia (~polyhymni@2001:470:f8cb::2) has joined #gentoo
+2010-09-09 13:35:18	clever	likewhoa: 512mb and 3gig of ram here, i did have swap on lvm directly but needed the disk space, so i deleted it and expanded a FS
+2010-09-09 13:35:19	-->	iizuka (~iizuka@ntkngw275247.kngw.nt.ftth.ppp.infoweb.ne.jp) has joined #gentoo
+2010-09-09 13:35:19	likewhoa	rufnut: so ex4-swap part of a logical volume or is it just a cryptsetup mapping?
+2010-09-09 13:35:20	lukasg	clever, that's strange though, profile/packages is used to define the system set, not masks as such
+2010-09-09 13:35:37	clever	lukasg: is it blocking less then 2.5 or greater then 2.5?
+2010-09-09 13:35:53	rufnut	likewhoa, its part of a volume yes
+2010-09-09 13:36:19	likewhoa	rufnut: can you confirm that volume exist 'pvs'?
+2010-09-09 13:36:34	lukasg	clever, it's only adding glibc smaller than 2.5 to the system set. but it shouldn't really mask it, as far as I understand
+2010-09-09 13:36:35	likewhoa	volume group that is
+2010-09-09 13:36:56	rufnut	oki will try pvs
+2010-09-09 13:37:11	rufnut	http://pastebin.ca/1936369
+2010-09-09 13:37:36	rufnut	pvs just shows the container
+2010-09-09 13:37:49	rufnut	dm-0 in this case
+2010-09-09 13:38:12	clever	likewhoa: seems like emerge -avu system has broken the image, /bin/sh: can't load library 'libc.so.6'
+2010-09-09 13:38:20	likewhoa	rufnut: i think i saw someone else here with lvm problems earlier.
+2010-09-09 13:38:44	rufnut	yeah I think this has only occured since recent lvm upgrades ?
+2010-09-09 13:38:53	likewhoa	rufnut: ext4-root is your /?
+2010-09-09 13:38:56	likewhoa	rufnut: yes
+2010-09-09 13:39:02	rufnut	yes sure is :-)
+2010-09-09 13:39:18	likewhoa	assuming you are on a livecd now, correct?
+2010-09-09 13:39:25	rufnut	no
+2010-09-09 13:39:34	rufnut	lol it actually boots ?
+2010-09-09 13:39:38	likewhoa	rufnut: what is in /dev/ext4/?
+2010-09-09 13:39:43	<--	duus (~duus@mail.kristian-duus.dk) has quit (Ping timeout: 240 seconds)
+2010-09-09 13:40:15	-->	hell_razer (~HellRaise@128-167-94-178.pool.ukrtel.net) has joined #gentoo
+2010-09-09 13:40:21	rufnut	thats what is odd ther is no /dev/ext4
+2010-09-09 13:40:26	rufnut	there
+2010-09-09 13:40:32	likewhoa	very odd
+2010-09-09 13:40:40	likewhoa	and your system actually booted?
+2010-09-09 13:40:47	rufnut	it used to link to dev/mapper iirc
+2010-09-09 13:40:53	rufnut	yeah I am on it now
+2010-09-09 13:40:54	likewhoa	normally it does
+2010-09-09 13:41:26	rufnut	I use genkernel too
+2010-09-09 13:41:36	likewhoa	ugh
+2010-09-09 13:41:49	rufnut	its ok
+2010-09-09 13:41:53	rufnut	makes it easy
+2010-09-09 13:42:01	rufnut	well used to
+2010-09-09 13:42:03	-->	xir (~xir@hosting.cosmic-solutions.co.uk) has joined #gentoo
+2010-09-09 13:42:03	likewhoa	i think genkernel uses it's own lvm binary in initramfs
+2010-09-09 13:42:28	likewhoa	rufnut: it's not hard to create a small /init to start your lvm and switch to root
+2010-09-09 13:42:35	rufnut	yeah , I think there was an issue with this 7 months ago
+2010-09-09 13:42:40	--	cla` is now known as cla
+2010-09-09 13:42:43	likewhoa	i can actually give you one i use for a livecd
+2010-09-09 13:43:14	rufnut	yes I do have a straight boot too but prefer genkernel
+2010-09-09 13:43:17	<--	freeallbadgers (~badger@freeallbadgers.plus.com) has quit (Quit: Leaving)
+2010-09-09 13:43:33	-->	knaaa (~knaaa@ip-109-91-123-110.unitymediagroup.de) has joined #gentoo
+2010-09-09 13:43:55	rufnut	just can't figure why it wont touch my swap at all ?
+2010-09-09 13:44:04	likewhoa	get a hold of your initramfs, extract it and compare the lvm binary with the one in your running system
+2010-09-09 13:45:15	rufnut	ok I might try downgrading lvm and rebuild kernel as well
+2010-09-09 13:45:27	likewhoa	genkernel uses LVM2.2.02.28.tgz and portage's stable is 2.02.56-r2
+2010-09-09 13:45:42	likewhoa	not sure if that is related
+2010-09-09 13:45:48	rufnut	where did you find that out ?
+2010-09-09 13:46:13	rufnut	I reckon that's a fair chance of my issue
+2010-09-09 13:46:23	likewhoa	rufnut: /var/cache/genkernel/src is where genkernel has binaries for stuff like busybox,evms,device-mapper and lvm2
+2010-09-09 13:46:57	likewhoa	it could be related to it using an old lvm2 or device-mapper versus your recent one
+2010-09-09 13:47:25	likewhoa	latest lvm2 includes device-mapper so there is no need to emerge device-mapper anymore.
+2010-09-09 13:47:32	rufnut	I think you could very well be right :-)
+2010-09-09 13:47:59	rufnut	this has happened before iirc ?
+2010-09-09 13:48:51	likewhoa	not that i can recall, but before while working i glanced here and someone else had issues with a recent lvm but didn't get to help or find out if they was using genkernel or not
+2010-09-09 13:49:16	<--	peitolm (~moreyc@mandlebrot.random-chaos.org.uk) has left #gentoo
+2010-09-09 13:49:59	likewhoa	the reason i suspect it's genkernel is that your system actually booted even with / as a LV
+2010-09-09 13:50:05	rufnut	cool , I shall investigate
+2010-09-09 13:50:12	rufnut	thanks for your help
+2010-09-09 13:50:17	likewhoa	np, good luck
+2010-09-09 13:50:32	rufnut	thanks
+2010-09-09 13:50:52	likewhoa	only thing i can suggest is to create a initramfs with a lvm binary from your running system instead of using the one provided by genkernel
+2010-09-09 13:51:04	likewhoa	i can help with that process.
+2010-09-09 13:51:08	<--	Wizzleby (~wizzleby@unaffiliated/wizzleby) has quit (Remote host closed the connection)
+2010-09-09 13:51:41	-->	W0rmDr1nk (~WormDrink@196-210-196-62.dynamic.isadsl.co.za) has joined #gentoo
+2010-09-09 13:51:56	<--	Katana (~hentai@unaffiliated/katana) has quit (Remote host closed the connection)
+2010-09-09 13:52:06	rufnut	cool , I might just try downgrading first , I do have a usr/src/initramfs but it is old
+2010-09-09 13:52:20	-->	shentino (~shentino@71.92.116.151) has joined #gentoo
+2010-09-09 13:52:36	<--	pcfreak30 (~pcfreak30@cpe-098-027-009-128.triad.res.rr.com) has quit (Quit: Leaving)
+2010-09-09 13:52:45	<--	WormDrink (~WormDrink@196-210-223-237.dynamic.isadsl.co.za) has quit (Ping timeout: 240 seconds)
+2010-09-09 13:53:00	-->	nee-chan (~hendrik@82-171-26-177.ip.telfort.nl) has joined #gentoo
+2010-09-09 13:53:25	<--	surgeon (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has quit (Ping timeout: 265 seconds)
+2010-09-09 13:54:38	rufnut	I was playing with an initramfs as a friend showed me how to setup an ssh luks network setup
+2010-09-09 13:55:01	-->	CMoH-notebook (~cipi@95.76.71.81) has joined #gentoo
+2010-09-09 13:55:42	<--	hackeron (~hackeron@cpc3-seve19-2-0-cust263.13-3.cable.virginmedia.com) has quit (Ping timeout: 272 seconds)
+2010-09-09 13:56:23	-->	Waylander (~Waylander@smtp-ox.owlient.eu) has joined #gentoo
+2010-09-09 13:59:39	-->	Axius (~fd@92.82.89.104) has joined #gentoo
+2010-09-09 14:00:08	-->	torrid_luna (~torrid@port-92-206-113-31.dynamic.qsc.de) has joined #gentoo
+2010-09-09 14:00:15	--	dhx_m is now known as dhx
+2010-09-09 14:00:19	--	dhx is now known as dhx1
+2010-09-09 14:01:00	<--	oTo (User-37531@122.194.181.224) has quit (Quit: ×¨ÓÃ°æ-=¡îxp¡î=-)
+2010-09-09 14:01:17	<--	knaaa (~knaaa@ip-109-91-123-110.unitymediagroup.de) has quit (Quit: Leaving)
+2010-09-09 14:02:04	<--	timahvo1 (~rogue@41.191.224.178) has quit (Ping timeout: 240 seconds)
+2010-09-09 14:03:02	-->	timahvo1 (~rogue@41.191.224.178) has joined #gentoo
+2010-09-09 14:03:07	<--	rufnut (~rufnut@120.21.169.97) has quit (Quit: Leaving)
+2010-09-09 14:03:17	<--	Axius (~fd@92.82.89.104) has quit (Read error: Operation timed out)
+2010-09-09 14:04:55	<--	xir (~xir@hosting.cosmic-solutions.co.uk) has quit (Quit: Leaving.)
+2010-09-09 14:05:34	-->	jscinoz (~jscinoz@jscinoz.org) has joined #gentoo
+2010-09-09 14:06:15	-->	xir (~xir@hosting.cosmic-solutions.co.uk) has joined #gentoo
+2010-09-09 14:06:17	<--	hurikhan77 (~quassel@2001:6f8:12c5:0:5054:ff:fede:7562) has quit (Read error: Operation timed out)
+2010-09-09 14:07:34	-->	Quag7-mobile (~yaaic@63.sub-70-219-97.myvzw.com) has joined #gentoo
+2010-09-09 14:07:39	<--	makkksimal (~makkksima@5f9afe7b.in-addr.xenvz.co.uk) has quit (Read error: Operation timed out)
+2010-09-09 14:08:14	-->	hurikhan77 (~quassel@2001:6f8:12c5:0:5054:ff:fede:7562) has joined #gentoo
+2010-09-09 14:08:32	<--	Quag7-mobile (~yaaic@63.sub-70-219-97.myvzw.com) has quit (Client Quit)
+2010-09-09 14:09:17	-->	wchun (~wchun@81-233-227-157-no38.tbcn.telia.com) has joined #gentoo
+2010-09-09 14:09:23	-->	hackeron (~hackeron@cpc3-seve19-2-0-cust263.13-3.cable.virginmedia.com) has joined #gentoo
+2010-09-09 14:09:37	<--	nee-chan (~hendrik@82-171-26-177.ip.telfort.nl) has quit (Remote host closed the connection)
+2010-09-09 14:10:18	<--	Resistance (~res@253.98.191.90.dyn.estpak.ee) has quit (Ping timeout: 258 seconds)
+2010-09-09 14:11:03	-->	rufnut (~rufnut@120.21.180.73) has joined #gentoo
+2010-09-09 14:11:52	rufnut	likewhoa, Thu Sep  9 17:53:10 2010 >>> sys-fs/lvm2-2.02.67-r2 and all is fine after a genkernel recompile
+2010-09-09 14:11:58	<--	dumb_ass (~Dumb_Ass@c-24-130-108-191.hsd1.ca.comcast.net) has quit (Ping timeout: 252 seconds)
+2010-09-09 14:12:44	<--	polyhymnia (~polyhymni@2001:470:f8cb::2) has quit (Ping timeout: 260 seconds)
+2010-09-09 14:13:41	-->	polyhymnia (~polyhymni@2001:470:f8cb::2) has joined #gentoo
+2010-09-09 14:13:47	<--	bigmonk (~bigmonk@60.247.53.7) has quit (Ping timeout: 276 seconds)
+2010-09-09 14:13:58	-->	Milos|Laptop (~Milos@60-234-198-177.bitstream.orcon.net.nz) has joined #gentoo
+2010-09-09 14:14:13	quesada	exit
+2010-09-09 14:14:29	-->	ciskje (~valve@ikira.nextworks.it) has joined #gentoo
+2010-09-09 14:15:17	rufnut	where you going ?
+2010-09-09 14:15:41	<--	Erayd (~erayd@khepry.erayd.net) has quit (Ping timeout: 264 seconds)
+2010-09-09 14:15:48	rufnut	looks like genkernel is getting old
+2010-09-09 14:19:53	<--	egoleo (~egoleo@41.190.90.249) has quit (Ping timeout: 258 seconds)
+2010-09-09 14:19:53	<--	xir (~xir@hosting.cosmic-solutions.co.uk) has quit (Read error: Connection reset by peer)
+2010-09-09 14:20:02	<--	Kobzar (~kobzar@mx.novalinia.com.ua) has quit (Quit: Всем спасибо за внимание !)
+2010-09-09 14:20:12	-->	xir (~xir@hosting.cosmic-solutions.co.uk) has joined #gentoo
+2010-09-09 14:20:27	<--	xir (~xir@hosting.cosmic-solutions.co.uk) has quit (Read error: Connection reset by peer)
+2010-09-09 14:21:28	-->	GarthPS-bis (~quassel@92.102.66.79) has joined #gentoo
+2010-09-09 14:21:30	-->	enaut (~silberber@p5DC68D31.dip0.t-ipconnect.de) has joined #gentoo
+2010-09-09 14:21:39	-->	xir (~xir@hosting.cosmic-solutions.co.uk) has joined #gentoo
+2010-09-09 14:21:59	-->	BCMM (~ben@unaffiliated/bcmm) has joined #gentoo
+2010-09-09 14:22:17	<--	torrid_luna (~torrid@port-92-206-113-31.dynamic.qsc.de) has quit (Remote host closed the connection)
+2010-09-09 14:22:21	-->	Kobzar (~kobzar@mx.novalinia.com.ua) has joined #gentoo
+2010-09-09 14:22:33	<--	r0bertz_ (~zhangle@183.37.9.54) has quit (Read error: Connection reset by peer)
+2010-09-09 14:23:36	enaut	Gentoo fails to activate my eth0 for an unkknown reason. (in dmesg it tells: enabling interface; Link is up at ...; disabling interface) if I activate it manually via "ifconfig eth0 up" I get the same dmesg without th diabling interface message and everything works fine. What could that be?
+2010-09-09 14:24:04	enaut	I suspect some issue with udev
+2010-09-09 14:24:21	<--	Ziggy` (~ziggy@89-160-154-236.du.xdsl.is) has quit (Ping timeout: 272 seconds)
+2010-09-09 14:24:26	<--	ernov (~ernov@unaffiliated/ernov) has quit (Quit: user is dead)
+2010-09-09 14:25:18	<--	crs (~crs@gentoo/user/crs) has quit (Quit: WeeChat 0.3.3)
+2010-09-09 14:25:51	-->	ordex (~linuxaro@gentoo/user/ordex) has joined #gentoo
+2010-09-09 14:26:41	-->	crs (~crs@gentoo/user/crs) has joined #gentoo
+2010-09-09 14:26:56	-->	derbasti (~Miranda@178.0.36.36) has joined #gentoo
+2010-09-09 14:27:26	-->	r0bertz (~zhangle@gentoo/developer/r0bertz) has joined #gentoo
+2010-09-09 14:27:26	--	Mode #gentoo [+v r0bertz] by ChanServ
+2010-09-09 14:27:57	<--	Iraqi (~Iraqi@unaffiliated/iraqi) has quit (Ping timeout: 240 seconds)
+2010-09-09 14:28:06	<--	derbasti (~Miranda@178.0.36.36) has left #gentoo
+2010-09-09 14:29:57	<--	Kobzar (~kobzar@mx.novalinia.com.ua) has quit (Ping timeout: 240 seconds)
+2010-09-09 14:30:05	<--	jscinoz (~jscinoz@jscinoz.org) has quit (Ping timeout: 276 seconds)
+2010-09-09 14:31:57	-->	knaa (~knaaa@ip-109-91-123-110.unitymediagroup.de) has joined #gentoo
+2010-09-09 14:32:11	<--	CMoH-notebook (~cipi@95.76.71.81) has quit (Remote host closed the connection)
+2010-09-09 14:32:48	-->	Erayd (~erayd@khepry.erayd.net) has joined #gentoo
+2010-09-09 14:33:16	--	Erayd is now known as Guest76111
+2010-09-09 14:33:34	-->	`moebius` (~moebius@host47-207-dynamic.47-79-r.retail.telecomitalia.it) has joined #gentoo
+2010-09-09 14:33:48	-->	chaisen (~chaisen@p4FD4C4D2.dip.t-dialin.net) has joined #gentoo
+2010-09-09 14:33:48	knaa	when i try rev-deb i get the following error: no ebuilds to satisfy "gnome-base/eel:2". ... should i uninstall? http://pastebin.com/2QhnDpxT
+2010-09-09 14:34:25	-->	torrid_luna (~torrid@port-92-206-113-31.dynamic.qsc.de) has joined #gentoo
+2010-09-09 14:34:36	-->	kasler (~kasler@109-93-54-41.dynamic.isp.telekom.rs) has joined #gentoo
+2010-09-09 14:34:52	-->	svm_invictvs- (~dk_schrut@unaffiliated/svminvictvs/x-938456) has joined #gentoo
+2010-09-09 14:35:06	-->	jscinoz (~jscinoz@jscinoz.org) has joined #gentoo
+2010-09-09 14:35:37	@bonsaikitten	knaa: yes
+2010-09-09 14:35:47	@bonsaikitten	knaa: looks like you're a bit outdated ;)
+2010-09-09 14:36:14	knaa	ok i try to update my system
+2010-09-09 14:36:34	<--	chaisen (~chaisen@p4FD4C4D2.dip.t-dialin.net) has quit (Client Quit)
+2010-09-09 14:36:43	-->	chaisen (~chaisen@p4FD4C4D2.dip.t-dialin.net) has joined #gentoo
+2010-09-09 14:37:08	-->	Iraqi (~Iraqi@unaffiliated/iraqi) has joined #gentoo
+2010-09-09 14:37:21	<--	Ak1ra (~Ak1ra@76.246.37.192) has quit (Ping timeout: 240 seconds)
+2010-09-09 14:38:00	-->	hydra (~meh@84.78.226.138) has joined #gentoo
+2010-09-09 14:38:48	<--	yekm (~null@91.146.37.161) has quit (Read error: Operation timed out)
+2010-09-09 14:39:18	<--	suguiura (~sato@bd21aa12.virtua.com.br) has quit (Quit: Ex-Chat)
+2010-09-09 14:39:45	-->	elhsmart (~me@109.86.226.249) has joined #gentoo
+2010-09-09 14:39:54	-->	yekm (~null@91.146.37.161) has joined #gentoo
+2010-09-09 14:41:05	-->	Katana (~hentai@unaffiliated/katana) has joined #gentoo
+2010-09-09 14:41:28	-->	ddd (~dfsdf@80.50.235.238) has joined #gentoo
+2010-09-09 14:41:41	ddd	hej
+2010-09-09 14:41:42	<--	knaa (~knaaa@ip-109-91-123-110.unitymediagroup.de) has left #gentoo ("Leaving")
+2010-09-09 14:41:45	<--	jscinoz (~jscinoz@jscinoz.org) has quit (Ping timeout: 265 seconds)
+2010-09-09 14:41:48	ddd	jak leci ch³opaki?
+2010-09-09 14:41:49	-->	knaa (~knaaa@ip-109-91-123-110.unitymediagroup.de) has joined #gentoo
+2010-09-09 14:42:00	knaa	i still get the same error: http://pastebin.com/AZmYCv0X .... update the system?
+2010-09-09 14:42:03	@a3li	ddd: english only please.
+2010-09-09 14:42:17	<--	ddd (~dfsdf@80.50.235.238) has left #gentoo
+2010-09-09 14:42:23	@a3li	or goodbye.
+2010-09-09 14:42:23	<--	polyhymnia (~polyhymni@2001:470:f8cb::2) has quit (Ping timeout: 276 seconds)
+2010-09-09 14:42:46	-->	polyhymnia (~polyhymni@2001:470:f8cb::2) has joined #gentoo
+2010-09-09 14:43:12	knaa	bonsaikitten: again?
+2010-09-09 14:43:52	<--	knaa (~knaaa@ip-109-91-123-110.unitymediagroup.de) has quit (Quit: Leaving)
+2010-09-09 14:45:48	@bonsaikitten	rm /var/cache/revdep-rebuild/*.rr <-- that would have been the bonus hint
+2010-09-09 14:47:18	-->	bigmonk (~bigmonk@60.247.53.7) has joined #gentoo
+2010-09-09 14:47:57	<--	bsdfox (~bsdfox@66.218.55.36) has quit (Changing host)
+2010-09-09 14:47:57	-->	bsdfox (~bsdfox@unaffiliated/bsdfox) has joined #gentoo
+2010-09-09 14:48:05	<--	troyyan (~troyyan@S0106001aa0950752.vc.shawcable.net) has quit (Quit: Lost terminal)
+2010-09-09 14:48:07	-->	e1z0 (~null@pdpc/supporter/7for7/e1z0) has joined #gentoo
+2010-09-09 14:48:29	-->	knaaa (~knaaa@ip-109-91-123-110.unitymediagroup.de) has joined #gentoo
+2010-09-09 14:48:37	knaaa	i got that error again
+2010-09-09 14:48:54	@bonsaikitten	rm /var/cache/revdep-rebuild/*.rr <-- that would have been the bonus hint
+2010-09-09 14:49:18	knaaa	um tt
+2010-09-09 14:51:19	<--	iGO (~xk001@62.169.121.216.rev.optimus.pt) has quit (Ping timeout: 258 seconds)
+2010-09-09 14:52:22	indietrash	how do you change the marked/highlighted text colour in .Xdefaults?
+2010-09-09 14:53:49	-->	toralf (~toralf@nat/ibm/x-ejstfflwpzqdsdcs) has joined #gentoo
+2010-09-09 14:53:56	<--	Iraqi (~Iraqi@unaffiliated/iraqi) has quit (Remote host closed the connection)
+2010-09-09 14:54:03	violetina	indietrash: i dont even have .Xdefaults ^.^
+2010-09-09 14:54:10	indietrash	violetina: thanks?
+2010-09-09 14:54:29	violetina	np :x
+2010-09-09 14:54:48	-->	Iraqi (~Iraqi@unaffiliated/iraqi) has joined #gentoo
+2010-09-09 14:55:09	--	tochz_afk is now known as tochiz
+2010-09-09 14:55:17	<--	growl (~Whine@183.81-166-202.customer.lyse.net) has quit (Ping timeout: 264 seconds)
+2010-09-09 14:55:26	<--	fenre|ux (~fenre@78.213-167-126.customer.lyse.net) has quit (Ping timeout: 276 seconds)
+2010-09-09 14:55:27	<--	leprosys (~leprosys@unaffiliated/leprosys) has quit (Quit: Leaving)
+2010-09-09 14:55:27	violetina	indietrash: maybe hace a look at http://wiki.archlinux.org/index.php/Xdefaults
+2010-09-09 14:55:39	-->	fenre|ux (~fenre@78.213-167-126.customer.lyse.net) has joined #gentoo
+2010-09-09 14:55:57	-->	abchirk (~abchirk@f052204136.adsl.alicedsl.de) has joined #gentoo
+2010-09-09 14:56:01	<--	chiguire (~user@gentoo/developer/chiguire) has quit (Ping timeout: 245 seconds)
+2010-09-09 14:56:29	-->	growl (~Whine@183.81-166-202.customer.lyse.net) has joined #gentoo
+2010-09-09 14:58:22	<--	The_Wraith (~The_Wrait@gprs-inet-65-2.elisa.ee) has quit (Quit: Damn... my life just keeps interrupting my nolifeing..)
+2010-09-09 14:59:10	indietrash	violetina: never mind. I found it. it was the background colour that dictated it, and mine was commented out. thanks though.
+2010-09-09 15:02:17	--	bluLDG12345 is now known as tsolox
+2010-09-09 15:05:54	<--	tsccof (~tsccof@201-89-157-24.cslce700.dsl.brasiltelecom.net.br) has left #gentoo
+2010-09-09 15:06:24	-->	Nesrallah (~user@189.38.148.204) has joined #gentoo
+2010-09-09 15:06:34	<--	ROKO__ (~ROKO__@h4x0r.gentoo.ltd.pl) has quit (Remote host closed the connection)
+2010-09-09 15:07:54	<--	opcode0x90 (~opcode0x9@118.101.150.75) has quit (Disconnected by services)
+2010-09-09 15:08:01	-->	mlevvy (~lewy@194-bi1-3.acn.waw.pl) has joined #gentoo
+2010-09-09 15:08:09	-->	opcode0x90 (~opcode0x9@118.101.150.75) has joined #gentoo
+2010-09-09 15:10:27	-->	keoz (~keikoz@418pc.wohnheimg.uni-frankfurt.de) has joined #gentoo
+2010-09-09 15:10:41	-->	emka (~mk@17.72.194-77.rev.gaoland.net) has joined #gentoo
+2010-09-09 15:11:05	-->	|Briareos| (~briareos@151.66.47.213) has joined #gentoo
+2010-09-09 15:11:42	-->	jscinoz (~jscinoz@jscinoz.org) has joined #gentoo
+2010-09-09 15:11:50	<--	knaaa (~knaaa@ip-109-91-123-110.unitymediagroup.de) has quit (Ping timeout: 276 seconds)
+2010-09-09 15:12:39	-->	GarthPS (~quassel@92.102.66.79) has joined #gentoo
+2010-09-09 15:12:41	<--	mamac (~jean-marc@195.184.68.33) has quit (Ping timeout: 264 seconds)
+2010-09-09 15:13:29	-->	mamac (~jean-marc@195.184.68.33) has joined #gentoo
+2010-09-09 15:14:57	<--	shentino (~shentino@71.92.116.151) has quit (Read error: Connection reset by peer)
+2010-09-09 15:16:51	-->	Commander1024 (~Commander@ip-178-203-6-37.unitymediagroup.de) has joined #gentoo
+2010-09-09 15:17:51	-->	kasler_ (~kasler@79-101-185-15.dynamic.isp.telekom.rs) has joined #gentoo
+2010-09-09 15:18:04	<--	mikc (~mick@delta360.server4you.de) has quit (Ping timeout: 252 seconds)
+2010-09-09 15:18:13	-->	vortexx (~nothing@194.230.146.38) has joined #gentoo
+2010-09-09 15:21:23	<--	kasler (~kasler@109-93-54-41.dynamic.isp.telekom.rs) has quit (Ping timeout: 265 seconds)
+2010-09-09 15:22:26	-->	kasler__ (~kasler@93-86-95-12.dynamic.isp.telekom.rs) has joined #gentoo
+2010-09-09 15:22:57	-->	mitsutaka_ (~mitsutaka@122.212.45.242) has joined #gentoo
+2010-09-09 15:23:21	<--	GarthPS-bis (~quassel@92.102.66.79) has quit (Ping timeout: 240 seconds)
+2010-09-09 15:23:34	-->	ernov (~ernov@unaffiliated/ernov) has joined #gentoo

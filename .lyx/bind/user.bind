@@ -19,4 +19,5 @@
 \bind "M-5" "layout Standard"
 \bind "C-s" "buffer-write-all"
 \bind "F2" "toolbar-toggle"
+\bind "C-backslash" "marginalnote-insert"
 

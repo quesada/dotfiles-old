@@ -1,5 +1,7 @@
 noremap <C-c> <C-v><C-c>
 noremap <C-v> <C-v><C-v>
+map <C-n> :winopen<Enter>
+
 set showstatuslinks=2
 hi StatusLine grey
 
