@@ -56,6 +56,17 @@ set mousefocus          " agree with focus follows mouse in xmonad
 set ttyfast             " Improve smoothness or redraw for newer terminals
 set whichwrap+=h,l      " Allow cursor keys to line wrap
 set winminheight=0      " Minimal height of a non-current window
+set hidden              " It hides buffers instead of closing them. This means that you can
+                        " have unwritten changes to a file and open a new file using :e, without
+                        " being forced to write or undo your changes first
+set shiftround          " use multiple of shiftwidth when indenting with '<' and '>'
+set showmatch           " set show matching parenthesis"
+set pastetoggle=<F2>    " when in insert mode, ready to paste, if you press
+"<F2>, Vim will switch to paste mode, disabling all kinds of smartness and just
+"pasting a whole buffer of text. Then, you can disable paste mode again with
+"another press of <F2>. Nice and simple
+
+set modeline " allow files to include a 'mode line'
 
 
 " Time out on mappings after two seconds, key codes after a tenth of a second
@@ -90,7 +101,7 @@ set noequalalways
 
 
 let mapleader="," " remap leader
-set backupdir =/home/quesada/vimbackup "where to put backup files, default in the same di
+set backupdir =/home/quesada/vimbackup "where to put backup files, default in the same dir
 setlocal cursorline " current line
 " taglist
 "If you have multiple tag files (across different projects), or your current working
@@ -211,6 +222,11 @@ behave mswin " needed to select things with shift-arrows
     "### }}}2
 
 "### }}}1
+
+" for when you forgot to sudo before editing a file that requires root privileges
+"    (typically /etc/hosts). This lets you use w!! to do that after you opened
+"    the file already:
+cmap w!! w !sudo tee % >/dev/null
 
 " changing modes, quitting
 inoremap <C-q> <esc>:wq!<cr>   " ctrl Q quits
@@ -427,6 +443,9 @@ endif " has("autocmd")
 " plugins, new commands
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+
 " vim-fuzzyfinder plugin
 map <Leader>t :FufFile<Enter>
 

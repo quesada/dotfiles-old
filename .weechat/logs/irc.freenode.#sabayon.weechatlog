@@ -13562,3 +13562,222 @@
 2010-09-12 19:46:33	NotNewAnymore	yup...i got it fixed. I had to put the ipaddress instead of the computer name. Does anyone know how i can have the name used instead of ip address. For its dhcp.
 2010-09-12 19:48:04	-->	tangent (~tangent@unaffiliated/lythandrel) has joined #sabayon
 2010-09-12 19:49:28	<--	laci (~laci@unaffiliated/laci) has quit (Remote host closed the connection)
+2010-09-12 19:59:28	freeallbadgers	 /etc/hosts
+2010-09-12 19:59:51	freeallbadgers	NotNewAnymore: ^^
+2010-09-12 20:12:56	NotNewAnymore	hi freealladgers
+2010-09-12 20:13:42	NotNewAnymore	so the windows name should go to /etc/hosts
+2010-09-12 20:14:02	<--	mantis_work (~kvirc@office.tanhost.com) has quit (Quit: KVIrc 4.0.0 Insomnia http://www.kvirc.net/)
+2010-09-12 20:15:37	NotNewAnymore	can i just add the ipaddress with a space and the name of the windows
+2010-09-12 20:16:46	<--	sabayonweb_28316 (4bc16444@gateway/web/freenode/ip.75.193.100.68) has quit (Quit: Page closed)
+2010-09-12 20:17:08	<--	glide (~glide87th@S01060016b61c8923.wp.shawcable.net) has quit (Quit: Too late to stop now)
+2010-09-12 20:17:16	--	Mode #sabayon [+l 83] by |Cadmus|
+2010-09-12 20:17:26	freeallbadgers	yup
+2010-09-12 20:17:44	freeallbadgers	just look at the examples
+2010-09-12 20:17:44	-->	jinxx (~jinx@142.204.90.221) has joined #sabayon
+2010-09-12 20:18:09	NotNewAnymore	but my problem remains...when the ip of that computer changes...i have to go and manually change the /etc/hosts
+2010-09-12 20:18:24	NotNewAnymore	i want to circumvent around it
+2010-09-12 20:18:57	freeallbadgers	change on an internal network?
+2010-09-12 20:19:33	jinxx	Sabayon updated today and now I can't log in - the login screen is different and whenever I enter my username it just says "Authentication Failure", without even letting me enter a password.  Any way to fix this?
+2010-09-12 20:25:05	NotNewAnymore	u mean to make it static
+2010-09-12 20:26:30	<--	ron_o (~me@pool-71-175-85-225.phlapa.fios.verizon.net) has quit (Quit: Leaving)
+2010-09-12 20:27:15	-->	me|kor (~melkor@88-134-16-75-dynip.superkabel.de) has joined #sabayon
+2010-09-12 20:29:10	NotNewAnymore	jinxx...just check if caps lock is on
+2010-09-12 20:29:42	NotNewAnymore	they have just rolled out the artwork for 5.4...thats why the login screen is different
+2010-09-12 20:30:39	jinxx	NotNewAnymore: caps lock is off
+2010-09-12 20:30:54	jinxx	it shows an actual pop-up saying authentication failure
+2010-09-12 20:32:54	jinxx	it will let me log in without the use of a password to my desktop user using the command line (ctrl+alt+F1)
+2010-09-12 20:33:30	NotNewAnymore	wow...without using a password
+2010-09-12 20:33:46	NotNewAnymore	it did not happen to me
+2010-09-12 20:33:58	-->	GI_James (~james@ip98-166-84-36.hr.hr.cox.net) has joined #sabayon
+2010-09-12 20:34:12	jinxx	I'm thinking something isn't right...
+2010-09-12 20:34:45	-->	nakee_ (~nakee@46-116-225-232.bb.netvision.net.il) has joined #sabayon
+2010-09-12 20:34:57	Azerthoth	NotNewAnymore, if the IP's on your internal network are changing you need to take the time to set static IP's
+2010-09-12 20:35:04	jinxx	when I type passwd in the CLI, it's saying Authentication Token Manipulation Error
+2010-09-12 20:35:17	--	Mode #sabayon [+l 86] by |Cadmus|
+2010-09-12 20:35:27	Azerthoth	this is typically done by tying an IP to a MAC address
+2010-09-12 20:36:09	<--	nakee (~nakee@89-139-204-180.bb.netvision.net.il) has quit (Ping timeout: 272 seconds)
+2010-09-12 20:36:56	-->	sabayonweb_36051 (45422254@gateway/web/freenode/ip.69.66.34.84) has joined #sabayon
+2010-09-12 20:40:25	sabayonweb_36051	can i install winxp after sabayon,   and simply reinstall grub2 from a livedvd afterwords.  in other words, does grub2 make it easier to install linux first
+2010-09-12 20:44:58	NotNewAnymore	well...it doesnt change...but since its dhcp...who knows
+2010-09-12 20:45:09	NotNewAnymore	there are chances of this machine getting a new ip
+2010-09-12 20:45:23	NotNewAnymore	and then my samba will stop to point to the right printer
+2010-09-12 20:45:28	-->	Keshl (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has joined #sabayon
+2010-09-12 20:51:08	<--	sabayonweb_36051 (45422254@gateway/web/freenode/ip.69.66.34.84) has quit (Quit: Page closed)
+2010-09-12 20:52:26	jinxx	Ok, here's the rundown of my situation: I installed updates today, and now whenever I enter my username to log in, I get a popup saying "Authentication Failure".  If I drop down to a console, I can log in as my user or as root to the CLI without the use of a password, leading me to believe that there is perhaps something wrong with PAM or my Sabayon's authentication manager on my computer.  How can I fix this?  (especially concerning because root required no
+2010-09-12 20:52:26	jinxx	 password authentication)
+2010-09-12 20:53:07	-->	sabayonuser3 (~sabayonus@c-76-106-160-230.hsd1.fl.comcast.net) has joined #sabayon
+2010-09-12 20:53:19	<--	sabayonuser3 (~sabayonus@c-76-106-160-230.hsd1.fl.comcast.net) has quit (Client Quit)
+2010-09-12 20:56:19	Keshl	That's quite an odd issue.. I don't know how to help, but people will probably want to know what version of Sabayon and your kernel you got running.
+2010-09-12 20:58:03	jinxx	I was originally running 5.1 (not so sure after updates today) and based on my bootloader I'm running kernel 2.6.34
+2010-09-12 20:58:16	jinxx	(originally running sabayon 5.1)
+2010-09-12 20:58:31	Keshl	What build, exactly? (Typing "cat /etc/sabayon-edition" in a terminal will bring that up.)
+2010-09-12 20:59:28	jinxx	Sabayon Linux 5.3 x86 G
+2010-09-12 21:00:21	jinxx	My bootloader is configured to select kernel version 2.6.34 by default, should I change it to select a different version? (ubuntu kept removing sabayon from the bootloader configuration so I had to add it manually)
+2010-09-12 21:00:30	Keshl	...-blinks-
+2010-09-12 21:00:32	Keshl	Uhh..
+2010-09-12 21:00:53	Keshl	That's... What on earth were you doing with Ubuntu to make it constantly remove it? o.O'
+2010-09-12 21:01:24	jinxx	I'm not sure what ubuntu was doing, but every time it updated the grub bootloader it would remove sabayon
+2010-09-12 21:01:39	Keshl	Oh, that's normal.
+2010-09-12 21:01:45	Keshl	But I don't get why it'd update grub so much..
+2010-09-12 21:01:55	Keshl	Just another reason not to use Ubuntu <.<
+2010-09-12 21:02:21	Keshl	I don't think that messed Sabayon up, but, it definitly isn't gunna help.
+2010-09-12 21:02:39	Keshl	To be extra safe, type "eselect kernel list" and tell me what's listed.
+2010-09-12 21:03:33	jinxx	Available symlink kernel targets: [1] linux-2.6.34-sabayon
+2010-09-12 21:03:59	Keshl	That's it, only one?
+2010-09-12 21:04:07	jinxx	yes
+2010-09-12 21:04:21	Keshl	Okay, good, makes stuff a bit easier.
+2010-09-12 21:07:17	Keshl	Oh, just to clarify, did you never do an update form 5/.1 before?
+2010-09-12 21:07:23	Keshl	Like, were you REALLY far behind in updates?
+2010-09-12 21:07:33	Keshl	Or is it just the most recently released set that did this?
+2010-09-12 21:07:58	jinxx	the updates probably came within the last week
+2010-09-12 21:08:30	Keshl	So you've been keeping up with them since 5.1's release?
+2010-09-12 21:09:43	Keshl	I just wanna make sure, you didn't, like, have a clean install of 5.1 then suddenly go "Oh, I should probably start updateing all this stuff", since that might brake things if it's far back enough.
+2010-09-12 21:09:55	jinxx	I installed 5.1 in late august, kept up with them pretty well after that, then updated about a week ago, then I didn't have time to update again until today
+2010-09-12 21:10:06	Keshl	Okay, you should be fine then..
+2010-09-12 21:10:14	Keshl	Very odd.
+2010-09-12 21:10:47	<--	DHalens (~DHalens@unaffiliated/dhalens) has quit (Ping timeout: 240 seconds)
+2010-09-12 21:10:59	Keshl	Well, tell them that you've got the 2.6.34 kernel, last successful update was about a week ago, that you've got the 32-bit Gnome edition, and your actual issue.
+2010-09-12 21:11:39	jinxx	who is them? sabayon forums?
+2010-09-12 21:12:16	Keshl	No, here.
+2010-09-12 21:12:26	Keshl	It's just rare anyone's not afk <.<
+2010-09-12 21:12:49	Keshl	I know next to nothing so I just stall people until someone comes along :)
+2010-09-12 21:12:56	Keshl	Like a secretary. <.<
+2010-09-12 21:13:32	NotNewAnymore	LOL...if you are the secretary...I am their boxing bag
+2010-09-12 21:13:36	Keshl	But, really, knowing what I had you do does help. That wasn't a distraction.
+2010-09-12 21:14:01	--	DaZ^ is now known as DaZ
+2010-09-12 21:14:22	Keshl	NotNewAnymore, I envy your posistion. It's gotta be better than interning for... Someone here.
+2010-09-12 21:14:35	Keshl	Not that I'm actually interning, mind you, but I sure feel like I am sometimes <.<
+2010-09-12 21:16:23	-->	sabayonweb_39441 (4e1e94d1@gateway/web/freenode/ip.78.30.148.209) has joined #sabayon
+2010-09-12 21:16:39	--	sabayonweb_39441 is now known as John35
+2010-09-12 21:17:00	<--	Giggaflop (~Mr_bo_jan@host86-147-255-65.range86-147.btcentralplus.com) has quit (Ping timeout: 276 seconds)
+2010-09-12 21:17:06	John35	Hi! My sabayon won't recognize usb devices anymore. :/
+2010-09-12 21:17:14	-->	mnabil_ (~mnabil@41.234.69.83) has joined #sabayon
+2010-09-12 21:17:36	Keshl	John35: What did you do right before it stopped working? Was it an update?
+2010-09-12 21:18:04	jinxx	what is the character limit on this channel?
+2010-09-12 21:18:24	Keshl	jinxx: You'll get kicked fast by the bot here. If you wanna paste stuff, use the "pastebunz" command in a shell.
+2010-09-12 21:18:35	Keshl	Type "pastebunz", paste text, ctrl + D, paste link here.
+2010-09-12 21:18:52	jinxx	Keshl: yes, but my question is 449 characters...
+2010-09-12 21:19:11	Keshl	Ohhhhh.... Just go ahead then, the bot doesn't autoban as far as I know.
+2010-09-12 21:19:24	John35	Keshl: Errrm... Well that's problem - I don't remember when it stopped working. I first thought that my flash drive is not working anymore.
+2010-09-12 21:19:38	jinxx	I installed sabayon 5.1 in late august.  My last successful update was about a week ago, and today I installed some updates and I can no longer log in.  If I drop to a console I am able to log in as my user or as root without using any password, but if I use GDM I get a popup saying "Authentication Error".  My current version is sabayon 5.3 x86 Gnome and my kernel is 2.6.34 (only kernel in eselect kernel list).  Can anyone help me fix my login?
+2010-09-12 21:19:41	Keshl	John35: Okay. Does it work with all usb devices, or just storage mediums?
+2010-09-12 21:19:45	Keshl	*not work
+2010-09-12 21:20:01	Keshl	jinxx: That sounds good.
+2010-09-12 21:20:26	John35	Keshl: I tried MP3, flash 512, PSP.... All the same. :)
+2010-09-12 21:20:39	Keshl	John35: THose are all storage mediums. Try, say, a printer.
+2010-09-12 21:21:12	John35	Keshl: Oh, I don't have one right now.
+2010-09-12 21:21:37	Keshl	John35: Do you have anything besides stuff that stores data to a hard drive? Printer, scanner, USB keyboard, mouse, etc?
+2010-09-12 21:22:48	John35	Keshl: Keyboard and mouse are working just fine.
+2010-09-12 21:22:50	-->	Giggaflop (~Mr_bo_jan@cpc3-trow1-0-0-cust152.aztw.cable.virginmedia.com) has joined #sabayon
+2010-09-12 21:23:01	<--	freeallbadgers (~badger@freeallbadgers.plus.com) has quit (Quit: Leaving)
+2010-09-12 21:23:57	Keshl	John35: Okay, your system might just not be auto-mounting the devices, then. Can you still mount them via a terminal?
+2010-09-12 21:24:01	NotNewAnymore	Keshl: You are interning? wow...how did u get recruited. Lots of stuff to learn. Good for you. Now I envy you.
+2010-09-12 21:24:19	<--	sabayonuser2 (~sabayonus@ool-18e45c73.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2010-09-12 21:24:41	Keshl	NotNewAnymore: I'm not, I just feel like one since I know next to nothing ^.^" But I can solve some basic issues and at least prepare the grounds.
+2010-09-12 21:24:45	John35	Keshl: Hm... I will try now. :)
+2010-09-12 21:24:47	Azerthoth	not recognize?
+2010-09-12 21:24:55	Azerthoth	fdisk -l
+2010-09-12 21:25:11	Azerthoth	if it shows up, its recognized, the issue then is gnome
+2010-09-12 21:27:20	-->	sabayonuser2 (~sabayonus@c-76-106-160-230.hsd1.fl.comcast.net) has joined #sabayon
+2010-09-12 21:27:21	John35	Nope, nothing at all
+2010-09-12 21:27:22	John35	:(
+2010-09-12 21:27:37	Azerthoth	John35, fdisk -l | pastebunz
+2010-09-12 21:28:02	John35	http://www.sabayon.org/pastie/4781
+2010-09-12 21:28:10	<--	sabayonuser2 (~sabayonus@c-76-106-160-230.hsd1.fl.comcast.net) has quit (Client Quit)
+2010-09-12 21:28:38	Keshl	John35: Try another USB port? NOT the one right next to it. Try the one your mouse is in, or something.
+2010-09-12 21:29:05	John35	I will try the one on the back of computer... Just a sec.
+2010-09-12 21:29:14	Azerthoth	dmesg | pastebunz
+2010-09-12 21:29:20	Azerthoth	lsusb | pastebunz
+2010-09-12 21:30:21	John35	http://www.sabayon.org/pastie/4782
+2010-09-12 21:30:44	John35	http://www.sabayon.org/pastie/4783
+2010-09-12 21:30:59	John35	Hmm.... The ones at back are working fine. :/
+2010-09-12 21:31:12	Keshl	John35: You've got a regular desktop, then. The top ones brake 50% of the time.
+2010-09-12 21:31:51	Keshl	John35: Grab a USB hub, they cost maybe $20-$40, and stick it in the back, and put the case on top of your computer. Simplest solution there is if you don't wanna tinker with the actual wiring.
+2010-09-12 21:32:08	Keshl	John35: And you get 4-7 extra ports, and some have pen holders (Who uses pens anymore? o.O)
+2010-09-12 21:32:31	John35	Keshl: Hah, thank you man! I will do that then! :)
+2010-09-12 21:32:38	Azerthoth	if the ones in the back are working and front not, you have a hardware failure
+2010-09-12 21:32:38	-->	DHalens (~DHalens@unaffiliated/dhalens) has joined #sabayon
+2010-09-12 21:32:43	Keshl	John35: No problem.
+2010-09-12 21:32:47	John35	Thanks Azerthoth, Keshl! :)
+2010-09-12 21:32:54	Enlik	jinxx: what do you mean by "If I drop to a console"? Do you use 'recover' GRUB menu entry or after normal boot you log in on the console?
+2010-09-12 21:33:15	Azerthoth	ctrl alt f1/2/3/4/5/6
+2010-09-12 21:33:54	<--	Giggaflop (~Mr_bo_jan@cpc3-trow1-0-0-cust152.aztw.cable.virginmedia.com) has quit (Ping timeout: 245 seconds)
+2010-09-12 21:34:17	jinxx	Enlik: I boot to the login screen and hit Ctrl+alt+F1
+2010-09-12 21:34:21	<--	lorenzo (~lorenzo@host157-26-dynamic.32-79-r.retail.telecomitalia.it) has quit (Quit: Leaving)
+2010-09-12 21:34:29	Enlik	OK, then... jinxx - so you are on a TTY and log in without a password. Is this expected?
+2010-09-12 21:35:02	jinxx	Enlik: this is not expected.  Especially for logging in with root.
+2010-09-12 21:35:36	Enlik	OK, so either text and GDM login gives problems...
+2010-09-12 21:36:00	Enlik	Maybe look at some logs?
+2010-09-12 21:37:01	jinxx	which logs?
+2010-09-12 21:37:16	Enlik	/var/log/messages
+2010-09-12 21:37:16	<--	John35 (4e1e94d1@gateway/web/freenode/ip.78.30.148.209) has quit (Ping timeout: 252 seconds)
+2010-09-12 21:37:37	Enlik	Is it only me (and my Core CDX install) or here's no auth.log?
+2010-09-12 21:38:17	--	Mode #sabayon [+l 83] by |Cadmus|
+2010-09-12 21:38:22	Enlik	jinxx: lines like: Sep 11 21:40:20 localhost su[9294]: pam_authenticate: Authentication failure
+2010-09-12 21:39:29	-->	sabayonuser2 (~sabayonus@ool-18e45a0e.dyn.optonline.net) has joined #sabayon
+2010-09-12 21:39:35	Azerthoth	Enlik, why would there necessarily be an auth.log?
+2010-09-12 21:41:09	Enlik	Azerthoth: I've seen in another distro... I know that's stupid
+2010-09-12 21:41:29	jinxx	in /var/log/messages, it shows some pam-related messages with GDM.
+2010-09-12 21:41:46	Azerthoth	jinxx, telepathy helmet is in the shop
+2010-09-12 21:42:03	Enlik	jinxx: What messages?
+2010-09-12 21:42:15	jinxx	like pam_nologin(gdm:auth): cannot determine username
+2010-09-12 21:42:48	Enlik	btw, equo conf update
+2010-09-12 21:42:56	Enlik	↑ done after upgrading?
+2010-09-12 21:44:38	jinxx	yes.
+2010-09-12 21:45:05	Azerthoth	jinxx, on an aside, back up any data you want now
+2010-09-12 21:45:06	-->	ron_o (~me@pool-71-175-85-225.phlapa.fios.verizon.net) has joined #sabayon
+2010-09-12 21:45:39	jinxx	Azerthoth: I don't save important data on my main hard drive.
+2010-09-12 21:45:54	Azerthoth	good call
+2010-09-12 21:48:14	Enlik	Hm, I see nothing much interesting googled... I would look at lines containing pam and auth (at least) and try to search something 'bout them in the internets
+2010-09-12 21:52:48	Azerthoth	experiancing why I build my custom systems without pam
+2010-09-12 21:54:38	Enlik	Slackware still does have it by default I think
+2010-09-12 21:55:48	Azerthoth	almost everyone defaults with, even gentoo, but you can build (and rebuild the stage) with -pam set globally
+2010-09-12 21:56:24	Enlik	Power of Gentoo
+2010-09-12 22:04:06	-->	gary6 (~gary6@82.host-203-152-103.compassnet.co.nz) has joined #sabayon
+2010-09-12 22:04:19	--	Mode #sabayon [+l 86] by |Cadmus|
+2010-09-12 22:05:26	jinxx	ok, I think I have an idea but I can't get to a simple CLI (without gdm).  How can I kill GDM without losing my CLI? (recovery mode is unavailable)
+2010-09-12 22:07:14	-->	laci2 (~laci@5400FDAD.dsl.pool.telekom.hu) has joined #sabayon
+2010-09-12 22:07:40	<--	gary6 (~gary6@82.host-203-152-103.compassnet.co.nz) has quit (Read error: Connection reset by peer)
+2010-09-12 22:08:46	--	laci2 is now known as laci
+2010-09-12 22:09:00	<--	laci (~laci@5400FDAD.dsl.pool.telekom.hu) has quit (Changing host)
+2010-09-12 22:09:00	-->	laci (~laci@unaffiliated/laci) has joined #sabayon
+2010-09-12 22:09:59	dyingmuppet_	jinxx: ctrl-alt-f1
+2010-09-12 22:10:29	jinxx	dyingmuppet_: gdm is still running with the xserver when I do that
+2010-09-12 22:10:30	dyingmuppet_	f7 is back to gui
+2010-09-12 22:10:42	dyingmuppet_	yea, but you can kill gdm
+2010-09-12 22:10:56	laci	hi
+2010-09-12 22:11:08	dyingmuppet_	or "killall gdm"
+2010-09-12 22:11:16	dyingmuppet_	even X
+2010-09-12 22:11:28	-->	Azerthoth|D (~azerthoth@funtoo/user/azerthoth) has joined #sabayon
+2010-09-12 22:12:50	laci	jinxx: press "I" when you start the system and say no if ask about xdm
+2010-09-12 22:13:11	--	dyingmuppet_ is now known as dyingmuppet
+2010-09-12 22:13:15	-->	gary6 (~gary6@82.host-203-152-103.compassnet.co.nz) has joined #sabayon
+2010-09-12 22:26:50	-->	seeds (~seeds@ool-18bcf43e.dyn.optonline.net) has joined #sabayon
+2010-09-12 22:27:16	--	Mode #sabayon [+l 89] by |Cadmus|
+2010-09-12 22:30:08	<--	Azerthoth|D (~azerthoth@funtoo/user/azerthoth) has quit (Ping timeout: 272 seconds)
+2010-09-12 22:30:41	Azerthoth	 /etc/init.d/xdm stop
+2010-09-12 22:30:59	<--	Thev00d00 (~v00d00@unaffiliated/thev00d00) has quit (Read error: Connection reset by peer)
+2010-09-12 22:35:09	-->	Giggaflop (~Mr_bo_jan@cpc3-trow1-0-0-cust152.aztw.cable.virginmedia.com) has joined #sabayon
+2010-09-12 22:39:08	-->	slipperychicken (~andrew@CPE00105a1eb487-CM0011e67aff39.cpe.net.cable.rogers.com) has joined #sabayon
+2010-09-12 22:42:01	<--	slipperychicken (~andrew@CPE00105a1eb487-CM0011e67aff39.cpe.net.cable.rogers.com) has quit (Client Quit)
+2010-09-12 22:42:09	-->	slipperychicken (~andrew@CPE00105a1eb487-CM0011e67aff39.cpe.net.cable.rogers.com) has joined #sabayon
+2010-09-12 22:42:11	<--	lxnay|lappie (~fabio@host136-31-dynamic.180-80-r.retail.telecomitalia.it) has quit (Ping timeout: 240 seconds)
+2010-09-12 22:50:26	<--	demanufacture (~demanu@chello089078008029.chello.pl) has quit (Remote host closed the connection)
+2010-09-12 22:57:30	-->	sabayonuser3 (~sabayonus@189.228.78.72) has joined #sabayon
+2010-09-12 22:57:44	--	sabayonuser3 is now known as oDavea
+2010-09-12 22:57:54	oDavea	hola
+2010-09-12 22:58:28	<--	gary6 (~gary6@82.host-203-152-103.compassnet.co.nz) has quit (Read error: No route to host)
+2010-09-12 23:00:17	<--	oDavea (~sabayonus@189.228.78.72) has quit (Client Quit)
+2010-09-12 23:01:15	--	Mode #sabayon [+l 86] by |Cadmus|
+2010-09-12 23:02:48	<--	Pavel__ (~Pavel@stud245076.studentenheim.uni-tuebingen.de) has quit (Ping timeout: 276 seconds)
+2010-09-12 23:03:02	<--	jinxx (~jinx@142.204.90.221) has quit (Quit: Leaving)
+2010-09-12 23:05:34	-->	Pavel_ (~Pavel@vpn1073.extern.uni-tuebingen.de) has joined #sabayon
+2010-09-12 23:06:57	-->	sabayonweb_31222 (570facec@gateway/web/freenode/ip.87.15.172.236) has joined #sabayon
+2010-09-12 23:09:08	sabayonweb_31222	buonasera a tutti...
+2010-09-12 23:10:24	sabayonweb_31222	posso chiedervi aiuto per problemi con il live cd?
+2010-09-12 23:10:34	DHalens	only english
+2010-09-12 23:15:02	<--	slipperychicken (~andrew@CPE00105a1eb487-CM0011e67aff39.cpe.net.cable.rogers.com) has quit (Quit: Leaving)
+2010-09-12 23:15:33	-->	slipperychicken (~andrew@CPE00105a1eb487-CM0011e67aff39.cpe.net.cable.rogers.com) has joined #sabayon
+2010-09-12 23:15:40	<--	slipperychicken (~andrew@CPE00105a1eb487-CM0011e67aff39.cpe.net.cable.rogers.com) has quit (Read error: Connection reset by peer)
+2010-09-12 23:20:21	-->	andrew_ (~andrew@CPE00105a1eb487-CM0011e67aff39.cpe.net.cable.rogers.com) has joined #sabayon
+2010-09-12 23:20:26		irc: disconnected from server

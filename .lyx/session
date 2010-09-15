@@ -2,6 +2,8 @@
 ## Editing this file manually may cause lyx to crash.
 
 [recent files]
+/home/quesada/down/classic_thesis_lyx_v1_1/ClassicThesis.lyx
+/home/quesada/Dropbox/notes.lyx
 /home/quesada/noteslyx/notes.lyx
 /home/quesada/china.lyx
 /home/quesada/noteslyx/timingESA.lyx
@@ -13,10 +15,18 @@
 /home/quesada/noteslyx/Vitaetest.lyx
 
 [last opened files]
-1, /home/quesada/noteslyx/notes.lyx
 
 [cursor positions]
+659, 5, /home/quesada/Dropbox/notes.lyx
 29, 16, /home/quesada/china.lyx
+9, 0, /home/quesada/down/classic_thesis_lyx_v1_1/Abstract.lyx
+51, 0, /home/quesada/down/classic_thesis_lyx_v1_1/Chapter01.lyx
+2, 0, /home/quesada/down/classic_thesis_lyx_v1_1/Chapter02.lyx
+11, 0, /home/quesada/down/classic_thesis_lyx_v1_1/Chapter03.lyx
+50, 0, /home/quesada/down/classic_thesis_lyx_v1_1/Chapter04.lyx
+0, 0, /home/quesada/down/classic_thesis_lyx_v1_1/ClassicThesis.lyx
+26, 0, /home/quesada/down/classic_thesis_lyx_v1_1/Contents.lyx
+1, 0, /home/quesada/down/classic_thesis_lyx_v1_1/Publication.lyx
 27, 392, /home/quesada/larkc/WP2/d2.3.2/Discussion and conclussions.lyx
 18, 0, /home/quesada/larkc/WP2/d2.3.2/Explicit Semantic Analysis.lyx
 25, 232, /home/quesada/larkc/WP2/d2.3.2/Random Indexing.lyx
@@ -36,7 +46,8 @@
 0, 70, /home/quesada/noteslyx/lainerPost.lyx
 11, 34, /home/quesada/noteslyx/lyx tricks.lyx
 70, 0, /home/quesada/noteslyx/mouse.lyx
-347, 2, /home/quesada/noteslyx/notes.lyx
+0, 0, /home/quesada/noteslyx/newfile1.lyx
+862, 19, /home/quesada/noteslyx/notes.lyx
 0, 0, /home/quesada/noteslyx/paramsSpaces.lyx
 6, 27, /home/quesada/noteslyx/scratch.lyx
 20, 37, /home/quesada/noteslyx/timingESA.lyx
@@ -44,4 +55,4 @@
 [last commands]
 
 [bookmarks]
-0, 347, 1, /home/quesada/noteslyx/notes.lyx
+0, 440, 28, /home/quesada/noteslyx/notes.lyx

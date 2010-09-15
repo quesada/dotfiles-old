@@ -27,6 +27,16 @@ krunner&
 /usr/bin/xfce4-power-manager&
 /usr/bin/xfce4-volumed&
 
+# lappy right mouse key to win
+# useful for xmonad
+xmodmap -e 'keycode 135 = Super_L'
+# vim map caps to Escape
+xmodmap -e 'keycode 66 = Escape'
+# removes lock totally
+xmodmap -e 'clear Lock' 
+# doesn't work: esc as caps
+#xmodmap -e 'keycode 9 = Caps_Lock'
+
 # damn bell from hell
 xset b off&
 # todo: if you use kdm/xdm/gdm etc you should edit the Sessions file below and

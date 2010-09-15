@@ -49,14 +49,38 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/quesada/Documents">
-  <title>Documents</title>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_F4C07ED4C07E9D14</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_BC56773E5676F90A</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_204f1e5a_457a_4517_97eb_48bf7bfcee0e</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <bookmark href="file:///home/quesada/down">
+  <title>down</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="inode-directory"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1273585621/0</ID>
+    <ID>1281128327/0</ID>
    </metadata>
   </info>
  </bookmark>
@@ -71,14 +95,14 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/quesada/pdf">
-  <title>pdf</title>
+ <bookmark href="file:///home/quesada/doc">
+  <title>doc</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="inode-directory"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1273449337/1</ID>
+    <ID>1280386393/0</ID>
    </metadata>
   </info>
  </bookmark>
@@ -117,22 +141,6 @@
    </metadata>
   </info>
  </bookmark>
- <separator>
-  <info>
-   <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/Hal/devices/volume_uuid_F4C07ED4C07E9D14</UDI>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </separator>
- <separator>
-  <info>
-   <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/Hal/devices/volume_uuid_BC56773E5676F90A</UDI>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </separator>
  <bookmark href="sftp://urlwolfpack.gotdns.org:8022/home/quesada/">
   <title>quesada</title>
   <info>
@@ -158,10 +166,37 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="file:///home/quesada/Dropbox/pdf">
+  <title>pdf</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1280843376/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
  <separator>
   <info>
    <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/Hal/devices/volume_uuid_204f1e5a_457a_4517_97eb_48bf7bfcee0e</UDI>
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_af42d6ec_278f_4c4c_843f_8ca8b1bc2c24</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_c1a76d8b_5be0_4781_9234_c2001904edf5</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_bbc41af6_6057_4aac_801d_25658d9a85f2</UDI>
     <isSystemItem>true</isSystemItem>
    </metadata>
   </info>

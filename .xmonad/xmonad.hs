@@ -37,7 +37,7 @@ myScreenLock    = "/usr/bin/gnome-screensaver-command -l"
 myBorderWidth   = 2
 myModMask       = mod4Mask
 myNumlockMask   = mod2Mask
-myWorkspaces    = ["1-terms", "2-work" ,"3-web", "4-work", "5-musicChat", "6-acme", "writing", "pdf", "wcogs"]
+myWorkspaces    = ["1-terms", "2-work" ,"3-web", "4-work", "5-musicChat", "6-acme", "7-writing", "8-pdf", "9-wcogs"]
 
 myNormalBorderColor  = "#2C2C2C"
 myFocusedBorderColor = "#ff0000"

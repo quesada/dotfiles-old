@@ -105,18 +105,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/quesada/Downloads">
-  <title>Downloads</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="folder-downloads"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1273482453/0</ID>
-    <OnlyInApp/>
-   </metadata>
-  </info>
- </bookmark>
  <bookmark href="file:///home/quesada/Dropbox">
   <title>Dropbox</title>
   <info>

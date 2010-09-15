@@ -1,5 +1,14 @@
 [$Version]
-update_info=kwin3_plugin.upd:kde3.2,kwin_focus2.upd:kwin_focus2,kwin_on_off.upd:kwin_on_off,kwin.upd:kde3.0r1,kwin.upd:kde3.2Xinerama,kwin_focus1.upd:kwin_focus1
+update_info=kwin3_plugin.upd:kde3.2,kwin_focus2.upd:kwin_focus2,kwin_on_off.upd:kwin_on_off,kwin.upd:kde3.0r1,kwin.upd:kde3.2Xinerama,kwin_focus1.upd:kwin_focus1,kwin_blacklist.upd:Blacklist-4.5
+
+[Blacklist][Blur]
+Advanced Micro Devices=DRI R600:-:7.8.1,DRI R600:-:7.8.2
+Ati=Radeon HD 3650:-:3.3.9901
+NVIDIA=GeForce 6150/PCI/SSE2:-:195
+
+[Blacklist][Lanczos]
+Advanced Micro Devices=DRI R600:-:7.8.1,DRI R600:-:7.8.2
+Intel=GM45 Express Chipset GEM 20100328:-:7.8.2,GM45 Express Chipset GEM 20091221:-:7.7.1,965GM GEM 20100328 2010Q1:-:7.8.2,965GM GEM 20091221 2009Q4:-:7.7.1,Ironlake Mobile GEM 20100328:-:7.8.2
 
 [Compositing]
 AnimationSpeed=0
