@@ -79,8 +79,8 @@ function qwerty; setxkbmap us; xset -r 66; end;
 # equo
 function euu; equo update & equo install equo entropy --relaxed & equo upgrade; end;
 function eu; equo update & equo install equo entropy --relaxed; end;
-function ei; equo install ; end;
-function es; equo search ; end;
+function ei; equo install $argv; end;
+function es; equo search $argv; end;
 
 function pb; ssh quesada@192.168.1.20; end;
 function mpi;	ssh 141.14.157.1; end;
