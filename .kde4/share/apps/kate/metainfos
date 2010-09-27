@@ -1,210 +1,23 @@
-[file:///home/quesada/.config/fish/config.fish]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Indentation Mode=none
-MD5=fbdd39ca940a273626d4c64d68c13a26
-Mode=fish
-ReadWrite=true
-Time=2010,8,19,11,38,18
-URL=file:///home/quesada/.config/fish/config.fish
-
-[file:///home/quesada/.kde4/share/apps/katepart/syntax/python.xml]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=XML
-Indentation Mode=xml
-MD5=a101d12da71c1e97e5bc4b2660564001
-Mode=XML
-ReadWrite=true
-Time=2010,8,18,15,3,31
-URL=file:///home/quesada/.kde4/share/apps/katepart/syntax/python.xml
-
-[file:///home/quesada/.kde4/share/apps/katepart/syntax/ruby.xml]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=XML
-Indentation Mode=xml
-MD5=3fb2b832e719f78090e80ffda305469c
-Mode=XML
-ReadWrite=true
-Time=2010,8,16,0,12,14
-URL=file:///home/quesada/.kde4/share/apps/katepart/syntax/ruby.xml
-
-[file:///home/quesada/.lfmrc]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Indentation Mode=none
-MD5=964849a43fb5ee17ba7c4ff0dbdb8128
-Mode=
-ReadWrite=true
-Time=2010,7,24,23,52,14
-URL=file:///home/quesada/.lfmrc
-
-[file:///home/quesada/.mc/bindings]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Indentation Mode=none
-MD5=2a0fa73cb39f54db306974212b678fea
-Mode=
-ReadWrite=true
-Time=2010,8,15,23,36,55
-URL=file:///home/quesada/.mc/bindings
-
-[file:///home/quesada/.mc/mc.keymap]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=INI Files
-Indentation Mode=none
-MD5=7fb50b817a45136460af3dcc2eef3f6c
-Mode=INI Files
-ReadWrite=true
-Time=2010,8,15,23,35,32
-URL=file:///home/quesada/.mc/mc.keymap
-
-[file:///home/quesada/.mc/mc.menu]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=AMPLE
-Indentation Mode=none
-MD5=83af98f4e735eb4cd806951dd00b48ec
-Mode=AMPLE
-ReadWrite=true
-Time=2010,8,17,21,49,7
-URL=file:///home/quesada/.mc/mc.menu
-
-[file:///home/quesada/.mc/menu]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Indentation Mode=none
-MD5=b20ab61db2b32fc35ae2c4efcbb4c483
-Mode=
-ReadWrite=true
-Time=2010,8,17,22,6,20
-URL=file:///home/quesada/.mc/menu
-
-[file:///home/quesada/.xmonad/xmonad.hs]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Haskell
-Indentation Mode=haskell
-MD5=df3eb06c4144cabb174af3bfbc77ca81
-Mode=Haskell
-ReadWrite=true
-Time=2010,8,18,20,34,19
-URL=file:///home/quesada/.xmonad/xmonad.hs
-
-[file:///home/quesada/.xmonad/xmonad.hs.fancy]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Haskell
-Indentation Mode=none
-MD5=4738a5138e79e672348dd1cac9f33af2
-Mode=
-ReadWrite=true
-Time=2010,7,25,17,47,2
-URL=file:///home/quesada/.xmonad/xmonad.hs.fancy
-
-[file:///home/quesada/.xmonad/xmonad.myoxymor00n.hs]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Haskell
-Indentation Mode=haskell
-MD5=12a5e05b320b10eda1ceba8bdc57cb55
-Mode=Haskell
-ReadWrite=true
-Time=2010,7,25,16,13,19
-URL=file:///home/quesada/.xmonad/xmonad.myoxymor00n.hs
-
 [file:///home/quesada/coding/esa/tests.py]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=None
 Indentation Mode=none
-MD5=032b607bb76ac0f94ea6b856d17558f9
+MD5=ab6c7dee6a5d1bf1c35ff523f7f948cb
 Mode=
 ReadWrite=true
-Time=2010,8,21,16,31,35
+Time=2010,9,19,10,20,0
 URL=file:///home/quesada/coding/esa/tests.py
-
-[file:///home/quesada/coding/gensim-lastWithHg/src/gensim/test/test_corpora.py]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Python
-Indentation Mode=python
-MD5=3a9538968d106eecebc286c40359e6a5
-Mode=Python
-ReadWrite=true
-Time=2010,7,23,10,34,32
-URL=file:///home/quesada/coding/gensim-lastWithHg/src/gensim/test/test_corpora.py
-
-[file:///home/quesada/coding/gensim-lastWithHg/src/gensim/test/test_models.py]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Python
-Indentation Mode=python
-MD5=0651ae1ce165485513a981d19c5ed8fd
-Mode=Python
-ReadWrite=true
-Time=2010,7,23,10,34,32
-URL=file:///home/quesada/coding/gensim-lastWithHg/src/gensim/test/test_models.py
-
-[file:///home/quesada/coding/gensim/trunk/acme/lee-tasa.py]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Indentation Mode=python
-MD5=186047dddfa75983193427d4945e1675
-Mode=Python
-ReadWrite=true
-Time=2010,8,18,15,3,33
-URL=file:///home/quesada/coding/gensim/trunk/acme/lee-tasa.py
-
-[file:///home/quesada/coding/gensim/trunk/src/gensim/corpora/mmcorpus.py]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Indentation Mode=python
-MD5=359ea9f7070c184f68b066c33a859359
-Mode=Python
-ReadWrite=true
-Time=2010,8,18,15,3,33
-URL=file:///home/quesada/coding/gensim/trunk/src/gensim/corpora/mmcorpus.py
-
-[file:///home/quesada/coding/gensim/trunk/src/gensim/interfaces.py]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Indentation Mode=none
-MD5=cc29f188047cd8c2e304519c0cc03187
-Mode=
-ReadWrite=true
-Time=2010,8,18,15,3,32
-URL=file:///home/quesada/coding/gensim/trunk/src/gensim/interfaces.py
-
-[file:///home/quesada/coding/gensim/trunk/src/gensim/interfaces.pyc]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Indentation Mode=none
-MD5=6bcc306af5374cae91427d3544afd0c2
-Mode=
-ReadWrite=false
-Time=2010,8,18,14,57,19
-URL=file:///home/quesada/coding/gensim/trunk/src/gensim/interfaces.pyc
 
 [file:///home/quesada/coding/gensim/trunk/src/gensim/matutils.py]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=Python
 Indentation Mode=python
-MD5=09124f4b47205a827913e334773ad54b
+MD5=430176d08e4c56fa076af87286d2d7fd
 Mode=Python
 ReadWrite=true
-Time=2010,8,21,16,31,34
+Time=2010,9,19,10,20,0
 URL=file:///home/quesada/coding/gensim/trunk/src/gensim/matutils.py
 
 [file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py]
@@ -212,10 +25,10 @@ Bookmarks=
 Encoding=UTF-8
 Highlighting=None
 Indentation Mode=python
-MD5=818d50d5216eb594377c2cb4e4c9a9dd
+MD5=d6191afc2c9a127231e3a9f215c88bf5
 Mode=Python
 ReadWrite=true
-Time=2010,8,21,16,31,34
+Time=2010,9,19,10,20,0
 URL=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
 
 [file:///home/quesada/coding/semmod/semmod/corpus.py]
@@ -226,8 +39,19 @@ Indentation Mode=python
 MD5=bbb4c685b86d4b719f9c5c34f91835b5
 Mode=Python
 ReadWrite=true
-Time=2010,8,21,16,31,34
+Time=2010,9,19,10,20,0
 URL=file:///home/quesada/coding/semmod/semmod/corpus.py
+
+[file:///home/quesada/larkc/WP2/d2.3.2latex/ALL-larkc232.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=none
+MD5=cfe4e150a5cc6313fffbe43b3ed8049c
+Mode=LaTeX
+ReadWrite=true
+Time=2010,9,23,13,46,21
+URL=file:///home/quesada/larkc/WP2/d2.3.2latex/ALL-larkc232.tex
 
 [file:///home/quesada/tmp/foo.py]
 Bookmarks=
@@ -237,16 +61,5 @@ Indentation Mode=none
 MD5=acbd18db4cc2f85cedef654fccc4a4d8
 Mode=
 ReadWrite=true
-Time=2010,8,21,16,31,34
+Time=2010,9,19,10,20,0
 URL=file:///home/quesada/tmp/foo.py
-
-[file:///home/quesada/tmp/kk.py]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Indentation Mode=python
-MD5=1058a509b3a88be462a684d94c941c94
-Mode=Python
-ReadWrite=true
-Time=2010,8,18,14,51,24
-URL=file:///home/quesada/tmp/kk.py

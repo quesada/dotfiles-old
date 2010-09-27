@@ -104,18 +104,20 @@ katesnippets_tngplugin=false
 katesnippetsplugin=false
 katesymbolviewerplugin=true
 katetabbarextensionplugin=true
+katetabifyplugin=false
 katetextfilterplugin=false
 katexmlcheckplugin=false
+katexmltoolsplugin=false
 
 [MainWindow0]
 Active ViewSpace=0
 Height 1152=1153
 Height 1200=1201
-Kate-MDI-H-Splitter=213,982,731
-Kate-MDI-Sidebar-0-Splitter=0,545,557
+Kate-MDI-H-Splitter=213,446,731
+Kate-MDI-Sidebar-0-Splitter=0,168,171
 Kate-MDI-Sidebar-1-Splitter=0
 Kate-MDI-Sidebar-2-Splitter=
-Kate-MDI-Sidebar-3-Splitter=
+Kate-MDI-Sidebar-3-Splitter=0
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_filelist-Persistent=true
@@ -140,10 +142,10 @@ Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Sidebar-Position=0
 Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
 Kate-MDI-ToolView-katefindinfilesplugin_1-Persistent=false
 Kate-MDI-ToolView-katefindinfilesplugin_1-Position=3
-Kate-MDI-ToolView-katefindinfilesplugin_1-Sidebar-Position=1
+Kate-MDI-ToolView-katefindinfilesplugin_1-Sidebar-Position=0
 Kate-MDI-ToolView-katefindinfilesplugin_1-Visible=false
-Kate-MDI-V-Splitter=150,1105,333
-State=AAAA/wAAAAD9AAAAAAAABOgAAARRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
+Kate-MDI-V-Splitter=150,318,333
+State=AAAA/wAAAAD9AAAAAAAAAtMAAAFZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1921
 Width 2048=2049
@@ -151,7 +153,7 @@ Width 2048=2049
 [MainWindow0 Settings]
 Height 1152=1153
 Height 1200=1201
-State=AAAA/wAAAAD9AAAAAAAABOgAAARRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAtMAAAFZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1921
 Width 2048=2049
@@ -160,12 +162,12 @@ WindowState=0
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=2
-Sizes=1083
+Sizes=296
 
 [MainWindow0-ViewSpace 0]
 Active View=file:///home/quesada/coding/esa/tests.py
-Count=2
-View 0=file:///home/quesada/tmp/foo.py
+Count=1
+View 0=file:///home/quesada/coding/esa/tests.py
 View 1=file:///home/quesada/coding/esa/tests.py
 View 2=file:///home/quesada/coding/semmod/semmod/corpus.py
 View 3=file:///home/quesada/tmp/foo.py
@@ -286,12 +288,14 @@ Previews=false
 Show Preview=false
 Show hidden files=false
 Sort by=Name
+Sort directories first=true
 Sort reversed=false
 View Style=Detail
 
 [Plugin:katefindinfilesplugin::find-in-files]
 CaseSensitive=false
 FollowDirectorySymlinks=true
+IncludeHiddenFiles=false
 LastSearchFiles=\\0
 LastSearchItems=from tfidf.
 LastSearchPaths=file:///home/quesada/coding/esa

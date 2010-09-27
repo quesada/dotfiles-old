@@ -121,6 +121,9 @@ InfoOutput=4
 [khelpcenter]
 InfoOutput=2
 
+[kile]
+InfoOutput=4
+
 [kio (delegateanimationhandler)]
 InfoOutput=4
 

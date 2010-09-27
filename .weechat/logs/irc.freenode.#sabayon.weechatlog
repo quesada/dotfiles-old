@@ -13781,3 +13781,855 @@
 2010-09-12 23:15:40	<--	slipperychicken (~andrew@CPE00105a1eb487-CM0011e67aff39.cpe.net.cable.rogers.com) has quit (Read error: Connection reset by peer)
 2010-09-12 23:20:21	-->	andrew_ (~andrew@CPE00105a1eb487-CM0011e67aff39.cpe.net.cable.rogers.com) has joined #sabayon
 2010-09-12 23:20:26		irc: disconnected from server
+2010-09-26 10:08:12	-->	quesada (~quesada@e178206053.adsl.alicedsl.de) has joined #sabayon
+2010-09-26 10:08:13	--	Topic for #sabayon is "Welcome to Sabayon Linux, the installable, Gentoo-based, preconfigured, livedisc || Sabayon 5.3 RELEASED! || Mirrors: www.sabayon.org/mirrors || Social stuff belongs in -social || Planet: planet.sabayon.org || Please ask your question, do not ask to ask. || Sabayon 4.x repositories are now offline. There is no safe upgrade path|| NO PASTING IN CHANNEL! || Iwonder|too R.I.P"
+2010-09-26 10:08:13	--	Topic set by Azerthoth|D (~azerthoth@funtoo/user/azerthoth) on Sun, 12 Sep 2010 04:55:51
+2010-09-26 10:08:13	--	Nicks #sabayon: [@ChanServ @|Cadmus| AstralStorm Azerthoth beees blaise bsdfox c0nv1ct chickpea DanySK DaZ demanufacture denysonique detaos dougl dyingmuppet Enlik Er0x freeallbadgers gadwin gnac GoFa Greywhind iwishikne Jarelu jasherai|away Kalafok Keshl Lokey lythandrel mantis_home MeaCulpa meshuggah michal29 mlody mulambo nakee__ nyshtyak omgpenguins optiz0r P_Kable paar ParkerBeta paszczus_ Pavel_ pentament pestilent quesada Radtoo_ Raenk Sa[i]nT sabayonuser2 Samae Shinigami-Sama Sleepy63 snot tyranny_ vdex virys_ vitovt_ vsTerminus wolfden yitsushi zemanel |kos-mos|]
+2010-09-26 10:08:13	--	Channel #sabayon: 65 nicks (2 ops, 0 halfops, 0 voices, 63 normals)
+2010-09-26 10:08:14	--	Channel created on Mon, 12 Feb 2007 09:33:11
+2010-09-26 10:11:36	<--	Jarelu (Jarelu@89-115-39-37.gl.ipv4ilink.net) has quit
+2010-09-26 10:17:52	-->	sabayonweb_91213 (5f28b650@gateway/web/freenode/ip.95.40.182.80) has joined #sabayon
+2010-09-26 10:23:14	<--	MeaCulpa (~MeaCulpa@nat/hp/x-ognroiajzfjdxbce) has left #sabayon ("Vajrayana is no Buddhism!")
+2010-09-26 10:23:14	sabayonweb_91213	Hello, sb know where can i get amarok 2.3.2 from ? it's not in sabayon or gentoo repos. I tried compiling from source, but then i had english version, and i want to have polish
+2010-09-26 10:23:41	<--	Lokey (~Lokey@pool-98-114-35-192.phlapa.fios.verizon.net) has quit (Quit: Leaving)
+2010-09-26 10:26:33	<--	sabayonweb_91213 (5f28b650@gateway/web/freenode/ip.95.40.182.80) has quit
+2010-09-26 10:26:53	<--	sabayonuser2 (~sabayonus@93-39-233-170.ip78.fastwebnet.it) has quit (Remote host closed the connection)
+2010-09-26 10:27:54	--	Mode #sabayon [+l 69] by |Cadmus|
+2010-09-26 10:52:44	<--	vitovt_ (~vitovt@29-13-132-95.pool.ukrtel.net) has quit (Remote host closed the connection)
+2010-09-26 11:03:16	-->	MeaCulpa (~MeaCulpa@nat/hp/x-thcgxjzujnknrrep) has joined #sabayon
+2010-09-26 11:13:35	<--	DaZ (~drevnikoc@77-253-90-23.adsl.inetia.pl) has quit (Remote host closed the connection)
+2010-09-26 11:17:22	-->	akick (~akick@89.19.122.24) has joined #sabayon
+2010-09-26 11:18:07	<--	akick (~akick@89.19.122.24) has quit (Remote host closed the connection)
+2010-09-26 11:24:13	--	nakee__ is now known as nakeee
+2010-09-26 11:36:28	-->	tangent (lythandrel@c-98-211-159-8.hsd1.fl.comcast.net) has joined #sabayon
+2010-09-26 11:36:29	<--	tangent (lythandrel@c-98-211-159-8.hsd1.fl.comcast.net) has quit (Changing host)
+2010-09-26 11:36:29	-->	tangent (lythandrel@unaffiliated/lythandrel) has joined #sabayon
+2010-09-26 11:51:38	<--	MeaCulpa (~MeaCulpa@nat/hp/x-thcgxjzujnknrrep) has quit (Quit: Vajrayana is no Buddhism!)
+2010-09-26 11:54:46	-->	eddnic (~eddnick@95.76.215.30) has joined #sabayon
+2010-09-26 11:55:53	-->	sabayonweb_35163 (59640c6c@gateway/web/freenode/ip.89.100.12.108) has joined #sabayon
+2010-09-26 11:56:49	<--	sabayonweb_35163 (59640c6c@gateway/web/freenode/ip.89.100.12.108) has quit (Client Quit)
+2010-09-26 11:58:46	-->	lxnay|two (~lxnay@95.237.105.6) has joined #sabayon
+2010-09-26 12:12:48	-->	DHalens (~DHalens@unaffiliated/dhalens) has joined #sabayon
+2010-09-26 12:13:18	-->	seeds (~seeds@ool-18bcf43e.dyn.optonline.net) has joined #sabayon
+2010-09-26 12:13:46	<--	seeds (~seeds@ool-18bcf43e.dyn.optonline.net) has quit (Client Quit)
+2010-09-26 12:14:46	<--	Keshl (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has quit (Remote host closed the connection)
+2010-09-26 12:25:55	-->	stulda (~quassel@antani.clanwars.cz) has joined #sabayon
+2010-09-26 12:31:06	-->	laci (~laci@dsl54028566.pool.t-online.hu) has joined #sabayon
+2010-09-26 12:31:06	<--	laci (~laci@dsl54028566.pool.t-online.hu) has quit (Changing host)
+2010-09-26 12:31:06	-->	laci (~laci@unaffiliated/laci) has joined #sabayon
+2010-09-26 12:31:53	--	Mode #sabayon [+l 72] by |Cadmus|
+2010-09-26 12:36:54	-->	sabayonweb_77648 (57cebf4b@gateway/web/freenode/ip.87.206.191.75) has joined #sabayon
+2010-09-26 12:36:59	sabayonweb_77648	helllo
+2010-09-26 12:37:10	sabayonweb_77648	I have a huge problem
+2010-09-26 12:37:25	sabayonweb_77648	I can't login as a root in KE programs
+2010-09-26 12:37:32	sabayonweb_77648	-*KDE
+2010-09-26 12:38:13	sabayonweb_77648	somone ha this problem?
+2010-09-26 12:38:20	sabayonweb_77648	*had
+2010-09-26 12:39:52	-->	xray7224 (~xray7224@85.211.9.141) has joined #sabayon
+2010-09-26 12:46:51	laci	sabayonweb_77648: how did you try and why?
+2010-09-26 12:48:24	sabayonweb_77648	I try to start sulfur
+2010-09-26 12:48:27	sabayonweb_77648	...
+2010-09-26 12:49:32	sabayonweb_77648	and it ask me to rite passord (sorry I have problem ith  keyboard)
+2010-09-26 12:49:59	sabayonweb_77648	and it alays sai that I rite ba pssor
+2010-09-26 12:50:08	sabayonweb_77648	*say
+2010-09-26 12:50:17	sabayonweb_77648	*bad
+2010-09-26 12:50:37	laci	did you repair grub by live dvd earlier?
+2010-09-26 12:51:38	sabayonweb_77648	np
+2010-09-26 12:51:40	sabayonweb_77648	no
+2010-09-26 12:52:03	sabayonweb_77648	system as install tomorro
+2010-09-26 12:52:23	sabayonweb_77648	tfuuuuu yesterday :)
+2010-09-26 12:52:25	laci	you know the root password?
+2010-09-26 12:52:54	sabayonweb_77648	yes... I use it at konsole
+2010-09-26 12:53:07	sabayonweb_77648	I can use sudo
+2010-09-26 12:53:15	sabayonweb_77648	but su seems like not orking
+2010-09-26 12:53:18	laci	why sudo?
+2010-09-26 12:53:24	michal29	sabayonweb_77648: kdesu sulfur
+2010-09-26 12:54:19	sabayonweb_77648	kdesu(8170)/kdesu (kdelibs) KDESu::PtyProcess::exec: [ /var/tmp/portage/kde-base/kdelibs-4.5.1/work/kdelibs-4.5.1/kdesu/process.cpp : 295 ]  Running "/bin/su"                                  kdesu(8170)/kdesu (kdelibs) KDESu::SuProcess::ConverseSU: [ /var/tmp/portage/kde-base/kdelibs-4.5.1/work/kdelibs-4.5.1/kdesu/su.cpp : 259 ]  Read line "Password: "                             kdesu(8170)/kdesu (kdelibs) KDESu::PtyProce
+2010-09-26 12:54:31	sabayonweb_77648	becouse sudo ork
+2010-09-26 12:55:00	sabayonweb_77648	if I rite... sudo sulfur everything is ok
+2010-09-26 12:55:16	laci	grups |pastebunz              as user please
+2010-09-26 12:55:28	laci	*groups |pastebunz
+2010-09-26 12:56:43	<--	virys_ (~virys@h199n1-bn-gr100.ias.bredband.telia.com) has quit (Quit: leaving)
+2010-09-26 12:56:54	sabayonweb_77648	http://www.sabayon.org/pastie/4821 ok?
+2010-09-26 12:58:03	sabayonweb_77648	I think something broke after update
+2010-09-26 12:58:48	sabayonweb_77648	I think I see one bug ith D-bus or something but I can't fin it to reinstall
+2010-09-26 13:03:04	sabayonweb_77648	ok I reboot system.. I'lll back for 2 minuters
+2010-09-26 13:06:39	-->	qwebirc606196 (57cebf4b@gateway/web/freenode/ip.87.206.191.75) has joined #sabayon
+2010-09-26 13:07:14	qwebirc606196	ok I'm back.... someone kno ho to solve my problem?
+2010-09-26 13:07:30	<--	sabayonweb_77648 (57cebf4b@gateway/web/freenode/ip.87.206.191.75) has quit (Ping timeout: 252 seconds)
+2010-09-26 13:09:25	-->	virys (~virys@unaffiliated/virys) has joined #sabayon
+2010-09-26 13:14:40	-->	jim_reaper (7cb79be4@gateway/web/freenode/ip.124.183.155.228) has joined #sabayon
+2010-09-26 13:14:53	--	Mode #sabayon [+l 75] by |Cadmus|
+2010-09-26 13:15:31	jim_reaper	argh. installed 5.3 on my notebook, can ping but can't browse. tried wireless and wired. same result. anyone have any ideas?
+2010-09-26 13:22:32	<--	qwebirc606196 (57cebf4b@gateway/web/freenode/ip.87.206.191.75) has quit (Ping timeout: 252 seconds)
+2010-09-26 13:22:56	<--	virys (~virys@unaffiliated/virys) has quit (Ping timeout: 276 seconds)
+2010-09-26 13:26:03	<--	demanufacture (~demanufac@chello089078008029.chello.pl) has quit (Read error: Connection reset by peer)
+2010-09-26 13:26:52	--	Mode #sabayon [+l 72] by |Cadmus|
+2010-09-26 13:27:59	-->	demanufacture (~demanufac@chello089078008029.chello.pl) has joined #sabayon
+2010-09-26 13:30:14	<--	demanufacture (~demanufac@chello089078008029.chello.pl) has quit (Read error: Connection reset by peer)
+2010-09-26 13:30:59	-->	demanufacture (~demanufac@chello089078008029.chello.pl) has joined #sabayon
+2010-09-26 13:40:12	<--	laci (~laci@unaffiliated/laci) has quit (Remote host closed the connection)
+2010-09-26 13:40:44	-->	joost_op (~joost@gentoo/contributor/joost-op) has joined #sabayon
+2010-09-26 13:43:20	<--	joost_op (~joost@gentoo/contributor/joost-op) has quit (Remote host closed the connection)
+2010-09-26 13:48:30	-->	sabayonweb_35117 (4fdebe23@gateway/web/freenode/ip.79.222.190.35) has joined #sabayon
+2010-09-26 13:49:10	sabayonweb_35117	Where should i submit sotware recommendations? On the bug tracker?
+2010-09-26 13:49:24	quesada	sabayonweb_35117: yes, new package request
+2010-09-26 13:49:34	sabayonweb_35117	ah yes thank you
+2010-09-26 13:49:38	quesada	but make sure there's an ebuild upstream
+2010-09-26 13:49:53	quesada	that is, search bugs.gentoo.org
+2010-09-26 13:49:56	sabayonweb_35117	Ah wait
+2010-09-26 13:50:01	--	sabayonweb_35117 is now known as amo4m
+2010-09-26 13:50:09	quesada	if it's not there, you should ask there first
+2010-09-26 13:51:06	amo4m	Okay.
+2010-09-26 13:59:29	<--	eddnic (~eddnick@95.76.215.30) has quit (Remote host closed the connection)
+2010-09-26 14:03:01	-->	marek_ (~marek@92-245-194-234.nr.satronet.sk) has joined #sabayon
+2010-09-26 14:12:19	<--	lxnay|two (~lxnay@95.237.105.6) has quit (Ping timeout: 276 seconds)
+2010-09-26 14:14:46	-->	lxnay (~lxnay@gentoo/developer/lxnay) has joined #sabayon
+2010-09-26 14:16:04	amo4m	Submitted request: http://bugs.gentoo.org/show_bug.cgi?id=338794
+2010-09-26 14:16:24	amo4m	Maybe somebody is interested in making an ebuild? :)
+2010-09-26 14:18:28	<--	amo4m (4fdebe23@gateway/web/freenode/ip.79.222.190.35) has quit (Quit: Page closed)
+2010-09-26 14:27:11	<--	lxnay (~lxnay@gentoo/developer/lxnay) has quit (Remote host closed the connection)
+2010-09-26 14:28:09	<--	jim_reaper (7cb79be4@gateway/web/freenode/ip.124.183.155.228) has quit (Ping timeout: 252 seconds)
+2010-09-26 14:30:22	-->	lxnay (~lxnay@95.237.105.6) has joined #sabayon
+2010-09-26 14:30:22	<--	lxnay (~lxnay@95.237.105.6) has quit (Changing host)
+2010-09-26 14:30:22	-->	lxnay (~lxnay@gentoo/developer/lxnay) has joined #sabayon
+2010-09-26 14:34:09	-->	sabayonuser (~sabayonus@bl13-82-203.dsl.telepac.pt) has joined #sabayon
+2010-09-26 14:34:32	<--	sabayonuser (~sabayonus@bl13-82-203.dsl.telepac.pt) has quit (Client Quit)
+2010-09-26 14:40:25	-->	seeds (~seeds@ool-18bcf43e.dyn.optonline.net) has joined #sabayon
+2010-09-26 14:54:21	-->	loux (~loux@did75-13-82-243-219-79.fbx.proxad.net) has joined #sabayon
+2010-09-26 14:55:46	<--	loux (~loux@did75-13-82-243-219-79.fbx.proxad.net) has left #sabayon
+2010-09-26 15:14:52	-->	eddnic (~eddnick@95.76.215.30) has joined #sabayon
+2010-09-26 15:37:21	-->	sabayonuser (~sabayonus@200-140-93-227.bsaco700.dsl.brasiltelecom.net.br) has joined #sabayon
+2010-09-26 15:39:02	-->	AkaM (~makaveli@178.128.82.20.dsl.dyn.forthnet.gr) has joined #sabayon
+2010-09-26 15:39:51	--	Mode #sabayon [+l 75] by |Cadmus|
+2010-09-26 15:40:53	<--	sabayonuser (~sabayonus@200-140-93-227.bsaco700.dsl.brasiltelecom.net.br) has quit (Client Quit)
+2010-09-26 15:43:50	-->	MeaCulpa (~MeaCulpa@116.225.102.56) has joined #sabayon
+2010-09-26 15:47:06	-->	dontpanic (~dontpanic@adsl-146-234-200.mob.bellsouth.net) has joined #sabayon
+2010-09-26 15:52:09	-->	Phenom1337 (~billinrm@cpe-98-157-154-95.ma.res.rr.com) has joined #sabayon
+2010-09-26 15:52:56	<--	Phenom1337 (~billinrm@cpe-98-157-154-95.ma.res.rr.com) has left #sabayon
+2010-09-26 16:10:43	-->	glide (~glide87th@S01060016b61c8923.wp.shawcable.net) has joined #sabayon
+2010-09-26 16:11:25	glide	morning all
+2010-09-26 16:12:19	-->	genfool (~genfool@173.226.104.75) has joined #sabayon
+2010-09-26 16:12:19	<--	genfool (~genfool@173.226.104.75) has quit (Changing host)
+2010-09-26 16:12:19	-->	genfool (~genfool@unaffiliated/genfool) has joined #sabayon
+2010-09-26 16:12:51	--	Mode #sabayon [+l 78] by |Cadmus|
+2010-09-26 16:36:30	-->	Gi0va (~giova@host240-165-dynamic.116-80-r.retail.telecomitalia.it) has joined #sabayon
+2010-09-26 16:38:50	<--	beees (~beees@ool-44c19036.dyn.optonline.net) has quit (Quit: Leaving)
+2010-09-26 16:40:30	<--	genfool (~genfool@unaffiliated/genfool) has quit (Ping timeout: 276 seconds)
+2010-09-26 16:53:27	-->	genfool (~genfool@173.226.104.75) has joined #sabayon
+2010-09-26 16:53:27	<--	genfool (~genfool@173.226.104.75) has quit (Changing host)
+2010-09-26 16:53:27	-->	genfool (~genfool@unaffiliated/genfool) has joined #sabayon
+2010-09-26 17:07:15	-->	sabayonuser (~sabayonus@87.13.55.56) has joined #sabayon
+2010-09-26 17:09:00	<--	sabayonuser (~sabayonus@87.13.55.56) has quit (Client Quit)
+2010-09-26 17:11:52	<--	Gi0va (~giova@host240-165-dynamic.116-80-r.retail.telecomitalia.it) has quit (Remote host closed the connection)
+2010-09-26 17:15:47	-->	dMaggot (~david@201.227.175.3) has joined #sabayon
+2010-09-26 17:17:51	<--	eddnic (~eddnick@95.76.215.30) has quit (Ping timeout: 264 seconds)
+2010-09-26 17:20:18	<--	zemanel (~zemanel@193.126.177.118) has quit (Quit: Ping chillout: over 9000)
+2010-09-26 17:25:51	-->	sabayonweb_32960 (5dc38e05@gateway/web/freenode/ip.93.195.142.5) has joined #sabayon
+2010-09-26 17:26:11	<--	sabayonweb_32960 (5dc38e05@gateway/web/freenode/ip.93.195.142.5) has quit (Client Quit)
+2010-09-26 17:29:19	<--	genfool (~genfool@unaffiliated/genfool) has quit (Quit: Leaving)
+2010-09-26 17:29:50	--	Mode #sabayon [+l 75] by |Cadmus|
+2010-09-26 17:30:17	<--	wolfden (~wolfden@unaffiliated/wolfden) has quit (Ping timeout: 272 seconds)
+2010-09-26 17:32:05	-->	wolfden (~wolfden@dyn-dsl-66-231-126-143.utma.com) has joined #sabayon
+2010-09-26 17:32:05	<--	wolfden (~wolfden@dyn-dsl-66-231-126-143.utma.com) has quit (Changing host)
+2010-09-26 17:32:05	-->	wolfden (~wolfden@unaffiliated/wolfden) has joined #sabayon
+2010-09-26 17:32:18	-->	genfool (~genfool@unaffiliated/genfool) has joined #sabayon
+2010-09-26 17:36:40	-->	Gi0va (~giova@host229-67-dynamic.59-82-r.retail.telecomitalia.it) has joined #sabayon
+2010-09-26 17:47:55	-->	nakee_ (~nakee@89-139-194-154.bb.netvision.net.il) has joined #sabayon
+2010-09-26 17:48:50	--	Mode #sabayon [+l 78] by |Cadmus|
+2010-09-26 17:49:57	<--	Sa[i]nT (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has quit (Read error: Operation timed out)
+2010-09-26 17:50:33	<--	nakeee (~nakee@85-250-165-132.bb.netvision.net.il) has quit (Ping timeout: 272 seconds)
+2010-09-26 17:55:58	<--	AkaM (~makaveli@178.128.82.20.dsl.dyn.forthnet.gr) has quit (Quit: AkaM)
+2010-09-26 17:56:50	--	Mode #sabayon [+l 75] by |Cadmus|
+2010-09-26 18:07:30	-->	Channel6 (~blah@unaffiliated/yourkicks) has joined #sabayon
+2010-09-26 18:15:12	-->	sabayonweb_84477 (d9e22ae8@gateway/web/freenode/ip.217.226.42.232) has joined #sabayon
+2010-09-26 18:15:26	<--	Gi0va (~giova@host229-67-dynamic.59-82-r.retail.telecomitalia.it) has quit (Remote host closed the connection)
+2010-09-26 18:15:40	<--	sabayonweb_84477 (d9e22ae8@gateway/web/freenode/ip.217.226.42.232) has quit (Client Quit)
+2010-09-26 18:16:47	<--	mantis_home (~kvirc@94.244.30.20) has quit (Quit: KVIrc 4.0.0 Insomnia http://www.kvirc.net/)
+2010-09-26 18:17:29	<--	MeaCulpa (~MeaCulpa@116.225.102.56) has quit (Remote host closed the connection)
+2010-09-26 18:18:22	-->	MeaCulpa (~MeaCulpa@116.225.102.56) has joined #sabayon
+2010-09-26 18:19:15	-->	laci (~laci@unaffiliated/laci) has joined #sabayon
+2010-09-26 18:28:57	-->	mantis_home (~kvirc@94.244.30.20) has joined #sabayon
+2010-09-26 18:29:49	<--	dMaggot (~david@201.227.175.3) has quit (Remote host closed the connection)
+2010-09-26 18:30:03	-->	sabayonuser (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has joined #sabayon
+2010-09-26 18:30:40	--	sabayonuser is now known as Sa[i]nT
+2010-09-26 18:31:43	-->	egypcio (~egypcio@unaffiliated/egypcio) has joined #sabayon
+2010-09-26 18:45:02	<--	wolfden (~wolfden@unaffiliated/wolfden) has quit (Ping timeout: 255 seconds)
+2010-09-26 18:46:41	mlody	hu
+2010-09-26 18:46:50	mlody	hi*
+2010-09-26 18:47:02	-->	wolfden (~wolfden@dyn-dsl-66-231-126-143.utma.com) has joined #sabayon
+2010-09-26 18:47:03	<--	wolfden (~wolfden@dyn-dsl-66-231-126-143.utma.com) has quit (Changing host)
+2010-09-26 18:47:03	-->	wolfden (~wolfden@unaffiliated/wolfden) has joined #sabayon
+2010-09-26 18:47:11	mlody	where can i change a time
+2010-09-26 18:47:30	mlody	in my country is 7p.m
+2010-09-26 18:47:52	mlody	at my clock is 5 p.m.
+2010-09-26 18:49:05	<--	Sa[i]nT (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has quit (Ping timeout: 265 seconds)
+2010-09-26 18:50:14	<--	genfool (~genfool@unaffiliated/genfool) has quit (Ping timeout: 265 seconds)
+2010-09-26 18:50:17	lythandrel	mlody: what version?  kde or gnome?
+2010-09-26 18:53:29	mlody	kde
+2010-09-26 18:53:33	mlody	newest version
+2010-09-26 18:54:46	lythandrel	mlody: in the system settings for kde.
+2010-09-26 18:55:26	lythandrel	right click your desktop and you should be able to find something, and if not, open a terminal and run "systemsettings"
+2010-09-26 18:55:58	<--	egypcio (~egypcio@unaffiliated/egypcio) has quit (Ping timeout: 252 seconds)
+2010-09-26 18:58:31	-->	sabayonweb_29990 (ba4444de@gateway/web/freenode/ip.186.68.68.222) has joined #sabayon
+2010-09-26 18:58:44	<--	sabayonweb_29990 (ba4444de@gateway/web/freenode/ip.186.68.68.222) has left #sabayon
+2010-09-26 19:00:01	-->	egypcio (~egypcio@187.114.100.193) has joined #sabayon
+2010-09-26 19:00:17	-->	Julius-ZM (~Julius-ZM@92-249-230-224.pool.digikabel.hu) has joined #sabayon
+2010-09-26 19:00:20	<--	egypcio (~egypcio@187.114.100.193) has quit (Changing host)
+2010-09-26 19:00:20	-->	egypcio (~egypcio@unaffiliated/egypcio) has joined #sabayon
+2010-09-26 19:01:24	-->	Sa[i]nT (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has joined #sabayon
+2010-09-26 19:01:58	-->	genfool (~genfool@173.226.104.75) has joined #sabayon
+2010-09-26 19:01:59	<--	genfool (~genfool@173.226.104.75) has quit (Changing host)
+2010-09-26 19:01:59	-->	genfool (~genfool@unaffiliated/genfool) has joined #sabayon
+2010-09-26 19:02:08	<--	Azerthoth (~azerthoth@funtoo/user/azerthoth) has quit (Ping timeout: 255 seconds)
+2010-09-26 19:07:57	mlody	http://pastebin.com/G45eXWMU
+2010-09-26 19:13:15	-->	Azerthoth (~azerthoth@funtoo/user/azerthoth) has joined #sabayon
+2010-09-26 19:13:50	--	Mode #sabayon [+l 78] by |Cadmus|
+2010-09-26 19:14:32	<--	DHalens (~DHalens@unaffiliated/dhalens) has quit (Ping timeout: 276 seconds)
+2010-09-26 19:20:26	-->	DaZ (~drevnikoc@77-253-90-23.adsl.inetia.pl) has joined #sabayon
+2010-09-26 19:25:42	<--	freeallbadgers (~badger@freeallbadgers.plus.com) has quit (Quit: Leaving)
+2010-09-26 19:27:23	-->	DHalens (~DHalens@unaffiliated/dhalens) has joined #sabayon
+2010-09-26 19:37:51	<--	GoFa (~GoodGame@190.174.2.32) has quit (Quit: Saliendo)
+2010-09-26 19:39:02	lythandrel	mlody: you run systemsettings as your normal user, not as root.
+2010-09-26 19:39:07	lythandrel	?? facepalm
+2010-09-26 19:39:08	@|Cadmus|	facepalm[1]: http://cdn0.knowyourmeme.com/i/1582/original/picard-facepalm.jpg
+2010-09-26 19:39:10	@|Cadmus|	facepalm[2]: http://twitpic.com/jeq2t/full
+2010-09-26 19:39:12	@|Cadmus|	facepalm[3]: http://www.lolblog.co.uk/wp-content/uploads/2009/08/doublefacepalm.jpg
+2010-09-26 19:39:14	@|Cadmus|	facepalm[4]: one of the epic facepalm variety!  http://icanhascheezburger.files.wordpress.com/2010/09/funny-gifs-kitteh-has-bad-case-of-mondays.gif?w=240&h=176
+2010-09-26 19:39:21	-->	sabayonweb_61135 (41ffb32b@gateway/web/freenode/ip.65.255.179.43) has joined #sabayon
+2010-09-26 19:40:42	<--	DHalens (~DHalens@unaffiliated/dhalens) has quit (Quit: bbl)
+2010-09-26 19:42:05	-->	sabayonuser (~sabayonus@gsl18.internetdsl.tpnet.pl) has joined #sabayon
+2010-09-26 19:43:30	-->	sabayonuser2 (~sabayonus@78.142.106.141) has joined #sabayon
+2010-09-26 19:43:49	<--	sabayonweb_61135 (41ffb32b@gateway/web/freenode/ip.65.255.179.43) has quit (Ping timeout: 252 seconds)
+2010-09-26 19:44:37	<--	sabayonuser2 (~sabayonus@78.142.106.141) has quit (Client Quit)
+2010-09-26 19:44:47	-->	fosstux (~fosstux@78.142.106.141) has joined #sabayon
+2010-09-26 19:45:37	fosstux	Hi! I've recently setup Sabayon 5.3 LXDE. I 'm now trying to setup my Huawei Stick for use with kppp or gnome-ppp
+2010-09-26 19:45:51	fosstux	Anyone know what is the best way?
+2010-09-26 19:47:14	fosstux	ah - I'm using wicd to manage my wired and wireless lans.
+2010-09-26 19:56:00	<--	genfool (~genfool@unaffiliated/genfool) has quit (Quit: Leaving)
+2010-09-26 19:56:52	-->	lapa (51af9b9b@gateway/web/freenode/ip.81.175.155.155) has joined #sabayon
+2010-09-26 19:59:21	<--	lapa (51af9b9b@gateway/web/freenode/ip.81.175.155.155) has left #sabayon
+2010-09-26 20:00:54	-->	joost_op (~joost@gentoo/contributor/joost-op) has joined #sabayon
+2010-09-26 20:05:18	-->	Genfool (~Sonya@unaffiliated/genfool) has joined #sabayon
+2010-09-26 20:10:20	<--	joost_op (~joost@gentoo/contributor/joost-op) has quit (Remote host closed the connection)
+2010-09-26 20:10:56	-->	Lokey (~Lokey@pool-98-114-35-192.phlapa.fios.verizon.net) has joined #sabayon
+2010-09-26 20:11:10	-->	joost_op (~joost@gentoo/contributor/joost-op) has joined #sabayon
+2010-09-26 20:19:38	<--	egypcio (~egypcio@unaffiliated/egypcio) has quit
+2010-09-26 20:22:49	<--	sabayonuser (~sabayonus@gsl18.internetdsl.tpnet.pl) has quit (Quit: Leaving)
+2010-09-26 20:25:12	<--	Radtoo_ (~mschmid@77-56-73-182.dclient.hispeed.ch) has quit (Read error: Operation timed out)
+2010-09-26 20:26:08	mlody	lythandrel: i did it and  now evetrything is okay. thanks
+2010-09-26 20:32:26	-->	genfool_ (~genfool@173.226.104.75) has joined #sabayon
+2010-09-26 20:36:02	<--	DanySK (~danysk@91.82.216.88) has quit (Remote host closed the connection)
+2010-09-26 20:37:02	<--	lxnay (~lxnay@gentoo/developer/lxnay) has quit (Ping timeout: 265 seconds)
+2010-09-26 20:37:15	<--	mulambo (~vito@93-97-185-223.zone5.bethere.co.uk) has quit (Ping timeout: 245 seconds)
+2010-09-26 20:37:49	--	Mode #sabayon [+l 75] by |Cadmus|
+2010-09-26 20:42:05	-->	billie (~billie@gentoo/developer/billie) has joined #sabayon
+2010-09-26 20:54:12	<--	Pavel_ (~Pavel@stud246066.studentenheim.uni-tuebingen.de) has quit (Ping timeout: 252 seconds)
+2010-09-26 20:55:52	-->	sabayonweb_35576 (53e2a580@gateway/web/freenode/ip.83.226.165.128) has joined #sabayon
+2010-09-26 20:55:59	--	sabayonweb_35576 is now known as nicklas_
+2010-09-26 20:56:51	nicklas_	hello, what was that command that you have to do after fresh install, since sabayon has moved to rolling now?
+2010-09-26 20:57:14	genfool_	?? fresh
+2010-09-26 20:57:17	@|Cadmus|	fresh: http://wiki.sabayonlinux.org/index.php?title=En:Entropy#Fresh_Install_-_What_to_do.3F
+2010-09-26 20:57:44	genfool_	sabayon has always been rolling   :)
+2010-09-26 20:57:48	nicklas_	and do you do it before first update? and also do you do it after updating whole system?
+2010-09-26 20:58:07	nicklas_	genfool_: it was something new, it showed up in sulfur
+2010-09-26 20:58:11	nicklas_	some new message
+2010-09-26 20:58:48	genfool_	equo update, equo install equo entropy, equo upgrade, equo conf update
+2010-09-26 20:59:03	glide	dance dance
+2010-09-26 20:59:04	genfool_	should be good to go
+2010-09-26 20:59:08	nicklas_	nah, that i already know, it was something else
+2010-09-26 20:59:26	nicklas_	you had to do some config command or something, dont remember
+2010-09-26 20:59:38	glide	you mean refreshing the installer?
+2010-09-26 20:59:42	nicklas_	move source or something i think it was
+2010-09-26 20:59:44	genfool_	hmmm, I never use sulfur, have not seen the message
+2010-09-26 20:59:46	nicklas_	nah
+2010-09-26 21:00:19	nicklas_	you mean liveinst-update-quick .... but thats not what i mean
+2010-09-26 21:01:14	glide	don't worry, if it was important it will bite you later
+2010-09-26 21:01:16	glide	:)
+2010-09-26 21:01:33	genfool_	lol
+2010-09-26 21:02:16	-->	Keshl (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has joined #sabayon
+2010-09-26 21:03:37	<--	Julius-ZM (~Julius-ZM@92-249-230-224.pool.digikabel.hu) has quit (Ping timeout: 255 seconds)
+2010-09-26 21:05:47	nicklas_	glide and genfool_ start sulfur and look, you will see what i mean
+2010-09-26 21:06:03	-->	Julius-ZM (~Julius-ZM@92-249-230-224.pool.digikabel.hu) has joined #sabayon
+2010-09-26 21:06:25	-->	gary6 (~gary6@82.host-203-152-103.compassnet.co.nz) has joined #sabayon
+2010-09-26 21:06:51	--	Mode #sabayon [+l 78] by |Cadmus|
+2010-09-26 21:06:53	-->	mirko_ (~mirko@host218-14-dynamic.37-79-r.retail.telecomitalia.it) has joined #sabayon
+2010-09-26 21:08:12	genfool_	hmm, I on 99.50.2  start sulfur from cl, no message here....genfool hands nicklas_  a aspirin
+2010-09-26 21:08:45	--	mirko_ is now known as mirko__
+2010-09-26 21:09:24	--	mirko__ is now known as mirko_r6
+2010-09-26 21:09:40	Azerthoth	equo update && equo install equo sulfur entropy && echo "-5" | equo conf update
+2010-09-26 21:09:43	-->	Pavel_ (~Pavel@stud247215.studentenheim.uni-tuebingen.de) has joined #sabayon
+2010-09-26 21:09:51	Azerthoth	nicklas_, copy and paste that
+2010-09-26 21:10:39	Azerthoth	that will update your package management system
+2010-09-26 21:11:01	mirko_r6	where i can post a question about wireless network?
+2010-09-26 21:11:42	genfool_	mirko_r6,  here maybe, what is the question?
+2010-09-26 21:11:49	Azerthoth	mirko_r6, same place you can ask any question, if there is a doubt read the channel topic
+2010-09-26 21:11:55	Azerthoth	which states JUST ASK'
+2010-09-26 21:13:00	nicklas_	Azerthoth: ok, but it wasnt that either, it was some other message
+2010-09-26 21:13:07	mirko_r6	i installed linux sabayon and i can find the wireless network
+2010-09-26 21:13:20	Azerthoth	mirko_r6, ask the question, no story needed
+2010-09-26 21:13:43	mirko_r6	wireless network don't work
+2010-09-26 21:13:50	Azerthoth	nicklas_, what error? I'm not telepathic
+2010-09-26 21:14:21	nicklas_	its not an error, it was just a message in sulfur, think i asked what it was the other day
+2010-09-26 21:14:33	Azerthoth	mirko_r6, great, as root, iwconfig | pastebunz
+2010-09-26 21:14:35	nicklas_	where can you read channel history?
+2010-09-26 21:14:57	Azerthoth	nicklas_, give me the error
+2010-09-26 21:15:16	mirko_r6	from terminal?
+2010-09-26 21:15:18	Azerthoth	if you cant reproduce it, then its meaningless, if you cant tell me, then its meaningless
+2010-09-26 21:15:27	nicklas_	dont remember it, and im not in sabayon now, dont even have it installed atm
+2010-09-26 21:15:32	Azerthoth	mirko_r6, think it really hard, see if that works
+2010-09-26 21:15:36	nicklas_	Azerthoth: :-P
+2010-09-26 21:16:05	mirko_r6	ok i try
+2010-09-26 21:16:22	nicklas_	but what i do know is that i asked about it the other day, so if i could just read channel history somewhere
+2010-09-26 21:16:37	Azerthoth	nicklas_, what client are you using?
+2010-09-26 21:16:48	nicklas_	irc?
+2010-09-26 21:17:13	nicklas_	im on my gfs vista computer, and using the website irc
+2010-09-26 21:17:14	Azerthoth	ah a web gateway, no it would require logs, and logs mean a real IRC client
+2010-09-26 21:17:41	<--	Genfool (~Sonya@unaffiliated/genfool) has quit (Quit: Leaving)
+2010-09-26 21:17:48	-->	DHalens (~DHalens@unaffiliated/dhalens) has joined #sabayon
+2010-09-26 21:17:56	nicklas_	Azerthoth: but the channel logs must be somewhere online i mean, dont you think i know how to read logs stored in linux? :-p
+2010-09-26 21:18:20	Azerthoth	nicklas_, that requires a channel logger, which we dont have
+2010-09-26 21:18:36	Azerthoth	logs dont magically appear online
+2010-09-26 21:18:38	nicklas_	ah i see
+2010-09-26 21:18:52	nicklas_	i thought that freenode logged all channels
+2010-09-26 21:19:06	mirko_r6	the response iwconfig | pastebunz is "no wirelss exstension"
+2010-09-26 21:19:38	Azerthoth	mirko_r6, you installed using a CD and not a DVD didnt you
+2010-09-26 21:19:40	nicklas_	mirko_r6: i really think that Azerthoth wants the whole pastie
+2010-09-26 21:20:08	Azerthoth	pastebunz means it puts it up where I can read it
+2010-09-26 21:20:11	mirko_r6	yes installed from cd
+2010-09-26 21:20:38	Azerthoth	mirko_r6, release notes are wonderful things, had you read them you would have known wireless isnt included
+2010-09-26 21:20:45	nicklas_	Azerthoth: is it hard to keep patience sometimes? :-P
+2010-09-26 21:20:55	Azerthoth	you have no idea
+2010-09-26 21:20:57	Lokey	he doesn't bother :)
+2010-09-26 21:20:59	Azerthoth	:)
+2010-09-26 21:21:19	Lokey	real men don't read release notes anyway
+2010-09-26 21:21:23	nicklas_	i know that even i can be a real noob quite often, but some are extreme
+2010-09-26 21:21:23	Azerthoth	hehe, Lokey knows, I havent ever had patience
+2010-09-26 21:22:18	Azerthoth	mirko_r6, so now you need a hardline
+2010-09-26 21:22:41	-->	sabayonuser (~sabayonus@chello084010163142.chello.pl) has joined #sabayon
+2010-09-26 21:22:46	mirko_r6	yes i'm using a hard line
+2010-09-26 21:22:46	Azerthoth	we can likely get you up and running, but you must have a connection for it
+2010-09-26 21:22:48	nicklas_	mirko_r6: why dont you do dvd install instead, much easier for you i think
+2010-09-26 21:22:49	--	Mode #sabayon [+l 81] by |Cadmus|
+2010-09-26 21:23:04	Azerthoth	mirko_r6, lspci | pastebunz
+2010-09-26 21:23:22	<--	Channel6 (~blah@unaffiliated/yourkicks) has quit (Remote host closed the connection)
+2010-09-26 21:23:24	Azerthoth	lspci -n | pastebunz
+2010-09-26 21:23:32	Azerthoth	lspci -v | pastebunz
+2010-09-26 21:24:51	nicklas_	btw, any kde users here?
+2010-09-26 21:25:08	Azerthoth	use it sometimes
+2010-09-26 21:25:17	mirko_r6	comand not found
+2010-09-26 21:25:23	nicklas_	Azerthoth: have you used the new release?
+2010-09-26 21:25:27	Azerthoth	what command
+2010-09-26 21:25:38	mlody	nicklas_: i am using kde
+2010-09-26 21:25:43	Azerthoth	4.5.1 yes
+2010-09-26 21:25:49	mlody	kde is the best
+2010-09-26 21:25:50	mirko_r6	| pastebunz
+2010-09-26 21:26:10	Azerthoth	equo update && equo install pastebunz
+2010-09-26 21:26:11	nicklas_	it looks very different from 4.4? is it?
+2010-09-26 21:26:27	Azerthoth	nicklas_, somewhat, but not terribly
+2010-09-26 21:26:37	Lokey	it needs more work stick with 4.4
+2010-09-26 21:27:08	nicklas_	Lokey: ok, what is wrong with it?
+2010-09-26 21:27:10	nicklas_	buggy?
+2010-09-26 21:27:11	Azerthoth	I just use fluxbox or a handbuilt openbox most of the time
+2010-09-26 21:27:20	mlody	nicklas_: not verry
+2010-09-26 21:27:35	Lokey	buggy/incomplete. needs more testing/bug fixing
+2010-09-26 21:27:57	nicklas_	Lokey: does it crash?
+2010-09-26 21:28:18	mlody	Azerthoth: i used fluxbox on gentoo. nice WM
+2010-09-26 21:28:20	Lokey	no, just some oddities
+2010-09-26 21:29:01	nicklas_	i would like to have the gentoo handbook printed out, but no printer :-S wanna try to install it
+2010-09-26 21:29:27	nicklas_	i will most likely fail, but it would be cool to try it
+2010-09-26 21:30:09	Azerthoth	nicklas_, its not difficult, but you have to really really read and take your time the first few times
+2010-09-26 21:30:32	mlody	nicklas_: go to xero. there somebody will print you this
+2010-09-26 21:30:37	nicklas_	yes, thats why i want it printed
+2010-09-26 21:30:44	nicklas_	mlody: xero?
+2010-09-26 21:30:54	mlody	hmm... wait
+2010-09-26 21:30:58	nicklas_	also i would like the arch handbook
+2010-09-26 21:31:16	nicklas_	but arch is a bit easier to install and use than gentoo right?
+2010-09-26 21:31:22	Azerthoth	brb, changing computers
+2010-09-26 21:31:39	nicklas_	Azerthoth: aight
+2010-09-26 21:32:00	mlody	nicklas_: http://translate.google.com/#
+2010-09-26 21:32:12	mlody	text ksero polish >> english
+2010-09-26 21:32:36	nicklas_	mlody: huh?
+2010-09-26 21:33:19	nicklas_	photo copying?
+2010-09-26 21:33:20	mirko_r6	where i can find the driver for the wireless network?
+2010-09-26 21:33:25	mlody	yes
+2010-09-26 21:33:35	mlody	mirko_r6: wicd
+2010-09-26 21:33:36	nicklas_	mirko_r6: ndiswrapper you mean?
+2010-09-26 21:33:45	nicklas_	ah is it wicd?
+2010-09-26 21:34:04	mlody	?? wicd
+2010-09-26 21:34:06	@|Cadmus|	wicd: First, make sure wicd is installed, then as root perform the following: 'rc-update add wicd default ; rc-update del NetworkManager ; /etc/init.d/NetworkManager stop ; /etc/init.d/wicd start' then as normal user you can start wicd-client to connect. It is recommended to add wicd-client to autostart as handled by your desktop environment
+2010-09-26 21:34:07	-->	Azerthoth|D (~azerthoth@funtoo/user/azerthoth) has joined #sabayon
+2010-09-26 21:34:16	mlody	awesome bot :D
+2010-09-26 21:34:55	--	sabayonuser is now known as WRAven
+2010-09-26 21:35:00	mirko_r6	sorry it's a dvd from a journal
+2010-09-26 21:35:05	--	WRAven is now known as WRaven
+2010-09-26 21:35:17	mirko_r6	i try whit the comand up
+2010-09-26 21:35:59	nicklas_	gotta go, see ya
+2010-09-26 21:36:06	<--	nicklas_ (53e2a580@gateway/web/freenode/ip.83.226.165.128) has quit
+2010-09-26 21:37:07	mirko_r6	rc-update add wicd default ---> rc-update: service `wicd' does not exist
+2010-09-26 21:37:21	mlody	equo install wicd
+2010-09-26 21:37:22	mlody	?
+2010-09-26 21:38:15	Azerthoth|D	mirko_r6, I gave you a command, if you have run it please follow the previous instructions
+2010-09-26 21:38:57	mirko_r6	i have run a comand, but nothing to install
+2010-09-26 21:39:24	Azerthoth|D	you ran the command I gave you to install pastebunz?
+2010-09-26 21:39:52	mirko_r6	no it suggest me other application
+2010-09-26 21:40:15	mlody	wait
+2010-09-26 21:40:31	Azerthoth|D	mirko_r6, install pastebunz
+2010-09-26 21:40:41	mlody	how he has to install this if he has not the internet
+2010-09-26 21:40:43	mlody	??
+2010-09-26 21:40:45	@|Cadmus|	??[x]: Usage: ?? <word> [> nick]
+2010-09-26 21:40:48	mirko_r6	ok, how?
+2010-09-26 21:40:51	Azerthoth|D	mlody, hardline
+2010-09-26 21:41:02	Azerthoth|D	I gave you the command already ffs
+2010-09-26 21:41:11	Azerthoth|D	equo update && equo install pastebunz
+2010-09-26 21:41:14	mlody	ahh okay
+2010-09-26 21:41:27	mlody	Azerthoth|D: maybe pastebin?
+2010-09-26 21:41:34	Azerthoth|D	pastebunz
+2010-09-26 21:41:54	mlody	pastebin is good too
+2010-09-26 21:42:08	Azerthoth|D	as is wgetpaste
+2010-09-26 21:42:27	mlody	yes
+2010-09-26 21:42:36	Azerthoth|D	but right now, we have our own and its typically on every install
+2010-09-26 21:42:45	mirko_r6	nothing to install whit this comand
+2010-09-26 21:42:45	Azerthoth|D	app-text/pastebunz
+2010-09-26 21:43:06	Azerthoth|D	mirko_r6, what version of sabayon are you using?
+2010-09-26 21:43:13	Azerthoth|D	cat /etc/*rel*
+2010-09-26 21:43:15	mirko_r6	3.5
+2010-09-26 21:43:43	Azerthoth|D	there are no repositories for that any longer
+2010-09-26 21:44:11	mirko_r6	yes there are no reposity
+2010-09-26 21:44:12	Azerthoth|D	if the channel topic says that 4.x repos are offline, do you think we kept 3.x repos around
+2010-09-26 21:44:25	Azerthoth|D	mirko_r6, your not tracking, there is NOTHING you can install
+2010-09-26 21:44:41	Azerthoth|D	support was dropped for the 3.x series several years ago
+2010-09-26 21:44:52	mirko_r6	ok i understand
+2010-09-26 21:45:25	mirko_r6	so i must install the last version right?
+2010-09-26 21:45:26	mlody	mirko_r6: try kubuntu http://www.kubuntu.org/getkubuntu
+2010-09-26 21:45:56	Azerthoth|D	mirko_r6, or wait a few days while we stable up sabayon 5.4
+2010-09-26 21:46:40	mirko_r6	and the last version wich is? 5.3?
+2010-09-26 21:47:06	Azerthoth|D	yes, there are a buttload of updates that you'll have to pull as well
+2010-09-26 21:47:24	lythandrel	3.5 had nopaste installed, i think
+2010-09-26 21:47:30	-->	Phenom1337 (~billinrm@cpe-98-157-154-95.ma.res.rr.com) has joined #sabayon
+2010-09-26 21:47:32	<--	Phenom1337 (~billinrm@cpe-98-157-154-95.ma.res.rr.com) has left #sabayon
+2010-09-26 21:47:50	Azerthoth|D	makes no difference, cant install anything on that anyways
+2010-09-26 21:48:05	mlody	Azerthoth|D: r u developer?
+2010-09-26 21:48:08	mirko_r6	and i can download it?
+2010-09-26 21:48:18	Azerthoth|D	mirko_r6, yes
+2010-09-26 21:48:19	lythandrel	Azerthoth|D: you can install flowers and paint... it might make a pretty doorstop.
+2010-09-26 21:48:29	Azerthoth|D	lulz
+2010-09-26 21:48:43	mirko_r6	great, from the official site?
+2010-09-26 21:48:51	Azerthoth|D	?? mirrors
+2010-09-26 21:48:53	@|Cadmus|	mirrors: To download Sabayon check here: http://www.sabayonlinux.org/mod/mirrors/
+2010-09-26 21:48:56	mlody	okay i have to go
+2010-09-26 21:48:58	mlody	bye
+2010-09-26 21:48:59	lythandrel	?? headdesk
+2010-09-26 21:48:59	mlody	cya
+2010-09-26 21:49:01	@|Cadmus|	headdesk[x]: No definition found for word.
+2010-09-26 21:49:04	mlody	away
+2010-09-26 21:49:06	lythandrel	darn.
+2010-09-26 21:49:13	Azerthoth|D	?? toilet
+2010-09-26 21:49:16	@|Cadmus|	toilet: how the hell did you survive toilet training without drowning head first in the bowl?
+2010-09-26 21:50:36	mirko_r6	i try to downloand and install, thank's for the help
+2010-09-26 21:51:49	<--	mirko_r6 (~mirko@host218-14-dynamic.37-79-r.retail.telecomitalia.it) has quit (Remote host closed the connection)
+2010-09-26 21:51:54	lythandrel	!learn add headdesk http://i365.photobucket.com/albums/oo97/Sarklor/headdesk.gif
+2010-09-26 21:51:54	ParkerBeta	Added headdesk to DB
+2010-09-26 21:52:49	<--	Lokey (~Lokey@pool-98-114-35-192.phlapa.fios.verizon.net) has quit (Quit: Leaving)
+2010-09-26 21:53:18	lythandrel	!learn add headdesk http://i787.photobucket.com/albums/yy153/asdews/Head_desk___Forkke_by_NeoSlashott.gif
+2010-09-26 21:53:18	ParkerBeta	Added headdesk to DB
+2010-09-26 21:53:48	--	Mode #sabayon [+l 78] by |Cadmus|
+2010-09-26 21:57:28	 *	Azerthoth|D fires up hulu and settles in for a SG-1 marathon
+2010-09-26 21:58:44	joost_op	I think I missed something good here
+2010-09-26 21:58:49	genfool_	whooo hooo....genfool still moving furniture
+2010-09-26 21:59:24	joost_op	wait, somebody installed Sabayon 3.5?
+2010-09-26 21:59:32	Azerthoth|D	3.5
+2010-09-26 21:59:51	genfool_	3.5 was awesome
+2010-09-26 22:00:03	Azerthoth|D	3.4f was awesome
+2010-09-26 22:00:32	genfool_	nothing wrong with 3.4e either
+2010-09-26 22:01:44	joost_op	5.4 is awesome
+2010-09-26 22:02:03	Azerthoth|D	joost_op, is awesome
+2010-09-26 22:02:13	Azerthoth|D	*blatant sucking up*
+2010-09-26 22:02:22	genfool_	joost_op,  I loving 5.4...the artwork is great
+2010-09-26 22:02:24	joost_op	Azerthoth|D: the word was designed for you, don't put it on my head
+2010-09-26 22:02:26	lythandrel	genfool_: 3.5 was frightening.  it's the winME of the sabayon world.
+2010-09-26 22:02:55	joost_op	lythandrel: when Fabio removed portage support you mean?
+2010-09-26 22:02:56	genfool_	5.3 is the win me....anaconda sucks
+2010-09-26 22:03:01	lythandrel	3.4f on the other hand kicked some major ass.
+2010-09-26 22:03:21	lythandrel	joost_op: that was part of it.  and there was pod, and the artwork...
+2010-09-26 22:03:32	joost_op	3.4e was the point I started filling Entropy
+2010-09-26 22:03:40	joost_op	pod was my fault
+2010-09-26 22:04:12	joost_op	Fabio said it wasn't ready, but I wanted to at least push out a mini version
+2010-09-26 22:04:15	Azerthoth|D	only took me 8 hours to finish figuring out how to get portage back into POD
+2010-09-26 22:04:30	joost_op	we was close to a business deal, and if that gone through, we would all be on Naendo now
+2010-09-26 22:04:43	joost_op	(o;
+2010-09-26 22:05:00	lythandrel	genfool_: all of our other versions have used anaconda...  it's just anaconda isn't made of fail lately.
+2010-09-26 22:05:15	joost_op	we got better, and our skin gotten thick
+2010-09-26 22:05:34	lythandrel	joost_op: yep...  that could have been potentially wonderful if the dudes behind it didn't turn out to be slimeballs.
+2010-09-26 22:06:03	-->	seeds1 (~seeds@ool-18bcf43e.dyn.optonline.net) has joined #sabayon
+2010-09-26 22:06:08	joost_op	lythandrel: I felt very shit when Fabio was texting me he wanted to go home asap
+2010-09-26 22:06:18	joost_op	ahwell
+2010-09-26 22:06:31	joost_op	some things we never forget
+2010-09-26 22:06:46	joost_op	the Naendo thought opened up the project more
+2010-09-26 22:06:48	lythandrel	joost_op: same...  felt horrible for him..  but he discovered 7-11 vanilla capuccino, so something positive came from it.
+2010-09-26 22:07:12	Azerthoth|D	eeeeeeew
+2010-09-26 22:07:18	-->	sabayonuser (~sabayonus@201.161.58.33) has joined #sabayon
+2010-09-26 22:07:36	lythandrel	Azerthoth|D: the stuff is tasty... you just can't judge it as coffee.
+2010-09-26 22:07:49	lythandrel	it's like a vanilla-coffee milkshake, but hot, not cold.
+2010-09-26 22:07:51	joost_op	If we ever make a milion, I'd hire a ship and come pick you guys up
+2010-09-26 22:07:56	joost_op	and we be drunk for 4 weeks
+2010-09-26 22:08:02	joost_op	in the carebian
+2010-09-26 22:08:07	Azerthoth|D	nice
+2010-09-26 22:08:30	<--	seeds (~seeds@ool-18bcf43e.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2010-09-26 22:08:40	joost_op	and put a home trainer on deck for lythandrel
+2010-09-26 22:08:44	joost_op	muahahah
+2010-09-26 22:08:52	joost_op	So we can watch her ride
+2010-09-26 22:09:04	lythandrel	:))
+2010-09-26 22:09:06	lythandrel	hehehehe
+2010-09-26 22:09:06	 *	Azerthoth|D gets HD camera
+2010-09-26 22:09:23	joost_op	"lungs off a horse!" ride baby ride
+2010-09-26 22:09:34	<--	|kos-mos| (~kvirc@amg01-2-78-227-45-65.fbx.proxad.net) has quit (Quit: KVIrc Insomnia 4.0.0, revision: 3900, sources date: 20100125, built on: 2010-07-07 00:42:53 UTC 3900 http://www.kvirc.net/)
+2010-09-26 22:09:39	lythandrel	joost_op: better to just use my normal bike, and a trainer rack for it.
+2010-09-26 22:09:53	joost_op	by the way, the 5.4 release is VERY close
+2010-09-26 22:10:08	joost_op	but Fabio just send me an sms, he is a bit sick and hit the bed
+2010-09-26 22:10:36	joost_op	I guess release is somewhere this week
+2010-09-26 22:10:36	Azerthoth|D	glad that shadow issue got bumped to release
+2010-09-26 22:10:42	joost_op	yep
+2010-09-26 22:10:52	joost_op	all open issues are worked out
+2010-09-26 22:10:58	joost_op	tracker bug is closed
+2010-09-26 22:11:00	Azerthoth|D	nice
+2010-09-26 22:11:16	seeds1	good stuff joost_op
+2010-09-26 22:11:37	joost_op	I'm carefully bumping stuff (we don't have on our iso) in Entropy
+2010-09-26 22:11:47	joost_op	and starting to unfreeze a bit
+2010-09-26 22:16:35	-->	sabayonweb_24874 (57de1aef@gateway/web/freenode/ip.87.222.26.239) has joined #sabayon
+2010-09-26 22:17:23	<--	sabayonweb_24874 (57de1aef@gateway/web/freenode/ip.87.222.26.239) has quit (Client Quit)
+2010-09-26 22:24:01	-->	ron_o (~me@pool-71-175-85-225.phlapa.fios.verizon.net) has joined #sabayon
+2010-09-26 22:27:59	<--	laci (~laci@unaffiliated/laci) has quit (Remote host closed the connection)
+2010-09-26 22:36:32	-->	tyr12 (~tyr12@unaffiliated/tyranny) has joined #sabayon
+2010-09-26 22:40:08	-->	gary61 (~gary6@82.host-203-152-103.compassnet.co.nz) has joined #sabayon
+2010-09-26 22:40:08	<--	gary6 (~gary6@82.host-203-152-103.compassnet.co.nz) has quit (Read error: Connection reset by peer)
+2010-09-26 22:41:28	-->	sabayonuser2 (~sabayonus@187.65.205.16) has joined #sabayon
+2010-09-26 22:41:57	-->	seeds2 (~seeds@ool-18bcf43e.dyn.optonline.net) has joined #sabayon
+2010-09-26 22:42:39	-->	seeds3 (~seeds@ool-18bcf43e.dyn.optonline.net) has joined #sabayon
+2010-09-26 22:42:47	--	Mode #sabayon [+l 82] by |Cadmus|
+2010-09-26 22:45:09	<--	seeds1 (~seeds@ool-18bcf43e.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2010-09-26 22:46:24	<--	seeds2 (~seeds@ool-18bcf43e.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2010-09-26 22:46:58	-->	seeds4 (~seeds@ool-18bcf43e.dyn.optonline.net) has joined #sabayon
+2010-09-26 22:47:57	<--	sabayonuser2 (~sabayonus@187.65.205.16) has left #sabayon ("Leaving")
+2010-09-26 22:49:44	<--	seeds3 (~seeds@ool-18bcf43e.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2010-09-26 22:49:46	-->	silasdavis (~sabayonus@80.177.151.227) has joined #sabayon
+2010-09-26 22:49:48	--	Mode #sabayon [+l 79] by |Cadmus|
+2010-09-26 23:08:42	-->	sHellUx (~sHellUx@212-76-45-2.home.aster.pl) has joined #sabayon
+2010-09-26 23:13:33	-->	Radtoo (~mschmid@77-56-73-182.dclient.hispeed.ch) has joined #sabayon
+2010-09-26 23:13:48	--	Mode #sabayon [+l 82] by |Cadmus|
+2010-09-26 23:15:51	<--	sHellUx (~sHellUx@212-76-45-2.home.aster.pl) has quit (Quit: Wychodzi)
+2010-09-26 23:19:54	-->	sabayonuser_ (~sabayonus@chello087206134171.chello.pl) has joined #sabayon
+2010-09-26 23:21:08	-->	zemanel (~zemanel@193.126.177.118) has joined #sabayon
+2010-09-26 23:23:50	-->	sabayonweb_32267 (59b551f2@gateway/web/freenode/ip.89.181.81.242) has joined #sabayon
+2010-09-26 23:23:54	sabayonweb_32267	gn all
+2010-09-26 23:24:36	--	sabayonuser_ is now known as bubu
+2010-09-26 23:24:39	sabayonweb_32267	just finish installing sabayon on my laptop (amd turion 64 2x)
+2010-09-26 23:24:51	sabayonweb_32267	and having problems with updates
+2010-09-26 23:25:19	sabayonweb_32267	can someone help ?
+2010-09-26 23:26:13	sabayonweb_32267	it says, some dependencies could not be found or not active in repository
+2010-09-26 23:27:23	<--	bubu (~sabayonus@chello087206134171.chello.pl) has left #sabayon ("Konversation terminated!")
+2010-09-26 23:28:36	sabayonweb_32267	already runned equo update
+2010-09-26 23:28:46	sabayonweb_32267	shouldn t be there ?
+2010-09-26 23:28:52	DHalens	equo install equo entropy --relaxed
+2010-09-26 23:29:11	DHalens	try that
+2010-09-26 23:29:11	joost_op	sabayonweb_32267: did you install Sabayon 5.3?
+2010-09-26 23:30:01	sabayonweb_32267	cat /etc/sabayon-release  Sabayon Linux x86 5
+2010-09-26 23:30:14	joost_op	what ISO did you download?
+2010-09-26 23:30:35	sabayonweb_32267	don remember
+2010-09-26 23:30:42	sabayonweb_32267	already had here
+2010-09-26 23:30:53	joost_op	ok do this
+2010-09-26 23:30:54	Azerthoth|D	equo update && equo install equo entropy --relaxed
+2010-09-26 23:30:57	joost_op	as root in a shell
+2010-09-26 23:31:08	joost_op	equo install entropy equo --nodeps
+2010-09-26 23:31:11	joost_op	and then
+2010-09-26 23:31:19	joost_op	equo install entropy --relaxed
+2010-09-26 23:31:26	joost_op	from there upgrade the system
+2010-09-26 23:31:27	sabayonweb_32267	k
+2010-09-26 23:31:30	sabayonweb_32267	ill try
+2010-09-26 23:31:53	joost_op	it will work
+2010-09-26 23:32:29	sabayonweb_32267	thankś
+2010-09-26 23:32:48	-->	sabayonweb_80654 (4f1f0162@gateway/web/freenode/ip.79.31.1.98) has joined #sabayon
+2010-09-26 23:33:26	sabayonweb_80654	Buongiorno, ho un problema con Sabayon 5.3 KDE e la rete wireless. Qualcuno di italiano c'è o scrivo in inglese?
+2010-09-26 23:35:09	Azerthoth|D	english only here
+2010-09-26 23:37:39	-->	qwebirc256287 (4f1f0162@gateway/web/freenode/ip.79.31.1.98) has joined #sabayon
+2010-09-26 23:37:43	<--	sabayonweb_80654 (4f1f0162@gateway/web/freenode/ip.79.31.1.98) has quit (Ping timeout: 252 seconds)
+2010-09-26 23:39:29	qwebirc256287	Hi, I'm an Italian Sabayon n00b user. Version 5.3 KDE. I have some problem with the network.  How can I install wicd instead of KNetwork Manager? I don't want to update all my system, only remove knetworkmanager and install wic
+2010-09-26 23:39:30	-->	catalyst64 (a5e4e7be@pdpc/supporter/professional/catalyst64) has joined #sabayon
+2010-09-26 23:39:32	qwebirc256287	*wicd
+2010-09-26 23:39:47	--	Mode #sabayon [+l 85] by |Cadmus|
+2010-09-26 23:39:50	Azerthoth|D	?? wicd
+2010-09-26 23:39:52	@|Cadmus|	wicd: First, make sure wicd is installed, then as root perform the following: 'rc-update add wicd default ; rc-update del NetworkManager ; /etc/init.d/NetworkManager stop ; /etc/init.d/wicd start' then as normal user you can start wicd-client to connect. It is recommended to add wicd-client to autostart as handled by your desktop environment
+2010-09-26 23:40:16	Azerthoth|D	qwebirc256287, you will need to `equo update && equo install wicd`
+2010-09-26 23:40:20	Azerthoth|D	first
+2010-09-26 23:40:34	qwebirc256287	Ok.
+2010-09-26 23:40:37	qwebirc256287	Thanks ;)
+2010-09-26 23:40:47	<--	sabayonuser (~sabayonus@201.161.58.33) has quit (Remote host closed the connection)
+2010-09-26 23:41:13	<--	sabayonweb_32267 (59b551f2@gateway/web/freenode/ip.89.181.81.242) has quit (Quit: Page closed)
+2010-09-26 23:41:49	qwebirc256287	I have another question. My Wireless connection works under ubuntu, but in sabayon (with wicd installed, knetworkmanager won't see the network) the response is "password incorrect". I'm sure the password is correct!!
+2010-09-26 23:42:20	Azerthoth|D	thats a statement not a question
+2010-09-26 23:42:35	qwebirc256287	my question is: WHY?
+2010-09-26 23:42:57	qwebirc256287	Am I forgetting something to do before trying to connect?
+2010-09-26 23:42:59	Azerthoth|D	have you followed all the steps listed?
+2010-09-26 23:43:31	Azerthoth|D	if you have not shut off NetworkManager then you will have issues as both subsytems will be arguing for control of the device
+2010-09-26 23:43:40	Azerthoth|D	?? wicd
+2010-09-26 23:43:41	@|Cadmus|	wicd: First, make sure wicd is installed, then as root perform the following: 'rc-update add wicd default ; rc-update del NetworkManager ; /etc/init.d/NetworkManager stop ; /etc/init.d/wicd start' then as normal user you can start wicd-client to connect. It is recommended to add wicd-client to autostart as handled by your desktop environment
+2010-09-26 23:47:15	<--	qwebirc256287 (4f1f0162@gateway/web/freenode/ip.79.31.1.98) has quit (Ping timeout: 252 seconds)
+2010-09-26 23:47:47	--	Mode #sabayon [+l 82] by |Cadmus|
+2010-09-26 23:48:54	<--	fosstux (~fosstux@78.142.106.141) has quit (Ping timeout: 245 seconds)
+2010-09-26 23:51:17	-->	loaret (~loaret@internet-178-58-19-227.narocnik.mobitel.si) has joined #sabayon
+2010-09-27 00:04:02	<--	DHalens (~DHalens@unaffiliated/dhalens) has quit (Quit: time to snore...)
+2010-09-27 00:07:14	<--	seeds4 (~seeds@ool-18bcf43e.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2010-09-27 00:11:40	-->	mulambo (~vito@93-97-185-223.zone5.bethere.co.uk) has joined #sabayon
+2010-09-27 00:13:17	<--	gary61 (~gary6@82.host-203-152-103.compassnet.co.nz) has quit (Ping timeout: 252 seconds)
+2010-09-27 00:18:08	<--	marek_ (~marek@92-245-194-234.nr.satronet.sk) has quit (Remote host closed the connection)
+2010-09-27 00:18:12	<--	silasdavis (~sabayonus@80.177.151.227) has quit (Quit: Leaving)
+2010-09-27 00:18:48	--	Mode #sabayon [+l 78] by |Cadmus|
+2010-09-27 00:22:10	<--	dontpanic (~dontpanic@adsl-146-234-200.mob.bellsouth.net) has quit (Quit: Leaving)
+2010-09-27 00:23:11	<--	billie (~billie@gentoo/developer/billie) has quit (Remote host closed the connection)
+2010-09-27 00:32:08	<--	MeaCulpa (~MeaCulpa@116.225.102.56) has quit (Quit: http://ucarenya.com/)
+2010-09-27 00:32:14	-->	gary6 (~gary6@82.host-203-152-103.compassnet.co.nz) has joined #sabayon
+2010-09-27 00:42:52	<--	gary6 (~gary6@82.host-203-152-103.compassnet.co.nz) has quit (Quit: Leaving.)
+2010-09-27 00:43:14	-->	gary6 (~gary6@82.host-203-152-103.compassnet.co.nz) has joined #sabayon
+2010-09-27 00:48:05	<--	meshuggah (~meshuggah@unaffiliated/meshuggah) has quit (Ping timeout: 240 seconds)
+2010-09-27 00:48:49	--	Mode #sabayon [+l 75] by |Cadmus|
+2010-09-27 00:52:14	-->	billie (~billie@gentoo/developer/billie) has joined #sabayon
+2010-09-27 00:57:36	-->	sabayonuser2 (~sabayonus@151.56.13.113) has joined #sabayon
+2010-09-27 00:57:50	-->	beees (~beees@ool-44c19036.dyn.optonline.net) has joined #sabayon
+2010-09-27 00:58:17	-->	sabayonuser (~sabayonus@athedsl-193307.home.otenet.gr) has joined #sabayon
+2010-09-27 00:58:20	sabayonuser	i was about to install sabayon,got a strange error,and now when i try to login to my previous OS(OpenSuse) i get the grub command line (grub> ) please help!
+2010-09-27 00:58:48	--	Mode #sabayon [+l 79] by |Cadmus|
+2010-09-27 00:59:49	Azerthoth|D	if you havent installed sabayon then its nothing that sabayon did, the error would be better worked with your existing distro
+2010-09-27 01:00:14	Azerthoth|D	just booting the livecd changes no files on your system
+2010-09-27 01:00:21	sabayonuser	Azerthoth|D: i know,i dont blame sabayon,i just cant get an answer @ #grub
+2010-09-27 01:00:37	Azerthoth|D	did you try the opensuse folks?
+2010-09-27 01:00:57	sabayonuser	yeap
+2010-09-27 01:01:01	sabayonuser	no answer yet
+2010-09-27 01:01:17	sabayonuser	i am pretty sure it's easy to figure
+2010-09-27 01:01:31	sabayonuser	i just need to drop a few commands
+2010-09-27 01:01:34	Azerthoth|D	which grub are you using and whats the error?
+2010-09-27 01:02:17	<--	sabayonuser2 (~sabayonus@151.56.13.113) has quit (Client Quit)
+2010-09-27 01:02:23	sabayonuser	i am using grub 2
+2010-09-27 01:02:38	sabayonuser	actually i dont get an error,i just dont get the boot menu!
+2010-09-27 01:02:50	sabayonuser	it just drops me @ the grub cli
+2010-09-27 01:03:32	Azerthoth|D	no boot menu means its not reading the config file which is in a file in your existing install
+2010-09-27 01:04:47	Azerthoth|D	so you have a USB device attached to your computer at the moment (not counting KB/mouse)
+2010-09-27 01:05:02	Azerthoth|D	phone, thumbdrive, camera, etc etc
+2010-09-27 01:07:06	<--	joost_op (~joost@gentoo/contributor/joost-op) has quit (Remote host closed the connection)
+2010-09-27 01:08:21	Azerthoth|D	so=do
+2010-09-27 01:08:29	sabayonuser	Azerthoth|D: well i have a live usb on.do u think that's the problem?
+2010-09-27 01:08:45	Azerthoth|D	unplug the thumbdrive and reboot
+2010-09-27 01:09:16	Azerthoth|D	thumbdrive may be screwing with the allocation table in the bois
+2010-09-27 01:09:21	Azerthoth|D	bios
+2010-09-27 01:09:37	Azerthoth|D	happens all the time on mine
+2010-09-27 01:12:32	Shinigami-Sama	happens to my old p4 as well
+2010-09-27 01:13:02	Shinigami-Sama	I have to disable all other boot options but cd and usb drive if I want to get the damned usb drive not to get ignored
+2010-09-27 01:13:13	Shinigami-Sama	BIOSes are made of fail
+2010-09-27 01:17:37	<--	nakee_ (~nakee@89-139-194-154.bb.netvision.net.il) has quit (Read error: Connection reset by peer)
+2010-09-27 01:17:42	-->	nakee__ (~nakee@89-139-209-62.bb.netvision.net.il) has joined #sabayon
+2010-09-27 01:28:47	-->	billie80 (~billie@gentoo/developer/billie) has joined #sabayon
+2010-09-27 01:28:58	<--	tyr12 (~tyr12@unaffiliated/tyranny) has quit (Quit: ...)
+2010-09-27 01:29:05	<--	billie (~billie@gentoo/developer/billie) has quit (Read error: Connection reset by peer)
+2010-09-27 01:29:48	--	Mode #sabayon [+l 76] by |Cadmus|
+2010-09-27 01:30:49	<--	xray7224 (~xray7224@85.211.9.141) has quit (Remote host closed the connection)
+2010-09-27 01:32:57	-->	DanySK (~danysk@91.82.216.88) has joined #sabayon
+2010-09-27 01:34:48	-->	meshuggah (~meshuggah@142-217-189-235.telebecinternet.net) has joined #sabayon
+2010-09-27 01:34:48	<--	meshuggah (~meshuggah@142-217-189-235.telebecinternet.net) has quit (Changing host)
+2010-09-27 01:34:48	-->	meshuggah (~meshuggah@unaffiliated/meshuggah) has joined #sabayon
+2010-09-27 01:35:16	-->	sabayonuser2 (~sabayonus@189.138.230.100) has joined #sabayon
+2010-09-27 01:36:01	Julius-ZM	http://www.youtube.com/watch?v=5kzBzTfWy8I
+2010-09-27 01:36:19	<--	Julius-ZM (~Julius-ZM@92-249-230-224.pool.digikabel.hu) has quit (Quit: KVIrc 4.0.0 Insomnia http://www.kvirc.net/)
+2010-09-27 01:37:23	<--	sabayonuser (~sabayonus@athedsl-193307.home.otenet.gr) has quit (Remote host closed the connection)
+2010-09-27 01:37:31	sabayonuser2	hola
+2010-09-27 01:37:33	-->	alphad64 (~alphad64@41.66.6.217) has joined #sabayon
+2010-09-27 01:37:43	Azerthoth|D	greetings
+2010-09-27 01:37:50	sabayonuser2	hay algun programa para ver el twiter en sabayon
+2010-09-27 01:37:59	Azerthoth|D	english only here
+2010-09-27 01:38:47	<--	billie80 (~billie@gentoo/developer/billie) has quit (Ping timeout: 276 seconds)
+2010-09-27 01:44:46	glide	is there a program to see twitter updates in sabayon, that's what he asked
+2010-09-27 01:45:09	Azerthoth|D	equo search twit
+2010-09-27 01:45:13	Azerthoth|D	seriously
+2010-09-27 01:46:24	<--	catalyst64 (a5e4e7be@pdpc/supporter/professional/catalyst64) has quit (Quit: Page closed)
+2010-09-27 01:46:31	glide	:)
+2010-09-27 01:49:35	Azerthoth|D	several apps for reading twats
+2010-09-27 01:53:02	<--	sabayonuser2 (~sabayonus@189.138.230.100) has quit (Quit: Leaving)
+2010-09-27 02:12:09	<--	alphad64 (~alphad64@41.66.6.217) has quit (Remote host closed the connection)
+2010-09-27 02:12:48	--	Mode #sabayon [+l 73] by |Cadmus|
+2010-09-27 02:25:52	-->	alphad64 (~alphad64@41.66.6.217) has joined #sabayon
+2010-09-27 02:26:14	<--	alphad64 (~alphad64@41.66.6.217) has quit (Remote host closed the connection)
+2010-09-27 02:28:32	<--	DanySK (~danysk@91.82.216.88) has quit (Remote host closed the connection)
+2010-09-27 02:28:43	-->	dMaggot (~david@201.227.175.3) has joined #sabayon
+2010-09-27 02:38:04	-->	alphad64 (~alphad64@41.66.6.217) has joined #sabayon
+2010-09-27 02:39:15	<--	alphad64 (~alphad64@41.66.6.217) has quit (Remote host closed the connection)
+2010-09-27 02:43:11	-->	Lokey (~Lokey@pool-98-114-35-192.phlapa.fios.verizon.net) has joined #sabayon
+2010-09-27 02:47:02	-->	Keshl_ (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has joined #sabayon
+2010-09-27 02:47:02	<--	Keshl (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has quit (Read error: Connection reset by peer)
+2010-09-27 02:47:03	--	Keshl_ is now known as Keshl
+2010-09-27 02:47:18	<--	glide (~glide87th@S01060016b61c8923.wp.shawcable.net) has quit (Quit: Too late to stop now)
+2010-09-27 02:49:47	-->	MeaCulpa (~MeaCulpa@nat/hp/x-ezfoqvhvfxdzpagh) has joined #sabayon
+2010-09-27 02:52:49	-->	clitor (~clitor@18620365226.vrd.megazon.com.br) has joined #sabayon
+2010-09-27 03:18:02	-->	egypcio (~egypcio@unaffiliated/egypcio) has joined #sabayon
+2010-09-27 03:18:47	--	Mode #sabayon [+l 76] by |Cadmus|
+2010-09-27 03:23:18	clitor	hello guys! Someone uses the ATI driver on sabayon 5.3?
+2010-09-27 03:32:18	Azerthoth|D	clitor, in regards to earlier, when you couldnt wait around
+2010-09-27 03:32:31	Azerthoth|D	wtf possesed you to go outside the package manager?
+2010-09-27 03:33:01	Azerthoth|D	you want to install ANYTHING, you use the package manager
+2010-09-27 03:37:17	clitor	yes I did it but when the store updates the drivers entropy x11-driver-ati windows show error graph. I am getting discouraged with this problem. My card is the ATI HD 3200. lap-top
+2010-09-27 03:37:44	Azerthoth|D	*sigh*
+2010-09-27 03:38:03	Azerthoth|D	do you have limbo active? (the testing repo)
+2010-09-27 03:38:24	clitor	I do not know what else to do.
+2010-09-27 03:38:37	Azerthoth|D	install the drivers in the repository
+2010-09-27 03:39:26	<--	Keshl (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has quit (Read error: Connection reset by peer)
+2010-09-27 03:39:34	-->	Keshl (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has joined #sabayon
+2010-09-27 03:39:48	Azerthoth|D	make sure they are set in xorg.conf and in eselect opengl
+2010-09-27 03:40:02	Azerthoth|D	then when you reboot, make sure your booting the proper kernel
+2010-09-27 03:40:42	clitor	the drivers were installed directly from the directory through the sabayon Entropy 0.99.50.2 Store
+2010-09-27 03:41:41	Azerthoth|D	which is why you said earlier that you installed them from the package you downloaded from the ati site
+2010-09-27 03:41:58	Azerthoth|D	did you follow the REST of the steps I outlined?
+2010-09-27 03:42:19	Azerthoth|D	xorg.conf, eselect opengl, kernel
+2010-09-27 03:46:07	clitor	please describe to me how these procedures are ..... xorg.conf eselect opengl, kernel
+2010-09-27 03:46:08	Azerthoth|D	equo install ati-drivers
+2010-09-27 03:46:48	Azerthoth|D	you set the drivers (with a text editor at the Driver line) in /etc/X11/xorg.conf
+2010-09-27 03:47:05	Azerthoth|D	you eselect opengl set ati
+2010-09-27 03:47:30	Azerthoth|D	you then reboot with the appropriate kernel, kernel and video drivers are tied together
+2010-09-27 03:47:55	clitor	ok! 1minute
+2010-09-27 03:48:18	Azerthoth|D	did you issue, equo install ati-drivers ?
+2010-09-27 03:48:24	Azerthoth|D	that has to be done FIRST
+2010-09-27 03:48:28	blaise	Holy WTF?
+2010-09-27 03:48:38	Azerthoth|D	blaise, exactly
+2010-09-27 03:49:14	clitor	ok!
+2010-09-27 03:50:46	<--	vsTerminus (~vsterminu@wnpgmb0804w-ad03-86-29.dynamic.mts.net) has quit (Ping timeout: 264 seconds)
+2010-09-27 04:02:02	clitor	Azerthoth|D: Friend, my sister just closed the terminal during the driver installation. Now the response I received when I use the command equo install ati-drivers is this "Another Entropy is Currently running" ... I think the update is being blocked
+2010-09-27 04:04:10	<--	Sa[i]nT (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has quit (Ping timeout: 272 seconds)
+2010-09-27 04:06:12	Azerthoth|D	ps aux ... find the pid, kill -9 pid
+2010-09-27 04:07:54	clitor	Azerthoth|D: pid?
+2010-09-27 04:08:12	Lokey	top
+2010-09-27 04:08:27	Azerthoth|D	pid process ID number
+2010-09-27 04:08:27	Lokey	or some funky cat /proc statement
+2010-09-27 04:08:45	Azerthoth|D	listed as a number when you run `ps aux`
+2010-09-27 04:11:16	-->	vsTerminus (~vsterminu@wnpgmb0803w-ad01-65-139.dynamic.mts.net) has joined #sabayon
+2010-09-27 04:17:34	clitor	Friends could not. When I click the Entropy for example now he reports this message. "Another instance is runnig entropy. You Will not Be Able to install / remove / sync applications"
+2010-09-27 04:17:36	-->	Sa[i]nT (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has joined #sabayon
+2010-09-27 04:17:45	<--	vsTerminus (~vsterminu@wnpgmb0803w-ad01-65-139.dynamic.mts.net) has quit (Read error: Operation timed out)
+2010-09-27 04:19:24	clitor	Azerthoth|D: I do not get this problem. Not giving to do anything.
+2010-09-27 04:20:02	Azerthoth|D	reboot
+2010-09-27 04:21:02	clitor	ok!
+2010-09-27 04:21:37	<--	clitor (~clitor@18620365226.vrd.megazon.com.br) has quit (Remote host closed the connection)
+2010-09-27 04:24:28	-->	clitor (~clitor@18620365226.vrd.megazon.com.br) has joined #sabayon
+2010-09-27 04:24:46	Azerthoth|D	equo install ati-drivers
+2010-09-27 04:25:03	-->	vsTerminus (~vsterminu@wnpgmb0808w-ad04-95-182.dynamic.mts.net) has joined #sabayon
+2010-09-27 04:25:03	Azerthoth|D	equo conf update
+2010-09-27 04:25:16	Azerthoth|D	you set the drivers (with a text editor at the Driver line) in /etc/X11/xorg.conf
+2010-09-27 04:25:29	Azerthoth|D	eselect opengl set ati
+2010-09-27 04:26:48	clitor	Azerthoth|D: I get it. Now I'm downloading the ati driver!
+2010-09-27 04:30:08	<--	Sa[i]nT (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has quit (Ping timeout: 272 seconds)
+2010-09-27 04:31:07		irc: disconnected from server
+2010-09-27 04:31:55	-->	quesada1 (~quesada@e178197097.adsl.alicedsl.de) has joined #sabayon
+2010-09-27 04:31:55	--	Topic for #sabayon is "Welcome to Sabayon Linux, the installable, Gentoo-based, preconfigured, livedisc || Sabayon 5.3 RELEASED! || Mirrors: www.sabayon.org/mirrors || Social stuff belongs in -social || Planet: planet.sabayon.org || Please ask your question, do not ask to ask. || Sabayon 4.x repositories are now offline. There is no safe upgrade path|| NO PASTING IN CHANNEL! || Iwonder|too R.I.P"
+2010-09-27 04:31:55	--	Topic set by Azerthoth|D (~azerthoth@funtoo/user/azerthoth) on Sun, 12 Sep 2010 04:55:51
+2010-09-27 04:31:55	--	Nicks #sabayon: [@ChanServ @|Cadmus| AstralStorm Azerthoth Azerthoth|D beees blaise bsdfox c0nv1ct chickpea clitor DaZ demanufacture denysonique detaos dMaggot dougl dyingmuppet egypcio Enlik Er0x gadwin gary6 genfool_ gnac Greywhind iwishikne jasherai|away Kalafok Keshl loaret Lokey lythandrel mantis_home MeaCulpa meshuggah michal29 mlody mulambo nakee__ nyshtyak omgpenguins optiz0r P_Kable paar ParkerBeta paszczus_ Pavel_ pentament pestilent quesada quesada1 Radtoo Raenk ron_o Samae Shinigami-Sama Sleepy63 snot stulda tangent tyranny_ vdex vsTerminus wolfden WRaven yitsushi zemanel]
+2010-09-27 04:31:55	--	Channel #sabayon: 68 nicks (2 ops, 0 halfops, 0 voices, 66 normals)
+2010-09-27 04:31:57	--	Channel created on Mon, 12 Feb 2007 09:33:11
+2010-09-27 04:34:17	<--	quesada (~quesada@e178206053.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-09-27 04:38:09	-->	seeds4 (~seeds@ool-18bcf43e.dyn.optonline.net) has joined #sabayon
+2010-09-27 04:38:46	Azerthoth|D	clitor, DO NOT PM
+2010-09-27 04:39:09	clitor	ecuse!
+2010-09-27 04:39:28	Azerthoth|D	find the line that says Driver
+2010-09-27 04:39:37	clitor	ok!
+2010-09-27 04:39:44	Azerthoth|D	thats the line you have to change or verify
+2010-09-27 04:41:43	-->	Sa[i]nT (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has joined #sabayon
+2010-09-27 04:46:02	<--	Sa[i]nT (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has quit (Ping timeout: 240 seconds)
+2010-09-27 04:58:25	clitor	Azerthoth|D: riend to know if I should change worked to restart the computer?
+2010-09-27 04:59:01	Azerthoth|D	if its working ....
+2010-09-27 05:02:09	<--	clitor (~clitor@18620365226.vrd.megazon.com.br) has quit (Remote host closed the connection)
+2010-09-27 05:14:03	<--	Keshl (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has quit (Remote host closed the connection)
+2010-09-27 05:17:59	<--	genfool_ (~genfool@173.226.104.75) has quit (Ping timeout: 265 seconds)
+2010-09-27 05:18:48	--	Mode #sabayon [+l 73] by |Cadmus|
+2010-09-27 05:20:56	<--	ron_o (~me@pool-71-175-85-225.phlapa.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2010-09-27 05:23:30	-->	Keshl (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has joined #sabayon
+2010-09-27 05:26:02	-->	sabayonuser (~sabayonus@c-68-41-222-137.hsd1.mi.comcast.net) has joined #sabayon
+2010-09-27 05:28:33	--	sabayonuser is now known as rand_a
+2010-09-27 05:28:54	<--	rand_a (~sabayonus@c-68-41-222-137.hsd1.mi.comcast.net) has quit (Client Quit)
+2010-09-27 05:29:18	-->	genfool_ (~genfool@173.226.104.75) has joined #sabayon
+2010-09-27 05:38:44	<--	egypcio (~egypcio@unaffiliated/egypcio) has quit
+2010-09-27 05:57:24	<--	gary6 (~gary6@82.host-203-152-103.compassnet.co.nz) has quit (Read error: Connection reset by peer)
+2010-09-27 05:59:12	-->	sabayonuser (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has joined #sabayon
+2010-09-27 05:59:26	-->	Phenom1337 (~billinrm@cpe-98-157-154-95.ma.res.rr.com) has joined #sabayon
+2010-09-27 05:59:52	<--	Phenom1337 (~billinrm@cpe-98-157-154-95.ma.res.rr.com) has left #sabayon
+2010-09-27 06:06:18	<--	iwishikne (~iwishikne@c-75-66-104-149.hsd1.ms.comcast.net) has quit (Quit: I-n-v-i-s-i-o-n 3.1 (December '08))
+2010-09-27 06:08:43	-->	nill (~nill@202.153.87.147) has joined #sabayon
+2010-09-27 06:08:47	nill	hi
+2010-09-27 06:08:58	nill	i have a question/
+2010-09-27 06:11:09	-->	iwishikne (~iwishikne@c-75-66-104-149.hsd1.ms.comcast.net) has joined #sabayon
+2010-09-27 06:11:10	nill	is sabayon more powerful than ubuntu?
+2010-09-27 06:11:50	<--	sabayonuser (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has quit (Ping timeout: 252 seconds)
+2010-09-27 06:13:01	<--	genfool_ (~genfool@173.226.104.75) has quit (Ping timeout: 245 seconds)
+2010-09-27 06:16:10	<--	nill (~nill@202.153.87.147) has quit (Quit: leaving)
+2010-09-27 06:17:48	Azerthoth|D	nill has a deathwish
+2010-09-27 06:23:45	-->	sabayonuser (~sabayonus@fl-67-235-154-80.dhcp.embarqhsd.net) has joined #sabayon
+2010-09-27 06:24:16	<--	WRaven (~sabayonus@chello084010163142.chello.pl) has quit (Ping timeout: 245 seconds)
+2010-09-27 06:25:17	-->	genfool_ (~genfool@173.226.104.75) has joined #sabayon
+2010-09-27 06:32:50	<--	Keshl (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has quit (Remote host closed the connection)
+2010-09-27 06:37:17	-->	Keshl (~sabayonus@24.115.177.177.res-cmts.gld.ptd.net) has joined #sabayon
+2010-09-27 06:44:16	<--	seeds4 (~seeds@ool-18bcf43e.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2010-09-27 06:46:50	-->	mm28 (~michael@69.63.23.68) has joined #sabayon
+2010-09-27 06:46:50	<--	dMaggot (~david@201.227.175.3) has quit (Read error: Connection reset by peer)
+2010-09-27 06:47:17	Lokey	is it more powerful than windows mobile?
+2010-09-27 06:48:03	 *	Azerthoth|D grabs clue by four and eye's the back of Lokey's head
+2010-09-27 06:53:02	-->	sabayonweb_89564 (d02654df@gateway/web/freenode/ip.208.38.84.223) has joined #sabayon
+2010-09-27 06:53:23	sabayonweb_89564	hey how do i install ati drivers?
+2010-09-27 06:54:23	sabayonweb_89564	D:
+2010-09-27 06:55:26	Azerthoth|D	equo install ati-drivers ?
+2010-09-27 06:56:08	sabayonweb_89564	omg THANKS im very new to gentoo based linux's.
+2010-09-27 06:56:26	Azerthoth|D	equo has nothing to do with gentoo, thats sabayon all the way
+2010-09-27 06:56:36	Azerthoth|D	?? entropy-all
+2010-09-27 06:56:37	@|Cadmus|	entropy-all[1]: equo: - command line interface for entropy. http://wiki.sabayonlinux.org/index.php?title=En:Equo
+2010-09-27 06:56:39	@|Cadmus|	entropy-all[2]: Entropy: is the sabayon binary package manager.  http://wiki.sabayonlinux.org/index.php?title=Entropy
+2010-09-27 06:56:41	@|Cadmus|	entropy-all[3]: http://wiki.sabayonlinux.org/index.php?title=En:Entropy#Fresh_Install_-_What_to_do.3F
+2010-09-27 06:56:49	sabayonweb_89564	Awe. Well thanks so much :D
+2010-09-27 06:56:50	Azerthoth|D	some reading for you
+2010-09-27 06:57:36	sabayonweb_89564	um.. i got this from consol " Of course you are on the Internet... Erm... Can I send the error, along with some information    about your hardware to my creators so they can fix me? (Your IP will be logged) [Yes/No] yes >> If you want to be contacted back (and actively supported), also answer the questions below: Your Full name:"
+2010-09-27 06:58:44	Azerthoth|D	1: you need to be root. 2: you need to `equo update` first
+2010-09-27 07:02:04	<--	sabayonweb_89564 (d02654df@gateway/web/freenode/ip.208.38.84.223) has quit (Ping timeout: 252 seconds)
+2010-09-27 07:12:02	-->	xray7224 (~Jessica@85.211.9.141) has joined #sabayon
+2010-09-27 07:12:02	<--	xray7224 (~Jessica@85.211.9.141) has quit (Changing host)
+2010-09-27 07:12:02	-->	xray7224 (~Jessica@unaffiliated/xray7224) has joined #sabayon
+2010-09-27 07:15:48	<--	Azerthoth|D (~azerthoth@funtoo/user/azerthoth) has quit (Remote host closed the connection)
+2010-09-27 07:21:50	-->	|kos-mos| (~kvirc@amg01-2-78-227-45-65.fbx.proxad.net) has joined #sabayon
+2010-09-27 07:23:31	<--	yitsushi (~yitsushi@87.229.108.36) has quit (Ping timeout: 240 seconds)
+2010-09-27 07:45:18	<--	|kos-mos| (~kvirc@amg01-2-78-227-45-65.fbx.proxad.net) has quit (Quit: KVIrc Insomnia 4.0.0, revision: 3900, sources date: 20100125, built on: 2010-07-07 00:42:53 UTC 3900 http://www.kvirc.net/)
+2010-09-27 07:45:44	--	Mode #sabayon [+l 70] by |Cadmus|
+2010-09-27 07:48:32	-->	yitsushi (~yitsushi@87.229.108.36) has joined #sabayon
+2010-09-27 07:55:39	-->	alemani (~ivan@201.145.19.3) has joined #sabayon
+2010-09-27 07:55:50	alemani	hello
+2010-09-27 07:58:10	alemani	I am using Sabayon w/ latest updates... yesterday I leave the computer blocked (I was usign KDE on that session) the morning after when I tried to unblock the puter I couldn't
+2010-09-27 07:58:40	alemani	so my next step was to check for all the tasks
+2010-09-27 07:59:08	alemani	using the most of the CPU/memory and kill them somehow in order to recover the session
+2010-09-27 07:59:15	alemani	no success...
+2010-09-27 07:59:44	alemani	the last thing I did was a "shutdown -r -F now"
+2010-09-27 07:59:58	-->	inaeth|lappy (~inaeth@c-76-28-234-109.hsd1.wa.comcast.net) has joined #sabayon
+2010-09-27 08:00:07	alemani	and the machine came back again safe and sound apparently...
+2010-09-27 08:00:34	alemani	but KDE hangs up to start, very after I hit enter in the KDM screen
+2010-09-27 08:00:44	--	Mode #sabayon [+l 73] by |Cadmus|
+2010-09-27 08:00:49	alemani	so my question is... should I reinstall KDE
+2010-09-27 08:00:51	alemani	?
+2010-09-27 08:01:11	alemani	I am writing this from that same computer using awesome WM
+2010-09-27 08:17:37	Lokey	depends on where the lock is if it exists as such
+2010-09-27 08:26:45	<--	xray7224 (~Jessica@unaffiliated/xray7224) has quit (Remote host closed the connection)
+2010-09-27 08:27:11	-->	DanySK (~danysk@91.82.216.88) has joined #sabayon
+2010-09-27 08:27:31	-->	nakee_ (~nakee@46-116-220-46.bb.netvision.net.il) has joined #sabayon
+2010-09-27 08:27:39	-->	xray7224 (~xray7224@85.211.9.141) has joined #sabayon
+2010-09-27 08:28:49	<--	mm28 (~michael@69.63.23.68) has quit (Remote host closed the connection)
+2010-09-27 08:30:25	<--	nakee__ (~nakee@89-139-209-62.bb.netvision.net.il) has quit (Ping timeout: 252 seconds)
+2010-09-27 08:35:25	-->	mm28 (~michael@69.63.23.68) has joined #sabayon
+2010-09-27 08:44:40	<--	MeaCulpa (~MeaCulpa@nat/hp/x-ezfoqvhvfxdzpagh) has quit (Ping timeout: 265 seconds)
+2010-09-27 08:51:15	<--	DanySK (~danysk@91.82.216.88) has quit (Remote host closed the connection)
+2010-09-27 08:51:38	-->	Mitfree__ (~john@c-69-142-209-16.hsd1.pa.comcast.net) has joined #sabayon
+2010-09-27 08:53:37	Mitfree__	Hi. What's the best way for me to get divx up and running? I would like to watch these type of videos using firefox.
+2010-09-27 08:58:31	Mitfree__	Or, Xvid if that works
+2010-09-27 09:04:56	<--	alemani (~ivan@201.145.19.3) has quit (Quit: leaving)
+2010-09-27 09:05:26	<--	mm28 (~michael@69.63.23.68) has quit (Remote host closed the connection)
+2010-09-27 09:07:17	-->	MeaCulpa (~MeaCulpa@nat/hp/x-szezwjjujwqiwuiy) has joined #sabayon
+2010-09-27 09:14:55	-->	Julius-ZM (~Julius-ZM@92-249-230-224.pool.digikabel.hu) has joined #sabayon
+2010-09-27 09:16:42	<--	Julius-ZM (~Julius-ZM@92-249-230-224.pool.digikabel.hu) has quit (Client Quit)
+2010-09-27 09:24:05	-->	mm28 (~michael@69.63.23.68) has joined #sabayon
+2010-09-27 09:30:36	<--	mm28 (~michael@69.63.23.68) has quit (Remote host closed the connection)

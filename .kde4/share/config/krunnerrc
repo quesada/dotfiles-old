@@ -1,11 +1,13 @@
 [General]
 FreeFloating=true
+Interface=TaskOriented
 PastQueries=,sky
 
 [Interface]
 Height 1152=441
 Height 1200=449
 Height 900=329
+Size=420,34
 Width 1600=420
 Width 1920=420
 Width 2048=420
@@ -17,6 +19,7 @@ killconfirmation=false
 LaunchCounts=1 services_skype-skype.desktop
 
 [Plugins]
+CharacterRunnerEnabled=true
 PowerDevilEnabled=true
 audioplayercontrolEnabled=true
 bookmarksEnabled=true
@@ -28,22 +31,25 @@ katesessionsEnabled=false
 killEnabled=true
 konquerorsessionsEnabled=true
 konsolesessionsEnabled=true
-kopete_runnerEnabled=true
+kopete_runnerEnabled=false
+krunner_kgetEnabled=true
 krunner_spellcheckEnabled=false
 locationsEnabled=true
-nepomuksearchEnabled=true
+nepomuksearchEnabled=false
+org.kde.datetimeEnabled=true
+org.kde.windowedwidgetsEnabled=false
 placesEnabled=true
 plasma-desktopEnabled=true
 recentdocumentsEnabled=true
 servicesEnabled=true
 shellEnabled=true
 solidEnabled=false
-techbaseEnabled=true
+techbaseEnabled=false
 unitconverterEnabled=true
 webshortcutsEnabled=true
 wikipediaEnabled=true
 wikitravelEnabled=true
-windowsEnabled=true
+windowsEnabled=false
 
 [Runners][Bookmarks]
 dbfile=/home/quesada/.mozilla/firefox/uq3g6doz.default/places.sqlite

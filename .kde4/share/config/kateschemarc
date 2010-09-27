@@ -83,6 +83,7 @@ Color MarkType5=160,160,164
 Color MarkType6=0,255,0
 Color MarkType7=255,0,0
 Color Selection=65,139,212
+Color Spelling Mistake Line=255,0,0
 Color Tab Marker=210,210,210
 Color Template Background=204,204,204
 Color Template Editable Placeholder=204,255,204

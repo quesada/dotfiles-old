@@ -22,7 +22,7 @@ IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=224,223,222
-BackgroundNormal=211,205,202
+BackgroundNormal=207,204,201
 DecorationFocus=58,167,221
 DecorationHover=110,214,255
 ForegroundActive=255,128,224
@@ -50,7 +50,7 @@ ForegroundVisited=69,40,134
 
 [Colors:Tooltip]
 BackgroundAlternate=196,224,255
-BackgroundNormal=192,218,255
+BackgroundNormal=190,223,255
 DecorationFocus=58,167,221
 DecorationHover=110,214,255
 ForegroundActive=255,128,224
@@ -78,7 +78,7 @@ ForegroundVisited=100,74,155
 
 [Colors:Window]
 BackgroundAlternate=218,217,216
-BackgroundNormal=219,215,212
+BackgroundNormal=213,209,207
 DecorationFocus=58,167,221
 DecorationHover=110,214,255
 ForegroundActive=255,128,224
@@ -129,13 +129,14 @@ Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Previews=false
-Recent URLs[$e]=$HOME/.xmonad/,$HOME/tmp/,$HOME/.mc/,$HOME/Dropbox/,$HOME/down/,$HOME/pdf/
+Recent URLs[$e]=$HOME/tmp/,$HOME/.mc/,$HOME/Dropbox/,$HOME/down/,$HOME/pdf/,$HOME/noteslyx/wcogs/,$HOME/doc/JWS-parallel/
 Show Bookmarks=false
 Show Full Path=false
 Show Preview=false
 Show Speedbar=true
 Show hidden files=false
 Sort by=Name
+Sort directories first=true
 Sort reversed=false
 Speedbar Width=169
 View Style=Simple

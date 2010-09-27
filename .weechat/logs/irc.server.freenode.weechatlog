@@ -2802,3 +2802,172 @@
 2010-09-12 04:53:26	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
 2010-09-12 04:53:27	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
 2010-09-12 23:20:26		irc: disconnected from server
+2010-09-26 10:07:52		irc: connecting to server chat.freenode.net/6667...
+2010-09-26 10:07:52		irc: connected to chat.freenode.net (208.71.169.36)
+2010-09-26 10:07:52	--	anthony.freenode.net (anthony.freenode.net): *** Looking up your hostname...
+2010-09-26 10:07:52	--	anthony.freenode.net (anthony.freenode.net): *** Checking Ident
+2010-09-26 10:07:53	--	anthony.freenode.net (anthony.freenode.net): *** Found your hostname
+2010-09-26 10:08:07	--	anthony.freenode.net (anthony.freenode.net): *** No Ident response
+2010-09-26 10:08:07	--	Welcome to the freenode Internet Relay Chat Network quesada
+2010-09-26 10:08:07	--	Your host is anthony.freenode.net[208.71.169.36/6667], running version ircd-seven-1.0.2
+2010-09-26 10:08:07	--	This server was created Wed Feb 3 2010 at 12:17:29 PST
+2010-09-26 10:08:07	--	anthony.freenode.net ircd-seven-1.0.2 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-09-26 10:08:07	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-09-26 10:08:07	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-09-26 10:08:07	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-09-26 10:08:07	--	There are 692 users and 50827 invisible on 24 servers
+2010-09-26 10:08:07	--	34 :IRC Operators online
+2010-09-26 10:08:07	--	18 :unknown connection(s)
+2010-09-26 10:08:07	--	38029 :channels formed
+2010-09-26 10:08:07	--	I have 5716 clients and 1 servers
+2010-09-26 10:08:07	--	5716 8297 :Current local users 5716, max 8297
+2010-09-26 10:08:07	--	51519 64361 :Current global users 51519, max 64361
+2010-09-26 10:08:07	--	Highest connection count: 8298 (8297 clients) (2932773 connections received)
+2010-09-26 10:08:07	--	- anthony.freenode.net Message of the Day -
+2010-09-26 10:08:07	--	- Welcome to anthony.freenode.net in Irvine, CA, USA!  Thanks to
+2010-09-26 10:08:07	--	- Network Data Center Host, Inc. (www.ndchost.com) for sponsoring
+2010-09-26 10:08:07	--	- this server!
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	- ANTHONY, PIERS [1934-].  Author of many novels and short
+2010-09-26 10:08:07	--	- stories, including his most famous Xanth series. A few of
+2010-09-26 10:08:07	--	- his works have made it to the New York Times Best Seller
+2010-09-26 10:08:07	--	- list, and he is widely regarded as one of the most well-known
+2010-09-26 10:08:07	--	- science fiction/fantasy authors ever.
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	- You're using freenode, a service of Peer-Directed Projects
+2010-09-26 10:08:07	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-09-26 10:08:07	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-09-26 10:08:07	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-09-26 10:08:07	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-09-26 10:08:07	--	- support.
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	- By connecting to freenode you indicate that you have read
+2010-09-26 10:08:07	--	- and agree to adhere to our policies and procedures as per
+2010-09-26 10:08:07	--	- the website (http://freenode.net). We would like to remind
+2010-09-26 10:08:07	--	- you that unauthorized public logging of channels on the
+2010-09-26 10:08:07	--	- network is prohibited. Public channel logging should only
+2010-09-26 10:08:07	--	- take place where the channel owner(s) has requested this
+2010-09-26 10:08:07	--	- and users of the channel are all made aware (if you are
+2010-09-26 10:08:07	--	- publically logging your channel, you may wish to keep a
+2010-09-26 10:08:07	--	- notice in topic and perhaps as a on-join message).
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	- By registering your nickname with Nickserv you agree that you
+2010-09-26 10:08:07	--	- are 13 years of age, or older. For more information about the
+2010-09-26 10:08:07	--	- Children's Online Privacy Protection Act please see their
+2010-09-26 10:08:07	--	- website at (http://www.coppa.org).
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	- freenode runs an open proxy scanner. Your use of the network
+2010-09-26 10:08:07	--	- indicates your acceptance of this policy. For details on
+2010-09-26 10:08:07	--	- freenode network policy, please take a look at our policy
+2010-09-26 10:08:07	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-09-26 10:08:07	--	- the network!
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-09-26 10:08:07	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-09-26 10:08:07	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-09-26 10:08:07	--	- success with Picnics for Geeks across the globe, more info at
+2010-09-26 10:08:07	--	- [http://geeknic.org]
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-09-26 10:08:07	--	- a not for profit organisation registered in England and Wales.
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	- If you support the work we do and wish to donate to the PDPC,
+2010-09-26 10:08:07	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	- Thank you for using freenode!
+2010-09-26 10:08:07	--	-
+2010-09-26 10:08:07	--	End of /MOTD command.
+2010-09-26 10:08:07	--	User mode [+i] by quesada
+2010-09-26 10:08:07	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2010-09-26 10:08:08	--	CTCP requested by frigg: VERSION
+2010-09-26 10:08:08	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-09-26 10:08:13	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions
+2010-09-27 04:31:07	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2010-09-27 04:31:07		irc: disconnecting from server...
+2010-09-27 04:31:07		irc: disconnected from server
+2010-09-27 04:31:07		irc: reconnecting to server in 30 seconds
+2010-09-27 04:31:37		irc: reconnecting to server...
+2010-09-27 04:31:37		irc: connecting to server chat.freenode.net/6667...
+2010-09-27 04:31:37		irc: connected to chat.freenode.net (208.71.169.36)
+2010-09-27 04:31:37	--	anthony.freenode.net (anthony.freenode.net): *** Looking up your hostname...
+2010-09-27 04:31:38	--	anthony.freenode.net (anthony.freenode.net): *** Checking Ident
+2010-09-27 04:31:38	--	anthony.freenode.net (anthony.freenode.net): *** Found your hostname
+2010-09-27 04:31:51	--	anthony.freenode.net (anthony.freenode.net): *** No Ident response
+2010-09-27 04:31:51		irc: nickname "quesada" is already in use, trying nickname #2 ("quesada1")
+2010-09-27 04:31:51	--	Welcome to the freenode Internet Relay Chat Network quesada1
+2010-09-27 04:31:51	--	Your host is anthony.freenode.net[208.71.169.36/6667], running version ircd-seven-1.0.2
+2010-09-27 04:31:51	--	This server was created Wed Feb 3 2010 at 12:17:29 PST
+2010-09-27 04:31:51	--	anthony.freenode.net ircd-seven-1.0.2 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2010-09-27 04:31:51	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2010-09-27 04:31:51	--	SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+2010-09-27 04:31:51	--	FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+2010-09-27 04:31:51	--	There are 688 users and 51880 invisible on 24 servers
+2010-09-27 04:31:51	--	35 :IRC Operators online
+2010-09-27 04:31:51	--	20 :unknown connection(s)
+2010-09-27 04:31:51	--	38131 :channels formed
+2010-09-27 04:31:51	--	I have 6189 clients and 1 servers
+2010-09-27 04:31:51	--	6189 8297 :Current local users 6189, max 8297
+2010-09-27 04:31:51	--	52568 64361 :Current global users 52568, max 64361
+2010-09-27 04:31:51	--	Highest connection count: 8298 (8297 clients) (2956548 connections received)
+2010-09-27 04:31:51	--	- anthony.freenode.net Message of the Day -
+2010-09-27 04:31:51	--	- Welcome to anthony.freenode.net in Irvine, CA, USA!  Thanks to
+2010-09-27 04:31:51	--	- Network Data Center Host, Inc. (www.ndchost.com) for sponsoring
+2010-09-27 04:31:51	--	- this server!
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	- ANTHONY, PIERS [1934-].  Author of many novels and short
+2010-09-27 04:31:51	--	- stories, including his most famous Xanth series. A few of
+2010-09-27 04:31:51	--	- his works have made it to the New York Times Best Seller
+2010-09-27 04:31:51	--	- list, and he is widely regarded as one of the most well-known
+2010-09-27 04:31:51	--	- science fiction/fantasy authors ever.
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	- You're using freenode, a service of Peer-Directed Projects
+2010-09-27 04:31:51	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	- On the subject of fundraisers, we'd like to thank our donors,
+2010-09-27 04:31:51	--	- hardware and bandwith sponsors and especially  The Gallery
+2010-09-27 04:31:51	--	- Project (http://gallery.menalto.com/) and our corporate sponsor
+2010-09-27 04:31:51	--	- Canonical Ltd (http://www.canonical.com) for the generous
+2010-09-27 04:31:51	--	- support.
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	- By connecting to freenode you indicate that you have read
+2010-09-27 04:31:51	--	- and agree to adhere to our policies and procedures as per
+2010-09-27 04:31:51	--	- the website (http://freenode.net). We would like to remind
+2010-09-27 04:31:51	--	- you that unauthorized public logging of channels on the
+2010-09-27 04:31:51	--	- network is prohibited. Public channel logging should only
+2010-09-27 04:31:51	--	- take place where the channel owner(s) has requested this
+2010-09-27 04:31:51	--	- and users of the channel are all made aware (if you are
+2010-09-27 04:31:51	--	- publically logging your channel, you may wish to keep a
+2010-09-27 04:31:51	--	- notice in topic and perhaps as a on-join message).
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	- By registering your nickname with Nickserv you agree that you
+2010-09-27 04:31:51	--	- are 13 years of age, or older. For more information about the
+2010-09-27 04:31:51	--	- Children's Online Privacy Protection Act please see their
+2010-09-27 04:31:51	--	- website at (http://www.coppa.org).
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	- freenode runs an open proxy scanner. Your use of the network
+2010-09-27 04:31:51	--	- indicates your acceptance of this policy. For details on
+2010-09-27 04:31:51	--	- freenode network policy, please take a look at our policy
+2010-09-27 04:31:51	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2010-09-27 04:31:51	--	- the network!
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	- Don't forget to check out these other Peer-Directed Projects:
+2010-09-27 04:31:51	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2010-09-27 04:31:51	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2010-09-27 04:31:51	--	- success with Picnics for Geeks across the globe, more info at
+2010-09-27 04:31:51	--	- [http://geeknic.org]
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2010-09-27 04:31:51	--	- a not for profit organisation registered in England and Wales.
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	- If you support the work we do and wish to donate to the PDPC,
+2010-09-27 04:31:51	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	- Thank you for using freenode!
+2010-09-27 04:31:51	--	-
+2010-09-27 04:31:51	--	End of /MOTD command.
+2010-09-27 04:31:51	--	User mode [+i] by quesada1
+2010-09-27 04:31:51	--	CTCP requested by frigg: VERSION
+2010-09-27 04:31:51	--	CTCP reply to frigg: VERSION WeeChat 0.3.3 (Aug 12 2010)
+2010-09-27 04:31:55	--	ChanServ (ChanServ@services.): [#sabayon] please read the topic before asking questions

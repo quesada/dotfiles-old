@@ -569,3 +569,245 @@ new [description:"write LK application for trento, get flat there" entry:"128456
 time 1284565011
 new [description:"resend ad for asistant" entry:"1284565011" priority:"M" status:"pending" uuid:"6cd389ff-90ad-0fea-6afc-c66ff6e61207"]
 ---
+time 1284637853
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"--------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"---------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1284637853
+old [description:"call madre" due:"1283983200" entry:"1284048168" mask:"++" priority:"M" recur:"weekly" status:"recurring" uuid:"388d417c-9f66-0791-2b05-0c7bc89f08b3"]
+new [description:"call madre" due:"1283983200" entry:"1284048168" mask:"++-" priority:"M" recur:"weekly" status:"recurring" uuid:"388d417c-9f66-0791-2b05-0c7bc89f08b3"]
+---
+time 1284637853
+new [description:"write 1 page proposal" due:"1284674400" entry:"1284048153" imask:"8" mask:"--------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"6d7cc476-73da-19f9-f81d-fe4155e31517"]
+---
+time 1284637853
+new [description:"call madre" due:"1285192800" entry:"1284048168" imask:"2" mask:"++" parent:"388d417c-9f66-0791-2b05-0c7bc89f08b3" priority:"M" recur:"weekly" status:"pending" uuid:"283eca44-d2ee-be7b-6885-7c6c14f2a09c"]
+---
+time 1284637908
+old [description:"check EU-US patent law" entry:"1284285352" priority:"M" status:"pending" uuid:"6237c972-1a2d-6aaf-d1d6-55df8d239f10"]
+new [description:"check EU-US patent law" entry:"1284285352" priority:"M" start:"1284637908" status:"pending" uuid:"6237c972-1a2d-6aaf-d1d6-55df8d239f10"]
+---
+time 1284643239
+old [description:"call madre" due:"1285192800" entry:"1284048168" imask:"2" mask:"++" parent:"388d417c-9f66-0791-2b05-0c7bc89f08b3" priority:"M" recur:"weekly" status:"pending" uuid:"283eca44-d2ee-be7b-6885-7c6c14f2a09c"]
+new [description:"call madre" due:"1285192800" end:"1284643239" entry:"1284048168" imask:"2" mask:"++" parent:"388d417c-9f66-0791-2b05-0c7bc89f08b3" priority:"M" recur:"weekly" status:"completed" uuid:"283eca44-d2ee-be7b-6885-7c6c14f2a09c"]
+---
+time 1284643239
+old [description:"call madre" due:"1283983200" entry:"1284048168" mask:"++-" priority:"M" recur:"weekly" status:"recurring" uuid:"388d417c-9f66-0791-2b05-0c7bc89f08b3"]
+new [description:"call madre" due:"1283983200" entry:"1284048168" mask:"+++" priority:"M" recur:"weekly" status:"recurring" uuid:"388d417c-9f66-0791-2b05-0c7bc89f08b3"]
+---
+time 1284654245
+new [description:"buy dog food" entry:"1284654245" priority:"M" status:"pending" uuid:"6a04d524-7347-4cf2-7f30-89ea5b8ca6f0"]
+---
+time 1284704558
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"---------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"----------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1284704558
+new [description:"write 1 page proposal" due:"1284760800" entry:"1284048153" imask:"9" mask:"---------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"cd733c59-fa5e-cc9c-4bc2-f922531e9d45"]
+---
+time 1284706021
+new [description:"check Farid recommendations" entry:"1284706021" priority:"M" status:"pending" uuid:"672a3e6f-eda8-f807-2c86-2cd3cc0f472a"]
+---
+time 1284742491
+old [description:"book german course" entry:"1283953727" priority:"M" status:"pending" uuid:"f1d13614-310d-fd88-91cd-9fd24ad96745"]
+new [description:"book german course" end:"1284742491" entry:"1283953727" priority:"M" status:"completed" uuid:"f1d13614-310d-fd88-91cd-9fd24ad96745"]
+---
+time 1284742866
+new [description:"1 page article for retreat," due:"1286661600" entry:"1284742866" priority:"M" status:"pending" uuid:"84271112-97fb-3093-4cab-cde5cf5e6e3e"]
+---
+time 1284800011
+old [description:"decide grant conference register" entry:"1284287169" priority:"M" status:"pending" uuid:"ee0f195e-79de-9eea-8d1e-472df3847845"]
+new [description:"decide grant conference register" end:"1284800011" entry:"1284287169" priority:"M" status:"completed" uuid:"ee0f195e-79de-9eea-8d1e-472df3847845"]
+---
+time 1284800020
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"----------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"-----------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1284800020
+new [description:"write 1 page proposal" due:"1284847200" entry:"1284048153" imask:"10" mask:"----------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"233f155c-cc1f-db9a-9544-ee4948c1a9dd"]
+---
+time 1284886252
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"-----------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"------------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1284886252
+new [description:"write 1 page proposal" due:"1284933600" entry:"1284048153" imask:"11" mask:"-----------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"a8d3d4c5-2bb8-7f70-fd9f-4fbcf878a334"]
+---
+time 1284886269
+new [description:"prepare mifi intro" entry:"1284886269" priority:"M" status:"pending" uuid:"fb3b8424-d326-b8da-23d6-5221af4135e2"]
+---
+time 1284886272
+old [description:"prepare mifi intro" entry:"1284886269" priority:"M" status:"pending" uuid:"fb3b8424-d326-b8da-23d6-5221af4135e2"]
+new [description:"prepare mifi intro" entry:"1284886269" priority:"M" start:"1284886272" status:"pending" uuid:"fb3b8424-d326-b8da-23d6-5221af4135e2"]
+---
+time 1285238191
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"------------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"----------------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1285238191
+old [description:"call madre" due:"1283983200" entry:"1284048168" mask:"+++" priority:"M" recur:"weekly" status:"recurring" uuid:"388d417c-9f66-0791-2b05-0c7bc89f08b3"]
+new [description:"call madre" due:"1283983200" entry:"1284048168" mask:"+++-" priority:"M" recur:"weekly" status:"recurring" uuid:"388d417c-9f66-0791-2b05-0c7bc89f08b3"]
+---
+time 1285238191
+new [description:"write 1 page proposal" due:"1285020000" entry:"1284048153" imask:"12" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"0f753b55-284c-feec-7b0a-844b4eb20d60"]
+---
+time 1285238191
+new [description:"write 1 page proposal" due:"1285106400" entry:"1284048153" imask:"13" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"cd6f8b4b-3872-65fe-0f88-3c37ae9abfa7"]
+---
+time 1285238191
+new [description:"write 1 page proposal" due:"1285192800" entry:"1284048153" imask:"14" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"c064baff-3619-b07b-ff32-b79552f11a8d"]
+---
+time 1285238191
+new [description:"write 1 page proposal" due:"1285279200" entry:"1284048153" imask:"15" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"af26915c-8663-7df6-d298-92ef5d067842"]
+---
+time 1285238191
+new [description:"call madre" due:"1285797600" entry:"1284048168" imask:"3" mask:"+++" parent:"388d417c-9f66-0791-2b05-0c7bc89f08b3" priority:"M" recur:"weekly" status:"pending" uuid:"76817ddf-333a-121e-4a6e-c4d12d895cbd"]
+---
+time 1285238202
+old [description:"call madre" due:"1285797600" entry:"1284048168" imask:"3" mask:"+++" parent:"388d417c-9f66-0791-2b05-0c7bc89f08b3" priority:"M" recur:"weekly" status:"pending" uuid:"76817ddf-333a-121e-4a6e-c4d12d895cbd"]
+new [description:"call madre" due:"1285797600" end:"1285238202" entry:"1284048168" imask:"3" mask:"+++" parent:"388d417c-9f66-0791-2b05-0c7bc89f08b3" priority:"M" recur:"weekly" status:"completed" uuid:"76817ddf-333a-121e-4a6e-c4d12d895cbd"]
+---
+time 1285238202
+old [description:"call madre" due:"1283983200" entry:"1284048168" mask:"+++-" priority:"M" recur:"weekly" status:"recurring" uuid:"388d417c-9f66-0791-2b05-0c7bc89f08b3"]
+new [description:"call madre" due:"1283983200" entry:"1284048168" mask:"++++" priority:"M" recur:"weekly" status:"recurring" uuid:"388d417c-9f66-0791-2b05-0c7bc89f08b3"]
+---
+time 1285238249
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" imask:"0" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"d909b6ab-187a-7023-d222-4b577627b448"]
+new [description:"write 1 page proposal" due:"1283983200" end:"1285238238" entry:"1284048153" imask:"0" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"completed" uuid:"d909b6ab-187a-7023-d222-4b577627b448"]
+---
+time 1285238249
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"----------------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"+---------------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1285238249
+old [description:"write 1 page proposal" due:"1284242400" entry:"1284048153" imask:"3" mask:"--" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"42fd1dac-dfaa-400e-e3c4-5520d4b24459"]
+new [description:"write 1 page proposal" due:"1284242400" end:"1285238249" entry:"1284048153" imask:"3" mask:"--" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"completed" uuid:"42fd1dac-dfaa-400e-e3c4-5520d4b24459"]
+---
+time 1285238249
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"----------------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"+--+------------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1285238249
+old [description:"write 1 page proposal" due:"1284328800" entry:"1284048153" imask:"4" mask:"----" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"7c3692e5-271b-c422-f413-bf0e46952e7a"]
+new [description:"write 1 page proposal" due:"1284328800" end:"1285238249" entry:"1284048153" imask:"4" mask:"----" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"completed" uuid:"7c3692e5-271b-c422-f413-bf0e46952e7a"]
+---
+time 1285238249
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"----------------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"+--++-----------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1285238249
+old [description:"write 1 page proposal" due:"1284674400" entry:"1284048153" imask:"8" mask:"--------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"6d7cc476-73da-19f9-f81d-fe4155e31517"]
+new [description:"write 1 page proposal" due:"1284674400" end:"1285238249" entry:"1284048153" imask:"8" mask:"--------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"completed" uuid:"6d7cc476-73da-19f9-f81d-fe4155e31517"]
+---
+time 1285238249
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"----------------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"+--++---+-------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1285238249
+old [description:"write 1 page proposal" due:"1285279200" entry:"1284048153" imask:"15" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"af26915c-8663-7df6-d298-92ef5d067842"]
+new [description:"write 1 page proposal" due:"1285279200" end:"1285238249" entry:"1284048153" imask:"15" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"completed" uuid:"af26915c-8663-7df6-d298-92ef5d067842"]
+---
+time 1285238249
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"----------------" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"+--++---+------+" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1285238262
+old [description:"write LK application for trento, get flat there" entry:"1284564642" priority:"M" status:"pending" uuid:"61c893c5-af83-0d3a-0638-c9aa669bd463"]
+new [description:"write LK application for trento, get flat there" end:"1285238262" entry:"1284564642" priority:"M" status:"completed" uuid:"61c893c5-af83-0d3a-0638-c9aa669bd463"]
+---
+time 1285238271
+old [description:"prepare mifi intro" entry:"1284886269" priority:"M" start:"1284886272" status:"pending" uuid:"fb3b8424-d326-b8da-23d6-5221af4135e2"]
+new [description:"prepare mifi intro" end:"1285238271" entry:"1284886269" priority:"M" start:"1284886272" status:"completed" uuid:"fb3b8424-d326-b8da-23d6-5221af4135e2"]
+---
+time 1285238277
+old [description:"check EU-US patent law" entry:"1284285352" priority:"M" start:"1284637908" status:"pending" uuid:"6237c972-1a2d-6aaf-d1d6-55df8d239f10"]
+new [description:"check EU-US patent law" end:"1285238277" entry:"1284285352" priority:"M" start:"1284637908" status:"completed" uuid:"6237c972-1a2d-6aaf-d1d6-55df8d239f10"]
+---
+time 1285238330
+new [description:"essay grading state of the art review" entry:"1285238330" priority:"M" status:"pending" uuid:"bab88141-87f4-adea-6d59-656803e8a0e5"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1283983200" entry:"1284048153" mask:"+--++---+------+" priority:"M" recur:"daily" status:"recurring" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+new [description:"write 1 page proposal" due:"1283983200" end:"1285239195" entry:"1284048153" mask:"+--++---+------+" priority:"M" recur:"daily" status:"deleted" uuid:"bd1ad3dd-a31a-ea02-88d1-4e065807046b"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1284069600" entry:"1284048153" imask:"1" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"d528bc3c-4b6c-b9f9-b2bf-d06579c2d1ba"]
+new [description:"write 1 page proposal" due:"1284069600" end:"1285239195" entry:"1284048153" imask:"1" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"d528bc3c-4b6c-b9f9-b2bf-d06579c2d1ba"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1284156000" entry:"1284048153" imask:"2" mask:"--" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"e49c8eed-b04e-d565-ad3d-629db82a5093"]
+new [description:"write 1 page proposal" due:"1284156000" end:"1285239195" entry:"1284048153" imask:"2" mask:"--" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"e49c8eed-b04e-d565-ad3d-629db82a5093"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1284415200" entry:"1284048153" imask:"5" mask:"-----" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"897db151-c56e-e1c6-5c01-313e56bee426"]
+new [description:"write 1 page proposal" due:"1284415200" end:"1285239195" entry:"1284048153" imask:"5" mask:"-----" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"897db151-c56e-e1c6-5c01-313e56bee426"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1284501600" entry:"1284048153" imask:"6" mask:"------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"d2ef976b-0b94-def2-7010-249873a2d23a"]
+new [description:"write 1 page proposal" due:"1284501600" end:"1285239195" entry:"1284048153" imask:"6" mask:"------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"d2ef976b-0b94-def2-7010-249873a2d23a"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1284588000" entry:"1284048153" imask:"7" mask:"-------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"ea83dfb5-fad6-5cb1-ff55-968245add9ac"]
+new [description:"write 1 page proposal" due:"1284588000" end:"1285239195" entry:"1284048153" imask:"7" mask:"-------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"ea83dfb5-fad6-5cb1-ff55-968245add9ac"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1284760800" entry:"1284048153" imask:"9" mask:"---------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"cd733c59-fa5e-cc9c-4bc2-f922531e9d45"]
+new [description:"write 1 page proposal" due:"1284760800" end:"1285239195" entry:"1284048153" imask:"9" mask:"---------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"cd733c59-fa5e-cc9c-4bc2-f922531e9d45"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1284847200" entry:"1284048153" imask:"10" mask:"----------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"233f155c-cc1f-db9a-9544-ee4948c1a9dd"]
+new [description:"write 1 page proposal" due:"1284847200" end:"1285239195" entry:"1284048153" imask:"10" mask:"----------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"233f155c-cc1f-db9a-9544-ee4948c1a9dd"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1284933600" entry:"1284048153" imask:"11" mask:"-----------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"a8d3d4c5-2bb8-7f70-fd9f-4fbcf878a334"]
+new [description:"write 1 page proposal" due:"1284933600" end:"1285239195" entry:"1284048153" imask:"11" mask:"-----------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"a8d3d4c5-2bb8-7f70-fd9f-4fbcf878a334"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1285020000" entry:"1284048153" imask:"12" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"0f753b55-284c-feec-7b0a-844b4eb20d60"]
+new [description:"write 1 page proposal" due:"1285020000" end:"1285239195" entry:"1284048153" imask:"12" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"0f753b55-284c-feec-7b0a-844b4eb20d60"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1285106400" entry:"1284048153" imask:"13" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"cd6f8b4b-3872-65fe-0f88-3c37ae9abfa7"]
+new [description:"write 1 page proposal" due:"1285106400" end:"1285239195" entry:"1284048153" imask:"13" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"cd6f8b4b-3872-65fe-0f88-3c37ae9abfa7"]
+---
+time 1285239201
+old [description:"write 1 page proposal" due:"1285192800" entry:"1284048153" imask:"14" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"pending" uuid:"c064baff-3619-b07b-ff32-b79552f11a8d"]
+new [description:"write 1 page proposal" due:"1285192800" end:"1285239195" entry:"1284048153" imask:"14" mask:"------------" parent:"bd1ad3dd-a31a-ea02-88d1-4e065807046b" priority:"M" recur:"daily" status:"deleted" uuid:"c064baff-3619-b07b-ff32-b79552f11a8d"]
+---
+time 1285239224
+old [description:"1 page article for retreat," due:"1286661600" entry:"1284742866" priority:"M" status:"pending" uuid:"84271112-97fb-3093-4cab-cde5cf5e6e3e"]
+new [description:"1 page article for retreat," due:"1286661600" end:"1285239218" entry:"1284742866" priority:"M" status:"deleted" uuid:"84271112-97fb-3093-4cab-cde5cf5e6e3e"]
+---
+time 1285240356
+new [description:"matthias stiff" entry:"1285240356" priority:"M" status:"pending" uuid:"d04dfe86-fca5-5388-1872-77239ce097c6"]
+---
+time 1285240366
+old [description:"matthias stiff" entry:"1285240356" priority:"M" status:"pending" uuid:"d04dfe86-fca5-5388-1872-77239ce097c6"]
+new [description:"matthias stiff" end:"1285240364" entry:"1285240356" priority:"M" status:"deleted" uuid:"d04dfe86-fca5-5388-1872-77239ce097c6"]
+---
+time 1285240375
+new [description:"matthias JWS paper" entry:"1285240375" priority:"M" status:"pending" uuid:"2c9e724e-b4b7-a12e-89ba-d7797f0f33c5"]
+---
+time 1285240378
+old [description:"matthias JWS paper" entry:"1285240375" priority:"M" status:"pending" uuid:"2c9e724e-b4b7-a12e-89ba-d7797f0f33c5"]
+new [description:"matthias JWS paper" entry:"1285240375" priority:"M" start:"1285240378" status:"pending" uuid:"2c9e724e-b4b7-a12e-89ba-d7797f0f33c5"]
+---
+time 1285484830
+old [description:"essay grading state of the art review" entry:"1285238330" priority:"M" status:"pending" uuid:"bab88141-87f4-adea-6d59-656803e8a0e5"]
+new [description:"essay grading state of the art review" entry:"1285238330" priority:"M" start:"1285484830" status:"pending" uuid:"bab88141-87f4-adea-6d59-656803e8a0e5"]
+---
+time 1285484835
+old [description:"matthias JWS paper" entry:"1285240375" priority:"M" start:"1285240378" status:"pending" uuid:"2c9e724e-b4b7-a12e-89ba-d7797f0f33c5"]
+new [description:"matthias JWS paper" entry:"1285240375" priority:"M" status:"pending" uuid:"2c9e724e-b4b7-a12e-89ba-d7797f0f33c5"]
+---
+time 1285484841
+old [description:"create matrix of cosines, with threshold" entry:"1284398439" priority:"M" project:"esa" start:"1284399548" status:"pending" uuid:"5da26ea0-a020-dcda-1134-ac16888463bb"]
+new [description:"create matrix of cosines, with threshold" entry:"1284398439" priority:"M" project:"esa" status:"pending" uuid:"5da26ea0-a020-dcda-1134-ac16888463bb"]
+---
+time 1285485221
+new [description:"incorporate in delaware when in the US" due:"1293836400" entry:"1285485221" priority:"M" status:"pending" uuid:"67ff4c0e-ee03-a037-7e84-809ebbaf5e1b"]
+---
+time 1285485236
+old [description:"alex intro" entry:"1284399092" priority:"M" status:"pending" uuid:"00535d61-15c6-b4dc-3ab8-ca728aa36336"]
+new [description:"alex intro" end:"1285485236" entry:"1284399092" priority:"M" status:"completed" uuid:"00535d61-15c6-b4dc-3ab8-ca728aa36336"]
+---

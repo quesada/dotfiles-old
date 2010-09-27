@@ -173,3 +173,8 @@
 2010-08-25 23:57:20		Options reloaded from xfer.conf
 2010-08-25 23:57:20		Options reloaded from irc.conf
 2010-09-06 10:09:38		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-09-26 10:01:32		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-09-26 10:01:46		irc: server gnome created (temporary server, NOT SAVED!)
+2010-09-26 10:07:17		irc: server irc.gnome.org created (temporary server, NOT SAVED!)
+2010-09-26 10:08:39	=!=	irc: already connected to server "irc.gnome.org"!
+2010-09-26 10:08:39	=!=	Error with command "connect" (try /help connect)

@@ -1,0 +1,60 @@
+2010-09-26 10:07:17		irc: connecting to server irc.gnome.org/6667...
+2010-09-26 10:07:17		irc: connected to irc.gnome.org (130.239.18.157)
+2010-09-26 10:07:17	--	*** Looking up your hostname...
+2010-09-26 10:07:18	--	*** Checking Ident
+2010-09-26 10:07:18	--	*** Found your hostname
+2010-09-26 10:08:04	--	*** No Ident response
+2010-09-26 10:08:05	--	Welcome to the Internet Relay Network quesada
+2010-09-26 10:08:05	--	Your host is irc.acc.umu.se[130.239.18.157/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-26 10:08:05	--	*** Your host is irc.acc.umu.se[130.239.18.157/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-26 10:08:05	--	This server was created Mon Dec 29 2008 at 19:06:24 MET
+2010-09-26 10:08:05	--	irc.acc.umu.se 2.8/gimpnet-0.1beta3 oOiwszcrkfydnxb biklmnopstve
+2010-09-26 10:08:05	--	WALLCHOPS PREFIX=(ov)@+ CHANTYPES=#& MAXCHANNELS=20 MAXBANS=50 NICKLEN=39 TOPICLEN=500 KICKLEN=90 NETWORK=GIMPNet CHANMODES=be,k,l,imnpst EXCEPTS MODES=4 :are supported by this server
+2010-09-26 10:08:05	--	There are 28 users and 1741 invisible on 6 servers
+2010-09-26 10:08:05	--	9 :IRC Operators online
+2010-09-26 10:08:05	--	408 :channels formed
+2010-09-26 10:08:05	--	I have 901 clients and 2 servers
+2010-09-26 10:08:05	--	Current local  users: 901  Max: 1404
+2010-09-26 10:08:05	--	Current global users: 1769  Max: 2320
+2010-09-26 10:08:05	--	Highest connection count: 1406 (1404 clients) (280252 since server was (re)started)
+2010-09-26 10:08:05	--	- irc.acc.umu.se Message of the Day -
+2010-09-26 10:08:05	--	- Bork! Bork! Bork!
+2010-09-26 10:08:05	--	-
+2010-09-26 10:08:05	--	- Don't irc as root!
+2010-09-26 10:08:05	--	-
+2010-09-26 10:08:05	--	- Listens on 6666, 6667, 7000, 7777.
+2010-09-26 10:08:05	--	End of /MOTD command.
+2010-09-26 10:08:05	--	User mode [+i] by quesada
+2010-09-27 04:31:04	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2010-09-27 04:31:04		irc: disconnecting from server...
+2010-09-27 04:31:04		irc: disconnected from server
+2010-09-27 04:31:04		irc: reconnecting to server in 30 seconds
+2010-09-27 04:31:34		irc: reconnecting to server...
+2010-09-27 04:31:34		irc: connecting to server irc.gnome.org/6667...
+2010-09-27 04:31:34		irc: connected to irc.gnome.org (130.239.18.157)
+2010-09-27 04:31:34	--	*** Looking up your hostname...
+2010-09-27 04:31:34	--	*** Checking Ident
+2010-09-27 04:31:35	--	*** Found your hostname
+2010-09-27 04:32:23	--	*** No Ident response
+2010-09-27 04:32:23		irc: nickname "quesada" is already in use, trying nickname #2 ("quesada1")
+2010-09-27 04:32:24	--	Welcome to the Internet Relay Network quesada1
+2010-09-27 04:32:24	--	Your host is irc.acc.umu.se[130.239.18.157/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-27 04:32:24	--	*** Your host is irc.acc.umu.se[130.239.18.157/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-27 04:32:24	--	This server was created Mon Dec 29 2008 at 19:06:24 MET
+2010-09-27 04:32:24	--	irc.acc.umu.se 2.8/gimpnet-0.1beta3 oOiwszcrkfydnxb biklmnopstve
+2010-09-27 04:32:24	--	WALLCHOPS PREFIX=(ov)@+ CHANTYPES=#& MAXCHANNELS=20 MAXBANS=50 NICKLEN=39 TOPICLEN=500 KICKLEN=90 NETWORK=GIMPNet CHANMODES=be,k,l,imnpst EXCEPTS MODES=4 :are supported by this server
+2010-09-27 04:32:24	--	There are 27 users and 1751 invisible on 6 servers
+2010-09-27 04:32:24	--	8 :IRC Operators online
+2010-09-27 04:32:24	--	408 :channels formed
+2010-09-27 04:32:24	--	I have 909 clients and 2 servers
+2010-09-27 04:32:24	--	Current local  users: 909  Max: 1404
+2010-09-27 04:32:24	--	Current global users: 1778  Max: 2320
+2010-09-27 04:32:24	--	Highest connection count: 1406 (1404 clients) (280856 since server was (re)started)
+2010-09-27 04:32:24	--	- irc.acc.umu.se Message of the Day -
+2010-09-27 04:32:24	--	- Bork! Bork! Bork!
+2010-09-27 04:32:24	--	-
+2010-09-27 04:32:24	--	- Don't irc as root!
+2010-09-27 04:32:24	--	-
+2010-09-27 04:32:24	--	- Listens on 6666, 6667, 7000, 7777.
+2010-09-27 04:32:24	--	End of /MOTD command.
+2010-09-27 04:32:24	--	User mode [+i] by quesada1

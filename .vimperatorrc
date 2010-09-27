@@ -1,7 +1,22 @@
 noremap <C-c> <C-v><C-c>
 noremap <C-v> <C-v><C-v>
 map <C-n> :winopen<Enter>
+map <C-m> :js Zotero_Browser.scrapeThisPage(".")<CR>
 
 set showstatuslinks=2
 hi StatusLine grey
+
+" The following code snippet moves Zotero's there-is-something-scrapable-here
+" icon from the address bar to Vimperator's status bar (blatantly stolen from
+" Vimperator's RSS icon example), so you know when to press the above shortcut
+javascript <<EOF
+(function(){
+    var zoteroPanel = document.createElement("statusbarpanel");
+    zoteroPanel.setAttribute("id", "zotero-panel-clone");
+    zoteroPanel.appendChild(document.getElementById("zotero-status-image"));
+    zoteroPanel.firstChild.setAttribute("style", "padding: 0; max-height: 16px;");
+    document.getElementById("status-bar")
+            .insertBefore(zoteroPanel, document.getElementById("security-button"));
+})();
+EOF
 

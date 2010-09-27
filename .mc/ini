@@ -95,9 +95,11 @@ skin=darkfar
 
 filepos_max_saved_entries=1024
 
+ignore_ftp_chattr_errors=true
+
 [Layout]
 equal_split=1
-first_panel_size=48
+first_panel_size=43
 message_visible=1
 keybar_visible=0
 xterm_title=1

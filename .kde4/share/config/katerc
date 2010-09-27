@@ -59,6 +59,10 @@ Tab Width=4
 Word Wrap=false
 Word Wrap Column=80
 
+[Kate Part Defaults]
+Encoding Prober Type=1
+Fallback Encoding=ISO-8859-15
+
 [Kate Plugins]
 kate_kttsd=false
 katebacktracebrowserplugin=false
@@ -101,6 +105,7 @@ Dynamic Word Wrap Indicators=1
 Folding Bar=false
 Icon Bar=false
 Line Numbers=false
+Maximum Search History Size=100
 Persistent Selection=false
 Replacement Text History=from esa.,gvim,\\\\t,firefox,localfreq,corpusmat,//
 Scroll Bar Marks=true
@@ -119,12 +124,12 @@ AutoSyncronize=false
 SetEditor=true
 
 [MainWindow]
-Height 1152=1153
+Height 1152=279
 Height 1200=1201
-State=AAAA/wAAAAD9AAAAAAAABOgAAARRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAxAAAAD6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1921
-Width 2048=2049
+Width 2048=784
 
 [Notification Messages]
 OnSave-WrongPythonEncodingHeader=true

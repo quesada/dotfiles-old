@@ -1,4 +1,6 @@
 [Kate Part Plugins]
+kdeviconinserter=false
 ktexteditorautobrace=false
+ktexteditorinsanehtml_le=false
 ktexteditorinsertfile=false
 ktexteditorkdatatool=false

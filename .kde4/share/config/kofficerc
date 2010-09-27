@@ -1,8 +1,8 @@
 [Autocorrect]
-AdvancedAutocorrect=false
+AdvancedAutocorrect=true
 AutoBoldUnderline=false
 AutoFormatBulletList=false
-AutoFormatURLs=false
+AutoFormatURLs=true
 AutoFractions=true
 AutoNumbering=false
 CapitalizeWeekDays=false
