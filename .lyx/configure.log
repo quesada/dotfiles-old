@@ -1,9 +1,3 @@
-DEBUG: Create directory clipart.
-DEBUG: Create directory doc.
-DEBUG: Create directory examples.
-DEBUG: Create directory images.
-DEBUG: Create directory kbd.
-DEBUG: Create directory scripts.
 INFO: checking for a Latex2e program...
 INFO: +checking for "latex"...  yes
 INFO: checking for a DVI postprocessing program...

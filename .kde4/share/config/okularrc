@@ -14,7 +14,7 @@ AutomaticDetectionLanguage=1
 Height 1152=750
 Height 1200=750
 Height 900=570
-Recent Files[$e]=$HOME/noteslyx/wcogs/Foltz-LSA-essays-patent.pdf,$HOME/noteslyx/wcogs/Foltz-LSA-essays-patent.pdf
+Recent Files[$e]=$HOME/pdf/contexts-websci10_submission_113.pdf,$HOME/pdf/GigerenzerGoldstein1995-FastFrugalPsychReview.pdf
 Width 1600=912
 Width 1920=1200
 Width 2048=1200
@@ -25,7 +25,7 @@ Height 1200=1201
 Height 768=769
 Height 900=878
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAxAAAADyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAqUAAADHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1024=1025
 Width 1600=1596
@@ -36,14 +36,26 @@ Width 2048=2049
 presentationInfo=false
 
 [Recent Dirs]
-okular[$e]=file://$HOME/noteslyx/wcogs/,file://$HOME/pdf/,file://$HOME/Dropbox/pdf/
+okular[$e]=file://$HOME/pdf/,file://$HOME/noteslyx/wcogs/,file://$HOME/Dropbox/pdf/
 
 [Recent Files]
 File1[$e]=zip:/home/quesada/down/year2Review.zip/year2Review.pdf
+File10[$e]=$HOME/pdf/GoldsteinGigerenzer2002RecognitionHeuristic.pdf
 File2[$e]=$HOME/down/FIS_2010MLama.pdf
-File3[$e]=$HOME/down/mifi2010_submission_1.pdf
+File3[$e]=$HOME/down/US6356864B1.pdf
 File4[$e]=$HOME/down/paper.pdf
+File5[$e]=$HOME/essayGrading/airheadVersuswiddows.pdf
+File6[$e]=$HOME/essayGrading/procediacs_authorguide_word.pdf
+File7[$e]=/tmp/websci10_submission_113.pdf
+File8[$e]=/tmp/sdarticle.pdf
+File9[$e]=/tmp/10.1.1.119.7974.pdf
 Name1[$e]=year2Review.pdf
+Name10[$e]=GoldsteinGigerenzer2002RecognitionHeuristic.pdf
 Name2[$e]=FIS_2010MLama.pdf
-Name3[$e]=mifi2010_submission_1.pdf
+Name3[$e]=US6356864B1.pdf
 Name4[$e]=paper.pdf
+Name5[$e]=airheadVersuswiddows.pdf
+Name6[$e]=procediacs_authorguide_word.pdf
+Name7[$e]=websci10_submission_113.pdf
+Name8[$e]=sdarticle.pdf
+Name9[$e]=10.1.1.119.7974.pdf

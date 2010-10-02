@@ -811,3 +811,55 @@ time 1285485236
 old [description:"alex intro" entry:"1284399092" priority:"M" status:"pending" uuid:"00535d61-15c6-b4dc-3ab8-ca728aa36336"]
 new [description:"alex intro" end:"1285485236" entry:"1284399092" priority:"M" status:"completed" uuid:"00535d61-15c6-b4dc-3ab8-ca728aa36336"]
 ---
+time 1285735541
+new [description:"feature generation lit review, ask ozgur" entry:"1285735541" priority:"M" status:"pending" uuid:"dfd66e4c-c93e-8564-9076-1d2a55936af3"]
+---
+time 1285885048
+new [description:"mail studio 70 guy" entry:"1285885048" priority:"M" status:"pending" uuid:"ba48e5be-1709-2eee-1abb-dcf2e8b11ddc"]
+---
+time 1285885064
+new [description:"mail laura" entry:"1285885064" priority:"M" status:"pending" uuid:"3f8aad6d-dacb-3c85-2158-e68f0efb6db9"]
+---
+time 1285915263
+new [description:"search for startup community in china. use linkedin, hn" entry:"1285915263" priority:"M" status:"pending" uuid:"a0ef2b68-69b1-379b-aa26-85f097c573d2"]
+---
+time 1285930178
+new [description:"goto betapitch betahaus" due:"1265756400" entry:"1285930178" priority:"M" status:"pending" uuid:"e0a8d564-9fd6-2815-33fc-20d38b828886"]
+---
+time 1285930180
+old [description:"call madre" due:"1283983200" entry:"1284048168" mask:"++++" priority:"M" recur:"weekly" status:"recurring" uuid:"388d417c-9f66-0791-2b05-0c7bc89f08b3"]
+new [description:"call madre" due:"1283983200" entry:"1284048168" mask:"++++-" priority:"M" recur:"weekly" status:"recurring" uuid:"388d417c-9f66-0791-2b05-0c7bc89f08b3"]
+---
+time 1285930180
+new [description:"call madre" due:"1286402400" entry:"1284048168" imask:"4" mask:"++++" parent:"388d417c-9f66-0791-2b05-0c7bc89f08b3" priority:"M" recur:"weekly" status:"pending" uuid:"1003e1be-bd4a-f028-697c-d88185dc03b1"]
+---
+time 1285930196
+old [description:"goto betapitch betahaus" due:"1265756400" entry:"1285930178" priority:"M" status:"pending" uuid:"e0a8d564-9fd6-2815-33fc-20d38b828886"]
+new [description:"goto betapitch betahaus" due:"1285970400" entry:"1285930178" priority:"M" status:"pending" uuid:"e0a8d564-9fd6-2815-33fc-20d38b828886"]
+---
+time 1285930935
+new [description:"send flyers to python list" entry:"1285930935" priority:"M" status:"pending" uuid:"85c80e1f-4ead-1e1f-0701-ba2a8b21660e"]
+---
+time 1285932831
+new [description:"change resume, fix mispelling" entry:"1285932831" priority:"M" status:"pending" uuid:"f2973f97-9592-a921-2c94-82c2733c64d5"]
+---
+time 1285932975
+new [description:"write + translate go instructions" entry:"1285932975" priority:"M" status:"pending" uuid:"d9947df9-a4df-0398-e677-84e06f19d05a"]
+---
+time 1285944563
+new [description:"buy china trip" entry:"1285944563" priority:"M" status:"pending" uuid:"2add86bf-696a-ce46-105a-717d241031e5"]
+---
+time 1285944573
+new [description:"do founders institute exam" entry:"1285944573" priority:"M" status:"pending" uuid:"24ddc436-2b2c-bf69-3369-101f10564276"]
+---
+time 1285944919
+old [description:"TOC for AI paper" entry:"1284399469" priority:"M" status:"pending" uuid:"1e6ae92d-7cd5-74f2-c178-24e4260f19e2"]
+new [description:"TOC for AI paper" end:"1285944919" entry:"1284399469" priority:"M" status:"completed" uuid:"1e6ae92d-7cd5-74f2-c178-24e4260f19e2"]
+---
+time 1285944937
+old [description:"matthias JWS paper" entry:"1285240375" priority:"M" status:"pending" uuid:"2c9e724e-b4b7-a12e-89ba-d7797f0f33c5"]
+new [description:"matthias JWS paper" end:"1285944937" entry:"1285240375" priority:"M" status:"completed" uuid:"2c9e724e-b4b7-a12e-89ba-d7797f0f33c5"]
+---
+time 1285944947
+new [description:"prepare suitcase trento" entry:"1285944947" priority:"M" status:"pending" uuid:"d28c6b8e-24ba-721f-22a9-73a8c42da837"]
+---

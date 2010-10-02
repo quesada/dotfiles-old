@@ -82,6 +82,9 @@ function eu; equo update & equo install equo entropy --relaxed; end;
 function ei; equo install $argv; end;
 function es; equo search $argv; end;
 
+function wcogs; ssh -p 8022 jose@workingcogs.com; end;
+
+
 function pb; ssh quesada@192.168.1.20; end;
 function mpi;	ssh 141.14.157.1; end;
 function hiwi16; ssh 172.22.0.104; end;

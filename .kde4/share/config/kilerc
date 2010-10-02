@@ -41,6 +41,14 @@ Indentation Mode=none
 Mode=LaTeX
 ReadWrite=true
 
+[Document-Settings,URL=file:///home/quesada/paper-jq.tex]
+Bookmarks=
+Encoding=ISO-8859-15
+Highlighting=LaTeX
+Indentation Mode=none
+Mode=LaTeX
+ReadWrite=true
+
 [FileBrowserWidget]
 Decoration position=0
 Previews=false
@@ -52,32 +60,26 @@ View Style=Simple
 
 [Files]
 AutosaveInterval=1
-LastDocument[$e]=$HOME/doc/JWS-parallel/JWS-parallel.tex
 lastDir[$e]=$HOME/
 
 [FilesOpenOnStart]
-DocsOpenOnStart0[$e]=$HOME/larkc/WP2/d2.3.2latex/ALL-larkc232.tex
-DocsOpenOnStart1[$e]=$HOME/doc/JWS-parallel/JWS-parallel.tex
-DocsOpenOnStart2[$e]=$HOME/larkc/WP2/d2.3.2latex/motivation.tex
-DocsOpenOnStart3[$e]=$HOME/larkc/WP2/d2.3.2latex/Statistical-Semantics.tex
-DocsOpenOnStart4[$e]=$HOME/larkc/WP2/d2.3.2latex/Random-Indexing.tex
-NoDOOS=5
+NoDOOS=0
 NoPOOS=0
 
 [Geometries]
-MainwindowHeight=563
-MainwindowWidth=1091
-horizontalSplitterLeft=292
-horizontalSplitterRight=793
-verticalSplitterBottom=121
-verticalSplitterTop=344
+MainwindowHeight=1130
+MainwindowWidth=1256
+horizontalSplitterLeft=336
+horizontalSplitterRight=914
+verticalSplitterBottom=269
+verticalSplitterTop=763
 
 [IncludeGraphics]
 imagemagick=true
 
 [KFileDialog Settings]
 Height 1152=576
-Recent Files[$e]=$HOME/doc/JWS-parallel/JWS-parallel.tex,$HOME/doc/JWS-parallel/JWS-parallel.tex
+Recent Files[$e]=$HOME/doc/JWS-parallel/JWS-parallel.tex,$HOME/paper-jq.tex
 Width 2048=1024
 
 [Kate Document Defaults]
@@ -144,14 +146,14 @@ Height 1152=801
 Width 2048=1051
 
 [KileMainWindow]
-Height 1152=563
-State=AAAA/wAAAAD9AAAAAAAABEMAAAHXAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAD3/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+Height 1152=1130
+State=AAAA/wAAAAD9AAAAAAAABOgAAAQOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAD3/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-Width 2048=1091
+Width 2048=1256
 
 [MainWindow]
-Height 1152=374
-State=AAAA/wAAAAD9AAAAAAAAAxAAAAEaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAQAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGAB0AG8AbwBsAHMAVABvAG8AbABCAGEAcgEAAAD3/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAbQBhAHQAaABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+Height 1152=453
+State=AAAA/wAAAAD9AAAAAAAAAxAAAAEaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAA=
 ToolBarsMovable=Disabled
 Width 2048=784
 
@@ -177,20 +179,27 @@ File2[$e]=$HOME/doc/JWS-parallel/JWS-parallel.tex
 File3[$e]=$HOME/larkc/WP2/d2.3.2latex/motivation.tex
 File4[$e]=$HOME/larkc/WP2/d2.3.2latex/Statistical-Semantics.tex
 File5[$e]=$HOME/larkc/WP2/d2.3.2latex/Random-Indexing.tex
+File6[$e]=$HOME/paper.tex
+File7[$e]=$HOME/paper-jq.tex
 Name1[$e]=ALL-larkc232.tex
 Name2[$e]=JWS-parallel.tex
 Name3[$e]=motivation.tex
 Name4[$e]=Statistical-Semantics.tex
 Name5[$e]=Random-Indexing.tex
+Name6[$e]=paper.tex
+Name7[$e]=paper-jq.tex
 
 [Session Settings]
-Documents=file:///home/quesada/larkc/WP2/d2.3.2latex/Random-Indexing.tex
-Saved Documents=file:///home/quesada/larkc/WP2/d2.3.2latex/Random-Indexing.tex,file:///home/quesada/larkc/WP2/d2.3.2latex/Statistical-Semantics.tex,file:///home/quesada/larkc/WP2/d2.3.2latex/motivation.tex,file:///home/quesada/doc/JWS-parallel/JWS-parallel.tex,file:///home/quesada/larkc/WP2/d2.3.2latex/ALL-larkc232.tex
+Documents=file:///home/quesada/paper-jq.tex
+Saved Documents=file:///home/quesada/paper-jq.tex,file:///home/quesada/larkc/WP2/d2.3.2latex/Random-Indexing.tex,file:///home/quesada/larkc/WP2/d2.3.2latex/Statistical-Semantics.tex,file:///home/quesada/larkc/WP2/d2.3.2latex/motivation.tex,file:///home/quesada/doc/JWS-parallel/JWS-parallel.tex,file:///home/quesada/larkc/WP2/d2.3.2latex/ALL-larkc232.tex
 
 [Show]
-BottomBarSize=94
+BottomBarSize=242
 SelectedLeftView=2
-SideBarSize=263
+SideBarSize=307
+
+[TipOfDay]
+RunOnStart=false
 
 [Tool/Archive/Tar]
 class=Archive
@@ -1075,6 +1084,10 @@ CursorLine=37
 [View-Settings,View=0,URL=file:///home/quesada/larkc/WP2/d2.3.2latex/motivation.tex]
 CursorColumn=0
 CursorLine=111
+
+[View-Settings,View=0,URL=file:///home/quesada/paper-jq.tex]
+CursorColumn=338
+CursorLine=759
 
 [default]
 NewFileWizardSelectedIconLaTeX=Article

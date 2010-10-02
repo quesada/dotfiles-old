@@ -33,7 +33,7 @@
 "doublecol-new" "doublecol-new" "article (Inderscience A4 journals)" "false" "doublecol-new.cls,epsf.sty,lastpage.sty"
 "dtk" "dtk" "article (Die TeXnische Komoedie)" "false" "dtk.cls,dtklogos.sty,filecontents.sty"
 "egs" "egs" "article (European Geophysical Society)" "false" "egs.cls"
-"elsarticle" "elsarticle" "article (Elsevier)" "false" "elsarticle.cls"
+"elsarticle" "elsarticle" "article (Elsevier)" "true" ""
 "elsart" "elsart" "article (Elsevier, obsolete version)" "false" "elsart.cls"
 "entcs" "entcs" "article (ENTCS)" "false" "entcs.cls,entcsmacro.sty"
 "europecv" "europecv" "curriculum vitae (Europe)" "false" "europecv.cls,ucs.sty"

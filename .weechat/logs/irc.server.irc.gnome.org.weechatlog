@@ -58,3 +58,351 @@
 2010-09-27 04:32:24	--	- Listens on 6666, 6667, 7000, 7777.
 2010-09-27 04:32:24	--	End of /MOTD command.
 2010-09-27 04:32:24	--	User mode [+i] by quesada1
+2010-09-27 21:49:58	--	Link:: quesada1[~quesada@85.178.197.97] (Ping timeout: 600 seconds)
+2010-09-27 21:49:58	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2010-09-27 21:49:58		irc: disconnecting from server...
+2010-09-27 21:49:58		irc: disconnected from server
+2010-09-27 21:49:58		irc: reconnecting to server in 30 seconds
+2010-09-27 21:50:28		irc: reconnecting to server...
+2010-09-27 21:50:28		irc: connecting to server irc.gnome.org/6667...
+2010-09-27 21:50:37		irc: connected to irc.gnome.org (92.33.0.168)
+2010-09-27 21:50:39	--	*** Looking up your hostname...
+2010-09-27 21:50:39	--	*** Checking Ident
+2010-09-27 21:50:39	--	*** Found your hostname
+2010-09-27 21:51:37	=!=	irc: connection timeout (message 001 not received)
+2010-09-27 21:51:37		irc: disconnected from server
+2010-09-27 21:51:37		irc: reconnecting to server in 1 minute
+2010-09-27 21:52:37		irc: reconnecting to server...
+2010-09-27 21:52:37		irc: connecting to server irc.gnome.org/6667...
+2010-09-27 21:52:40		irc: connected to irc.gnome.org (92.33.0.168)
+2010-09-27 21:52:40	--	*** Looking up your hostname...
+2010-09-27 21:52:40	--	*** Checking Ident
+2010-09-27 21:52:41	--	*** Found your hostname
+2010-09-27 21:53:17	--	*** No Ident response
+2010-09-27 21:53:17	--	Welcome to the Internet Relay Network quesada1
+2010-09-27 21:53:17	--	Your host is irc.eagle.y.se[92.33.0.168/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-27 21:53:17	--	*** Your host is irc.eagle.y.se[92.33.0.168/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-27 21:53:17	--	This server was created Wed Jan 10 2007 at 09:38:13 CET
+2010-09-27 21:53:17	--	irc.eagle.y.se 2.8/gimpnet-0.1beta3 oOiwszcrkfydnxb biklmnopstve
+2010-09-27 21:53:17	--	WALLCHOPS PREFIX=(ov)@+ CHANTYPES=#& MAXCHANNELS=20 MAXBANS=50 NICKLEN=39 TOPICLEN=500 KICKLEN=90 NETWORK=GIMPNet CHANMODES=be,k,l,imnpst EXCEPTS MODES=4 :are supported by this server
+2010-09-27 21:53:17	--	There are 29 users and 2071 invisible on 6 servers
+2010-09-27 21:53:17	--	9 :IRC Operators online
+2010-09-27 21:53:17	--	424 :channels formed
+2010-09-27 21:53:17	--	I have 594 clients and 2 servers
+2010-09-27 21:53:17	--	Current local  users: 594  Max: 794
+2010-09-27 21:53:17	--	Current global users: 2100  Max: 2320
+2010-09-27 21:53:17	--	Highest connection count: 795 (794 clients) (131981 since server was (re)started)
+2010-09-27 21:53:17	--	- irc.eagle.y.se Message of the Day -
+2010-09-27 21:53:17	--	- Welcome to irc.eagle.y.se / irc.netbsd.se
+2010-09-27 21:53:17	--	-
+2010-09-27 21:53:17	--	- ==( Server Information )==========================================
+2010-09-27 21:53:17	--	-
+2010-09-27 21:53:17	--	- This server is running at Eagle Computing.
+2010-09-27 21:53:17	--	- http://www.eagle.y.se/
+2010-09-27 21:53:17	--	-
+2010-09-27 21:53:17	--	- Your local admins: mathew, vho
+2010-09-27 21:53:17	--	-
+2010-09-27 21:53:17	--	- ==( Rules )=======================================================
+2010-09-27 21:53:17	--	-
+2010-09-27 21:53:17	--	-  This server may not be used for:
+2010-09-27 21:53:17	--	-  * Flooding (including flood/clonebots).
+2010-09-27 21:53:17	--	-  * Attempts to takeover existing channels or network services.
+2010-09-27 21:53:17	--	-  * Spamming and/or advertising.
+2010-09-27 21:53:17	--	-  * Hacking (including Virus/Trojan distribution).
+2010-09-27 21:53:17	--	-
+2010-09-27 21:53:17	--	-  Continued use of this server indicates acceptance of these
+2010-09-27 21:53:17	--	-  conditions.
+2010-09-27 21:53:17	--	-
+2010-09-27 21:53:17	--	End of /MOTD command.
+2010-09-27 21:53:17	--	User mode [+i] by quesada1
+2010-09-27 22:32:53	--	Link:: quesada1[~quesada@85.178.197.97] (Ping timeout: 600 seconds)
+2010-09-27 22:32:53	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2010-09-27 22:32:53		irc: disconnecting from server...
+2010-09-27 22:32:53		irc: disconnected from server
+2010-09-27 22:32:53		irc: reconnecting to server in 30 seconds
+2010-09-27 22:33:23		irc: reconnecting to server...
+2010-09-27 22:33:23		irc: connecting to server irc.gnome.org/6667...
+2010-09-27 22:33:43	=!=	irc: address "irc.gnome.org" not found
+2010-09-27 22:33:43		irc: reconnecting to server in 1 minute
+2010-09-27 22:34:43		irc: reconnecting to server...
+2010-09-27 22:34:43		irc: connecting to server irc.gnome.org/6667...
+2010-09-27 22:35:03	=!=	irc: address "irc.gnome.org" not found
+2010-09-27 22:35:03		irc: reconnecting to server in 2 minutes
+2010-09-27 22:37:03		irc: reconnecting to server...
+2010-09-27 22:37:03		irc: connecting to server irc.gnome.org/6667...
+2010-09-27 22:37:23	=!=	irc: address "irc.gnome.org" not found
+2010-09-27 22:37:23		irc: reconnecting to server in 4 minutes
+2010-09-27 22:41:23		irc: reconnecting to server...
+2010-09-27 22:41:23		irc: connecting to server irc.gnome.org/6667...
+2010-09-27 22:42:08		irc: connected to irc.gnome.org (192.219.30.200)
+2010-09-27 22:42:08	--	*** Looking up your hostname...
+2010-09-27 22:42:08	--	*** Checking Ident
+2010-09-27 22:42:09	--	*** Found your hostname
+2010-09-27 22:42:39	--	*** No Ident response
+2010-09-27 22:42:39	--	Welcome to the Internet Relay Network quesada1
+2010-09-27 22:42:39	--	Your host is irc.acc.umu.se[130.239.18.157/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-27 22:42:39	--	*** Your host is irc.acc.umu.se[130.239.18.157/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-27 22:42:39	--	This server was created Mon Dec 29 2008 at 19:06:24 MET
+2010-09-27 22:42:39	--	irc.acc.umu.se 2.8/gimpnet-0.1beta3 oOiwszcrkfydnxb biklmnopstve
+2010-09-27 22:42:39	--	WALLCHOPS PREFIX=(ov)@+ CHANTYPES=#& MAXCHANNELS=20 MAXBANS=50 NICKLEN=39 TOPICLEN=500 KICKLEN=90 NETWORK=GIMPNet CHANMODES=be,k,l,imnpst EXCEPTS MODES=4 :are supported by this server
+2010-09-27 22:42:39	--	There are 27 users and 2046 invisible on 6 servers
+2010-09-27 22:42:39	--	9 :IRC Operators online
+2010-09-27 22:42:39	--	425 :channels formed
+2010-09-27 22:42:39	--	I have 1001 clients and 2 servers
+2010-09-27 22:42:39	--	Current local  users: 1001  Max: 1404
+2010-09-27 22:42:39	--	Current global users: 2073  Max: 2320
+2010-09-27 22:42:39	--	Highest connection count: 1406 (1404 clients) (281648 since server was (re)started)
+2010-09-27 22:42:39	--	- irc.acc.umu.se Message of the Day -
+2010-09-27 22:42:39	--	- Bork! Bork! Bork!
+2010-09-27 22:42:39	--	-
+2010-09-27 22:42:39	--	- Don't irc as root!
+2010-09-27 22:42:39	--	-
+2010-09-27 22:42:39	--	- Listens on 6666, 6667, 7000, 7777.
+2010-09-27 22:42:39	--	End of /MOTD command.
+2010-09-27 22:42:39	--	User mode [+i] by quesada1
+2010-09-28 01:04:27	=!=	irc: reading data on socket: error 110 Connection timed out
+2010-09-28 01:04:27		irc: disconnecting from server...
+2010-09-28 01:04:27		irc: disconnected from server
+2010-09-28 01:04:27		irc: reconnecting to server in 30 seconds
+2010-09-28 01:04:57		irc: reconnecting to server...
+2010-09-28 01:04:57		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 01:05:17	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 01:05:17		irc: reconnecting to server in 1 minute
+2010-09-28 01:06:17		irc: reconnecting to server...
+2010-09-28 01:06:17		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 01:06:37	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 01:06:37		irc: reconnecting to server in 2 minutes
+2010-09-28 01:08:37		irc: reconnecting to server...
+2010-09-28 01:08:37		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 01:08:37		irc: connected to irc.gnome.org (92.33.0.168)
+2010-09-28 01:08:37	--	*** Looking up your hostname...
+2010-09-28 01:08:38	--	*** Checking Ident
+2010-09-28 01:08:38	--	*** Found your hostname
+2010-09-28 01:09:08	--	*** No Ident response
+2010-09-28 01:09:08	--	Welcome to the Internet Relay Network quesada1
+2010-09-28 01:09:08	--	Your host is irc.eagle.y.se[92.33.0.168/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-28 01:09:08	--	*** Your host is irc.eagle.y.se[92.33.0.168/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-28 01:09:08	--	This server was created Wed Jan 10 2007 at 09:38:13 CET
+2010-09-28 01:09:08	--	irc.eagle.y.se 2.8/gimpnet-0.1beta3 oOiwszcrkfydnxb biklmnopstve
+2010-09-28 01:09:08	--	WALLCHOPS PREFIX=(ov)@+ CHANTYPES=#& MAXCHANNELS=20 MAXBANS=50 NICKLEN=39 TOPICLEN=500 KICKLEN=90 NETWORK=GIMPNet CHANMODES=be,k,l,imnpst EXCEPTS MODES=4 :are supported by this server
+2010-09-28 01:09:08	--	There are 27 users and 1847 invisible on 6 servers
+2010-09-28 01:09:08	--	9 :IRC Operators online
+2010-09-28 01:09:08	--	413 :channels formed
+2010-09-28 01:09:08	--	I have 505 clients and 2 servers
+2010-09-28 01:09:08	--	Current local  users: 505  Max: 794
+2010-09-28 01:09:08	--	Current global users: 1874  Max: 2320
+2010-09-28 01:09:08	--	Highest connection count: 795 (794 clients) (132100 since server was (re)started)
+2010-09-28 01:09:08	--	- irc.eagle.y.se Message of the Day -
+2010-09-28 01:09:08	--	- Welcome to irc.eagle.y.se / irc.netbsd.se
+2010-09-28 01:09:08	--	-
+2010-09-28 01:09:08	--	- ==( Server Information )==========================================
+2010-09-28 01:09:08	--	-
+2010-09-28 01:09:08	--	- This server is running at Eagle Computing.
+2010-09-28 01:09:08	--	- http://www.eagle.y.se/
+2010-09-28 01:09:08	--	-
+2010-09-28 01:09:08	--	- Your local admins: mathew, vho
+2010-09-28 01:09:08	--	-
+2010-09-28 01:09:08	--	- ==( Rules )=======================================================
+2010-09-28 01:09:08	--	-
+2010-09-28 01:09:08	--	-  This server may not be used for:
+2010-09-28 01:09:08	--	-  * Flooding (including flood/clonebots).
+2010-09-28 01:09:08	--	-  * Attempts to takeover existing channels or network services.
+2010-09-28 01:09:08	--	-  * Spamming and/or advertising.
+2010-09-28 01:09:08	--	-  * Hacking (including Virus/Trojan distribution).
+2010-09-28 01:09:08	--	-
+2010-09-28 01:09:08	--	-  Continued use of this server indicates acceptance of these
+2010-09-28 01:09:08	--	-  conditions.
+2010-09-28 01:09:08	--	-
+2010-09-28 01:09:08	--	End of /MOTD command.
+2010-09-28 01:09:08	--	User mode [+i] by quesada1
+2010-09-28 01:58:34	=!=	irc: reading data on socket: error 110 Connection timed out
+2010-09-28 01:58:34		irc: disconnecting from server...
+2010-09-28 01:58:34		irc: disconnected from server
+2010-09-28 01:58:34		irc: reconnecting to server in 30 seconds
+2010-09-28 01:59:04		irc: reconnecting to server...
+2010-09-28 01:59:04		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 01:59:29	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 01:59:29		irc: reconnecting to server in 1 minute
+2010-09-28 02:00:29		irc: reconnecting to server...
+2010-09-28 02:00:29		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 02:00:49	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 02:00:49		irc: reconnecting to server in 2 minutes
+2010-09-28 02:02:49		irc: reconnecting to server...
+2010-09-28 02:02:49		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 02:03:51		irc: connected to irc.gnome.org (130.239.18.157)
+2010-09-28 02:04:28	--	*** Looking up your hostname...
+2010-09-28 02:04:28	--	*** Checking Ident
+2010-09-28 02:04:28	--	*** Found your hostname
+2010-09-28 02:04:51	=!=	irc: connection timeout (message 001 not received)
+2010-09-28 02:04:51		irc: disconnected from server
+2010-09-28 02:04:51		irc: reconnecting to server in 4 minutes
+2010-09-28 02:08:51		irc: reconnecting to server...
+2010-09-28 02:08:51		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 02:09:26	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 02:09:26		irc: reconnecting to server in 8 minutes
+2010-09-28 02:17:26		irc: reconnecting to server...
+2010-09-28 02:17:26		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 02:17:51	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 02:17:51		irc: reconnecting to server in 16 minutes
+2010-09-28 02:33:51		irc: reconnecting to server...
+2010-09-28 02:33:51		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 02:33:55		irc: connected to irc.gnome.org (192.219.30.200)
+2010-09-28 02:33:58	--	*** Looking up your hostname...
+2010-09-28 02:33:59	--	*** Checking Ident
+2010-09-28 02:33:59	--	*** Found your hostname
+2010-09-28 02:34:34	--	*** No Ident response
+2010-09-28 02:34:34	--	Welcome to the Internet Relay Network quesada1
+2010-09-28 02:34:34	--	Your host is irc.gimp.ca[192.219.30.200/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-28 02:34:34	--	*** Your host is irc.gimp.ca[192.219.30.200/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-28 02:34:34	--	This server was created Sat Jul 11 2009 at 15:46:15 EDT
+2010-09-28 02:34:34	--	irc.gimp.ca 2.8/gimpnet-0.1beta3 oOiwszcrkfydnxb biklmnopstve
+2010-09-28 02:34:34	--	WALLCHOPS PREFIX=(ov)@+ CHANTYPES=#& MAXCHANNELS=20 MAXBANS=50 NICKLEN=39 TOPICLEN=500 KICKLEN=90 NETWORK=GIMPNet CHANMODES=be,k,l,imnpst EXCEPTS MODES=4 :are supported by this server
+2010-09-28 02:34:34	--	There are 26 users and 1821 invisible on 6 servers
+2010-09-28 02:34:34	--	9 :IRC Operators online
+2010-09-28 02:34:34	--	411 :channels formed
+2010-09-28 02:34:34	--	I have 415 clients and 1 servers
+2010-09-28 02:34:34	--	Current local  users: 415  Max: 493
+2010-09-28 02:34:35	--	Current global users: 1847  Max: 2134
+2010-09-28 02:34:35	--	Highest connection count: 494 (493 clients) (13355 since server was (re)started)
+2010-09-28 02:34:35	--	- irc.gimp.ca Message of the Day -
+2010-09-28 02:34:35	--	- This is ircd-hybrid MOTD replace it with something better
+2010-09-28 02:34:35	--	End of /MOTD command.
+2010-09-28 02:34:35	--	User mode [+i] by quesada1
+2010-09-28 05:19:05	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2010-09-28 05:19:05		irc: disconnecting from server...
+2010-09-28 05:19:05		irc: disconnected from server
+2010-09-28 05:19:05		irc: reconnecting to server in 30 seconds
+2010-09-28 05:19:35		irc: reconnecting to server...
+2010-09-28 05:19:35		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 05:19:47		irc: connected to irc.gnome.org (192.219.30.200)
+2010-09-28 05:20:47	=!=	irc: connection timeout (message 001 not received)
+2010-09-28 05:20:47		irc: disconnected from server
+2010-09-28 05:20:47		irc: reconnecting to server in 1 minute
+2010-09-28 05:21:47		irc: reconnecting to server...
+2010-09-28 05:21:47		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 05:22:07	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 05:22:07		irc: reconnecting to server in 2 minutes
+2010-09-28 05:24:07		irc: reconnecting to server...
+2010-09-28 05:24:07		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 05:24:37		irc: connected to irc.gnome.org (192.219.30.200)
+2010-09-28 05:25:37	=!=	irc: connection timeout (message 001 not received)
+2010-09-28 05:25:37		irc: disconnected from server
+2010-09-28 05:25:37		irc: reconnecting to server in 4 minutes
+2010-09-28 05:29:37		irc: reconnecting to server...
+2010-09-28 05:29:37		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 05:29:57	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 05:29:57		irc: reconnecting to server in 8 minutes
+2010-09-28 05:37:57		irc: reconnecting to server...
+2010-09-28 05:37:57		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 05:38:17	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 05:38:17		irc: reconnecting to server in 16 minutes
+2010-09-28 05:54:17		irc: reconnecting to server...
+2010-09-28 05:54:17		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 05:54:59		irc: connected to irc.gnome.org (130.239.18.157)
+2010-09-28 05:55:07	--	*** Looking up your hostname...
+2010-09-28 05:55:08	--	*** Checking Ident
+2010-09-28 05:55:08	--	*** Found your hostname
+2010-09-28 05:55:59	=!=	irc: connection timeout (message 001 not received)
+2010-09-28 05:55:59		irc: disconnected from server
+2010-09-28 05:55:59		irc: reconnecting to server in 30 minutes
+2010-09-28 06:25:59		irc: reconnecting to server...
+2010-09-28 06:25:59		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 06:26:24	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 06:26:24		irc: reconnecting to server in 30 minutes
+2010-09-28 06:56:24		irc: reconnecting to server...
+2010-09-28 06:56:24		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 06:56:57		irc: connected to irc.gnome.org (130.239.18.157)
+2010-09-28 06:57:57	=!=	irc: connection timeout (message 001 not received)
+2010-09-28 06:57:57		irc: disconnected from server
+2010-09-28 06:57:57		irc: reconnecting to server in 30 minutes
+2010-09-28 07:27:57		irc: reconnecting to server...
+2010-09-28 07:27:57		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 07:28:32	=!=	irc: address "irc.gnome.org" not found
+2010-09-28 07:28:32		irc: reconnecting to server in 30 minutes
+2010-09-28 07:58:32		irc: reconnecting to server...
+2010-09-28 07:58:32		irc: connecting to server irc.gnome.org/6667...
+2010-09-28 07:58:33		irc: connected to irc.gnome.org (130.239.18.157)
+2010-09-28 07:58:33	--	*** Looking up your hostname...
+2010-09-28 07:58:33	--	*** Checking Ident
+2010-09-28 07:58:33	--	*** Found your hostname
+2010-09-28 07:59:05	--	*** No Ident response
+2010-09-28 07:59:05	--	Welcome to the Internet Relay Network quesada1
+2010-09-28 07:59:05	--	Your host is irc.acc.umu.se[130.239.18.157/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-28 07:59:05	--	*** Your host is irc.acc.umu.se[130.239.18.157/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-28 07:59:05	--	This server was created Mon Dec 29 2008 at 19:06:24 MET
+2010-09-28 07:59:05	--	irc.acc.umu.se 2.8/gimpnet-0.1beta3 oOiwszcrkfydnxb biklmnopstve
+2010-09-28 07:59:05	--	WALLCHOPS PREFIX=(ov)@+ CHANTYPES=#& MAXCHANNELS=20 MAXBANS=50 NICKLEN=39 TOPICLEN=500 KICKLEN=90 NETWORK=GIMPNet CHANMODES=be,k,l,imnpst EXCEPTS MODES=4 :are supported by this server
+2010-09-28 07:59:05	--	There are 27 users and 1782 invisible on 6 servers
+2010-09-28 07:59:05	--	9 :IRC Operators online
+2010-09-28 07:59:05	--	415 :channels formed
+2010-09-28 07:59:05	--	I have 930 clients and 2 servers
+2010-09-28 07:59:05	--	Current local  users: 930  Max: 1404
+2010-09-28 07:59:06	--	Current global users: 1809  Max: 2320
+2010-09-28 07:59:06	--	Highest connection count: 1406 (1404 clients) (281917 since server was (re)started)
+2010-09-28 07:59:06	--	- irc.acc.umu.se Message of the Day -
+2010-09-28 07:59:06	--	- Bork! Bork! Bork!
+2010-09-28 07:59:06	--	-
+2010-09-28 07:59:06	--	- Don't irc as root!
+2010-09-28 07:59:06	--	-
+2010-09-28 07:59:06	--	- Listens on 6666, 6667, 7000, 7777.
+2010-09-28 07:59:06	--	End of /MOTD command.
+2010-09-28 07:59:06	--	User mode [+i] by quesada1
+2010-09-29 04:22:52	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2010-09-29 04:22:52		irc: disconnecting from server...
+2010-09-29 04:22:52		irc: disconnected from server
+2010-09-29 04:22:52		irc: reconnecting to server in 30 seconds
+2010-09-29 04:23:22		irc: reconnecting to server...
+2010-09-29 04:23:22		irc: connecting to server irc.gnome.org/6667...
+2010-09-29 04:23:22		irc: connected to irc.gnome.org (192.219.30.200)
+2010-09-29 04:23:23	--	*** Looking up your hostname...
+2010-09-29 04:23:23	--	*** Checking Ident
+2010-09-29 04:23:23	--	*** Found your hostname
+2010-09-29 04:23:59	--	*** No Ident response
+2010-09-29 04:23:59		irc: nickname "quesada1" is already in use, trying nickname #3 ("quesada2")
+2010-09-29 04:23:59	--	Welcome to the Internet Relay Network quesada2
+2010-09-29 04:23:59	--	Your host is irc.gimp.ca[192.219.30.200/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-29 04:23:59	--	*** Your host is irc.gimp.ca[192.219.30.200/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-29 04:23:59	--	This server was created Sat Jul 11 2009 at 15:46:15 EDT
+2010-09-29 04:23:59	--	irc.gimp.ca 2.8/gimpnet-0.1beta3 oOiwszcrkfydnxb biklmnopstve
+2010-09-29 04:23:59	--	WALLCHOPS PREFIX=(ov)@+ CHANTYPES=#& MAXCHANNELS=20 MAXBANS=50 NICKLEN=39 TOPICLEN=500 KICKLEN=90 NETWORK=GIMPNet CHANMODES=be,k,l,imnpst EXCEPTS MODES=4 :are supported by this server
+2010-09-29 04:23:59	--	There are 27 users and 1760 invisible on 6 servers
+2010-09-29 04:23:59	--	9 :IRC Operators online
+2010-09-29 04:23:59	--	407 :channels formed
+2010-09-29 04:23:59	--	I have 357 clients and 1 servers
+2010-09-29 04:23:59	--	Current local  users: 357  Max: 496
+2010-09-29 04:23:59	--	Current global users: 1787  Max: 2134
+2010-09-29 04:23:59	--	Highest connection count: 497 (496 clients) (14398 since server was (re)started)
+2010-09-29 04:23:59	--	- irc.gimp.ca Message of the Day -
+2010-09-29 04:23:59	--	- This is ircd-hybrid MOTD replace it with something better
+2010-09-29 04:23:59	--	End of /MOTD command.
+2010-09-29 04:23:59	--	User mode [+i] by quesada2
+2010-09-30 04:21:21	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2010-09-30 04:21:21		irc: disconnecting from server...
+2010-09-30 04:21:21		irc: disconnected from server
+2010-09-30 04:21:21		irc: reconnecting to server in 30 seconds
+2010-09-30 04:21:51		irc: reconnecting to server...
+2010-09-30 04:21:51		irc: connecting to server irc.gnome.org/6667...
+2010-09-30 04:21:52		irc: connected to irc.gnome.org (192.219.30.200)
+2010-09-30 04:21:52	--	*** Looking up your hostname...
+2010-09-30 04:21:52	--	*** Checking Ident
+2010-09-30 04:21:53	--	*** Found your hostname
+2010-09-30 04:22:26	--	*** No Ident response
+2010-09-30 04:22:26		irc: nickname "quesada2" is already in use, trying nickname #4 ("quesada3")
+2010-09-30 04:22:27	--	Welcome to the Internet Relay Network quesada3
+2010-09-30 04:22:27	--	Your host is irc.gimp.ca[192.219.30.200/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-30 04:22:27	--	*** Your host is irc.gimp.ca[192.219.30.200/6667], running version 2.8/gimpnet-0.1beta3
+2010-09-30 04:22:27	--	This server was created Sat Jul 11 2009 at 15:46:15 EDT
+2010-09-30 04:22:27	--	irc.gimp.ca 2.8/gimpnet-0.1beta3 oOiwszcrkfydnxb biklmnopstve
+2010-09-30 04:22:27	--	WALLCHOPS PREFIX=(ov)@+ CHANTYPES=#& MAXCHANNELS=20 MAXBANS=50 NICKLEN=39 TOPICLEN=500 KICKLEN=90 NETWORK=GIMPNet CHANMODES=be,k,l,imnpst EXCEPTS MODES=4 :are supported by this server
+2010-09-30 04:22:27	--	There are 26 users and 1780 invisible on 6 servers
+2010-09-30 04:22:27	--	10 :IRC Operators online
+2010-09-30 04:22:27	--	406 :channels formed
+2010-09-30 04:22:27	--	I have 368 clients and 1 servers
+2010-09-30 04:22:27	--	Current local  users: 368  Max: 496
+2010-09-30 04:22:27	--	Current global users: 1806  Max: 2134
+2010-09-30 04:22:27	--	Highest connection count: 497 (496 clients) (15318 since server was (re)started)
+2010-09-30 04:22:27	--	- irc.gimp.ca Message of the Day -
+2010-09-30 04:22:27	--	- This is ircd-hybrid MOTD replace it with something better
+2010-09-30 04:22:27	--	End of /MOTD command.
+2010-09-30 04:22:27	--	User mode [+i] by quesada3
+2010-10-01 01:11:15		irc: disconnected from server
