@@ -1,3 +1,6 @@
+[General]
+UseKTTSD=false
+
 [Main View]
 ShowLeftPanel=false
 SplitterSizes=253,942

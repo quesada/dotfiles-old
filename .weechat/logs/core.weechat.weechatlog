@@ -178,3 +178,4 @@
 2010-09-26 10:07:17		irc: server irc.gnome.org created (temporary server, NOT SAVED!)
 2010-09-26 10:08:39	=!=	irc: already connected to server "irc.gnome.org"!
 2010-09-26 10:08:39	=!=	Error with command "connect" (try /help connect)
+2010-10-12 08:59:58		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer

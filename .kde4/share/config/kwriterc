@@ -71,12 +71,12 @@ Word Completion Minimal Word Length=3
 Height 1152=1153
 Height 1200=292
 Height 900=437
-State=AAAA/wAAAAD9AAAAAAAAAt8AAAFvAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA8kAAAFZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 StatusBar=Disabled
 ToolBarsMovable=Disabled
 Width 1600=796
 Width 1920=1196
-Width 2048=735
+Width 2048=969
 
 [Recent Files]
 File1[$e]=$HOME/.config/lxpanel/LXDE/panels/panel
@@ -85,9 +85,11 @@ File3[$e]=$HOME/.zshhistory
 File4[$e]=$HOME/.Xdefaults
 File5[$e]=$HOME/equo.txt
 File6[$e]=$HOME/.kde4/share/apps/katepart/katepartui.rc
+File7[$e]=/data/downloads/Assimil German With Ease/READ ME BEFORE.txt
 Name1[$e]=panel
 Name2[$e]=.xinitrc
 Name3[$e]=.zshhistory
 Name4[$e]=.Xdefaults
 Name5[$e]=equo.txt
 Name6[$e]=katepartui.rc
+Name7[$e]=READ ME BEFORE.txt
