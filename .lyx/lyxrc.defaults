@@ -13,36 +13,16 @@
 \Format agr        agr     Grace                  "" "auto"	"auto"	"vector"
 \Format fen        fen     FEN                    "" "auto"	"auto"	""
 \Format svg        svg     SVG                    "" "auto" "auto"	"vector"
-\viewer_alternatives bmp gimp
-\viewer_alternatives gif gimp
-\viewer_alternatives jpg gimp
-\viewer_alternatives pbm gimp
-\viewer_alternatives pgm gimp
-\viewer_alternatives png gimp
-\viewer_alternatives ppm gimp
-\viewer_alternatives tiff gimp
-\viewer_alternatives xbm gimp
-\viewer_alternatives xpm gimp
-\editor_alternatives bmp gimp
-\editor_alternatives gif gimp
-\editor_alternatives jpg gimp
-\editor_alternatives pbm gimp
-\editor_alternatives pgm gimp
-\editor_alternatives png gimp
-\editor_alternatives ppm gimp
-\editor_alternatives tiff gimp
-\editor_alternatives xbm gimp
-\editor_alternatives xpm gimp
-\Format bmp        bmp     BMP                    "" "gimp"	"gimp"	""
-\Format gif        gif     GIF                    "" "gimp"	"gimp"	""
-\Format jpg        jpg     JPEG                   "" "gimp"	"gimp"	""
-\Format pbm        pbm     PBM                    "" "gimp"	"gimp"	""
-\Format pgm        pgm     PGM                    "" "gimp"	"gimp"	""
-\Format png        png     PNG                    "" "gimp"	"gimp"	""
-\Format ppm        ppm     PPM                    "" "gimp"	"gimp"	""
-\Format tiff       tif     TIFF                   "" "gimp"	"gimp"	""
-\Format xbm        xbm     XBM                    "" "gimp"	"gimp"	""
-\Format xpm        xpm     XPM                    "" "gimp"	"gimp"	""
+\Format bmp        bmp     BMP                    "" "auto"	"auto"	""
+\Format gif        gif     GIF                    "" "auto"	"auto"	""
+\Format jpg        jpg     JPEG                   "" "auto"	"auto"	""
+\Format pbm        pbm     PBM                    "" "auto"	"auto"	""
+\Format pgm        pgm     PGM                    "" "auto"	"auto"	""
+\Format png        png     PNG                    "" "auto"	"auto"	""
+\Format ppm        ppm     PPM                    "" "auto"	"auto"	""
+\Format tiff       tif     TIFF                   "" "auto"	"auto"	""
+\Format xbm        xbm     XBM                    "" "auto"	"auto"	""
+\Format xpm        xpm     XPM                    "" "auto"	"auto"	""
 \editor_alternatives asciichess gvim
 \editor_alternatives asciiimage gvim
 \editor_alternatives asciixfig gvim
@@ -54,6 +34,7 @@
 \editor_alternatives literate gvim
 \editor_alternatives sweave gvim
 \editor_alternatives lilypond gvim
+\editor_alternatives lilypond-book gvim
 \editor_alternatives latex gvim
 \editor_alternatives pdflatex gvim
 \editor_alternatives xetex gvim
@@ -73,6 +54,7 @@
 \editor_alternatives literate kwrite
 \editor_alternatives sweave kwrite
 \editor_alternatives lilypond kwrite
+\editor_alternatives lilypond-book kwrite
 \editor_alternatives latex kwrite
 \editor_alternatives pdflatex kwrite
 \editor_alternatives xetex kwrite
@@ -92,6 +74,7 @@
 \editor_alternatives literate kate
 \editor_alternatives sweave kate
 \editor_alternatives lilypond kate
+\editor_alternatives lilypond-book kate
 \editor_alternatives latex kate
 \editor_alternatives pdflatex kate
 \editor_alternatives xetex kate
@@ -100,25 +83,6 @@
 \editor_alternatives text3 kate
 \editor_alternatives text4 kate
 \editor_alternatives textparagraph kate
-\editor_alternatives asciichess gedit
-\editor_alternatives asciiimage gedit
-\editor_alternatives asciixfig gedit
-\editor_alternatives dateout gedit
-\editor_alternatives docbook gedit
-\editor_alternatives docbook-xml gedit
-\editor_alternatives dot gedit
-\editor_alternatives platex gedit
-\editor_alternatives literate gedit
-\editor_alternatives sweave gedit
-\editor_alternatives lilypond gedit
-\editor_alternatives latex gedit
-\editor_alternatives pdflatex gedit
-\editor_alternatives xetex gedit
-\editor_alternatives text gedit
-\editor_alternatives text2 gedit
-\editor_alternatives text3 gedit
-\editor_alternatives text4 gedit
-\editor_alternatives textparagraph gedit
 \editor_alternatives asciichess notepad
 \editor_alternatives asciiimage notepad
 \editor_alternatives asciixfig notepad
@@ -130,6 +94,7 @@
 \editor_alternatives literate notepad
 \editor_alternatives sweave notepad
 \editor_alternatives lilypond notepad
+\editor_alternatives lilypond-book notepad
 \editor_alternatives latex notepad
 \editor_alternatives pdflatex notepad
 \editor_alternatives xetex notepad
@@ -149,6 +114,7 @@
 \Format literate   nw      NoWeb                  N  ""	"gvim"	"document"
 \Format sweave     Rnw    "Sweave"                S  "" "gvim"    "document"
 \Format lilypond   ly     "LilyPond music"        "" ""	"gvim"	"vector"
+\Format lilypond-book    lytex "LilyPond book (LaTeX)"   "" ""	"gvim"	"document"
 \Format latex      tex    "LaTeX (plain)"         L  ""	"gvim"	"document"
 \Format pdflatex   tex    "LaTeX (pdflatex)"      "" ""	"gvim"	"document"
 \Format xetex      tex    "LaTeX (XeTeX)"         "" ""	"gvim"	"document"
@@ -168,6 +134,7 @@
 \viewer_alternatives literate gvim
 \viewer_alternatives sweave gvim
 \viewer_alternatives lilypond gvim
+\viewer_alternatives lilypond-book gvim
 \viewer_alternatives latex gvim
 \viewer_alternatives pdflatex gvim
 \viewer_alternatives xetex gvim
@@ -187,6 +154,7 @@
 \viewer_alternatives literate kwrite
 \viewer_alternatives sweave kwrite
 \viewer_alternatives lilypond kwrite
+\viewer_alternatives lilypond-book kwrite
 \viewer_alternatives latex kwrite
 \viewer_alternatives pdflatex kwrite
 \viewer_alternatives xetex kwrite
@@ -206,6 +174,7 @@
 \viewer_alternatives literate kate
 \viewer_alternatives sweave kate
 \viewer_alternatives lilypond kate
+\viewer_alternatives lilypond-book kate
 \viewer_alternatives latex kate
 \viewer_alternatives pdflatex kate
 \viewer_alternatives xetex kate
@@ -214,25 +183,6 @@
 \viewer_alternatives text3 kate
 \viewer_alternatives text4 kate
 \viewer_alternatives textparagraph kate
-\viewer_alternatives asciichess gedit
-\viewer_alternatives asciiimage gedit
-\viewer_alternatives asciixfig gedit
-\viewer_alternatives dateout gedit
-\viewer_alternatives docbook gedit
-\viewer_alternatives docbook-xml gedit
-\viewer_alternatives dot gedit
-\viewer_alternatives platex gedit
-\viewer_alternatives literate gedit
-\viewer_alternatives sweave gedit
-\viewer_alternatives lilypond gedit
-\viewer_alternatives latex gedit
-\viewer_alternatives pdflatex gedit
-\viewer_alternatives xetex gedit
-\viewer_alternatives text gedit
-\viewer_alternatives text2 gedit
-\viewer_alternatives text3 gedit
-\viewer_alternatives text4 gedit
-\viewer_alternatives textparagraph gedit
 \viewer_alternatives asciichess notepad
 \viewer_alternatives asciiimage notepad
 \viewer_alternatives asciixfig notepad
@@ -244,6 +194,7 @@
 \viewer_alternatives literate notepad
 \viewer_alternatives sweave notepad
 \viewer_alternatives lilypond notepad
+\viewer_alternatives lilypond-book notepad
 \viewer_alternatives latex notepad
 \viewer_alternatives pdflatex notepad
 \viewer_alternatives xetex notepad
@@ -259,7 +210,6 @@
 \editor_alternatives bibtex gvim
 \editor_alternatives bibtex kwrite
 \editor_alternatives bibtex kate
-\editor_alternatives bibtex gedit
 \editor_alternatives bibtex notepad
 \Format eps        eps     EPS                    "" "okular"	""	"vector"
 \Format ps         ps      Postscript             t  "okular"	""	"document,vector"
@@ -279,10 +229,6 @@
 \viewer_alternatives pdf2 evince
 \viewer_alternatives pdf3 evince
 \viewer_alternatives pdf4 evince
-\viewer_alternatives pdf xpdf
-\viewer_alternatives pdf2 xpdf
-\viewer_alternatives pdf3 xpdf
-\viewer_alternatives pdf4 xpdf
 \Format dvi        dvi     DVI                    D  "okular"	""	"document,vector"
 \viewer_alternatives dvi okular
 \Format html       html    HTML                   H  "firefox"	""	"document"
@@ -312,14 +258,15 @@
 \Format csv        csv    "Table (CSV)"  "" ""	""	"document"
 \Format fax        ""      Fax                    "" ""	""	"document"
 \Format lyx        lyx     LyX                    "" ""	""	""
-\Format lyx13x     lyx13  "LyX 1.3.x"             "" ""	""	"document"
-\Format lyx14x     lyx14  "LyX 1.4.x"             "" ""	""	"document"
-\Format lyx15x     lyx15  "LyX 1.5.x"             "" ""	""	"document"
-\Format lyx16x     lyx16  "LyX 1.6.x"             "" ""	""	"document"
+\Format lyx13x     13.lyx  "LyX 1.3.x"             "" ""	""	"document"
+\Format lyx14x     14.lyx  "LyX 1.4.x"             "" ""	""	"document"
+\Format lyx15x     15.lyx  "LyX 1.5.x"             "" ""	""	"document"
+\Format lyx16x     16.lyx  "LyX 1.6.x"             "" ""	""	"document"
 \Format clyx       cjklyx "CJK LyX 1.4.x (big5)"  "" ""	""	"document"
 \Format jlyx       cjklyx "CJK LyX 1.4.x (euc-jp)" "" ""	""	"document"
 \Format klyx       cjklyx "CJK LyX 1.4.x (euc-kr)" "" ""	""	"document"
 \Format lyxpreview lyxpreview "LyX Preview"       "" ""	""	""
+\Format lyxpreview-lytex  lyxpreview-lytex  "LyX Preview (LilyPond book)" "" ""	""	""
 \Format lyxpreview-platex lyxpreview-platex "LyX Preview (pLaTeX)"       "" ""	""	""
 \Format pdftex     pdftex_t PDFTEX                "" ""	""	""
 \Format program    ""      Program                "" ""	""	""
@@ -334,8 +281,8 @@
 \converter literate   lyx        "tex2lyx -n -f $$i $$o"	""
 \converter literate   latex      ""	""
 \converter literate   pdflatex      ""	""
-\converter sweave   latex      "R CMD Sweave $$i"	""
-\converter sweave   pdflatex      "R CMD Sweave $$i"	""
+\converter sweave   latex      "Rscript --vanilla $$s/scripts/lyxsweave.R $$i $$e"	""
+\converter sweave   pdflatex      "Rscript --vanilla $$s/scripts/lyxsweave.R $$i $$e"	""
 \converter html       latex      "java -jar htmltolatex.jar -input $$i -output $$o"	""
 \converter word       latex      "wvCleanLatex $$i $$o"	""
 \converter lyx      html       "elyxer --directory $$r $$i $$o"	""
@@ -355,8 +302,8 @@
 \converter pdf         eps        "pdftops -eps -f 1 -l 1 $$i $$o"	""
 \converter dvi        text4      ""	""
 \converter dvi        ps         "dvips -o $$o $$i"	""
-\converter dvi        pdf3       "dvipdfmx -o $$o $$i"	""
-\converter lyxpreview png        "python -tt $$s/scripts/lyxpreview2bitmap.py"	""
+\converter dvi        pdf3       ""	""
+\converter lyxpreview png        ""	""
 \converter ps         fax        ""	""
 \converter tiff       eps        "tiff2ps $$i > $$o"	""
 \converter wmf        eps        "wmf2eps -o $$o $$i"	""
@@ -392,10 +339,10 @@
 \bibtex_command "bibtex"
 \bibtex_alternatives "bibtex"
 \bibtex_alternatives "bibtex8"
-\jbibtex_command "bibtex"
+\jbibtex_command "pbibtex"
 \index_command "makeindex -c -q"
 \index_alternatives "makeindex -c -q"
-\jindex_command "makeindex -c -q"
+\jindex_command "mendex -c -q"
 \splitindex_command ""
 \splitindex_command "java splitindex"
 \nomencl_command "makeindex -s nomencl.ist"

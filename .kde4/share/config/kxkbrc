@@ -1,12 +1,13 @@
 [Layout]
-DisplayNames=us
+DisplayNames=
 IndicatorOnly=false
 Layout=us
 LayoutList=us
 Model=pc104
-Options=
+Options=,lv3:win_switch
 ResetOldOptions=true
 ShowFlag=true
+ShowLayoutIndicator=true
 ShowSingle=true
 SwitchMode=Global
 Use=true

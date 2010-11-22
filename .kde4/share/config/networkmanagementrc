@@ -1,3 +1,7 @@
+[Connection_{00daac33-46c0-43da-811f-9fa571b7b50b}]
+Name=MPIB-GUEST
+Type=802-11-wireless
+
 [Connection_{40ca9ba5-c280-446d-a9b4-05eb09b9e887}]
 LastUsed=2010,9,4,16,12,21
 Name=TESTWIFI
@@ -12,6 +16,9 @@ LastUsed=2010,5,12,16,15,33
 Name=mania magazin
 Type=802-11-wireless
 
+[Connection_{f580546b-9434-42ae-bc8c-4447ac6d6720}]
+Name=Banquet
+Type=802-11-wireless
+
 [General]
-Autostart=false
-Connections={be542b9c-c00b-45cd-8855-18ffcc2be956},{d87f5462-8c25-4a2b-bfce-13cedb1c4b06},{40ca9ba5-c280-446d-a9b4-05eb09b9e887}
+Connections={be542b9c-c00b-45cd-8855-18ffcc2be956},{d87f5462-8c25-4a2b-bfce-13cedb1c4b06},{40ca9ba5-c280-446d-a9b4-05eb09b9e887},{00daac33-46c0-43da-811f-9fa571b7b50b},{f580546b-9434-42ae-bc8c-4447ac6d6720}

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>zvon Black</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=zvonSully">zvonSully</author>
+  <homepage>http://opendesktop.org/content/show.php?content=88852</homepage>
+  <licence>1</licence>
+  <version>1.1-1</version>
+  <rating>79</rating>
+  <downloads>5323</downloads>
+  <installedfile>/home/quesada/dotfiles/.kde4/share/apps/color-schemes//88852-ZvonBlack.colors</installedfile>
+  <id>88852</id>
+  <releasedate>2008-09-09</releasedate>
+  <summary>&#xd;
+&#xd;
+ --  THE black color setting --&#xd;
+&#xd;
+ Does anybody know how to include this into kde?(into kde packages so it would be avaible to all users on all distributions)</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m88852-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/88852-1.png</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/88852-ZvonBlack.colors</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Gentle</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=Rasi">Rasi</author>
+  <homepage>http://opendesktop.org/content/show.php?content=101610</homepage>
+  <licence>1</licence>
+  <version>0.1</version>
+  <rating>80</rating>
+  <downloads>2571</downloads>
+  <installedfile>/home/quesada/dotfiles/.kde4/share/apps/color-schemes//101610-Gentle.colors</installedfile>
+  <id>101610</id>
+  <releasedate>2009-03-25</releasedate>
+  <summary>Disclaimer: I have not created this theme, but its author doesnt use kde exclusively anymore. I got his permission to upload it.&#xd;
+&#xd;
+A nice and light on the eye grey colorscheme. Works great with minimal setups&#xd;
+&#xd;
+colored pixels on screenshot are caused by my gfx...</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m101610-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/101610-1.png</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/101610-Gentle.colors</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>DarkRed</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=Antholinux">Antholinux</author>
+  <homepage>http://opendesktop.org/content/show.php?content=108959</homepage>
+  <licence>1</licence>
+  <version>0.4</version>
+  <rating>79</rating>
+  <downloads>938</downloads>
+  <installedfile>/home/quesada/dotfiles/.kde4/share/apps/color-schemes//108959-DarkRed_04.colors</installedfile>
+  <id>108959</id>
+  <releasedate>2009-07-24</releasedate>
+  <summary>It's a color scheme for KDE 4.x, I did the last version on KDE 4.4.1. It's a black theme which uses sometimes red. You can view a screen in the pictures, and, sorry for my English because i'm French.&#xd;
+&#xd;
+[b]Updates:[/b]&#xd;
+&#xd;
+[i]05/08/2009:[/i] Changes of link colors and other colors.&#xd;
+&#xd;
+[i]12/08/2009:[/i] Changes of tooltips colors and corrections of others colors.&#xd;
+&#xd;
+[i]13/03/2010:[/i] KDE 4.4.x integration colors.&#xd;
+&#xd;
+[b]Last Update:[/b]&#xd;
+&#xd;
+[i]13/03/2010:[/i] KDE 4.4.x integration colors.&#xd;
+&#xd;
+The version is now 0.4&#xd;
+&#xd;
+[i]PS: It's not the same as DarkRedDark because i'm not inspired by this theme (for persons who think it's the same).[/i]</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m108959-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/108959-1.jpg</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/108959-DarkRed_04.colors</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Emotion</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=Rasi">Rasi</author>
+  <homepage>http://opendesktop.org/content/show.php?content=105913</homepage>
+  <licence>1</licence>
+  <version>0.2</version>
+  <rating>78</rating>
+  <downloads>1252</downloads>
+  <installedfile>/home/quesada/dotfiles/.kde4/share/apps/color-schemes//105913-Elegant_new.colors</installedfile>
+  <id>105913</id>
+  <releasedate>2009-05-30</releasedate>
+  <summary>A dark theme, that works very well with the Cream plasma theme and Buuf Icons</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m105913-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/105913-1.png</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/105913-Elegant_new.colors</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Magnesium</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=downdiagonal">downdiagonal</author>
+  <homepage>http://opendesktop.org/content/show.php?content=89859</homepage>
+  <licence>0</licence>
+  <version></version>
+  <rating>79</rating>
+  <downloads>5334</downloads>
+  <installedfile>/home/quesada/dotfiles/.kde4/share/apps/color-schemes//89859-Magnesium.colors</installedfile>
+  <id>89859</id>
+  <releasedate>2008-09-21</releasedate>
+  <summary></summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m89859-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/89859-1.jpg</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/89859-Magnesium.colors</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Sunburn</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=zcmander">zcmander</author>
+  <homepage>http://opendesktop.org/content/show.php?content=74448</homepage>
+  <licence>1</licence>
+  <version></version>
+  <rating>68</rating>
+  <downloads>2777</downloads>
+  <installedfile>/home/quesada/dotfiles/.kde4/share/apps/color-schemes//74448-Zenburn.colors</installedfile>
+  <id>74448</id>
+  <releasedate>2008-01-29</releasedate>
+  <summary>Orginally theme called "Zenburn" and made to vim color-scheme, but i ported to kde4 and here it is.&#xd;
+&#xd;
+Zenburn to vim: http://www.vim.org/scripts/script.php?script_id=415&#xd;
+&#xd;
+Also there is port to konsole (as same in screenshot):&#xd;
+http://termos.vemod.net/zenburn-for-konsole</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m74448-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/74448-1.png</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/74448-Zenburn.colors</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Magma</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=mwoehlke">mwoehlke</author>
+  <homepage>http://opendesktop.org/content/show.php?content=79053</homepage>
+  <licence>1</licence>
+  <version>0.1</version>
+  <rating>70</rating>
+  <downloads>1140</downloads>
+  <installedfile>/home/quesada/dotfiles/.kde4/share/apps/color-schemes//79053-Magma.colors</installedfile>
+  <id>79053</id>
+  <releasedate>2008-04-16</releasedate>
+  <summary>A warm, dark color scheme inspired by fire or lava.</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m79053-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/79053-1.jpeg</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/79053-Magma.colors</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Krog Black</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=Krog">Krog</author>
+  <homepage>http://opendesktop.org/content/show.php?content=85814</homepage>
+  <licence>1</licence>
+  <version>0.1</version>
+  <rating>73</rating>
+  <downloads>2815</downloads>
+  <installedfile>/home/quesada/dotfiles/.kde4/share/apps/color-schemes//85814-KrogBlack.colors</installedfile>
+  <id>85814</id>
+  <releasedate>2008-07-24</releasedate>
+  <summary>A black color scheme that fits perfectly with the default plasma theme (svn)</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m85814-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/85814-1.jpeg</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/85814-KrogBlack.colors</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>LuckyEyes</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=schollidesign">schollidesign</author>
+  <homepage>http://opendesktop.org/content/show.php?content=101360</homepage>
+  <licence>0</licence>
+  <version>2.2</version>
+  <rating>81</rating>
+  <downloads>2376</downloads>
+  <installedfile>/home/quesada/dotfiles/.kde4/share/apps/color-schemes//101360-LuckyEyes.colors</installedfile>
+  <id>101360</id>
+  <releasedate>2009-03-21</releasedate>
+  <summary>Not to bright and not to dark. Elegant and good for the eyes. ;)&#xd;
+&#xd;
+Enjoy</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m101360-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/101360-1.jpeg</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/101360-LuckyEyes.colors</payload>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Tragedy Black</name>
+  <providerid>https://api.opendesktop.org/v1/</providerid>
+  <author homepage="http://opendesktop.org/usermanager/search.php?username=jmtodaro">jmtodaro</author>
+  <homepage>http://opendesktop.org/content/show.php?content=103332</homepage>
+  <licence>1</licence>
+  <version></version>
+  <rating>77</rating>
+  <downloads>1879</downloads>
+  <installedfile>/home/quesada/dotfiles/.kde4/share/apps/color-schemes//103332-TragedyBlack.colors</installedfile>
+  <id>103332</id>
+  <releasedate>2009-04-23</releasedate>
+  <summary>A dark, mostly grayscale color scheme designed to compliment the Tragedy plasma theme. &#xd;
+&#xd;
+To install, go to System Settings> Appearance> Colors. Select \"Import Scheme\" and choose TragedyBlack.colors. &#xd;
+&#xd;
+Tragedy plasma theme - [url]http://kde-look.org/content/show.php/Tragedy?content=101707[/url]&#xd;
+&#xd;
+</summary>
+  <changelog></changelog>
+  <preview>http://openDesktop.org/CONTENT/content-m1/m103332-1.png</preview>
+  <previewBig>http://openDesktop.org/CONTENT/content-pre1/103332-1.jpg</previewBig>
+  <payload>http://opendesktop.org/CONTENT/content-files/103332-TragedyBlack.colors</payload>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

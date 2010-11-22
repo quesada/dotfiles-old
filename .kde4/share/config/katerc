@@ -28,7 +28,7 @@ Startup Session=last
 [KFileDialog Settings]
 Height 1152=660
 Height 1200=600
-Recent Files[$e]=$HOME/tmp/foo.py,$HOME/tmp/kk.py,$HOME/.zshrc,/usr/lib64/python2.6/site-packages/scipy/sparse/construct.py
+Recent Files[$e]=$HOME/tmp/foo.py,$HOME/german/wordList.txt,$HOME/tmp/kk.py,$HOME/.zshrc,/usr/lib64/python2.6/site-packages/scipy/sparse/construct.py
 Width 1920=960
 Width 2048=1056
 
@@ -107,10 +107,10 @@ Icon Bar=false
 Line Numbers=false
 Maximum Search History Size=100
 Persistent Selection=false
-Replacement Text History=from esa.,gvim,\\\\t,firefox,localfreq,corpusmat,//
+Replacement Text History=<br>,<br><small>,from esa.,gvim,\\\\t,firefox,localfreq,corpusmat,//
 Scroll Bar Marks=true
 Scroll Past End=false
-Search Pattern History=from tfidf.,kate,\\\\s+,konqueror,counts,miIslita,/
+Search Pattern History=\\\\t,(.*?)\\\\t,(.*\\\\t?),.*\\\\t,from tfidf.,kate,\\\\s+,konqueror,counts,miIslita,/
 Search/Replace Flags=1038
 Smart Copy Cut=true
 Vi Input Mode=false
@@ -124,12 +124,12 @@ AutoSyncronize=false
 SetEditor=true
 
 [MainWindow]
-Height 1152=279
+Height 1152=1130
 Height 1200=1201
-State=AAAA/wAAAAD9AAAAAAAAAxAAAAD6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABOgAAARPAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1921
-Width 2048=784
+Width 2048=1256
 
 [Notification Messages]
 OnSave-WrongPythonEncodingHeader=true

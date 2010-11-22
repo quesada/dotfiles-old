@@ -178,3 +178,22 @@
 2010-09-26 10:07:17		irc: server irc.gnome.org created (temporary server, NOT SAVED!)
 2010-09-26 10:08:39	=!=	irc: already connected to server "irc.gnome.org"!
 2010-09-26 10:08:39	=!=	Error with command "connect" (try /help connect)
+2010-10-15 15:31:25		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-15 15:49:53		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-18 16:22:37		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-18 16:54:26		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-18 16:54:32	=!=	You can not write text in this buffer
+2010-10-19 19:43:11		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-19 19:43:17	=!=	You can not write text in this buffer
+2010-10-20 19:16:07	=!=	You can not write text in this buffer
+2010-10-25 15:40:31		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-25 15:40:40	=!=	You can not write text in this buffer
+2010-11-09 04:36:55		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-13 16:25:21		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-13 16:25:32	=!=	You can not write text in this buffer
+2010-11-14 10:55:50		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-18 15:36:42		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-18 16:31:34		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-18 16:31:41	=!=	You can not write text in this buffer
+2010-11-21 15:41:29		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-21 15:41:50	=!=	irc: command "join" must be executed on connected irc server

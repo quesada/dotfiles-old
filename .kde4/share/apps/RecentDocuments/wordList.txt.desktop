@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=wordList.txt
+Type=Link
+URL[$e]=file:///media/disk/wordList.txt
+X-KDE-LastOpenedWith=kwrite

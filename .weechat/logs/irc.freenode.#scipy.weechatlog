@@ -1,0 +1,110 @@
+2010-10-18 16:25:01	-->	quesada (~quesada@p5799E023.dip.t-dialin.net) has joined #scipy
+2010-10-18 16:25:01	--	Topic for #scipy is "SciPy - http://www.scipy.org -- Conversations about NumPy and SciPy"
+2010-10-18 16:25:01	--	Topic set by unknown on Thu, 29 May 2008 21:24:17
+2010-10-18 16:25:01	--	Nicks #scipy: [@ChanServ Aisling blubbi cods Dar1us Dennis84_ drizzd drnlm dropdrive epifanio esc Fandekasp flupke_ Hodgestar howlymowly JamesHarrison janneb jesusabdullah kpal kurtsmith lotrpy magesing morph_ papna-work phish3 quesada sebleier|away setog3 slabanja WoLpH xian]
+2010-10-18 16:25:01	--	Channel #scipy: 31 nicks (1 op, 0 halfops, 0 voices, 30 normals)
+2010-10-18 16:25:03	--	Channel created on Wed, 12 Dec 2007 23:29:09
+2010-10-18 16:31:37	-->	alvaro_o (~alvaro@189.173.115.75) has joined #scipy
+2010-10-18 16:37:38	quesada	is there an easy way to know if scipy/numpy is using atlas?
+2010-10-18 16:37:54	quesada	numpy.__config__.show() works
+2010-10-18 16:38:06	quesada	but it shows 'NOT_AVAILABLE' for everything
+2010-10-18 17:02:09	-->	quesada (~quesada@p5799E023.dip.t-dialin.net) has joined #scipy
+2010-10-18 17:02:09	--	Topic for #scipy is "SciPy - http://www.scipy.org -- Conversations about NumPy and SciPy"
+2010-10-18 17:02:09	--	Topic set by unknown on Thu, 29 May 2008 21:24:17
+2010-10-18 17:02:09	--	Nicks #scipy: [@ChanServ Aisling alvaro_o blubbi cods Dar1us Dennis84_ drizzd drnlm dropdrive epifanio esc Fandekasp flupke_ Hodgestar howlymowly JamesHarrison janneb jesusabdullah kpal kurtsmith lotrpy magesing morph_ papna-work phish3 quesada sebleier|away setog3 slabanja WoLpH xian]
+2010-10-18 17:02:09	--	Channel #scipy: 32 nicks (1 op, 0 halfops, 0 voices, 31 normals)
+2010-10-18 17:02:10	--	Channel created on Wed, 12 Dec 2007 23:29:09
+2010-10-18 17:15:56	<--	flupke_ (~flupke@lns-bzn-32-82-254-11-102.adsl.proxad.net) has quit (Ping timeout: 240 seconds)
+2010-10-18 17:27:41	-->	flupke_ (~flupke@lns-bzn-52-82-65-110-251.adsl.proxad.net) has joined #scipy
+2010-10-18 17:31:34	<--	magesing (~gci@svn.titech.com) has quit (Quit: leaving)
+2010-10-18 17:36:59	--	sebleier|away is now known as sebleier
+2010-10-18 17:52:05	<--	lotrpy (~lotrpy@202.120.36.170) has quit
+2010-10-18 18:23:44	<--	drnlm (~neil@lagrange.tlabs.ac.za) has quit (Quit: Is commenting on an "insert message here" message overly meta?)
+2010-10-18 18:24:14	-->	TheNoise (~anto@galileo8.elet.polimi.it) has joined #scipy
+2010-10-18 18:24:26	TheNoise	Hi to all
+2010-10-18 18:25:41	TheNoise	I have a bitfield of 16bit that rapresent pixel color in the format 6 5 6 (RGB)
+2010-10-18 18:26:21	TheNoise	can I extract the 5bit and 6bit subfileds into a numpy array in an easy way?
+2010-10-18 18:29:57	-->	korep (~abc@unaffiliated/korep) has joined #scipy
+2010-10-18 18:30:57	korep	when plotting, is it possible to have different sized text on different lines
+2010-10-18 18:31:14	korep	like title('This is big\nThis is smaller')
+2010-10-18 18:36:21	-->	dinya (Denis@109.195.139.106) has joined #scipy
+2010-10-18 18:45:45	<--	Fandekasp (~Fandekasp@91.143.78.202) has quit (Quit: bye bye)
+2010-10-18 18:54:32	<--	epifanio (~chatzilla@host117-156-dynamic.16-87-r.retail.telecomitalia.it) has quit (Remote host closed the connection)
+2010-10-18 19:03:56	<--	TheNoise (~anto@galileo8.elet.polimi.it) has quit (Quit: Bye)
+2010-10-18 19:10:16	-->	earcar (~carmine@93-39-208-53.ip77.fastwebnet.it) has joined #scipy
+2010-10-18 19:11:39	-->	seberg (~sebastian@vpn-3030.gwdg.de) has joined #scipy
+2010-10-18 19:15:11	-->	Fandekasp (~Fandekasp@94-194-207-230.zone8.bethere.co.uk) has joined #scipy
+2010-10-18 19:19:39	<--	seberg (~sebastian@vpn-3030.gwdg.de) has quit (Ping timeout: 265 seconds)
+2010-10-18 19:28:25	<--	howlymowly (~quassel@ppp-93-104-184-59.dynamic.mnet-online.de) has quit (Read error: Connection reset by peer)
+2010-10-18 19:32:50	-->	howlymowly (~quassel@ppp-93-104-184-59.dynamic.mnet-online.de) has joined #scipy
+2010-10-18 19:34:59	<--	earcar (~carmine@93-39-208-53.ip77.fastwebnet.it) has quit (Quit: bye)
+2010-10-18 19:36:49	-->	seberg (~sebastian@vpn-3167.gwdg.de) has joined #scipy
+2010-10-18 19:43:13	-->	aghisla (~anne@77.72.196.102) has joined #scipy
+2010-10-18 19:50:58	-->	earcar (~carmine@93-39-208-53.ip77.fastwebnet.it) has joined #scipy
+2010-10-18 19:52:59	<--	earcar (~carmine@93-39-208-53.ip77.fastwebnet.it) has quit (Client Quit)
+2010-10-18 19:54:06	<--	seberg (~sebastian@vpn-3167.gwdg.de) has quit (Ping timeout: 276 seconds)
+2010-10-18 22:18:27		irc: disconnected from server
+2010-10-18 22:19:15	-->	quesada (~quesada@e178205021.adsl.alicedsl.de) has joined #scipy
+2010-10-18 22:19:15	--	Topic for #scipy is "SciPy - http://www.scipy.org -- Conversations about NumPy and SciPy"
+2010-10-18 22:19:15	--	Topic set by unknown on Thu, 29 May 2008 21:24:17
+2010-10-18 22:19:15	--	Nicks #scipy: [@ChanServ Aisling alvaro_o blubbi cods Dar1us Dennis84_ drizzd dropdrive esc Fandekasp flupke_ heewa Hodgestar howlymowly JamesHarrison janneb jesusabdullah korep kpal kurtsmith morph_ papna-work phish3 quesada ragloublog sebleier setog3 slabanja WoLpH xian]
+2010-10-18 22:19:15	--	Channel #scipy: 31 nicks (1 op, 0 halfops, 0 voices, 30 normals)
+2010-10-18 22:19:27	--	Channel created on Wed, 12 Dec 2007 23:29:09
+2010-10-18 22:22:16	<--	ragloublog (~quassel@was59-3-82-236-50-86.fbx.proxad.net) has quit (Ping timeout: 245 seconds)
+2010-10-18 22:22:25	-->	ragloublog (~quassel@was59-3-82-236-50-86.fbx.proxad.net) has joined #scipy
+2010-10-18 22:35:51	<--	ragloublog (~quassel@was59-3-82-236-50-86.fbx.proxad.net) has quit (Quit: No Ping reply in 180 seconds.)
+2010-10-18 22:36:07	-->	ragloublog (~quassel@was59-3-82-236-50-86.fbx.proxad.net) has joined #scipy
+2010-10-18 22:41:29	-->	seberg (~sebastian@vpn-3075.gwdg.de) has joined #scipy
+2010-10-18 22:59:43	heewa	I think I narrowed it down: when I give it only a few data points that are far apart (relative to their scale), both in x & y, it crashes. My guess: it's dividing by zero, probably because of floating point precision limits or something.
+2010-10-18 23:01:48	<--	howlymowly (~quassel@ppp-93-104-184-59.dynamic.mnet-online.de) has quit (Read error: Connection reset by peer)
+2010-10-18 23:03:14	-->	howlymowly (~quassel@ppp-93-104-184-59.dynamic.mnet-online.de) has joined #scipy
+2010-10-18 23:04:34	<--	ragloublog (~quassel@was59-3-82-236-50-86.fbx.proxad.net) has quit (Quit: No Ping reply in 180 seconds.)
+2010-10-18 23:04:48	-->	ragloublog (~quassel@was59-3-82-236-50-86.fbx.proxad.net) has joined #scipy
+2010-10-18 23:10:22	<--	kurtsmith (~chatzilla@ksmith.physics.wisc.edu) has quit (Quit: ChatZilla 0.9.86 [Firefox 3.6.10/20100914120618])
+2010-10-18 23:11:47	-->	xian_ (xian@we-are-the-b.org) has joined #scipy
+2010-10-18 23:14:09	<--	esc (esc@unaffiliated/esc) has quit (Read error: Connection reset by peer)
+2010-10-18 23:16:02	<--	xian (xian@we-are-the-b.org) has quit (*.net *.split)
+2010-10-18 23:19:17	-->	esc_ (esc@unaffiliated/esc) has joined #scipy
+2010-10-18 23:31:57	-->	mark86 (~mark86@static-96-229-173-44.lsanca.fios.verizon.net) has joined #scipy
+2010-10-18 23:34:24	<--	seberg (~sebastian@vpn-3075.gwdg.de) has quit (Ping timeout: 255 seconds)
+2010-10-18 23:47:07	-->	seberg (~sebastian@vpn-3075.gwdg.de) has joined #scipy
+2010-10-18 23:49:37	<--	mark86 (~mark86@static-96-229-173-44.lsanca.fios.verizon.net) has quit
+2010-10-18 23:53:31	<--	seberg (~sebastian@vpn-3075.gwdg.de) has quit (Ping timeout: 240 seconds)
+2010-10-19 00:01:23	<--	heewa (~heewa@ip67-152-23-98.z23-152-67.customer.algx.net) has quit (Quit: Leaving.)
+2010-10-19 00:06:39	-->	seberg (~sebastian@vpn-3075.gwdg.de) has joined #scipy
+2010-10-19 00:28:38	<--	seberg (~sebastian@vpn-3075.gwdg.de) has quit (Ping timeout: 252 seconds)
+2010-10-19 00:34:39	-->	plediii (~plediii@nat-128-42-153-214.rice.edu) has joined #scipy
+2010-10-19 00:35:36	-->	epifanio (~chatzilla@host117-156-dynamic.16-87-r.retail.telecomitalia.it) has joined #scipy
+2010-10-19 01:05:06	<--	howlymowly (~quassel@ppp-93-104-184-59.dynamic.mnet-online.de) has quit (Read error: Connection reset by peer)
+2010-10-19 01:07:12	-->	howlymowly (~quassel@ppp-93-104-184-59.dynamic.mnet-online.de) has joined #scipy
+2010-10-19 03:00:57	-->	howlymowly_ (~quassel@ppp-188-174-78-71.dynamic.mnet-online.de) has joined #scipy
+2010-10-19 03:04:50	<--	howlymowly (~quassel@ppp-93-104-184-59.dynamic.mnet-online.de) has quit (Ping timeout: 252 seconds)
+2010-10-19 03:52:18	-->	luizirber (~luizirber@187.39.189.160) has joined #scipy
+2010-10-19 03:59:00	-->	howlymowly (~quassel@ppp-93-104-92-209.dynamic.mnet-online.de) has joined #scipy
+2010-10-19 04:03:08	<--	howlymowly_ (~quassel@ppp-188-174-78-71.dynamic.mnet-online.de) has quit (Ping timeout: 252 seconds)
+2010-10-19 04:56:17		irc: disconnected from server
+2010-10-19 04:57:07	-->	quesada2 (~quesada@e178192137.adsl.alicedsl.de) has joined #scipy
+2010-10-19 04:57:07	--	Topic for #scipy is "SciPy - http://www.scipy.org -- Conversations about NumPy and SciPy"
+2010-10-19 04:57:07	--	Topic set by unknown on Thu, 29 May 2008 21:24:17
+2010-10-19 04:57:07	--	Nicks #scipy: [@ChanServ Aisling alvaro_o blubbi cods Dar1us Dennis84_ drizzd dropdrive epifanio esc_ Fandekasp flupke_ Hodgestar howlymowly JamesHarrison janneb jesusabdullah korep kpal luizirber morph_ papna-work phish3 plediii quesada quesada2 ragloublog sebleier setog3 slabanja WoLpH xian_]
+2010-10-19 04:57:07	--	Channel #scipy: 33 nicks (1 op, 0 halfops, 0 voices, 32 normals)
+2010-10-19 04:57:19	--	Channel created on Wed, 12 Dec 2007 23:29:09
+2010-10-19 04:59:20	<--	quesada (~quesada@e178205021.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-19 05:06:43	<--	luizirber (~luizirber@187.39.189.160) has quit (Quit: luizirber)
+2010-10-19 05:31:36	<--	howlymowly (~quassel@ppp-93-104-92-209.dynamic.mnet-online.de) has quit (Read error: Connection reset by peer)
+2010-10-19 06:31:11	<--	cods (~cods@rsbac/developer/cods) has quit (Ping timeout: 250 seconds)
+2010-10-19 07:21:37	-->	Ademan (~dan@adsl-75-36-251-167.dsl.pltn13.sbcglobal.net) has joined #scipy
+2010-10-19 07:43:00	<--	ragloublog (~quassel@was59-3-82-236-50-86.fbx.proxad.net) has quit (Ping timeout: 265 seconds)
+2010-10-19 07:48:54	<--	Dennis84_ (~dennis@mail.it-moebius.de) has quit (Remote host closed the connection)
+2010-10-19 08:32:14	-->	aghisla (~anne@194.105.53.1) has joined #scipy
+2010-10-19 08:49:06	-->	vimes656 (~danny@67.207.141.179) has joined #scipy
+2010-10-19 08:50:51	-->	baali (~baali@static.88-198-40-10.clients.your-server.de) has joined #scipy
+2010-10-19 09:07:53	-->	cods (~cods@tuxee.net) has joined #scipy
+2010-10-19 09:13:06	<--	cods (~cods@tuxee.net) has quit (Changing host)
+2010-10-19 09:13:06	-->	cods (~cods@rsbac/developer/cods) has joined #scipy
+2010-10-19 09:51:45	-->	earcar (~carmine@93-39-208-53.ip77.fastwebnet.it) has joined #scipy
+2010-10-19 09:57:39	<--	Ademan (~dan@adsl-75-36-251-167.dsl.pltn13.sbcglobal.net) has quit (Quit: leaving)
+2010-10-19 10:23:51	--	sebleier is now known as sebleier|away
+2010-10-19 10:42:10	-->	Dynetrekk (~Dynetrekk@2001:700:300:1015:222:41ff:fe36:dd7e) has joined #scipy
+2010-10-19 10:42:55	Dynetrekk	hi. I get a numpy warning: ComplexWarning: Casting complex values to real.... I understand the meaning, but I am unable to locate the line of code that causes the offending warning. how can I locate it? is there a way to make warnings raise an exception?
+2010-10-19 10:46:04	-->	drnlm (~neil@lagrange.tlabs.ac.za) has joined #scipy

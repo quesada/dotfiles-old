@@ -1,3 +1,4 @@
 [EmbedSettings]
 embed-application/xml=false
+embed-text/html=false
 embed-text/x-python=false

@@ -6,8 +6,8 @@
 \unbind "M-S-Left" "depth-decrement"
 \unbind "C-s" "buffer-write"
 \unbind "F2" "buffer-write"
+\unbind "M-p 4" "layout Subsubsection"
 
-\bind "C-slash" "note-insert"
 \bind "C-S-a" "buffer-write-all"
 \bind "C-p" "completion-accept"
 \bind "M-Right" "depth-increment"
@@ -18,6 +18,12 @@
 \bind "C-5" "layout-paragraph"
 \bind "M-5" "layout Standard"
 \bind "C-s" "buffer-write-all"
-\bind "F2" "toolbar-toggle"
+\bind "F2" "dialog-toggle toc"
 \bind "C-backslash" "marginalnote-insert"
+\bind "C-M-s" "buffer-export"
+\bind "M-4" "layout Subsubsection"
+\bind "M-m" "ui-toggle menubar"
+\bind "M-comma" "ui-toggle statusbar"
+\bind "M-k" "ui-toggle toolbar"
+\bind "C-slash" "note-insert comment"
 

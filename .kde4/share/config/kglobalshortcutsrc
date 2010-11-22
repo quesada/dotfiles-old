@@ -1,6 +1,10 @@
 [$Version]
 update_info=kwin_window_shortcuts.upd:kde414,plasma-to-plasmadesktop-shortcuts.upd:4.3plasma-desktop-shortcuts,ksmserver_shortcuts.upd:kde45
 
+[KDE Keyboard Layout Switcher]
+Switch to Next Keyboard Layout=,Ctrl+Alt+K,Switch to Next Keyboard Layout
+_k_friendly_name=KDE Keyboard Layout Switcher
+
 [amarok]
 _k_friendly_name=amarok
 decreaseVolume=,Meta+-,Decrease Volume
@@ -59,6 +63,8 @@ spread=none,none,Spread Windows
 stopAudio=none,none,Stop Play
 
 [kded]
+Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness
+Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Increase Screen Brightness
 _k_friendly_name=kded
 display=Display,Display,Switch Display
 
@@ -69,8 +75,8 @@ _k_friendly_name=khotkeys
 [klipper]
 _k_friendly_name=klipper
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
-cycleNextAction=none,Ctrl+Alt+Down,Next history item
-cyclePrevAction=none,Ctrl+Alt+Up,Previous history item
+cycleNextAction=none,Ctrl+Alt+Down,Next History Item
+cyclePrevAction=none,Ctrl+Alt+Up,Previous History Item
 edit_clipboard=none,Ctrl+Alt+E,&Edit Contents...
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show_klipper_popup=Ctrl+Alt+V,Ctrl+Alt+V,Show Klipper Popup-Menu
@@ -169,7 +175,9 @@ _k_friendly_name=Run Command Interface
 bookmarks=none,none,Run Command (runner "Bookmarks" only)
 desktopsessions=none,none,Run Command (runner "Desktop Sessions" only)
 kabccontacts=none,none,Run Command (runner "Contacts" only)
+org.kde.windowedwidgets=none,none,Run Command (runner "Windowed widgets" only)
 solid=none,none,Run Command (runner "Devices" only)
+wikipedia=none,none,Run Command (runner "Wikipedia" only)
 windows=none,none,Run Command (runner "Windows" only)
 
 [ksmserver]
@@ -177,6 +185,7 @@ Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,Ctrl+Alt+Shift+PgDown,Halt Witho
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,Ctrl+Alt+Shift+Del,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,Ctrl+Alt+Shift+PgUp,Reboot Without Confirmation
+_k_friendly_name=ksmserver
 
 [ktorrent]
 _k_friendly_name=ktorrent
@@ -188,16 +197,27 @@ show_kt=Alt+Shift+T,Alt+Shift+T,Show/Hide KTorrent
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
 Block Global Shortcuts=none,none,Block Global Shortcuts
 Desktop Screenshot to Clipboard=Ctrl+Print,Ctrl+Print,Desktop Screenshot to Clipboard
+Enable/Disable Tiling=Alt+Shift+F11,Alt+Shift+F11,Enable/Disable Tiling
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=Ctrl+F10,Ctrl+F10,Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,Kill Window
 Mouse Emulation=Alt+F12,Alt+F12,Mouse Emulation
+Move Window Down=Meta+Shift+J,Meta+Shift+J,Move Window Down
+Move Window Left=Meta+Shift+H,Meta+Shift+H,Move Window Left
+Move Window Right=Meta+Shift+L,Meta+Shift+L,Move Window Right
+Move Window Up=Meta+Shift+K,Meta+Shift+K,Move Window Up
+Next Layout=Meta+PgDown,Meta+PgDown,Next Layout
+Previous Layout=Meta+PgUp,Meta+PgUp,Previous Layout
 Remove Window From Group=none,none,Remove Window From Group
 Setup Window Shortcut=none,none,Setup Window Shortcut
 Show Desktop=none,none,Show Desktop
 ShowDesktopGrid=Ctrl+F8,Ctrl+F8,Show Desktop Grid
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
+Switch Focus Down=Meta+J,Meta+J,Switch Focus Down
+Switch Focus Left=Meta+H,Meta+H,Switch Focus Left
+Switch Focus Right=,Meta+L,Switch Focus Right
+Switch Focus Up=Meta+K,Meta+K,Switch Focus Up
 Switch One Desktop Down=none,none,Switch One Desktop Down
 Switch One Desktop Up=none,none,Switch One Desktop Up
 Switch One Desktop to the Left=none,none,Switch One Desktop to the Left
@@ -217,10 +237,10 @@ Switch to Desktop 16=none,none,Switch to Desktop 16
 Switch to Desktop 17=none,none,Switch to Desktop 17
 Switch to Desktop 18=none,none,Switch to Desktop 18
 Switch to Desktop 19=none,none,Switch to Desktop 19
-Switch to Desktop 2=none,Ctrl+F2,Switch to Desktop 2
+Switch to Desktop 2=Ctrl+F2,Ctrl+F2,Switch to Desktop 2
 Switch to Desktop 20=none,none,Switch to Desktop 20
-Switch to Desktop 3=none,Ctrl+F3,Switch to Desktop 3
-Switch to Desktop 4=none,Ctrl+F4,Switch to Desktop 4
+Switch to Desktop 3=Ctrl+F3,Ctrl+F3,Switch to Desktop 3
+Switch to Desktop 4=Ctrl+F4,Ctrl+F4,Switch to Desktop 4
 Switch to Desktop 5=none,none,Switch to Desktop 5
 Switch to Desktop 6=none,none,Switch to Desktop 6
 Switch to Desktop 7=,none,Switch to Desktop 7
@@ -237,6 +257,7 @@ Switch to Screen 4=none,none,Switch to Screen 4
 Switch to Screen 5=none,none,Switch to Screen 5
 Switch to Screen 6=none,none,Switch to Screen 6
 Switch to Screen 7=none,none,Switch to Screen 7
+Toggle Floating=Meta+F,Meta+F,Toggle Floating
 Toggle Window Raise/Lower=none,none,Toggle Window Raise/Lower
 Walk Through Desktop List=none,none,Walk Through Desktop List
 Walk Through Desktop List (Reverse)=none,none,Walk Through Desktop List (Reverse)
@@ -324,10 +345,15 @@ Lancelot=Alt+F5,Alt+F5,Open Lancelot menu
 _k_friendly_name=lancelot
 
 [plasma-desktop]
+Next Activity=Meta+Tab,Meta+Tab,Next Activity
+Previous Activity=Meta+Shift+Tab,Meta+Shift+Tab,Previous Activity
 Show Dashboard=Ctrl+F12,Ctrl+F12,Show Dashboard
 _k_friendly_name=plasma-desktop
+activate widget 31=none,none,Activate Notifications Widget
+activate widget 32=none,none,Activate Network Management Widget
 activate widget 4=Alt+F1,Alt+F1,Activate Application Launcher Widget
 activate widget 6=Ctrl+1,Ctrl+1,Activate Task Manager Widget
+manage activities=Meta+Q,Meta+Q,Activities...
 
 [yakuake]
 _k_friendly_name=yakuake

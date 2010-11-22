@@ -2,93 +2,93 @@
 update_info=mouse_cursor_theme.upd:kde3.4.99,kwin.upd:kde3.2Xinerama,kded.upd:kde3.0,kaccel.upd:kde3.3/r1
 
 [ColorEffects:Disabled]
-Color=56,56,56
+Color=48,43,30
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
-IntensityAmount=0.1
+IntensityAmount=0.25
 IntensityEffect=2
 
 [ColorEffects:Inactive]
-Color=112,111,110
-ColorAmount=0.025
-ColorEffect=-2
-ContrastAmount=0.1
+Color=227,170,0
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.25
 ContrastEffect=-2
 Enable=false
-IntensityAmount=0
-IntensityEffect=0
+IntensityAmount=0.05
+IntensityEffect=-2
 
 [Colors:Button]
-BackgroundAlternate=224,223,222
-BackgroundNormal=207,204,201
-DecorationFocus=58,167,221
-DecorationHover=110,214,255
-ForegroundActive=255,128,224
-ForegroundInactive=137,136,135
-ForegroundLink=0,87,174
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=27,25,24
-ForegroundPositive=0,110,40
-ForegroundVisited=100,74,155
+BackgroundAlternate=90,98,109
+BackgroundNormal=73,73,73
+DecorationFocus=77,93,108
+DecorationHover=213,213,198
+ForegroundActive=255,255,255
+ForegroundInactive=135,143,154
+ForegroundLink=137,202,203
+ForegroundNegative=211,137,188
+ForegroundNeutral=77,93,108
+ForegroundNormal=213,213,198
+ForegroundPositive=95,173,134
+ForegroundVisited=64,128,255
 
 [Colors:Selection]
-BackgroundAlternate=62,138,204
-BackgroundNormal=67,172,232
-DecorationFocus=58,167,221
-DecorationHover=110,214,255
-ForegroundActive=255,128,224
-ForegroundInactive=165,193,228
-ForegroundLink=0,49,110
-ForegroundNegative=156,14,14
-ForegroundNeutral=255,221,0
-ForegroundNormal=255,255,255
-ForegroundPositive=128,255,128
-ForegroundVisited=69,40,134
+BackgroundAlternate=111,126,144
+BackgroundNormal=213,213,198
+DecorationFocus=77,93,108
+DecorationHover=213,213,198
+ForegroundActive=255,255,255
+ForegroundInactive=174,192,218
+ForegroundLink=137,202,203
+ForegroundNegative=211,137,188
+ForegroundNeutral=77,93,108
+ForegroundNormal=61,61,61
+ForegroundPositive=95,173,134
+ForegroundVisited=64,128,255
 
 [Colors:Tooltip]
-BackgroundAlternate=196,224,255
-BackgroundNormal=190,223,255
-DecorationFocus=58,167,221
-DecorationHover=110,214,255
-ForegroundActive=255,128,224
-ForegroundInactive=137,136,135
-ForegroundLink=0,87,174
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=37,35,33
-ForegroundPositive=0,110,40
-ForegroundVisited=100,74,155
+BackgroundAlternate=171,181,195
+BackgroundNormal=182,193,208
+DecorationFocus=77,93,108
+DecorationHover=213,213,198
+ForegroundActive=255,255,255
+ForegroundInactive=112,118,128
+ForegroundLink=137,202,203
+ForegroundNegative=211,137,188
+ForegroundNeutral=77,93,108
+ForegroundNormal=42,44,48
+ForegroundPositive=95,173,134
+ForegroundVisited=46,95,185
 
 [Colors:View]
-BackgroundAlternate=248,247,246
-BackgroundNormal=255,255,255
-DecorationFocus=58,167,221
-DecorationHover=110,214,255
-ForegroundActive=255,128,224
-ForegroundInactive=137,136,135
-ForegroundLink=0,87,174
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=24,22,21
-ForegroundPositive=0,110,40
-ForegroundVisited=100,74,155
+BackgroundAlternate=67,71,80
+BackgroundNormal=77,77,77
+DecorationFocus=77,93,108
+DecorationHover=213,213,198
+ForegroundActive=255,255,255
+ForegroundInactive=135,143,154
+ForegroundLink=137,202,203
+ForegroundNegative=211,137,188
+ForegroundNeutral=77,93,108
+ForegroundNormal=213,213,198
+ForegroundPositive=95,173,134
+ForegroundVisited=64,128,255
 
 [Colors:Window]
-BackgroundAlternate=218,217,216
-BackgroundNormal=213,209,207
-DecorationFocus=58,167,221
-DecorationHover=110,214,255
-ForegroundActive=255,128,224
-ForegroundInactive=137,136,135
-ForegroundLink=0,87,174
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=27,25,24
-ForegroundPositive=0,110,40
-ForegroundVisited=100,74,155
+BackgroundAlternate=78,83,94
+BackgroundNormal=61,61,61
+DecorationFocus=77,93,108
+DecorationHover=213,213,198
+ForegroundActive=255,255,255
+ForegroundInactive=135,143,154
+ForegroundLink=137,202,203
+ForegroundNegative=211,137,188
+ForegroundNeutral=77,93,108
+ForegroundNormal=213,213,198
+ForegroundPositive=95,173,134
+ForegroundVisited=64,128,255
 
 [DirSelect Dialog]
 DirSelectDialog Size=844,551
@@ -96,16 +96,19 @@ History Items[$e]=file://$HOME/Downloads/The Office Season 5 DvDrip-McTav,file:/
 
 [General]
 BrowserApplication=chromium-chromium.desktop
+ColorScheme=Zenburn
+XftAntialias=true
 XftHintStyle=hintmedium
+XftSubPixel=none
 desktopFont=FreeSans,12,-1,5,50,0,0,0,0,0
 fixed=Monospace,12,-1,5,50,0,0,0,0,0
-font=FreeSans,10,-1,5,50,0,0,0,0,0
-menuFont=FreeSans,10,-1,5,50,0,0,0,0,0
+font=FreeSans,9,-1,5,50,0,0,0,0,0
+menuFont=FreeSans,9,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=FreeSans,9,-1,5,50,0,0,0,0,0
+smallestReadableFont=FreeSans,8,-1,5,50,0,0,0,0,0
 taskbarFont=FreeSans,12,-1,5,50,0,0,0,0,0
-toolBarFont=FreeSans,11,-1,5,50,0,0,0,0,0
-widgetStyle=oxygen
+toolBarFont=FreeSans,9,-1,5,50,0,0,0,0,0
+widgetStyle=qtcurve
 
 [KDE]
 AutoSelectDelay=1064
@@ -129,7 +132,7 @@ Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Previews=false
-Recent URLs[$e]=$HOME/.mc/,$HOME/Dropbox/,$HOME/down/,$HOME/pdf/,$HOME/essayGrading/,$HOME/noteslyx/,$HOME/noteslyx/wcogs/
+Recent URLs[$e]=$HOME/Dropbox/wcogs/exist.de/,$HOME/Dropbox/wcogs/literature/essayGrading/,$HOME/Dropbox/wcogs/literature/,/data/music/mp3/Aimee Mann - Magnolia Soundtrack - 192 kbps - inkl. Covers - by tictactoe65/,$HOME/Dropbox/wcogs/,$HOME/pdf/,$HOME/down/,$HOME/german/
 Show Bookmarks=false
 Show Full Path=false
 Show Preview=false
@@ -138,13 +141,14 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=169
+Speedbar Width=170
 View Style=Simple
 
 [KShortcutsDialog Settings]
-Dialog Size=1081,763
+Dialog Size=600,480
 
 [PreviewSettings]
+MaximumRemoteSize=0
 MaximumSize=5242880
 UseFileThumbnails=true
 
@@ -153,8 +157,8 @@ ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
-activeBackground=48,174,232
+activeBackground=138,151,166
 activeFont=FreeSans,12,-1,5,50,0,0,0,0,0
-activeForeground=255,255,255
-inactiveBackground=224,223,222
-inactiveForeground=75,71,67
+activeForeground=224,237,255
+inactiveBackground=82,89,99
+inactiveForeground=140,152,168

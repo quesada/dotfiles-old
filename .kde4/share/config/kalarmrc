@@ -4,6 +4,8 @@ update_info=kalarm.upd:1.9.5,kalarm.upd:1.9.9,kalarm.upd:1.9.12,kalarm.upd:2.0.0
 [EditDialog]
 Height 1152=560
 Height 1200=490
+Height 900=531
+Width 1600=567
 Width 1920=656
 Width 2048=679
 Width 3968=604
@@ -13,7 +15,9 @@ AutoStart=true
 
 [KFileDialog Settings]
 Height 1200=660
-Recent Files[$e]=02 ~ Concerto No.1 in Bb -II- Adagio.ogg,/data/music/porta-lossless/ogg/Albinoni - 12 Concertos\\, op. 9 - AAM - Christopher Hogwood (EAC FLAC)/Disc 1/02 ~ Concerto No.1 in Bb -II- Adagio.ogg
+Height 900=630
+Recent Files[$e]=02 ~ Concerto No.1 in Bb -II- Adagio.ogg,/data/music/mp3/Aimee Mann - Magnolia Soundtrack - 192 kbps - inkl. Covers - by tictactoe65/12 - Magnolia - Jon Brion.mp3
+Width 1600=1008
 Width 1920=1056
 
 [MainWindow]

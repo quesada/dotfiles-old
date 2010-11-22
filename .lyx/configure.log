@@ -72,47 +72,21 @@ INFO: checking for a raster image viewer...
 INFO: +checking for "xv"...  no
 INFO: +checking for "kview"...  no
 INFO: +checking for "gimp-remote"...  no
-INFO: +checking for "gimp"...  yes
-DEBUG: Add to RC:
-\viewer_alternatives bmp gimp
-\viewer_alternatives gif gimp
-\viewer_alternatives jpg gimp
-\viewer_alternatives pbm gimp
-\viewer_alternatives pgm gimp
-\viewer_alternatives png gimp
-\viewer_alternatives ppm gimp
-\viewer_alternatives tiff gimp
-\viewer_alternatives xbm gimp
-\viewer_alternatives xpm gimp
-
-
+INFO: +checking for "gimp"...  no
 INFO: checking for a raster image editor...
 INFO: +checking for "gimp-remote"...  no
-INFO: +checking for "gimp"...  yes
+INFO: +checking for "gimp"...  no
 DEBUG: Add to RC:
-\editor_alternatives bmp gimp
-\editor_alternatives gif gimp
-\editor_alternatives jpg gimp
-\editor_alternatives pbm gimp
-\editor_alternatives pgm gimp
-\editor_alternatives png gimp
-\editor_alternatives ppm gimp
-\editor_alternatives tiff gimp
-\editor_alternatives xbm gimp
-\editor_alternatives xpm gimp
-
-
-DEBUG: Add to RC:
-\Format bmp        bmp     BMP                    "" "gimp"	"gimp"	""
-\Format gif        gif     GIF                    "" "gimp"	"gimp"	""
-\Format jpg        jpg     JPEG                   "" "gimp"	"gimp"	""
-\Format pbm        pbm     PBM                    "" "gimp"	"gimp"	""
-\Format pgm        pgm     PGM                    "" "gimp"	"gimp"	""
-\Format png        png     PNG                    "" "gimp"	"gimp"	""
-\Format ppm        ppm     PPM                    "" "gimp"	"gimp"	""
-\Format tiff       tif     TIFF                   "" "gimp"	"gimp"	""
-\Format xbm        xbm     XBM                    "" "gimp"	"gimp"	""
-\Format xpm        xpm     XPM                    "" "gimp"	"gimp"	""
+\Format bmp        bmp     BMP                    "" "auto"	"auto"	""
+\Format gif        gif     GIF                    "" "auto"	"auto"	""
+\Format jpg        jpg     JPEG                   "" "auto"	"auto"	""
+\Format pbm        pbm     PBM                    "" "auto"	"auto"	""
+\Format pgm        pgm     PGM                    "" "auto"	"auto"	""
+\Format png        png     PNG                    "" "auto"	"auto"	""
+\Format ppm        ppm     PPM                    "" "auto"	"auto"	""
+\Format tiff       tif     TIFF                   "" "auto"	"auto"	""
+\Format xbm        xbm     XBM                    "" "auto"	"auto"	""
+\Format xpm        xpm     XPM                    "" "auto"	"auto"	""
 
 
 INFO: checking for a text editor...
@@ -131,6 +105,7 @@ DEBUG: Add to RC:
 \editor_alternatives literate gvim
 \editor_alternatives sweave gvim
 \editor_alternatives lilypond gvim
+\editor_alternatives lilypond-book gvim
 \editor_alternatives latex gvim
 \editor_alternatives pdflatex gvim
 \editor_alternatives xetex gvim
@@ -155,6 +130,7 @@ DEBUG: Add to RC:
 \editor_alternatives literate kwrite
 \editor_alternatives sweave kwrite
 \editor_alternatives lilypond kwrite
+\editor_alternatives lilypond-book kwrite
 \editor_alternatives latex kwrite
 \editor_alternatives pdflatex kwrite
 \editor_alternatives xetex kwrite
@@ -178,6 +154,7 @@ DEBUG: Add to RC:
 \editor_alternatives literate kate
 \editor_alternatives sweave kate
 \editor_alternatives lilypond kate
+\editor_alternatives lilypond-book kate
 \editor_alternatives latex kate
 \editor_alternatives pdflatex kate
 \editor_alternatives xetex kate
@@ -189,29 +166,7 @@ DEBUG: Add to RC:
 
 
 INFO: +checking for "nedit"...  no
-INFO: +checking for "gedit"...  yes
-DEBUG: Add to RC:
-\editor_alternatives asciichess gedit
-\editor_alternatives asciiimage gedit
-\editor_alternatives asciixfig gedit
-\editor_alternatives dateout gedit
-\editor_alternatives docbook gedit
-\editor_alternatives docbook-xml gedit
-\editor_alternatives dot gedit
-\editor_alternatives platex gedit
-\editor_alternatives literate gedit
-\editor_alternatives sweave gedit
-\editor_alternatives lilypond gedit
-\editor_alternatives latex gedit
-\editor_alternatives pdflatex gedit
-\editor_alternatives xetex gedit
-\editor_alternatives text gedit
-\editor_alternatives text2 gedit
-\editor_alternatives text3 gedit
-\editor_alternatives text4 gedit
-\editor_alternatives textparagraph gedit
-
-
+INFO: +checking for "gedit"...  no
 INFO: +checking for "notepad"...  yes
 DEBUG: Add to RC:
 \editor_alternatives asciichess notepad
@@ -225,6 +180,7 @@ DEBUG: Add to RC:
 \editor_alternatives literate notepad
 \editor_alternatives sweave notepad
 \editor_alternatives lilypond notepad
+\editor_alternatives lilypond-book notepad
 \editor_alternatives latex notepad
 \editor_alternatives pdflatex notepad
 \editor_alternatives xetex notepad
@@ -251,6 +207,7 @@ DEBUG: Add to RC:
 \Format literate   nw      NoWeb                  N  ""	"gvim"	"document"
 \Format sweave     Rnw    "Sweave"                S  "" "gvim"    "document"
 \Format lilypond   ly     "LilyPond music"        "" ""	"gvim"	"vector"
+\Format lilypond-book    lytex "LilyPond book (LaTeX)"   "" ""	"gvim"	"document"
 \Format latex      tex    "LaTeX (plain)"         L  ""	"gvim"	"document"
 \Format pdflatex   tex    "LaTeX (pdflatex)"      "" ""	"gvim"	"document"
 \Format xetex      tex    "LaTeX (XeTeX)"         "" ""	"gvim"	"document"
@@ -273,6 +230,7 @@ DEBUG: Add to RC:
 \viewer_alternatives literate gvim
 \viewer_alternatives sweave gvim
 \viewer_alternatives lilypond gvim
+\viewer_alternatives lilypond-book gvim
 \viewer_alternatives latex gvim
 \viewer_alternatives pdflatex gvim
 \viewer_alternatives xetex gvim
@@ -297,6 +255,7 @@ DEBUG: Add to RC:
 \viewer_alternatives literate kwrite
 \viewer_alternatives sweave kwrite
 \viewer_alternatives lilypond kwrite
+\viewer_alternatives lilypond-book kwrite
 \viewer_alternatives latex kwrite
 \viewer_alternatives pdflatex kwrite
 \viewer_alternatives xetex kwrite
@@ -320,6 +279,7 @@ DEBUG: Add to RC:
 \viewer_alternatives literate kate
 \viewer_alternatives sweave kate
 \viewer_alternatives lilypond kate
+\viewer_alternatives lilypond-book kate
 \viewer_alternatives latex kate
 \viewer_alternatives pdflatex kate
 \viewer_alternatives xetex kate
@@ -331,29 +291,7 @@ DEBUG: Add to RC:
 
 
 INFO: +checking for "nedit"...  no
-INFO: +checking for "gedit"...  yes
-DEBUG: Add to RC:
-\viewer_alternatives asciichess gedit
-\viewer_alternatives asciiimage gedit
-\viewer_alternatives asciixfig gedit
-\viewer_alternatives dateout gedit
-\viewer_alternatives docbook gedit
-\viewer_alternatives docbook-xml gedit
-\viewer_alternatives dot gedit
-\viewer_alternatives platex gedit
-\viewer_alternatives literate gedit
-\viewer_alternatives sweave gedit
-\viewer_alternatives lilypond gedit
-\viewer_alternatives latex gedit
-\viewer_alternatives pdflatex gedit
-\viewer_alternatives xetex gedit
-\viewer_alternatives text gedit
-\viewer_alternatives text2 gedit
-\viewer_alternatives text3 gedit
-\viewer_alternatives text4 gedit
-\viewer_alternatives textparagraph gedit
-
-
+INFO: +checking for "gedit"...  no
 INFO: +checking for "notepad"...  yes
 DEBUG: Add to RC:
 \viewer_alternatives asciichess notepad
@@ -367,6 +305,7 @@ DEBUG: Add to RC:
 \viewer_alternatives literate notepad
 \viewer_alternatives sweave notepad
 \viewer_alternatives lilypond notepad
+\viewer_alternatives lilypond-book notepad
 \viewer_alternatives latex notepad
 \viewer_alternatives pdflatex notepad
 \viewer_alternatives xetex notepad
@@ -426,11 +365,7 @@ DEBUG: Add to RC:
 
 
 INFO: +checking for "nedit"...  no
-INFO: +checking for "gedit"...  yes
-DEBUG: Add to RC:
-\editor_alternatives bibtex gedit
-
-
+INFO: +checking for "gedit"...  no
 INFO: +checking for "notepad"...  yes
 DEBUG: Add to RC:
 \editor_alternatives bibtex notepad
@@ -483,14 +418,7 @@ DEBUG: Add to RC:
 
 
 INFO: +checking for "kghostview"...  no
-INFO: +checking for "xpdf"...  yes
-DEBUG: Add to RC:
-\viewer_alternatives pdf xpdf
-\viewer_alternatives pdf2 xpdf
-\viewer_alternatives pdf3 xpdf
-\viewer_alternatives pdf4 xpdf
-
-
+INFO: +checking for "xpdf"...  no
 INFO: +checking for "acrobat"...  no
 INFO: +checking for "acroread"...  no
 INFO: +checking for "gv"...  no
@@ -600,14 +528,15 @@ DEBUG: Add to RC:
 \Format csv        csv    "Table (CSV)"  "" ""	""	"document"
 \Format fax        ""      Fax                    "" ""	""	"document"
 \Format lyx        lyx     LyX                    "" ""	""	""
-\Format lyx13x     lyx13  "LyX 1.3.x"             "" ""	""	"document"
-\Format lyx14x     lyx14  "LyX 1.4.x"             "" ""	""	"document"
-\Format lyx15x     lyx15  "LyX 1.5.x"             "" ""	""	"document"
-\Format lyx16x     lyx16  "LyX 1.6.x"             "" ""	""	"document"
+\Format lyx13x     13.lyx  "LyX 1.3.x"             "" ""	""	"document"
+\Format lyx14x     14.lyx  "LyX 1.4.x"             "" ""	""	"document"
+\Format lyx15x     15.lyx  "LyX 1.5.x"             "" ""	""	"document"
+\Format lyx16x     16.lyx  "LyX 1.6.x"             "" ""	""	"document"
 \Format clyx       cjklyx "CJK LyX 1.4.x (big5)"  "" ""	""	"document"
 \Format jlyx       cjklyx "CJK LyX 1.4.x (euc-jp)" "" ""	""	"document"
 \Format klyx       cjklyx "CJK LyX 1.4.x (euc-kr)" "" ""	""	"document"
 \Format lyxpreview lyxpreview "LyX Preview"       "" ""	""	""
+\Format lyxpreview-lytex  lyxpreview-lytex  "LyX Preview (LilyPond book)" "" ""	""	""
 \Format lyxpreview-platex lyxpreview-platex "LyX Preview (pLaTeX)"       "" ""	""	""
 \Format pdftex     pdftex_t PDFTEX                "" ""	""	""
 \Format program    ""      Program                "" ""	""	""
@@ -645,10 +574,10 @@ DEBUG: Add to RC:
 
 
 INFO: checking for a Sweave -> LaTeX converter...
-INFO: +checking for "R"...  yes
+INFO: +checking for "Rscript"...  yes
 DEBUG: Add to RC:
-\converter sweave   latex      "R CMD Sweave $$i"	""
-\converter sweave   pdflatex      "R CMD Sweave $$i"	""
+\converter sweave   latex      "Rscript --vanilla $$s/scripts/lyxsweave.R $$i $$e"	""
+\converter sweave   pdflatex      "Rscript --vanilla $$s/scripts/lyxsweave.R $$i $$e"	""
 
 
 INFO: checking for an HTML -> LaTeX converter...
@@ -772,15 +701,16 @@ DEBUG: Add to RC:
 
 
 INFO: checking for a DVI to PDF converter...
-INFO: +checking for "dvipdfmx"...  yes
+INFO: +checking for "dvipdfmx"...  no
+INFO: +checking for "dvipdfm"...  no
 DEBUG: Add to RC:
-\converter dvi        pdf3       "dvipdfmx -o $$o $$i"	""
+\converter dvi        pdf3       ""	""
 
 
 INFO: checking for dvipng...
-INFO: +checking for "dvipng"...  yes
+INFO: +checking for "dvipng"...  no
 DEBUG: Add to RC:
-\converter lyxpreview png        "python -tt $$s/scripts/lyxpreview2bitmap.py"	""
+\converter lyxpreview png        ""	""
 
 
 INFO: checking for a fax program...
@@ -853,6 +783,8 @@ DEBUG: Add to RC:
 
 INFO: checking for a LilyPond -> EPS/PDF/PNG converter...
 INFO: +checking for "lilypond"...  no
+INFO: checking for a LilyPond book (LaTeX) -> LaTeX converter...
+INFO: +checking for "lilypond-book"...  no
 INFO: checking for a Noteedit -> LilyPond converter...
 INFO: +checking for "noteedit"...  no
 DEBUG: Add to RC:
@@ -917,11 +849,9 @@ DEBUG: Add to RC:
 
 INFO: +checking for "biber"...  no
 INFO: checking for a specific Japanese BibTeX variant...
-INFO: +checking for "pbibtex"...  no
-INFO: +checking for "jbibtex"...  no
-INFO: +checking for "bibtex"...  yes
+INFO: +checking for "pbibtex"...  yes
 DEBUG: Add to RC:
-\jbibtex_command "bibtex"
+\jbibtex_command "pbibtex"
 
 
 INFO: checking for available index processors...
@@ -936,11 +866,9 @@ DEBUG: Add to RC:
 
 
 INFO: checking for an index processor appropriate to Japanese...
-INFO: +checking for "mendex"...  no
-INFO: +checking for "jmakeindex"...  no
-INFO: +checking for "makeindex"...  yes
+INFO: +checking for "mendex"...  yes
 DEBUG: Add to RC:
-\jindex_command "makeindex -c -q"
+\jindex_command "mendex -c -q"
 
 
 INFO: checking for the splitindex processor...
@@ -980,30 +908,34 @@ DEBUG: Add to RC:
 DEBUG: Removing file lyxmodules.lst
 DEBUG: Failed to remove file chkmodules.tex
 INFO: +checking list of modules... 
-INFO: /home/quesada/bin/share/lyx/layouts/figs-within-sections.module
-INFO: /home/quesada/bin/share/lyx/layouts/endnotes.module
-INFO: /home/quesada/bin/share/lyx/layouts/theorems-sec-bytype.module
-INFO: /home/quesada/bin/share/lyx/layouts/sweave.module
-INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams.module
-INFO: /home/quesada/bin/share/lyx/layouts/tabs-within-sections.module
-INFO: /home/quesada/bin/share/lyx/layouts/logicalmkup.module
-INFO: /home/quesada/bin/share/lyx/layouts/braille.module
-INFO: /home/quesada/bin/share/lyx/layouts/initials.module
-INFO: /home/quesada/bin/share/lyx/layouts/theorems-chap.module
+INFO: /home/quesada/bin/share/lyx/layouts/eqs-within-sections.module
 INFO: /home/quesada/bin/share/lyx/layouts/theorems-sec.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-starred.module
+INFO: /home/quesada/bin/share/lyx/layouts/enumitem.module
+INFO: /home/quesada/bin/share/lyx/layouts/lilypond.module
 INFO: /home/quesada/bin/share/lyx/layouts/foottoend.module
-INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/linguistics.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-named.module
+INFO: /home/quesada/bin/share/lyx/layouts/figs-within-sections.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/customHeadersFooters.module
+INFO: /home/quesada/bin/share/lyx/layouts/endnotes.module
+INFO: /home/quesada/bin/share/lyx/layouts/braille.module
 INFO: /home/quesada/bin/share/lyx/layouts/theorems-chap-bytype.module
 INFO: /home/quesada/bin/share/lyx/layouts/noweb.module
-INFO: /home/quesada/bin/share/lyx/layouts/theorems-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-std.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams-extended-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/initials.module
+INFO: /home/quesada/bin/share/lyx/layouts/hanging.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-chap.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-sec-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams.module
 INFO: /home/quesada/bin/share/lyx/layouts/minimalistic.module
 INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams-extended.module
-INFO: /home/quesada/bin/share/lyx/layouts/theorems-starred.module
-INFO: /home/quesada/bin/share/lyx/layouts/theorems-std.module
-INFO: /home/quesada/bin/share/lyx/layouts/linguistics.module
-INFO: /home/quesada/bin/share/lyx/layouts/hanging.module
-INFO: /home/quesada/bin/share/lyx/layouts/eqs-within-sections.module
-INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams-extended-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/tabs-within-sections.module
+INFO: /home/quesada/bin/share/lyx/layouts/theorems-ams-bytype.module
+INFO: /home/quesada/bin/share/lyx/layouts/sweave.module
+INFO: /home/quesada/bin/share/lyx/layouts/logicalmkup.module
 INFO: 	done
 INFO: checking LaTeX configuration... 	auto
 DEBUG: Failed to remove file wrap_chkconfig.ltx
@@ -1012,7 +944,7 @@ DEBUG: Failed to remove file chkconfig.classes
 DEBUG: Failed to remove file chklayouts.tex
 INFO: +Inspecting your LaTeX configuration.
 INFO: +checking for LaTeX version... 2009/09/24
-INFO: +checking for available hyphenation patterns... english, usenglishmax, dumylang
+INFO: +checking for available hyphenation patterns... english, dumylang, nohyphenatio
 INFO: +checking for default encoding (this may take a long time)
 INFO: +  checking for ec fonts... yes
 INFO: +  checking for ec support in LaTeX format... yes
@@ -1046,6 +978,7 @@ INFO: +checking for docbook  class docbook-section...  yes
 INFO: +checking for docbook  class docbook...  yes
 INFO: +checking for document class doublecol-new [doublecol-new,amsmath.sty,amssymb.s
 INFO: +checking for document class dtk [dtk,dtklogos.sty,filecontents.sty,multicol.st
+INFO: +checking for document class ectaart [ectaart]... no
 INFO: +checking for document class egs [egs]... no
 INFO: +checking for document class elsarticle [elsarticle,natbib.sty,pifont.sty]...
 INFO: +checking for document class elsart [elsart,amssymb.sty,latexsym.sty]... no
@@ -1056,6 +989,7 @@ INFO: +checking for document class extbook [extbook]... yes
 INFO: +checking for document class extletter [extletter]... yes
 INFO: +checking for document class extreport [extreport]... yes
 INFO: +checking for document class foils [foils]... no
+INFO: +checking for document class frletter [frletter]... no
 INFO: +checking for document class g-brief2 [g-brief2,europs.sty]... no
 INFO: +checking for document class g-brief [g-brief,europs.sty]... no
 INFO: +checking for document class heb-article [article,theorem.sty]... yes
@@ -1065,10 +999,10 @@ INFO: +checking for document class ijmpc [ws-ijmpc,amsmath.sty,amssymb.sty,rotat
 INFO: +checking for document class ijmpd [ws-ijmpd,amsmath.sty,amssymb.sty,rotating.s
 INFO: +checking for document class iopart [iopart,amsmath.sty,amssymb.sty,iopams.sty,
 INFO: +checking for document class isprs [isprs,epsfig.sty,times.sty]... no
-INFO: +checking for document class jarticle [jarticle,j-article]... no
-INFO: +checking for document class jbook [jbook,j-book]... no
+INFO: +checking for document class jarticle [jarticle]... no
+INFO: +checking for document class jbook [jbook]... no
 INFO: +checking for document class jgrga [aguplus,jgrga.sty]... no
-INFO: +checking for document class jreport [jreport,j-report]... no
+INFO: +checking for document class jreport [jreport]... no
 INFO: +checking for document class jsarticle [jsarticle]... no
 INFO: +checking for document class jsbook [jsbook]... no
 INFO: +checking for document class jss [jss,ae.sty,color.sty,fancyvrb.sty,hyperref.st
@@ -1076,6 +1010,7 @@ INFO: +checking for document class kluwer [kluwer]... no
 INFO: +checking for document class larkc [larkc, book]... no
 INFO: +checking for document class latex8 [article,latex8.sty,times.sty]... no
 INFO: +checking for document class letter [letter]... yes
+INFO: +checking for document class lettre [lettre]... no
 INFO: +checking for document class literate-article [article,noweb.sty]... no
 INFO: +checking for document class literate-book [book,noweb.sty]... no
 INFO: +checking for document class literate-report [report,noweb.sty]... no
@@ -1117,11 +1052,13 @@ INFO: +checking for document class tbook [tbook,plext.sty]... no
 INFO: +checking for document class treport [treport,plext.sty]... no
 INFO: +checking for document class tufte-book [tufte-book,bibentry.sty,fancyhdr.sty,m
 INFO: +checking for document class tufte-handout [tufte-handout,bibentry.sty,fancyhdr
-INFO: +checking for package endnotes [endnotes]... yes
-INFO: +checking for package braille [braille]... yes
-INFO: +checking for package endnotes [endnotes]... yes
-INFO: +checking for package noweb [noweb]... no
+INFO: +checking for package enumitem [enumitem]... no
+INFO: +checking for package endnotes [endnotes]... no
 INFO: +checking for package covington [covington]... no
+INFO: +checking for package fancyhdr [fancyhdr]... yes
+INFO: +checking for package endnotes [endnotes]... no
+INFO: +checking for package braille [braille]... yes
+INFO: +checking for package noweb [noweb]... no
 INFO: +checking for package accents [accents]... no
 INFO: +checking for package algorithm [algorithm]... no
 INFO: +checking for package amstext [amstext]... yes
@@ -1137,7 +1074,7 @@ INFO: +checking for package color [color]... yes
 INFO: +checking for package covington [covington]... no
 INFO: +checking for package csquotes [csquotes]... no
 INFO: +checking for package dvipost [dvipost]... no
-INFO: +checking for package endnotes [endnotes]... yes
+INFO: +checking for package endnotes [endnotes]... no
 INFO: +checking for package enumitem [enumitem]... no
 INFO: +checking for package esint [esint]... no
 INFO: +checking for package ifsym [ifsym]... yes
@@ -1145,7 +1082,7 @@ INFO: +checking for package ifthen [ifthen]... yes
 INFO: +checking for package fancybox [fancybox]... yes
 INFO: +checking for package fancyhdr [fancyhdr]... yes
 INFO: +checking for package float [float]... yes
-INFO: +checking for package framed [framed]... yes
+INFO: +checking for package framed [framed]... no
 INFO: +checking for package geometry [geometry]... yes
 INFO: +checking for package graphicx [graphicx]... yes
 INFO: +checking for package hyperref [hyperref]... yes
@@ -1168,6 +1105,7 @@ INFO: +checking for package pdfcolmk [pdfcolmk]... yes
 INFO: +checking for package pdfpages [pdfpages]... yes
 INFO: +checking for package prettyref [prettyref]... no
 INFO: +checking for package preview [preview]... no
+INFO: +checking for package refstyle [refstyle]... no
 INFO: +checking for package rotating [rotating]... yes
 INFO: +checking for package rotfloat [rotfloat]... no
 INFO: +checking for package setspace [setspace]... yes
@@ -1177,12 +1115,13 @@ INFO: +checking for package splitidx [splitidx]... no
 INFO: +checking for package subfig [subfig]... yes
 INFO: +checking for package Sweave [Sweave]... no
 INFO: +checking for package textcomp [textcomp]... yes
+INFO: +checking for package subscript [subscript]... no
 INFO: +checking for package turkmen [turkmen.ldf]... no
-INFO: +checking for package ulem [ulem]... yes
+INFO: +checking for package ulem [ulem]... no
 INFO: +checking for package units [units]... no
 INFO: +checking for package url [url]... yes
 INFO: +checking for package varioref [varioref]... yes
-INFO: +checking for package wasysym [wasysym]... no
+INFO: +checking for package wasysym [wasysym]... yes
 INFO: +checking for package wrapfig [wrapfig]... no
 INFO: +checking for package xargs [xargs]... no
 INFO: +checking for package xcolor [xcolor]... no
@@ -1207,9 +1146,9 @@ INFO: +checking for package cmbright [cmbright]... yes
 INFO: +checking for package eco [eco]... yes
 INFO: +checking for package feyn [feyn]... yes
 INFO: +checking for package fourier [fourier]... yes
-INFO: +checking for package lmodern [lmodern]... no
+INFO: +checking for package lmodern [lmodern]... yes
 INFO: +checking for package luximono [luximono]... no
-INFO: +checking for package tipa [tipa]... no
+INFO: +checking for package tipa [tipa]... yes
 INFO: +checking for package zhmetrics [c70fs.fd]... no
 INFO: +Inspection done.
 INFO: +Read the file doc/LaTeXConfig.lyx for more information.

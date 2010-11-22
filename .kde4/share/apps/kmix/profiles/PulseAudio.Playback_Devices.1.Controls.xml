@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<soundcard driver="PulseAudio" version = "140672402921568:0"
+ name = "Playback Devices"
+ type = ""
+ generation = "2147483648"
+>
+
+<product vendor="PulseAudio" name="Playback Devices" release="1.0" />
+
+<control id="^alsa_output.pci-0000_00_1b.0.analog-stereo$" subcontrols=".*" tab="Controls" show="simple" />
+<control id="^.*$" subcontrols=".*" tab="Controls" show="extended" />
+<control id="^auto_null$" subcontrols=".*" tab="Controls" show="simple" />
+
+<tab name="Controls" type="Sliders" />
+
+</soundcard>

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=level0.txt
+Type=Link
+URL[$e]=file://$HOME/.anki/decks/level0.txt
+X-KDE-LastOpenedWith=kwrite

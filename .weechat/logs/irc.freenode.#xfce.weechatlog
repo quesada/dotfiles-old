@@ -1,0 +1,740 @@
+2010-10-16 10:14:05	-->	quesada1 (~quesada@e178209052.adsl.alicedsl.de) has joined #xfce
+2010-10-16 10:14:05	--	Topic for #xfce is "Xfce 4.6 - grab it at http://xfce.org/download | Bored? /join #xfce-commits | Translate? http://translations.xfce.org/help/ | Ask your question and then BE PATIENT AND IDLE FOR A WHILE | YES - xfce4-mixer is part of xfce! | Can't click twice in Thunar? Get Xfce 4.6.2! |"
+2010-10-16 10:14:05	--	Topic set by sarts (~stephan@xfce/core-developer/sarts) on Thu, 05 Aug 2010 21:41:32
+2010-10-16 10:14:05	--	Nicks #xfce: [@ChanServ +eht16 +NSchermer _marc` _twitch angelos Anom01y aquatix Argafal_ aton` auke Azalyn beppo bier bier|tp BP{k} BrendenB Carnophage cassmodiah clocker colinl daemon deepy digitolx dkr dmaphy dwnichols dylix edoceo emma felipe` fire|bird fishsponge flo|linux forfolias FusionX gnat_x GNU\colossus Gokee2_ hrubi infojunky inkjetunit jimmiejaz Jonimus jordanm knut_ leavittx ludens m00se mancha Maxdamantus miwi MJBrune mr_pouit MrNaz` mtl mystica555 mystica555_ ofourdan OgMaciel OmegaPhil Ori_B Ox1 pigeon Po0ky quesada1 redpepper Richiie Riotta Romain[NS] rvsjoen rworkman sacarasc sarts sash_ Scorpi skizzhg Skunnyk SmileeeM ssimon ssuominen ssureshot t\zz Tacos tgall_out TGEN tigerby touparx tssj666 tuxcrafter unmatrix Vito11 xdr xsdg_ Ycarene zarper zaythan]
+2010-10-16 10:14:05	--	Channel #xfce: 97 nicks (1 op, 0 halfops, 2 voices, 94 normals)
+2010-10-16 10:14:05	--	URL for #xfce: http://www.xfce.org
+2010-10-16 10:14:07	--	Channel created on Sun, 26 Nov 2006 07:42:46
+2010-10-16 10:15:24	quesada1	I'm using xfce4-power-manager with xmonad (no DE). But it doesn't recognize the brightness buttons on my laptop. Should it? KDE does. Any idea what to try?
+2010-10-16 10:16:47	-->	huntxu (~hunt@113.109.236.193) has joined #xfce
+2010-10-16 10:16:57	<--	beppo (~nnscript@unaffiliated/beppo) has quit (Ping timeout: 252 seconds)
+2010-10-16 10:17:55	ssuominen	xfce4-power-manager comes with the brightness panel plug-in for xfce4-panel
+2010-10-16 10:18:21	ssuominen	no idea if there's supposed to be anything in the power manager itself...
+2010-10-16 10:18:37	ssuominen	might be out of luck there
+2010-10-16 10:21:03	quesada1	ssuominen: thanks, I can identify the keycodes for fn + F9 (brightness up) etc, but no idea where to place them, if there's a config file 
+2010-10-16 10:21:39	quesada1	can this plugin be run outside of xfce-panel?
+2010-10-16 10:25:09	ssuominen	no
+2010-10-16 10:26:19	ssuominen	you get it by --enable-panel-plugins and it needs xfce4-panel headers to build, and runs only inside xfce4-panel
+2010-10-16 10:27:03	quesada1	I tried it
+2010-10-16 10:27:12	quesada1	it doesn't do anything when I click on it
+2010-10-16 10:28:20	<--	huntxu (~hunt@113.109.236.193) has quit (Ping timeout: 265 seconds)
+2010-10-16 10:28:48	-->	huntxu (~hunt@113.109.236.193) has joined #xfce
+2010-10-16 10:51:44	-->	billie (~billie@gentoo/developer/billie) has joined #xfce
+2010-10-16 11:00:28	-->	marcrouse (~marcrouse@ip-85-198-225-32.broker.com.pl) has joined #xfce
+2010-10-16 11:00:41	marcrouse	hi i have problem with xfce4-mixer (applet on the panel)
+2010-10-16 11:01:33	marcrouse	all is ok, but when i use fn+soundup/down in the pop-up write all time (volume is muted)
+2010-10-16 11:01:48	marcrouse	why?
+2010-10-16 11:04:19	marcrouse	my distro debian testing
+2010-10-16 11:04:58	 *	ssuominen didn't understand the question :p
+2010-10-16 11:05:57	marcrouse	ok once more
+2010-10-16 11:06:09	marcrouse	I have debian (testing) and xfce
+2010-10-16 11:07:13	marcrouse	When i use shortcut (fn + sound/up sound/down)
+2010-10-16 11:07:51	marcrouse	on the monitor display "window -pop-up"
+2010-10-16 11:08:23	marcrouse	and caption "volume is muted"
+2010-10-16 11:08:56	marcrouse	why muted? when i volume up
+2010-10-16 11:09:20	marcrouse	you understand me?
+2010-10-16 11:13:32	marcrouse	ok i made:) i must restart xfce4-volumed
+2010-10-16 11:18:04	<--	redpepper (redpepper@osiris.redpeppercluster.de) has quit (Ping timeout: 276 seconds)
+2010-10-16 11:18:09	-->	gusnan (~gusnan@h208n2c1o269.bredband.skanova.com) has joined #xfce
+2010-10-16 11:18:13	-->	nvision (~nvision@g225057204.adsl.alicedsl.de) has joined #xfce
+2010-10-16 11:18:13	<--	nvision (~nvision@g225057204.adsl.alicedsl.de) has quit (Changing host)
+2010-10-16 11:18:13	-->	nvision (~nvision@unaffiliated/nvision) has joined #xfce
+2010-10-16 11:18:59	<--	huntxu (~hunt@113.109.236.193) has quit (Quit: Leaving)
+2010-10-16 11:25:59	<--	gusnan (~gusnan@h208n2c1o269.bredband.skanova.com) has quit (Quit: Lämnar)
+2010-10-16 11:26:44	-->	huntxu (~hunt@219.137.149.229) has joined #xfce
+2010-10-16 11:32:59	<--	tigerby (~tiger@mirror.datacenter.by) has quit (Quit: tigerby)
+2010-10-16 11:36:42	-->	hannes| (~hannes__@pD9E6573B.dip.t-dialin.net) has joined #xfce
+2010-10-16 11:45:03	-->	felipec (~felipec@a91-153-253-80.elisa-laajakaista.fi) has joined #xfce
+2010-10-16 11:47:21	<--	touparx (~toupar@202.114.106.21) has quit (Quit: leaving)
+2010-10-16 12:01:42	<--	Richiie (~richiie@c-cfa0e355.04-7-73746f4.cust.bredbandsbolaget.se) has quit (Ping timeout: 265 seconds)
+2010-10-16 12:03:45	--	Tacos is now known as Tucos
+2010-10-16 12:28:22	-->	henriknj (~henriknj@217.157.59.249) has joined #xfce
+2010-10-16 12:28:28	<--	henriknj (~henriknj@217.157.59.249) has quit (Changing host)
+2010-10-16 12:28:28	-->	henriknj (~henriknj@unaffiliated/henriknj) has joined #xfce
+2010-10-16 12:40:00	<--	henriknj (~henriknj@unaffiliated/henriknj) has quit (Remote host closed the connection)
+2010-10-16 12:47:23	-->	`mOOse` (~yea@unaffiliated/m00se) has joined #xfce
+2010-10-16 12:50:15	<--	m00se (~yea@unaffiliated/m00se) has quit (Ping timeout: 245 seconds)
+2010-10-16 12:50:23	--	`mOOse` is now known as m00se
+2010-10-16 12:51:15	-->	redpepper (redpepper@osiris.redpeppercluster.de) has joined #xfce
+2010-10-16 12:54:48	<--	sacarasc (sacarasc@xmms2/bitch/sacarasc) has quit (Ping timeout: 252 seconds)
+2010-10-16 13:02:25	-->	f8l (~f8l@213-238-104-73.adsl.inetia.pl) has joined #xfce
+2010-10-16 13:21:15	-->	dli (~dli@dsl-69-172-118-99.acanac.net) has joined #xfce
+2010-10-16 13:31:16	<--	marcrouse (~marcrouse@ip-85-198-225-32.broker.com.pl) has quit (Quit: leaving)
+2010-10-16 14:13:18	-->	gusnan (~gusnan@h208n2c1o269.bredband.skanova.com) has joined #xfce
+2010-10-16 14:16:02	<--	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has quit (Read error: Operation timed out)
+2010-10-16 14:19:50	-->	Cookiekiller (~Cookiekil@fedora/Cookiekiller) has joined #xfce
+2010-10-16 14:20:12	-->	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has joined #xfce
+2010-10-16 14:28:26	<--	Cookiekiller (~Cookiekil@fedora/Cookiekiller) has quit (Quit: Verlassend)
+2010-10-16 14:28:40	-->	Cookiekiller (~Cookiekil@fedora/Cookiekiller) has joined #xfce
+2010-10-16 14:39:29	-->	burning_aces (~burning_a@64.112.96.58.static.exetel.com.au) has joined #xfce
+2010-10-16 14:42:28	<--	_twitch (~burning_a@64.112.96.58.static.exetel.com.au) has quit (Ping timeout: 240 seconds)
+2010-10-16 14:48:00	deepy	suggestions for a nice and lightweight image viewer?
+2010-10-16 14:48:14	mancha	display
+2010-10-16 14:48:47	deepy	it does support clicking left/right key to cycle through images in the current folder, right?
+2010-10-16 14:57:21	<--	_marc` (~marc@cl-2515.ham-01.de.sixxs.net) has quit (Quit: _marc`)
+2010-10-16 15:07:09	-->	lugo (~lugo@mgdb-4db8f5d3.pool.mediaWays.net) has joined #xfce
+2010-10-16 15:10:34	-->	Paul-S (~paul@88-105-213-63.dynamic.dsl.as9105.com) has joined #xfce
+2010-10-16 15:10:49	-->	henriknj (~henriknj@unaffiliated/henriknj) has joined #xfce
+2010-10-16 15:14:35	hannes|	gpicviewer
+2010-10-16 15:14:42	hannes|	ristretto?
+2010-10-16 15:14:44	deepy	thatäs hte one, thank you!
+2010-10-16 15:14:52	ssuominen	feh
+2010-10-16 15:15:22	hannes|	deepy, wich one?
+2010-10-16 15:15:57	-->	hmmmm (~no@pool-72-70-204-110.sctnpa.east.verizon.net) has joined #xfce
+2010-10-16 15:16:38	-->	jeromeg (~jeromeg@xfce/goodies-developer/jeromeg) has joined #xfce
+2010-10-16 15:16:38	--	Mode #xfce [+v jeromeg] by ChanServ
+2010-10-16 15:19:19	hannes|	I asked some time ago about xfce4-notifyd but there was no reaction. Could someone tell me why the 0.2 release wasn't really finished? Did anything happen to brian?
+2010-10-16 15:20:00	+jeromeg	he is busy with work
+2010-10-16 15:21:20	deepy	hannes|: gpicviewer
+2010-10-16 15:21:42	hannes|	jeromeg, ok, so nothing to worry about, thanks
+2010-10-16 15:21:47	Tucos	hey jeromeg, could applying a patch to use xfce4ui instead of xfcegui4 cause my problems with -screenshooter? (it's http://fpaste.org/TZxv/ and 'sed s/LIBXFCEGUI4/LIBXFCE4UI/ Makefile.am > Makefile.am')
+2010-10-16 15:23:03	+jeromeg	Tucos: let me have a look
+2010-10-16 15:23:38	Tucos	the patch was on the tracker already, except that Makefile changed apparently, hence the sed
+2010-10-16 15:23:40	-->	sacarasc (sacarasc@xmms2/bitch/sacarasc) has joined #xfce
+2010-10-16 15:23:40	<--	sacarasc (sacarasc@xmms2/bitch/sacarasc) has quit (Excess Flood)
+2010-10-16 15:23:50	deepy	hmm, I can't find gpicviewer in debian's repos
+2010-10-16 15:23:56	ssuominen	no that sed isn't necessary...
+2010-10-16 15:23:58	-->	sacarasc (sacarasc@xmms2/bitch/sacarasc) has joined #xfce
+2010-10-16 15:23:58	ssuominen	the patch does it all
+2010-10-16 15:24:50	Tucos	the patch on the tracker had the Makefile.am changes, but failed to apply
+2010-10-16 15:25:45	+jeromeg	Tucos: you only have this issue with xfce4-screenshooter or with other modules too?
+2010-10-16 15:26:39	+jeromeg	paste the patched Makefile.am please
+2010-10-16 15:26:41	Tucos	i don't have many things from xfce compiled, but only with xfce4-screenshooter (ristretto doesn't like being patched like that, so that fails for libxfcegui4)
+2010-10-16 15:28:22	Tucos	one sec, something messed up :o
+2010-10-16 15:30:23	-->	rivoot (~rivoot@200-126-117-13.bk8-dsl.surnet.cl) has joined #xfce
+2010-10-16 15:30:23	<--	rivoot (~rivoot@200-126-117-13.bk8-dsl.surnet.cl) has quit (Changing host)
+2010-10-16 15:30:23	-->	rivoot (~rivoot@unaffiliated/rivoot) has joined #xfce
+2010-10-16 15:31:24	Tucos	odd, Makefile.am ends up being empty
+2010-10-16 15:32:45	+jeromeg	lol
+2010-10-16 15:32:58	+jeromeg	don't wonder why it doesn't build then ;)
+2010-10-16 15:33:21	+jeromeg	I will work on xfce4-screenshooter later this weekend
+2010-10-16 15:33:29	+jeromeg	I will remove the gui4 dep
+2010-10-16 15:33:54	+jeromeg	you should be able to test a clean build tomorrow evening
+2010-10-16 15:33:55	Tucos	indeed, sed s/something/somethingelse/ somefile > somefile ; makes somefile being empty, guess i could mv first
+2010-10-16 15:34:01	Tucos	oh, nice :)
+2010-10-16 15:34:03	ssuominen	eh
+2010-10-16 15:34:06	dli	hi, when xfce4-session built with consolekit support, how do I get authorized to reboot from menu?
+2010-10-16 15:34:21	ssuominen	sed -i -e 's:LIBXFCEGUI4:LIBXFCE4UI:' Makefile.am || die
+2010-10-16 15:34:28	+jeromeg	dli: which version?
+2010-10-16 15:34:39	dli	jeromeg, current -svn
+2010-10-16 15:34:54	+jeromeg	git you mean?
+2010-10-16 15:35:25	+jeromeg	current git for xfce-utils too?
+2010-10-16 15:35:36	+jeromeg	and how do you start your xfce session?
+2010-10-16 15:35:47	dli	jeromeg, yes, all development version for xfce
+2010-10-16 15:36:00	dli	jeromeg, ck-launch-session startxfce4
+2010-10-16 15:36:18	+jeromeg	mmm, that might be the issue
+2010-10-16 15:36:45	dli	jeromeg, how should I start it then?
+2010-10-16 15:37:02	+jeromeg	dli: http://foo-projects.org/pipermail/xfce4-dev/2010-September/028230.html read the thread starting here
+2010-10-16 15:37:09	ssuominen	ck-launch-session dbus-launch --sh-syntax --exit-with-session xfce4-session
+2010-10-16 15:37:13	+jeromeg	people are discussing this issue
+2010-10-16 15:37:24	dli	ssuominen, jeromeg thanks
+2010-10-16 15:37:40	+jeromeg	or what ssuominen said, I don't know
+2010-10-16 15:38:01	ssuominen	I have that command patched into the /etc/xdg/xfce4/xinitrc file used by startxfce4
+2010-10-16 15:38:21	ssuominen	http://paste.pocoo.org/show/276181/
+2010-10-16 15:38:23	ssuominen	Find line 200
+2010-10-16 15:39:04	dli	ssuominen, do you mean I can simply startxfce4 then? with the patch
+2010-10-16 15:39:12	Tucos	yay, 't works now, thanks ssuominen and jeromeg :)
+2010-10-16 15:39:13	ssuominen	or, this http://paste.pocoo.org/show/276185/
+2010-10-16 15:39:34	+jeromeg	Tucos: you are welcome ;)
+2010-10-16 15:39:35	ssuominen	fix the xinitrc that comes with xfce-utils to look like that.
+2010-10-16 15:39:56	ssuominen	then plain 'exec startxfce4' in .xinitrc and startx to run it works.
+2010-10-16 15:40:47	ssuominen	http://bugzilla.xfce.org/show_bug.cgi?id=6690
+2010-10-16 15:40:52	dli	ssuominen, I disabled consolekit support in xfce and running "exec startxfce4" now, looks like I can safely enable support for consolekit then
+2010-10-16 15:40:53	ssuominen	still unapplied to git... unfortunately
+2010-10-16 15:41:15	dli	ssuominen, do you get a patch there?
+2010-10-16 15:41:20	ssuominen	yep
+2010-10-16 15:41:36	dli	ssuominen, then, I can apply the patch locally
+2010-10-16 15:41:38	+jeromeg	ssuominen: because it's an ugly hack?
+2010-10-16 15:42:06	ssuominen	jeromeg: only according to Debian folks which run their own non-upstreamized system for xinit
+2010-10-16 15:42:36	+jeromeg	Jannis is not a debian folk afaik
+2010-10-16 15:43:51	ssuominen	so far it's the only patch that works for git (assuming you don't have the non-standard xinit and consolekit launch scripts from debian)
+2010-10-16 15:44:35	ssuominen	take dbus-launch off -> it breaks, take ck-launch-session off -> nothing else will start it
+2010-10-16 15:45:31	dli	ssuominen, is it possible to replace the "Need authorization" message with something more indicative also?
+2010-10-16 15:45:57	ssuominen	I don't get that message, got polkit-gnome installed so it prompts me with a password dialog instead.
+2010-10-16 15:46:03	dli	ssuominen, very difficult to struggle with sudoers, policykit, or consolekit
+2010-10-16 15:47:05	ssuominen	http://bugzilla.xfce.org/show_bug.cgi?id=5450
+2010-10-16 15:48:12	ssuominen	without gnome-polkit, you need to manually edit polkit rules by hand to get it working... but it's not much, since you get gvfs and gnome-keyring as Thunar deps now too.
+2010-10-16 15:48:21	ssuominen	so the deps are already installed...
+2010-10-16 15:50:11	+jeromeg	gvfs and gnome-keyring are not thunar deps
+2010-10-16 15:50:36	ssuominen	gvfs is runtime dep for Thunar
+2010-10-16 15:50:52	ssuominen	and gvfs needs to be built with gnome-disk-utility
+2010-10-16 15:51:10	ssuominen	with those you get gnome-keyring, gnome-common, gnome-doc-utils, gconf-2, etc.
+2010-10-16 15:51:30	+jeromeg	gvfs is an optionnal runtime dep
+2010-10-16 15:51:40	+jeromeg	if it's there, thunar will use it
+2010-10-16 15:51:55	+jeromeg	but if it's not here, thunar will work, but only for local filesystems
+2010-10-16 15:51:59	ssuominen	true
+2010-10-16 15:52:10	+jeromeg	so?
+2010-10-16 15:55:44	ssuominen	so the point being, you still need to have polkit-gnome installed for authentication daemon (to get password dialog). or end up with messages of "not authorized" with OK sign. call that another optional runtime dep, for which you have deps already installed -- if Thunar is setup in a way non-local file systems works too.
+2010-10-16 15:56:43	ssuominen	even need to patch it to refer from standard upstream version by changing OnlyShowIn=GNOME; in /etc/xdg/autostart/polkit-gnome-authentication-agent-1.desktop to NotShowIn=KDE; or a like
+2010-10-16 15:56:58	ssuominen	or alternatively edit polkit rules by hand to avoid the dialog.
+2010-10-16 16:00:21	dli	ssuominen, patch failed with the current git :( http://git.xfce.org/xfce/xfce4-session/commit/?id=35c620aa3749581580e0917ff7c2db1c223564a8
+2010-10-16 16:01:25	ssuominen	dli: the patch in http://bugzilla.xfce.org/show_bug.cgi?id=6690 ...
+2010-10-16 16:01:56	ssuominen	it's just few lines, just edit the file ;)
+2010-10-16 16:03:29	<--	dli (~dli@dsl-69-172-118-99.acanac.net) has quit (Remote host closed the connection)
+2010-10-16 16:09:09	+jeromeg	ssuominen: I will try to write a patch for that
+2010-10-16 16:09:31	+jeromeg	could you give me your mail so that I can give it to you for testing please?
+2010-10-16 16:09:54	+jeromeg	will try to do that tomorrow
+2010-10-16 16:12:54	ssuominen	jeromeg: oh cool. thanks :)  in private.
+2010-10-16 16:15:28	-->	i00nsu (~i00nsu@a89-152-30-175.cpe.netcabo.pt) has joined #xfce
+2010-10-16 16:15:33	i00nsu	hi all
+2010-10-16 16:15:45	i00nsu	to configure icons and other shortcuts in xfce4-menu I must edit it with an editor or there is some app to make things easy?
+2010-10-16 16:15:53	+jeromeg	I need to go now
+2010-10-16 16:15:56	+jeromeg	see you guys
+2010-10-16 16:16:18	<--	jeromeg (~jeromeg@xfce/goodies-developer/jeromeg) has quit (Quit: I'm leaving in the rain)
+2010-10-16 16:17:34	-->	gouchi (~Karim@ivr94-8-88-162-27-162.fbx.proxad.net) has joined #xfce
+2010-10-16 16:20:17	-->	andyrtr_laptop (~andyrtr@f053202211.adsl.alicedsl.de) has joined #xfce
+2010-10-16 16:26:48	<--	rivoot (~rivoot@unaffiliated/rivoot) has quit (Ping timeout: 260 seconds)
+2010-10-16 16:28:44	<--	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has quit (Read error: Operation timed out)
+2010-10-16 16:29:32	<--	burning_aces (~burning_a@64.112.96.58.static.exetel.com.au) has quit (Quit: burning_aces)
+2010-10-16 16:33:12	-->	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has joined #xfce
+2010-10-16 16:36:44	<--	xdr (~xdr@h-239-113.A219.priv.bahnhof.se) has quit (Ping timeout: 264 seconds)
+2010-10-16 16:38:57	<--	huntxu (~hunt@219.137.149.229) has quit (Quit: Leaving)
+2010-10-16 16:39:32	-->	rivoot (~rivoot@200-126-82-117.bk6-dsl.surnet.cl) has joined #xfce
+2010-10-16 16:39:32	<--	rivoot (~rivoot@200-126-82-117.bk6-dsl.surnet.cl) has quit (Changing host)
+2010-10-16 16:39:32	-->	rivoot (~rivoot@unaffiliated/rivoot) has joined #xfce
+2010-10-16 16:40:40	-->	huntxu (~hunt@113.109.236.193) has joined #xfce
+2010-10-16 16:41:06	-->	Gef (~geoffroy@xbn44-1-82-67-142-147.fbx.proxad.net) has joined #xfce
+2010-10-16 16:44:15	-->	rivoot_ (~rivoot@200-126-80-236.bk6-dsl.surnet.cl) has joined #xfce
+2010-10-16 16:44:15	<--	rivoot_ (~rivoot@200-126-80-236.bk6-dsl.surnet.cl) has quit (Changing host)
+2010-10-16 16:44:15	-->	rivoot_ (~rivoot@unaffiliated/rivoot) has joined #xfce
+2010-10-16 16:44:52	-->	xdr (~xdr@h-239-113.A219.priv.bahnhof.se) has joined #xfce
+2010-10-16 16:45:00	<--	rivoot (~rivoot@unaffiliated/rivoot) has quit (Ping timeout: 276 seconds)
+2010-10-16 16:50:05	--	rivoot_ is now known as rivoot
+2010-10-16 16:52:33	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-16 16:55:15	-->	|Slacker| (~cris@200.146.78.239.static.gvt.net.br) has joined #xfce
+2010-10-16 16:55:20	<--	gusnan (~gusnan@h208n2c1o269.bredband.skanova.com) has quit (Quit: Lämnar)
+2010-10-16 17:10:56	-->	bomber (~bomber@c-24-34-80-143.hsd1.ma.comcast.net) has joined #xfce
+2010-10-16 17:25:20	--	m00se is now known as NonSensicalNick
+2010-10-16 17:25:28	--	NonSensicalNick is now known as m00se
+2010-10-16 17:27:02	-->	beppo (~nnscript@unaffiliated/beppo) has joined #xfce
+2010-10-16 17:28:52	<--	billie (~billie@gentoo/developer/billie) has quit (Ping timeout: 260 seconds)
+2010-10-16 17:35:17	<--	huntxu (~hunt@113.109.236.193) has quit (Quit: Leaving)
+2010-10-16 17:38:04	-->	billie (~billie@gentoo/developer/billie) has joined #xfce
+2010-10-16 17:38:58	<--	felipec (~felipec@a91-153-253-80.elisa-laajakaista.fi) has quit (Ping timeout: 265 seconds)
+2010-10-16 17:42:09	-->	Murray_B (~thommy@g224145023.adsl.alicedsl.de) has joined #xfce
+2010-10-16 17:44:02	-->	Solak (~stijnw@541949AF.cm-5-2b.dynamic.ziggo.nl) has joined #xfce
+2010-10-16 17:51:07	<--	SmileeeM (~SmileeeM@202.3.38.209) has quit (Remote host closed the connection)
+2010-10-16 17:51:55	-->	felipec (~felipec@a91-153-253-80.elisa-laajakaista.fi) has joined #xfce
+2010-10-16 17:58:03	-->	killermoehre (~silvio@wlan0095.rz.uni-leipzig.de) has joined #xfce
+2010-10-16 17:58:03	<--	billie (~billie@gentoo/developer/billie) has quit (Ping timeout: 240 seconds)
+2010-10-16 18:03:17	-->	SmileeeM (~SmileeeM@202.3.38.209) has joined #xfce
+2010-10-16 18:07:17	<--	killermoehre (~silvio@wlan0095.rz.uni-leipzig.de) has quit (Ping timeout: 265 seconds)
+2010-10-16 18:07:17	<--	i00nsu (~i00nsu@a89-152-30-175.cpe.netcabo.pt) has quit (Quit: Lost terminal)
+2010-10-16 20:12:04		irc: disconnected from server
+2010-10-16 20:12:54	-->	quesada1 (~quesada@e178231025.adsl.alicedsl.de) has joined #xfce
+2010-10-16 20:12:54	--	Topic for #xfce is "Xfce 4.6 - grab it at http://xfce.org/download | Bored? /join #xfce-commits | Translate? http://translations.xfce.org/help/ | Ask your question and then BE PATIENT AND IDLE FOR A WHILE | YES - xfce4-mixer is part of xfce! | Can't click twice in Thunar? Get Xfce 4.6.2! |"
+2010-10-16 20:12:54	--	Topic set by sarts (~stephan@xfce/core-developer/sarts) on Thu, 05 Aug 2010 21:41:32
+2010-10-16 20:12:54	--	Nicks #xfce: [@ChanServ +eht16 +NSchermer andyrtr_laptop angelos Anom01y aquatix Argafal_ aton` auke Azalyn bier bier|tp billie bomber BP{k} BrendenB Brunacho Carnophage cassmodiah clocker colinl Cookiekiller daemon deepy digitolx dkr dmaphy dwnichols dylix e01 edoceo emma f8l felipe` felipec fire|bird fishsponge forfolias FusionX gnat_x GNU\colossus Gokee2_ hannes| henriknj hmmmm hrubi infojunky inkjetunit jgeboski jimmiejaz Jonimus jordanm knut_ leavittx ludens lugo m00se mancha Maxdamantus miwi MJBrune mr_pouit MrNaz` mtl Murray_B mystica555 mystica555_ nvision ofourdan OgMaciel OmegaPhil Ori_B Ox1 Paul-S pigeon Po0ky quesada1 redpepper Riotta rivoot Romain[NS] rvsjoen rworkman sacarasc sarts sash_ Scorpi skizzhg Skunnyk SmileeeM Solak ssimon ssuominen ssureshot t\zz tgall_out TGEN tssj666 Tucos Tukeke tuxcrafter unmatrix xdr xsdg_ Ycarene zarper zaythan]
+2010-10-16 20:12:54	--	Channel #xfce: 108 nicks (1 op, 0 halfops, 2 voices, 105 normals)
+2010-10-16 20:12:54	--	URL for #xfce: http://www.xfce.org
+2010-10-16 20:13:10	--	Channel created on Sun, 26 Nov 2006 07:42:46
+2010-10-16 20:14:27	<--	Murray_B (~thommy@g224150137.adsl.alicedsl.de) has quit (Quit: Leaving.)
+2010-10-16 20:20:14	<--	hmmmm (~no@pool-72-70-204-110.sctnpa.east.verizon.net) has quit (Ping timeout: 245 seconds)
+2010-10-16 20:22:16	<--	Solak (~stijnw@541949AF.cm-5-2b.dynamic.ziggo.nl) has quit (Remote host closed the connection)
+2010-10-16 20:26:33	-->	hmmmm (~no@pool-72-79-135-132.sctnpa.east.verizon.net) has joined #xfce
+2010-10-16 20:32:23	-->	|Slacker| (~cris@200.146.78.239.static.gvt.net.br) has joined #xfce
+2010-10-16 20:36:37	<--	|Slacker| (~cris@200.146.78.239.static.gvt.net.br) has quit (Client Quit)
+2010-10-16 20:50:35	<--	Tukeke (~Tukeke@unaffiliated/tukeke) has quit (Quit: Hasta la Victoria siempre. ¡Venceremos!)
+2010-10-16 20:51:43	-->	u42p (~u42p@d098109.adsl.hansenet.de) has joined #xfce
+2010-10-16 20:51:57	u42p	hi, how can i set the desktop background image from the commandline?
+2010-10-16 20:52:16	-->	|Slacker| (~cris@200.146.78.239.static.gvt.net.br) has joined #xfce
+2010-10-16 20:56:19	u42p	hm, probably with "xdg"
+2010-10-16 20:57:47	<--	inkjetunit (~junito@dsl-hkibrasgw4-fe49dc00-187.dhcp.inet.fi) has quit (Changing host)
+2010-10-16 20:57:48	-->	inkjetunit (~junito@unaffiliated/inkjetunit) has joined #xfce
+2010-10-16 20:59:23	-->	Tukeke (~Tukeke@unaffiliated/tukeke) has joined #xfce
+2010-10-16 21:00:27	<--	redpepper (redpepper@osiris.redpeppercluster.de) has quit (Ping timeout: 276 seconds)
+2010-10-16 21:04:49	<--	|Slacker| (~cris@200.146.78.239.static.gvt.net.br) has quit (Ping timeout: 245 seconds)
+2010-10-16 21:06:24	<--	SmileeeM (~SmileeeM@202.3.38.209) has quit (Ping timeout: 255 seconds)
+2010-10-16 21:09:20	-->	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has joined #xfce
+2010-10-16 21:09:20	--	Mode #xfce [+v JPohlmann] by ChanServ
+2010-10-16 21:09:52	-->	redpepper (redpepper@osiris.redpeppercluster.de) has joined #xfce
+2010-10-16 21:19:40	-->	SmileeeM (~SmileeeM@202.3.38.209) has joined #xfce
+2010-10-16 21:26:04	<--	Paul-S (~paul@88-105-213-63.dynamic.dsl.as9105.com) has quit (Read error: No route to host)
+2010-10-16 21:44:05	-->	replay (~replay@pdpc/supporter/student/replay) has joined #xfce
+2010-10-16 21:47:13	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Remote host closed the connection)
+2010-10-16 21:50:22	<--	u42p (~u42p@d098109.adsl.hansenet.de) has quit (Quit: Leaving)
+2010-10-16 21:54:26	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-16 21:55:17	<--	hannes| (~hannes__@pD9E6573B.dip.t-dialin.net) has quit (Remote host closed the connection)
+2010-10-16 22:00:14	<--	felipec (~felipec@a91-153-253-80.elisa-laajakaista.fi) has quit (Ping timeout: 245 seconds)
+2010-10-16 22:04:52	<--	nvision (~nvision@unaffiliated/nvision) has quit (Quit: Leaving)
+2010-10-16 22:06:03	<--	knut_ (~knut@ANancy-157-1-18-174.w81-50.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2010-10-16 22:12:27	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Remote host closed the connection)
+2010-10-16 22:13:28	-->	felipec (~felipec@a91-153-253-80.elisa-laajakaista.fi) has joined #xfce
+2010-10-16 22:14:43	<--	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has quit (Disconnected by services)
+2010-10-16 22:14:49	-->	JPohlmann1 (~jannis@pD9E57553.dip.t-dialin.net) has joined #xfce
+2010-10-16 22:17:43	-->	knut_ (~knut@ANancy-157-1-81-191.w86-218.abo.wanadoo.fr) has joined #xfce
+2010-10-16 22:20:27	-->	|Slacker| (1000@189.65.51.52) has joined #xfce
+2010-10-16 22:27:09	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-16 22:40:58	-->	david217 (~david217@5ac02c90.bb.sky.com) has joined #xfce
+2010-10-16 22:44:41	<--	JPohlmann1 (~jannis@pD9E57553.dip.t-dialin.net) has quit (Quit: JPohlmann1)
+2010-10-16 22:46:44	-->	Gef (~geoffroy@xbn44-1-82-67-142-147.fbx.proxad.net) has joined #xfce
+2010-10-16 22:50:04	<--	Ycarene (jporterf@24-116-56-41.cpe.cableone.net) has quit (Ping timeout: 240 seconds)
+2010-10-16 22:54:39	david217	\away
+2010-10-16 22:57:23	-->	killermoehre (~silvio@p54B3831D.dip0.t-ipconnect.de) has joined #xfce
+2010-10-16 22:58:15	-->	Chromoris (~chromoris@vhe-540330.sshn.net) has joined #xfce
+2010-10-16 23:18:14	-->	damNageHack (~damNageHa@cpe.atm2-0-1031162.hsnxx1.customer.tele.dk) has joined #xfce
+2010-10-16 23:18:52	<--	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has quit (Ping timeout: 260 seconds)
+2010-10-16 23:19:14	-->	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has joined #xfce
+2010-10-16 23:19:14	--	Mode #xfce [+v JPohlmann] by ChanServ
+2010-10-16 23:20:31	-->	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has joined #xfce
+2010-10-16 23:38:17	-->	Ycarene (jporterf@24-116-56-41.cpe.cableone.net) has joined #xfce
+2010-10-16 23:39:38	-->	cwickert (~chris@host-091-096-181-251.ewe-ip-backbone.de) has joined #xfce
+2010-10-16 23:39:38	<--	cwickert (~chris@host-091-096-181-251.ewe-ip-backbone.de) has quit (Changing host)
+2010-10-16 23:39:38	-->	cwickert (~chris@fedora/cwickert) has joined #xfce
+2010-10-16 23:39:38	--	Mode #xfce [+v cwickert] by ChanServ
+2010-10-16 23:55:46	<--	damNageHack (~damNageHa@cpe.atm2-0-1031162.hsnxx1.customer.tele.dk) has quit (Remote host closed the connection)
+2010-10-17 00:02:01	Tukeke	cwickert, o/
+2010-10-17 00:02:18	killermoehre	good morning, guys
+2010-10-17 00:03:19	|Slacker|	morning
+2010-10-17 00:04:05	Tucos	technically morning here as well :p
+2010-10-17 00:04:08	inkjetunit	anyone aware of a window manager that can two, differently sized displays well?
+2010-10-17 00:04:18	inkjetunit	that can handle, i mean
+2010-10-17 00:04:31	killermoehre	handling is done by xrandr, imho
+2010-10-17 00:04:57	inkjetunit	yes, i'm using xrandr, but i'm not familiar with this stuff, really
+2010-10-17 00:05:55	killermoehre	I don't think there is someone out there who is familiar with xrandr…
+2010-10-17 00:08:28	f8l	inkjetunit: I've successfully  configured Compiz to handle two different screens.
+2010-10-17 00:08:36	inkjetunit	hmm. nevermind. i found a nice workaround for my problem already
+2010-10-17 00:11:12	-->	damNageHack (~damNageHa@cpe.atm2-0-1031162.hsnxx1.customer.tele.dk) has joined #xfce
+2010-10-17 00:11:16	inkjetunit	instead of aligning the two displays horizontally, i aligned them vertically. both displays share the same horizontal size
+2010-10-17 00:11:27	<--	damNageHack (~damNageHa@cpe.atm2-0-1031162.hsnxx1.customer.tele.dk) has quit (Remote host closed the connection)
+2010-10-17 00:12:04	<--	david217 (~david217@5ac02c90.bb.sky.com) has quit (Ping timeout: 240 seconds)
+2010-10-17 00:12:55	<--	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has quit (Quit: JPohlmann)
+2010-10-17 00:22:23	-->	david217 (~david217@5ac02c90.bb.sky.com) has joined #xfce
+2010-10-17 00:23:16	-->	rivoot_ (~rivoot@190.95.10.28) has joined #xfce
+2010-10-17 00:23:26	<--	rivoot_ (~rivoot@190.95.10.28) has quit (Changing host)
+2010-10-17 00:23:26	-->	rivoot_ (~rivoot@unaffiliated/rivoot) has joined #xfce
+2010-10-17 00:26:48	<--	rivoot (~rivoot@unaffiliated/rivoot) has quit (Ping timeout: 252 seconds)
+2010-10-17 00:36:54	<--	Tukeke (~Tukeke@unaffiliated/tukeke) has quit (Quit: Hasta la Victoria siempre. ¡Venceremos!)
+2010-10-17 00:40:43	<--	SmileeeM (~SmileeeM@202.3.38.209) has quit (Read error: Connection reset by peer)
+2010-10-17 00:41:51	<--	david217 (~david217@5ac02c90.bb.sky.com) has quit (Quit: Leaving)
+2010-10-17 00:48:19	-->	SmileeeM (~SmileeeM@202.3.38.209) has joined #xfce
+2010-10-17 00:48:19	--	rivoot_ is now known as rivoot
+2010-10-17 00:55:37	-->	_marc` (~marc@cl-2515.ham-01.de.sixxs.net) has joined #xfce
+2010-10-17 00:56:11	<--	SmileeeM (~SmileeeM@202.3.38.209) has quit (Remote host closed the connection)
+2010-10-17 00:56:28	-->	rigor (~rigor@96.17.117.91.dynamic.mundo-r.com) has joined #xfce
+2010-10-17 00:58:09	<--	rigor (~rigor@96.17.117.91.dynamic.mundo-r.com) has left #xfce
+2010-10-17 01:12:48	-->	dwnichols_ (~dwnichols@bas3-toronto02-1279545447.dsl.bell.ca) has joined #xfce
+2010-10-17 01:17:43	<--	Ycarene (jporterf@24-116-56-41.cpe.cableone.net) has quit (Ping timeout: 265 seconds)
+2010-10-17 01:24:31	-->	ddrizn (~bruce@adsl-074-171-054-251.sip.cae.bellsouth.net) has joined #xfce
+2010-10-17 01:26:05	<--	f8l (~f8l@213-238-104-73.adsl.inetia.pl) has quit (Quit: Good night.)
+2010-10-17 01:34:31	-->	Old404__ (~rooms@65-121-240-98.dia.static.qwest.net) has joined #xfce
+2010-10-17 01:34:31	<--	Old404__ (~rooms@65-121-240-98.dia.static.qwest.net) has quit (Client Quit)
+2010-10-17 01:42:03	-->	SmileeeM (~SmileeeM@202.3.38.209) has joined #xfce
+2010-10-17 01:52:28	<--	cwickert (~chris@fedora/cwickert) has quit (Quit: quitting...)
+2010-10-17 02:00:11	<--	Gef (~geoffroy@xbn44-1-82-67-142-147.fbx.proxad.net) has quit (Ping timeout: 252 seconds)
+2010-10-17 02:15:43	-->	Ycarene (jporterf@24-116-56-41.cpe.cableone.net) has joined #xfce
+2010-10-17 02:20:38	<--	|Slacker| (1000@189.65.51.52) has quit (Remote host closed the connection)
+2010-10-17 02:25:28	-->	|Slacker| (1000@187.47.35.121) has joined #xfce
+2010-10-17 02:46:26	<--	|Slacker| (1000@187.47.35.121) has quit (Quit: Leaving)
+2010-10-17 02:47:17	<--	Cookiekiller (~Cookiekil@fedora/Cookiekiller) has quit (Quit: Verlassend)
+2010-10-17 02:48:55	<--	Chromoris (~chromoris@vhe-540330.sshn.net) has quit (Quit: Goodbye)
+2010-10-17 02:49:41	<--	bomber (~bomber@c-24-34-80-143.hsd1.ma.comcast.net) has quit (Ping timeout: 252 seconds)
+2010-10-17 02:52:54	<--	rivoot (~rivoot@unaffiliated/rivoot) has quit (Ping timeout: 255 seconds)
+2010-10-17 03:00:18	-->	andyrtr (~andyrtr@archlinux/developer/andyrtr) has joined #xfce
+2010-10-17 03:03:09	<--	andyrtr_laptop (~andyrtr@f053202211.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-17 03:05:19	-->	rivoot (~rivoot@200-85-205-71.bk3-dsl.surnet.cl) has joined #xfce
+2010-10-17 03:05:19	<--	rivoot (~rivoot@200-85-205-71.bk3-dsl.surnet.cl) has quit (Changing host)
+2010-10-17 03:05:19	-->	rivoot (~rivoot@unaffiliated/rivoot) has joined #xfce
+2010-10-17 03:08:56	<--	sacarasc (sacarasc@xmms2/bitch/sacarasc) has quit (Ping timeout: 252 seconds)
+2010-10-17 03:21:14	<--	inkjetunit (~junito@unaffiliated/inkjetunit) has quit (Quit: leaving)
+2010-10-17 03:30:31	-->	inkjetunit (~junito@unaffiliated/inkjetunit) has joined #xfce
+2010-10-17 03:54:33	-->	Richiie (~richiie@c-cfa0e355.04-7-73746f4.cust.bredbandsbolaget.se) has joined #xfce
+2010-10-17 04:54:02	-->	smacnay (~smacnay@74-220-170-91.wightman.ca) has joined #xfce
+2010-10-17 04:56:02	<--	smacnay (~smacnay@74-220-170-91.wightman.ca) has quit (Client Quit)
+2010-10-17 04:56:36	-->	smacnay (~smacnay@74-220-170-91.wightman.ca) has joined #xfce
+2010-10-17 04:59:48		irc: disconnected from server
+2010-10-17 05:00:35	-->	quesada2 (~quesada@e178206212.adsl.alicedsl.de) has joined #xfce
+2010-10-17 05:00:35	--	Topic for #xfce is "Xfce 4.6 - grab it at http://xfce.org/download | Bored? /join #xfce-commits | Translate? http://translations.xfce.org/help/ | Ask your question and then BE PATIENT AND IDLE FOR A WHILE | YES - xfce4-mixer is part of xfce! | Can't click twice in Thunar? Get Xfce 4.6.2! |"
+2010-10-17 05:00:35	--	Topic set by sarts (~stephan@xfce/core-developer/sarts) on Thu, 05 Aug 2010 21:41:32
+2010-10-17 05:00:35	--	Nicks #xfce: [@ChanServ +eht16 +NSchermer _marc` andyrtr angelos Anom01y aquatix Argafal_ aton` auke Azalyn bier bier|tp billie BP{k} BrendenB Brunacho Carnophage cassmodiah clocker colinl daemon ddrizn deepy digitolx dkr dmaphy dwnichols dwnichols_ dylix e01 edoceo emma felipe` felipec fire|bird fishsponge forfolias FusionX gnat_x GNU\colossus Gokee2_ henriknj hmmmm hrubi infojunky inkjetunit jgeboski jimmiejaz Jonimus jordanm killermoehre knut_ leavittx ludens lugo m00se mancha Maxdamantus miwi MJBrune mr_pouit MrNaz` mtl mystica555 mystica555_ ofourdan OgMaciel OmegaPhil Ori_B Ox1 pigeon Po0ky quesada1 quesada2 redpepper replay Richiie Riotta rivoot Romain[NS] rvsjoen rworkman sarts sash_ Scorpi skizzhg Skunnyk smacnay SmileeeM ssimon ssuominen ssureshot t\zz tgall_out TGEN tssj666 Tucos tuxcrafter unmatrix xdr xsdg_ Ycarene zarper zaythan]
+2010-10-17 05:00:35	--	Channel #xfce: 106 nicks (1 op, 0 halfops, 2 voices, 103 normals)
+2010-10-17 05:00:35	--	URL for #xfce: http://www.xfce.org
+2010-10-17 05:00:51	--	Channel created on Sun, 26 Nov 2006 07:42:46
+2010-10-17 05:03:08	<--	quesada1 (~quesada@e178231025.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-17 05:08:23	<--	rivoot (~rivoot@unaffiliated/rivoot) has quit (Quit: Saliendo)
+2010-10-17 05:25:09	-->	killermoehre1 (~silvio@p54B3B043.dip0.t-ipconnect.de) has joined #xfce
+2010-10-17 05:25:36	<--	digitolx (~ssureshot@dynamic-acs-24-154-156-11.zoominternet.net) has quit (Remote host closed the connection)
+2010-10-17 05:26:33	<--	killermoehre (~silvio@p54B3831D.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2010-10-17 05:33:08	-->	llugo (~lugo@mgdb-4db8fac9.pool.mediaWays.net) has joined #xfce
+2010-10-17 05:36:23	<--	lugo (~lugo@mgdb-4db8f5d3.pool.mediaWays.net) has quit (Ping timeout: 240 seconds)
+2010-10-17 05:45:47	-->	huntxu (~hunt@113.109.236.193) has joined #xfce
+2010-10-17 05:46:52	<--	SmileeeM (~SmileeeM@202.3.38.209) has quit (Remote host closed the connection)
+2010-10-17 05:54:31	-->	SmileeeM (~SmileeeM@202.3.38.209) has joined #xfce
+2010-10-17 06:28:15	-->	gusnan (~gusnan@h22n3c1o269.bredband.skanova.com) has joined #xfce
+2010-10-17 06:32:43	<--	Brunacho (~bruno@r190-134-48-91.dialup.adsl.anteldata.net.uy) has quit (Quit: Me fui)
+2010-10-17 06:44:45	<--	huntxu (~hunt@113.109.236.193) has quit (Remote host closed the connection)
+2010-10-17 06:47:55	-->	huntxu (~hunt@219.137.149.229) has joined #xfce
+2010-10-17 07:01:48	<--	llugo (~lugo@mgdb-4db8fac9.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-10-17 07:39:16	<--	henriknj (~henriknj@unaffiliated/henriknj) has quit (Remote host closed the connection)
+2010-10-17 07:43:04	-->	Murray_B (~thommy@f054014056.adsl.alicedsl.de) has joined #xfce
+2010-10-17 07:45:47	<--	huntxu (~hunt@219.137.149.229) has quit (Quit: Leaving)
+2010-10-17 08:06:13	<--	gusnan (~gusnan@h22n3c1o269.bredband.skanova.com) has quit (Quit: Lämnar)
+2010-10-17 08:24:29	<--	hmmmm (~no@pool-72-79-135-132.sctnpa.east.verizon.net) has quit (Quit: Leaving)
+2010-10-17 08:40:09	-->	bomber (~bomber@c-24-34-80-143.hsd1.ma.comcast.net) has joined #xfce
+2010-10-17 09:03:07	<--	andyrtr (~andyrtr@archlinux/developer/andyrtr) has quit (Remote host closed the connection)
+2010-10-17 09:04:46	<--	bomber (~bomber@c-24-34-80-143.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2010-10-17 09:10:15	-->	andyrtr_laptop (~andyrtr@f053203024.adsl.alicedsl.de) has joined #xfce
+2010-10-17 09:17:56	-->	nightmorph (~nightmorp@gentoo/developer/nightmorph) has joined #xfce
+2010-10-17 09:36:11	<--	Murray_B (~thommy@f054014056.adsl.alicedsl.de) has quit (Quit: Leaving.)
+2010-10-17 09:48:48	<--	nightmorph (~nightmorp@gentoo/developer/nightmorph) has quit (Quit: Lost terminal)
+2010-10-17 09:55:51	<--	mystica555_ (~mike@c-24-8-222-211.hsd1.co.comcast.net) has quit (Quit: This computer has gone to sleep)
+2010-10-17 09:56:33	-->	Murray_B (~thommy@g224098071.adsl.alicedsl.de) has joined #xfce
+2010-10-17 10:20:07	-->	touparx (~toupar@202.114.106.21) has joined #xfce
+2010-10-17 10:33:51	-->	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has joined #xfce
+2010-10-17 10:33:52	--	Mode #xfce [+v JPohlmann] by ChanServ
+2010-10-17 10:38:07	<--	ddrizn (~bruce@adsl-074-171-054-251.sip.cae.bellsouth.net) has quit (Remote host closed the connection)
+2010-10-17 10:53:21	<--	Ycarene (jporterf@24-116-56-41.cpe.cableone.net) has quit (Remote host closed the connection)
+2010-10-17 10:57:32	-->	beppo (~nnscript@ip-109-91-0-147.unitymediagroup.de) has joined #xfce
+2010-10-17 10:57:33	<--	beppo (~nnscript@ip-109-91-0-147.unitymediagroup.de) has quit (Changing host)
+2010-10-17 10:57:33	-->	beppo (~nnscript@unaffiliated/beppo) has joined #xfce
+2010-10-17 10:57:49	-->	jeromeg (~jeromeg@xfce/goodies-developer/jeromeg) has joined #xfce
+2010-10-17 10:57:49	--	Mode #xfce [+v jeromeg] by ChanServ
+2010-10-17 10:58:30	-->	Ycarene (jporterf@24-116-56-41.cpe.cableone.net) has joined #xfce
+2010-10-17 11:25:54	<--	Ycarene (jporterf@24-116-56-41.cpe.cableone.net) has quit (Read error: Operation timed out)
+2010-10-17 11:30:13	-->	Gef (~geoffroy@xbn44-1-82-67-142-147.fbx.proxad.net) has joined #xfce
+2010-10-17 11:36:34	-->	hannes| (~hannes__@pD958F487.dip.t-dialin.net) has joined #xfce
+2010-10-17 11:37:58	-->	f8l (~f8l@87-205-68-251.adsl.inetia.pl) has joined #xfce
+2010-10-17 11:38:56	<--	jeromeg (~jeromeg@xfce/goodies-developer/jeromeg) has quit (Quit: I'm leaving in the rain)
+2010-10-17 11:39:40	-->	jeromeg (~jeromeg@xfce/goodies-developer/jeromeg) has joined #xfce
+2010-10-17 11:39:40	--	Mode #xfce [+v jeromeg] by ChanServ
+2010-10-17 11:41:11	-->	Ycarene (jporterf@24-116-56-41.cpe.cableone.net) has joined #xfce
+2010-10-17 11:41:26	-->	rocklobster_217 (~david217@5ac02c90.bb.sky.com) has joined #xfce
+2010-10-17 12:04:52	<--	beppo (~nnscript@unaffiliated/beppo) has quit (Read error: Connection reset by peer)
+2010-10-17 12:17:23	<--	hannes| (~hannes__@pD958F487.dip.t-dialin.net) has quit (Ping timeout: 276 seconds)
+2010-10-17 12:32:16	<--	andyrtr_laptop (~andyrtr@f053203024.adsl.alicedsl.de) has quit (Quit: Ex-Chat)
+2010-10-17 12:33:38	-->	lugo (~lugo@mgdb-4db8fac9.pool.mediaWays.net) has joined #xfce
+2010-10-17 12:35:14	<--	jeromeg (~jeromeg@xfce/goodies-developer/jeromeg) has quit (Quit: I'm leaving in the rain)
+2010-10-17 12:35:27	<--	rocklobster_217 (~david217@5ac02c90.bb.sky.com) has quit (Ping timeout: 260 seconds)
+2010-10-17 12:40:44	-->	hannes| (~hannes__@pD958F487.dip.t-dialin.net) has joined #xfce
+2010-10-17 12:58:34	-->	henriknj (~henriknj@unaffiliated/henriknj) has joined #xfce
+2010-10-17 12:59:50	-->	hiptobecubic (~john@unaffiliated/hiptobecubic) has joined #xfce
+2010-10-17 13:13:27	<--	henriknj (~henriknj@unaffiliated/henriknj) has quit (Remote host closed the connection)
+2010-10-17 13:22:15	-->	rocklobster_217 (~david217@5ac02c90.bb.sky.com) has joined #xfce
+2010-10-17 13:41:35	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Ping timeout: 250 seconds)
+2010-10-17 13:43:10	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-17 13:46:55	<--	hiptobecubic (~john@unaffiliated/hiptobecubic) has quit (Quit: For a holy stint, a moth of the cloth gave up his woolens for lint.)
+2010-10-17 13:50:02	<--	rocklobster_217 (~david217@5ac02c90.bb.sky.com) has quit (Ping timeout: 240 seconds)
+2010-10-17 13:54:05	-->	sacarasc (sacarasc@cpc1-kemp6-2-0-cust632.9-2.cable.virginmedia.com) has joined #xfce
+2010-10-17 13:54:05	<--	sacarasc (sacarasc@cpc1-kemp6-2-0-cust632.9-2.cable.virginmedia.com) has quit (Changing host)
+2010-10-17 13:54:05	-->	sacarasc (sacarasc@xmms2/bitch/sacarasc) has joined #xfce
+2010-10-17 13:56:23	-->	flo` (~flo@p5499A3A3.dip0.t-ipconnect.de) has joined #xfce
+2010-10-17 14:04:06	-->	Cookiekiller (~Cookiekil@fedora/Cookiekiller) has joined #xfce
+2010-10-17 14:11:09	-->	gouchi (~Karim@ivr94-8-88-162-27-162.fbx.proxad.net) has joined #xfce
+2010-10-17 14:40:04	-->	bomber (~bomber@c-24-34-80-143.hsd1.ma.comcast.net) has joined #xfce
+2010-10-17 15:25:34	-->	hmmmm (~no@pool-72-79-135-132.sctnpa.east.verizon.net) has joined #xfce
+2010-10-17 15:25:47	<--	touparx (~toupar@202.114.106.21) has quit (Quit: leaving)
+2010-10-17 15:26:47	-->	touparx (~toupar@202.114.106.21) has joined #xfce
+2010-10-17 15:33:26	-->	rivoot (~rivoot@unaffiliated/rivoot) has joined #xfce
+2010-10-17 15:34:04	<--	touparx (~toupar@202.114.106.21) has quit (Quit: leaving)
+2010-10-17 15:34:22	<--	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has quit (Read error: Operation timed out)
+2010-10-17 15:38:25	-->	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has joined #xfce
+2010-10-17 15:39:49	-->	touparx (~toupar@202.114.106.21) has joined #xfce
+2010-10-17 15:43:49	<--	Murray_B (~thommy@g224098071.adsl.alicedsl.de) has quit (Quit: Leaving.)
+2010-10-17 15:49:20	<--	touparx (~toupar@202.114.106.21) has quit (Quit: leaving)
+2010-10-17 15:52:41	<--	MrNaz` (~naz@ppp118-209-215-110.lns20.mel6.internode.on.net) has quit (Ping timeout: 264 seconds)
+2010-10-17 15:55:04	<--	Richiie (~richiie@c-cfa0e355.04-7-73746f4.cust.bredbandsbolaget.se) has quit (Ping timeout: 252 seconds)
+2010-10-17 16:06:27	-->	MrNaz (~naz@ppp118-209-121-44.lns20.mel4.internode.on.net) has joined #xfce
+2010-10-17 16:12:43	<--	MrNaz (~naz@ppp118-209-121-44.lns20.mel4.internode.on.net) has quit (Ping timeout: 240 seconds)
+2010-10-17 16:15:29	<--	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has quit (Ping timeout: 276 seconds)
+2010-10-17 16:16:05	-->	huntxu (~hunt@61.144.146.237) has joined #xfce
+2010-10-17 16:16:49	-->	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has joined #xfce
+2010-10-17 16:26:19	-->	MrNaz (~naz@ppp118-209-64-113.lns20.mel4.internode.on.net) has joined #xfce
+2010-10-17 16:40:14	<--	knut_ (~knut@ANancy-157-1-81-191.w86-218.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2010-10-17 16:41:21	-->	knut_ (~knut@ANancy-157-1-81-191.w86-218.abo.wanadoo.fr) has joined #xfce
+2010-10-17 16:50:44	-->	_twitch (~burning_a@64.112.96.58.static.exetel.com.au) has joined #xfce
+2010-10-17 16:51:34	-->	henriknj (~henriknj@unaffiliated/henriknj) has joined #xfce
+2010-10-17 16:55:30	<--	lugo (~lugo@mgdb-4db8fac9.pool.mediaWays.net) has quit (Quit: Leaving)
+2010-10-17 17:07:52	-->	silver (~kingrat@178.120.0.72) has joined #xfce
+2010-10-17 17:10:01	-->	Murray_B (~thommy@g230250254.adsl.alicedsl.de) has joined #xfce
+2010-10-17 17:12:59	<--	rvsjoen (~rvsjoen@38.79-160-94.customer.lyse.net) has left #xfce
+2010-10-17 17:13:05	-->	Solak (~stijnw@541949AF.cm-5-2b.dynamic.ziggo.nl) has joined #xfce
+2010-10-17 17:13:08	Solak	Hello.
+2010-10-17 17:13:53	Solak	Is there a way to get an overall transparency, instead of the partial transparencies offered in the settings menu?
+2010-10-17 17:14:46	-->	beppo (~nnscript@ip-109-91-0-147.unitymediagroup.de) has joined #xfce
+2010-10-17 17:14:46	<--	beppo (~nnscript@ip-109-91-0-147.unitymediagroup.de) has quit (Changing host)
+2010-10-17 17:14:46	-->	beppo (~nnscript@unaffiliated/beppo) has joined #xfce
+2010-10-17 17:16:30	<--	huntxu (~hunt@61.144.146.237) has quit (Quit: Leaving)
+2010-10-17 17:27:19	-->	slimjimflim (~bwmpn0ki2@unaffiliated/slimjimflim) has joined #xfce
+2010-10-17 17:27:40	slimjimflim	how can i get a bash script to execute when i double-click it?
+2010-10-17 17:27:59	hannes|	chmod +x
+2010-10-17 17:28:05	slimjimflim	i have one on my desktop but when i right click -> execute or double-click nothing happens
+2010-10-17 17:28:35	hannes|	try to start it from terminal to see errors
+2010-10-17 17:29:21	slimjimflim	hannes|: it was already 700
+2010-10-17 17:29:26	slimjimflim	but i did that and still nothing
+2010-10-17 17:29:38	slimjimflim	it runs fine if i execute it from the terminal
+2010-10-17 17:29:39	slimjimflim	no errors
+2010-10-17 17:29:53	slimjimflim	like this:  ../myscript
+2010-10-17 17:30:02	slimjimflim	er: ./myscript
+2010-10-17 17:30:17	-->	Richiie (~richiie@c-cfa0e355.04-7-73746f4.cust.bredbandsbolaget.se) has joined #xfce
+2010-10-17 17:30:57	slimjimflim	running xubuntu lucid
+2010-10-17 17:32:40	hannes|	ls -al mycript
+2010-10-17 17:34:02	slimjimflim	-rwx--x--x
+2010-10-17 17:44:29	-->	Icaria (~etnlIcaru@ppp118-210-83-209.lns20.adl2.internode.on.net) has joined #xfce
+2010-10-17 17:45:09	hannes|	should it start a prog? I mean if there is only output to the terminal you should also start it in a terminal
+2010-10-17 17:45:39	slimjimflim	hannes|: it starts a game
+2010-10-17 17:46:41	slimjimflim	i just tried it like this: xfce4-terminal -x bash <path to executable>
+2010-10-17 17:47:12	slimjimflim	and that also runs fine from cli, but nothing from thunar
+2010-10-17 17:47:27	slimjimflim	well it does open the terminal for a split sec
+2010-10-17 17:48:25	-->	`mOOse` (~yea@unaffiliated/m00se) has joined #xfce
+2010-10-17 17:50:05	hannes|	did you try the properties entry of the right-click menu?
+2010-10-17 17:51:49	<--	m00se (~yea@unaffiliated/m00se) has quit (Ping timeout: 252 seconds)
+2010-10-17 17:52:00	slimjimflim	it's set to open with abiword...wtf
+2010-10-17 17:52:05	--	`mOOse` is now known as m00se
+2010-10-17 17:52:27	slimjimflim	access: read and write
+2010-10-17 17:52:44	slimjimflim	that can't be right
+2010-10-17 17:54:45	hannes|	no this should be right but there should be a check box where you could choose to allow this file to run as prog
+2010-10-17 17:56:00	slimjimflim	nope
+2010-10-17 17:56:13	hannes|	then the file has wrong content
+2010-10-17 17:56:23	slimjimflim	define wrong
+2010-10-17 17:56:44	hannes|	I just tried and with a simple hello world bash script and I could immediately choose this option:
+2010-10-17 17:56:48	hannes|	#!/bin/bash
+2010-10-17 17:56:49	hannes|	echo Hello World
+2010-10-17 17:57:11	slimjimflim	and you get a terminal with that output that stays open?
+2010-10-17 17:57:41	hannes|	no but the command is executed
+2010-10-17 17:57:56	hannes|	I didn't say that it should run in a terminal
+2010-10-17 17:59:22	-->	albabeba (~albabeba@lns-bzn-32-82-254-16-243.adsl.proxad.net) has joined #xfce
+2010-10-17 17:59:25	hannes|	perhaps paste it
+2010-10-17 18:06:10	<--	hannes| (~hannes__@pD958F487.dip.t-dialin.net) has quit (Remote host closed the connection)
+2010-10-17 18:06:30	<--	_twitch (~burning_a@64.112.96.58.static.exetel.com.au) has quit (Quit: _twitch)
+2010-10-17 18:07:25	<--	albabeba (~albabeba@lns-bzn-32-82-254-16-243.adsl.proxad.net) has quit (Quit: Quitte)
+2010-10-17 18:12:10	-->	huntxu (~hunt@61.144.146.237) has joined #xfce
+2010-10-17 18:15:01	<--	Richiie (~richiie@c-cfa0e355.04-7-73746f4.cust.bredbandsbolaget.se) has quit (Ping timeout: 250 seconds)
+2010-10-17 18:16:51	<--	huntxu (~hunt@61.144.146.237) has quit (Client Quit)
+2010-10-17 18:17:44	slimjimflim	yay i got it if anyone's watching
+2010-10-17 18:18:00	slimjimflim	xfce4-terminal --hold -x bash <full path to my script> made the icon active
+2010-10-17 18:45:53	<--	silver (~kingrat@178.120.0.72) has quit (Quit: red tree)
+2010-10-17 18:59:17	<--	bier (~bier@p4FCC67EE.dip.t-dialin.net) has quit (Ping timeout: 276 seconds)
+2010-10-17 18:59:31	<--	bier|tp (~bier@p4FCC67EE.dip.t-dialin.net) has quit (Ping timeout: 265 seconds)
+2010-10-17 19:03:03	<--	beppo (~nnscript@unaffiliated/beppo) has quit (Read error: Connection reset by peer)
+2010-10-17 19:04:21	-->	Riotta^^ (~riot777@chello089078221095.chello.pl) has joined #xfce
+2010-10-17 19:04:53	<--	Riotta^^ (~riot777@chello089078221095.chello.pl) has quit (Remote host closed the connection)
+2010-10-17 19:04:55	<--	Riotta (riot777@bnc67.sbnc.pl) has quit (Changing host)
+2010-10-17 19:04:55	-->	Riotta (riot777@unaffiliated/riot777) has joined #xfce
+2010-10-17 19:11:59	-->	bier (~bier@p54A53692.dip.t-dialin.net) has joined #xfce
+2010-10-17 19:11:59	-->	bier|tp (~bier@p54A53692.dip.t-dialin.net) has joined #xfce
+2010-10-17 19:18:52	<--	Icaria (~etnlIcaru@ppp118-210-83-209.lns20.adl2.internode.on.net) has quit (Quit: Leaving)
+2010-10-17 19:46:45	<--	henriknj (~henriknj@unaffiliated/henriknj) has quit (Ping timeout: 240 seconds)
+2010-10-17 19:47:22	-->	henriknj (~henriknj@unaffiliated/henriknj) has joined #xfce
+2010-10-17 19:55:00	<--	slimjimflim (~bwmpn0ki2@unaffiliated/slimjimflim) has left #xfce
+2010-10-17 20:11:32	<--	flo` (~flo@p5499A3A3.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2010-10-17 20:13:20	<--	dwnichols_ (~dwnichols@bas3-toronto02-1279545447.dsl.bell.ca) has quit (Remote host closed the connection)
+2010-10-17 20:19:33	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Read error: Connection reset by peer)
+2010-10-17 20:26:39	-->	tigerby (~tiger@mirror.datacenter.by) has joined #xfce
+2010-10-17 20:37:28	<--	m00se (~yea@unaffiliated/m00se) has quit
+2010-10-17 20:45:35	mancha	is it possible to use libcaberra with xfce?
+2010-10-17 20:45:48	mancha	libcanberra*
+2010-10-17 20:46:01	ssuominen	yes, there's minimal libcanberra support in xfce4-settings for sound events
+2010-10-17 20:46:32	mancha	where do i enable it? or must i compile xfce against libcanberra first?
+2010-10-17 20:47:03	-->	Xbert (~Xbert@cpc3-hatf2-0-0-cust938.9-3.cable.virginmedia.com) has joined #xfce
+2010-10-17 20:48:07	ssuominen	./configure --enable-sound-settings for compile-time in xfce4-settings.  then it appears as 2 checkboxes somewhere in Settings > ... at menu
+2010-10-17 20:49:10	-->	cwickert (~chris@fedora/cwickert) has joined #xfce
+2010-10-17 20:49:10	--	Mode #xfce [+v cwickert] by ChanServ
+2010-10-17 20:49:16	mancha	ssuominen aha thanks. what i really want is simply to set canberra's sound theme for some gnome gtk apps
+2010-10-17 20:49:54	mancha	i have found no other solutionon the intrawebs than to set a default sound theme from gnome (which by extensiojn i was hoping could be done from xfce if xfce had canberra support)
+2010-10-17 20:50:27	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-17 20:50:31	mancha	and that is a very longwinded way to say i don't want swoosh sounds in xfce i just wanted to be able to turn it on for other apps
+2010-10-17 20:50:33	-->	andyrtr_laptop (~andyrtr@f053203024.adsl.alicedsl.de) has joined #xfce
+2010-10-17 20:51:07	mancha	do you know of a cli way to achieve this?
+2010-10-17 20:52:06	<--	cwickert (~chris@fedora/cwickert) has quit (Client Quit)
+2010-10-17 20:52:11	 *	Solak still wonders if (and how) it is possible to set the overall opacity...
+2010-10-17 20:52:35	Solak	can't find it, except for certain apps like xchat and the terminal.
+2010-10-17 20:53:51	e01	Solak, search transd
+2010-10-17 20:54:14	e01	it is daemon for making windows transparent
+2010-10-17 20:55:22	Solak	e01: in the settings menu I can only find opacity-settings for specific actions, not for general opacity.
+2010-10-17 20:55:53	e01	it is not included in xfce
+2010-10-17 20:55:54	Solak	e01: I want active windows to be opaque, not inactive/moving windows.
+2010-10-17 20:55:57	e01	google it :)
+2010-10-17 20:56:03	Solak	oh.
+2010-10-17 20:56:08	Solak	ok, thanks.
+2010-10-17 21:00:39	<--	cassmodiah (cassie@fedora/cassmodiah) has quit (Remote host closed the connection)
+2010-10-17 21:09:10	-->	rocklobster_217 (~david217@5ac02c90.bb.sky.com) has joined #xfce
+2010-10-17 21:28:26	<--	Solak (~stijnw@541949AF.cm-5-2b.dynamic.ziggo.nl) has quit (Quit: Leaving)
+2010-10-17 21:33:12	<--	Xbert (~Xbert@cpc3-hatf2-0-0-cust938.9-3.cable.virginmedia.com) has quit (Read error: Operation timed out)
+2010-10-17 21:48:12	<--	rocklobster_217 (~david217@5ac02c90.bb.sky.com) has quit (Ping timeout: 272 seconds)
+2010-10-17 21:50:47	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Remote host closed the connection)
+2010-10-17 21:52:35	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-17 21:58:38	<--	Murray_B (~thommy@g230250254.adsl.alicedsl.de) has left #xfce ("Leaving.")
+2010-10-17 22:00:01	-->	|Slacker| (~cris@200.146.13.13.dynamic.dialup.gvt.net.br) has joined #xfce
+2010-10-17 22:01:03	<--	dwnichols (~dwnichols@bas3-toronto02-1279545447.dsl.bell.ca) has quit (Ping timeout: 240 seconds)
+2010-10-17 22:05:33	-->	cassmodiah (cassie@shut.up.and.just.google-it.info) has joined #xfce
+2010-10-17 22:06:13	-->	freeki (~yo@freeki.me) has joined #xfce
+2010-10-17 22:06:29	freeki	Is there a patch to take care of the pathetic state of setting an X11 cursor theme in XFce4?
+2010-10-17 22:06:40	freeki	If not, I propose this question.
+2010-10-17 22:06:45	freeki	Really?
+2010-10-17 22:14:56	<--	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has quit (Disconnected by services)
+2010-10-17 22:15:04	-->	JPohlmann1 (~jannis@pD9E56A7D.dip.t-dialin.net) has joined #xfce
+2010-10-17 22:17:01	freeki	When I try to resize xfwm4 windows
+2010-10-17 22:17:05	freeki	it uses the default cursor
+2010-10-17 22:17:08	freeki	no matter what i do
+2010-10-17 22:22:02	skizzhg	freeki, uhm maybe i have solution
+2010-10-17 22:22:22	freeki	skizzhg: im using .Xdefaults to specify the theme, have a symlink for .icons/default
+2010-10-17 22:22:30	skizzhg	it's a bit tricky, but i had the same trouble, cursor worked noly inside the windows
+2010-10-17 22:23:00	freeki	atm the issue is /just/ when resizing xfwm4 windows
+2010-10-17 22:23:07	freeki	which annoys me
+2010-10-17 22:23:17	skizzhg	ah eh, that one, ~/.icons/default/index.theme
+2010-10-17 22:23:57	skizzhg	wiht an entry that points at ~/.icons/dir/of/mycursortheme
+2010-10-17 22:24:30	skizzhg	and i dno't have anything in ~/.Xresources
+2010-10-17 22:25:23	skizzhg	http://paste.debian.net/96959/
+2010-10-17 22:25:24	-->	Xbert (~Xbert@cpc3-hatf2-0-0-cust938.9-3.cable.virginmedia.com) has joined #xfce
+2010-10-17 22:25:28	skizzhg	this is ~/.icons/default/index.theme
+2010-10-17 22:25:38	<--	JPohlmann1 (~jannis@pD9E56A7D.dip.t-dialin.net) has quit (Quit: JPohlmann1)
+2010-10-17 22:25:55	-->	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has joined #xfce
+2010-10-17 22:25:56	--	Mode #xfce [+v JPohlmann] by ChanServ
+2010-10-17 22:27:24	skizzhg	i don't have xfce anymore but still works, it's probably a desktop standard or so
+2010-10-17 22:30:47	freeki	skizzhg: testing it out
+2010-10-17 22:32:24	-->	m00se (~yea@unaffiliated/m00se) has joined #xfce
+2010-10-17 22:40:04	<--	_marc` (~marc@cl-2515.ham-01.de.sixxs.net) has quit (Quit: _marc`)
+2010-10-17 22:52:45	-->	dwnichols (~dwnichols@bas3-toronto02-1279545447.dsl.bell.ca) has joined #xfce
+2010-10-17 22:55:31	-->	cwickert (~chris@fedora/cwickert) has joined #xfce
+2010-10-17 22:55:31	--	Mode #xfce [+v cwickert] by ChanServ
+2010-10-17 23:06:47	<--	killermoehre1 (~silvio@p54B3B043.dip0.t-ipconnect.de) has quit (Ping timeout: 276 seconds)
+2010-10-17 23:14:53	-->	jeromeg (~jeromeg@boi59-4-82-240-113-238.fbx.proxad.net) has joined #xfce
+2010-10-17 23:14:53	<--	jeromeg (~jeromeg@boi59-4-82-240-113-238.fbx.proxad.net) has quit (Changing host)
+2010-10-17 23:14:53	-->	jeromeg (~jeromeg@xfce/goodies-developer/jeromeg) has joined #xfce
+2010-10-17 23:14:53	--	Mode #xfce [+v jeromeg] by ChanServ
+2010-10-17 23:17:27	<--	f8l (~f8l@87-205-68-251.adsl.inetia.pl) has quit (Quit: Evacuation!)
+2010-10-17 23:23:57	<--	gouchi (~Karim@ivr94-8-88-162-27-162.fbx.proxad.net) has quit (Remote host closed the connection)
+2010-10-17 23:41:03	-->	henriknj_ (~henriknj@unaffiliated/henriknj) has joined #xfce
+2010-10-17 23:43:24	<--	henriknj (~henriknj@unaffiliated/henriknj) has quit (Ping timeout: 240 seconds)
+2010-10-17 23:51:58	<--	billie (~billie@gentoo/developer/billie) has quit (Ping timeout: 255 seconds)
+2010-10-17 23:54:53	<--	Xbert (~Xbert@cpc3-hatf2-0-0-cust938.9-3.cable.virginmedia.com) has quit (Ping timeout: 276 seconds)
+2010-10-17 23:59:55	<--	jeromeg (~jeromeg@xfce/goodies-developer/jeromeg) has quit (Quit: I'm leaving in the rain)
+2010-10-18 00:14:10	-->	`mOOse` (~yea@rrcs-208-105-242-154.nys.biz.rr.com) has joined #xfce
+2010-10-18 00:14:10	<--	`mOOse` (~yea@rrcs-208-105-242-154.nys.biz.rr.com) has quit (Changing host)
+2010-10-18 00:14:10	-->	`mOOse` (~yea@unaffiliated/m00se) has joined #xfce
+2010-10-18 00:18:16	<--	m00se (~yea@unaffiliated/m00se) has quit (Ping timeout: 276 seconds)
+2010-10-18 00:18:29	--	`mOOse` is now known as m00se
+2010-10-18 00:32:42	-->	nvision (~nvision@g225059179.adsl.alicedsl.de) has joined #xfce
+2010-10-18 00:32:42	<--	nvision (~nvision@g225059179.adsl.alicedsl.de) has quit (Changing host)
+2010-10-18 00:32:42	-->	nvision (~nvision@unaffiliated/nvision) has joined #xfce
+2010-10-18 00:35:27	--	fire|bird is now known as evil|bird
+2010-10-18 00:38:06	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Ping timeout: 252 seconds)
+2010-10-18 00:39:22	<--	|Slacker| (~cris@200.146.13.13.dynamic.dialup.gvt.net.br) has quit (Ping timeout: 245 seconds)
+2010-10-18 00:50:39	<--	jgeboski (~jgeboski@unaffiliated/jgeboski) has quit (Read error: Connection reset by peer)
+2010-10-18 00:50:42	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-18 00:51:51	-->	jgeboski (~jgeboski@unaffiliated/jgeboski) has joined #xfce
+2010-10-18 00:51:58	-->	|Slacker| (~cris@200.146.13.13.dynamic.dialup.gvt.net.br) has joined #xfce
+2010-10-18 00:55:29	<--	jgeboski (~jgeboski@unaffiliated/jgeboski) has quit (Max SendQ exceeded)
+2010-10-18 00:57:21	-->	jgeboski (~jgeboski@unaffiliated/jgeboski) has joined #xfce
+2010-10-18 00:59:00	<--	Gef (~geoffroy@xbn44-1-82-67-142-147.fbx.proxad.net) has quit (Ping timeout: 252 seconds)
+2010-10-18 01:00:17	<--	jgeboski (~jgeboski@unaffiliated/jgeboski) has quit (Max SendQ exceeded)
+2010-10-18 01:04:22	-->	jgeboski (~jgeboski@unaffiliated/jgeboski) has joined #xfce
+2010-10-18 01:04:33	<--	jgeboski (~jgeboski@unaffiliated/jgeboski) has quit (Max SendQ exceeded)
+2010-10-18 01:06:10	<--	nvision (~nvision@unaffiliated/nvision) has quit (Remote host closed the connection)
+2010-10-18 01:08:26	<--	bomber (~bomber@c-24-34-80-143.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2010-10-18 01:08:51	-->	jgeboski (~jgeboski@unaffiliated/jgeboski) has joined #xfce
+2010-10-18 01:12:41	<--	jgeboski (~jgeboski@unaffiliated/jgeboski) has quit (Max SendQ exceeded)
+2010-10-18 01:14:10	<--	|Slacker| (~cris@200.146.13.13.dynamic.dialup.gvt.net.br) has quit (Quit: Leaving)
+2010-10-18 01:16:05	-->	|Slacker| (~cris@200.146.13.13.dynamic.dialup.gvt.net.br) has joined #xfce
+2010-10-18 01:28:57	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Ping timeout: 245 seconds)
+2010-10-18 01:37:34	<--	felipec (~felipec@a91-153-253-80.elisa-laajakaista.fi) has quit (Quit: Leaving)
+2010-10-18 01:38:00	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-18 01:50:43	<--	henriknj_ (~henriknj@unaffiliated/henriknj) has quit (Remote host closed the connection)
+2010-10-18 02:05:22	-->	jgeboski (~jgeboski@unaffiliated/jgeboski) has joined #xfce
+2010-10-18 02:09:03	--	evil|bird is now known as fire|bird
+2010-10-18 02:17:33	<--	inkjetunit (~junito@unaffiliated/inkjetunit) has quit (Ping timeout: 240 seconds)
+2010-10-18 02:18:34	-->	inkjetunit (~junito@dsl-hkibrasgw4-fe49dc00-187.dhcp.inet.fi) has joined #xfce
+2010-10-18 02:28:39	<--	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has quit (Ping timeout: 252 seconds)
+2010-10-18 02:29:38	-->	Brunacho (~bruno@r190-134-15-205.dialup.adsl.anteldata.net.uy) has joined #xfce
+2010-10-18 02:32:34	<--	cwickert (~chris@fedora/cwickert) has quit (Remote host closed the connection)
+2010-10-18 02:42:31	<--	MrNaz (~naz@ppp118-209-64-113.lns20.mel4.internode.on.net) has quit (Ping timeout: 255 seconds)
+2010-10-18 02:47:35	-->	Richiie (~richiie@c-cfa0e355.04-7-73746f4.cust.bredbandsbolaget.se) has joined #xfce
+2010-10-18 02:55:27	-->	MrNaz (~naz@ppp118-209-99-186.lns20.mel4.internode.on.net) has joined #xfce
+2010-10-18 03:00:13	-->	andyrtr (~andyrtr@archlinux/developer/andyrtr) has joined #xfce
+2010-10-18 03:03:51	<--	andyrtr_laptop (~andyrtr@f053203024.adsl.alicedsl.de) has quit (Ping timeout: 252 seconds)
+2010-10-18 03:24:44	<--	inkjetunit (~junito@dsl-hkibrasgw4-fe49dc00-187.dhcp.inet.fi) has quit (Changing host)
+2010-10-18 03:24:44	-->	inkjetunit (~junito@unaffiliated/inkjetunit) has joined #xfce
+2010-10-18 03:47:44	-->	jk__ (~jk@adsl-66-143-22-33.dsl.okcyok.swbell.net) has joined #xfce
+2010-10-18 03:48:09	<--	jk__ (~jk@adsl-66-143-22-33.dsl.okcyok.swbell.net) has quit (Client Quit)
+2010-10-18 04:02:55	<--	Richiie (~richiie@c-cfa0e355.04-7-73746f4.cust.bredbandsbolaget.se) has quit (Read error: Connection reset by peer)
+2010-10-18 04:29:39	-->	mystica55 (~mike@c-24-8-222-211.hsd1.co.comcast.net) has joined #xfce
+2010-10-18 04:49:33	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Ping timeout: 240 seconds)
+2010-10-18 04:52:08	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-18 04:55:58	<--	freeki (~yo@freeki.me) has left #xfce
+2010-10-18 04:57:38		irc: disconnected from server
+2010-10-18 04:58:29	-->	quesada3 (~quesada@e178205021.adsl.alicedsl.de) has joined #xfce
+2010-10-18 04:58:29	--	Topic for #xfce is "Xfce 4.6 - grab it at http://xfce.org/download | Bored? /join #xfce-commits | Translate? http://translations.xfce.org/help/ | Ask your question and then BE PATIENT AND IDLE FOR A WHILE | YES - xfce4-mixer is part of xfce! | Can't click twice in Thunar? Get Xfce 4.6.2! |"
+2010-10-18 04:58:29	--	Topic set by sarts (~stephan@xfce/core-developer/sarts) on Thu, 05 Aug 2010 21:41:32
+2010-10-18 04:58:29	--	Nicks #xfce: [@ChanServ +eht16 +NSchermer andyrtr angelos Anom01y aquatix Argafal_ aton` auke Azalyn bier bier|tp BP{k} BrendenB Brunacho Carnophage cassmodiah clocker colinl Cookiekiller daemon deepy dkr dmaphy dwnichols dylix e01 edoceo emma felipe` fire|bird fishsponge forfolias FusionX gnat_x GNU\colossus Gokee2_ hmmmm hrubi infojunky inkjetunit jgeboski jimmiejaz Jonimus jordanm knut_ leavittx ludens m00se mancha Maxdamantus miwi MJBrune mr_pouit MrNaz mtl mystica55 mystica555 ofourdan OgMaciel OmegaPhil Ori_B Ox1 pigeon Po0ky quesada2 quesada3 redpepper replay Riotta rivoot Romain[NS] rworkman sacarasc sarts sash_ Scorpi skizzhg Skunnyk smacnay SmileeeM ssimon ssuominen ssureshot t\zz tgall_out TGEN tigerby tssj666 Tucos tuxcrafter unmatrix xdr xsdg_ Ycarene zarper zaythan |Slacker|]
+2010-10-18 04:58:29	--	Channel #xfce: 99 nicks (1 op, 0 halfops, 2 voices, 96 normals)
+2010-10-18 04:58:29	--	URL for #xfce: http://www.xfce.org
+2010-10-18 04:58:45	--	Channel created on Sun, 26 Nov 2006 07:42:46
+2010-10-18 05:01:02	<--	quesada2 (~quesada@e178206212.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-18 05:04:47	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Ping timeout: 245 seconds)
+2010-10-18 05:17:07	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-18 05:25:37	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Ping timeout: 245 seconds)
+2010-10-18 05:35:39	-->	Icaria (~etnlIcaru@ppp118-210-83-209.lns20.adl2.internode.on.net) has joined #xfce
+2010-10-18 05:39:54	<--	jgeboski (~jgeboski@unaffiliated/jgeboski) has quit (Read error: Connection reset by peer)
+2010-10-18 05:41:51	-->	jgeboski (~jgeboski@unaffiliated/jgeboski) has joined #xfce
+2010-10-18 05:49:25	-->	lewis1711 (~lewis@125-239-0-158.jetstream.xtra.co.nz) has joined #xfce
+2010-10-18 05:50:00	lewis1711	for xfce4-terminal, in Edit -> Preferences -> Advanced
+2010-10-18 05:50:24	lewis1711	-> $TERM-setting, I have "xterm-256color"
+2010-10-18 05:50:50	lewis1711	lewis@1711:~$ tput colors
+2010-10-18 05:50:50	lewis1711	8
+2010-10-18 05:50:52	lewis1711	yet that happens
+2010-10-18 06:11:21	<--	rivoot (~rivoot@unaffiliated/rivoot) has quit (Quit: Saliendo)
+2010-10-18 06:13:45	<--	tigerby (~tiger@mirror.datacenter.by) has quit (Quit: tigerby)
+2010-10-18 06:14:35	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-18 06:18:58	<--	Cookiekiller (~Cookiekil@fedora/Cookiekiller) has quit (Ping timeout: 240 seconds)
+2010-10-18 06:19:06	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Ping timeout: 252 seconds)
+2010-10-18 06:24:51	<--	smacnay (~smacnay@74-220-170-91.wightman.ca) has quit (Quit: I didn't mean to press that!!)
+2010-10-18 06:31:34	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-18 06:36:43	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Ping timeout: 276 seconds)
+2010-10-18 06:41:25	<--	Brunacho (~bruno@r190-134-15-205.dialup.adsl.anteldata.net.uy) has quit (Quit: Me fui)
+2010-10-18 06:50:29	<--	xdr (~xdr@h-239-113.A219.priv.bahnhof.se) has quit (Ping timeout: 265 seconds)
+2010-10-18 06:52:38	-->	xdr (~xdr@h-239-113.A219.priv.bahnhof.se) has joined #xfce
+2010-10-18 06:53:50	<--	hmmmm (~no@pool-72-79-135-132.sctnpa.east.verizon.net) has quit (Quit: Leaving)
+2010-10-18 07:09:08	<--	mystica55 (~mike@c-24-8-222-211.hsd1.co.comcast.net) has quit (Quit: This computer has gone to sleep)
+2010-10-18 07:12:04	-->	mystica55 (~mike@c-24-8-222-211.hsd1.co.comcast.net) has joined #xfce
+2010-10-18 07:13:16	<--	lewis1711 (~lewis@125-239-0-158.jetstream.xtra.co.nz) has quit (Quit: Leaving.)
+2010-10-18 07:13:31	-->	lewis1711 (~lewis@125-239-0-158.jetstream.xtra.co.nz) has joined #xfce
+2010-10-18 07:24:08	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-18 07:34:07	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Ping timeout: 255 seconds)
+2010-10-18 07:40:03	<--	zaythan (~zaythan@ip98-166-87-5.hr.hr.cox.net) has quit (Quit: Lost terminal)
+2010-10-18 07:48:02	-->	tigerby (~tiger@tiger.ipfw.ru) has joined #xfce
+2010-10-18 07:48:30	--	mystica55 is now known as mystica555_
+2010-10-18 08:00:17	-->	Gef (~geoffroy@xbn44-1-82-67-142-147.fbx.proxad.net) has joined #xfce
+2010-10-18 08:04:50	<--	Gef (~geoffroy@xbn44-1-82-67-142-147.fbx.proxad.net) has quit (Ping timeout: 250 seconds)
+2010-10-18 08:18:57	-->	Gef (~geoffroy@xbn44-1-82-67-142-147.fbx.proxad.net) has joined #xfce
+2010-10-18 08:23:54	--	redpepper is now known as RedPepper
+2010-10-18 08:24:29	--	RedPepper is now known as redpepper
+2010-10-18 08:44:24	<--	jgeboski (~jgeboski@unaffiliated/jgeboski) has left #xfce
+2010-10-18 08:45:21	-->	jgeboski (~jgeboski@unaffiliated/jgeboski) has joined #xfce
+2010-10-18 08:47:25	<--	jgeboski (~jgeboski@unaffiliated/jgeboski) has quit (Max SendQ exceeded)
+2010-10-18 08:48:05	-->	jgeboski (~jgeboski@unaffiliated/jgeboski) has joined #xfce
+2010-10-18 08:53:57	<--	Gef (~geoffroy@xbn44-1-82-67-142-147.fbx.proxad.net) has quit (Read error: Operation timed out)
+2010-10-18 09:10:16	-->	_marc` (~marc@cl-2515.ham-01.de.sixxs.net) has joined #xfce
+2010-10-18 09:23:42	-->	killermoehre (~silvio@w4463.dip.tu-dresden.de) has joined #xfce
+2010-10-18 09:27:08	<--	lewis1711 (~lewis@125-239-0-158.jetstream.xtra.co.nz) has left #xfce
+2010-10-18 09:29:06	-->	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has joined #xfce
+2010-10-18 09:29:06	--	Mode #xfce [+v JPohlmann] by ChanServ
+2010-10-18 09:42:42	-->	Ancalag0n (~cosmic@215.208-78-194.adsl-fix.skynet.be) has joined #xfce
+2010-10-18 09:43:55	<--	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has quit (Ping timeout: 276 seconds)
+2010-10-18 10:07:58	<--	clocker (~clocker@mrrsmb01bb2-ac01-47-105.dial.mts.net) has quit (Ping timeout: 276 seconds)
+2010-10-18 10:08:14	-->	clocker (~clocker@mrrsmb01bb2-ac01-47-105.dial.mts.net) has joined #xfce
+2010-10-18 10:11:32	-->	Vito11 (~vito@195.3.173.128) has joined #xfce
+2010-10-18 10:12:11	-->	MrNaz` (~naz@ppp118-209-105-215.lns20.mel4.internode.on.net) has joined #xfce
+2010-10-18 10:15:13	<--	MrNaz (~naz@ppp118-209-99-186.lns20.mel4.internode.on.net) has quit (Read error: Operation timed out)
+2010-10-18 10:43:57	<--	killermoehre (~silvio@w4463.dip.tu-dresden.de) has quit (Ping timeout: 265 seconds)
+2010-10-18 10:52:36	-->	henriknj (~henriknj@unaffiliated/henriknj) has joined #xfce
+2010-10-18 10:56:41	-->	killermoehre (~silvio@w4919.dip.tu-dresden.de) has joined #xfce
+2010-10-18 10:57:06	killermoehre	good morning, guys
+2010-10-18 10:57:58	killermoehre	is there an option to show the place in orage, where a date will be?
+2010-10-18 10:58:07	killermoehre	in the over view
+2010-10-18 11:00:22	<--	jordanm (~jordanm@pdpc/supporter/active/titan8990) has quit (Ping timeout: 260 seconds)
+2010-10-18 11:00:26	-->	MrNaz`` (~naz@ppp118-209-188-45.lns20.mel6.internode.on.net) has joined #xfce
+2010-10-18 11:00:51	-->	jordanm (~jordanm@linuxgen.com) has joined #xfce
+2010-10-18 11:00:51	<--	jordanm (~jordanm@linuxgen.com) has quit (Changing host)
+2010-10-18 11:00:51	-->	jordanm (~jordanm@pdpc/supporter/active/titan8990) has joined #xfce
+2010-10-18 11:02:56	<--	MrNaz` (~naz@ppp118-209-105-215.lns20.mel4.internode.on.net) has quit (Ping timeout: 250 seconds)
+2010-10-18 11:20:46	<--	knut_ (~knut@ANancy-157-1-81-191.w86-218.abo.wanadoo.fr) has quit (Ping timeout: 276 seconds)
+2010-10-18 11:29:18	<--	emma (~em@unaffiliated/emma) has quit (Ping timeout: 260 seconds)
+2010-10-18 11:34:13	-->	e01 (~OSCorp01@new-tech.ro-ni.net) has joined #xfce
+2010-10-18 11:38:31	<--	e01 (~OSCorp01@new-tech.ro-ni.net) has quit (Ping timeout: 245 seconds)
+2010-10-18 11:42:20	-->	cwickert (~chris@host-091-096-139-235.ewe-ip-backbone.de) has joined #xfce
+2010-10-18 11:42:20	<--	cwickert (~chris@host-091-096-139-235.ewe-ip-backbone.de) has quit (Changing host)
+2010-10-18 11:42:20	-->	cwickert (~chris@fedora/cwickert) has joined #xfce
+2010-10-18 11:42:20	--	Mode #xfce [+v cwickert] by ChanServ
+2010-10-18 11:44:37	-->	emma (~em@unaffiliated/emma) has joined #xfce
+2010-10-18 11:59:04	-->	JPohlmann (~jannis@xfce/core-developer/JPohlmann) has joined #xfce
+2010-10-18 11:59:04	--	Mode #xfce [+v JPohlmann] by ChanServ

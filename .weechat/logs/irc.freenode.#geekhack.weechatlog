@@ -1,0 +1,540 @@
+2010-11-21 15:41:59	-->	quesada (~quesada@g231113105.adsl.alicedsl.de) has joined #geekhack
+2010-11-21 15:41:59	--	Topic for #geekhack is "http://geekhack.org"
+2010-11-21 15:41:59	--	Topic set by iMav (~lherzog@wilug/hell/iMav) on Sat, 24 Apr 2010 09:34:17
+2010-11-21 15:41:59	--	Nicks #geekhack: [@ChanServ AimHere Ali-Sky bhtooefr Big_Brother clever Clinteger dfj djmoymoy dw_junon fireglow fzn|aw HaaTa hate jmpespxoreax krackpot lifeflayer MarkWil MorningSong Natch| ph4n70m[n|a] phate408 phobus quesada raph_ael sapht sethstorm shmithers sinoth sygo theholyduck trievalot]
+2010-11-21 15:41:59	--	Channel #geekhack: 32 nicks (1 op, 0 halfops, 0 voices, 31 normals)
+2010-11-21 15:41:59	--	URL for #geekhack: http://geekhack.org
+2010-11-21 15:42:01	--	Channel created on Wed, 09 Dec 2009 22:58:53
+2010-11-21 15:48:39	theholyduck	dfj, you here?
+2010-11-21 15:48:54	dfj	sure.
+2010-11-21 15:49:14	dfj	I am the lizard king I never ... gnnnnnxxxxx sleep.
+2010-11-21 15:49:38	dfj	server seems up.
+2010-11-21 15:50:47	theholyduck	dfj, yeah
+2010-11-21 15:50:56	theholyduck	but i have the locks up during downloading terrain again
+2010-11-21 15:51:08	theholyduck	i think i know why though
+2010-11-21 15:51:17	dfj	you could try looking straight down...
+2010-11-21 15:51:18	theholyduck	i was digging under me when the game disconnected me
+2010-11-21 15:51:32	theholyduck	and now i might be stuck in the groudn when i try and download
+2010-11-21 15:51:38	dfj	ah - I could also dig that out...
+2010-11-21 15:51:48	theholyduck	dfj, well, i dunno what it is
+2010-11-21 15:51:57	theholyduck	the game crasehs on connet when downloading terrain
+2010-11-21 15:52:12	dfj	oh - the client crashes?
+2010-11-21 15:52:19	theholyduck	yes
+2010-11-21 15:52:23	theholyduck	no display comes up
+2010-11-21 15:52:34	dfj	dang, well - I like that situation better, at least. :)
+2010-11-21 15:52:35	theholyduck	it shows downloading terrain, and it crashes
+2010-11-21 15:52:53	dfj	hmm - you try removing the texture?
+2010-11-21 15:53:00	theholyduck	what texture?
+2010-11-21 15:53:11	dfj	skin - your client skin, not your toon skin.
+2010-11-21 15:53:16	dfj	bb was wrong. :)
+2010-11-21 15:53:17	theholyduck	am not using one
+2010-11-21 15:53:21	theholyduck	and yeah
+2010-11-21 15:53:26	theholyduck	toon skins do nothing
+2010-11-21 15:53:28	dfj	but - the client skins can change mem footprint.
+2010-11-21 15:53:33	theholyduck	but i dont have a client skin
+2010-11-21 15:53:40	theholyduck	atm
+2010-11-21 15:53:45	theholyduck	its a pristine virgin install
+2010-11-21 15:53:48	dfj	yup - was just finishing my ramble. :)
+2010-11-21 15:54:30	dfj	when did you connect successfully last?
+2010-11-21 15:54:37	theholyduck	last night
+2010-11-21 15:54:44	theholyduck	i was digging some stuff out
+2010-11-21 15:54:51	theholyduck	i got the disconnect error
+2010-11-21 15:54:59	theholyduck	and when i tried logging back in again
+2010-11-21 15:55:01	theholyduck	nothing worked
+2010-11-21 15:55:05	theholyduck	it crashes
+2010-11-21 15:55:10	theholyduck	well, rather
+2010-11-21 15:55:11	theholyduck	locks up
+2010-11-21 15:55:56	dfj	oh - it shows you as connected... one sec...
+2010-11-21 15:56:09	theholyduck	well yeah, it crasehs when i try to download the terrain
+2010-11-21 15:56:38	dfj	but... try one more time.
+2010-11-21 15:58:27	theholyduck	happens again
+2010-11-21 15:58:31	dfj	you'll time out - but then next login will work.
+2010-11-21 15:59:34	dfj	you weren't in a legal location.
+2010-11-21 16:00:12	dfj	anyway, this will happen again - I need to figure where in the save-file location is, and clean it out.
+2010-11-21 16:02:10	dfj	I tp'd you - you might be able to log in...
+2010-11-21 16:02:26	-->	Rezagrats (Adam@50.9.147.6) has joined #geekhack
+2010-11-21 16:02:37	dfj	brb - phone.
+2010-11-21 16:03:18	theholyduck	now i crash at logging in
+2010-11-21 16:04:08	dfj	bah.
+2010-11-21 16:05:52	<--	Big_Brother (Adam@50.9.147.6) has quit (Ping timeout: 272 seconds)
+2010-11-21 16:06:03	dfj	k - looking at yer save-file.
+2010-11-21 16:06:25	dfj	(and I backed up the game fully)
+2010-11-21 16:08:27	dfj	grr - files are compressed
+2010-11-21 16:15:13	-->	Oqsy (~Oqsy@173.218.127.213) has joined #geekhack
+2010-11-21 16:20:45	Oqsy	i are hurr
+2010-11-21 16:20:56	dfj	you certainly are.
+2010-11-21 16:21:29	Oqsy	hi dfj
+2010-11-21 16:21:44	Rezagrats	Wwwwwwwwwwwww
+2010-11-21 16:21:54	dfj	hmm?
+2010-11-21 16:22:00	Oqsy	how are things at the north pole?
+2010-11-21 16:22:07	dfj	cold.
+2010-11-21 16:22:28	Oqsy	fuckin sucks dood
+2010-11-21 16:22:30	dfj	 /me goes and gets a cookie
+2010-11-21 16:22:41	Rezagrats	Cookie?
+2010-11-21 16:23:04	dfj	srsly, though - it might snow today. :(
+2010-11-21 16:23:21	 *	Oqsy gets Dr. Pepper and some cheese
+2010-11-21 16:23:28	dfj	cookie... um, shortbread stuff - is yum.
+2010-11-21 16:24:18	Rezagrats	Only 18.9c here
+2010-11-21 16:24:33	Oqsy	its cold here too. most likely proportionally as cold as it is where you are in the great white north
+2010-11-21 16:24:52	Rezagrats	I'm eating beans.
+2010-11-21 16:25:10	 *	Rezagrats goes off to warm the beans up.
+2010-11-21 16:25:19	theholyduck	dfj, just nuke the file and give me sum op access
+2010-11-21 16:25:25	theholyduck	i remember roughly what i had in my inf
+2010-11-21 16:25:49	theholyduck	*inv
+2010-11-21 16:26:16	dfj	k - but remember that there is a log, if I see you looting there will be public mocking. :)
+2010-11-21 16:26:35	theholyduck	looting what?
+2010-11-21 16:27:07	dfj	well, for a mpaa def of looting - giving yerself loot without taking it from anyone else. :P
+2010-11-21 16:27:18	theholyduck	heh
+2010-11-21 16:27:19	theholyduck	:P
+2010-11-21 16:27:19	dfj	kk - file is backed up...
+2010-11-21 16:28:53	Rezagrats	Dfj, i actually dumped my stuff into a storage chest this time.
+2010-11-21 16:29:07	dfj	wise. :)
+2010-11-21 16:29:14	theholyduck	dfj, so, did you nuke my file?
+2010-11-21 16:29:20	dfj	and - I made full backups by bouncing the server with noone on.
+2010-11-21 16:29:40	dfj	ah, yes - I moved it away... it is safe fer holyduck to log on.
+2010-11-21 16:30:53	Rezagrats	Wut?
+2010-11-21 16:30:56	Rezagrats	I was on. :/
+2010-11-21 16:31:16	dfj	a half hour or so ago... you weren't on yet.
+2010-11-21 16:33:00	Rezagrats	Oh
+2010-11-21 16:33:01	Rezagrats	Right
+2010-11-21 16:35:16	<--	Oqsy (~Oqsy@173.218.127.213) has quit (Ping timeout: 245 seconds)
+2010-11-21 16:43:42	-->	Oqsy (~mint@173.218.127.213) has joined #geekhack
+2010-11-21 16:47:54	<--	Oqsy (~mint@173.218.127.213) has quit (Client Quit)
+2010-11-21 16:56:52	-->	Oqsy (~Oqsy@166.205.10.144) has joined #geekhack
+2010-11-21 17:10:15	-->	celldweller1591 (~a_is_pent@117.200.50.14) has joined #geekhack
+2010-11-21 17:14:22	<--	celldweller1591 (~a_is_pent@117.200.50.14) has left #geekhack
+2010-11-21 17:22:55	-->	Natch (~natch@c-27cde155.25-4-64736c10.cust.bredbandsbolaget.se) has joined #geekhack
+2010-11-21 17:23:02	dfj	grrr
+2010-11-21 17:24:04	<--	Natch| (~natch@c-27cde155.25-4-64736c10.cust.bredbandsbolaget.se) has quit (Read error: Operation timed out)
+2010-11-21 17:24:05	--	Natch is now known as Natch|
+2010-11-21 17:31:56	<--	Oqsy (~Oqsy@166.205.10.144) has quit (Remote host closed the connection)
+2010-11-21 17:31:57	theholyduck	WUT?
+2010-11-21 17:32:00	theholyduck	i climb onto my wall
+2010-11-21 17:32:03	theholyduck	suddenly
+2010-11-21 17:32:11	theholyduck	illegal stance
+2010-11-21 17:32:20	dfj	yup.
+2010-11-21 17:32:37	theholyduck	safe to join?
+2010-11-21 17:32:58	dfj	one sec.
+2010-11-21 17:34:59	dfj	yup, go for it.
+2010-11-21 18:10:17	-->	Keyboard_Warrior (~holyduck@82.147.59.59) has joined #geekhack
+2010-11-21 18:25:05	-->	Viett (~aviettran@sub231-092.bucknell.edu) has joined #geekhack
+2010-11-21 19:01:32	<--	MarkWil (~mark@cpc2-cmbg5-0-0-cust10.5-4.cable.virginmedia.com) has quit (Ping timeout: 245 seconds)
+2010-11-21 19:02:10	<--	Keyboard_Warrior (~holyduck@82.147.59.59) has quit (Read error: Connection reset by peer)
+2010-11-21 19:02:10	<--	theholyduck (~holyduck@82.147.59.59) has quit (Read error: Connection reset by peer)
+2010-11-21 19:20:39	-->	theholyduck (~holyduck@82.147.59.59) has joined #geekhack
+2010-11-21 19:20:55	theholyduck	i think my client state is borked again
+2010-11-21 19:21:03	theholyduck	atleast i cant login
+2010-11-21 19:21:05	theholyduck	etc
+2010-11-21 19:21:13	 *	theholyduck pokes dfj 
+2010-11-21 19:21:16	theholyduck	did i crash and burn the server?
+2010-11-21 19:25:59	Rezagrats	No?
+2010-11-21 19:26:40	-->	acfrazier (~acfrazier@pool-74-98-193-251.pitbpa.fios.verizon.net) has joined #geekhack
+2010-11-21 19:40:03	theholyduck	then i just need dfj to do something to help me
+2010-11-21 20:06:37	-->	moparx (~moparx@unaffiliated/moparx) has joined #geekhack
+2010-11-21 20:18:21	-->	kishy (~Kevin@206-248-176-216.dsl.teksavvy.com) has joined #geekhack
+2010-11-21 20:46:10	<--	theholyduck (~holyduck@82.147.59.59) has quit (Read error: Connection reset by peer)
+2010-11-21 21:06:00	-->	aknagi (~Andrew@cpc1-hitc4-0-0-cust99.9-2.cable.virginmedia.com) has joined #geekhack
+2010-11-21 21:32:10	dfj	heyo, back.
+2010-11-21 21:42:30	acfrazier	Hey dfj. I still haven't figured out the key mapping issue
+2010-11-21 21:42:58	dfj	which one?
+2010-11-21 21:43:10	dfj	windows 7 64, some key?
+2010-11-21 21:43:25	acfrazier	On my Unicomp, the windows keys and ctrl & alt are wonky
+2010-11-21 21:43:29	acfrazier	Using the new driver.
+2010-11-21 21:44:48	dfj	'wonky'?
+2010-11-21 21:45:12	dfj	ah - what does ahk print out when you hit one of them?
+2010-11-21 21:45:41	acfrazier	ahk?
+2010-11-21 21:45:44	acfrazier	oh, autohotkey
+2010-11-21 21:46:21	dfj	run ahk with a script that starts the low-level redirect, then turn on the 'watch events'... I'll fire it up and give better instructions.
+2010-11-21 21:46:47	dfj	this will tell us what the OS is seeing - I'm not suggesting using it to fix things.
+2010-11-21 21:47:35	dfj	 'view -> key history and script info'
+2010-11-21 21:48:49	acfrazier	I don't have a script that starts low level redirect.. I didn't even have it installed until now >.<
+2010-11-21 21:49:22	dfj	 k - add the line :
+2010-11-21 21:49:29	dfj	#InstallKeybdHook
+2010-11-21 21:49:56	dfj	before the keyhistory 500 line....
+2010-11-21 21:50:20	dfj	(hit file -> edit script) to get to the config.
+2010-11-21 21:52:53	acfrazier	Alright.
+2010-11-21 21:53:57	dfj	so - now try view -> key history...
+2010-11-21 21:54:01	acfrazier	Whenever I press LWIN, it goes to FF  060	 	u	0.19	ÿ              	
+2010-11-21 21:54:01	acfrazier	F1  05B	 	u	0.00	ñ
+2010-11-21 21:54:02	dfj	then hit some keys...
+2010-11-21 21:54:49	dfj	kk - show me 'asd' first
+2010-11-21 21:55:45	dfj	msg acfrazier looks like this for me:
+2010-11-21 22:11:18	-->	Oqsy (optional@173.218.127.213) has joined #geekhack
+2010-11-21 22:11:26	 *	Oqsy slaps kishy around a bit with a large trout
+2010-11-21 22:11:43	acfrazier	inb4 I get pinged
+2010-11-21 22:12:21	--	CTCP requested by Oqsy: PING 1290374051
+2010-11-21 22:12:21	--	CTCP reply to Oqsy: PING 1290374051
+2010-11-21 22:13:15	 *	dfj slaps Oqsy wetly with a foetid prolapsed colon. Spluck!
+2010-11-21 22:13:47	Oqsy	prolapsed colon as in protruding from the rectum?
+2010-11-21 22:14:01	dfj	not anymore. :)
+2010-11-21 22:14:27	Oqsy	dissected does not equal prolapsed
+2010-11-21 22:14:35	 *	dfj used paste-encrusted safety scissors from a nearby school to aqcuire one.
+2010-11-21 22:14:57	Oqsy	hot
+2010-11-21 22:14:59	Oqsy	youtube link?
+2010-11-21 22:16:42	Oqsy	goofed off on minecraft some more in windows
+2010-11-21 22:17:04	Oqsy	seems to run much more smoothly for me there than in GNOME
+2010-11-21 22:17:19	Oqsy	both using firefox
+2010-11-21 22:18:26	Oqsy	oops that was KDE
+2010-11-21 22:18:34	Oqsy	oh well, in any case, windows was smoother
+2010-11-21 22:55:24	<--	Oqsy (optional@173.218.127.213) has quit
+2010-11-21 23:13:15	-->	NudeRooster (NudeRooste@host-174-45-13-186.glt-wy.client.bresnan.net) has joined #geekhack
+2010-11-21 23:15:12	<--	NudeRooster (NudeRooste@host-174-45-13-186.glt-wy.client.bresnan.net) has quit (Client Quit)
+2010-11-21 23:28:16	-->	theholyduck (~holyduck@82.147.59.59) has joined #geekhack
+2010-11-21 23:28:27	theholyduck	dfj?
+2010-11-21 23:28:41	dfj	no - I'm just some bot.
+2010-11-21 23:28:50	theholyduck	i'm unable to connect again
+2010-11-21 23:29:36	dfj	I don't see anything in the log at all.
+2010-11-21 23:30:19	dfj	try again?
+2010-11-21 23:31:32	theholyduck	dfj, i havent tried in a while
+2010-11-21 23:31:37	 *	theholyduck does it now
+2010-11-21 23:31:54	dfj	nup - oh, there you are.
+2010-11-21 23:31:55	theholyduck	there, locked up
+2010-11-21 23:33:10	dfj	k - I'll backup yer toon _again_ but, I'm still working on extrancting inventory.
+2010-11-21 23:33:18	theholyduck	its fine
+2010-11-21 23:33:24	theholyduck	i dont think i had that much stuff on it
+2010-11-21 23:33:56	dfj	bah, go for it.
+2010-11-21 23:37:56	acfrazier	Gah, apple pisses me off
+2010-11-21 23:38:11	acfrazier	Since I placed the order in my name, and my dad paid for it, I have to get a form notarized, photocopy of my dad's DL, etc
+2010-11-21 23:39:41	-->	NudeRooster (NudeRooste@host-174-45-13-186.glt-wy.client.bresnan.net) has joined #geekhack
+2010-11-21 23:42:33	<--	moparx (~moparx@unaffiliated/moparx) has quit (Remote host closed the connection)
+2010-11-21 23:45:33	<--	NudeRooster (NudeRooste@host-174-45-13-186.glt-wy.client.bresnan.net) has quit
+2010-11-21 23:46:51	dfj	msg theholyduck whatup?
+2010-11-21 23:47:01	theholyduck	honestly, i have no idea
+2010-11-21 23:47:18	Viett	hey theholyduck
+2010-11-21 23:47:33	theholyduck	;( i got illegal stance
+2010-11-21 23:48:13	dfj	heh - you certainly did. :)
+2010-11-21 23:48:25	acfrazier	woah
+2010-11-21 23:48:27	acfrazier	I got kicked off
+2010-11-21 23:48:32	dfj	I'm working on resetting toons.
+2010-11-21 23:48:46	theholyduck	did i just break the server?
+2010-11-21 23:48:48	acfrazier	You guys should try my server, it's pretty lonely
+2010-11-21 23:49:02	acfrazier	lemme reset the map though, it's pretty fubar'd
+2010-11-21 23:49:08	dfj	we did - or rather notch did.
+2010-11-21 23:49:25	dfj	wait - but my tree is here...
+2010-11-21 23:49:44	dfj	if you reset the map, then there's nothing different about your server...
+2010-11-21 23:50:27	acfrazier	It randomly generates a map
+2010-11-21 23:50:30	dfj	theholyduck: log on and see if it fixed your stance ... nvm, it surely didn't.
+2010-11-21 23:50:42	acfrazier	try ionnox.com in the IP field
+2010-11-21 23:52:01	dfj	yes... I'll visit shortly, but the people and stuff they made is the 'server' really - you aren't running any mods yet either, so the only difference will be how well connected our two machines are to the net...
+2010-11-21 23:52:38	acfrazier	My server is on a 100/100 line in Canada, so it should be pretty lag free for you
+2010-11-21 23:53:11	dfj	and - has it been dead for a while? I would get some decent grumps from folks if I reset the map even now... :)
+2010-11-21 23:53:38	acfrazier	Yeah, nobody's made anything, it was just me messing around
+2010-11-21 23:53:57	dfj	ah, ok I'll stop by, then. :)
+2010-11-21 23:55:43	acfrazier	2010-11-21 17:57:11 [INFO] holyduck lost connection: Internal exception: java.io.IOException: Bad packet id 64
+2010-11-21 23:55:47	acfrazier	You broke my server, theholyduck
+2010-11-21 23:55:49	dfj	heh.
+2010-11-21 23:55:59	dfj	welcome to the duck's wire. :)
+2010-11-21 23:56:02	theholyduck	acfrazier, i think i'm the server breaker
+2010-11-21 23:56:10	theholyduck	apparently, i should find myself my own european servers
+2010-11-21 23:56:19	acfrazier	either that or it went OOM
+2010-11-21 23:56:22	acfrazier	my IM server just died too
+2010-11-21 23:56:55	dfj	naw - it's just that the duck is a not very 1337 hx'r - he's just fuzzing our server's hoping something funny will happen.
+2010-11-21 23:57:11	dfj	acfrazier: same VM?
+2010-11-21 23:57:27	acfrazier	It's not running in a VM, this is a server in a datacenter in Canada
+2010-11-21 23:57:37	dfj	java vm.
+2010-11-21 23:57:38	acfrazier	I've known the guy for like 10 years
+2010-11-21 23:57:40	acfrazier	ooh
+2010-11-21 23:57:43	acfrazier	possibly
+2010-11-21 23:57:48	acfrazier	openfire does indeed use java
+2010-11-21 23:58:09	dfj	but - do you launch minecraft under openfire?
+2010-11-21 23:58:26	acfrazier	No, but whatever he did crashed openfire too
+2010-11-21 23:58:43	dfj	you certain - that ought not to happen.
+2010-11-21 23:58:49	acfrazier	because when I went to restart it
+2010-11-21 23:58:49	acfrazier	Shutting down openfire: /etc/init.d/openfire: line 134: kill: (18383) - No such process
+2010-11-21 23:59:04	theholyduck	did i BREAK JAVA?
+2010-11-21 23:59:05	dfj	right, but when did it go down?
+2010-11-21 23:59:08	theholyduck	i am amazing!
+2010-11-21 23:59:13	acfrazier	same time the minecraft server did
+2010-11-21 23:59:35	dfj	what's your memory image like?
+2010-11-21 23:59:51	acfrazier	I'm running with pretty limited RAM
+2010-11-21 23:59:52	dfj	i.e. how much RAM do you have available?
+2010-11-21 23:59:55	acfrazier	I think it's like
+2010-11-21 23:59:57	acfrazier	3 meg free
+2010-11-22 00:00:03	acfrazier	with all of this running
+2010-11-22 00:00:10	dfj	out of... 2G?
+2010-11-22 00:00:17	acfrazier	No, out of 380MB
+2010-11-22 00:00:28	acfrazier	I pay like $10/month for this server
+2010-11-22 00:00:29	dfj	erm - minecraft doesn't fit in that very well...
+2010-11-22 00:00:39	acfrazier	Really?
+2010-11-22 00:00:48	dfj	so - you likely ram out of physical ram.
+2010-11-22 00:00:52	dfj	ran out.
+2010-11-22 00:01:36	dfj	so - the jana processes started paging to disk, then started dropping packets like mad - breaking the programs.
+2010-11-22 00:02:29	acfrazier	Yeah, because with just my IM and mail server running, I have 103632K physical ram free
+2010-11-22 00:03:32	dfj	right - the others need to get swapped to run minecraft.
+2010-11-22 00:05:21	dfj	so - stuff more RAM in that box - but at least make sure that the server command line does not have the normal suggested params - -Xmx1024M -Xms1024M - these mean use 1G of ram, minimum and maximum.
+2010-11-22 00:05:55	dfj	if you have 384, then knock those down to 256 and the other procs will swap out, but hopefully won't die.
+2010-11-22 00:06:55	theholyduck	lets put it like this
+2010-11-22 00:07:00	theholyduck	most even half large minecraft servers
+2010-11-22 00:07:03	theholyduck	have 4-8gb of rams
+2010-11-22 00:08:06	dfj	(and that's a lot of sheep)
+2010-11-22 00:12:36	sethstorm	hmm
+2010-11-22 00:12:44	sethstorm	did the server go down?
+2010-11-22 00:14:39	dfj	at some point, why?
+2010-11-22 00:14:45	dfj	it's up now...
+2010-11-22 00:15:15	dfj	(btw - found docs for the player file format - it will be easy to reset positions soon.
+2010-11-22 00:17:00	sethstorm	ok
+2010-11-22 00:17:23	sethstorm	dfj: I've managed to build some long tunnels, so dunno how that's affecting things
+2010-11-22 00:17:39	dfj	no problem.
+2010-11-22 00:17:41	sethstorm	roughly 400 units long
+2010-11-22 00:17:49	dfj	srsly - not the problem.
+2010-11-22 00:17:50	sethstorm	and with bridges in them
+2010-11-22 00:17:55	sethstorm	ok
+2010-11-22 00:18:14	dfj	it's packet bugs, due to notch not having good error control.
+2010-11-22 00:20:00	sethstorm	that's why it's a bit slow at times?
+2010-11-22 00:20:11	sethstorm	after it loads, it bogs down
+2010-11-22 00:20:42	dfj	oh - give it time to pass all the blocks nearby to you before moving much...
+2010-11-22 00:20:48	sethstorm	ok
+2010-11-22 00:20:59	dfj	when you are outside you can see the scenery quickly load...
+2010-11-22 00:21:06	dfj	on the web, it's not so quick.
+2010-11-22 00:21:07	sethstorm	then it bogs down
+2010-11-22 00:21:37	dfj	what do you mean bog down?
+2010-11-22 00:21:49	dfj	how does it look from your end?
+2010-11-22 00:22:13	dfj	I'm seeing connection reset exceptions from you.
+2010-11-22 00:22:32	dfj	ok - you quit there.
+2010-11-22 00:22:34	dfj	ah....
+2010-11-22 00:22:42	sethstorm	forcequit the previous times
+2010-11-22 00:22:50	dfj	and if you try to wait it out, it crashes?
+2010-11-22 00:23:11	sethstorm	it's fine for 2-4s, but then it hits a wall of sorts
+2010-11-22 00:23:19	dfj	...
+2010-11-22 00:23:37	sethstorm	blowing away any apps that might cause it
+2010-11-22 00:24:18	dfj	try starting with your view distance lower, then increasing it...
+2010-11-22 00:45:13	<--	acfrazier (~acfrazier@pool-74-98-193-251.pitbpa.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2010-11-22 00:47:59	-->	acfrazier (~acfrazier@pool-74-98-193-251.pitbpa.fios.verizon.net) has joined #geekhack
+2010-11-22 00:48:19	acfrazier	dfj, switching the driver back resolved it, but also caused a PAGE_FAULT_IN_NONPAGED_AREA on the first reboot
+2010-11-22 00:48:39	dfj	'caused'
+2010-11-22 00:48:53	dfj	but - you aren't using the driver...
+2010-11-22 00:49:58	acfrazier	I know..
+2010-11-22 00:50:56	dfj	heh, kk - I stare at the MC file formats a bit longer - they are actually documented by notch, so I can setup a respawn script shortly.
+2010-11-22 00:54:49	theholyduck	is my state reset in such a way that i can join your server?
+2010-11-22 00:55:47	theholyduck	seems so
+2010-11-22 00:59:27	theholyduck	seems like ineed to stay still for a while before i start choppign wood
+2010-11-22 01:00:54	dfj	sorry - needed to save folks... I smelled an impending crash. :(
+2010-11-22 01:01:22	dfj	we should take this to a sub-channel...
+2010-11-22 01:01:35	theholyduck	indeed
+2010-11-22 01:01:42	theholyduck	geekhack.minecraft?
+2010-11-22 01:02:05	dfj	done.
+2010-11-22 01:02:13	dfj	  (#)
+2010-11-22 01:50:33	lifeflayer	lol
+2010-11-22 01:50:33	lifeflayer	make model m in mineshaft
+2010-11-22 01:54:27	Rezagrats	I still don't understand why house is walking with his team from 2 seasons ago.
+2010-11-22 01:54:37	acfrazier	lifeflayer, thanks for the idea
+2010-11-22 01:56:06	lifeflayer	actually buckling spring would be impossible to make :(... maybe topre is possible?
+2010-11-22 01:57:37	<--	Natch| (~natch@c-27cde155.25-4-64736c10.cust.bredbandsbolaget.se) has quit (Ping timeout: 245 seconds)
+2010-11-22 02:08:13	Rezagrats	How would a BS board be impossible to make ?
+2010-11-22 02:09:19	MorningSong	Well, it's not IMPOSSIBLE, but harder, because BS switches aren't self contained units, and have very, very tight tolerances
+2010-11-22 02:10:50	-->	Natch| (~natch@c-27cde155.25-4-64736c10.cust.bredbandsbolaget.se) has joined #geekhack
+2010-11-22 02:11:00	AimHere	I don't see why you couldn't have a self-contained BS switch
+2010-11-22 02:14:54	MorningSong	I'm sure you could make one
+2010-11-22 02:43:22	-->	Oqsy (optional@173.218.127.213) has joined #geekhack
+2010-11-22 02:43:30	--	CTCP requested by Oqsy: PING 1290390318
+2010-11-22 02:43:30	--	CTCP reply to Oqsy: PING 1290390318
+2010-11-22 02:49:44	<--	Oqsy (optional@173.218.127.213) has quit
+2010-11-22 03:00:38	<--	Clinteger (~Clint@unaffiliated/clinteger) has quit (Remote host closed the connection)
+2010-11-22 03:01:31	-->	Clinteger (~Clint@unaffiliated/clinteger) has joined #geekhack
+2010-11-22 03:14:48	 *	dfj has standalone BS test switches in M and F style...
+2010-11-22 03:15:39	dfj	luckily, the tolerances are looser than you might have feared. :)
+2010-11-22 03:16:11	dfj	and - most of the dimensions are round numbers in fractions of an inch.
+2010-11-22 03:18:36	Rezagrats	S5E18 - by far my most favorite.
+2010-11-22 03:18:52	HaaTa	Topre board?
+2010-11-22 03:20:56	 *	Rezagrats staples the schematics of a Model F XT adapter to dfj's face.
+2010-11-22 03:22:52	Rezagrats	Just what the hell is this? http://img600.imageshack.us/img600/2039/modelfxtadapter.png
+2010-11-22 03:23:14	Rezagrats	I can have the back of the board in the same format if need be.
+2010-11-22 03:23:24	dfj	that would be a schematic.
+2010-11-22 03:24:03	Rezagrats	Well, i did kinda note that a couple minutes ago.
+2010-11-22 03:24:18	<--	theholyduck (~holyduck@82.147.59.59) has quit (Read error: Connection reset by peer)
+2010-11-22 03:24:24	dfj	what do you want to know?
+2010-11-22 03:25:45	Rezagrats	How do i go about reading this and transforming it into a working item.
+2010-11-22 03:25:47	Rezagrats	?*
+2010-11-22 03:26:37	dfj	well - the lines are wires - where the wires cross they are _not_ joined, unless there is a dot too.
+2010-11-22 03:27:15	dfj	but - one of the other diagrams will be a circuit board image which you could pay to have made somewhere...
+2010-11-22 03:27:41	Rezagrats	What are the ||
+2010-11-22 03:27:41	Rezagrats	?
+2010-11-22 03:27:43	dfj	another file will be the list of parts... some of which you could skip, and some you will really need.
+2010-11-22 03:28:29	dfj	the || are capacitors, the rectangles with a + in them are resistors... the triangles with two arrows off of them are LEDs.
+2010-11-22 03:29:33	Rezagrats	How od i open a .eps file ?
+2010-11-22 03:29:47	dfj	the single line __ 'GND' is the DC ground, and the multiple lines 'PE' are 'physical earth', i.e. the ground that connects to the case.
+2010-11-22 03:30:11	dfj	.eps might be an eagle file, or it might be encapsulated postscript...
+2010-11-22 03:31:03	acfrazier	encapsulated postscript
+2010-11-22 03:31:04	acfrazier	is my bet
+2010-11-22 03:31:26	dfj	eps will open in acrobat and ghostcript, etc...
+2010-11-22 03:31:37	dfj	eagle opens in ... eagle.
+2010-11-22 03:33:13	Rezagrats	The eps file doesn't wanna open in Eagle
+2010-11-22 03:34:14	acfrazier	What's a cheap place to get a PCB fabbed
+2010-11-22 03:38:37	Rezagrats	I knew grabbing a copy of photoshopPortable was a great idea.
+2010-11-22 03:44:41	Rezagrats	http://img19.imageshack.us/img19/2649/89c2051pcps2parts.png
+2010-11-22 03:44:49	Rezagrats	The "parts" file.
+2010-11-22 03:46:47	Rezagrats	Now all i need to do is find all these parts.
+2010-11-22 03:47:59	dfj	so - you can scrounge for alternates to almost everything there... I have something I could use for all of it excepting the chip you ordered online.
+2010-11-22 03:48:34	Rezagrats	That image is heavily different that what kbdbabel has.
+2010-11-22 03:48:41	Rezagrats	http://kbdbabel.sourceforge.net/pix/jpg1200/89c2051_pcxt2ps2_keyboard_top.jpg
+2010-11-22 03:49:17	dfj	right - but you could just make that...
+2010-11-22 03:49:25	dfj	from the schematic.
+2010-11-22 03:49:29	Rezagrats	:\
+2010-11-22 03:49:45	Rezagrats	But the issue here is that the maker himself screwed up.
+2010-11-22 03:49:55	Rezagrats	The schematic differs from the product he made.
+2010-11-22 03:49:58	dfj	what screwed up?
+2010-11-22 03:50:07	dfj	product?
+2010-11-22 03:50:24	Rezagrats	The image i last linked is the product made.
+2010-11-22 03:50:40	dfj	he made a schematic - from that you can build something like what he did - leaving outthe bits you don't care about.
+2010-11-22 03:51:06	Rezagrats	Like i know what bits i should care about- for all i know, everything there is needed.
+2010-11-22 03:51:37	dfj	well - you could look at the photo and build that instead...
+2010-11-22 03:52:05	 *	Rezagrats makes a note to hit up ebay.
+2010-11-22 03:52:12	dfj	seriously - look at the photo, and try to figure out which parts you are looking at.
+2010-11-22 03:52:30	Rezagrats	Flu, which file from sourceforge do i need for the chip's script.
+2010-11-22 03:54:09	dfj	one thing that might not be obvious is that he replaced the inline resistor package with actual resistors he had on hand - so that's a difference from the diagram which you would want to copy - resistors are cheap and easy to find, but the multi-package ones are only cheaper if you need lots.
+2010-11-22 03:54:38	acfrazier	what chip is that, by chance?
+2010-11-22 03:54:41	Rezagrats	Where do i get the 24MHz thing?
+2010-11-22 03:55:01	Rezagrats	At89c2051-24pu
+2010-11-22 03:55:06	Rezagrats	Is what i have.
+2010-11-22 03:55:07	dfj	that's a clock crystal, they are usually a buck or so - I get them at electronics stores. :(
+2010-11-22 03:55:24	Rezagrats	"24MHz clock crystal" ?
+2010-11-22 03:55:28	dfj	yeah.
+2010-11-22 03:55:32	 *	Rezagrats ebays
+2010-11-22 03:56:20	Rezagrats	Oscillator
+2010-11-22 03:56:21	Rezagrats	?
+2010-11-22 03:56:28	Rezagrats	http://cgi.ebay.com/5-x-24Mhz-High-Precision-Crystal-Clock-Oscillator-/300475272257?pt=LH_DefaultDomain_0&hash=item45f5b8cc41
+2010-11-22 03:56:48	Rezagrats	About 50 cents each, shipped.
+2010-11-22 03:56:50	dfj	you need the crystal, the two caps above it, and the big and little stabilizing caps...
+2010-11-22 03:57:10	Rezagrats	The 33p thing?
+2010-11-22 03:57:19	Rezagrats	There's a C1 and a C2 of them ?
+2010-11-22 03:57:30	dfj	yup.
+2010-11-22 03:57:46	dfj	33 picofarad caps - they help the crystal a lot.
+2010-11-22 03:58:50	Rezagrats	What's the receptical for the main chip called?
+2010-11-22 03:58:51	dfj	but - depending on what you have for cables and jacks - just use whatever if you have something that works - them bits are just to get the signals to the keyboard and computer, respectively.
+2010-11-22 04:00:12	dfj	you might have a female 5 pin DIN from an old motherboard, but you might not - in which case you could look at how the XT's cable connects on the inside, and you are much more likely to have that connector on something.
+2010-11-22 04:00:42	Rezagrats	I have an MMX board.
+2010-11-22 04:01:14	 *	Rezagrats wanted the expansions cards more than anything else when he bought the computer for less than 5$
+2010-11-22 04:01:15	dfj	If you were building a computer you'd be all mellow about how to fix a hard-drive in place so it was stable and looked good - but you'd also use what you had, if you lucked out....
+2010-11-22 04:02:16	dfj	look at the picture again - it has way less parts than a PC.
+2010-11-22 04:02:28	Rezagrats	...right...
+2010-11-22 04:02:35	Rezagrats	What's your point ?
+2010-11-22 04:02:51	dfj	my point is you'll be fine.
+2010-11-22 04:03:22	Rezagrats	You never did answer my question about the receptical for the main chip.
+2010-11-22 04:03:38	dfj	oh - 'chip holder' sorry.
+2010-11-22 04:03:52	dfj	'socket' if you prefer.
+2010-11-22 04:04:06	dfj	you'll have scads of them on old ISA cards and the like.
+2010-11-22 04:04:47	dfj	longer is ok, wider requires breaking it in half and nipping out the middle.
+2010-11-22 04:05:40	dfj	the goal is to solder the thing in rather than the bare chip so that 1) you can easily replace the chip if you wreck it, and 2) you are less likely to cook it while soldering.
+2010-11-22 04:06:05	Rezagrats	Ha
+2010-11-22 04:06:15	dfj	you could also build this into a $4-$5 solderless breadboard if you find one locally...
+2010-11-22 04:06:22	Rezagrats	One of the GPUs you sent me has like 8 of them on it,
+2010-11-22 04:06:46	dfj	yup - RAM sockets.
+2010-11-22 04:06:58	Rezagrats	I'm not sure if i can get the solder off though.
+2010-11-22 04:07:04	acfrazier	Radioshack sells solderless breadboards
+2010-11-22 04:07:10	Rezagrats	They used very small amount of solder.
+2010-11-22 04:07:13	dfj	btw - desoldering them will be important to get used to soldering, if you go that route.
+2010-11-22 04:07:51	dfj	but - you can also torch the back while popping them off, if you are nimble.
+2010-11-22 04:08:22	dfj	someone here reccomends shielding with tinfolk so you don't roast other chips, etc...
+2010-11-22 04:08:31	dfj	aluminum foil.
+2010-11-22 04:09:01	Rezagrats	Haha
+2010-11-22 04:09:05	acfrazier	Tinfoil works for reflow, too
+2010-11-22 04:09:07	Rezagrats	"tinfolk"
+2010-11-22 04:09:17	dfj	then use a heat-gun or torch to get them wet.
+2010-11-22 04:09:18	acfrazier	I can personally attest to that
+2010-11-22 04:09:36	Rezagrats	Well, if i owned a hair dryer, it would work.
+2010-11-22 04:09:42	Rezagrats	But i hate them things.
+2010-11-22 04:09:45	dfj	ah, right - we were both on when the bloke suggested...
+2010-11-22 04:09:53	Rezagrats	1800W is more than anything i've ever used.
+2010-11-22 04:10:00	dfj	not certain a hair dryer is not enough... will it take paint off?
+2010-11-22 04:10:10	dfj	hot enough.
+2010-11-22 04:10:13	<--	acfrazier (~acfrazier@pool-74-98-193-251.pitbpa.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2010-11-22 04:10:29	Rezagrats	I'm sure a n 1800W hair dryer will peel paint off a car.
+2010-11-22 04:10:32	dfj	hair dryers are high-flow, a heat gun can blow less ahrd, with hotter air.
+2010-11-22 04:10:48	dfj	ah - well, if you are _certain_, then I have my answer. :)
+2010-11-22 04:11:08	Rezagrats	I know my mom has this 'crafting heat blower'
+2010-11-22 04:11:22	Rezagrats	Worked well when i need to dry glue in less than 10min.
+2010-11-22 04:11:40	Rezagrats	It also boiled the glue.
+2010-11-22 04:11:59	dfj	right... so, my hair dryer is 1800W, but it doesn't set me on fire... (not that I have hair on my head anymore)...
+2010-11-22 04:12:17	 *	Rezagrats makes a weird 'wtf' face.
+2010-11-22 04:12:26	Rezagrats	Why would you have a hair dryer?
+2010-11-22 04:12:41	dfj	but, my hot air gun is only a few hundred watts, but it goes to 700 degrees - it can melt aluminum.
+2010-11-22 04:12:46	<--	aknagi (~Andrew@cpc1-hitc4-0-0-cust99.9-2.cable.virginmedia.com) has quit (Quit: Leaving)
+2010-11-22 04:13:05	dfj	I used to have long hair... a really fucking long time ago.
+2010-11-22 04:14:17	dfj	and if you want to feel superior, then: I did, in fact, have a mullet in the 80s. :P
+2010-11-22 04:14:41	Rezagrats	That makes me sad.
+2010-11-22 04:14:50	dfj	not as sad as me.
+2010-11-22 04:15:42	Rezagrats	Anyhow
+2010-11-22 04:15:47	dfj	heh.
+2010-11-22 04:15:53	Rezagrats	I need to go exercise or something
+2010-11-22 04:16:02	dfj	<rofl>
+2010-11-22 04:16:13	Rezagrats	I fapped earlier today and slept for 2-3 hours
+2010-11-22 04:16:21	 *	Rezagrats will need a reason to sleep tonight.
+2010-11-22 04:16:26	dfj	aw man... I just ate... shaddup.
+2010-11-22 04:19:53	Rezagrats	http://www.electronicplus.com/content/ProductPage.asp?maincat=cap&pagenum=2&subcat=cwi
+2010-11-22 04:19:58	Rezagrats	Which 33p do i get ?
+2010-11-22 04:20:37	-->	acfrazier (~acfrazier@pool-74-98-193-251.pitbpa.fios.verizon.net) has joined #geekhack
+2010-11-22 04:20:55	dfj	bah, link doesn't work for me - but ceramic is fine.
+2010-11-22 04:21:47	Rezagrats	33 PICO FARAD CERAMIC DISC CAPACITOR-1000 VOLTS DC	 	$0.50	
+2010-11-22 04:21:47	Rezagrats	33C	33 PICO FARAD CERAMIC MONOLITHIC CAPACITOR-50 VOLTS DC	 	$1.00	
+2010-11-22 04:21:47	Rezagrats	33J	33 PICO FARAD MICA CAPACITOR-500 VOLTS DC	 	$2.25	
+2010-11-22 04:21:47	Rezagrats	33-3KV	33 PICO FARAD CERAMIC DISC CAPACITOR-3000 VOLTS DC	 	$2.95	
+2010-11-22 04:21:48	Rezagrats	33-6KV	33 PICO FARAD CERAMIC DISC CAPACITOR-6000 VOLTS DC
+2010-11-22 04:22:25	dfj	hmm - those seem way expensive ... 25V is fine.
+2010-11-22 04:31:54		irc: disconnected from server
+2010-11-22 04:32:41	-->	quesada1 (~quesada@e179045028.adsl.alicedsl.de) has joined #geekhack
+2010-11-22 04:32:41	--	Topic for #geekhack is "http://geekhack.org"
+2010-11-22 04:32:41	--	Topic set by iMav (~lherzog@wilug/hell/iMav) on Sat, 24 Apr 2010 09:34:17
+2010-11-22 04:32:41	--	Nicks #geekhack: [@ChanServ acfrazier AimHere Ali-Sky bhtooefr clever Clinteger dfj djmoymoy dw_junon fireglow fzn|aw HaaTa hate jmpespxoreax kishy krackpot lifeflayer MorningSong Natch| ph4n70m[n|a] phate408 phobus quesada quesada1 raph_ael Rezagrats sapht sethstorm shmithers sinoth sygo trievalot Viett]
+2010-11-22 04:32:41	--	Channel #geekhack: 34 nicks (1 op, 0 halfops, 0 voices, 33 normals)
+2010-11-22 04:32:42	--	URL for #geekhack: http://geekhack.org
+2010-11-22 04:32:44	--	Channel created on Wed, 09 Dec 2009 22:58:53
+2010-11-22 04:35:18	<--	quesada (~quesada@g231113105.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-11-22 04:45:18	 *	Rezagrats goes off to shower and then bed.
+2010-11-22 04:45:35	Rezagrats	I've hopefully made enough notes for today.
+2010-11-22 05:00:17	<--	trievalot (~trievalot@219-90-212-213.ip.adam.com.au) has quit (Read error: Connection reset by peer)
+2010-11-22 05:07:26	-->	trievalot (~trievalot@219-90-212-213.ip.adam.com.au) has joined #geekhack
+2010-11-22 05:16:55	-->	Oqsy (optional@173.218.127.213) has joined #geekhack
+2010-11-22 05:17:23	--	CTCP requested by Oqsy: PING 1290399550
+2010-11-22 05:17:23	--	CTCP reply to Oqsy: PING 1290399550
+2010-11-22 05:36:34	Oqsy	shhhhhhhh be vewwwy vewwwwwy quiet.  I'm hunting wabbits!
+2010-11-22 05:39:20	<--	Oqsy (optional@173.218.127.213) has quit
+2010-11-22 05:45:37	<--	kishy (~Kevin@206-248-176-216.dsl.teksavvy.com) has quit (Quit: http://kishy.dyndns.org/)
+2010-11-22 06:00:45	jmpespxoreax	fffffff
+2010-11-22 06:01:04	jmpespxoreax	filco removed their 87 key brown cherry from their site?
+2010-11-22 06:01:04	jmpespxoreax	wtf
+2010-11-22 06:01:20	HaaTa	lol
+2010-11-22 06:08:51	jmpespxoreax	*elitekeyboards
+2010-11-22 06:08:53	jmpespxoreax	not filco
+2010-11-22 06:17:15	-->	Oqsy (optional@173.218.127.213) has joined #geekhack
+2010-11-22 06:17:17	Viett	probably out of stock
+2010-11-22 06:17:34	jmpespxoreax	out of stock and angry with all the emails and questions about stock
+2010-11-22 06:19:44	Viett	I think the demand for EK boards far exceeds what they ever expected
+2010-11-22 06:19:51	Viett	they've gone from niche market to mainstream so quickly
+2010-11-22 06:20:32	Viett	damn there are no brown cherry 104s either
+2010-11-22 06:20:34	jmpespxoreax	maybe not mainstream but they are certainly experiencing a run on their product
+2010-11-22 06:32:30	<--	acfrazier (~acfrazier@pool-74-98-193-251.pitbpa.fios.verizon.net) has quit (Quit: acfrazier)
+2010-11-22 06:35:32	-->	kidchunks (~jebus@c-98-254-163-2.hsd1.fl.comcast.net) has joined #geekhack
+2010-11-22 06:50:06	Oqsy	not
+2010-11-22 06:50:08	Oqsy	main
+2010-11-22 06:50:10	Oqsy	stream
+2010-11-22 06:50:13	<--	Oqsy (optional@173.218.127.213) has quit
+2010-11-22 07:01:28	 *	dfj faceplants
+2010-11-22 07:19:08	<--	Viett (~aviettran@sub231-092.bucknell.edu) has quit (Ping timeout: 276 seconds)
+2010-11-22 07:54:26	<--	trievalot (~trievalot@219-90-212-213.ip.adam.com.au) has quit (Ping timeout: 265 seconds)
+2010-11-22 07:59:06	-->	trievalot (~trievalot@182-239-157-44.ip.adam.com.au) has joined #geekhack
+2010-11-22 09:03:08	<--	lifeflayer (~lifeflaye@unaffiliated/lifeflayer) has quit (Remote host closed the connection)
+2010-11-22 09:39:03	-->	Donatzsky (~Nis@2a01:e35:2f0a:18a0:c47b:14fb:cd4:4e0c) has joined #geekhack
+2010-11-22 11:26:37	-->	acfrazier (~acfrazier@pool-74-98-193-251.pitbpa.fios.verizon.net) has joined #geekhack
+2010-11-22 11:55:24	<--	trievalot (~trievalot@182-239-157-44.ip.adam.com.au) has quit (Ping timeout: 276 seconds)
+2010-11-22 11:59:49	-->	trievalot (~trievalot@182-239-161-203.ip.adam.com.au) has joined #geekhack
+2010-11-22 12:54:43	<--	acfrazier (~acfrazier@pool-74-98-193-251.pitbpa.fios.verizon.net) has quit (Quit: acfrazier)
+2010-11-22 13:22:46	-->	cybertooth (~cybertoot@210.212.20.75) has joined #geekhack
+2010-11-22 14:00:01	-->	epeen (~Adam@pool-71-96-235-46.dfw.dsl-w.verizon.net) has joined #geekhack
+2010-11-22 14:34:22	phobus	urrrrrgh
+2010-11-22 14:35:01	dfj	ah, morning, I knew thee well...
+2010-11-22 14:36:12	phobus	i left my hhkb at home this morning. not a good start
+2010-11-22 14:37:08	MorningSong	Pfft, who needs topers?
+2010-11-22 14:37:40	phobus	my only other usable option is a full-size dell rubber dome
+2010-11-22 14:37:46	phobus	so.. i do :)
+2010-11-22 14:37:49	MorningSong	Owch. point taken
+2010-11-22 14:38:11	-->	Natch (~natch@c-27cde155.25-4-64736c10.cust.bredbandsbolaget.se) has joined #geekhack
+2010-11-22 14:38:41	<--	Natch| (~natch@c-27cde155.25-4-64736c10.cust.bredbandsbolaget.se) has quit (Read error: Operation timed out)
+2010-11-22 14:38:41	--	Natch is now known as Natch|
+2010-11-22 15:19:46	MorningSong	Bahh, monday.
+2010-11-22 15:22:55	dfj	coffee...
+2010-11-22 15:49:10	MorningSong	I must be off for now!
+2010-11-22 15:54:43	dfj	survive day. :)
+2010-11-22 16:09:01	-->	Viett (~aviettran@sub231-092.bucknell.edu) has joined #geekhack
+2010-11-22 16:09:11	-->	Big_Brother (Adam@50.9.147.6) has joined #geekhack
+2010-11-22 16:12:22	<--	Rezagrats (Adam@50.9.147.6) has quit (Ping timeout: 260 seconds)
+2010-11-22 16:30:36	<--	Viett (~aviettran@sub231-092.bucknell.edu) has quit (Ping timeout: 255 seconds)

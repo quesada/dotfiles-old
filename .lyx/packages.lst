@@ -1,7 +1,6 @@
 ec
-endnotes
+fancyhdr
 braille
-endnotes
 amstext
 array
 babel
@@ -9,13 +8,11 @@ bm
 booktabs
 braille
 color
-endnotes
 ifsym
 ifthen
 fancybox
 fancyhdr
 float
-framed
 geometry
 graphicx
 hyperref
@@ -30,9 +27,9 @@ setspace
 slashed
 subfig
 textcomp
-ulem
 url
 varioref
+wasysym
 psnfss
 avant
 bookman
@@ -53,3 +50,5 @@ cmbright
 eco
 feyn
 fourier
+lmodern
+tipa

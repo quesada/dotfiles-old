@@ -5,15 +5,11 @@ openDestinationFolderAfterExtraction=true
 AutomaticDetectionLanguage=1
 
 [MainWindow]
+Height 1152=896
 State=AAAA/wAAAAD9AAAAAAAAAoAAAAGOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+Width 2048=980
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/Conceptual_Spaces_The_Geometry_Of_Thought_-_Gardenfors.rar
-File2[$e]=$HOME/Dropbox/iswc2010/main.lyx16
-File3[$e]=$HOME/Downloads/pycharm-96.477.tar.gz
-File4[$e]=$HOME/Downloads/euroscipy_beginners_lecture_notes.zip
-Name1[$e]=Conceptual_Spaces_The_Geometry_Of_Thought_-_Gardenfors.rar
-Name2[$e]=main.lyx16
-Name3[$e]=pycharm-96.477.tar.gz
-Name4[$e]=euroscipy_beginners_lecture_notes.zip
+File1[$e]=$HOME/down/abc_queries_100_v01.zip
+Name1[$e]=abc_queries_100_v01.zip

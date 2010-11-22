@@ -3,6 +3,6 @@ configLockScreen=false
 
 [Profiles]
 ACProfile=Performance
-BatteryProfile=Powersave
-LowProfile=Aggressive Powersave
+BatteryProfile=Xtreme Powersave
+LowProfile=Xtreme Powersave
 WarningProfile=Xtreme Powersave

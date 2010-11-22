@@ -12,12 +12,13 @@
 \user_name "quesada, Jose"
 \user_email "quesada@gmail.com"
 \preview on
+\preview_scale_factor 0.3
 
 #
 # SCREEN & FONTS SECTION ############################
 #
 
-\screen_zoom 115
+\screen_zoom 135
 \screen_font_roman "FreeSans"
 \screen_font_sans "FreeSans"
 \screen_font_sizes 5 7 8 9 10 12 14.4 17.260000000000002 20.739999999999998 24.879999999999999
@@ -29,7 +30,10 @@
 # COLOR SECTION ###################################
 #
 
-\set_color "background" "#ffc7ab"
+\set_color "cursor" "#ff0000"
+\set_color "background" "#3d443e"
+\set_color "foreground" "#677c82"
+\set_color "commentbg" "#313666"
 
 #
 # PRINTER SECTION ###################################

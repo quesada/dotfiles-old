@@ -6,3 +6,6 @@ loadAll=false
 
 [KRunner][PlasmaRunnerManager]
 pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations
+
+[RecentlyUsed]
+Applications=mozilla-firefox-3.6.desktop,skype-skype.desktop,kde4-systemsettings.desktop

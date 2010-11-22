@@ -6,8 +6,8 @@ Standard=qDN8gZAK7g
 [Resource_CBJnKzJMzl]
 AlarmType=2
 CalendarURL[$e]=file://$HOME/.kde4/share/apps/kalarm/expired.ics
-LastLoad=2010,5,7,21,38,56
-LastSave=2010,5,7,21,38,56
+LastLoad=2010,5,7,1,38,56
+LastSave=2010,5,7,1,38,56
 ReloadInterval=10
 ReloadPolicy=0
 ResourceIdentifier=CBJnKzJMzl
@@ -22,8 +22,8 @@ Standard=true
 [Resource_pWp4GpQmrB]
 AlarmType=4
 CalendarURL[$e]=file://$HOME/.kde4/share/apps/kalarm/template.ics
-LastLoad=2010,5,7,21,38,56
-LastSave=2010,5,7,21,38,56
+LastLoad=2010,5,7,1,38,56
+LastSave=2010,5,7,1,38,56
 ReloadInterval=10
 ReloadPolicy=0
 ResourceIdentifier=pWp4GpQmrB
@@ -38,8 +38,8 @@ Standard=true
 [Resource_qDN8gZAK7g]
 AlarmType=1
 CalendarURL[$e]=file://$HOME/.kde4/share/apps/kalarm/calendar.ics
-LastLoad=2010,5,7,21,38,56
-LastSave=2010,5,7,21,38,56
+LastLoad=2010,5,7,1,38,56
+LastSave=2010,5,7,1,38,56
 ReloadInterval=10
 ReloadPolicy=0
 ResourceIdentifier=qDN8gZAK7g

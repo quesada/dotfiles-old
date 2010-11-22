@@ -41,6 +41,9 @@ size=47,900
 [Runners][Bookmarks]
 dbfile=/home/quesada/.mozilla/firefox/uq3g6doz.default/places.sqlite
 
+[Updates]
+performed=/usr/share/apps/plasma-desktop/updates/systray-to-notifications-widget.js
+
 [ViewIds]
-21=1
+22=4
 3=2

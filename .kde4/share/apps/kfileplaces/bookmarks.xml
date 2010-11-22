@@ -154,18 +154,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="sftp://93.123.21.85/">
-  <title>ldsr</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="server-database"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1274303811/0</ID>
-    <OnlyInApp/>
-   </metadata>
-  </info>
- </bookmark>
  <separator>
   <info>
    <metadata owner="http://www.kde.org">
@@ -182,17 +170,6 @@
    </metadata>
   </info>
  </separator>
- <bookmark href="file:///home/quesada/noteslyx">
-  <title>noteslyx</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1285238150/0</ID>
-   </metadata>
-  </info>
- </bookmark>
  <separator>
   <info>
    <metadata owner="http://www.kde.org">
@@ -201,4 +178,84 @@
    </metadata>
   </info>
  </separator>
+ <bookmark href="sftp://quesada@192.168.1.20/home/quesada/">
+  <title>pberg</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-brown"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1285522310/0</ID>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="sftp://93.123.21.85/">
+  <title>ldsr</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="server-database"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1274303811/0</ID>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///mnt/mobileData/extra/music">
+  <title>music</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1281512842/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="sftp://urlwolfpack.gotdns.org:8022/home/quesada/">
+  <title>pberg</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-green"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1287422150/0</ID>
+    <OnlyInApp/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/quesada/Dropbox/wcogs/literature">
+  <title>literature</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1287507905/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="sftp://141.14.157.1/common">
+  <title>common</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1287683327/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/quesada/pdf">
+  <title>pdf</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1289459110/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
 </xbel>

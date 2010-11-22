@@ -297,3 +297,685 @@
 2010-08-25 23:53:09	-->	Dashkal (~dashkal@WoWUIDev/Nexus/dashkal) has joined #xmonad
 2010-08-25 23:57:06	<--	comak (~mak@dynamic-87-105-244-182.ssp.dialog.net.pl) has quit (Remote host closed the connection)
 2010-08-25 23:57:20		irc: disconnected from server
+2010-10-16 09:59:46	-->	quesada1 (~quesada@e178209052.adsl.alicedsl.de) has joined #xmonad
+2010-10-16 09:59:46	--	Topic for #xmonad is "Topic for #xmonad: xmonad: a tiling window manager | xmonad 0.9 released! | http://xmonad.org | rss: http://xmonad.wordpress.com/feed | faq: http://xmonad.org/faq | cheatsheet: http://haskell.org/haskellwiki/Image:Xmbindings.png"
+2010-10-16 09:59:46	--	Topic set by aavogt (~aavogt@engage.uwaterloo.ca) on Fri, 09 Apr 2010 07:24:54
+2010-10-16 09:59:47	--	Nicks #xmonad: [+lambdabot +preflex [31d1] _jones adimit_ aiko_ akosch AlexanderS alip allbery_b And1 andern andrewsw ankan ArchGT asfethan audunska b4taylor Baughn Belgarion0 Berengal bremner brisbin Bruners byorgey c3l CheariX clanehin cncl coppro cornet CosmicRay cubi da-x danklesman Dashkal davidL deadguys defn Demosthenes Dephyrial digitteknohippie dmwit dons dropdrive drubin dweller enthropy Entroacceptor ernst etherealite evaryont fadein_ faj_ FaUl felipe_ flupzor fserb Funktorsalat gereedy_ gernot GetMeAWrapCombo gwern hanneso hokapoka hvr insecure insomniaSalt janLo janus jaspervdj jd10 jelly1 jhelwig jones- jrockway jubos jusa_ jvogel kabniel Kharza KitB koniiiik ksf_ KungFuJesus l0uis leoncamel Liskni_si lithis loupgaroublond mauke Maxdamantus McManiaC mikezackles mornfall nce nickzxcv nimred nipuL noidi novas0x2a npouillard nuba nyergler og01 orlandu63 oxymor00n p_l pantski pcc1 Philonous pielgrzym pippijn piroko pr Qantourisc quesada1 raccoon_ raijin Raku^ regulate rekahsoft ricky rudi_s sainthuck sbahra schatan sdx23 sernin SeveredCross shachaf shepheb_ sid3k simplechat slabanja smeea snapcase sperber sshc stepnem superjudge taihen theDon tnta trzkril Twey Valodim vin vootey Vq wereHamster xmikedavis yosafbridge Zao zitune zoran119]
+2010-10-16 09:59:47	--	Channel #xmonad: 156 nicks (0 ops, 0 halfops, 2 voices, 154 normals)
+2010-10-16 09:59:47	--	URL for #xmonad: http://xmonad.org
+2010-10-16 09:59:48	--	Channel created on Wed, 25 Apr 2007 06:33:15
+2010-10-16 10:00:44	quesada1	anyone experiencing that in FF, moving the mouse cursor to the right side makes it teleport to the top-left corner?
+2010-10-16 10:01:01	quesada1	also on FF popup menus (say addons, prefs)
+2010-10-16 10:01:22	quesada1	This also happens in intelliJ IDEA
+2010-10-16 10:01:42	quesada1	any known workaround? it's very distracting
+2010-10-16 10:08:52	-->	smorg (~quassel@174-30-207-66.mpls.qwest.net) has joined #xmonad
+2010-10-16 10:15:48	-->	Athas (~athas@82.211.209.226) has joined #xmonad
+2010-10-16 10:16:38	-->	alex404 (~alex404@f052139111.adsl.alicedsl.de) has joined #xmonad
+2010-10-16 10:17:43	<--	smorg (~quassel@174-30-207-66.mpls.qwest.net) has quit (Remote host closed the connection)
+2010-10-16 10:21:05	<--	sshc (~sshc@unaffiliated/sshc) has quit (Ping timeout: 265 seconds)
+2010-10-16 10:22:02	-->	sshc (~sshc@unaffiliated/sshc) has joined #xmonad
+2010-10-16 10:23:28	-->	smorg (~quassel@174-30-207-66.mpls.qwest.net) has joined #xmonad
+2010-10-16 10:25:56	-->	bo0ts__ (~user@f053100252.adsl.alicedsl.de) has joined #xmonad
+2010-10-16 10:30:24	<--	alip (alip@exherbo/developer/alip) has quit (Ping timeout: 240 seconds)
+2010-10-16 10:30:31	-->	alip (alip@exherbo/developer/alip) has joined #xmonad
+2010-10-16 10:35:43	-->	alex404_ (~alex404@g225106102.adsl.alicedsl.de) has joined #xmonad
+2010-10-16 10:39:25	<--	alex404 (~alex404@f052139111.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-16 10:46:49	-->	RayNbow (kirika@scientia.demon.nl) has joined #xmonad
+2010-10-16 10:50:22	<--	zoran119 (~zoran@ppp59-167-170-46.static.internode.on.net) has quit (Ping timeout: 255 seconds)
+2010-10-16 10:54:03	<--	digitteknohippie (~digit@95.145.214.43) has quit (Quit: Leaving.)
+2010-10-16 11:06:36	-->	kenyon (~kenyon@2001:470:1f04:4ef::2) has joined #xmonad
+2010-10-16 11:13:03	-->	Zephyrus (~emanuele@unaffiliated/zephyrus) has joined #xmonad
+2010-10-16 11:38:57	<--	pantski (~pants@WOPR.ST.HMC.Edu) has quit (Ping timeout: 240 seconds)
+2010-10-16 11:42:28	<--	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has quit (Ping timeout: 240 seconds)
+2010-10-16 11:44:13	-->	pantski (~pants@WOPR.ST.HMC.Edu) has joined #xmonad
+2010-10-16 11:44:44	-->	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has joined #xmonad
+2010-10-16 11:49:12	<--	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has quit (Ping timeout: 240 seconds)
+2010-10-16 11:49:36	<--	Dashkal (~dashkal@WoWUIDev/Nexus/dashkal) has quit (Quit: leaving)
+2010-10-16 12:05:27	-->	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has joined #xmonad
+2010-10-16 12:10:43	<--	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has quit (Ping timeout: 276 seconds)
+2010-10-16 12:13:53	-->	zoran119 (~zoran@ppp59-167-170-46.static.internode.on.net) has joined #xmonad
+2010-10-16 12:15:44	-->	comak (~mak@dynamic-78-8-159-193.ssp.dialog.net.pl) has joined #xmonad
+2010-10-16 12:17:22	-->	surgeon_ (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has joined #xmonad
+2010-10-16 12:21:51	<--	adimit_ (~adimit@fink.sfs.uni-tuebingen.de) has quit (Quit: leaving)
+2010-10-16 12:21:59	-->	adimit (~adimit@fink.sfs.uni-tuebingen.de) has joined #xmonad
+2010-10-16 12:24:16	<--	Athas (~athas@82.211.209.226) has quit (Remote host closed the connection)
+2010-10-16 12:25:53	-->	tux_mark_5 (~angel@lan-84-240-29-163.vln.skynet.lt) has joined #xmonad
+2010-10-16 12:27:24	<--	tux_mark_5 (~angel@lan-84-240-29-163.vln.skynet.lt) has quit (Client Quit)
+2010-10-16 12:28:50	-->	tux_mark_5 (~angel@lan-84-240-29-163.vln.skynet.lt) has joined #xmonad
+2010-10-16 12:42:52	<--	Zephyrus (~emanuele@unaffiliated/zephyrus) has quit (Quit: "")
+2010-10-16 12:52:01	-->	watsonalgas (~diomekes@c-71-56-120-21.hsd1.ga.comcast.net) has joined #xmonad
+2010-10-16 12:58:10	<--	rekahsoft (~rekahsoft@CPE002129ce62e2-CM0026f30ca5ed.cpe.net.cable.rogers.com) has quit (Ping timeout: 245 seconds)
+2010-10-16 12:59:18	<--	vootey (~vootey@chello080109120087.2.15.vie.surfer.at) has quit (Remote host closed the connection)
+2010-10-16 13:01:15	-->	rekahsoft (~rekahsoft@CPE002129ce62e2-CM0026f30ca5ed.cpe.net.cable.rogers.com) has joined #xmonad
+2010-10-16 13:05:16	-->	dons_ (~dons@whirlpool.galois.com) has joined #xmonad
+2010-10-16 13:06:28	<--	dons (~dons@whirlpool.galois.com) has quit (Ping timeout: 265 seconds)
+2010-10-16 13:16:28	-->	Athas (~athas@shop3.diku.dk) has joined #xmonad
+2010-10-16 13:24:05	-->	BradC (heh14824@202-89-178-44.static.dsl.amnet.net.au) has joined #xmonad
+2010-10-16 13:26:10	-->	Zephyrus (~emanuele@unaffiliated/zephyrus) has joined #xmonad
+2010-10-16 13:34:46	<--	Athas (~athas@shop3.diku.dk) has quit (Remote host closed the connection)
+2010-10-16 13:55:58	<--	dons_ (~dons@whirlpool.galois.com) has quit (Remote host closed the connection)
+2010-10-16 14:04:40	-->	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has joined #xmonad
+2010-10-16 14:04:52	-->	uhsf (~uhsf@184.163.123.114) has joined #xmonad
+2010-10-16 14:07:33	raijin	omg ghc is a pain n the arse
+2010-10-16 14:09:03	<--	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has quit (Ping timeout: 252 seconds)
+2010-10-16 14:13:44	raijin	ghc-stage2: can't find a package database at /home/raininja/packages/BUILD/SFEghc-6.12.3/ghc-6.12.3/inplace/lib/package.conf.d
+2010-10-16 14:14:56	-->	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has joined #xmonad
+2010-10-16 14:25:21	-->	FunctorSalad_ (~FunctorSa@p4FD886E3.dip0.t-ipconnect.de) has joined #xmonad
+2010-10-16 14:29:10	<--	Funktorsalat (~FunctorSa@p4FD88566.dip0.t-ipconnect.de) has quit (Ping timeout: 276 seconds)
+2010-10-16 14:31:57	<--	comak (~mak@dynamic-78-8-159-193.ssp.dialog.net.pl) has quit (Ping timeout: 240 seconds)
+2010-10-16 14:57:17	<--	zoran119 (~zoran@ppp59-167-170-46.static.internode.on.net) has quit (Quit: leaving)
+2010-10-16 14:58:53	<--	alex404_ (~alex404@g225106102.adsl.alicedsl.de) has quit (Quit: Leaving)
+2010-10-16 14:59:07	-->	alex404_ (~alex404@g225106102.adsl.alicedsl.de) has joined #xmonad
+2010-10-16 14:59:15	<--	alex404_ (~alex404@g225106102.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2010-10-16 14:59:32	-->	alex404 (~alex404@g225106102.adsl.alicedsl.de) has joined #xmonad
+2010-10-16 15:02:24	-->	comak (~mak@dynamic-78-8-11-152.ssp.dialog.net.pl) has joined #xmonad
+2010-10-16 15:10:34	-->	Paul-S (~paul@88-105-213-63.dynamic.dsl.as9105.com) has joined #xmonad
+2010-10-16 15:11:50	-->	pARESit (~pit@drsd-4d05ec85.pool.mediaWays.net) has joined #xmonad
+2010-10-16 15:23:22	<--	pARESit (~pit@drsd-4d05ec85.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-10-16 15:24:52	-->	anRch (~markmilli@64.134.243.246) has joined #xmonad
+2010-10-16 15:49:11	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-10-16 15:56:56	<--	comak (~mak@dynamic-78-8-11-152.ssp.dialog.net.pl) has quit (Ping timeout: 260 seconds)
+2010-10-16 16:01:13	-->	comak (~mak@dynamic-87-105-244-120.ssp.dialog.net.pl) has joined #xmonad
+2010-10-16 16:10:31	<--	Qantourisc (~Qantouris@d54C490DC.access.telenet.be) has quit (Ping timeout: 265 seconds)
+2010-10-16 16:19:51	<--	raijin (~raininja@unaffiliated/raijin) has left #xmonad
+2010-10-16 16:22:34	-->	krey_ (~krey_@stu300.sjc.ox.ac.uk) has joined #xmonad
+2010-10-16 16:23:14	krey_	hello, xmonad recently keeps starting firefox as a floating window, and i don't know why
+2010-10-16 16:23:16	krey_	any ideas?
+2010-10-16 16:30:24	-->	frooh (frew@warpedreality.org) has joined #xmonad
+2010-10-16 16:31:00	<--	krey_ (~krey_@stu300.sjc.ox.ac.uk) has quit (Quit: Leaving)
+2010-10-16 16:32:11	frooh	hey guys, for some reason Firefox is set to always on top and it covers my gnome-bar at the top of my screen as well as any other windows that are on the same virtual desktop or w/e
+2010-10-16 16:32:21	frooh	it hasn't been like this until recently
+2010-10-16 16:35:06	frooh	I'm tweaking my conf file to try to figure it out, but here it is if anyone wnats to look: http://github.com/frioux/dotfiles/raw/master/xmonad/xmonad.hs
+2010-10-16 16:42:22	gwern	not really sure
+2010-10-16 16:42:28	gwern	but this looks suspicious to me
+2010-10-16 16:42:30	gwern	myManageHooks = manageDocks <+> composeAll
+2010-10-16 16:42:30	gwern	-- Allows focusing other monitors without killing the fullscreen [ isFullscreen --> (doF W.focusDown <+> doFullFloat)
+2010-10-16 16:42:42	gwern	so... anything that is fullscreen gets floated??!
+2010-10-16 16:46:39	frooh	well...
+2010-10-16 16:46:50	frooh	that is supposed to be for like, flash video
+2010-10-16 16:46:59	frooh	I took that out and it didn't seem to make an effect
+2010-10-16 16:47:16	frooh	gwern: but I'm not sure how to unfloat a window to even test if it would get refloated
+2010-10-16 16:48:25	frooh	a, t
+2010-10-16 16:48:30	frooh	er, ah, it's t
+2010-10-16 16:56:00	uhsf	i'm using alt as modkey so many applications keybindings don't work. is there a way to give applications priority for the alt key?
+2010-10-16 16:56:41	gwern	not really. you could look into submap to get a ratpoison style prefix
+2010-10-16 16:57:20	uhsf	what is a ratpoison like prefix?
+2010-10-16 17:04:01	<--	oxymor00n (~user@unaffiliated/oxymor00n) has quit (Ping timeout: 250 seconds)
+2010-10-16 17:05:24	gwern	you press mod-t, and now wm is in a different mode, where the next keystroke is the command
+2010-10-16 17:05:44	gwern	as opposed to default xmonad, where it's a single keystroke delimited from the rest by what modifier you chord with
+2010-10-16 17:08:19	<--	bo0ts__ (~user@f053100252.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2010-10-16 17:15:50	<--	anRch (~markmilli@64.134.243.246) has quit (Quit: anRch)
+2010-10-16 17:32:25	-->	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has joined #xmonad
+2010-10-16 17:33:14	-->	Ziphilt (~Ziphilt@cpe-66-65-235-36.nycap.res.rr.com) has joined #xmonad
+2010-10-16 17:38:09	<--	alex404 (~alex404@g225106102.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-16 17:45:57	<--	Philonous (~uart14@2a01:198:4e9:3:223:54ff:fe47:dee3) has quit (Remote host closed the connection)
+2010-10-16 17:48:07	-->	alex404 (~alex404@g225106102.adsl.alicedsl.de) has joined #xmonad
+2010-10-16 18:02:17	dmwit	uhsf: The usual solution is not to use alt as your modkey.
+2010-10-16 18:02:42	dmwit	modMask = mod4Mask is popular
+2010-10-16 18:03:36	<--	Berengal (~berengal@cC767BF51.dhcp.bluecom.no) has quit (Remote host closed the connection)
+2010-10-16 18:07:17	-->	dons (~dons@archlinux/developer/dons) has joined #xmonad
+2010-10-16 20:12:04		irc: disconnected from server
+2010-10-16 20:12:52	-->	quesada1 (~quesada@e178231025.adsl.alicedsl.de) has joined #xmonad
+2010-10-16 20:12:52	--	Topic for #xmonad is "Topic for #xmonad: xmonad: a tiling window manager | xmonad 0.9 released! | http://xmonad.org | rss: http://xmonad.wordpress.com/feed | faq: http://xmonad.org/faq | cheatsheet: http://haskell.org/haskellwiki/Image:Xmbindings.png"
+2010-10-16 20:12:52	--	Topic set by aavogt (~aavogt@engage.uwaterloo.ca) on Fri, 09 Apr 2010 07:24:54
+2010-10-16 20:12:52	--	Nicks #xmonad: [+lambdabot +preflex [31d1] _jones adimit aiko_ akosch alex404 AlexanderS alip allbery_b amphi And1 andern andrewsw ankan ArchGT asfethan audunska b4taylor Baughn Belgarion0 Berengal BradC bremner brisbin Bruners bthomson byorgey c3l CheariX clanehin cncl comak coppro cornet CosmicRay cubi da-x danklesman davidL deadguys defn Demosthenes Dephyrial dmwit dons dropdrive drubin dschoepe dweller enthropy Entroacceptor ernst etherealite evaryont fadein_ faj_ FaUl felipe_ flupzor fserb FunctorSalad gereedy_ gernot GetMeAWrapCombo gwern hanneso hokapoka hvr insecure insomniaSalt janLo janus jaspervdj jd10 jelly1 jhelwig jones- jrockway jubos jusa_ jvogel kabniel kenyon Kharza KitB koniiiik ksf_ KungFuJesus l0uis leoncamel Liskni_si lithis loupgaroublond mauke Maxdamantus McManiaC mikezackles ml| mornfall MrElendig nce nickzxcv nimred nipuL noidi nomeata novas0x2a npouillard nuba nyergler og01 orlandu63 oxymor00n p_l pantski pARESit Paul-S pcc1 Philonous pielgrzym pippijn piroko pr quesada1 raccoon_ Raku^ regulate rekahsoft ricky rudi_s sainthuck sbahra schatan sdx23 sernin SeveredCross shachaf shepheb_ sid3k simplechat slabanja smeea smorg snapcase sperber sshc stepnem superjudge surgeon_ taihen theDon tnta trzkril tux_mark_5 Twey uhsf Valodim vin Vq watsonalgas wereHamster xmikedavis yosafbridge Zao Zephyrus Ziphilt zitune]
+2010-10-16 20:12:52	--	Channel #xmonad: 169 nicks (0 ops, 0 halfops, 2 voices, 167 normals)
+2010-10-16 20:12:52	--	Notice(anthony.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2010-10-16 20:12:52	--	URL for #xmonad: http://xmonad.org
+2010-10-16 20:13:06	--	Channel created on Wed, 25 Apr 2007 06:33:15
+2010-10-16 20:14:27	-->	oncenull (~oncenull@190.19.242.73) has joined #xmonad
+2010-10-16 20:36:44	-->	tommd (~Thomas_Du@65-102-39-41.ptld.qwest.net) has joined #xmonad
+2010-10-16 20:59:30	uhsf	what's the syntax for "allWindows" instead of "withFocused"?
+2010-10-16 21:00:14	<--	alip (alip@exherbo/developer/alip) has quit (Excess Flood)
+2010-10-16 21:02:10	dschoepe	uhsf: allWindows returns a list of all windows, whereas withFocused expects a function that says what to do with the focused window
+2010-10-16 21:03:00	-->	alip (alip@exherbo/developer/alip) has joined #xmonad
+2010-10-16 21:04:29	uhsf	dschoepe: allWindows is "not in scope"
+2010-10-16 21:05:01	dschoepe	it's in XMonad.StackSet which you probably imported as W, so it would be W.allWindows
+2010-10-16 21:05:23	dschoepe	uhsf: What are you trying to do with allWindows?
+2010-10-16 21:05:50	uhsf	toggle borders on/off
+2010-10-16 21:06:53	uhsf	i use no border with xcompmgr transparency but in some situations i have to kill xcompmgr and i need borders then
+2010-10-16 21:10:35	<--	simplechat (~simplecha@unaffiliated/simplechat) has quit (Remote host closed the connection)
+2010-10-16 21:10:47	MrElendig	uhsf: you don't need allWindows for that
+2010-10-16 21:11:21	MrElendig	uhsf: use http://xmonad.org/xmonad-docs/xmonad-contrib/XMonad-Layout-MultiToggle.html
+2010-10-16 21:11:24	dschoepe	uhsf: binding a key to `mapM_ toggleBorder . W.allWindows =<< gets windowset' should work, but I think there's function for that in some contrib module
+2010-10-16 21:13:18	MrElendig	uhsf: you can toggle the noBorders modifier instead. Imo cleaner to do it that way
+2010-10-16 21:16:42	uhsf	how to toggle noBorders if i don't use multitoggle?
+2010-10-16 21:19:34	MrElendig	use mutlitoggle :)
+2010-10-16 21:22:14	dschoepe	or try my suggestion, although I'm not certain that it will work
+2010-10-16 21:22:47	<--	_jones (~always@24.214.40.86) has quit (Quit: reboot)
+2010-10-16 21:23:08	-->	therp (~nil@81.94.56.25) has joined #xmonad
+2010-10-16 21:23:50	therp	who would you feel if I remove h,j,k,l style navigation from X.A.GridSelect in favour of adding substring search instead?
+2010-10-16 21:24:31	MrElendig	therp: how about having both?
+2010-10-16 21:24:33	therp	all configuration styles I came up with are just too ugly, and I feel like ripping out the default h,j,k,l navigation
+2010-10-16 21:24:53	dschoepe	therp: Well, since the key bindings are now customizable, people who liked the old method better can still switch back
+2010-10-16 21:24:57	therp	and instead plunging into substring search when hitting any characters including h,j,k,l
+2010-10-16 21:24:59	-->	_jones (~always@24.214.40.86) has joined #xmonad
+2010-10-16 21:25:24	dschoepe	(or maybe leave h,j,k,l-navigation as default and offer substring search as an alternative)
+2010-10-16 21:26:04	<--	Paul-S (~paul@88-105-213-63.dynamic.dsl.as9105.com) has quit (Read error: No route to host)
+2010-10-16 21:28:17	therp	the problem is the abstraction done in gs_navigation is just useless
+2010-10-16 21:28:28	therp	the only thing you can customize is the navigation offset, but nothing else
+2010-10-16 21:28:34	therp	you can't remap escape/return for instance
+2010-10-16 21:29:11	therp	so I'd have to turn this into a proper abstraction.. and also I'd have to support that keymap change on the fly as I assume people using h,j,k,l would like to have substring search, probably only when hitting something like / before
+2010-10-16 21:32:15	dschoepe	I guess creating a monad for specifying grid select actions that also allows some mutable state would be the most flexible way to handle this, but also somewhat more effort
+2010-10-16 21:33:26	dschoepe	Or maybe you could use X.U.ExtensibleState for storing whether e.g. a substring search was started
+2010-10-16 21:33:45	<--	Zephyrus (~emanuele@unaffiliated/zephyrus) has quit (Quit: "")
+2010-10-16 21:36:50	therp	hmm maybe I will turn keymap into M.Map (KeyMask,KeySym) (TwoDState -> TwoDState)
+2010-10-16 21:37:22	therp	this way the keymap can transform a lot more.. possibly dangerous, but.. more useful than just this offset
+2010-10-16 21:57:41	-->	novas0x2a1 (~mike@womp.fihn.net) has joined #xmonad
+2010-10-16 21:58:06	<--	alip (alip@exherbo/developer/alip) has quit (Excess Flood)
+2010-10-16 21:58:47	<--	novas0x2a (~mike@womp.fihn.net) has quit (Ping timeout: 240 seconds)
+2010-10-16 22:02:00	-->	alip (alip@exherbo/developer/alip) has joined #xmonad
+2010-10-16 22:02:46	<--	uhsf (~uhsf@184.163.123.114) has quit (Quit: leaving)
+2010-10-16 22:07:55	-->	schroedinbug (~schroedin@209-180-242-173.hlrn.qwest.net) has joined #xmonad
+2010-10-16 22:22:43	<--	Philonous (~uart14@2a01:198:4e9:3:223:54ff:fe47:dee3) has quit (Remote host closed the connection)
+2010-10-16 22:34:53	-->	RayNbow (kirika@scientia.demon.nl) has joined #xmonad
+2010-10-16 22:37:41	-->	uhsf (~uhsf@184.163.123.114) has joined #xmonad
+2010-10-16 22:39:14	uhsf	i configured multitoggle but my problem now is that NoBorders don't remove borders on floating windows. how to also remove borders on floating windows?
+2010-10-16 22:43:09	<--	sainthuck (~cgie@116-235-103-86.dynamic.dsl.tng.de) has quit (Ping timeout: 245 seconds)
+2010-10-16 22:45:06	<--	aiko_ (aik@shell.noname-ev.de) has quit (Ping timeout: 276 seconds)
+2010-10-16 22:48:32	-->	bo0ts__ (~user@f053100252.adsl.alicedsl.de) has joined #xmonad
+2010-10-16 22:49:05	-->	aiko_ (aik@shell.noname-ev.de) has joined #xmonad
+2010-10-16 23:05:55	<--	jaspervdj (~jaspervdj@zeus.ugent.be) has quit (Quit: NEVER GONNA GIVE YOU UP NEVER GONNA LET YOU DOWN)
+2010-10-16 23:23:06	<--	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (Ping timeout: 265 seconds)
+2010-10-16 23:49:10	-->	Philonous (~uart14@2a01:198:4e9:3:223:54ff:fe47:dee3) has joined #xmonad
+2010-10-16 23:53:14	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-10-17 00:17:59	<--	tux_mark_5 (~angel@lan-84-240-29-163.vln.skynet.lt) has quit (Ping timeout: 240 seconds)
+2010-10-17 00:21:52	<--	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (Ping timeout: 260 seconds)
+2010-10-17 00:43:43	<--	nomeata (nobody@nomeata.de) has quit (Quit: Client exiting)
+2010-10-17 00:48:46	<--	_jones (~always@24.214.40.86) has quit (Read error: Operation timed out)
+2010-10-17 00:55:13	-->	ymasory (~ymasory@ksgblue3.harvard.edu) has joined #xmonad
+2010-10-17 01:06:04	<--	ymasory (~ymasory@ksgblue3.harvard.edu) has quit (Ping timeout: 245 seconds)
+2010-10-17 01:12:10	-->	bla (~bla@unaffiliated/bla) has joined #xmonad
+2010-10-17 01:14:18	bla	Hi.
+2010-10-17 01:14:26	bla	Have you ever used xmonad over freenx?
+2010-10-17 01:14:32	bla	Inside another xmonad that is. ;-)
+2010-10-17 01:20:39	<--	alex404 (~alex404@g225106102.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-17 01:28:42	-->	_jones (~always@24.214.40.86) has joined #xmonad
+2010-10-17 01:40:35	-->	ymasory (~ymasory@wrls-249-138-73.wrls-client.fas.harvard.edu) has joined #xmonad
+2010-10-17 01:42:25	-->	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has joined #xmonad
+2010-10-17 01:59:12	<--	pARESit (~pit@drsd-4d05ec85.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-10-17 01:59:16	-->	billodo (~billodo@nat/sgi/x-eiqmtlkbmzbwpghw) has joined #xmonad
+2010-10-17 02:00:52	Entroacceptor	never got freenx to work, so no
+2010-10-17 02:04:49	<--	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has quit (Ping timeout: 245 seconds)
+2010-10-17 02:10:34	<--	insomniaSalt (~milan@port-92-204-87-172.dynamic.qsc.de) has quit (Ping timeout: 240 seconds)
+2010-10-17 02:23:47	<--	bo0ts__ (~user@f053100252.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2010-10-17 02:26:33	<--	comak (~mak@dynamic-87-105-244-120.ssp.dialog.net.pl) has quit (Remote host closed the connection)
+2010-10-17 03:09:36	<--	RayNbow (kirika@scientia.demon.nl) has quit (Quit: When science finally locates the center of the universe, some people will be surprised to learn they're not it)
+2010-10-17 03:31:57	-->	ernst_ (~ernst@p50897E02.dip.t-dialin.net) has joined #xmonad
+2010-10-17 03:33:41	<--	ernst (~ernst@p50896ED7.dip.t-dialin.net) has quit (Ping timeout: 252 seconds)
+2010-10-17 03:45:04	<--	tommd (~Thomas_Du@65-102-39-41.ptld.qwest.net) has quit (Ping timeout: 265 seconds)
+2010-10-17 04:22:03	-->	joyfulgirl (~joyfulgir@unaffiliated/joyfulgirl) has joined #xmonad
+2010-10-17 04:23:37	<--	ymasory (~ymasory@wrls-249-138-73.wrls-client.fas.harvard.edu) has quit (Quit: Leaving)
+2010-10-17 04:23:49	-->	ymasory (~ymasory@wrls-249-138-73.wrls-client.fas.harvard.edu) has joined #xmonad
+2010-10-17 04:56:03	-->	digitteknohippie (~digit@88-110-219-2.dynamic.dsl.as9105.com) has joined #xmonad
+2010-10-17 04:58:16	-->	chewbranca (~chewbranc@c-24-18-241-128.hsd1.wa.comcast.net) has joined #xmonad
+2010-10-17 04:59:48		irc: disconnected from server
+2010-10-17 05:00:33	-->	quesada2 (~quesada@e178206212.adsl.alicedsl.de) has joined #xmonad
+2010-10-17 05:00:33	--	Topic for #xmonad is "Topic for #xmonad: xmonad: a tiling window manager | xmonad 0.9 released! | http://xmonad.org | rss: http://xmonad.wordpress.com/feed | faq: http://xmonad.org/faq | cheatsheet: http://haskell.org/haskellwiki/Image:Xmbindings.png"
+2010-10-17 05:00:33	--	Topic set by aavogt (~aavogt@engage.uwaterloo.ca) on Fri, 09 Apr 2010 07:24:54
+2010-10-17 05:00:33	--	Nicks #xmonad: [+lambdabot +preflex [31d1] _jones adimit aiko_ akosch AlexanderS alip allbery_b amphi And1 andern andrewsw ankan ArchGT asfethan audunska b4taylor Baughn Belgarion0 Berengal billodo bla BradC bremner brisbin Bruners bthomson byorgey c3l CheariX chewbranca clanehin cncl coppro cornet CosmicRay cubi da-x danklesman davidL deadguys defn Demosthenes Dephyrial digitteknohippie dmwit dons dropdrive drubin dweller enthropy Entroacceptor ernst_ etherealite evaryont fadein_ faj_ FaUl felipe_ flupzor fserb FunctorSalad gereedy_ gernot GetMeAWrapCombo gwern hanneso hokapoka hvr insecure janLo janus jd10 jelly1 jhelwig jones- joyfulgirl jrockway jubos jusa_ jvogel kabniel kenyon Kharza KitB koniiiik ksf_ KungFuJesus l0uis leoncamel Liskni_si lithis loupgaroublond mauke Maxdamantus McManiaC mikezackles ml| mornfall MrElendig nce nickzxcv nimred nipuL noidi novas0x2a1 npouillard nuba nyergler og01 oncenull orlandu63 oxymor00n p_l pantski pcc1 Philonous pielgrzym pippijn piroko pr quesada1 quesada2 raccoon_ Raku^ regulate rekahsoft ricky rudi_s sbahra schatan schroedinbug sdx23 sernin SeveredCross shachaf shepheb_ sid3k slabanja smeea smorg snapcase sperber sshc stepnem superjudge surgeon_ taihen theDon therp tnta trzkril Twey uhsf Valodim vin Vq watsonalgas wereHamster xmikedavis ymasory yosafbridge Zao Ziphilt zitune]
+2010-10-17 05:00:33	--	Channel #xmonad: 167 nicks (0 ops, 0 halfops, 2 voices, 165 normals)
+2010-10-17 05:00:33	--	URL for #xmonad: http://xmonad.org
+2010-10-17 05:00:47	--	Channel created on Wed, 25 Apr 2007 06:33:15
+2010-10-17 05:03:08	<--	quesada1 (~quesada@e178231025.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-17 05:17:42	<--	watsonalgas (~diomekes@c-71-56-120-21.hsd1.ga.comcast.net) has quit (Ping timeout: 276 seconds)
+2010-10-17 05:20:54	<--	surgeon_ (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has quit (Ping timeout: 264 seconds)
+2010-10-17 05:31:24	<--	oncenull (~oncenull@190.19.242.73) has quit (Ping timeout: 240 seconds)
+2010-10-17 05:35:39	--	MrElendig is now known as mion
+2010-10-17 05:36:37	--	mion is now known as Mion
+2010-10-17 05:42:32	-->	ksf__ (~ksf@d008105.adsl.hansenet.de) has joined #xmonad
+2010-10-17 05:46:18	<--	ksf_ (~ksf@d013043.adsl.hansenet.de) has quit (Ping timeout: 276 seconds)
+2010-10-17 05:50:52	<--	Ziphilt (~Ziphilt@cpe-66-65-235-36.nycap.res.rr.com) has quit (Quit: Leaving)
+2010-10-17 05:52:41	-->	cubi_ (~mcd@p4FFE06BB.dip.t-dialin.net) has joined #xmonad
+2010-10-17 05:56:18	<--	cubi (~mcd@p4FFE1566.dip.t-dialin.net) has quit (Ping timeout: 264 seconds)
+2010-10-17 05:56:18	--	cubi_ is now known as cubi
+2010-10-17 06:05:11	<--	Philonous (~uart14@2a01:198:4e9:3:223:54ff:fe47:dee3) has quit (Ping timeout: 272 seconds)
+2010-10-17 06:09:15	-->	Berengal_ (~berengal@cC767BF51.dhcp.bluecom.no) has joined #xmonad
+2010-10-17 06:09:53	<--	Berengal (~berengal@cC767BF51.dhcp.bluecom.no) has quit (Ping timeout: 252 seconds)
+2010-10-17 06:17:14	-->	simplechat (~simplecha@unaffiliated/simplechat) has joined #xmonad
+2010-10-17 06:19:06	-->	Philonous (~uart14@2a01:198:4e9:3:223:54ff:fe47:dee3) has joined #xmonad
+2010-10-17 06:44:11	GetMeAWrapCombo	bla: what is freenx
+2010-10-17 06:45:56	<--	etherealite (~ethereali@c-76-126-100-167.hsd1.ca.comcast.net) has left #xmonad
+2010-10-17 06:46:46	smorg	I use xmonad over freenx almost ever day
+2010-10-17 06:47:53	smorg	oh nevermind... I'm used to freenx == nx
+2010-10-17 06:47:57	smorg	I actually use neatx server
+2010-10-17 06:48:03	<--	Mion (~oh@pdpc/supporter/active/mrelendig) has quit (Ping timeout: 276 seconds)
+2010-10-17 06:50:34	<--	ymasory (~ymasory@wrls-249-138-73.wrls-client.fas.harvard.edu) has quit (Ping timeout: 252 seconds)
+2010-10-17 06:52:05	GetMeAWrapCombo	oh yeah i see
+2010-10-17 06:52:15	GetMeAWrapCombo	remote desktop style stuff
+2010-10-17 06:53:27	smorg	short answer yes. Implementation-wise it's more of an optimization of X11 forwarding than VNC.
+2010-10-17 07:34:49	<--	joyfulgirl (~joyfulgir@unaffiliated/joyfulgirl) has quit (Quit: WeeChat 0.3.4-dev)
+2010-10-17 07:41:24	<--	rekahsoft (~rekahsoft@CPE002129ce62e2-CM0026f30ca5ed.cpe.net.cable.rogers.com) has quit (Ping timeout: 265 seconds)
+2010-10-17 07:47:20	-->	rekahsoft (~rekahsoft@CPE002129ce62e2-CM0026f30ca5ed.cpe.net.cable.rogers.com) has joined #xmonad
+2010-10-17 07:57:14	-->	sainthuck (~cgie@211-230-103-86.dynamic.dsl.tng.de) has joined #xmonad
+2010-10-17 08:02:00	<--	uhsf (~uhsf@184.163.123.114) has quit (Quit: leaving)
+2010-10-17 08:04:53	<--	digitteknohippie (~digit@88-110-219-2.dynamic.dsl.as9105.com) has quit (Remote host closed the connection)
+2010-10-17 08:05:09	<--	shepheb_ (~braden@173-27-28-231.client.mchsi.com) has quit (Ping timeout: 265 seconds)
+2010-10-17 08:06:53	-->	shepheb (~braden@173-27-28-231.client.mchsi.com) has joined #xmonad
+2010-10-17 08:14:16	-->	ymasory (~ymasory@wrls-249-19-80.wrls-client.fas.harvard.edu) has joined #xmonad
+2010-10-17 08:15:37	<--	ymasory (~ymasory@wrls-249-19-80.wrls-client.fas.harvard.edu) has quit (Client Quit)
+2010-10-17 08:31:53	-->	surgeon_ (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has joined #xmonad
+2010-10-17 08:42:13	-->	ymasory (~yuvi@wrls-249-19-110.wrls-client.fas.harvard.edu) has joined #xmonad
+2010-10-17 08:42:40	ymasory	xmonad is eating the Alt-N bindings that irssi wants
+2010-10-17 08:43:12	ymasory	how do people usually get around this?
+2010-10-17 08:43:36	shachaf	ymasory: By not using Alt as their modifier.
+2010-10-17 08:43:55	shachaf	ymasory: I think Mod4 (Super / "Windows" key) is the most common; it's what I use.
+2010-10-17 08:44:21	ymasory	i see, thanks
+2010-10-17 08:44:38	ymasory	wow that's some alarming yellow irssi uses, i'll have to change that too
+2010-10-17 08:44:51	shachaf	ymasory: Yellow?
+2010-10-17 08:45:05	ymasory	your nick is in this unreadable yellow
+2010-10-17 08:45:10	ymasory	(first time using irssi)
+2010-10-17 08:46:06	shachaf	ymasory: Do you have a white background, by any chance?
+2010-10-17 08:47:21	ymasory	yes i do
+2010-10-17 08:49:21	<--	ymasory (~yuvi@wrls-249-19-110.wrls-client.fas.harvard.edu) has left #xmonad
+2010-10-17 09:00:14	-->	ymasory (~yuvi@wrls-249-19-110.wrls-client.fas.harvard.edu) has joined #xmonad
+2010-10-17 09:00:18	ymasory	that worked, thanks
+2010-10-17 09:03:41	amphi	ymasory: it's quite easy to make your own theme for irssi, FWIW - and there are many amongst the tubes
+2010-10-17 09:06:42	ymasory	probably a silly question, but how do you get a fullscreen browser in xmonad if you want to invoke it from the cli?
+2010-10-17 09:08:53	<--	ml| (~ml@unaffiliated/ml/x-3958674) has quit (Ping timeout: 264 seconds)
+2010-10-17 09:25:31	<--	ymasory (~yuvi@wrls-249-19-110.wrls-client.fas.harvard.edu) has quit (Quit: Lost terminal)
+2010-10-17 09:36:19	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-17 09:42:24	<--	Philonous (~uart14@2a01:198:4e9:3:223:54ff:fe47:dee3) has quit (Ping timeout: 272 seconds)
+2010-10-17 09:42:25	-->	jaspervdj (~jaspervdj@zeus.ugent.be) has joined #xmonad
+2010-10-17 09:51:10	<--	alip (alip@exherbo/developer/alip) has quit (Ping timeout: 240 seconds)
+2010-10-17 09:53:31	-->	alip (alip@exherbo/developer/alip) has joined #xmonad
+2010-10-17 09:55:14	<--	mauke (~mauke@p3m/member/mauke) has quit (Disconnected by services)
+2010-10-17 09:55:22	-->	mauke_ (~mauke@p3m/member/mauke) has joined #xmonad
+2010-10-17 09:59:05	-->	Philonous (~uart14@178.5.206.178) has joined #xmonad
+2010-10-17 09:59:54	--	mauke_ is now known as mauke
+2010-10-17 10:04:59	-->	alex404 (~alex404@g225106102.adsl.alicedsl.de) has joined #xmonad
+2010-10-17 10:25:03	<--	vin (~vincent@linode.vincentkriek.nl) has quit (Ping timeout: 240 seconds)
+2010-10-17 10:30:39	therp	am I wrong or is there no xmonad-cvs mailing list?
+2010-10-17 10:31:46	-->	RayNbow (kirika@scientia.demon.nl) has joined #xmonad
+2010-10-17 10:35:43	-->	alex404_ (~alex404@f052136055.adsl.alicedsl.de) has joined #xmonad
+2010-10-17 10:39:23	<--	alex404 (~alex404@g225106102.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-17 10:41:35	<--	surgeon_ (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has quit (Ping timeout: 260 seconds)
+2010-10-17 10:54:34	<--	pankajm (~pankajm@202.3.77.219) has quit (Quit: Lost terminal)
+2010-10-17 11:02:20	bla	GetMeAWrapCombo, something like VNC or RDP for Xserver which caches things up and makes connection really fast.
+2010-10-17 11:03:00	bla	I've just discovered full-screen mode which seems to work with gnome fine (mod+anything shortcuts are not catched by my main xmonad) so I guess I'll be able to use it somehow. Still trying to get xinerama to work fine.
+2010-10-17 11:03:23	bla	GetMeAWrapCombo, freenx also allows you to have 'suspended' X sessions to which you can later log in.
+2010-10-17 11:06:23	therp	check out x2go maybe
+2010-10-17 11:07:58	therp	there is also a new kid on the block.. from some guy that was frusted by neatx
+2010-10-17 11:08:17	therp	can't find it atm :/ ..4 letter project name on code.google.com starting with x
+2010-10-17 11:09:18	therp	ah that was xpra.. but was more for persistence than for speed
+2010-10-17 11:20:39	<--	ksf__ (~ksf@d008105.adsl.hansenet.de) has quit (Read error: Connection reset by peer)
+2010-10-17 11:53:20	-->	comak (~mak@dynamic-78-8-247-129.ssp.dialog.net.pl) has joined #xmonad
+2010-10-17 11:56:11	-->	nomeata (nobody@nomeata.de) has joined #xmonad
+2010-10-17 12:12:13	-->	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has joined #xmonad
+2010-10-17 12:26:00	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-17 12:27:34	-->	tux_mark_5 (~angel@lan-84-240-29-163.vln.skynet.lt) has joined #xmonad
+2010-10-17 12:43:49	<--	nickzxcv (nick@schmalenberger.us) has quit (Ping timeout: 252 seconds)
+2010-10-17 12:44:10	<--	pankajm (~pankajm@202.3.77.219) has quit (Ping timeout: 272 seconds)
+2010-10-17 12:51:15	-->	nickzxcv (nick@schmalenberger.us) has joined #xmonad
+2010-10-17 12:56:17	<--	nickzxcv (nick@schmalenberger.us) has quit (Remote host closed the connection)
+2010-10-17 12:56:28	-->	nickzxcv (nick@schmalenberger.us) has joined #xmonad
+2010-10-17 13:01:48	-->	pankajm (~pankajm@202.3.77.204) has joined #xmonad
+2010-10-17 13:01:54	-->	rootzlevel (~hpd@91-66-216-220-dynip.superkabel.de) has joined #xmonad
+2010-10-17 13:09:04	bla	therp, thanks for names!
+2010-10-17 13:10:20	-->	Zephyrus (~emanuele@unaffiliated/zephyrus) has joined #xmonad
+2010-10-17 13:11:37	bla	xpra looks like something I was about to write at some point of time even.
+2010-10-17 13:11:56	bla	Altough I was thinking about implementing this functionality in a generic CLI screen.
+2010-10-17 13:12:00	bla	Fun. ;-)
+2010-10-17 13:14:09	therp	X should move along much faster in my opinion..
+2010-10-17 13:14:30	therp	the protocol itself. compression support, video codec support, etc. etc.
+2010-10-17 13:18:53	bla	Xorg changed a lot since xfree86, but yes, it still could earn a lot by changing protocol.
+2010-10-17 13:19:09	<--	smeea (~smeea@89.163.26.137) has quit (Quit: Lost terminal)
+2010-10-17 13:19:26	-->	smeea (~smeea@89.163.26.137) has joined #xmonad
+2010-10-17 13:19:50	bla	If functionality of freenx get included in core Xservers it would be superb.
+2010-10-17 13:20:01	therp	freenx is a mess
+2010-10-17 13:20:07	therp	all nx products are mess
+2010-10-17 13:20:32	bla	It's very randomly done. And it can't work with challenge-response authentication
+2010-10-17 13:20:45	bla	But the idea is very good.
+2010-10-17 13:21:19	therp	yes, that's the first thing that comes to my mind that's totally odd. I do not want to have an account open on my box with a public key that has publicly known private key
+2010-10-17 13:22:21	bla	Yes it's weird. I don't know why it can't just log into a user who owns sessions.
+2010-10-17 13:22:37	therp	second thing, the code base is rotten. they are using what? a fork of the monolithic X server? when was that, 2006?
+2010-10-17 13:22:51	therp	bla: true
+2010-10-17 13:24:01	bla	So I guess this libraries from !machine which are used for compression/caching also are quite rotten.
+2010-10-17 13:25:18	-->	yitz (~abba@line236.adsl.actcom.co.il) has joined #xmonad
+2010-10-17 13:25:38	bla	I need to take a look at ltsp but it won't be a surprise if they used nx
+2010-10-17 13:27:21	bla	ltsp is in Debian packages even.
+2010-10-17 13:29:25	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-10-17 13:31:55	<--	pankajm (~pankajm@202.3.77.204) has quit (Ping timeout: 260 seconds)
+2010-10-17 13:33:51	<--	jaspervdj (~jaspervdj@zeus.ugent.be) has quit (Quit: NEVER GONNA GIVE YOU UP NEVER GONNA LET YOU DOWN)
+2010-10-17 13:44:02	-->	pankajm (~pankajm@202.3.77.204) has joined #xmonad
+2010-10-17 13:47:20	-->	digitteknohippie (~digit@88-110-219-2.dynamic.dsl.as9105.com) has joined #xmonad
+2010-10-17 13:48:34	<--	pankajm (~pankajm@202.3.77.204) has quit (Ping timeout: 252 seconds)
+2010-10-17 13:48:45	<--	yitz (~abba@line236.adsl.actcom.co.il) has quit (Quit: Lost terminal)
+2010-10-17 13:49:40	<--	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (Ping timeout: 252 seconds)
+2010-10-17 13:55:30	-->	bo0ts__ (~user@f053096149.adsl.alicedsl.de) has joined #xmonad
+2010-10-17 13:56:22	<--	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has quit (Ping timeout: 272 seconds)
+2010-10-17 13:57:47	-->	watsonalgas (~diomekes@c-71-56-120-21.hsd1.ga.comcast.net) has joined #xmonad
+2010-10-17 13:58:07	-->	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has joined #xmonad
+2010-10-17 13:59:34	<--	KitB (~kit@188-220-35-149.zone11.bethere.co.uk) has quit (Read error: Operation timed out)
+2010-10-17 13:59:53	-->	KitB (~kit@188-220-35-149.zone11.bethere.co.uk) has joined #xmonad
+2010-10-17 14:04:36	-->	pankajm (~pankajm@202.3.77.209) has joined #xmonad
+2010-10-17 14:07:59	<--	therp (~nil@81.94.56.25) has quit (Remote host closed the connection)
+2010-10-17 14:11:49	<--	rekahsoft (~rekahsoft@CPE002129ce62e2-CM0026f30ca5ed.cpe.net.cable.rogers.com) has quit (Ping timeout: 252 seconds)
+2010-10-17 14:14:22	<--	alip (alip@exherbo/developer/alip) has quit (Ping timeout: 240 seconds)
+2010-10-17 14:15:32	-->	alip (alip@exherbo/developer/alip) has joined #xmonad
+2010-10-17 14:25:18	-->	Funktorsalat (~FunctorSa@p4FD88826.dip0.t-ipconnect.de) has joined #xmonad
+2010-10-17 14:29:32	<--	FunctorSalad (~FunctorSa@p4FD886E3.dip0.t-ipconnect.de) has quit (Ping timeout: 276 seconds)
+2010-10-17 15:24:45	<--	Baughn (~svein@40.39.202.84.customer.cdi.no) has left #xmonad
+2010-10-17 15:31:55	-->	__Hybris__ (~frans@82.211.197.147) has joined #xmonad
+2010-10-17 15:40:56	<--	Zephyrus (~emanuele@unaffiliated/zephyrus) has quit (Quit: "")
+2010-10-17 15:54:43	<--	xmikedavis (147@gateway/web/irccloud.com/x-tfjnbdiqwwxeaeyo) has quit (Remote host closed the connection)
+2010-10-17 16:02:24	<--	BradC (heh14824@202-89-178-44.static.dsl.amnet.net.au) has quit (Ping timeout: 272 seconds)
+2010-10-17 16:06:09	<--	pankajm (~pankajm@202.3.77.209) has quit (Quit: Lost terminal)
+2010-10-17 16:08:16	<--	nomeata (nobody@nomeata.de) has quit (Ping timeout: 252 seconds)
+2010-10-17 16:15:29	-->	nomeata (nobody@nomeata.de) has joined #xmonad
+2010-10-17 16:20:59	-->	pankajm (~pankajm@202.3.77.209) has joined #xmonad
+2010-10-17 16:22:30	-->	xmikedavis (147@gateway/web/irccloud.com/x-caypfrxoueovduxr) has joined #xmonad
+2010-10-17 16:34:22	<--	Demosthenes (~demo@206.180.155.43.adsl.hal-pc.org) has quit (Quit: leaving)
+2010-10-17 16:41:17	<--	Philonous (~uart14@178.5.206.178) has quit (Read error: Connection reset by peer)
+2010-10-17 16:46:38	<--	hvr (~hvr@h081217016230.dyn.cm.kabsi.at) has quit (Quit: leaving)
+2010-10-17 16:57:25	<--	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has quit (Quit: leaving)
+2010-10-17 16:58:31	-->	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has joined #xmonad
+2010-10-17 17:00:08	<--	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has quit (Client Quit)
+2010-10-17 17:08:07	-->	dfkjjkfd (~paulh@145.120.22.35) has joined #xmonad
+2010-10-17 17:11:16	-->	surgeon_ (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has joined #xmonad
+2010-10-17 17:12:02	<--	pankajm (~pankajm@202.3.77.209) has quit (Quit: Lost terminal)
+2010-10-17 17:24:59	-->	Philonous (~uart14@178.5.206.178) has joined #xmonad
+2010-10-17 17:27:27	-->	rm34D (~johannes@c-83-233-112-61.cust.bredband2.com) has joined #xmonad
+2010-10-17 17:37:23	-->	anRch (~markmilli@64.134.65.150) has joined #xmonad
+2010-10-17 17:44:20	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-17 17:48:48	<--	__Hybris__ (~frans@82.211.197.147) has quit (Ping timeout: 272 seconds)
+2010-10-17 17:53:35	-->	sorki (~sorki@psyche.sks2.muni.cz) has joined #xmonad
+2010-10-17 17:59:14	<--	pankajm (~pankajm@202.3.77.219) has quit (Quit: leaving)
+2010-10-17 18:02:22	<--	rm34D (~johannes@c-83-233-112-61.cust.bredband2.com) has quit (Ping timeout: 240 seconds)
+2010-10-17 18:10:00	-->	jaspervdj (~jaspervdj@zeus.ugent.be) has joined #xmonad
+2010-10-17 18:10:24	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-17 18:12:25	<--	ArchGT (~archgt@unaffiliated/archgt) has quit (Ping timeout: 240 seconds)
+2010-10-17 18:12:57	-->	Athas (~athas@shop3.diku.dk) has joined #xmonad
+2010-10-17 18:15:54	-->	morphling (~stefan@gssn-5f75542f.pool.mediaWays.net) has joined #xmonad
+2010-10-17 18:17:47	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-10-17 18:22:46	-->	Guest26931 (~root@cpc1-know11-2-0-cust782.know.cable.virginmedia.com) has joined #xmonad
+2010-10-17 18:28:54	-->	dab_ (~jack@s83-177-28-44.cust.tele2.se) has joined #xmonad
+2010-10-17 18:33:04	<--	Guest26931 (~root@cpc1-know11-2-0-cust782.know.cable.virginmedia.com) has quit (Ping timeout: 252 seconds)
+2010-10-17 18:35:04	<--	pankajm (~pankajm@202.3.77.219) has quit (Quit: Lost terminal)
+2010-10-17 18:37:56	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-17 18:39:14	<--	anRch (~markmilli@64.134.65.150) has quit (Quit: anRch)
+2010-10-17 18:50:05	<--	pankajm (~pankajm@202.3.77.219) has quit (Quit: leaving)
+2010-10-17 18:50:25	<--	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (Ping timeout: 240 seconds)
+2010-10-17 18:52:11	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-17 19:02:46	<--	pankajm (~pankajm@202.3.77.219) has quit (Quit: leaving)
+2010-10-17 19:05:13	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-17 19:14:52	--	SeveredCross is now known as brajkovic
+2010-10-17 19:15:50	--	brajkovic is now known as SeveredCross
+2010-10-17 19:16:56	-->	tommd (~Thomas_Du@65-102-39-41.ptld.qwest.net) has joined #xmonad
+2010-10-17 19:22:35	<--	sorki (~sorki@psyche.sks2.muni.cz) has quit (Quit: Lost terminal)
+2010-10-17 19:26:07	-->	oxymor00` (~user@unaffiliated/oxymor00n) has joined #xmonad
+2010-10-17 19:28:04	<--	oxymor00n (~user@unaffiliated/oxymor00n) has quit (Ping timeout: 252 seconds)
+2010-10-17 19:29:32	-->	Ziphilt (~Ziphilt@cpe-66-65-235-36.nycap.res.rr.com) has joined #xmonad
+2010-10-17 19:31:06	--	oxymor00` is now known as oxymor00n
+2010-10-17 19:35:53	<--	dmwit (~dmwit@pool-98-111-157-15.phlapa.east.verizon.net) has quit (Read error: Connection reset by peer)
+2010-10-17 19:36:33	-->	dmwit (~dmwit@pool-98-111-157-15.phlapa.east.verizon.net) has joined #xmonad
+2010-10-17 19:45:08	-->	dmwit_ (~dmwit@pool-98-111-157-15.phlapa.east.verizon.net) has joined #xmonad
+2010-10-17 19:45:18	<--	dmwit_ (~dmwit@pool-98-111-157-15.phlapa.east.verizon.net) has quit (Client Quit)
+2010-10-17 19:50:09	<--	smeea (~smeea@89.163.26.137) has quit (Read error: Connection reset by peer)
+2010-10-17 19:56:02	-->	smeea (~smeea@89.163.26.137) has joined #xmonad
+2010-10-17 20:19:42	-->	pARESit (~pit@drsd-4d05ff01.pool.mediaWays.net) has joined #xmonad
+2010-10-17 20:27:10	-->	ymasory (~yuvi@c-76-99-55-224.hsd1.pa.comcast.net) has joined #xmonad
+2010-10-17 20:36:08	-->	ml| (~ml@c-98-254-5-209.hsd1.fl.comcast.net) has joined #xmonad
+2010-10-17 20:36:09	<--	ml| (~ml@c-98-254-5-209.hsd1.fl.comcast.net) has quit (Changing host)
+2010-10-17 20:36:09	-->	ml| (~ml@unaffiliated/ml/x-3958674) has joined #xmonad
+2010-10-17 20:42:27	<--	simplechat (~simplecha@unaffiliated/simplechat) has quit (Remote host closed the connection)
+2010-10-17 20:42:40	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-10-17 21:03:44	<--	pankajm (~pankajm@202.3.77.219) has quit (Quit: Lost terminal)
+2010-10-17 21:11:39	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-17 21:13:36	<--	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (Read error: Operation timed out)
+2010-10-17 21:13:42	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-10-17 21:14:52	<--	tommd (~Thomas_Du@65-102-39-41.ptld.qwest.net) has left #xmonad
+2010-10-17 21:28:17	<--	pankajm (~pankajm@202.3.77.219) has quit (Quit: Lost terminal)
+2010-10-17 21:35:01	<--	Philonous (~uart14@178.5.206.178) has quit (Read error: Connection reset by peer)
+2010-10-17 21:48:48	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-17 22:07:24	<--	oxymor00n (~user@unaffiliated/oxymor00n) has quit (Remote host closed the connection)
+2010-10-17 22:07:55	-->	yitz (~abba@line236.adsl.actcom.co.il) has joined #xmonad
+2010-10-17 22:11:18	-->	ethos5 (~stewart@r42h74.res.gatech.edu) has joined #xmonad
+2010-10-17 22:11:52	<--	Athas (~athas@shop3.diku.dk) has quit (Remote host closed the connection)
+2010-10-17 22:15:50	<--	pankajm (~pankajm@202.3.77.219) has quit (Quit: leaving)
+2010-10-17 22:18:54	<--	nomeata (nobody@nomeata.de) has quit (Quit: Client exiting)
+2010-10-17 22:28:34	<--	raccoon_ (raccoon@optoplex.technopragmatics.org) has quit (Ping timeout: 260 seconds)
+2010-10-17 22:33:33	<--	RayNbow (kirika@scientia.demon.nl) has quit (Quit: When science finally locates the center of the universe, some people will be surprised to learn they're not it)
+2010-10-17 22:37:12	-->	raccoon_ (raccoon@optoplex.technopragmatics.org) has joined #xmonad
+2010-10-17 22:41:57	<--	amphi (~amphi@unaffiliated/amphi) has quit (Ping timeout: 250 seconds)
+2010-10-17 22:44:25	<--	yitz (~abba@line236.adsl.actcom.co.il) has quit (Quit: Lost terminal)
+2010-10-17 22:45:27	-->	Berengal (~berengal@cC767BF51.dhcp.bluecom.no) has joined #xmonad
+2010-10-17 22:46:11	<--	Berengal_ (~berengal@cC767BF51.dhcp.bluecom.no) has quit (Ping timeout: 265 seconds)
+2010-10-17 22:46:33	<--	sainthuck (~cgie@211-230-103-86.dynamic.dsl.tng.de) has quit (Ping timeout: 240 seconds)
+2010-10-17 22:47:14	<--	raccoon_ (raccoon@optoplex.technopragmatics.org) has quit (Ping timeout: 260 seconds)
+2010-10-17 22:48:54	-->	nuba_ (~nuba@pauleira.com) has joined #xmonad
+2010-10-17 22:48:59	<--	pielgrzym (~pielgrzym@1str003.multi-play.net.pl) has quit (Ping timeout: 264 seconds)
+2010-10-17 22:48:59	<--	evaryont (colin@unaffiliated/zenix) has quit (Read error: Connection reset by peer)
+2010-10-17 22:48:59	<--	nuba (~nuba@pauleira.com) has quit (Ping timeout: 264 seconds)
+2010-10-17 22:49:39	-->	pielgrzym (~pielgrzym@1str003.multi-play.net.pl) has joined #xmonad
+2010-10-17 22:50:39	-->	evaryont (colin@unaffiliated/zenix) has joined #xmonad
+2010-10-17 22:54:40	-->	raccoon_ (raccoon@optoplex.technopragmatics.org) has joined #xmonad
+2010-10-17 22:55:26	<--	_jones (~always@24.214.40.86) has quit (Ping timeout: 252 seconds)
+2010-10-17 23:00:17	<--	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (Ping timeout: 276 seconds)
+2010-10-17 23:04:42	-->	tcb (~tcberner_@123-127.5-85.cust.bluewin.ch) has joined #xmonad
+2010-10-17 23:05:27	<--	evaryont (colin@unaffiliated/zenix) has quit (*.net *.split)
+2010-10-17 23:11:31	-->	Philonous (~uart14@178.5.206.178) has joined #xmonad
+2010-10-17 23:24:04	-->	EdwardIII (~EdwardIII@unaffiliated/edward123) has joined #xmonad
+2010-10-17 23:29:04	-->	sietse (~sietse@exclusive.student.utwente.nl) has joined #xmonad
+2010-10-17 23:30:47	-->	Athas (~athas@82.211.209.226) has joined #xmonad
+2010-10-17 23:34:01	-->	Dashkal (~dashkal@WoWUIDev/Nexus/dashkal) has joined #xmonad
+2010-10-17 23:47:30	-->	_jones (~always@24.214.40.86) has joined #xmonad
+2010-10-17 23:53:53	<--	_jones (~always@24.214.40.86) has quit (Quit: dead)
+2010-10-18 00:04:41	<--	hanneso (hannes@h207n3c1o1110.bredband.skanova.com) has quit (Read error: Operation timed out)
+2010-10-18 00:07:02	-->	_jones (~always@24.214.40.86) has joined #xmonad
+2010-10-18 00:07:15	-->	hanneso (hannes@h201n1c1o1110.bredband.skanova.com) has joined #xmonad
+2010-10-18 00:12:15	<--	alex404_ (~alex404@f052136055.adsl.alicedsl.de) has quit (Ping timeout: 252 seconds)
+2010-10-18 00:24:40	<--	_jones (~always@24.214.40.86) has quit (Quit: Lost terminal)
+2010-10-18 00:27:53	-->	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has joined #xmonad
+2010-10-18 00:28:08	<--	dfkjjkfd (~paulh@145.120.22.35) has quit (Quit: Lost terminal)
+2010-10-18 00:29:18	<--	surgeon_ (~surgeon@ruede.kawo2.RWTH-Aachen.DE) has quit (Ping timeout: 252 seconds)
+2010-10-18 00:33:27	<--	comak (~mak@dynamic-78-8-247-129.ssp.dialog.net.pl) has quit (Remote host closed the connection)
+2010-10-18 00:36:23	<--	jaspervdj (~jaspervdj@zeus.ugent.be) has quit (Quit: NEVER GONNA GIVE YOU UP NEVER GONNA LET YOU DOWN)
+2010-10-18 00:38:24	<--	Athas (~athas@82.211.209.226) has quit (Ping timeout: 240 seconds)
+2010-10-18 00:39:03	-->	Athas (~athas@82.211.209.226) has joined #xmonad
+2010-10-18 00:39:19	<--	pARESit (~pit@drsd-4d05ff01.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-10-18 00:40:55	<--	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has quit (Quit: leaving)
+2010-10-18 00:47:00	<--	Athas (~athas@82.211.209.226) has quit (Read error: Connection reset by peer)
+2010-10-18 00:56:47	<--	tcb (~tcberner_@123-127.5-85.cust.bluewin.ch) has quit (Quit: Verlassend)
+2010-10-18 00:57:45	<--	kenyon (~kenyon@2001:470:1f04:4ef::2) has quit (Quit: Lost terminal)
+2010-10-18 00:59:46	-->	kenyon (~kenyon@2001:470:1f04:4ef::2) has joined #xmonad
+2010-10-18 01:00:03	-->	uhsf (~uhsf@184.163.123.114) has joined #xmonad
+2010-10-18 01:01:29	-->	tcb (~tcberner_@123-127.5-85.cust.bluewin.ch) has joined #xmonad
+2010-10-18 01:01:49	<--	morphling (~stefan@gssn-5f75542f.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-10-18 01:03:48	<--	tux_mark_5 (~angel@lan-84-240-29-163.vln.skynet.lt) has quit (Quit: WeeChat 0.3.2)
+2010-10-18 01:28:12	sietse	gimpLayout = withIM (1/5) (Role "gimp-toolbox") $    reflectHoriz $ withIM (1/5) (Role "gimp-dock") Full
+2010-10-18 01:28:36	sietse	can anyone tell me why the above mentioned lines results in an error?
+2010-10-18 01:29:03	sietse	namely: No instance for (XMonad.Layout.LayoutModifier.LayoutModifier XMonad.Layout.IM.AddRoster a)
+2010-10-18 01:29:28	allbery_b	pastebin the error somewhere
+2010-10-18 01:29:31	allbery_b	oh
+2010-10-18 01:31:33	enthropy	sietse: works here: what's the context of your use of gimpLayout?
+2010-10-18 01:31:42	enthropy	@where pastebin
+2010-10-18 01:31:43	+lambdabot	http://rafb.net/paste
+2010-10-18 01:32:02	enthropy	@where paste
+2010-10-18 01:32:03	+lambdabot	http://hpaste.org/ http://codepad.org/
+2010-10-18 01:32:22	sietse	just having the line within xmonad.hs fails the recompilation
+2010-10-18 01:32:29	sietse	I don't use it yet
+2010-10-18 01:33:02	sietse	but want to do something like: onWorkspace "gimp" gimpLayout
+2010-10-18 01:33:21	allbery_b	hm. did you import XMonad.Layout.Reflect?
+2010-10-18 01:33:33	sietse	yes
+2010-10-18 01:33:59	enthropy	what you can try is   {-# LANGUAGE NoMonomorphismRestriction #-} at the top of your config
+2010-10-18 01:34:20	enthropy	it doesn't know to default to        LayoutModifier AddRoster Window
+2010-10-18 01:34:41	sietse	does that have any sideeffects?
+2010-10-18 01:34:43	enthropy	which certainly has that instance
+2010-10-18 01:35:49	sietse	adding that declaration results in another error
+2010-10-18 01:37:42	-->	alex404_ (~alex404@f052136055.adsl.alicedsl.de) has joined #xmonad
+2010-10-18 01:37:54	-->	_jones (~always@24.214.40.86) has joined #xmonad
+2010-10-18 01:39:20	sietse	it works now :)
+2010-10-18 01:39:52	sietse	when adding the delaration I removed a trailing $
+2010-10-18 01:40:10	sietse	so adding the LANGUAGE declaration solved my problem
+2010-10-18 01:40:54	sietse	does that declaration has any effect which might introduce some problems?
+2010-10-18 01:44:54	enthropy	sietse: the reason for the MonomorphismRestriction is to prevent mysterious performance issues when you leave off a type signature for functions written some way. You don't do any serious calculations in your config anyhow
+2010-10-18 01:45:47	sietse	so adding all signatures could prevent adding the restriction?
+2010-10-18 01:57:52	<--	novas0x2a1 (~mike@womp.fihn.net) has quit (Quit: Leaving.)
+2010-10-18 02:07:25	allbery_b	yes
+2010-10-18 02:08:12	allbery_b	it also avoids weird errors popping up at the wrong place because the compiler onloy realized something was wrong when it used the incorrect type it inferred somewhere else
+2010-10-18 02:11:26	allbery_b	(although I usually avoid them with xmonad because the layout types in particular really aren't intended for human consumption :)
+2010-10-18 02:12:01	sietse	ok, cheers
+2010-10-18 02:12:06	enthropy	and often you can't write them anyways
+2010-10-18 02:12:17	enthropy	since contrib tends not to export the types
+2010-10-18 02:12:54	sietse	I will try to define them once I've got my config somewhat fixed
+2010-10-18 02:13:17	sietse	I prefer those instead of the hacky mono morphism declaration
+2010-10-18 02:13:43	sietse	But for now I can at least continue to experiment
+2010-10-18 02:13:45	allbery_b	there's an easier way to avoid that.  stick an "x" before the "=" and a "$ x" at the end of the definition
+2010-10-18 02:14:13	enthropy	if anything, the monomorphism restriction is the hack (to make performance more predictable)
+2010-10-18 02:14:26	allbery_b	hm, on second thought that won't ork unless you move the Tall at the end out to the call site. nemmind
+2010-10-18 02:14:38	allbery_b	yeh
+2010-10-18 02:15:04	sietse	ok
+2010-10-18 02:15:17	sietse	thanks for the elaboration guys!
+2010-10-18 02:15:54	sietse	My haskell knowledge is quite dusty (a few years ago at some functional programming course)
+2010-10-18 02:16:46	sietse	next item: fix dzen2 with xft fonts ;)
+2010-10-18 02:16:56	allbery_b	very short version:  numeric literals have a very polymorphic type.  The MMR and defaulting exist to keep that from spreading everywhere and causing extra indirections every time anything breathes in the vicinity of a number :)
+2010-10-18 02:18:19	enthropy	allbery_b: what's a reliable way to know when a window is new / has been killed in xmonad?
+2010-10-18 02:19:33	allbery_b	I don't really know, aside from hooking the eventhook and looking for substructure events
+2010-10-18 02:19:34	<--	_jones (~always@24.214.40.86) has left #xmonad
+2010-10-18 02:20:13	allbery_b	(which is really something that one shouldn't need to look at...)
+2010-10-18 02:21:05	enthropy	allbery_b: that corresponds to MapNotifyEvent?
+2010-10-18 02:21:19	enthropy	and DestroyWindowEvent I think
+2010-10-18 02:22:08	enthropy	logging the eventhook suggests those
+2010-10-18 02:23:18	allbery_b	I think so, yes
+2010-10-18 02:35:05	<--	shepheb (~braden@173-27-28-231.client.mchsi.com) has quit (Ping timeout: 272 seconds)
+2010-10-18 02:36:27	-->	shepheb (~braden@173-27-28-231.client.mchsi.com) has joined #xmonad
+2010-10-18 02:37:17	<--	alex404_ (~alex404@f052136055.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-18 02:58:45	-->	simplechat (~simplecha@unaffiliated/simplechat) has joined #xmonad
+2010-10-18 03:03:07	<--	shepheb (~braden@173-27-28-231.client.mchsi.com) has quit (Ping timeout: 245 seconds)
+2010-10-18 03:05:14	-->	shepheb (~braden@173-20-38-11.client.mchsi.com) has joined #xmonad
+2010-10-18 03:18:24	-->	novas0x2a (~mike@womp.fihn.net) has joined #xmonad
+2010-10-18 03:31:44	-->	ernst (~ernst@p50896936.dip.t-dialin.net) has joined #xmonad
+2010-10-18 03:34:04	<--	ernst_ (~ernst@p50897E02.dip.t-dialin.net) has quit (Ping timeout: 264 seconds)
+2010-10-18 04:09:09	<--	novas0x2a (~mike@womp.fihn.net) has quit (Ping timeout: 240 seconds)
+2010-10-18 04:09:16	-->	bo0ts__` (~user@f053098229.adsl.alicedsl.de) has joined #xmonad
+2010-10-18 04:12:42	<--	bo0ts__ (~user@f053096149.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-18 04:20:54	<--	watsonalgas (~diomekes@c-71-56-120-21.hsd1.ga.comcast.net) has quit (Ping timeout: 260 seconds)
+2010-10-18 04:30:02	-->	joyfulgirl (~joyfulgir@unaffiliated/joyfulgirl) has joined #xmonad
+2010-10-18 04:41:51	-->	shmuse (~shmuse@60-240-12-245.tpgi.com.au) has joined #xmonad
+2010-10-18 04:57:38		irc: disconnected from server
+2010-10-18 04:58:27	-->	quesada3 (~quesada@e178205021.adsl.alicedsl.de) has joined #xmonad
+2010-10-18 04:58:27	--	Topic for #xmonad is "Topic for #xmonad: xmonad: a tiling window manager | xmonad 0.9 released! | http://xmonad.org | rss: http://xmonad.wordpress.com/feed | faq: http://xmonad.org/faq | cheatsheet: http://haskell.org/haskellwiki/Image:Xmbindings.png"
+2010-10-18 04:58:27	--	Topic set by aavogt (~aavogt@engage.uwaterloo.ca) on Fri, 09 Apr 2010 07:24:54
+2010-10-18 04:58:27	--	Nicks #xmonad: [+lambdabot +preflex [31d1] adimit aiko_ akosch AlexanderS alip allbery_b And1 andern andrewsw ankan asfethan audunska b4taylor Belgarion0 Berengal billodo bla bo0ts__` bremner brisbin Bruners bthomson byorgey c3l CheariX chewbranca clanehin cncl coppro cornet CosmicRay cubi da-x dab_ danklesman Dashkal davidL deadguys defn Dephyrial digitteknohippie dmwit dons dropdrive drubin dweller EdwardIII enthropy Entroacceptor ernst ethos5 fadein_ faj_ FaUl felipe_ flupzor fserb Funktorsalat gereedy_ gernot GetMeAWrapCombo gwern hanneso hokapoka insecure janLo janus jd10 jelly1 jhelwig jones- joyfulgirl jrockway jubos jusa_ jvogel kabniel kenyon Kharza KitB koniiiik KungFuJesus l0uis leoncamel Liskni_si lithis loupgaroublond mauke Maxdamantus McManiaC mikezackles ml| mornfall nce nickzxcv nimred nipuL noidi npouillard nuba_ nyergler og01 orlandu63 p_l pantski pcc1 Philonous pielgrzym pippijn piroko pr quesada2 quesada3 raccoon_ Raku^ regulate ricky rootzlevel rudi_s sbahra schatan schroedinbug sdx23 sernin SeveredCross shachaf shepheb shmuse sid3k sietse simplechat slabanja smeea smorg snapcase sperber sshc stepnem superjudge taihen tcb theDon tnta trzkril Twey uhsf Valodim Vq wereHamster xmikedavis ymasory yosafbridge Zao Ziphilt zitune]
+2010-10-18 04:58:27	--	Channel #xmonad: 158 nicks (0 ops, 0 halfops, 2 voices, 156 normals)
+2010-10-18 04:58:27	--	URL for #xmonad: http://xmonad.org
+2010-10-18 04:58:41	--	Channel created on Wed, 25 Apr 2007 06:33:15
+2010-10-18 05:01:02	<--	quesada2 (~quesada@e178206212.adsl.alicedsl.de) has quit (Ping timeout: 245 seconds)
+2010-10-18 05:03:32	<--	pantski (~pants@WOPR.ST.HMC.Edu) has quit (Ping timeout: 245 seconds)
+2010-10-18 05:07:20	<--	Ziphilt (~Ziphilt@cpe-66-65-235-36.nycap.res.rr.com) has quit (Quit: Leaving)
+2010-10-18 05:09:34	-->	ybit (~quassel@unaffiliated/ybit) has joined #xmonad
+2010-10-18 05:10:15	-->	pantski (~pants@WOPR.ST.HMC.Edu) has joined #xmonad
+2010-10-18 05:20:50	-->	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has joined #xmonad
+2010-10-18 05:37:15	<--	mikezackles (~mikezackl@74.101.186.12) has quit (Quit: WeeChat 0.3.3)
+2010-10-18 05:53:00	-->	cubi_ (~mcd@p57934557.dip.t-dialin.net) has joined #xmonad
+2010-10-18 05:57:04	<--	cubi (~mcd@p4FFE06BB.dip.t-dialin.net) has quit (Ping timeout: 276 seconds)
+2010-10-18 05:57:04	--	cubi_ is now known as cubi
+2010-10-18 06:00:28	<--	Philonous (~uart14@178.5.206.178) has quit (Ping timeout: 264 seconds)
+2010-10-18 06:01:17	-->	Philonous (~uart14@178.5.203.238) has joined #xmonad
+2010-10-18 06:10:22	<--	uhsf (~uhsf@184.163.123.114) has quit (Quit: leaving)
+2010-10-18 06:18:23	-->	RayNbow (kirika@scientia.demon.nl) has joined #xmonad
+2010-10-18 06:18:35	<--	shepheb (~braden@173-20-38-11.client.mchsi.com) has quit (Ping timeout: 265 seconds)
+2010-10-18 06:25:40	-->	shepheb (~braden@173-20-38-11.client.mchsi.com) has joined #xmonad
+2010-10-18 06:32:53	<--	bo0ts__` (~user@f053098229.adsl.alicedsl.de) has quit (Remote host closed the connection)
+2010-10-18 06:33:52	<--	RayNbow (kirika@scientia.demon.nl) has quit (Quit: When science finally locates the center of the universe, some people will be surprised to learn they're not it)
+2010-10-18 06:41:17	-->	deebo (globe@stonebay32.com) has joined #xmonad
+2010-10-18 06:41:36	deebo	any ideas what might be wrong when using gnomeConfig it pulls out my panels and tiles them too
+2010-10-18 06:47:27	-->	novas0x2a (~mike@womp.fihn.net) has joined #xmonad
+2010-10-18 06:48:23	<--	joyfulgirl (~joyfulgir@unaffiliated/joyfulgirl) has quit (Quit: WeeChat 0.3.4-dev)
+2010-10-18 07:05:26	dmwit	deebo: Are you using manageDocks?
+2010-10-18 07:05:35	dmwit	If not, perhaps you ought to be.
+2010-10-18 07:05:41	dmwit	<- totally ignorant about gnomeConfig, though
+2010-10-18 07:10:01	deebo	i just copied the default config from the wiki and swapped "defaultConfig" with "gnomeConfig"
+2010-10-18 07:10:22	deebo	and added the import ofcourse
+2010-10-18 07:14:48	dmwit	hpaste.org
+2010-10-18 07:18:34	dmwit	Wow, cool, flash is using 25% CPU on each of four cores.
+2010-10-18 07:18:46	dmwit	I didn't know Flash was multi-threaded at all, let alone that well.
+2010-10-18 07:19:16	dmwit	(Admittedly, it's an embarassingly parallel problem: decoding video.)
+2010-10-18 07:19:53	-->	Demosthenes (~demo@71.16.32.89) has joined #xmonad
+2010-10-18 07:28:03	<--	shmuse (~shmuse@60-240-12-245.tpgi.com.au) has quit (Quit: leaving)
+2010-10-18 07:35:58	<--	ml| (~ml@unaffiliated/ml/x-3958674) has quit (Ping timeout: 260 seconds)
+2010-10-18 07:42:45	<--	cfricke (~cfricke@113x36x248x75.ap113.ftth.ucom.ne.jp) has quit (Quit: leaving)
+2010-10-18 08:01:41	-->	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-10-18 08:05:22	digitteknohippie	i have "        , ((mod4Mask .|. shiftMask, xK_p), spawn "gksudo synaptic")" but when i press this combination, gmrun launches instead...?
+2010-10-18 08:05:45	dmwit	hpaste.org
+2010-10-18 08:05:59	dmwit	You're likely overriding the default incorrectly.
+2010-10-18 08:06:08	dmwit	It's hard to tell exactly what you're doing wrong without the context, though.
+2010-10-18 08:07:38	digitteknohippie	http://hpaste.org/40666/xmonadhs_in_progress
+2010-10-18 08:08:12	digitteknohippie	i think i see it.... i need to add something to the line:     "xmonad $ defaultConfig"  right?
+2010-10-18 08:08:29	dmwit	No, I don't think so.
+2010-10-18 08:08:31	dmwit	Give me a second.
+2010-10-18 08:09:48	dmwit	Yeah, additionalKeys uses M.union, which is left-biased.
+2010-10-18 08:09:51	dmwit	This is arguably a bug.
+2010-10-18 08:10:06	digitteknohippie	oh... cool.  hpaste gives me errors i dont get elsewhere.   nice.
+2010-10-18 08:10:11	dmwit	As a workaround, you can use removeKeys to take the mod4Mask binding out first.
+2010-10-18 08:10:29	dmwit	You can get those errors yourself, too.
+2010-10-18 08:10:32	dmwit	Download and install hlint.
+2010-10-18 08:10:58	-->	mrdk (~marduk@80.243.211.102) has joined #xmonad
+2010-10-18 08:11:04	dmwit	Would you like to ask on xmonad@, or do you want me to? (About whether additionalKeys' use of union is a bug or not.)
+2010-10-18 08:11:32	digitteknohippie	you'd probably know better what to ask than me.
+2010-10-18 08:12:07	dmwit	alright
+2010-10-18 08:12:38	dmwit	Do you need help getting removeKeys working?
+2010-10-18 08:13:23	digitteknohippie	i likely will...   just realised i need to sort out some packagemanagement issues from an earlier kludgery borkage first.
+2010-10-18 08:15:04	digitteknohippie	ah, nah, i see it.  removeKeys looks pretty straight forward.
+2010-10-18 08:15:14	dmwit	yep
+2010-10-18 08:15:52	dmwit	Wait, no, I'm confused.
+2010-10-18 08:15:57	digitteknohippie	so i presume shift mod p, by default brings up gmrun?
+2010-10-18 08:16:00	dmwit	Hold on.
+2010-10-18 08:16:18	dmwit	I read the source incorrectly.
+2010-10-18 08:16:32	dmwit	If union is left-biased as the docs say it is, the things you specify in your list should override the defaultConfig.
+2010-10-18 08:16:44	dmwit	Give me a second to test this, because if what you say is true, I'm very confused.
+2010-10-18 08:16:47	digitteknohippie	yup... thats what i thought too
+2010-10-18 08:17:58	dmwit	Okay, I can't reproduce your problem.
+2010-10-18 08:18:05	dmwit	Have you definitely recompiled and restarted xmonad?
+2010-10-18 08:18:20	 *	digitteknohippie does so again to make sure.
+2010-10-18 08:18:33	digitteknohippie	oh boy... that's gonna b embarassing if that's all it is. XD
+2010-10-18 08:20:05	 *	digitteknohippie EPIC facepalms
+2010-10-18 08:20:07	digitteknohippie	lmao.
+2010-10-18 08:20:18	dmwit	Excellent. Another satisfied customer!
+2010-10-18 08:20:19	dmwit	=D
+2010-10-18 08:20:26	digitteknohippie	musta had failed on mod-q.
+2010-10-18 08:21:06	 *	digitteknohippie takes a moment to recompose himself after that.
+2010-10-18 08:21:11	digitteknohippie	oh boy.
+2010-10-18 08:28:33	-->	the_german (~srm@pcazubi02.ipp.mpg.de) has joined #xmonad
+2010-10-18 08:34:33	<--	Demosthenes (~demo@71.16.32.89) has quit (Quit: leaving)
+2010-10-18 08:34:59	-->	Demosthenes (~demo@71.16.32.89) has joined #xmonad
+2010-10-18 08:45:42	-->	novas0x2a1 (~mike@womp.fihn.net) has joined #xmonad
+2010-10-18 08:47:07	<--	novas0x2a (~mike@womp.fihn.net) has quit (Remote host closed the connection)
+2010-10-18 08:48:16	<--	[31d1] (~lindsay@porkse.cx) has quit (Remote host closed the connection)
+2010-10-18 08:48:33	-->	[31d1] (~lindsay@porkse.cx) has joined #xmonad
+2010-10-18 08:49:49	-->	dschoepe_ (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2010-10-18 09:01:52	<--	dschoepe_ (~dschoepe@unaffiliated/dschoepe) has quit (Quit: WeeChat 0.3.2)
+2010-10-18 09:10:30	-->	BigBlackDog (~BigBlackD@HSI-KBW-109-192-005-206.hsi6.kabel-badenwuerttemberg.de) has joined #xmonad
+2010-10-18 09:30:13	<--	tcb (~tcberner_@123-127.5-85.cust.bluewin.ch) has quit (Quit: Verlassend)
+2010-10-18 09:30:33	-->	jaspervdj (~jaspervdj@zeus.ugent.be) has joined #xmonad
+2010-10-18 09:40:30	<--	superjudge (~user@mail.kreditor.se) has quit (Remote host closed the connection)
+2010-10-18 09:40:50	-->	mjl (~user@mail.kreditor.se) has joined #xmonad
+2010-10-18 09:58:07	-->	Athas (~athas@shop3.diku.dk) has joined #xmonad
+2010-10-18 10:08:14	<--	novas0x2a1 (~mike@womp.fihn.net) has quit (Remote host closed the connection)
+2010-10-18 10:09:17	-->	novas0x2a (~mike@womp.fihn.net) has joined #xmonad
+2010-10-18 10:10:45	-->	cx (~cx@chello085216236032.chello.sk) has joined #xmonad
+2010-10-18 10:11:53	cx	Hi i'm trying to setup a xmonad on my desktop under Arch linux (never did that so..) i followed arch wiki guide but when i start xmonad session i see only black screen with mouse cursor. Is that correct one ?
+2010-10-18 10:14:12	GetMeAWrapCombo	yes
+2010-10-18 10:14:20	GetMeAWrapCombo	press alt+shift+enter
+2010-10-18 10:16:11	cx	In startx xmonad "log" is in end /home/user/.xmonad/xmonad-x86_64-linux execute file doesnt exist...what that means >
+2010-10-18 10:18:11	cx	GetMeAWrapCombo: oh and i did what you said and white console with appeared..is that correct ?
+2010-10-18 10:18:54	cx	hmm
+2010-10-18 10:19:21	<--	xmikedavis (147@gateway/web/irccloud.com/x-caypfrxoueovduxr) has quit (Ping timeout: 245 seconds)
+2010-10-18 10:19:46	<--	GetMeAWrapCombo (~greg@78.39.96.58.static.exetel.com.au) has quit (Ping timeout: 265 seconds)
+2010-10-18 10:21:44	-->	xmikedavis (147@gateway/web/irccloud.com/x-lecmvwqfnradtmmm) has joined #xmonad
+2010-10-18 10:22:58	cx	googling for that
+2010-10-18 10:25:26	cx	ok its working now properly
+2010-10-18 10:25:34	cx	thanks for advice
+2010-10-18 10:26:08	<--	cx (~cx@chello085216236032.chello.sk) has quit (Quit: leaving)
+2010-10-18 10:31:49	-->	morphling (~stefan@gssn-5f757ee4.pool.mediaWays.net) has joined #xmonad
+2010-10-18 10:44:25	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-18 10:59:54	<--	pankajm (~pankajm@202.3.77.219) has quit (Ping timeout: 260 seconds)
+2010-10-18 11:00:05	-->	pankajm (~pankajm@202.3.77.219) has joined #xmonad
+2010-10-18 11:00:16	<--	Dashkal (~dashkal@WoWUIDev/Nexus/dashkal) has quit (Quit: leaving)
+2010-10-18 11:24:09	<--	og01 (~og01@78-86-196-163.zone2.bethere.co.uk) has quit (Ping timeout: 260 seconds)
+2010-10-18 11:50:57	<--	morphling (~stefan@gssn-5f757ee4.pool.mediaWays.net) has quit (Remote host closed the connection)
+2010-10-18 11:53:33	-->	Berengal_ (~berengal@cC767BF51.dhcp.bluecom.no) has joined #xmonad
+2010-10-18 11:54:17	<--	Berengal (~berengal@cC767BF51.dhcp.bluecom.no) has quit (Ping timeout: 240 seconds)
+2010-10-18 11:57:43	<--	Berengal_ (~berengal@cC767BF51.dhcp.bluecom.no) has quit (Ping timeout: 240 seconds)
+2010-10-18 12:06:58	<--	Philonous (~uart14@178.5.203.238) has quit (Read error: Connection reset by peer)

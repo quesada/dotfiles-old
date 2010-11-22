@@ -1,0 +1,10 @@
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=KMixWindow
+Height 900=873
+ObjectName=KMixWindow
+State=AAAA/wAAAAD9AAAAAAAAAwIAAANSAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1600=770

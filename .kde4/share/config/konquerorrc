@@ -19,5 +19,8 @@ UserStyleSheetEnabled=false
 Height 1200=750
 Width 1920=1200
 
+[Notification Messages]
+Restore session when konqueror didn't close correctly=true
+
 [Undo]
 Number of Closed Windows=20

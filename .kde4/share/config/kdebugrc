@@ -1,3 +1,5 @@
+InfoOutput=4
+
 [KPasswdServer]
 InfoOutput=2
 
@@ -118,6 +120,9 @@ InfoOutput=4
 [kfmclient]
 InfoOutput=4
 
+[kglobalaccel]
+InfoOutput=4
+
 [khelpcenter]
 InfoOutput=2
 
@@ -182,6 +187,9 @@ InfoOutput=4
 InfoOutput=4
 
 [knetworkmanager]
+InfoOutput=4
+
+[knotify]
 InfoOutput=4
 
 [konqueror]

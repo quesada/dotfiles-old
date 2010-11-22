@@ -174,8 +174,8 @@ report.ls.filter=status:pending
 
 # task minimal
 report.minimal.description=A really minimal listing
-report.minimal.columns=id,project,countdown,description
-report.minimal.labels=ID,Project,Countdown,Description
+report.minimal.columns=id,project,countdown,tags,description
+report.minimal.labels=ID,Project,Countdown,Tags,Description
 report.minimal.sort=project+,description+
 report.minimal.filter=status:pending
 #report.minimal.dateformat=m/d/Y
@@ -261,3 +261,5 @@ report.next.filter=status:pending limit:page
 #report.next.dateformat=m/d/Y
 #report.next.annotations=full
 
+
+journal.time=on

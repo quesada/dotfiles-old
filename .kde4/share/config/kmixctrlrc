@@ -346,3 +346,15 @@ volumeL=255
 volumeLCapture=0
 volumeR=255
 volumeRCapture=0
+
+[MixerPulseAudio::Capture_Devices:1]
+name=
+
+[MixerPulseAudio::Capture_Streams:1]
+name=
+
+[MixerPulseAudio::Playback_Devices:1]
+name=
+
+[MixerPulseAudio::Playback_Streams:1]
+name=

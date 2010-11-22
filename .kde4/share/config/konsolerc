@@ -5,15 +5,18 @@ CurrentPalette=Forty Colors
 DefaultProfile=Shell.profile
 
 [Favorite Profiles]
-Favorites=/home/quesada/.kde4/share/apps/konsole/Shell.profile
+Favorites=
 
 [MainWindow]
-Height 1152=1130
-Height 1200=1201
+Height 1152=896
+Height 1200=1178
 Height 900=437
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAxAAAARqAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAABjwAAAOAAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1600=612
-Width 1920=660
-Width 2048=784
+Width 1920=1916
+Width 2048=1596
+
+[Shortcut Schemes]
+Current Scheme=Default

@@ -1,7 +1,8 @@
 Height 1152=1153
-Height 1200=1201
-State=AAAA/wAAAAD9AAAAAAAAB4AAAARTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
-Width 1920=1921
+Height 1200=1178
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABJkAAAR1AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1920=1177
 Width 2048=2049
 
 [Desktop Entry]
@@ -14,48 +15,48 @@ AutomaticDetectionLanguage=1
 Height 1152=750
 Height 1200=750
 Height 900=570
-Recent Files[$e]=$HOME/pdf/contexts-websci10_submission_113.pdf,$HOME/pdf/GigerenzerGoldstein1995-FastFrugalPsychReview.pdf
+Recent Files[$e]=$HOME/pdf/proteinDebate.pdf,$HOME/pdf/Bryl-NLP_with-semWeb-data-help.pdf,$HOME/pdf/businesscard-Quesada_Jose_VK_101108.pdf,$HOME/pdf/Evaluating-Ad-Hoc-Object-Retrieval-iswc2010.pdf,$HOME/pdf/semantic-data-mining.pdf,$HOME/pdf/iswc2010-medical-trials-classification.pdf,$HOME/pdf/time-semweb-medical.pdf,$HOME/pdf/Laniado-iswc2010-twitter.pdf,$HOME/pdf/PirroIswc2010-semantic-similarity.pdf,$HOME/pdf/Stuz-signal-collectIswc2010-graph.pdf,$HOME/pdf/Gueret-repair-iswc2010.pdf,$HOME/pdf/PreprintCollectionISWC2010.pdf,$HOME/Dropbox/wcogs/literature/essayGrading/SiorpaesHepp-GameswithaPurposefortheSemanticWeb-final.pdf,$HOME/Dropbox/wcogs/literature/essayGrading/Liu2010-unsupervised-essay-grading.pdf,$HOME/pdf/sahlgren2008-buzz-monitoring.pdf,$HOME/pdf/Baroni2010-semantic-strudel.pdf
 Width 1600=912
 Width 1920=1200
 Width 2048=1200
 
 [MainWindow]
 Height 1152=1153
-Height 1200=1201
+Height 1200=896
 Height 768=769
-Height 900=878
+Height 900=901
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAqUAAADHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABOgAAARFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1024=1025
-Width 1600=1596
-Width 1920=1921
+Width 1600=980
+Width 1920=980
 Width 2048=2049
 
 [Notification Messages]
 presentationInfo=false
 
 [Recent Dirs]
-okular[$e]=file://$HOME/pdf/,file://$HOME/noteslyx/wcogs/,file://$HOME/Dropbox/pdf/
+okular[$e]=file://$HOME/pdf/,file://$HOME/Dropbox/wcogs/literature/essayGrading/,file://$HOME/Dropbox/wcogs/exist.de/references/spacedRepetition/
 
 [Recent Files]
-File1[$e]=zip:/home/quesada/down/year2Review.zip/year2Review.pdf
-File10[$e]=$HOME/pdf/GoldsteinGigerenzer2002RecognitionHeuristic.pdf
-File2[$e]=$HOME/down/FIS_2010MLama.pdf
-File3[$e]=$HOME/down/US6356864B1.pdf
-File4[$e]=$HOME/down/paper.pdf
-File5[$e]=$HOME/essayGrading/airheadVersuswiddows.pdf
-File6[$e]=$HOME/essayGrading/procediacs_authorguide_word.pdf
-File7[$e]=/tmp/websci10_submission_113.pdf
-File8[$e]=/tmp/sdarticle.pdf
-File9[$e]=/tmp/10.1.1.119.7974.pdf
-Name1[$e]=year2Review.pdf
-Name10[$e]=GoldsteinGigerenzer2002RecognitionHeuristic.pdf
-Name2[$e]=FIS_2010MLama.pdf
-Name3[$e]=US6356864B1.pdf
-Name4[$e]=paper.pdf
-Name5[$e]=airheadVersuswiddows.pdf
-Name6[$e]=procediacs_authorguide_word.pdf
-Name7[$e]=websci10_submission_113.pdf
-Name8[$e]=sdarticle.pdf
-Name9[$e]=10.1.1.119.7974.pdf
+File1[$e]=/data/tmp/civil-war/107Spotlight_CW_Aftermath.cbz
+File10[$e]=/tmp/hills-breakfast-ankidroid-presentation.pdf
+File2[$e]=/data/tmp/initiative/02Front_Line011.cbz
+File3[$e]=/data/tmp/initiative/03INITIATIVE.cbz
+File4[$e]=/data/tmp/initiative/04Iron_Man015.cbz
+File5[$e]=/data/tmp/initiative/05Iron_Man016.cbz
+File6[$e]=/data/tmp/initiative/06Iron_Man017.cbz
+File7[$e]=/data/tmp/initiative/07Iron_Man018.cbz
+File8[$e]=/data/tmp/initiative/08Captain_America026.cbz
+File9[$e]=$HOME/pdf/alpaydin2010-intro-MachineLearning.pdf
+Name1[$e]=107Spotlight_CW_Aftermath.cbz
+Name10[$e]=hills-breakfast-ankidroid-presentation.pdf
+Name2[$e]=02Front_Line011.cbz
+Name3[$e]=03INITIATIVE.cbz
+Name4[$e]=04Iron_Man015.cbz
+Name5[$e]=05Iron_Man016.cbz
+Name6[$e]=06Iron_Man017.cbz
+Name7[$e]=07Iron_Man018.cbz
+Name8[$e]=08Captain_America026.cbz
+Name9[$e]=alpaydin2010-intro-MachineLearning.pdf

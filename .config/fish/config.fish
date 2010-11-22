@@ -58,6 +58,7 @@ function mcft;    gvim ~/.mc/bindings&;   end;
 function mck;    gvim ~/.mc/mc.keymap&;   end;
 
 function cdd;	cd $HOME/Dropbox/dotfiles;	end;
+function tra; trayer --edge top --align right --width 10 --widthtype request --height 18 --transparent true&; end;
 
 #function ack;	ack-grep;	end;
 function pyc;	/home/quesada/bin/pycharm.sh&;	end;

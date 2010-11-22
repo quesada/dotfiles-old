@@ -1,9 +1,9 @@
 [Mouse]
-MK-MaxSpeed=1000
+MK-MaxSpeed=1220
 MK-TimeToMax=5000
-MKCurve=0
-MKDelay=160
-MKInterval=5
-MKMaxSpeed=5
-MKTimeToMax=1000
-MouseKeys=false
+MKCurve=-200
+MKDelay=60
+MKInterval=1
+MKMaxSpeed=1
+MKTimeToMax=5000
+MouseKeys=true

@@ -21,6 +21,7 @@ GLMode=TFP
 GLTextureFilter=1
 GLVSync=true
 HiddenPreviews=5
+OpenGLIsUnsafe=false
 XRenderSmoothScale=false
 
 [Desktops]
@@ -28,7 +29,7 @@ Name_1=
 Name_2=
 Name_3=
 Name_4=
-Number=1
+Number=4
 
 [Effect-BoxSwitch]
 TabBox=false
@@ -51,8 +52,8 @@ TabBox=false
 
 [Effect-PresentWindows]
 Accuracy=6
-BorderActivate=5
-BorderActivateAll=7
+BorderActivate=9
+BorderActivateAll=9
 DrawWindowCaptions=true
 DrawWindowIcons=false
 FillGaps=true
@@ -70,12 +71,30 @@ TabBox=false
 [ElectricBorders]
 Bottom=None
 BottomLeft=None
-BottomRight=ShowDesktop
+BottomRight=None
 Left=None
 Right=None
 Top=None
 TopLeft=None
 TopRight=None
+
+[MouseBindings]
+CommandActiveTitlebar1=Raise
+CommandActiveTitlebar2=Start window tab drag
+CommandActiveTitlebar3=Operations menu
+CommandAll1=Move
+CommandAll2=Toggle raise and lower
+CommandAll3=Resize
+CommandAllKey=Alt
+CommandAllWheel=Nothing
+CommandInactiveTitlebar1=Activate and raise
+CommandInactiveTitlebar2=Start window tab drag
+CommandInactiveTitlebar3=Operations menu
+CommandTitlebarWheel=Switch to Window Tab to the Left/Right
+CommandWindow1=Activate, raise and pass click
+CommandWindow2=Activate and raise
+CommandWindow3=Activate and pass click
+CommandWindowWheel=Scroll
 
 [Plugins]
 kwin4_effect_boxswitchEnabled=false
@@ -135,11 +154,41 @@ ListMode=0
 ShowTabBox=true
 
 [Windows]
+ActiveMouseScreen=false
+AutoRaise=false
+AutoRaiseInterval=750
+AutogroupInForeground=true
+AutogroupSimilarWindows=false
+BorderSnapZone=10
 BorderlessMaximizedWindows=false
+CenterSnapZone=0
+ClickRaise=true
+DelayFocus=false
+DelayFocusInterval=750
 ElectricBorderCooldown=350
 ElectricBorderDelay=150
 ElectricBorderMaximize=false
 ElectricBorderTiling=true
 ElectricBorders=0
+FocusPolicy=FocusFollowsMouse
+FocusStealingPreventionLevel=1
+GeometryTip=false
+HideUtilityWindowsForInactive=true
+InactiveTabsSkipTaskbar=false
+MaximizeButtonLeftClickCommand=Maximize
+MaximizeButtonMiddleClickCommand=Maximize (vertical only)
+MaximizeButtonRightClickCommand=Maximize (horizontal only)
+MoveMode=Transparent
+MoveResizeMaximizedWindows=false
 Placement=Smart
+ResizeMode=Transparent
 RollOverDesktops=true
+SeparateScreenFocus=false
+ShadeHover=false
+ShadeHoverInterval=250
+SnapOnlyWhenOverlapping=false
+TilingDefaultLayout=0
+TilingOn=true
+TilingRaisePolicy=0
+TitlebarDoubleClickCommand=Maximize
+WindowSnapZone=10

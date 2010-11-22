@@ -2,5 +2,5 @@
 CompletionItems=unused
 
 [Location Bar]
-ComboContents[$e]=http://www.academicproductivity.com/,http://mail.google.com/,http://www.engadget.com/2010/06/15/hp-pavilion-dm4-review/,http://www.google.bg/,http://news.ycombinator.com/,$HOME/,http://slashdot.org/
-ComboIconCache[$e]=http://www.academicproductivity.com/,text-html,http://mail.google.com/,text-html,http://www.engadget.com/2010/06/15/hp-pavilion-dm4-review/,text-html,http://www.google.bg/,text-html,http://news.ycombinator.com/,favicons/ycombinator.com,file://$HOME/,inode-directory,http://slashdot.org/,favicons/slashdot.org
+ComboContents[$e]=http://www.academicproductivity.com/,http://www.academicproductivity.com/,http://mail.google.com/,http://www.engadget.com/2010/06/15/hp-pavilion-dm4-review/,http://www.google.bg/,http://news.ycombinator.com/,$HOME/,http://slashdot.org/
+ComboIconCache[$e]=http://www.academicproductivity.com/,text-html,http://www.academicproductivity.com/,text-html,http://mail.google.com/,text-html,http://www.engadget.com/2010/06/15/hp-pavilion-dm4-review/,text-html,http://www.google.bg/,text-html,http://news.ycombinator.com/,favicons/ycombinator.com,file://$HOME/,inode-directory,http://slashdot.org/,favicons/slashdot.org

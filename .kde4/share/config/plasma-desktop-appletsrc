@@ -1,9 +1,12 @@
 [Containments][11]
 activity=
+activityId=
 desktop=-1
 formfactor=0
 geometry=-16777215,-16777215,1920,1200
 immutability=1
+lastDesktop=-1
+lastScreen=-1
 location=0
 plugin=desktop
 screen=-1
@@ -13,13 +16,16 @@ zvalue=0
 
 [Containments][21]
 activity=Desktop
+activityId=23947616-c636-4959-b121-2a63b2268539
 desktop=-1
 formfactor=0
 geometry=0,0,1600,900
 immutability=1
+lastDesktop=-1
+lastScreen=0
 location=0
 plugin=desktop
-screen=0
+screen=-1
 wallpaperplugin=image
 wallpaperpluginmode=SingleImage
 zvalue=0
@@ -33,14 +39,17 @@ wallpapercolor=56,111,150
 wallpaperposition=0
 
 [Containments][22]
-activity=Desktop
+activity=unnamed
+activityId=d1797341-2374-4fae-b65e-f5384648cd29
 desktop=-1
 formfactor=0
-geometry=1606,0,1024,768
+geometry=1606,0,1600,900
 immutability=1
+lastDesktop=-1
+lastScreen=0
 location=0
 plugin=desktop
-screen=1
+screen=0
 wallpaperplugin=image
 wallpaperpluginmode=SingleImage
 zvalue=0
@@ -55,17 +64,20 @@ wallpaperposition=0
 
 [Containments][3]
 activity=
+activityId=
 desktop=-1
 formfactor=3
 geometry=10053,-906,47,900
 immutability=1
+lastDesktop=-1
+lastScreen=0
 location=5
 plugin=panel
 screen=0
 zvalue=150
 
 [Containments][3][Applets][10]
-geometry=0,828,43,50
+geometry=0,846,43,32
 immutability=1
 plugin=digital-clock
 zvalue=0
@@ -100,8 +112,8 @@ sourceAppletPluginName=digital-clock
 Order=3
 
 [Containments][3][Applets][10][PopupApplet]
-DialogHeight=253
-DialogWidth=240
+DialogHeight=269
+DialogWidth=238
 
 [Containments][3][Applets][12][Configuration]
 Share=false
@@ -137,7 +149,7 @@ DialogWidth=454
 global=Alt+F1
 
 [Containments][3][Applets][6]
-geometry=0,47,43,490
+geometry=0,47,43,621
 immutability=1
 plugin=tasks
 zvalue=0
@@ -150,34 +162,52 @@ highlightWindows=true
 Order=1
 
 [Containments][3][Applets][7]
-geometry=0,541,43,283
+geometry=0,672,43,170
 immutability=1
 plugin=systemtray
 zvalue=0
 
 [Containments][3][Applets][7][Configuration]
 DefaultAppletsAdded=true
+Share=false
+ShowApplicationStatus=true
+ShowCommunications=true
+ShowHardware=false
+ShowSystemServices=false
+ShowUnknown=true
+alwaysShown=
+hidden=
 
-[Containments][3][Applets][7][Configuration][Applets][23]
-geometry=0,0,248,248
+[Containments][3][Applets][7][Configuration][Applets][31]
+geometry=4.5,0,24,24
 immutability=1
-plugin=notifier
+plugin=notifications
 zvalue=0
 
-[Containments][3][Applets][7][Configuration][Applets][24]
-geometry=4.5,217,24,24
-immutability=1
-plugin=battery
-zvalue=0
-
-[Containments][3][Applets][7][Configuration][Applets][24][Configuration][ExtenderItems][5]
-extenderIconName=battery
-extenderItemName=powermanagement
+[Containments][3][Applets][7][Configuration][Applets][31][Configuration][ExtenderItems][6]
+extenderIconName=dialog-information
+extenderItemName=jobGroup
 extenderItemPosition=0
-extenderTitle=Power Management
 isCollapsed=false
-sourceAppletId=24
-sourceAppletPluginName=battery
+isGroup=true
+sourceAppletId=31
+sourceAppletPluginName=notifications
+
+[Containments][3][Applets][7][Configuration][Applets][31][PopupApplet]
+DialogHeight=67
+DialogWidth=358
+
+[Containments][3][Applets][7][Configuration][Applets][31][Shortcuts]
+global=
+
+[Containments][3][Applets][7][Configuration][Applets][32]
+geometry=4.5,107,24,24
+immutability=1
+plugin=org.kde.networkmanagement
+zvalue=0
+
+[Containments][3][Applets][7][Configuration][Applets][32][Shortcuts]
+global=
 
 [Containments][3][Applets][7][Configuration][ExtenderItems][1]
 extenderIconName=
@@ -205,12 +235,36 @@ sourceAppletPluginName=systemtray
 Order=2
 
 [Containments][3][Applets][7][PopupApplet]
-DialogHeight=33
-DialogWidth=410
+DialogHeight=44
+DialogWidth=269
 
 [Containments][3][Configuration]
 maximumSize=47,900
 minimumSize=47,900
+
+[Containments][33]
+activity=unnamed
+activityId=d1797341-2374-4fae-b65e-f5384648cd29
+desktop=-1
+formfactor=0
+geometry=0,1056,1600,900
+immutability=1
+lastDesktop=-1
+lastScreen=1
+location=0
+plugin=desktop
+screen=1
+wallpaperplugin=image
+wallpaperpluginmode=SingleImage
+zvalue=0
+
+[Containments][33][Wallpaper][image]
+slideTimer=10
+slidepaths=/usr/share/wallpapers/
+userswallpapers=
+wallpaper=/usr/share/wallpapers/Ethais
+wallpapercolor=0,0,0
+wallpaperposition=0
 
 [General]
 immutability=1

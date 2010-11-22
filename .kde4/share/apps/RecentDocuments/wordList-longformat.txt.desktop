@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=wordList-longformat.txt
+Type=Link
+URL[$e]=file://$HOME/german/anki/wordList-longformat.txt
+X-KDE-LastOpenedWith=kwrite

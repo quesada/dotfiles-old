@@ -1,0 +1,7 @@
+2010-10-15 15:33:56	-->	quesada (~quesada@e178208090.adsl.alicedsl.de) has joined #redfoot
+2010-10-15 15:33:57	--	Topic for #redfoot is "http://code.google.com/p/rdflib/ --- http://friendfeed.com/rooms/rdflib"
+2010-10-15 15:33:57	--	Topic set by eikeon on Tue, 10 Feb 2009 18:57:44
+2010-10-15 15:33:57	--	Nicks #redfoot: [chipi CIA-60 demaledetti drewp quesada ww yawniek zeth]
+2010-10-15 15:33:57	--	Channel #redfoot: 8 nicks (0 ops, 0 halfops, 0 voices, 8 normals)
+2010-10-15 15:33:58	--	Channel created on Sat, 30 Jan 2010 08:48:24
+2010-10-15 15:35:00	quesada	I did a svn co for rdflib; since docs are missing for 3.0, I'd like to use the .rst files in that repo. what's the command to get html out of rst?
