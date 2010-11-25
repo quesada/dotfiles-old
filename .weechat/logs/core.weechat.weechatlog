@@ -178,6 +178,7 @@
 2010-09-26 10:07:17		irc: server irc.gnome.org created (temporary server, NOT SAVED!)
 2010-09-26 10:08:39	=!=	irc: already connected to server "irc.gnome.org"!
 2010-09-26 10:08:39	=!=	Error with command "connect" (try /help connect)
+<<<<<<< HEAD
 2010-10-15 15:31:25		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
 2010-10-15 15:49:53		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
 2010-10-18 16:22:37		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
@@ -197,3 +198,8 @@
 2010-11-18 16:31:41	=!=	You can not write text in this buffer
 2010-11-21 15:41:29		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
 2010-11-21 15:41:50	=!=	irc: command "join" must be executed on connected irc server
+=======
+2010-10-12 08:59:58		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+>>>>>>> c75567da7977d3faaea350ffa612bd059d2f2387
+2010-11-23 09:21:11		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-23 09:21:25	=!=	irc: command "join" must be executed on connected irc server

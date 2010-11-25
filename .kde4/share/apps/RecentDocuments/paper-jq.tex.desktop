@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-x-tex
+Name=paper-jq.tex
+Type=Link
+URL[$e]=file://$HOME/paper-jq.tex
+X-KDE-LastOpenedWith=kile
