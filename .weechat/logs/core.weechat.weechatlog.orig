@@ -1,0 +1,205 @@
+2010-08-14 21:07:55		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-08-14 21:08:05	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2010-08-14 21:08:21	=!=	You can not write text in this buffer
+2010-08-14 21:08:32	=!=	You can not write text in this buffer
+2010-08-14 21:11:53	=!=	You can not write text in this buffer
+2010-08-14 21:11:54	=!=	You can not write text in this buffer
+2010-08-14 21:11:55	=!=	You can not write text in this buffer
+2010-08-14 21:11:59	=!=	You can not write text in this buffer
+2010-08-14 21:12:02	=!=	You can not write text in this buffer
+2010-08-14 21:12:04	=!=	You can not write text in this buffer
+2010-08-14 21:14:56		irc: server oftc created
+2010-08-15 09:56:03	=!=	irc: server "freenode" already exists, can't create it!
+2010-08-15 09:57:06	=!=	irc: server "freenode" already exists, can't create it!
+2010-08-15 09:58:24		weechat internal commands:
+2010-08-15 09:58:24		   away - toggle away status
+2010-08-15 09:58:24		   bar - manage bars
+2010-08-15 09:58:24		   buffer - manage buffers
+2010-08-15 09:58:24		   command - launch explicit WeeChat or plugin command
+2010-08-15 09:58:24		   debug - control debug for core/plugins
+2010-08-15 09:58:24		   filter - filter messages in buffers, to hide/show them according to tags or regex
+2010-08-15 09:58:24		   help - display help about commands and options
+2010-08-15 09:58:24		   history - show buffer command history
+2010-08-15 09:58:24		   input - functions for command line
+2010-08-15 09:58:24		   key - bind/unbind keys
+2010-08-15 09:58:24		   layout - save/apply/reset layout for buffers and windows
+2010-08-15 09:58:24		   mute - execute a command silently
+2010-08-15 09:58:24		   plugin - list/load/unload plugins
+2010-08-15 09:58:24		   proxy - manage proxies
+2010-08-15 09:58:24		   quit - quit WeeChat
+2010-08-15 09:58:24		   reload - reload configuration files from disk
+2010-08-15 09:58:24		   save - save configuration files to disk
+2010-08-15 09:58:24		   set - set config options
+2010-08-15 09:58:24		   unset - unset/reset config options
+2010-08-15 09:58:24		   upgrade - upgrade WeeChat without disconnecting from servers
+2010-08-15 09:58:24		   uptime - show WeeChat uptime
+2010-08-15 09:58:24		   version - show WeeChat version and compilation date
+2010-08-15 09:58:24		   wait - schedule a command execution in future
+2010-08-15 09:58:24		   window - manage windows
+2010-08-15 09:58:24		Other commands:
+2010-08-15 09:58:24		   AAWAY - allserv /away
+2010-08-15 09:58:24		   admin - find information about the administrator of the server
+2010-08-15 09:58:24		   alias - create an alias for a command
+2010-08-15 09:58:24		   allchan - execute a command on all channels of all connected servers
+2010-08-15 09:58:24		   allserv - execute a command on all connected servers
+2010-08-15 09:58:24		   AME - allchan /me
+2010-08-15 09:58:24		   AMSG - allchan /msg *
+2010-08-15 09:58:24		   ANICK - allserv /nick
+2010-08-15 09:58:24		   aspell - aspell plugin configuration
+2010-08-15 09:58:24		   ban - ban nicks or hosts
+2010-08-15 09:58:24		   BYE - quit
+2010-08-15 09:58:24		   C - buffer clear
+2010-08-15 09:58:24		   charset - change charset for current buffer
+2010-08-15 09:58:24		   CHAT - dcc chat
+2010-08-15 09:58:24		   CL - buffer clear
+2010-08-15 09:58:24		   CLOSE - buffer close
+2010-08-15 09:58:24		   connect - connect to IRC server(s)
+2010-08-15 09:58:24		   ctcp - send a CTCP message (Client-To-Client Protocol)
+2010-08-15 09:58:24		   cycle - leave and rejoin a channel
+2010-08-15 09:58:24		   dcc - start DCC (file or chat)
+2010-08-15 09:58:24		   dehalfop - remove half channel operator status from nickname(s)
+2010-08-15 09:58:24		   deop - remove channel operator status from nickname(s)
+2010-08-15 09:58:24		   devoice - remove voice from nickname(s)
+2010-08-15 09:58:24		   die - shutdown the server
+2010-08-15 09:58:24		   disconnect - disconnect from IRC server(s)
+2010-08-15 09:58:24		   EXIT - quit
+2010-08-15 09:58:24		   halfop - give half channel operator status to nickname(s)
+2010-08-15 09:58:24		   IG - ignore
+2010-08-15 09:58:24		   ignore - ignore nicks/hosts from servers or channels
+2010-08-15 09:58:24		   info - get information describing the server
+2010-08-15 09:58:24		   invite - invite a nick on a channel
+2010-08-15 09:58:24		   ison - check if a nickname is currently on IRC
+2010-08-15 09:58:24		   J - join
+2010-08-15 09:58:24		   join - join a channel
+2010-08-15 09:58:24		   K - kick
+2010-08-15 09:58:24		   KB - kickban
+2010-08-15 09:58:24		   kick - forcibly remove a user from a channel
+2010-08-15 09:58:24		   kickban - kicks and bans a nick from a channel
+2010-08-15 09:58:24		   kill - close client-server connection
+2010-08-15 09:58:24		   LEAVE - part
+2010-08-15 09:58:24		   links - list all servernames which are known by the server answering the query
+2010-08-15 09:58:24		   list - list channels and their topic
+2010-08-15 09:58:24		   logger - logger plugin configuration
+2010-08-15 09:58:24		   lusers - get statistics about the size of the IRC network
+2010-08-15 09:58:24		   M - msg
+2010-08-15 09:58:24		   map - show a graphical map of the IRC network
+2010-08-15 09:58:24		   me - send a CTCP action to the current channel
+2010-08-15 09:58:24		   me - send a CTCP action to remote host
+2010-08-15 09:58:24		   mode - change channel or user mode
+2010-08-15 09:58:24		   motd - get the "Message Of The Day"
+2010-08-15 09:58:24		   msg - send message to a nick or channel
+2010-08-15 09:58:24		   MUB - unban *
+2010-08-15 09:58:24		   N - names
+2010-08-15 09:58:24		   names - list nicknames on channels
+2010-08-15 09:58:24		   nick - change current nickname
+2010-08-15 09:58:24		   notice - send notice message to user
+2010-08-15 09:58:24		   op - give channel operator status to nickname(s)
+2010-08-15 09:58:24		   oper - get operator privileges
+2010-08-15 09:58:24		   part - leave a channel
+2010-08-15 09:58:24		   perl - list/load/unload scripts
+2010-08-15 09:58:24		   ping - ping server
+2010-08-15 09:58:24		   pong - answer to a ping message
+2010-08-15 09:58:24		   python - list/load/unload scripts
+2010-08-15 09:58:24		   Q - query
+2010-08-15 09:58:24		   query - send a private message to a nick
+2010-08-15 09:58:24		   quote - send raw data to server without parsing
+2010-08-15 09:58:24		   reconnect - reconnect to server(s)
+2010-08-15 09:58:24		   REDRAW - window refresh
+2010-08-15 09:58:24		   rehash - tell the server to reload its config file
+2010-08-15 09:58:24		   restart - tell the server to restart itself
+2010-08-15 09:58:24		   sajoin - forces a user to join channel(s)
+2010-08-15 09:58:24		   samode - change mode on channel, without having operator status
+2010-08-15 09:58:24		   sanick - forces a user to use another nick
+2010-08-15 09:58:24		   sapart - forces a user to leave channel(s)
+2010-08-15 09:58:24		   saquit - forces a user to quit server with a reason
+2010-08-15 09:58:24		   SAY - msg *
+2010-08-15 09:58:24		   server - list, add or remove IRC servers
+2010-08-15 09:58:24		   service - register a new service
+2010-08-15 09:58:24		   servlist - list services currently connected to the network
+2010-08-15 09:58:24		   SIGNOFF - quit
+2010-08-15 09:58:24		   squery - deliver a message to a service
+2010-08-15 09:58:24		   squit - disconnect server links
+2010-08-15 09:58:24		   stats - query statistics about server
+2010-08-15 09:58:24		   summon - give users who are on a host running an IRC server a message asking them to please join IRC
+2010-08-15 09:58:24		   T - topic
+2010-08-15 09:58:24		   time - query local time from server
+2010-08-15 09:58:24		   topic - get/set channel topic
+2010-08-15 09:58:24		   trace - find the route to specific server
+2010-08-15 09:58:24		   UB - unban
+2010-08-15 09:58:24		   unalias - remove aliases
+2010-08-15 09:58:24		   unban - unban nicks or hosts
+2010-08-15 09:58:24		   userhost - return a list of information about nicknames
+2010-08-15 09:58:24		   users - list of users logged into the server
+2010-08-15 09:58:24		   V - command core version
+2010-08-15 09:58:24		   version - give the version info of nick or server (current or specified)
+2010-08-15 09:58:24		   voice - give voice to nickname(s)
+2010-08-15 09:58:24		   W - who
+2010-08-15 09:58:24		   wallops - send a message to all currently connected users who have set the 'w' user mode for themselves
+2010-08-15 09:58:24		   WC - window merge
+2010-08-15 09:58:24		   who - generate a query which returns a list of information
+2010-08-15 09:58:24		   whois - query information about user(s)
+2010-08-15 09:58:24		   whowas - ask for information about a nickname which no longer exists
+2010-08-15 09:58:24		   WI - whois
+2010-08-15 09:58:24		   WII - whois $1 $1
+2010-08-15 09:58:24		   WW - whowas
+2010-08-15 09:58:24		   xfer - xfer control
+2010-08-15 09:58:29		[irc]  /nick  [-all] nickname
+2010-08-15 09:58:29		change current nickname
+2010-08-15 09:58:29		    -all: set new nickname for all connected servers
+2010-08-15 09:58:29		nickname: new nickname
+2010-08-15 09:58:47		[irc]  /nick  [-all] nickname
+2010-08-15 09:58:47		change current nickname
+2010-08-15 09:58:47		    -all: set new nickname for all connected servers
+2010-08-15 09:58:47		nickname: new nickname
+2010-08-15 17:45:07	=!=	Warning: /home/quesada/.weechat/irc.conf, line 30: option "show_away_once" unknown for section "look"
+2010-08-15 17:45:07		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-08-18 15:05:46		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-08-18 15:05:58	=!=	Error: unknown command "serv" (type /help for help)
+2010-08-18 15:06:07	=!=	Error: unknown command "serv" (type /help for help)
+2010-08-18 15:07:25	=!=	irc: command "join" must be executed on connected irc server
+2010-08-19 15:20:44		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-08-20 13:17:37		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-08-21 11:51:39		perl: loading script "/home/quesada/.weechat/perl/autoload/rainbow_text.pl"
+2010-08-21 11:51:39		perl: registered script "rainbow_text", version 0.3 (colours the channel text with according nick colour. Highlight messages will be fully highlighted)
+2010-08-25 21:12:18		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-08-25 21:12:25	=!=	irc: unknown option for "server" command
+2010-08-25 21:12:42	=!=	irc: command "join" must be executed on connected irc server
+2010-08-25 23:57:20		Options reloaded from weechat.conf
+2010-08-25 23:57:20		Options reloaded from plugins.conf
+2010-08-25 23:57:20		Options reloaded from charset.conf
+2010-08-25 23:57:20		Options reloaded from alias.conf
+2010-08-25 23:57:20		Options reloaded from aspell.conf
+2010-08-25 23:57:20		Options reloaded from logger.conf
+2010-08-25 23:57:20		Options reloaded from xfer.conf
+2010-08-25 23:57:20		Options reloaded from irc.conf
+2010-09-06 10:09:38		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-09-26 10:01:32		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-09-26 10:01:46		irc: server gnome created (temporary server, NOT SAVED!)
+2010-09-26 10:07:17		irc: server irc.gnome.org created (temporary server, NOT SAVED!)
+2010-09-26 10:08:39	=!=	irc: already connected to server "irc.gnome.org"!
+2010-09-26 10:08:39	=!=	Error with command "connect" (try /help connect)
+<<<<<<< HEAD
+2010-10-15 15:31:25		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-15 15:49:53		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-18 16:22:37		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-18 16:54:26		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-18 16:54:32	=!=	You can not write text in this buffer
+2010-10-19 19:43:11		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-19 19:43:17	=!=	You can not write text in this buffer
+2010-10-20 19:16:07	=!=	You can not write text in this buffer
+2010-10-25 15:40:31		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-10-25 15:40:40	=!=	You can not write text in this buffer
+2010-11-09 04:36:55		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-13 16:25:21		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-13 16:25:32	=!=	You can not write text in this buffer
+2010-11-14 10:55:50		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-18 15:36:42		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-18 16:31:34		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-18 16:31:41	=!=	You can not write text in this buffer
+2010-11-21 15:41:29		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-21 15:41:50	=!=	irc: command "join" must be executed on connected irc server
+=======
+2010-10-12 08:59:58		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+>>>>>>> c75567da7977d3faaea350ffa612bd059d2f2387
+2010-11-23 09:21:11		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-11-23 09:21:25	=!=	irc: command "join" must be executed on connected irc server

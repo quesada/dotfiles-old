@@ -8,7 +8,8 @@ Host=twitter.com
 MicroBlog=choqok_twitter
 Priority=0
 ReadOnly=false
-SearchCount=0
+Search0=quesada,,,0,,,lyx,,,1
+SearchCount=1
 ShowInQuickPost=true
 Timelines=Home,Reply,Inbox,Outbox
 UseSecureConnection=true
@@ -25,21 +26,22 @@ unreadForeColor=138,138,138
 [Behavior]
 countOfPosts=40
 enableSpellChecker=true
-position=0,18
+position=1600,18
 shortenOnPaste=true
 shortenerPlugin=choqok_is_gd
+spellerLanguage=en_US
 
 [Colors]
 CurrentPalette=Forty Colors
 
 [MainWindow]
 Height 1152=1130
-Height 1200=596
+Height 1200=1178
 Height 900=878
-State=AAAA/wAAAAD9AAAAAAAABjwAAAM9AAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB3wAAARtAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1600=1596
-Width 1920=956
+Width 1920=1916
 Width 2048=1256
 
 [Notification Messages]

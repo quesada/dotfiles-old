@@ -2,7 +2,9 @@
 	editor = vim
 [user]
 	name = Jose Quesada
-	email = quesada@gmail.com
+    email = quesada@gmail.com
+[merge]
+    tool = gvimdiff
 [alias]
     st = status
     ci = commit

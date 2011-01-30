@@ -117,6 +117,49 @@
    </metadata>
   </info>
  </bookmark>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_af42d6ec_278f_4c4c_843f_8ca8b1bc2c24</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_c1a76d8b_5be0_4781_9234_c2001904edf5</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_bbc41af6_6057_4aac_801d_25658d9a85f2</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_2F0D_E83E</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+ <bookmark href="file:///home/quesada/Dropbox/exist.de">
+  <title>exist.de</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1295037032/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="file:///data">
   <title>data</title>
   <info>
@@ -154,30 +197,6 @@
    </metadata>
   </info>
  </bookmark>
- <separator>
-  <info>
-   <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/Hal/devices/volume_uuid_af42d6ec_278f_4c4c_843f_8ca8b1bc2c24</UDI>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </separator>
- <separator>
-  <info>
-   <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/Hal/devices/volume_uuid_c1a76d8b_5be0_4781_9234_c2001904edf5</UDI>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </separator>
- <separator>
-  <info>
-   <metadata owner="http://www.kde.org">
-    <UDI>/org/freedesktop/Hal/devices/volume_uuid_bbc41af6_6057_4aac_801d_25658d9a85f2</UDI>
-    <isSystemItem>true</isSystemItem>
-   </metadata>
-  </info>
- </separator>
  <bookmark href="sftp://quesada@192.168.1.20/home/quesada/">
   <title>pberg</title>
   <info>
@@ -236,17 +255,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="sftp://141.14.157.1/common">
-  <title>common</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1287683327/0</ID>
-   </metadata>
-  </info>
- </bookmark>
  <bookmark href="file:///home/quesada/pdf">
   <title>pdf</title>
   <info>
@@ -255,6 +263,17 @@
    </metadata>
    <metadata owner="http://www.kde.org">
     <ID>1289459110/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="sftp://192.168.1.20/mnt/backup/downloads">
+  <title>downloads</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1291548734/0</ID>
    </metadata>
   </info>
  </bookmark>

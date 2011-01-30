@@ -106,4 +106,9 @@
   <Action name="mouse_toggle_annotate"/>
   <Action name="mouse_select"/>
  </ToolBar>
+ <ActionProperties scheme="Default">
+  <Action shortcut="Shift+X" name="options_configure"/>
+  <Action shortcut="Alt+M" name="view_trim_margins"/>
+  <Action shortcut="Ctrl+Shift+S" name="file_save_as"/>
+ </ActionProperties>
 </kpartgui>

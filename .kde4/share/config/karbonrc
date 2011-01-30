@@ -1,0 +1,103 @@
+datafile=/usr/share/apps/koffice/thesaurus/thesaurus.txt
+
+[DockerManager]
+HiddenToolDockers=
+VisibleToolDockers=DefaultToolArrangeWidget,DefaultToolWidget,DummyToolWidget,KarbonPencilTool,PathToolOptionWidgetBase,SnapGuideConfigWidget
+
+[Interface]
+LayerDockerMode=minimal
+
+[KFileDialog Settings]
+Height 1200=600
+Recent Files[$e]=$HOME/Dropbox/exist.de/productInUse.odg,$HOME/Dropbox/exist.de/productInUse.svg,$HOME/down/snapshot8.png,$HOME/down/snapshot7.png
+Width 1920=960
+
+[MainWindow]
+Height 900=878
+Width 1600=980
+
+[Recent Dirs]
+OpenDialog[$e]=file://$HOME/down/,$HOME/Documents
+
+[RecentFiles]
+File1[$e]=$HOME/Dropbox/exist.de/productInUse.odg
+Name1[$e]=productInUse.odg
+
+[TemplateChooserDialog]
+AlwaysUseTemplate=/usr/share/apps/karbon/templates/Basic/.source/empty.odg
+FullTemplateName[$e]=/usr/share/apps/karbon/templates/Basic/.source/empty.odg
+LastReturnType=Template
+
+[karbon]
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAA5AAADBPwCAAAAAfsAAAAOAFQAbwBvAGwAQgBvAHgBAAAARwAAAwQAAABMAQAABQAAAAEAAAENAAADBPwCAAAADvsAAAAgAFMAaABhAHAAZQAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAAAbAQAABfsAAAAiAFMAaABhAGQAbwB3ACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAAJYACAAa+wAAACQAUwBpAG0AcABsAGUAIABUAGUAeAB0ACAARQBkAGkAdABvAHIAAAAAAP////8AAAAAAAAAAPwAAABHAAAAbQAAAG0AAABt+gAAAAABAAAAAvsAAAAWAFMAdAB5AGwAZQBEAG8AYwBrAGUAcgEAAAAA/////wAAAQ0ACAAF+wAAAC4ASwBvAFMAaABhAHAAZQBDAG8AbABsAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAQAABGsAAAENAAAAAAAAAAD7AAAAFABMAGEAeQBlAHIAIAB2AGkAZQB3AQAAALcAAABtAAAAbQEAAAX7AAAAIgBTAHQAcgBvAGsAZQAgAFAAcgBvAHAAZQByAHQAaQBlAHMBAAABJwAAAKEAAAChAAAAofsAAAAwAEQAZQBmAGEAdQBsAHQAVABvAG8AbABBAHIAcgBhAG4AZwBlAFcAaQBkAGcAZQB0AQAAAcsAAABiAAAAUwAIABr7AAAAIgBEAGUAZgBhAHUAbAB0AFQAbwBvAGwAVwBpAGQAZwBlAHQBAAACMAAAAGMAAABcAAgAGvsAAAAqAFMAbgBhAHAARwB1AGkAZABlAEMAbwBuAGYAaQBnAFcAaQBkAGcAZQB0AQAAApYAAABiAAAATgAIABr7AAAAKgBTAGgAYQBwAGUAQwBvAGwAbABlAGMAdABpAG8AbgBEAG8AYwBrAGUAcgEAAAL7AAAAUAAAAFAAAABG+wAAABoASwBvAEMAbwBsAG8AcgBEAG8AYwBrAGUAcgAAAAAA/////wAAAKcBAAAF+wAAACAASwBhAHIAYgBvAG4AUABlAG4AYwBpAGwAVABvAG8AbAAAAAMXAAABYAAAAFwACAAa+wAAADAAUABhAHQAaABUAG8AbwBsAE8AcAB0AGkAbwBuAFcAaQBkAGcAZQB0AEIAYQBzAGUAAAADigAAAO0AAABTAAgAGvsAAAAeAEQAdQBtAG0AeQBUAG8AbwBsAFcAaQBkAGcAZQB0AAAABEQAAAAzAAAAMwAIABoAAAKIAAADBAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAAFAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZQBkAGkAdABfAHQAbwBvAGwAYgBhAHIBAAAAj/////8AAAAAAAAAAAAAABwAbwBiAGoAZQBjAHQAXwB0AG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAAAAAAaAGEAbABpAGcAbgBfAHQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAAAAAA4ARQBmAGYAZQBjAHQAcwAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[karbon][DockWidget DefaultToolArrangeWidget]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget DefaultToolWidget]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget DummyToolWidget]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget KarbonPencilTool]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget KoColorDocker]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget Layer view]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget PathToolOptionWidgetBase]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget Shadow Properties]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget Shape Properties]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget ShapeCollectionDocker]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget SnapGuideConfigWidget]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget Stroke Properties]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget StyleDocker]
+Collapsed=false
+DockArea=2
+
+[karbon][DockWidget ToolBox]
+Collapsed=false
+DockArea=1
+
+[koffice]
+ColorSpaceExtensionsPlugins=krita_colorspaces_extensions
+ColorSpaceExtensionsPluginsDisabled=
+ColorSpacePlugins=kolcmsengine
+ColorSpacePluginsDisabled=
+DockerPlugins=kofficedockers
+DockerPluginsDisabled=
+FlakePlugins=defaulttools,divineproportionshape,formulashape,kexirelationdesignshape,vectorshape,textshape
+FlakePluginsDisabled=
+ShapePlugins=artistictextshape,chartshape,musicshape,pathshapes,pictureshape,spreadsheetshape,videoshape
+ShapePluginsDisabled=
+TextEditingPlugins=autocorrect,changecase,spellcheck,thesaurustool
+TextEditingPluginsDisabled=

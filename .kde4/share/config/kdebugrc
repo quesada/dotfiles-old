@@ -78,11 +78,17 @@ InfoOutput=2
 [juk]
 InfoOutput=4
 
+[k3b]
+InfoOutput=4
+
 [kaccess]
 InfoOutput=2
 
 [kalarm]
 InfoOutput=2
+
+[karbon]
+InfoOutput=4
 
 [kate]
 InfoOutput=4
@@ -183,6 +189,9 @@ InfoOutput=4
 [kmixctrl]
 InfoOutput=4
 
+[kmousetool]
+InfoOutput=4
+
 [knetattach]
 InfoOutput=4
 
@@ -190,6 +199,9 @@ InfoOutput=4
 InfoOutput=4
 
 [knotify]
+InfoOutput=4
+
+[kolourpaint]
 InfoOutput=4
 
 [konqueror]
@@ -223,6 +235,9 @@ InfoOutput=4
 InfoOutput=4
 
 [ksysguard]
+InfoOutput=4
+
+[ktimetracker]
 InfoOutput=4
 
 [ktorrent]

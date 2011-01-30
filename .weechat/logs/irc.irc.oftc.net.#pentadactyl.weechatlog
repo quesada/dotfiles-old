@@ -1,0 +1,902 @@
+2011-01-18 22:54:08	-->	quesada (~quesada@e179047099.adsl.alicedsl.de) has joined #pentadactyl
+2011-01-18 22:54:08	--	Topic for #pentadactyl is "Pentadactyl: Firefox for Vim junkies - http://dactyl.sf.net/pentadactyl/faq - Entropy"
+2011-01-18 22:54:08	--	Topic set by ChanServ (services@services.oftc.net) on Wed, 12 Jan 2011 16:41:12
+2011-01-18 22:54:08	--	Nicks #pentadactyl: [@FloodServ aksr anekos bitdancer Bram Chousuke CIA-6 emaz eris_prime frakturfreak hoax_ iaj j0su3 jerryluc John-Galt Kaptenen legreffier mahlon mcbeth Monkey oeuftete peetah_ peth procto quesada Rasi remi ricky rogutes rsFF sp3ctum stepnem thesnowdog tlonim zeltak]
+2011-01-18 22:54:08	--	Channel #pentadactyl: 35 nicks (1 op, 0 halfops, 0 voices, 34 normals)
+2011-01-18 22:54:10	--	Channel created on Wed, 22 Sep 2010 04:32:47
+2011-01-18 22:55:10	quesada	is there a setting to revert to the :open behaviour in vimperator? i.e. no tab completion, instead full first match completion, plus arrow keys
+2011-01-18 22:55:45	John-Galt	:set autocomplete=
+2011-01-18 22:57:07	quesada	hm,
+2011-01-18 22:57:19	quesada	but arrows do nothing then
+2011-01-18 22:57:32	John-Galt	What do you mean?
+2011-01-18 22:57:34	quesada	I hope I didn't screw up my config
+2011-01-18 22:58:16	quesada	I want to type : mai and get mail.google.com. then I press enter
+2011-01-18 22:58:22	quesada	no need for tab, nor options
+2011-01-18 22:58:45	quesada	or maybe it was mai<up><enter>
+2011-01-18 22:59:16	John-Galt	Yeah, it was probably that. Vimperator never had the former behavior.
+2011-01-18 22:59:36	quesada	ok, then :) how do I get that in pdactyl?
+2011-01-18 22:59:41	quesada	great name btw
+2011-01-18 23:00:25	John-Galt	It should just work.
+2011-01-18 23:00:37	quesada	nope, arrows do nothing
+2011-01-18 23:00:44	 *	John-Galt gets more complaints about the name than anything else...
+2011-01-18 23:00:47	John-Galt	quesada: :version ?
+2011-01-18 23:01:07	quesada	1,0b2
+2011-01-18 23:01:18	John-Galt	You might have some mappings screwing with history, I suppose.
+2011-01-18 23:01:26	John-Galt	quesada: Oh, that's old. You need to upgrade... badly.
+2011-01-18 23:01:34	quesada	aha
+2011-01-18 23:02:05	Chousuke	John-Galt: When were you planning to release 1.0? After FF4?
+2011-01-18 23:02:39	John-Galt	Chousuke: That was the plan, since they keep adding bloody breaking changes to the beta line.
+2011-01-18 23:02:46	Chousuke	heh
+2011-01-18 23:03:30	John-Galt	Granted, so do I, but I don't have thousands of developers writing plugins for my code.
+2011-01-18 23:04:08	quesada	now I'm on 1.0b3, still arrows do nothing after set auc=
+2011-01-18 23:04:13	John-Galt	Actually, come to think of it, no I don't. I keep adding deprecation warnings...
+2011-01-18 23:04:33	John-Galt	quesada: You want 1.0b4.3. At any rate, you probably have some mapping issues.
+2011-01-18 23:06:19	quesada	now it works, thanks
+2011-01-18 23:06:42	John-Galt	What fixed it?
+2011-01-18 23:07:33	quesada	I guess history was reset
+2011-01-18 23:07:51	quesada	I typed the full url once, then pdactyl found it with the arrows the seocnd time
+2011-01-18 23:08:33	John-Galt	Heh. History isn't carried over from Vimperator unless you mv ~/.{vimperator,pentadactyl} if that's what you mean.
+2011-01-18 23:08:51	quesada	that was it
+2011-01-18 23:09:54	quesada	should I rename my vimperatorrc to pentadactylrc?
+2011-01-18 23:10:03	John-Galt	I suppose I should add that to the FAQ. I know there are a couple of migration guides on the interwebs.
+2011-01-18 23:10:17	John-Galt	quesada: It would probably a good start, but be prepared for some errors.
+2011-01-18 23:13:52	quesada	thanks John
+2011-01-18 23:14:06	quesada	one last thing. I have noremap <C-c> <C-v><C-c> and noremap <C-v> <C-v><C-v>
+2011-01-18 23:14:41	quesada	this is to emulate windows copy-paste. But it requires double keystrokes (ctrl-c twice). Is there a better way?
+2011-01-18 23:14:48	quesada	ie only one keystroke?
+2011-01-18 23:16:38	John-Galt	It's probably fixed in b5.
+2011-01-18 23:16:43	John-Galt	Or b4.3 even.
+2011-01-18 23:17:16	quesada	great! where do I get this? I thought I got the latest v... trice today :P
+2011-01-18 23:17:24	John-Galt	Where did you download from?
+2011-01-18 23:17:45	quesada	http://dactyl.sourceforge.net/pentadactyl/index#sect-support
+2011-01-18 23:18:02	quesada	so b4.3 doesn't have it fixed
+2011-01-18 23:18:03	John-Galt	:extup Pentadactyl
+2011-01-18 23:18:45	quesada	not avail in FF 3.6.13
+2011-01-18 23:18:55	John-Galt	Ah, forgot about that.
+2011-01-18 23:18:58	quesada	should I get the nightly?
+2011-01-18 23:19:01	John-Galt	eris_prime: xpi 1.0b4.3
+2011-01-18 23:19:01	eris_prime	John-Galt :extadd http://dactyl.googlecode.com/files/pentadactyl-1.0b4.3.xpi
+2011-01-18 23:19:38	quesada	this is what I have? b4.3
+2011-01-18 23:19:43	John-Galt	:version
+2011-01-18 23:20:29	quesada	Pentadactyl 1.0b4.3 (created: 2011/01/05 17:55:12) running on:
+2011-01-18 23:20:29	quesada	Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.2.13) Gecko/20101213 Sabayon Firefox/3.6.13
+2011-01-18 23:23:52	John-Galt	Ok. Then try a nightly, I guess.
+2011-01-18 23:23:54	John-Galt	eris_prime: nightly
+2011-01-18 23:23:55	eris_prime	John-Galt :extadd http://dactyl.sourceforge.net/nightly/pentadactyl-latest.xpi
+2011-01-18 23:27:48	<--	iaj (~iaj@ip-81-210-159-110.unitymediagroup.de) has quit (Remote host closed the connection)
+2011-01-18 23:28:03	-->	iaj (~iaj@ip-81-210-159-110.unitymediagroup.de) has joined #pentadactyl
+2011-01-18 23:32:45	John-Galt	Hm. What happened to my last commit?
+2011-01-18 23:34:35	eris_prime	[dactyl-irc] Kris Maglione <maglione.k@gmail.com> (Tue Jan 18 17:35:57 2011 -0500)
+2011-01-18 23:34:35	eris_prime	Get rid of absurd Map#route flag. Consolodate some constants.
+2011-01-18 23:36:15	<--	iaj (~iaj@ip-81-210-159-110.unitymediagroup.de) has quit (Remote host closed the connection)
+2011-01-18 23:36:31	-->	iaj (~iaj@ip-81-210-159-110.unitymediagroup.de) has joined #pentadactyl
+2011-01-18 23:50:57	<--	peetah_ (~peetah@cha92-9-82-236-202-86.fbx.proxad.net) has quit (Remote host closed the connection)
+2011-01-18 23:52:03	-->	peetah_ (~peetah@cha92-9-82-236-202-86.fbx.proxad.net) has joined #pentadactyl
+2011-01-19 00:00:32	quesada	John-Galt: nope, the nightly still needs two ^c and two ^v
+2011-01-19 00:00:51	quesada	the first ^v gets a PASS THROUGH, the second pastes
+2011-01-19 00:02:55	John-Galt	Doesn't make sense. If anything the first <C-v> should start QUOTE mode.
+2011-01-19 00:03:21	John-Galt	Yeah, works as expected for me.
+2011-01-19 00:03:50	quesada	maybe I should comment out my noremap <C-c> <C-v><C-c>
+2011-01-19 00:03:50	quesada	noremap <C-v> <C-v><C-v>
+2011-01-19 00:04:02	<--	iaj (~iaj@ip-81-210-159-110.unitymediagroup.de) has quit (Remote host closed the connection)
+2011-01-19 00:04:17	-->	iaj (~iaj@ip-81-210-159-110.unitymediagroup.de) has joined #pentadactyl
+2011-01-19 00:05:58	quesada	hah! got it to work
+2011-01-19 00:06:07	quesada	using this http://code.google.com/p/vimperator-labs/issues/attachmentText?id=10&aid=-3074550754791981226&name=mswin.vimp&token=e647d5dede62f43a8d30efe469089d5a
+2011-01-19 00:06:43	<--	aksr (~aksr@78.155.56.86) has quit (Quit: Leaving)
+2011-01-19 00:08:08	eris_prime	[dactyl-irc] Kris Maglione <maglione.k@gmail.com> (Tue Jan 18 18:09:28 2011 -0500)
+2011-01-19 00:08:08	eris_prime	Prevent infinite loops when trying to execute mappings recursively.
+2011-01-19 00:08:50	John-Galt	quesada: I suppose you were attempting to use it in insert mode, then?
+2011-01-19 00:09:09	quesada	I think not
+2011-01-19 00:09:21	-->	co_kluarmain (~selud@190.1.137.130) has joined #pentadactyl
+2011-01-19 00:09:21	<--	co_kluarmain (~selud@190.1.137.130) has left #pentadactyl
+2011-01-19 00:09:21	quesada	but no matter, solved now :) thanks
+2011-01-19 00:09:24	John-Galt	I think so.
+2011-01-19 00:36:17	eris_prime	[dactyl-irc] Kris Maglione <maglione.k@gmail.com> (Tue Jan 18 18:37:38 2011 -0500)
+2011-01-19 00:36:17	eris_prime	Add preliminary mode inheritance and BASE/INSERT modes.
+2011-01-19 00:36:59	--	Mode #pentadactyl [+o John-Galt] by ChanServ
+2011-01-19 00:37:04	--	Mode #pentadactyl [-q CIA-6!*@*] by John-Galt
+2011-01-19 00:37:07	--	Mode #pentadactyl [-o John-Galt] by John-Galt
+2011-01-19 00:45:36	CIA-6	Kris Maglione <maglione.k@gmail.com> * 367f51f83c3110e1f9e69f904c193afad59e6749 /common/modules/finder.jsm Add base FIND mode.
+2011-01-19 00:45:36	eris_prime	[dactyl-irc] Kris Maglione <maglione.k@gmail.com> (Tue Jan 18 18:46:56 2011 -0500)
+2011-01-19 00:45:36	eris_prime	Add base FIND mode.
+2011-01-19 01:12:45	Chousuke	this.allBases.indexOf(obj >= 0)  ... this made me go wtf
+2011-01-19 01:13:35	Chousuke	(just reading through the recent commits to see what's happening)
+2011-01-19 01:14:15	John-Galt	Heh. Why?
+2011-01-19 01:14:54	John-Galt	It's temporary, anyway. Modes are going to be real classes with instances in the future.
+2011-01-19 01:15:19	Chousuke	I'm not sure what it's supposed to do if it really is intended to be like htat :P
+2011-01-19 01:15:41	John-Galt	Ah. I'll be damned... I just re-read it...
+2011-01-19 01:15:50	John-Galt	Weird that it seemed to work when I tested it. :)
+2011-01-19 01:16:16	eris_prime	[dactyl-irc] Kris Maglione <maglione.k@gmail.com> (Tue Jan 18 19:17:41 2011 -0500)
+2011-01-19 01:16:16	eris_prime	Fix typo.
+2011-01-19 01:16:23	CIA-6	Kris Maglione <maglione.k@gmail.com> * eaa09b3e25b59d773751a5ae2ca911c3160eff3a /common/content/modes.js Fix typo.
+2011-01-19 01:22:26	Monkey	While we're going WTF.  mode.{disp,display,description} makes me go hmmm at first glance.
+2011-01-19 01:23:48	John-Galt	Yeah, they need to be cleaned up. The disp one, anyway. It's old and was an ugly hack to begin with.
+2011-01-19 01:24:08	John-Galt	Don't see the issue with description.
+2011-01-19 01:35:07	John-Galt	Oh, lovely, : now opens the command-line in insert mode?
+2011-01-19 01:35:14	 *	John-Galt wonders if that bug made the nightly.
+2011-01-19 01:36:39	Chousuke	not happening for me
+2011-01-19 01:36:47	Chousuke	or at least I think it isn't.
+2011-01-19 01:37:27	Chousuke	there was some weird behaviour when I tried to :rehash after pulling but it went away after I restarted minefield
+2011-01-19 01:54:50	eris_prime	[dactyl-irc] Kris Maglione <maglione.k@gmail.com> (Tue Jan 18 19:56:10 2011 -0500)
+2011-01-19 01:54:50	eris_prime	Fix mapping : in insert modes.
+2011-01-19 01:54:53	CIA-6	Kris Maglione <maglione.k@gmail.com> * 0b2e986de8bfa56bda396b012691d39f54d3aa65 /common/content/ (commandline.js modes.js) Fix mapping : in insert modes.
+2011-01-19 01:56:17	John-Galt	Yay. We're finally at the top of the queue again.
+2011-01-19 01:57:52	<--	iaj (~iaj@ip-81-210-159-110.unitymediagroup.de) has quit (Remote host closed the connection)
+2011-01-19 02:02:16	-->	iaj (~iaj@ip-81-210-159-110.unitymediagroup.de) has joined #pentadactyl
+2011-01-19 02:03:26	John-Galt	eris_prime: nightly 20110118
+2011-01-19 02:03:27	eris_prime	John-Galt :extadd http://dactyl.googlecode.com/files/pentadactyl-20110118.xpi
+2011-01-19 02:12:03	eris_prime	[dactyl-irc] Kris Maglione <maglione.k@gmail.com> (Tue Jan 18 20:13:24 2011 -0500)
+2011-01-19 02:12:03	eris_prime	Fix typing numbers in input modes.
+2011-01-19 02:12:05	CIA-6	Kris Maglione <maglione.k@gmail.com> * 50fb14c3c58be7436d1d95b64e5af1329a103dec /common/content/ (events.js modes.js) Fix typing numbers in input modes.
+2011-01-19 02:36:24	Monkey	Appcelerator -- what a terrible name.
+2011-01-19 02:40:52	John-Galt	Oh, my, I Google Appcelerator and I get some horrible scrolling AJAX frame in the middle of my results...
+2011-01-19 02:40:59	John-Galt	I miss the old Google.
+2011-01-19 02:41:01	 *	John-Galt weeps.
+2011-01-19 02:54:01	-->	milant (~milant@coltrane.cs.sfu.ca) has joined #pentadactyl
+2011-01-19 02:55:16	milant	hi. i just posted a q on the mail list regarding using bookmarklets located in the bookmarks bar w/ pentadactyl. and then i found the irc 1 minute after :P
+2011-01-19 02:56:04	milant	are there any examples or "best practices" for integrating pentadactyl w/ instapepr/delicious/etc. bookmarklets?
+2011-01-19 02:58:11	John-Galt	Not really. Just add bookmark keywords and open them.
+2011-01-19 03:00:13	-->	frakturfreak_ (~frakturfr@dslb-178-000-152-026.pools.arcor-ip.net) has joined #pentadactyl
+2011-01-19 03:02:23	milant	@john-galt ok. thnx
+2011-01-19 03:03:48	milant	so no way to set kybd bindings to the browser's bookmarklets?
+2011-01-19 03:05:08	John-Galt	:help :map
+2011-01-19 03:05:21	John-Galt	:map <C-k> -ex open keyword
+2011-01-19 03:06:58	milant	thnx
+2011-01-19 03:07:18	-->	peth_ (anon@dslb-084-063-212-225.pools.arcor-ip.net) has joined #pentadactyl
+2011-01-19 03:07:26	--	peth is now known as Guest759
+2011-01-19 03:07:26	--	peth_ is now known as peth
+2011-01-19 03:07:56	<--	frakturfreak (~frakturfr@dslb-188-103-053-196.pools.arcor-ip.net) has quit (Ping timeout: 480 seconds)
+2011-01-19 03:07:57	<--	frakturfreak_ (~frakturfr@dslb-178-000-152-026.pools.arcor-ip.net) has quit (Max SendQ exceeded)
+2011-01-19 03:08:08	-->	frakturfreak_ (~frakturfr@dslb-178-000-152-026.pools.arcor-ip.net) has joined #pentadactyl
+2011-01-19 03:11:00	milant	once i get a simple example done up i'll update the wiki as well. thnx again.
+2011-01-19 03:11:39	John-Galt	:) Ok, but there is no wiki. :)
+2011-01-19 03:14:13	<--	Guest759 (anon@dslb-084-063-219-152.pools.arcor-ip.net) has quit (Ping timeout: 480 seconds)
+2011-01-19 03:31:12	CIA-6	Kris Maglione <maglione.k@gmail.com> * 40770bf0cece8a88d4ac091647f0dee3d4c0320f /common/content/ (autocommands.js buffer.js) Fix quoting issues in :au.
+2011-01-19 03:34:27	milant	:) well, i meant submit something to someone or commit to the repo, etc. for tips/tricks or FAQ
+2011-01-19 03:35:14	John-Galt	Ok. :) The website repo is public. Patches are welcome.
+2011-01-19 03:35:20	John-Galt	http://dactyl.sf.net/hg
+2011-01-19 03:37:26	milant	also, i am confused by <Leader> and <leader>. is there a difference?
+2011-01-19 03:38:28	John-Galt	Nope.
+2011-01-19 03:40:49	milant	i JUST picked up vim and pentadactyl yesterday. so apologies for the supergenius questions. :)
+2011-01-19 03:41:00	John-Galt	Heh. No worries.
+2011-01-19 03:41:13	John-Galt	I've always hated <leader> at any rate, but they won't let me get rid of it.
+2011-01-19 03:41:19	milant	is the <Leader>/<leader> difference similar to how vim has it?
+2011-01-19 03:42:05	John-Galt	There's no difference in either case. Case is insignificant in key names.
+2011-01-19 04:14:54		irc: disconnected from server
+2011-01-19 04:15:37	-->	quesada1 (~quesada@e179044174.adsl.alicedsl.de) has joined #pentadactyl
+2011-01-19 04:15:37	--	Topic for #pentadactyl is "Pentadactyl: Firefox for Vim junkies - http://dactyl.sf.net/pentadactyl/faq - Entropy"
+2011-01-19 04:15:37	--	Topic set by ChanServ (services@services.oftc.net) on Wed, 12 Jan 2011 16:41:12
+2011-01-19 04:15:37	--	Nicks #pentadactyl: [@FloodServ anekos bitdancer Bram Chousuke CIA-6 emaz eris_prime frakturfreak_ hoax_ iaj j0su3 jerryluc John-Galt Kaptenen legreffier mahlon mcbeth milant Monkey oeuftete peetah_ peth procto quesada quesada1 Rasi remi ricky rogutes rsFF sp3ctum stepnem thesnowdog tlonim zeltak]
+2011-01-19 04:15:37	--	Channel #pentadactyl: 36 nicks (1 op, 0 halfops, 0 voices, 35 normals)
+2011-01-19 04:15:38	--	Channel created on Wed, 22 Sep 2010 04:32:47
+2011-01-19 04:16:12	John-Galt	thesnowdog: Crack?
+2011-01-19 04:17:59	thesnowdog	Were you smoking it?
+2011-01-19 04:18:08	<--	mcbeth (~mcbeth@cpe-74-69-45-235.rochester.res.rr.com) has quit (Remote host closed the connection)
+2011-01-19 04:18:13	John-Galt	Heh. I just don't like spam bots.
+2011-01-19 04:18:33	John-Galt	There should admittedly probably be a user-decipherable obfuscation.
+2011-01-19 04:18:56	thesnowdog	The spam bots have won!
+2011-01-19 04:19:22	John-Galt	Heh...
+2011-01-19 04:21:56	<--	quesada (~quesada@e179047099.adsl.alicedsl.de) has quit (Ping timeout: 480 seconds)
+2011-01-19 04:26:38	CIA-6	Kris Maglione <maglione.k@gmail.com> * e43758fbc12ed205df34cbf81550c3d13bf5a858 /common/bootstrap.js Automagically disable automatic updates for nightlies on FF4.
+2011-01-19 04:26:45	CIA-6	Kris Maglione <maglione.k@gmail.com> * e43758fbc12ed205df34cbf81550c3d13bf5a858 /common/bootstrap.js Automagically disable automatic updates for nightlies on FF4.
+2011-01-19 04:27:04	-->	mcbeth (~mcbeth@cpe-74-69-45-235.rochester.res.rr.com) has joined #pentadactyl
+2011-01-19 04:36:20	thesnowdog	John-Galt: http://pastebin.com/CQh9UD1t on shutdown...
+2011-01-19 04:37:26	John-Galt	Yeah, I saw that once too and forgot about it.
+2011-01-19 04:37:45	CIA-6	Kris Maglione <maglione.k@gmail.com> * 1cf2830d45c6d7ca9e7f5e70d58e1863df0c985e /common/modules/util.jsm Add missing metacharachters to regex.escape. Fixes key handling bug.
+2011-01-19 04:37:46	CIA-6	Kris Maglione <maglione.k@gmail.com> * 5edec9486a0c3fbc8e44574f380f1b2ffa40f332 /common/content/mappings.js Prevent infinite loops when trying to execute mappings recursively.
+2011-01-19 04:37:47	CIA-6	Kris Maglione <maglione.k@gmail.com> * 075e121c82ac42b5dfab65f4772fce38aedfec4f /common/content/ (autocommands.js buffer.js) Fix quoting issues in :au.
+2011-01-19 04:37:48	CIA-6	Kris Maglione <maglione.k@gmail.com> * 0241b4f142f4a9a3f5cef26e154eef839b8a41ed / (11 files in 4 dirs) Merge default.
+2011-01-19 04:40:26	CIA-6	Kris Maglione <maglione.k@gmail.com> * fe89b8a4271580ecbf133c0ecdbb359eca2e9a96 /common/modules/base.jsm Fix error at shutdown.
+2011-01-19 04:40:49	 *	John-Galt likes eris_prime better than CIA-6...
+2011-01-19 04:42:00	thesnowdog	Love the one you're with, eh?
+2011-01-19 04:43:29	 *	thesnowdog wonders what a targ is
+2011-01-19 04:43:54	John-Galt	You mean in general or in that specific case?
+2011-01-19 04:44:41	thesnowdog	In general...oh, a target?
+2011-01-19 04:45:16	 *	John-Galt should probably just use lhs and rhs... they're just as ambiguous...
+2011-01-19 04:45:18	 *	thesnowdog finds cryp abbs cryp
+2011-01-19 04:45:32	John-Galt	function isinstance(object, interfaces)
+2011-01-19 04:46:11	thesnowdog	Tick
+2011-01-19 04:48:09	CIA-6	Kris Maglione <maglione.k@gmail.com> * 0cc50d2df13edef3fd67cad52e3b315be068c871 /common/modules/base.jsm Fix silly isinstance parameter names.
+2011-01-19 04:59:53	thesnowdog	Hmmm, a cat summoned for dury duty in Boston...
+2011-01-19 05:00:16	John-Galt	O.o Are you reading the New York Post or something?
+2011-01-19 05:01:26	thesnowdog	Huffington
+2011-01-19 05:01:33	John-Galt	Almost as bad...
+2011-01-19 05:01:46	John-Galt	Worse on some counts...
+2011-01-19 05:02:02	thesnowdog	http://tinyurl.com/4zbe4fu
+2011-01-19 05:02:34	John-Galt	They're the ones who like to go on about how homeopathy is god's gift to humanity and vaccines cause autism, aren't they?
+2011-01-19 05:02:41	thesnowdog	...you're so judgmental
+2011-01-19 05:03:24	thesnowdog	No idea but that's how I like to think of homeopathy.
+2011-01-19 05:03:42	thesnowdog	I'd never heard of the Huffington Post prior to this.
+2011-01-19 05:04:04	John-Galt	Well, it's hard not to be judgemental of people wo think that pure water is the most potent form of medial treatment available... and gets more powerful the more it's diluted.
+2011-01-19 05:04:29	thesnowdog	Heh, if it works for them.
+2011-01-19 05:05:07	John-Galt	Yeah, placebos have their uses.
+2011-01-19 05:05:25	John-Galt	And telling people that vaccines will give their kids autism? That's alright?
+2011-01-19 05:05:29	thesnowdog	A friend of mine who is a doctor goes off like a cracker every time it's mentioned.
+2011-01-19 05:05:40	John-Galt	Heh
+2011-01-19 05:06:19	thesnowdog	Well telling anyone anything is alright.
+2011-01-19 05:06:32	milant	q: is anyone using ffox in fullscreen mode? wondering what the intended display of the commandline and statusline are in fullscreen?
+2011-01-19 05:06:48	John-Galt	Whatever you set them to be.
+2011-01-19 05:07:32	milant	they disappear off the botttom of the screen for me in fullscreen (i'm on nightlies for both ffox and pentadactyl)
+2011-01-19 05:07:40	John-Galt	thesnowdog: Maybe. Nevertheless it's leading to epidemics or whooping cough and measles already.
+2011-01-19 05:07:55	John-Galt	Especially the former in infants, and especially in your country at that.
+2011-01-19 05:08:09	John-Galt	milant: You can turn them back on.
+2011-01-19 05:08:42	thesnowdog	John-Galt: Sure, that topic sets my sister of like a cracker. :)
+2011-01-19 05:09:51	thesnowdog	John-Galt: We like to be ahead of the game down here.  It's the Vitamin K shots...everyone knows it.
+2011-01-19 05:11:05	milant	john-galt: u mean w/ set go=cs?
+2011-01-19 05:11:42	John-Galt	thesnowdog: But surely a *vitamin* can't do any harm?
+2011-01-19 05:11:45	John-Galt	milant: +=
+2011-01-19 05:11:55	milant	in full screen the command-line is gone (it's there in non-fullscreen)
+2011-01-19 05:12:06	milant	ya +=, same thing
+2011-01-19 05:12:51	John-Galt	Not really...
+2011-01-19 05:13:05	John-Galt	The command-line is hidden by default anyway.
+2011-01-19 05:15:25	milant	no, i meant the same issue either way. command-line won't appear when i hit :
+2011-01-19 05:15:49	milant	seems to be blocked by the status bar. tho the status-bar displays "COMMAND LINE"
+2011-01-19 05:16:11	John-Galt	I think you want a C in there.
+2011-01-19 05:16:34	John-Galt	Hm. Interesting. No status bar either way...
+2011-01-19 05:16:49	thesnowdog	John-Galt: Well who's to say what it really is... And bleeding to death isn't as bad as it's made out to be.  When you're that young it's not as though you understand.
+2011-01-19 05:17:13	John-Galt	Stupid bloody moz-collapsed attribute. I thought I fixed that.
+2011-01-19 05:17:45	John-Galt	milant: :au fullscreen .* statusline.statusBar.removeAttribute("moz-collapsed")
+2011-01-19 05:18:15	John-Galt	thesnowdog: Whooping cough doesn't lead to bleeding to death, it leads to death by suffocation.
+2011-01-19 05:18:42	thesnowdog	Vitamin K ^
+2011-01-19 05:19:03	John-Galt	Aah.
+2011-01-19 05:19:23	John-Galt	:) I was confused for a minute...
+2011-01-19 05:21:36	milant	john-galt; thnx. but it gives the error "E216: no such group or event: fullscreen"
+2011-01-19 05:21:49	milant	tho i can still :set fullscreen
+2011-01-19 05:23:59	John-Galt	Fullscreen rather.
+2011-01-19 05:24:24	thesnowdog	John-Galt: FWIW, most of my family on both sides (the generation above me) had whooping cough.  I don't think they recommend it.
+2011-01-19 05:24:48	John-Galt	Heh
+2011-01-19 05:25:40	 *	John-Galt considers whether constructing HTML from strings should be a hanging offense. Especially when said strings are composed of fragments grabbed from wild Internet pages and injected into a document with chrome privileges...
+2011-01-19 05:27:48	milant	i get E492 not a pentadactyl command: statusline.statusBar.removeAttribute("moz-collapsed")
+2011-01-19 05:28:05	John-Galt	:au Fullscreen .* -js statusline.statusBar.removeAttribute("moz-collapsed")
+2011-01-19 05:28:14	milant	should i have that in my rc file?
+2011-01-19 05:28:26	John-Galt	thesnowdog: Shouldn't autocommands be case insensitive?
+2011-01-19 05:31:20	milant	ok. i had to throw it in my rc. then source my rc from ffox. seems to work now.
+2011-01-19 05:31:22	milant	thnx!
+2011-01-19 05:32:15	CIA-6	Kris Maglione <maglione.k@gmail.com> * 03e7a14f3ea08954f1f273264db9311b576065f7 /common/ (content/events.js modules/base.jsm) Filter :au Fullscreen on fullscreen state rather than buffer URL. Remove bloody moz-collapsed attribute at the same time.
+2011-01-19 05:35:08	John-Galt	Keypress handling is too slow now.
+2011-01-19 05:36:55	milant	ok. here's another one....
+2011-01-19 05:37:42	milant	this gives an error of "invalid option" :noremap - zo
+2011-01-19 05:37:56	milant	yet "noremap + zo" works fine
+2011-01-19 05:38:13	milant	is - reserved in vim?
+2011-01-19 05:38:28	John-Galt	That's because - starts an option. You need to quote it.
+2011-01-19 05:39:34	thesnowdog	John-Galt: I guess so...
+2011-01-19 05:41:17	milant	ah, ok.
+2011-01-19 05:41:31	milant	worked. that was user error then. thnx again.
+2011-01-19 06:06:06	CIA-6	Kris Maglione <maglione.k@gmail.com> * 4c589aaea350ad4831a10957f3a02dfd88647031 /common/content/ (events.js mappings.js) Speed up map processing considerably via a piece of a patch I've had sitting around for ages.
+2011-01-19 06:06:51	 *	John-Galt doesn't really understand why it slowed down so much, anyway...
+2011-01-19 06:06:56	John-Galt	Should benchmark.
+2011-01-19 06:24:19	milant	what is the diff between "map <C-k> -ex open javascript:function....." and "map <C-k> :open javascript:function...."?
+2011-01-19 06:25:06	milant	also, should the javascript bookmarklets be opened with the -js option?
+2011-01-19 06:25:23	John-Galt	The former is much more efficient and reliable. The latter acts exactly as if you'd typed all of those keys.
+2011-01-19 06:25:40	John-Galt	Bookmarklets should be opened like any other bookmarks.
+2011-01-19 06:29:56	milant	ok. for debugging/feedback, is the best thing to just crank verbose=infinity? or 15...? :P
+2011-01-19 06:31:03	John-Galt	Possibly...
+2011-01-19 06:36:48	CIA-6	Kris Maglione <maglione.k@gmail.com> * 9c0ec4206dca354204ab91093d3d2997dd1aaf1e /common/ (4 files in 2 dirs) Key processing cleanup and bug fixes.
+2011-01-19 06:39:40	milant	ok. i got it. i had a <CR> at the end of the jscript. converting some old vimperator code over to pdactyl
+2011-01-19 06:39:43	milant	thnx again
+2011-01-19 06:42:43	CIA-6	Kris Maglione <maglione.k@gmail.com> * 9c0ec4206dca354204ab91093d3d2997dd1aaf1e /common/ (4 files in 2 dirs) Key processing cleanup and bug fixes.
+2011-01-19 07:07:32	<--	milant (~milant@coltrane.cs.sfu.ca) has quit (Quit: milant)
+2011-01-19 07:17:44	John-Galt	http://www.youtube.com/watch?v=O1Q3jZw4FGs
+2011-01-19 07:17:52	John-Galt	I love Ben Goldacre
+2011-01-19 07:18:21	John-Galt	Actually, that whole program was pretty awesome, but Ben Goldacre especially.
+2011-01-19 07:23:42	thesnowdog	John-Galt: Presumably ":" isn't supposed to close the MOW?
+2011-01-19 07:24:16	John-Galt	Probably not. Does it?
+2011-01-19 07:24:33	John-Galt	I'll be damned. It does. When did that start happening?
+2011-01-19 07:24:54	John-Galt	Probably after you complained about key bindings not working in the MOW like they used to and I "fixed" it...
+2011-01-19 07:33:20	thesnowdog	I don't actually know much about homeopathy.  I don't think it's ever come up in a conversation in my entire life except the aforementioned rants of my friend.
+2011-01-19 07:33:27	 *	thesnowdog thinks he might be keeping reasonable company.
+2011-01-19 07:34:14	CIA-6	Kris Maglione <maglione.k@gmail.com> * 6b469262e28dfae7d7c840c88b71b13963d0db07 /common/ (content/options.js modules/prefs.jsm) Replace prefs.getDefault with prefs.defaults.get, and remove useless private _load/_store methods.
+2011-01-19 07:34:21	-->	_temp_ (~nteex@49.201.36.3) has joined #pentadactyl
+2011-01-19 07:35:19	_temp_	hello guys, how can i open multiple links through extended hint mode?
+2011-01-19 07:35:23	John-Galt	thesnowdog: I didn't know much about it either, except that I knew a lot of people who thought it was a reasonable sort of medicine.
+2011-01-19 07:35:35	John-Galt	Then I found out what it was and I was dumbfounded...
+2011-01-19 07:35:40	John-Galt	_temp_: :h g;
+2011-01-19 07:35:55	_temp_	John-Galt: thanks, i'll see.
+2011-01-19 07:36:37	thesnowdog	John-Galt: Is Goldacre the bloke you mentioned who was sued for critizing chiropractors?
+2011-01-19 07:37:13	John-Galt	He was one of them. Simon Singh was the other. I think Goldacre might have been sued by homeopaths...
+2011-01-19 07:38:00	_temp_	John-Galt: thanks, i was used to vimperator's ;f :)
+2011-01-19 07:38:11	John-Galt	Ah, he got sued by some asshole who he criticized for selling vitamin pills to Africans as a cure for AIDS...
+2011-01-19 07:38:38	thesnowdog	Well it's better than raping white devils I suppose.
+2011-01-19 07:38:52	John-Galt	_temp_: Vimperator's ;F was a horrible idea. Someone sent a patch. I said we shouldn't accept it, but...
+2011-01-19 07:44:09	tlonim	so homeopathy is placebo based ?
+2011-01-19 07:44:37	CIA-6	Kris Maglione <maglione.k@gmail.com> * f6c461d79aaa43dc5f7cb34b2e515dbfdb3a475f /common/content/mappings.js Fix :unmap.
+2011-01-19 07:44:40	John-Galt	homeopathy ≡ placebo
+2011-01-19 07:44:41	thesnowdog	tlonim: It's water based.
+2011-01-19 07:44:47	John-Galt	It's water.
+2011-01-19 07:45:26	thesnowdog	I think I'd always thought it was a seventies thing.  Along with crystals. *shrug*
+2011-01-19 07:46:01	John-Galt	:) There was one scientist who ruined his career by publishing a paper promoting the idea that water has memory (no-one could reproduce the results)...
+2011-01-19 07:46:10	John-Galt	Now :) This is precious...
+2011-01-19 07:46:28	John-Galt	He sells homeopathic remedies that work over the phone and Internet.
+2011-01-19 07:46:46	tlonim	hmm
+2011-01-19 07:46:46	thesnowdog	Oh, I recall that.
+2011-01-19 07:47:03	John-Galt	I almost felt bad for the guy before I found that out.
+2011-01-19 07:47:18	thesnowdog	Apparently it's all in the shaking after each dilution.  I understand now.
+2011-01-19 07:48:02	John-Galt	Yep. Witchcraft.
+2011-01-19 07:48:27	<--	_temp_ (~nteex@49.201.36.3) has left #pentadactyl (WeeChat 0.3.4)
+2011-01-19 07:51:09	tlonim	hehe
+2011-01-19 07:51:23	tlonim	but you know for certain things placebo miraculously works
+2011-01-19 07:51:34	tlonim	we think we are healthy, we will be .. :)
+2011-01-19 07:51:42	tlonim	but it won't work for serious ailments
+2011-01-19 07:52:14	tlonim	may be thats how homeopathy has gained traction
+2011-01-19 07:52:25	tlonim	I have seen it being used mainly for cold related stuff
+2011-01-19 07:54:52	John-Galt	Well, as it happens, a lot of "homeopathic" remedies have actual ingredients. Zicam, for instance, has zinc, which is why it caused people to lose their sense of smell. "Homeopathic" pink eye remedies have boric acid, which is why they actually work.
+2011-01-19 07:56:21	tlonim	i have seen homeopathic treatments being used in places where the side effects of normal medicines are too severe
+2011-01-19 07:56:34	tlonim	which again applies for cough cold related ones
+2011-01-19 08:12:21	thesnowdog	Oprah considers here Aussie experience the most loving of her life. Awww
+2011-01-19 08:12:46	John-Galt	Hmm...
+2011-01-19 08:13:10	John-Galt	She has her own entire TV network now. Somewhat more dismaying to me than her opinion of Australia...
+2011-01-19 08:14:02	thesnowdog	John-Galt: You should come here -- we can love you too.
+2011-01-19 08:16:42	John-Galt	Heh. I think not. I've heard about the kind of rubbish you people call beer.
+2011-01-19 08:17:11	 *	thesnowdog thinks all beer is rubbish
+2011-01-19 08:17:33	John-Galt	See. Point proven.
+2011-01-19 08:20:07	iaj	got the error: attempt to execute mapping recursively - got j mapped to : nv j * -builtin 4j  - that's comin up when I keep pressing j
+2011-01-19 08:20:31	tlonim	iaj: nnoremap ?
+2011-01-19 08:20:47	John-Galt	Interesting. And: fuck, because I merged that change into the beta branch.
+2011-01-19 08:21:01	tlonim	oh..something broke ?
+2011-01-19 08:21:13	John-Galt	Ah, we're good. It works as expected.
+2011-01-19 08:22:06	iaj	thanks for the nnoremap hint.
+2011-01-19 08:22:15	<--	Monkey (78106694@ircip1.mibbit.com) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2011-01-19 08:22:23	John-Galt	Don't be silly. That's what -builtin does.
+2011-01-19 08:25:46	iaj	Huh?
+2011-01-19 08:26:14	John-Galt	:map -builtin does the same thing as :noremap
+2011-01-19 08:26:59	tlonim	ah.yes.. builtin thing does same
+2011-01-19 08:35:53	 *	thesnowdog wonders if the intro page should contain a brief "Migrating from that other extension" section
+2011-01-19 08:36:02	-->	a13ph (5f1f048c@ircip1.mibbit.com) has joined #pentadactyl
+2011-01-19 08:36:17	John-Galt	Blech. I thought about adding a faq.
+2011-01-19 08:36:48	iaj	Hmm, I still got the recursively problem - oh well I'll just stick to C-f C-b
+2011-01-19 08:37:00	 *	John-Galt considers adding site-specific mapping hives before he goes to bed...
+2011-01-19 08:37:06	iaj	but another question.. is that one easily adaptable to dactyl??  http://paste.pocoo.org/show/323106
+2011-01-19 08:37:16	iaj	Oh John-Galt what an idea:))) Please do ! :)
+2011-01-19 08:37:26	John-Galt	Ugh. You people will be the death of me.
+2011-01-19 08:37:28	John-Galt	:)
+2011-01-19 08:37:40	iaj	Thats exactly the thing I'm looking for atm :)
+2011-01-19 08:37:49	tlonim	http://matt.might.net/articles/compiling-up-to-lambda-calculus/images/y_combinator.jpg some pic !
+2011-01-19 08:38:01	thesnowdog	John-Galt: Well I thought it would be more 'competitive' in the help.
+2011-01-19 08:38:06	iaj	tlonim: lawl
+2011-01-19 08:38:35	tlonim	i have heard of other folks tattooing equations on their hand/body and stuff
+2011-01-19 08:38:38	John-Galt	thesnowdog: But the FAQs *are* in the help...
+2011-01-19 08:38:57	thesnowdog	John-Galt: Oh, yeah.
+2011-01-19 08:39:23	 *	thesnowdog wonders what a "just before bed" implementation might break over night
+2011-01-19 08:39:25	John-Galt	tlonim: I think I saw that on The Loom. I'm not above copyint it...
+2011-01-19 08:39:59	John-Galt	thesnowdog: Probably quite a lot of stuff. Which means I'll have some time to fix it before the nightly comes out.
+2011-01-19 08:40:24	thesnowdog	John-Galt: When does the nightly go out for the record.
+2011-01-19 08:40:29	 *	thesnowdog could look he guesses
+2011-01-19 08:40:59	John-Galt	iaj: Oh, I didn't even realize that was what you pasted...
+2011-01-19 08:41:12	John-Galt	thesnowdog: 0:00UTC
+2011-01-19 08:41:24	iaj	John-Galt: i know - what a timing :D
+2011-01-19 08:41:45	iaj	You were 6 seconds before me :-(
+2011-01-19 08:42:35	thesnowdog	John-Galt: :)
+2011-01-19 08:47:00	thesnowdog	Hmmm, my console is telling me to "KILL, KILL, KILL!"...or is it just the voices again?
+2011-01-19 08:48:19	John-Galt	Oh. I thought I'd removed them...
+2011-01-19 08:48:44	thesnowdog	...just trying to be amusing.
+2011-01-19 08:50:09	John-Galt	Yeah, they're amusing sometimes. But those usually aren't the times when they're shouting "KILL, KILL, KILL".
+2011-01-19 08:51:47	iaj	How could I map jj to <esc> in textareas?
+2011-01-19 08:51:56	iaj	or input fields in general :-)
+2011-01-19 08:52:00	John-Galt	Probably with :tmap jj <Esc>
+2011-01-19 08:53:57	iaj	Thanks John-Galt !   And another question would be, I know you don't like them, but is there a way to have quickmark opened in background tab?
+2011-01-19 08:54:20	John-Galt	:help 'activate'
+2011-01-19 08:55:50	iaj	mhhh ok... so Id need to switch modes every time...  Thanks
+2011-01-19 08:57:04	 *	John-Galt wonders why there's no gN...
+2011-01-19 08:57:13	thesnowdog	tstrycova
+2011-01-19 08:57:17	thesnowdog	Oops
+2011-01-19 08:57:42	John-Galt	22:46  * thesnowdog finds cryp abbs cryp
+2011-01-19 08:58:45	iaj	John-Galt: heh... wondered too :)
+2011-01-19 08:59:49	thesnowdog	Well it was supposed to be :t strycova
+2011-01-19 08:59:54	thesnowdog	She's a tennis player.
+2011-01-19 09:00:54	thesnowdog	...playing our Australian-again Dokic.
+2011-01-19 09:00:59	iaj	And playing soon.
+2011-01-19 09:01:44	thesnowdog	Hmmm, on court now and I need to buy some sausages for the BBQ first. My life is so very hard.
+2011-01-19 09:02:12	thesnowdog	Yay for pause.
+2011-01-19 09:18:53	<--	legreffier (~foobar@ks368560.kimsufi.com) has quit (Read error: Connection reset by peer)
+2011-01-19 09:18:53	-->	legreffier (~foobar@ks368560.kimsufi.com) has joined #pentadactyl
+2011-01-19 09:21:40	<--	zeltak (~zeltak@c-71-232-79-56.hsd1.ma.comcast.net) has quit (Ping timeout: 480 seconds)
+2011-01-19 09:39:14	iaj	Ohh you'r from australia - I wondered what time you gonna go for BBQ :D
+2011-01-19 09:49:03	-->	Monkey (78103eb0@ircip2.mibbit.com) has joined #pentadactyl
+2011-01-19 09:56:49	CIA-6	Kris Maglione <maglione.k@gmail.com> * bab280d85eebaa812a4dfdb668c1e6eea12d6e93 /common/ (7 files in 2 dirs) Add as-yet undocumented site-specific mapping hives, :map -group flag, and :mapgroup command.
+2011-01-19 09:56:52	CIA-6	Kris Maglione <maglione.k@gmail.com> * bab280d85eebaa812a4dfdb668c1e6eea12d6e93 /common/ (7 files in 2 dirs) Add as-yet undocumented site-specific mapping hives, :map -group flag, and :mapgroup command.
+2011-01-19 09:58:07	 *	John-Galt seriously considers ditching CIA-6 for eris_prime...
+2011-01-19 09:59:53	iaj	John-Galt: hmmm cool! Thanks!
+2011-01-19 10:00:12	iaj	Could you gimme an example
+2011-01-19 10:02:35	John-Galt	Huh? It's *undocumented*...
+2011-01-19 10:02:54	John-Galt	Oh, bugger it.
+2011-01-19 10:03:07	John-Galt	:mapgroup google-docs docs.google.com
+2011-01-19 10:03:17	John-Galt	:map j -ex do-stuff
+2011-01-19 10:03:19	John-Galt	:mapgroup user
+2011-01-19 10:03:32	John-Galt	:map -group google-docs J -ex do-other-stuff
+2011-01-19 10:05:36	CIA-6	Kris Maglione <maglione.k@gmail.com> * 210eb812cacf7b906af94579b2f490aed6218b2e /common/content/mappings.js Add forgotten dequote call.
+2011-01-19 10:07:48	iaj	thanks man
+2011-01-19 10:08:12	iaj	so the docs.google.com is just the url or some kind of regexp?
+2011-01-19 10:12:16	John-Galt	If it starts with a ^ it's a regexp, otherwise it follows the same rules as stylesheet filters.
+2011-01-19 10:13:19	tlonim	is this the new key hive thing ?
+2011-01-19 10:14:36	-->	iaj_ (~iaj@clientssh1.rbg.informatik.tu-darmstadt.de) has joined #pentadactyl
+2011-01-19 10:15:36	<--	iaj_ (~iaj@clientssh1.rbg.informatik.tu-darmstadt.de) has quit
+2011-01-19 10:19:46	John-Galt	Something to that effect.
+2011-01-19 10:21:59	iaj	mapgroup youtube ^http:\/\/www\.youtube\.(com|de)\/(watch|user)
+2011-01-19 10:22:02	iaj	is that correct?
+2011-01-19 10:22:45	-->	zeltak (~zeltak@c-71-232-79-56.hsd1.ma.comcast.net) has joined #pentadactyl
+2011-01-19 10:23:03	iaj	seems alike:)
+2011-01-19 10:25:34	John-Galt	You don't need to write \/. An ordinary / is good enough. But you need to quote it.
+2011-01-19 10:26:52	iaj	Ahhw.. ok.. thanks :)   could I map to an ex command pre-entered (not yet <CR>d) to the command line?
+2011-01-19 10:27:23	John-Galt	Huh?
+2011-01-19 10:28:19	iaj	-ex :fafa    would execute the :fafa already
+2011-01-19 10:28:33	iaj	I want to be on the command line with the line prefilled with something :D
+2011-01-19 10:29:22	John-Galt	So leave out the -ex.
+2011-01-19 10:32:36	iaj	How could I overwrite noremapped keys?
+2011-01-19 10:32:59	<--	a13ph (5f1f048c@ircip1.mibbit.com) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2011-01-19 10:33:37	iaj	Hmmm my mapgroup is working globally on all pages
+2011-01-19 10:33:43	John-Galt	The same way as any other keys?
+2011-01-19 10:34:48	iaj	mapgroup youtube '^http:\\www\.youtube\.(com|de)\/(watch|user)'
+2011-01-19 10:34:58	iaj	. // srry
+2011-01-19 10:38:33	iaj	just www.youtube.com works.. mh well sufficient :)
+2011-01-19 12:52:46		irc: disconnected from server
+2011-01-19 13:24:22	=!=	irc: you are not connected to server
+2011-01-21 20:31:18	-->	quesada (~quesada@e179046136.adsl.alicedsl.de) has joined #pentadactyl
+2011-01-21 20:31:18	--	Topic for #pentadactyl is "Pentadactyl: Firefox for Vim junkies - http://dactyl.sf.net/pentadactyl/faq - Entropy"
+2011-01-21 20:31:18	--	Topic set by ChanServ (services@services.oftc.net) on Wed, 12 Jan 2011 16:41:12
+2011-01-21 20:31:18	--	Nicks #pentadactyl: [@FloodServ +CIA-6 +eris_prime aksr anekos bitdancer Chousuke emaz hoax_ iaj iaj_ j0su3 John-Galt Kaptenen legreffier mahlon mcbeth mikebling milant Monkey oeuftete peetah_ procto quesada Rasi remi ricky rogutes rsFF sp3ctum stepnem tlonim zeltak]
+2011-01-21 20:31:18	--	Channel #pentadactyl: 33 nicks (1 op, 0 halfops, 2 voices, 30 normals)
+2011-01-21 20:31:20	--	Channel created on Wed, 22 Sep 2010 04:32:47
+2011-01-21 20:32:09	<--	iaj_ (~iaj@euve20098.vserver.de) has left #pentadactyl
+2011-01-21 20:35:21	-->	thrope (~thrope@stgt-5f73a9f2.pool.mediaWays.net) has joined #pentadactyl
+2011-01-21 20:40:07	quesada	hi, is there a good solution for getting the j/k scroll as smooth as 'yet another smooth scroll'?
+2011-01-21 20:40:35	quesada	I tried https://github.com/vimpr/vimperator-plugins/blob/master/_smooziee.js but I don't see any difference
+2011-01-21 20:41:22	+CIA-6	Štěpán Němec <stepnem@gmail.com> * 98c187e089dc9f26baa964757109c0464e1e220b /common/content/dactyl.js Fix the :toolbar* commands. Closes issue #288.
+2011-01-21 20:41:22	+eris_prime	Bug http://dactyl.sf.net/bug/288 ---, Fixed, Defect, Medium, toolbar* commands do not work
+2011-01-21 20:43:16	<--	thrope (~thrope@stgt-5f73a9f2.pool.mediaWays.net) has quit (Quit: thrope)
+2011-01-21 20:55:47	+CIA-6	Štěpán Němec <stepnem@gmail.com> * 2658a459bb764ab4c82aa55ebcdd3190924273b1 /common/content/hints.js Fix a util.evaluateXPath invocation invalidated by revision 758a3a31518f.
+2011-01-21 21:01:40	--	rsFF is now known as Guest1103
+2011-01-21 21:01:46	-->	rsFF (~rsFF@2.80.16.184) has joined #pentadactyl
+2011-01-21 21:03:29	<--	Guest1103 (~rsFF@bl15-18-142.dsl.telepac.pt) has quit (Ping timeout: 480 seconds)
+2011-01-21 21:03:50	-->	thrope (~thrope@stgt-5f73a9f2.pool.mediaWays.net) has joined #pentadactyl
+2011-01-21 21:06:15	stepnem	John-Galt, Monkey: Let's close issue 269, too. I don't use sidebars, but I don't find the alternative :sidebar suggestions persuasive (the person didn't even notice :sbclose reading :h :sidebar).
+2011-01-21 21:06:16	+eris_prime	Bug http://dactyl.sf.net/bug/269 ---, New, Enhancement, Medium, :sidebar! could open/close the sidebar
+2011-01-21 21:14:24	milant	stepnem: i saw the sidebar req earlier too, i remember i was looking for something similar at the time. it would seem easier to have a simple default :sidebar and :sidebar! boolean toggle
+2011-01-21 21:14:48	stepnem	!@#$$*)
+2011-01-21 21:22:33	milant	:P
+2011-01-21 21:23:24	milant	it felt like the natural thing to look for. i have a feeling it'll be a frequently made request.
+2011-01-21 21:24:35	milant	stepnem: :sidebar has no utility for me either, but it was one of the first things i grokked for in the beginning
+2011-01-21 21:25:54	stepnem	milant: It's not like you can't define your own command in terms of :sidebar and :sbclose.
+2011-01-21 21:26:38	milant	stepnem: right. NOW i know. but in the beginning i wasn't familiar in terms of the vim conventions.
+2011-01-21 21:27:03	milant	stepnem: i'm indifferent really. just saying that u might get others making the same request.
+2011-01-21 21:27:08	stepnem	You should make yourself familiar before requesting features based on your unfamiliarity.
+2011-01-21 21:27:34	stepnem	As I said, the guy didn't even notice :sbclose at all.
+2011-01-21 21:27:56	milant	stepnem: ya, i didn't make it. :P
+2011-01-21 21:29:17	milant	stepnem: in general, if it FEELS like a boolean command, i think the default action should be :cmd and :cmd! with everything else optional whipped cream and cherries
+2011-01-21 21:30:41	stepnem	Well, we can just make :sidebar! do the same as :sbclose.
+2011-01-21 21:30:54	stepnem	Wouldn't hurt I guess.
+2011-01-21 21:31:43	milant	stepnem: i had the same problem earlier today with the "Zoom Text Only" command where i had a hard time finding it because they were receiving values rather than being a straightfoward :set! zoomTextOnly that matched the menu state and functionality.
+2011-01-21 21:32:09	milant	stepnem: but in that case it's more a documentation issue. i couldn't find it in my search
+2011-01-21 21:32:44	stepnem	milant: What documentation issue? :h zoom
+2011-01-21 21:33:49	milant	stepnem: exactly. i associated that with "zoom in" and zoom out", and i was looking for "zoom text only" and its permutations
+2011-01-21 21:34:58	stepnem	Come on. The documentation specifically says "text zoom" as opposed to "full zoom"
+2011-01-21 21:35:27	milant	stepnem: like i said, in the ffox menu it's a boolean, yet in the docs it's a hybridized continuous value. but really, all that was needed was something beside the cmd that mentioned "zoom text only".
+2011-01-21 21:36:13	milant	stepnem: ya, it's obvious after. but i was skimming thru looking for the actual text,. not doing a close reading. it happens. :(
+2011-01-21 21:36:48	stepnem	I think what is needed is that you start thinking a bit about what you read instead of sticking to your assumptions about everything.
+2011-01-21 21:41:17	milant	stepnem: ha. no i'm just playing devil's advocate here, trying to show what it looks like from an outsider's perspective who isn't familiar with the internals all that much.
+2011-01-21 21:43:02	milant	stepnem: it's not a big deal, really. i'm just saying there's a couple small things that we could do to minimize the learning curve. you guys have been VERY helpful to me. and i'd like to repay it towards future users and minimize the main points of friction that i went thru. just sharing some insight, that's all.
+2011-01-21 22:23:36	stepnem	Ugh, that noscript plugin really gives people headaches, doesn't it... :-P
+2011-01-21 22:42:32	-->	misha (~misha@194.143.148.26) has joined #pentadactyl
+2011-01-21 23:20:56	<--	thrope (~thrope@stgt-5f73a9f2.pool.mediaWays.net) has quit (Quit: thrope)
+2011-01-21 23:32:38	<--	aksr (~aksr@109.228.87.80) has quit (Quit: Leaving)
+2011-01-21 23:34:45	<--	j0su3 (~Victor@187.20.205.128) has quit (Quit: Ex-Chat)
+2011-01-21 23:50:10	quesada	hmm... you are on hacker news : http://news.ycombinator.com/item?id=2127209
+2011-01-21 23:50:18	quesada	congrats
+2011-01-22 00:05:57	milant	and reddit too
+2011-01-22 00:06:15	quesada	it's the coming of age of pdactly
+2011-01-22 00:06:28	quesada	s/pdactly/pdactyl
+2011-01-22 00:15:55	-->	thrope (~thrope@stgt-5f73a9f2.pool.mediaWays.net) has joined #pentadactyl
+2011-01-22 00:17:52	-->	patrick85 (~patrick85@ppp-88-217-41-129.dynamic.mnet-online.de) has joined #pentadactyl
+2011-01-22 00:22:04	<--	patrick85 (~patrick85@ppp-88-217-41-129.dynamic.mnet-online.de) has quit (Remote host closed the connection)
+2011-01-22 00:22:50	-->	patrick85 (~patrick85@ppp-88-217-41-129.dynamic.mnet-online.de) has joined #pentadactyl
+2011-01-22 00:24:52	<--	patrick85 (~patrick85@ppp-88-217-41-129.dynamic.mnet-online.de) has quit (Remote host closed the connection)
+2011-01-22 00:28:17	John-Galt	Oh, weird, I thought I found all the evaluateXPath calls.
+2011-01-22 00:28:29	John-Galt	God, that function really needs to be renamed.
+2011-01-22 00:29:35	John-Galt	How does one "grok for" something?
+2011-01-22 00:31:29	<--	misha (~misha@194.143.148.26) has quit (Quit: misha)
+2011-01-22 00:32:08	 *	John-Galt doesn't understand what's so hard to understand about the NoScript plugin.
+2011-01-22 00:32:22	-->	misha (~misha@194.143.148.26) has joined #pentadactyl
+2011-01-22 00:32:26	<--	misha (~misha@194.143.148.26) has quit
+2011-01-22 00:33:05	<--	thrope (~thrope@stgt-5f73a9f2.pool.mediaWays.net) has quit (Quit: thrope)
+2011-01-22 00:34:31	-->	patrick85 (~patrick85@ppp-88-217-41-129.dynamic.mnet-online.de) has joined #pentadactyl
+2011-01-22 00:37:22	-->	misha (~misha@194.143.148.26) has joined #pentadactyl
+2011-01-22 00:37:23	<--	misha (~misha@194.143.148.26) has quit
+2011-01-22 00:37:52	zeltak	just found out about uzbl..anyone used it before .you know in the 'know your ememy' sense ;-)?
+2011-01-22 00:38:23	John-Galt	Not my enemy.
+2011-01-22 00:38:30	zeltak	heheh i was joking on that part :)
+2011-01-22 00:38:41	<--	patrick85 (~patrick85@ppp-88-217-41-129.dynamic.mnet-online.de) has quit (Remote host closed the connection)
+2011-01-22 00:38:55	zeltak	looks incredibly hard to setup but the dl scripts look cool
+2011-01-22 00:40:50	zeltak	so have you used it John-Galt ?
+2011-01-22 00:41:26	-->	iaj_ (~iaj@euve20098.vserver.de) has joined #pentadactyl
+2011-01-22 00:41:37	John-Galt	No. I've looked at it. Seems alright for what it is.
+2011-01-22 00:42:23	zeltak	gotcha
+2011-01-22 00:44:01	<--	iaj (~iaj@ip-81-210-159-110.unitymediagroup.de) has quit (Quit: leaving)
+2011-01-22 00:44:35	<--	iaj_ (~iaj@euve20098.vserver.de) has quit
+2011-01-22 00:44:47	-->	iaj (~iaj@euve20098.vserver.de) has joined #pentadactyl
+2011-01-22 00:46:58	-->	patrick85 (~patrick85@ppp-88-217-41-129.dynamic.mnet-online.de) has joined #pentadactyl
+2011-01-22 00:58:49	<--	patrick85 (~patrick85@ppp-88-217-41-129.dynamic.mnet-online.de) has quit (Remote host closed the connection)
+2011-01-22 01:24:06	-->	winn (~winn@adsl-070-145-243-023.sip.ard.bellsouth.net) has joined #pentadactyl
+2011-01-22 01:25:29	winn	Using a command like ":emenu " with a space brings up a long list. How do I page down?
+2011-01-22 01:26:24	Chousuke	use tab or type something to narrow down the options
+2011-01-22 01:29:13	winn	Chousuke: but that leaves me still in the command
+2011-01-22 01:29:29	John-Galt	Page down in the completion list is a TODO. But it's a lot of work.
+2011-01-22 01:30:21	winn	John-Galt: OK thanks.
+2011-01-22 01:30:21	John-Galt	(although I don't see the problem here)
+2011-01-22 01:31:03	 *	John-Galt considers closing #268...
+2011-01-22 01:31:11	John-Galt	Hmm... #268 ?
+2011-01-22 01:31:19	John-Galt	bug 260, then.
+2011-01-22 01:31:19	+eris_prime	Bug http://dactyl.sf.net/bug/260 ---, Fixed, Defect, Medium, Bug with j, k, CTRL-D
+2011-01-22 01:31:34	John-Galt	Blech. eris_prime :(
+2011-01-22 01:31:37	John-Galt	bug 268
+2011-01-22 01:31:38	+eris_prime	Bug http://dactyl.sf.net/bug/268 ---, New, Defect, Medium, Tabs fail to be deleted by "d"
+2011-01-22 01:31:42	 *	John-Galt could do with some more coffee.
+2011-01-22 01:32:22	winn	John-Galt: Let's say I want to get to View.Zoom.Reset but I don't remember that the pulldown menu is called View.
+2011-01-22 01:32:25	 *	John-Galt wonders why saying #268 doesnot work... it should.
+2011-01-22 01:32:40	John-Galt	winn: :emenu zoom<Tab>
+2011-01-22 01:33:32	winn	John-Galt: That works if I remember it's called "zoom".
+2011-01-22 01:34:14	John-Galt	What else would it be called?
+2011-01-22 01:34:23	John-Galt	Anyway, see :help :zoom
+2011-01-22 01:35:15	John-Galt	Am I missing something here? >{FILTER'.* ((bug|issue) +#?([0-9]+).*| #([0-9]+( |$))),\4 \5,p' | LINES {
+2011-01-22 01:35:29	 *	John-Galt things saying #268 should work.
+2011-01-22 01:38:39	winn	John-Galt: "enlarge text", I don't know. Glad to know it's a Todo anyway. Thanks.
+2011-01-22 01:39:41	John-Galt	Weird. I'd never think to call it anything but zoom. Although :em text<Tab> will still get you there.
+2011-01-22 01:41:35	winn	John-Galt: I didn't realize it was so flexible. Maybe I don't even need  :emenu
+2011-01-22 01:43:49	winn	I see.  :em  IS  :emenu
+2011-01-22 01:49:22	John-Galt	Heh
+2011-01-22 01:49:43	Monkey	John-Galt: Did you like Gervais' "...and finally thank you God...for making me an Atheist"?
+2011-01-22 01:51:53	John-Galt	Monkey: Heh. It gave me a brief laugh, but I didn't think that much of it to be honest. It's just Gervais being Gervais.
+2011-01-22 01:52:13	John-Galt	But I've been meaning to watch the awards show. I heard he was pretty good through most of it.
+2011-01-22 01:53:05	John-Galt	Admittedly, it takes balls to say something like that to an American audience, and it was good in context given how many people thank god or Jesus in their acceptance speeches.
+2011-01-22 01:53:28	Monkey	I was just watching the Piers Morgan interview with him.
+2011-01-22 01:54:06	John-Galt	Ugh. Why would you watch Piers Morgan do anything?
+2011-01-22 01:54:32	Monkey	I can't seem to stomach award shows anymore.  I liked them quite a bit when I was a kid.
+2011-01-22 01:54:47	Monkey	John-Galt: Err, because his guests are interesting????
+2011-01-22 01:55:09	John-Galt	Are they? Hard to believe given how deathly dull he is.
+2011-01-22 01:55:17	 *	John-Galt can't stomach award shows either.
+2011-01-22 01:55:40	John-Galt	I was just going to watch the good bits, whichever they are. Certainly not the acceptance speeches or most of the presenters.
+2011-01-22 01:57:04	John-Galt	My sister and her husband are apparently switching to a homeopathic "doctor"... :(
+2011-01-22 01:57:12	 *	John-Galt bites his tongue hard.
+2011-01-22 01:57:47	Monkey	John-Galt: I do understand why your thoughts on these matters border on the pathological.  I don't actually have to deal with any of them on a daily basis. :)
+2011-01-22 01:58:15	John-Galt	:)
+2011-01-22 01:58:41	 *	Monkey should probably expand his social circle to include more freaks
+2011-01-22 02:00:15	John-Galt	Heh. I don't think I've had many friends who would go in for that kind of crap. Unfortunately, you can't choose your family the same way you choose your friends...
+2011-01-22 02:01:02	John-Galt	Then again, I don't bite my tongue the same way with friends as I do with family, and I think that some of them would be scared to mention visiting a homeopath in my presence...
+2011-01-22 02:02:23	John-Galt	Hm. But as I'm in the central boondocks of Florida now, I don't have any friends who are ever actually in my presence very often... I need to get out of here.
+2011-01-22 02:03:00	 *	John-Galt wonders whether it would be worth teaching the syntax files to recognize options and such...
+2011-01-22 02:03:09	John-Galt	Looking at vim.vim it seems like too damned much work.
+2011-01-22 02:17:51	 *	Monkey explicitly chose to delete most of his family
+2011-01-22 02:18:30	John-Galt	Heh. Does that make you a sociopath or just an ordinary serial killer?
+2011-01-22 02:19:18	Monkey	I just makes me happy.
+2011-01-22 02:19:25	Monkey	It
+2011-01-22 02:20:13	John-Galt	Probably sociopath, then. Possibly psychopath. I've never been entirely clear on the distinction.
+2011-01-22 02:21:59	John-Galt	Hm. :auto_view text/html is somewhat nice.
+2011-01-22 02:22:08	John-Galt	Makes me happier.
+2011-01-22 02:32:22	Monkey	You're just bitter that your sister didn't have the balls to follow through on her attempted deletion of yourself. ;)
+2011-01-22 02:33:06	 *	Monkey has never heard of auto_view?
+2011-01-22 02:34:02	John-Galt	mutt
+2011-01-22 02:34:06	Monkey	John-Galt: Shouldn't cookies plugin be removed?
+2011-01-22 02:34:24	John-Galt	Yeah. I meant to do it the other day but forgot.
+2011-01-22 02:34:25	Monkey	Oh, now I recall.
+2011-01-22 02:35:00	John-Galt	Eh, she's too flaky to alienate anyone for that long.
+2011-01-22 02:38:19	Monkey	John-Galt: Why are you in Florida exactly again? You were working on some project for her husband?
+2011-01-22 02:38:28	Monkey	...sorry my memory is crap these days.
+2011-01-22 02:38:59	Monkey	What's stopping you from heading 'home' other than beer girl?
+2011-01-22 02:40:12	John-Galt	Nah, she was in NJ. I really don't know why I'm in Florida, to be honest, except that I have family here and it's a lot cheaper to live up here.
+2011-01-22 02:40:42	John-Galt	Anyway, I've got to find a new school sometime before the end of the month.
+2011-01-22 02:41:10	Monkey	Any decisions on what you're studying?
+2011-01-22 02:41:40	Monkey	I take it life as a little Googler wasn't looking so promising then? Or can you do both?
+2011-01-22 02:41:44	John-Galt	Probably Physics, Maths, and CS. One major, two minors. Haven't decided which is which yet.
+2011-01-22 02:42:07	John-Galt	I might wind up with an internship at Google. I'll see what I can do about that.
+2011-01-22 02:42:29	Monkey	How does your current education fit into that? Don't you have some CS qualification already?
+2011-01-22 02:42:38	Monkey	The US system always confuses me a bit.
+2011-01-22 02:43:03	John-Galt	Yeah, I have an AAS, which is useless.
+2011-01-22 02:44:09	Monkey	Google is failing me. AAS?
+2011-01-22 02:44:59	John-Galt	Associates in Arts and Sciences
+2011-01-22 02:46:09	John-Galt	Could be Associates in Applied Sciences, come to think of it.
+2011-01-22 02:46:36	Monkey	:)
+2011-01-22 02:57:51	John-Galt	"I'm not a witch. I'm you."
+2011-01-22 02:57:54	 *	John-Galt shivers...
+2011-01-22 03:00:48	 *	John-Galt really doesn't know why that popped into his head.
+2011-01-22 03:02:09	 *	John-Galt is really annoyed he didn't make the filter arg to :style a flag...
+2011-01-22 03:02:20	John-Galt	I think it'll have to change after 1.0.
+2011-01-22 03:03:51	John-Galt	         urllabel.setAttribute("onclick","webchanges.controller.openURL(\""+pages[i].url+"\");");
+2011-01-22 03:04:00	 *	John-Galt cries when he sees such disasters...
+2011-01-22 03:12:14	milant	John-Galt: i did them all as well. double major. stick with the cs. trust me. :)
+2011-01-22 03:12:52	John-Galt	I'd rather not. I'm more interested in maths and physics. Programming is fine, but CS is deadly dull.
+2011-01-22 03:17:28	-->	SvenG (guckes@kudu.in-berlin.de) has joined #pentadactyl
+2011-01-22 03:17:42	John-Galt	Monkey: Do you think pentadactyl.vim should :setlocal comments=n:\\,n:" ?
+2011-01-22 03:18:24	John-Galt	Well, n:\\,n:\" I guess.
+2011-01-22 03:22:39	milant	John-Galt: math/physics just ends up being hackademia anyway. plus it can be a dead-end post-graduation. lots of money/funding dried up once the proposed accelerator in texas didn't go thru.
+2011-01-22 03:23:29	milant	John-Galt: everything has compromises tho. take the good with the bad. just have to figure out what yr willing to sacrifice and what u expect to get.
+2011-01-22 03:23:41	John-Galt	Bollocks.
+2011-01-22 03:36:52	milant	John-Galt: bollocks? what do u mean? i don't get it.
+2011-01-22 03:38:14	milant	John-Galt: 3 or 4 years ago there was quite the exodus of physicists, and many of them transferred over into compsci research. i kid u not.
+2011-01-22 03:39:03	milant	John-Galt: quite a bit of physics is computational modelling and algorithms and data mining and distributed/clustered computing, etc.
+2011-01-22 03:39:28	John-Galt	Sorry... let me rephrase. I'm not especially interested in career advice from random people from the interwebs.
+2011-01-22 03:40:20	milant	John-Galt: lots of overlap between ALL those 3 areas. i'm just saying there's much more sustenance in the compsci as a career if u end up dropping out or being disillusioned with academia.
+2011-01-22 03:41:23	milant	John-Galt: ha. :) no problem. i understand. it's cool. just sharing what i've seen, heard, and been thru myself. i ain't selling anything. no worries there. :)
+2011-01-22 03:42:23	milant	John-Galt: what r yr areas of interest in math and physics?
+2011-01-22 03:48:26	John-Galt	I don't have any especial areas of interest, I just enjoy studying them.
+2011-01-22 03:48:46	John-Galt	In general.
+2011-01-22 03:56:17	milant	John-Galt: ya. a lot of it is interesting. always seems like there's never enough time in the day tho to go thru it all.
+2011-01-22 03:56:33	 *	John-Galt wonders what happened to perldoc perlio
+2011-01-22 04:11:15		irc: disconnected from server
+2011-01-22 04:11:56	-->	quesada1 (~quesada@e179047033.adsl.alicedsl.de) has joined #pentadactyl
+2011-01-22 04:11:56	--	Topic for #pentadactyl is "Pentadactyl: Firefox for Vim junkies - http://dactyl.sf.net/pentadactyl/faq - Entropy"
+2011-01-22 04:11:56	--	Topic set by ChanServ (services@services.oftc.net) on Wed, 12 Jan 2011 16:41:12
+2011-01-22 04:11:56	--	Nicks #pentadactyl: [@FloodServ +CIA-6 +eris_prime anekos bitdancer Chousuke emaz hoax_ iaj John-Galt Kaptenen legreffier mahlon mcbeth mikebling milant Monkey oeuftete peetah_ procto quesada quesada1 Rasi remi ricky rogutes rsFF sp3ctum stepnem SvenG tlonim winn zeltak]
+2011-01-22 04:11:56	--	Channel #pentadactyl: 33 nicks (1 op, 0 halfops, 2 voices, 30 normals)
+2011-01-22 04:11:58	--	Channel created on Wed, 22 Sep 2010 04:32:47
+2011-01-22 04:18:20	<--	quesada (~quesada@e179046136.adsl.alicedsl.de) has quit (Ping timeout: 480 seconds)
+2011-01-22 04:20:11	<--	milant (~milant@coltrane.cs.sfu.ca) has quit (Quit: milant)
+2011-01-22 05:27:57	John-Galt	Why do people always seem to assume that their steps to reproduce will work from a fresh browser session without any unusual settings or startup procedures?
+2011-01-22 05:59:18	SvenG	wishful thinking?
+2011-01-22 08:17:30	<--	iaj (~iaj@euve20098.vserver.de) has quit (Quit: Lost terminal)
+2011-01-22 08:42:55	<--	mahlon (mahlon@martini.nu) has quit (Ping timeout: 480 seconds)
+2011-01-22 09:00:41	-->	aksr (~aksr@109.228.78.115) has joined #pentadactyl
+2011-01-22 09:00:46	-->	mahlon (mahlon@martini.nu) has joined #pentadactyl
+2011-01-22 09:03:31	-->	iaj (~iaj@euve20098.vserver.de) has joined #pentadactyl
+2011-01-22 09:19:43	<--	Monkey (78104576@ircip2.mibbit.com) has quit (Quit: http://www.mibbit.com ajax IRC Client)
+2011-01-22 09:41:26	-->	patrick85 (~patrick85@ppp-188-174-55-22.dynamic.mnet-online.de) has joined #pentadactyl
+2011-01-22 09:43:38	-->	Monkey (7810133b@ircip1.mibbit.com) has joined #pentadactyl
+2011-01-22 10:50:36	+CIA-6	Kris Maglione <maglione.k@gmail.com> * 855b1b541fc162e49a43c9c82c72b4800f4013b4 /common/ (content/bookmarks.js modules/highlight.jsm modules/prefs.jsm) Fix startup when restoring preferences. Closes issue #291.
+2011-01-22 10:50:36	+eris_prime	Bug http://dactyl.sf.net/bug/291 ---, Fixed, Defect, Medium, resource://dactyl-content/modes.js: 189: TypeError: "use strict";prefs is undefined
+2011-01-22 10:58:02	stepnem	--REFRESHER--
+2011-01-22 10:58:06	stepnem	John-Galt, Monkey: Let's close issue 23. It makes no sense. The matches are already clickable and hintable where possible. You can't use hints and type an URL filter at the same time, understandably. John-Galt, Monkey: Let's close issue 269, too. I don't use sidebars, but I don't find the alternative :sidebar suggestions persuasive (the person didn't even notice :sbclose reading :h :sidebar).
+2011-01-22 10:58:06	+eris_prime	Bug http://dactyl.sf.net/bug/269 ---, New, Enhancement, Medium, :sidebar! could open/close the sidebar
+2011-01-22 10:58:27	+CIA-6	Kris Maglione <maglione.k@gmail.com> * c0cb29d8d5b6e6e6ce0bfdf2aa26b914ac68f56c /common/ (4 files in 2 dirs) Make :yank :extensions work as expected.
+2011-01-22 10:59:05	John-Galt	stepnem: I'm not closing 269 yet. I'm going to add a :sbtoggle command. Or possibly just :sb!.
+2011-01-22 10:59:37	John-Galt	issue 23 is, well, I still don't understand what they're asking...
+2011-01-22 10:59:38	+eris_prime	Bug http://dactyl.sf.net/bug/23 ---, Reviewed, Enhancement, Low, Matches should be clickable
+2011-01-22 10:59:57	stepnem	John-Galt: Yeah, as I said yesterday, just adding :sb! as alias to :sbtoggle perhaps?
+2011-01-22 11:00:01	John-Galt	But there are some things that I want to do in the pervue of that bug so I like havint it opened.
+2011-01-22 11:00:11	stepnem	s/sbtoggle/sbclose/
+2011-01-22 11:00:18	stepnem	OK.
+2011-01-22 11:00:48	John-Galt	No, that'd be silly. It'd be fine if it acted like :sbtoggle, although I think I'd probably prefer a separate command.
+2011-01-22 11:00:53	John-Galt	Monkey: ^ ?
+2011-01-22 11:00:57	stepnem	In that case it'd make sense if you changed the summary so it says what the prevue is, though.
+2011-01-22 11:01:02	John-Galt	Yeah.
+2011-01-22 11:01:05	stepnem	prevue
+2011-01-22 11:01:12	stepnem	pervue* :-(
+2011-01-22 11:01:18	John-Galt	Heh
+2011-01-22 11:01:59	stepnem	John-Galt: I think you mean :sbclose? There's no :sbtoggle.
+2011-01-22 11:02:28	stepnem	And the semantics is necessarily different from the toolbar commands, as you can only have one kind of sidebar.
+2011-01-22 11:03:29	stepnem	That's why it seems to me like just making :sb! do :sbclose would make sense.
+2011-01-22 11:03:37	John-Galt	I know there's no :sbtoggle. I said I was adding it.
+2011-01-22 11:03:50	John-Galt	Making :foo! alias to :bar is just silly.
+2011-01-22 11:04:32	stepnem	I don't see how is :sb! = :sbtoggle different from :sb! = :sbclose in that respect.
+2011-01-22 11:06:35	John-Galt	Well, in the case I just wouldn't add a :sbtoggle command.
+2011-01-22 11:08:05	stepnem	OK. Anyway, good to see you have some plans for it, so the issue is not just hanging there.
+2011-01-22 11:09:45	+CIA-6	Kris Maglione <maglione.k@gmail.com> * a9cd60cec12dab6522cd6dff0c5585925363daee /common/ (content/dactyl.js modules/base.jsm modules/prefs.jsm) Use WarningMsg rather than ErrorMsg for deprecation warnings.
+2011-01-22 11:28:38	-->	kennym (~km0r3@190.128.160.214) has joined #pentadactyl
+2011-01-22 11:30:03	+CIA-6	Kris Maglione <maglione.k@gmail.com> * 34034f6ec2fb1ec187c8e18bae0b318435c37ac2 /common/ (content/commandline.js modules/downloads.jsm) Make :downloads mode change handler safer, more co-operative, and less kludgy.
+2011-01-22 11:30:07	 *	John-Galt thinks kludgy is a good word.
+2011-01-22 11:33:05	iaj	John-Galt: btw, I tried yesterday, when I got h in a group mapping, it loses its basic noremaped behaviour.
+2011-01-22 11:40:26	kennym	hi, what is the melodactyl project?
+2011-01-22 11:41:04	kennym	it's not yet listed on the SF project page
+2011-01-22 11:41:13	stepnem	kennym: Vimmy Xulmus abandonware.
+2011-01-22 11:43:08	kennym	stepnem: thx, good to know
+2011-01-22 11:44:51	John-Galt	iaj: No?
+2011-01-22 11:45:47	John-Galt	It's not quite abandoned. I at least get it working again every month or so. :)
+2011-01-22 11:46:38	stepnem	John-Galt: Oh, great. You never said so.
+2011-01-22 11:46:59	John-Galt	Anyway, I'm currently having to deal with the horrible decision to give the FUEL library an app-specific contract ID despite it providing several app-independent interfaces...
+2011-01-22 11:47:56	John-Galt	I need to find another way to get persistent app-global storage between restarts.
+2011-01-22 11:48:37	John-Galt	Actually probably shouldn't be too hard.
+2011-01-22 11:51:13	kennym	what is the easiest way to test changes you did to the Pentadactyl source code in Firefox?
+2011-01-22 11:51:27	kennym	I am working off the hg repo
+2011-01-22 11:51:36	stepnem	kennym: :h :rehash
+2011-01-22 11:52:03	kennym	stepnem: awesome!
+2011-01-22 11:53:42	kennym	Pentadactyl currently cannot know where my development branch is located. How can I specify the location?
+2011-01-22 11:54:04	John-Galt	http://dactyl.sf.net/coding
+2011-01-22 11:59:17	kennym	thanks, I got it working
+2011-01-22 11:59:47	kennym	err... "got it working" or "got it to work"?
+2011-01-22 11:59:58	John-Galt	Either way.
+2011-01-22 11:59:58	stepnem	:-)
+2011-01-22 12:00:53	kennym	Really? Good to know.
+2011-01-22 12:00:54	kennym	thx
+2011-01-22 12:23:12	kennym	is there a way to debug Pentadactyl?
+2011-01-22 12:23:41	John-Galt	Uhm, yes?
+2011-01-22 12:24:55	kennym	Venkman?
+2011-01-22 12:26:03	kennym	A debugger like Firebug would be cool
+2011-01-22 12:26:23	kennym	sorry, I don't know much about Firefox addon development yet
+2011-01-22 12:27:33	kennym	ah! http://stackoverflow.com/questions/1077719/fastest-way-to-debug-firefox-addons-during-development
+2011-01-22 12:29:55	John-Galt	Debugger is a rather vague term... There's Venkman and Chromebug, but I don't use them. There's JS evaluation on the command line and it's easy enough to trace code with dump statements.
+2011-01-22 12:30:13	John-Galt	Debuggers are a royal pain in the arse, and the ones for Firefox just don't work very well.
+2011-01-22 12:31:46	-->	qmp (~qmp@62-2-112-106.static.cablecom.ch) has joined #pentadactyl
+2011-01-22 12:45:31	stepnem	Debuggers a royal pain in the arse? Depends on the language I guess... Being used to Emacs I miss a decent JS debugger very often.
+2011-01-22 12:50:01	stepnem	Dump statements, if anything, are a pain in the arse. ;-)
+2011-01-22 12:53:35	Chousuke	I guess dump statements are nice too when compared to a debugger like venkman. :P Maybe I just suck but I couldn't figure out how to use it effectively at all.
+2011-01-22 12:54:10	Chousuke	and more often than not it would just get stuck :/
+2011-01-22 12:54:11	stepnem	Yeah, me neither :-( But I gave up rather quickly.
+2011-01-22 12:54:13	John-Galt	No, it's just crap.
+2011-01-22 13:13:59	+CIA-6	Kris Maglione <maglione.k@gmail.com> * 54b29e53855a7997fa559fe26036aa75e07614d2 / (4 files in 4 dirs) Add :sidebar!. Closes issue #269.
+2011-01-22 13:14:00	+eris_prime	Bug http://dactyl.sf.net/bug/269 ---, Fixed, Enhancement, Medium, :sidebar! could open/close the sidebar
+2011-01-22 13:21:23	+CIA-6	Kris Maglione <maglione.k@gmail.com> * 54b29e53855a7997fa559fe26036aa75e07614d2 / (4 files in 4 dirs) Add :sidebar!. Closes issue #269.
+2011-01-22 13:21:24	+eris_prime	Bug http://dactyl.sf.net/bug/269 ---, Fixed, Enhancement, Medium, :sidebar! could open/close the sidebar
+2011-01-22 14:14:43	<--	qmp (~qmp@62-2-112-106.static.cablecom.ch) has quit (Ping timeout: 480 seconds)
+2011-01-22 14:38:06	-->	qmp (~qmp@62-2-112-106.static.cablecom.ch) has joined #pentadactyl
+2011-01-22 15:24:23	-->	haxley (~haxley@ip54514e6a.direct-adsl.nl) has joined #pentadactyl
+2011-01-22 15:25:58	haxley	hi @all
+2011-01-22 15:26:11	John-Galt	Hi.
+2011-01-22 15:34:19	<--	qmp (~qmp@62-2-112-106.static.cablecom.ch) has quit (Ping timeout: 480 seconds)
+2011-01-22 15:34:33	<--	kennym (~km0r3@190.128.160.214) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	SvenG (guckes@kudu.in-berlin.de) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	mikebling (~mikebling@99-117-12-192.lightspeed.cicril.sbcglobal.net) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	mcbeth (~mcbeth@cpe-74-69-45-235.rochester.res.rr.com) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	oeuftete (~oeuftete@142.68.133.215) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	mahlon (mahlon@martini.nu) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	tlonim (~raghavend@173.0.58.136) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	John-Galt (~kris@cpe-173-168-35-183.tampabay.res.rr.com) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	ricky (~ricky@c-67-163-211-76.hsd1.pa.comcast.net) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	eris_prime (~eris_prim@cpe-173-168-35-183.tampabay.res.rr.com) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	anekos (~anekos@mail.anekos.info) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	remi (~remi@pourquoi.est-ce.que.remi.utilise.ca) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	patrick85 (~patrick85@ppp-188-174-55-22.dynamic.mnet-online.de) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	zeltak (~zeltak@c-71-232-79-56.hsd1.ma.comcast.net) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	bitdancer (~rdmurray@c-24-62-201-65.hsd1.ma.comcast.net) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	Chousuke (~oranenj@coffee.modeemi.fi) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:34:33	<--	CIA-6 (~CIA@208.69.182.149) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 15:37:02	-->	qmp (~qmp@62-2-112-106.static.cablecom.ch) has joined #pentadactyl
+2011-01-22 15:37:35	-->	patrick85 (~patrick85@ppp-188-174-55-22.dynamic.mnet-online.de) has joined #pentadactyl
+2011-01-22 15:37:35	-->	zeltak (~zeltak@c-71-232-79-56.hsd1.ma.comcast.net) has joined #pentadactyl
+2011-01-22 15:37:35	-->	bitdancer (~rdmurray@c-24-62-201-65.hsd1.ma.comcast.net) has joined #pentadactyl
+2011-01-22 15:37:35	-->	Chousuke (~oranenj@coffee.modeemi.fi) has joined #pentadactyl
+2011-01-22 15:38:35	-->	kennym (~km0r3@190.128.160.214) has joined #pentadactyl
+2011-01-22 15:38:35	-->	SvenG (guckes@kudu.in-berlin.de) has joined #pentadactyl
+2011-01-22 15:38:35	-->	mikebling (~mikebling@99-117-12-192.lightspeed.cicril.sbcglobal.net) has joined #pentadactyl
+2011-01-22 15:38:35	-->	mcbeth (~mcbeth@cpe-74-69-45-235.rochester.res.rr.com) has joined #pentadactyl
+2011-01-22 15:38:35	-->	oeuftete (~oeuftete@142.68.133.215) has joined #pentadactyl
+2011-01-22 15:38:58	-->	CIA-6 (~CIA@208.69.182.149) has joined #pentadactyl
+2011-01-22 15:38:58	--	Mode #pentadactyl [+v CIA-6] by osmotic.oftc.net
+2011-01-22 15:38:59	-->	eris_prime (~eris_prim@cpe-173-168-35-183.tampabay.res.rr.com) has joined #pentadactyl
+2011-01-22 15:38:59	-->	anekos (~anekos@mail.anekos.info) has joined #pentadactyl
+2011-01-22 15:38:59	-->	remi (~remi@pourquoi.est-ce.que.remi.utilise.ca) has joined #pentadactyl
+2011-01-22 15:38:59	--	Mode #pentadactyl [+v eris_prime] by oxygen.oftc.net
+2011-01-22 15:39:05	<--	qmp (~qmp@62-2-112-106.static.cablecom.ch) has quit
+2011-01-22 15:51:02	-->	mahlon (mahlon@martini.nu) has joined #pentadactyl
+2011-01-22 15:51:02	-->	tlonim (~raghavend@173.0.58.136) has joined #pentadactyl
+2011-01-22 15:51:02	-->	John-Galt (~kris@cpe-173-168-35-183.tampabay.res.rr.com) has joined #pentadactyl
+2011-01-22 15:51:02	-->	ricky (~ricky@c-67-163-211-76.hsd1.pa.comcast.net) has joined #pentadactyl
+2011-01-22 16:11:47	+CIA-6	Kris Maglione <maglione.k@gmail.com> * fbd8b911aba1d1fd5fa9cfee1e6ebc637a6b11ad /common/content/ (dactyl.js events.js) Go to irritating lengths to keep the hidden location bar from stealing keyboard focus. Closes issue #292.
+2011-01-22 16:11:47	+eris_prime	Bug http://dactyl.sf.net/bug/292 ---, Fixed, Defect, Medium, Tab bar interferes with command input
+2011-01-22 16:19:45	+CIA-6	Kris Maglione <maglione.k@gmail.com> * fbd8b911aba1d1fd5fa9cfee1e6ebc637a6b11ad /common/content/ (dactyl.js events.js) Go to irritating lengths to keep the hidden location bar from stealing keyboard focus. Closes issue #292.
+2011-01-22 16:19:46	+eris_prime	Bug http://dactyl.sf.net/bug/292 ---, Fixed, Defect, Medium, Tab bar interferes with command input
+2011-01-22 17:30:49	winn	The FireFox bookmarks menu has an option for folders to "show all in tabs". Is there a way to do this in pentadactly?
+2011-01-22 17:31:05	John-Galt	:help :bmarks
+2011-01-22 17:32:03	stepnem	winn: You can open several bookmarks in tabs. Pentadactyl has no support for folders, though, AFAIK.
+2011-01-22 17:32:16	John-Galt	Just tags.
+2011-01-22 17:33:29	-->	aN-Dy878 (~co_ajak_c@19NAAEEWV.tor-irc.dnsbl.oftc.net) has joined #pentadactyl
+2011-01-22 17:33:29	<--	aN-Dy878 (~co_ajak_c@19NAAEEWV.tor-irc.dnsbl.oftc.net) has left #pentadactyl
+2011-01-22 17:33:31	winn	stepnem: Thanks.
+2011-01-22 17:52:22	-->	scp1 (~dmz@s83-177-28-44.cust.tele2.se) has joined #pentadactyl
+2011-01-22 17:53:21	scp1	Hello. I want to remap y to yy, so 'yy' would yank the current url. How would I go about doing that? Also, :set laststatus=0 does not work yet, right?
+2011-01-22 17:54:57	John-Galt	:map -b yy y
+2011-01-22 17:55:13	John-Galt	'laststatus' does not exist anymore.
+2011-01-22 17:56:09	scp1	Hm... I thought I saw this in the documentation
+2011-01-22 17:57:11	+CIA-6	Kris Maglione <maglione.k@gmail.com> * f03d519f3da29509ff168227819894a4399ebf10 /common/content/events.js Fix last commit.
+2011-01-22 17:57:27	scp1	Well, what I want is to hide the statusline/statusbar thingy, is that possible?
+2011-01-22 17:57:53	stepnem	John-Galt: How would one write this so that it would work? 'com! sidebar-redux -complete sidebar -bang -nargs=? if <bang> sbclose else sidebar <args> endif' ('com! sidebar-redux -complete sidebar -bang -nargs=? -js commands.execute(bang ? "sbclose" : "sidebar " + args)' would be a working alternative, but I'm interested in seeing how those damned Ex conditionals are supposed to work)
+2011-01-22 17:57:57	stepnem	scp1: :h 'go
+2011-01-22 17:58:20	scp1	oh!
+2011-01-22 17:58:35	scp1	awesome, thank you all
+2011-01-22 18:01:31	<--	ricky (~ricky@c-67-163-211-76.hsd1.pa.comcast.net) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 18:01:31	<--	John-Galt (~kris@cpe-173-168-35-183.tampabay.res.rr.com) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 18:01:31	<--	mahlon (mahlon@martini.nu) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 18:01:31	<--	tlonim (~raghavend@173.0.58.136) has quit (charon.oftc.net synthon.oftc.net)
+2011-01-22 18:03:04	-->	mahlon (mahlon@martini.nu) has joined #pentadactyl
+2011-01-22 18:03:04	-->	tlonim (~raghavend@173.0.58.136) has joined #pentadactyl
+2011-01-22 18:03:04	-->	John-Galt (~kris@cpe-173-168-35-183.tampabay.res.rr.com) has joined #pentadactyl
+2011-01-22 18:03:04	-->	ricky (~ricky@c-67-163-211-76.hsd1.pa.comcast.net) has joined #pentadactyl
+2011-01-22 18:08:32	-->	MtlGuard (~jk26@114.243.64.28) has joined #pentadactyl
+2011-01-22 18:08:33	<--	MtlGuard (~jk26@114.243.64.28) has left #pentadactyl (independentt@hotmail.com)
+2011-01-22 18:09:33	-->	MtlGuard (~jk26@114.243.64.28) has joined #pentadactyl
+2011-01-22 18:09:33	<--	MtlGuard (~jk26@114.243.64.28) has left #pentadactyl (independentt@hotmail.com)
+2011-01-22 18:12:36	-->	MtlGuard (~jk26@114.243.64.28) has joined #pentadactyl
+2011-01-22 18:12:36	<--	MtlGuard (~jk26@114.243.64.28) has left #pentadactyl (independentt@hotmail.com)
+2011-01-22 18:12:56	-->	MtlGuard (~jk26@114.243.64.28) has joined #pentadactyl
+2011-01-22 18:12:56	<--	MtlGuard (~jk26@114.243.64.28) has left #pentadactyl (independentt@hotmail.com)
+2011-01-22 18:13:44	stepnem	Kind of stormy today.
+2011-01-22 18:14:06	John-Galt	Hmm... A hotmail account...
+2011-01-22 18:14:10	John-Galt	Is that grounds for a ban?
+2011-01-22 18:14:22	stepnem	Nope.
+2011-01-22 18:14:28	John-Galt	Damn.
+2011-01-22 18:14:39	stepnem	John-Galt: Did you get my last message? The question 'bout Ex conditionals?
+2011-01-22 18:14:52	John-Galt	Nope.
+2011-01-22 18:14:59	stepnem	John-Galt: How would one write this so that it would work? 'com! sidebar-redux -complete sidebar -bang -nargs=? if <bang> sbclose else sidebar <args> endif' ('com! sidebar-redux -complete sidebar -bang -nargs=? -js commands.execute(bang ? "sbclose" : "sidebar " + args)' would be a working alternative, but I'm interested in seeing how those damned Ex conditionals are supposed to work)
+2011-01-22 18:15:24	John-Galt	Ugh. Can you put that in a pastebin?
+2011-01-22 18:15:43	stepnem	Sure. :-P
+2011-01-22 18:16:02	stepnem	It's really just one line, though.
+2011-01-22 18:16:19	John-Galt	Oh! ... Can you phrase it as multiple lines, then?
+2011-01-22 18:16:24	stepnem	com! sidebar-redux -complete sidebar -bang -nargs=? if <bang> sbclose else sidebar <args> endif
+2011-01-22 18:16:40	stepnem	That's all. The rest is just babbling.
+2011-01-22 18:17:11	John-Galt	Well, with macros... Sec.
+2011-01-22 18:17:20	-->	MtlGuard (~jk26@114.243.64.28) has joined #pentadactyl
+2011-01-22 18:17:20	<--	MtlGuard (~jk26@114.243.64.28) has left #pentadactyl (independentt@hotmail.com)
+2011-01-22 18:17:27	John-Galt	It'll have to be multiple lines, unfortunately.
+2011-01-22 18:17:27	stepnem	I have no idea how is one supposed to use the Ex conditionals. I tried several kinds of formatting to no avail.
+2011-01-22 18:17:32	stepnem	Yeah, I figured.
+2011-01-22 18:17:37	--	Mode #pentadactyl [+o John-Galt] by ChanServ
+2011-01-22 18:17:48	--	Mode #pentadactyl [+b *!*@114.243.64.28] by John-Galt
+2011-01-22 18:17:51	--	Mode #pentadactyl [-o John-Galt] by John-Galt
+2011-01-22 18:18:35	stepnem	Weird. Does Hotmail have some kind of IRC integration? o_O
+2011-01-22 18:18:51	John-Galt	No, it's a spambot.
+2011-01-22 18:18:58	John-Galt	The part message is the spam.
+2011-01-22 18:19:01	John-Galt	http://pastebin.com/fVvKBMLC
+2011-01-22 18:19:05	John-Galt	That's how I'd write it.
+2011-01-22 18:19:16	stepnem	Heh, really... weird spam.
+2011-01-22 18:19:25	John-Galt	Yeah.
+2011-01-22 18:20:02	stepnem	John-Galt: Does that work? That's what I tried, the only difference being the quoted <bang>
+2011-01-22 18:21:16	John-Galt	Yeah, that'd be the difference. The conditional has to be valid JavaScript. An empty string is false, a quoted bang is true. ! is invalid, though, and I suspect that an empty string wouldn't make :if happy.
+2011-01-22 18:21:36	John-Galt	Yeah, get "Argument required"
+2011-01-22 18:21:44	stepnem	Yeah. Thanks.
+2011-01-22 18:48:24	stepnem	Um, it's annoying that MOW is not scrollable using the mouse wheel. It bites my every time I use :lc.
+2011-01-22 18:48:36	John-Galt	Isn't it?
+2011-01-22 18:48:36	<--	eris_prime (~eris_prim@cpe-173-168-35-183.tampabay.res.rr.com) has quit (Remote host closed the connection)
+2011-01-22 18:49:06	-->	eris_prime (~eris_prim@cpe-173-168-35-183.tampabay.res.rr.com) has joined #pentadactyl
+2011-01-22 18:49:06	<--	eris_prime (~eris_prim@cpe-173-168-35-183.tampabay.res.rr.com) has quit (Remote host closed the connection)
+2011-01-22 18:49:36	John-Galt	Wth...
+2011-01-22 18:50:03	-->	eris_prime (~eris_prim@cpe-173-168-35-183.tampabay.res.rr.com) has joined #pentadactyl
+2011-01-22 18:53:41	<--	kennym (~km0r3@190.128.160.214) has quit (Remote host closed the connection)
+2011-01-22 18:54:25	 *	John-Galt doesn't see why the MOW shouldn't respond to the scroll wheel.
+2011-01-22 18:54:28	<--	aksr (~aksr@109.228.78.115) has quit (Ping timeout: 480 seconds)
+2011-01-22 18:54:43	John-Galt	Then again, I don't see why it shouldn't display title text either, but it doesn't.
+2011-01-22 18:54:57	-->	aksr (~aksr@109.228.73.148) has joined #pentadactyl
+2011-01-22 18:56:44	John-Galt	Actually, yes I do.
+2011-01-22 18:56:50	stepnem	Hm. I guess :bmarks suffers from #293 same as :history does.
+2011-01-22 18:58:04	stepnem	They don't even complete any options at all. :-|
+2011-01-22 18:58:19	John-Galt	Yes they do.
+2011-01-22 18:59:40	stepnem	Ah, I see. It's just that you usually never actually get to them...
+2011-01-22 18:59:50	stepnem	They should be put first IMO, at least after typing -
+2011-01-22 19:00:24	John-Galt	They're supposed to be.
+2011-01-22 19:00:33	John-Galt	Or possibly not.
+2011-01-22 19:00:59	 *	John-Galt incidentally has autocomplete turned off for :hist/:bmarks, so...
+2011-01-22 19:02:19	+CIA-6	Kris Maglione <maglione.k@gmail.com> * 30d4a757584e43c4e5394a073a85910c5e3e680e /common/content/commands.js Fix CommandOption.INT parsing. Closes issue #293.
+2011-01-22 19:02:19	eris_prime	Bug http://dactyl.sf.net/bug/293 ---, Fixed, Defect, Medium, "-max" cannot be used in :history
+2011-01-22 19:03:23	stepnem	BTW, approx. since yesterday I observe noticeable slowness in tab-cycling completions with my standard config, not so sure about +u NONE. Do you have any idea?
+2011-01-22 19:03:57	John-Galt	Have you restarted your browser?
+2011-01-22 19:04:10	stepnem	Yes.
+2011-01-22 19:04:28	John-Galt	Donno then.
+2011-01-22 19:06:07	stepnem	Another thing, shouldn't the empty completion kinds be elided altogether instead of showing an empty headline during completion?
+2011-01-22 19:07:23	+CIA-6	Kris Maglione <maglione.k@gmail.com> * 30d4a757584e43c4e5394a073a85910c5e3e680e /common/content/commands.js Fix CommandOption.INT parsing. Closes issue #293.
+2011-01-22 19:07:24	eris_prime	293
+2011-01-22 19:07:24	eris_prime	Bug http://dactyl.sf.net/bug/293 ---, Fixed, Defect, Medium, "-max" cannot be used in :history
+2011-01-22 19:07:26	-->	patrick8_ (~patrick85@ppp-88-217-48-100.dynamic.mnet-online.de) has joined #pentadactyl
+2011-01-22 19:07:30	John-Galt	They are, unless they have messages.
+2011-01-22 19:08:46	<--	haxley (~haxley@ip54514e6a.direct-adsl.nl) has quit (Quit: Lost terminal)
+2011-01-22 19:09:29	stepnem	Yeah, maybe it's just the display that's broken. I'll post a screenshot if that dratted page loads.
+2011-01-22 19:10:45	stepnem	E.g. this: http://imagebin.org/133872
+2011-01-22 19:11:08	John-Galt	Well, those aren't empty.
+2011-01-22 19:11:42	stepnem	So it's intentional? I though it didn't use to be like this.
+2011-01-22 19:11:46	stepnem	thought*
+2011-01-22 19:11:57	John-Galt	Yes. It's always been like that.
+2011-01-22 19:12:45	<--	patrick85 (~patrick85@ppp-188-174-55-22.dynamic.mnet-online.de) has quit (Ping timeout: 480 seconds)
+2011-01-22 19:12:51	stepnem	OK. I think it's weird.
+2011-01-22 19:14:07	stepnem	It's probably just that I don't usually notice due to my settings or something.
+2011-01-22 19:14:43	John-Galt	Possibly.
+2011-01-22 19:48:10	winn	pentadactyl is might awesome
+2011-01-22 19:58:58	stepnem	I think I don't understand this TODO item: 8 <C-o>/<C-i> should work as in Vim (i.e., save page positions as well as locations in the history list).
+2011-01-22 19:59:11	stepnem	Isn't that already the case with FF history?
+2011-01-22 20:00:51	John-Galt	Huh? No, it means positions on the current page followed by pages in the history stack.
+2011-01-22 20:01:03	stepnem	Oh, I see.
+2011-01-22 20:09:35	John-Galt	God. You'd think that with Chrome doing so many extension-related things the Right Way it wouldn't be such a bloody minded hack.
+2011-01-22 20:09:53	John-Galt	It gets so damned many things completely wrong.
+2011-01-22 20:10:29	John-Galt	And then there's the fact that whatever JS you want running in the background has to go into an HTML document which will never be displayed...
+2011-01-22 20:10:51	stepnem	Hm, this is the first time I hear it does extension-related things the Right Way.
+2011-01-22 20:11:34	John-Galt	Well, in that extensions are all sandboxed, get explicit permissions, and are specification driven via a simple JSON manifest file.
+2011-01-22 20:12:10	stepnem	I see.
+2011-01-22 20:22:11	stepnem	Sigh. I still don't get why it was necessary to wrap the functions inside another function to fix #293.
+2011-01-22 20:22:30	John-Galt	bug 293
+2011-01-22 20:22:30	eris_prime	Bug http://dactyl.sf.net/bug/293 ---, Fixed, Defect, Medium, "-max" cannot be used in :history
+2011-01-22 20:22:53	John-Galt	stepnem: Ah. Because the parsers get a second argument, which parseInt interperets as a base.
+2011-01-22 20:26:07	stepnem	Ah... I was only looking at commands.js:397, there is also commands.js:894.
+2011-01-22 20:26:12	stepnem	John-Galt: Thanks.
+2011-01-22 21:44:13	-->	co_fb_46 (~DOOLCE@9YYAAB4O9.tor-irc.dnsbl.oftc.net) has joined #pentadactyl
+2011-01-22 21:44:14	<--	co_fb_46 (~DOOLCE@9YYAAB4O9.tor-irc.dnsbl.oftc.net) has left #pentadactyl (independentt@hotmail.com)
+2011-01-22 21:45:51	John-Galt	eris_prime: news
+2011-01-22 21:45:51	eris_prime	John-Galt: http://code.google.com/p/dactyl/source/browse/pentadactyl/NEWS
+2011-01-22 21:45:54	-->	co_fb_46 (~DOOLCE@9YYAAB4O9.tor-irc.dnsbl.oftc.net) has joined #pentadactyl
+2011-01-22 21:45:54	<--	co_fb_46 (~DOOLCE@9YYAAB4O9.tor-irc.dnsbl.oftc.net) has left #pentadactyl (independentt@hotmail.com)
+2011-01-22 21:46:18	stepnem	o_O
+2011-01-22 21:46:52	John-Galt	I needed to reply to #295
+2011-01-22 21:46:53	eris_prime	Bug http://dactyl.sf.net/bug/295 ---, Invalid, Defect, Medium, 1.0b5 tab's problem
+2011-01-22 21:47:01	John-Galt	And I felt lazy.
+2011-01-22 21:47:33	stepnem	Yeah, I was oggling the yet another hotmailer.

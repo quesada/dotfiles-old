@@ -1,4 +1,5 @@
 [Style]
-ScrollBarWidth=20
+MenuHighlightMode=MM_STRONG
+ScrollBarWidth=12
 ViewDrawTreeBranchLines=false
 ViewDrawTriangularExpander=true

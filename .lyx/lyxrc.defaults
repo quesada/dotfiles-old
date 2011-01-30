@@ -7,12 +7,10 @@
 \converter latex      dvi        "latex"	"latex"
 \Format tgif       obj     Tgif                   "" "auto"	"auto"	"vector"
 \Format fig        fig     FIG                    "" "auto"	"auto"	"vector"
-\editor_alternatives dia dia
 \Format dia        dia     DIA                    "" "dia"	"dia"	"vector"
-\viewer_alternatives dia dia
 \Format agr        agr     Grace                  "" "auto"	"auto"	"vector"
 \Format fen        fen     FEN                    "" "auto"	"auto"	""
-\Format svg        svg     SVG                    "" "auto" "auto"	"vector"
+\Format svg        svg     SVG                    "" "inkscape" "inkscape"	"vector"
 \Format bmp        bmp     BMP                    "" "auto"	"auto"	""
 \Format gif        gif     GIF                    "" "auto"	"auto"	""
 \Format jpg        jpg     JPEG                   "" "auto"	"auto"	""
@@ -23,86 +21,6 @@
 \Format tiff       tif     TIFF                   "" "auto"	"auto"	""
 \Format xbm        xbm     XBM                    "" "auto"	"auto"	""
 \Format xpm        xpm     XPM                    "" "auto"	"auto"	""
-\editor_alternatives asciichess gvim
-\editor_alternatives asciiimage gvim
-\editor_alternatives asciixfig gvim
-\editor_alternatives dateout gvim
-\editor_alternatives docbook gvim
-\editor_alternatives docbook-xml gvim
-\editor_alternatives dot gvim
-\editor_alternatives platex gvim
-\editor_alternatives literate gvim
-\editor_alternatives sweave gvim
-\editor_alternatives lilypond gvim
-\editor_alternatives lilypond-book gvim
-\editor_alternatives latex gvim
-\editor_alternatives pdflatex gvim
-\editor_alternatives xetex gvim
-\editor_alternatives text gvim
-\editor_alternatives text2 gvim
-\editor_alternatives text3 gvim
-\editor_alternatives text4 gvim
-\editor_alternatives textparagraph gvim
-\editor_alternatives asciichess kwrite
-\editor_alternatives asciiimage kwrite
-\editor_alternatives asciixfig kwrite
-\editor_alternatives dateout kwrite
-\editor_alternatives docbook kwrite
-\editor_alternatives docbook-xml kwrite
-\editor_alternatives dot kwrite
-\editor_alternatives platex kwrite
-\editor_alternatives literate kwrite
-\editor_alternatives sweave kwrite
-\editor_alternatives lilypond kwrite
-\editor_alternatives lilypond-book kwrite
-\editor_alternatives latex kwrite
-\editor_alternatives pdflatex kwrite
-\editor_alternatives xetex kwrite
-\editor_alternatives text kwrite
-\editor_alternatives text2 kwrite
-\editor_alternatives text3 kwrite
-\editor_alternatives text4 kwrite
-\editor_alternatives textparagraph kwrite
-\editor_alternatives asciichess kate
-\editor_alternatives asciiimage kate
-\editor_alternatives asciixfig kate
-\editor_alternatives dateout kate
-\editor_alternatives docbook kate
-\editor_alternatives docbook-xml kate
-\editor_alternatives dot kate
-\editor_alternatives platex kate
-\editor_alternatives literate kate
-\editor_alternatives sweave kate
-\editor_alternatives lilypond kate
-\editor_alternatives lilypond-book kate
-\editor_alternatives latex kate
-\editor_alternatives pdflatex kate
-\editor_alternatives xetex kate
-\editor_alternatives text kate
-\editor_alternatives text2 kate
-\editor_alternatives text3 kate
-\editor_alternatives text4 kate
-\editor_alternatives textparagraph kate
-\editor_alternatives asciichess notepad
-\editor_alternatives asciiimage notepad
-\editor_alternatives asciixfig notepad
-\editor_alternatives dateout notepad
-\editor_alternatives docbook notepad
-\editor_alternatives docbook-xml notepad
-\editor_alternatives dot notepad
-\editor_alternatives platex notepad
-\editor_alternatives literate notepad
-\editor_alternatives sweave notepad
-\editor_alternatives lilypond notepad
-\editor_alternatives lilypond-book notepad
-\editor_alternatives latex notepad
-\editor_alternatives pdflatex notepad
-\editor_alternatives xetex notepad
-\editor_alternatives text notepad
-\editor_alternatives text2 notepad
-\editor_alternatives text3 notepad
-\editor_alternatives text4 notepad
-\editor_alternatives textparagraph notepad
 \Format asciichess asc    "Plain text (chess output)"  "" ""	"gvim"	""
 \Format asciiimage asc    "Plain text (image)"         "" ""	"gvim"	""
 \Format asciixfig  asc    "Plain text (Xfig output)"   "" ""	"gvim"	""
@@ -112,183 +30,56 @@
 \Format dot        dot    "Graphviz Dot"          "" ""	"gvim"	"vector"
 \Format platex     tex    "LaTeX (pLaTeX)"        "" "" "gvim"    "document"
 \Format literate   nw      NoWeb                  N  ""	"gvim"	"document"
-\Format sweave     Rnw    "Sweave"                S  "" "gvim"    "document"
 \Format lilypond   ly     "LilyPond music"        "" ""	"gvim"	"vector"
-\Format lilypond-book    lytex "LilyPond book (LaTeX)"   "" ""	"gvim"	"document"
 \Format latex      tex    "LaTeX (plain)"         L  ""	"gvim"	"document"
 \Format pdflatex   tex    "LaTeX (pdflatex)"      "" ""	"gvim"	"document"
-\Format xetex      tex    "LaTeX (XeTeX)"         "" ""	"gvim"	"document"
 \Format text       txt    "Plain text"            a  ""	"gvim"	"document"
 \Format text2      txt    "Plain text (pstotext)" "" ""	"gvim"	"document"
 \Format text3      txt    "Plain text (ps2ascii)" "" ""	"gvim"	"document"
 \Format text4      txt    "Plain text (catdvi)"   "" ""	"gvim"	"document"
 \Format textparagraph txt "Plain Text, Join Lines" "" ""	"gvim"	"document"
-\viewer_alternatives asciichess gvim
-\viewer_alternatives asciiimage gvim
-\viewer_alternatives asciixfig gvim
-\viewer_alternatives dateout gvim
-\viewer_alternatives docbook gvim
-\viewer_alternatives docbook-xml gvim
-\viewer_alternatives dot gvim
-\viewer_alternatives platex gvim
-\viewer_alternatives literate gvim
-\viewer_alternatives sweave gvim
-\viewer_alternatives lilypond gvim
-\viewer_alternatives lilypond-book gvim
-\viewer_alternatives latex gvim
-\viewer_alternatives pdflatex gvim
-\viewer_alternatives xetex gvim
-\viewer_alternatives text gvim
-\viewer_alternatives text2 gvim
-\viewer_alternatives text3 gvim
-\viewer_alternatives text4 gvim
-\viewer_alternatives textparagraph gvim
-\viewer_alternatives asciichess kwrite
-\viewer_alternatives asciiimage kwrite
-\viewer_alternatives asciixfig kwrite
-\viewer_alternatives dateout kwrite
-\viewer_alternatives docbook kwrite
-\viewer_alternatives docbook-xml kwrite
-\viewer_alternatives dot kwrite
-\viewer_alternatives platex kwrite
-\viewer_alternatives literate kwrite
-\viewer_alternatives sweave kwrite
-\viewer_alternatives lilypond kwrite
-\viewer_alternatives lilypond-book kwrite
-\viewer_alternatives latex kwrite
-\viewer_alternatives pdflatex kwrite
-\viewer_alternatives xetex kwrite
-\viewer_alternatives text kwrite
-\viewer_alternatives text2 kwrite
-\viewer_alternatives text3 kwrite
-\viewer_alternatives text4 kwrite
-\viewer_alternatives textparagraph kwrite
-\viewer_alternatives asciichess kate
-\viewer_alternatives asciiimage kate
-\viewer_alternatives asciixfig kate
-\viewer_alternatives dateout kate
-\viewer_alternatives docbook kate
-\viewer_alternatives docbook-xml kate
-\viewer_alternatives dot kate
-\viewer_alternatives platex kate
-\viewer_alternatives literate kate
-\viewer_alternatives sweave kate
-\viewer_alternatives lilypond kate
-\viewer_alternatives lilypond-book kate
-\viewer_alternatives latex kate
-\viewer_alternatives pdflatex kate
-\viewer_alternatives xetex kate
-\viewer_alternatives text kate
-\viewer_alternatives text2 kate
-\viewer_alternatives text3 kate
-\viewer_alternatives text4 kate
-\viewer_alternatives textparagraph kate
-\viewer_alternatives asciichess notepad
-\viewer_alternatives asciiimage notepad
-\viewer_alternatives asciixfig notepad
-\viewer_alternatives dateout notepad
-\viewer_alternatives docbook notepad
-\viewer_alternatives docbook-xml notepad
-\viewer_alternatives dot notepad
-\viewer_alternatives platex notepad
-\viewer_alternatives literate notepad
-\viewer_alternatives sweave notepad
-\viewer_alternatives lilypond notepad
-\viewer_alternatives lilypond-book notepad
-\viewer_alternatives latex notepad
-\viewer_alternatives pdflatex notepad
-\viewer_alternatives xetex notepad
-\viewer_alternatives text notepad
-\viewer_alternatives text2 notepad
-\viewer_alternatives text3 notepad
-\viewer_alternatives text4 notepad
-\viewer_alternatives textparagraph notepad
-\Format xhtml      xhtml   "LyXHTML"              X "firefox" ""    "document"
-\viewer_alternatives xhtml firefox
 \Format bibtex bib    "BibTeX"         "" ""	"jabref"	""
-\editor_alternatives bibtex jabref
-\editor_alternatives bibtex gvim
-\editor_alternatives bibtex kwrite
-\editor_alternatives bibtex kate
-\editor_alternatives bibtex notepad
 \Format eps        eps     EPS                    "" "okular"	""	"vector"
 \Format ps         ps      Postscript             t  "okular"	""	"document,vector"
-\viewer_alternatives eps okular
-\viewer_alternatives ps okular
-\viewer_alternatives eps evince
-\viewer_alternatives ps evince
 \Format pdf        pdf    "PDF (ps2pdf)"          P  "okular"	""	"document,vector"
 \Format pdf2       pdf    "PDF (pdflatex)"        F  "okular"	""	"document,vector"
 \Format pdf3       pdf    "PDF (dvipdfm)"         m  "okular"	""	"document,vector"
-\Format pdf4       pdf    "PDF (XeTeX)"           X  "okular"	""	"document,vector"
-\viewer_alternatives pdf okular
-\viewer_alternatives pdf2 okular
-\viewer_alternatives pdf3 okular
-\viewer_alternatives pdf4 okular
-\viewer_alternatives pdf evince
-\viewer_alternatives pdf2 evince
-\viewer_alternatives pdf3 evince
-\viewer_alternatives pdf4 evince
 \Format dvi        dvi     DVI                    D  "okular"	""	"document,vector"
-\viewer_alternatives dvi okular
 \Format html       html    HTML                   H  "firefox"	""	"document"
-\viewer_alternatives html firefox
 \Format noteedit   not     Noteedit               "" "auto"	"auto"	"vector"
-\editor_alternatives odt oowriter
-\editor_alternatives sxw oowriter
-\editor_alternatives odt abiword
-\editor_alternatives sxw abiword
 \Format odt        odt     OpenDocument           "" "oowriter"	"oowriter"	"document,vector"
-\Format sxw        sxw    "OpenOffice.Org (sxw)"  "" ""	""	"document,vector"
-\viewer_alternatives odt oowriter
-\viewer_alternatives sxw oowriter
-\viewer_alternatives odt abiword
-\viewer_alternatives sxw abiword
-\editor_alternatives rtf oowriter
-\editor_alternatives word oowriter
-\editor_alternatives rtf abiword
-\editor_alternatives word abiword
-\Format rtf        rtf    "Rich Text Format"      "" ""	""	"document,vector"
-\Format word       doc    "MS Word"               W  ""	""	"document,vector"
-\viewer_alternatives rtf oowriter
-\viewer_alternatives word oowriter
-\viewer_alternatives rtf abiword
-\viewer_alternatives word abiword
 \Format date       ""     "date command"          "" ""	""	""
 \Format csv        csv    "Table (CSV)"  "" ""	""	"document"
 \Format fax        ""      Fax                    "" ""	""	"document"
 \Format lyx        lyx     LyX                    "" ""	""	""
-\Format lyx13x     13.lyx  "LyX 1.3.x"             "" ""	""	"document"
-\Format lyx14x     14.lyx  "LyX 1.4.x"             "" ""	""	"document"
-\Format lyx15x     15.lyx  "LyX 1.5.x"             "" ""	""	"document"
-\Format lyx16x     16.lyx  "LyX 1.6.x"             "" ""	""	"document"
+\Format lyx13x     lyx13  "LyX 1.3.x"             "" ""	""	"document"
+\Format lyx14x     lyx14  "LyX 1.4.x"             "" ""	""	"document"
+\Format lyx15x     lyx15  "LyX 1.5.x"             "" ""	""	"document"
 \Format clyx       cjklyx "CJK LyX 1.4.x (big5)"  "" ""	""	"document"
 \Format jlyx       cjklyx "CJK LyX 1.4.x (euc-jp)" "" ""	""	"document"
 \Format klyx       cjklyx "CJK LyX 1.4.x (euc-kr)" "" ""	""	"document"
 \Format lyxpreview lyxpreview "LyX Preview"       "" ""	""	""
-\Format lyxpreview-lytex  lyxpreview-lytex  "LyX Preview (LilyPond book)" "" ""	""	""
 \Format lyxpreview-platex lyxpreview-platex "LyX Preview (pLaTeX)"       "" ""	""	""
 \Format pdftex     pdftex_t PDFTEX                "" ""	""	""
 \Format program    ""      Program                "" ""	""	""
 \Format pstex      pstex_t PSTEX                  "" ""	""	""
+\Format rtf        rtf    "Rich Text Format"      "" ""	""	"document,vector"
+\Format sxw        sxw    "OpenOffice.Org (sxw)"  ""  ""	""	"document,vector"
 \Format wmf        wmf    "Windows Metafile"      "" ""	""	"vector"
 \Format emf        emf    "Enhanced Metafile"     "" ""	""	"vector"
-\Format wordhtml   html   "HTML (MS Word)"        "" "" ""	"document"
+\Format word       doc    "MS Word"               W  ""	""	"document,vector"
+\Format wordhtml   html   "HTML (MS Word)"        "" ""        ""	"document"
 
 \converter pdflatex   pdf2       "pdflatex $$i"	"latex"
-\converter xetex      pdf4       ""	"latex"
 \converter latex      lyx        "tex2lyx -f $$i $$o"	""
 \converter literate   lyx        "tex2lyx -n -f $$i $$o"	""
 \converter literate   latex      ""	""
 \converter literate   pdflatex      ""	""
-\converter sweave   latex      "Rscript --vanilla $$s/scripts/lyxsweave.R $$i $$e"	""
-\converter sweave   pdflatex      "Rscript --vanilla $$s/scripts/lyxsweave.R $$i $$e"	""
 \converter html       latex      "java -jar htmltolatex.jar -input $$i -output $$o"	""
 \converter word       latex      "wvCleanLatex $$i $$o"	""
 \converter lyx      html       "elyxer --directory $$r $$i $$o"	""
-\copier    html       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
-\converter lyx      wordhtml       "python -m elyxer --html --directory $$r $$i $$o"	""
-\copier    wordhtml       "python -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
+\copier    html       "python2.6 -tt $$s/scripts/ext_copy.py -e html,png,jpg,jpeg,css $$i $$o"
+\converter latex      wordhtml   ""	"needaux"
 \converter sxw        latex      ""	""
 \converter odt        latex      ""	""
 \converter latex      odt        ""	"needaux"
@@ -308,49 +99,46 @@
 \converter tiff       eps        "tiff2ps $$i > $$o"	""
 \converter wmf        eps        "wmf2eps -o $$o $$i"	""
 \converter emf        eps        "wmf2eps -o $$o $$i"	""
+\converter dot        pdf        ""	""
 \converter dia        png        "dia -e $$o -t png $$i"	""
 \converter dia        eps        "dia -e $$o -t eps $$i"	""
 \converter svg        pdf        "rsvg-convert -f pdf -o $$o $$i"	""
 \converter svg        eps        "rsvg-convert -f ps -o $$o $$i"	""
 \converter svg        png        "rsvg-convert -f png -o $$o $$i"	""
-\converter lyxpreview ppm        "python -tt $$s/scripts/lyxpreview2bitmap.py"	""
-\converter lyxpreview-platex ppm        "python -tt $$s/scripts/lyxpreview-platex2bitmap.py"	""
-\converter csv        lyx        "python -tt $$s/scripts/csv2lyx.py $$i $$o"	""
-\converter date       dateout    "python -tt $$s/scripts/date.py %d-%m-%Y > $$o"	""
+\converter lyxpreview ppm        "python2.6 -tt $$s/scripts/lyxpreview2bitmap.py"	""
+\converter lyxpreview-platex ppm        "python2.6 -tt $$s/scripts/lyxpreview-platex2bitmap.py"	""
+\converter csv        lyx        "python2.6 -tt $$s/scripts/csv2lyx.py $$i $$o"	""
+\converter date       dateout    "python2.6 -tt $$s/scripts/date.py %d-%m-%Y > $$o"	""
 \converter docbook    docbook-xml "cp $$i $$o"	"xml"
-\converter fen        asciichess "python -tt $$s/scripts/fen2ascii.py $$i $$o"	""
-\converter fig        pdftex     "python -tt $$s/scripts/fig2pdftex.py $$i $$o"	""
-\converter fig        pstex      "python -tt $$s/scripts/fig2pstex.py $$i $$o"	""
-\converter lyx        lyx13x     "python -tt $$s/lyx2lyx/lyx2lyx -t 221 $$i > $$o"	""
-\converter lyx        lyx14x     "python -tt $$s/lyx2lyx/lyx2lyx -t 245 $$i > $$o"	""
-\converter lyx        lyx15x     "python -tt $$s/lyx2lyx/lyx2lyx -t 276 $$i > $$o"	""
-\converter lyx        lyx16x     "python -tt $$s/lyx2lyx/lyx2lyx -t 345 $$i > $$o"	""
-\converter lyx        clyx       "python -tt $$s/lyx2lyx/lyx2lyx -c big5 -t 245 $$i > $$o"	""
-\converter lyx        jlyx       "python -tt $$s/lyx2lyx/lyx2lyx -c euc_jp -t 245 $$i > $$o"	""
-\converter lyx        klyx       "python -tt $$s/lyx2lyx/lyx2lyx -c euc_kr -t 245 $$i > $$o"	""
-\converter clyx       lyx        "python -tt $$s/lyx2lyx/lyx2lyx -c big5 $$i > $$o"	""
-\converter jlyx       lyx        "python -tt $$s/lyx2lyx/lyx2lyx -c euc_jp $$i > $$o"	""
-\converter klyx       lyx        "python -tt $$s/lyx2lyx/lyx2lyx -c euc_kr $$i > $$o"	""
+\converter fen        asciichess "python2.6 -tt $$s/scripts/fen2ascii.py $$i $$o"	""
+\converter fig        pdftex     "python2.6 -tt $$s/scripts/fig2pdftex.py $$i $$o"	""
+\converter fig        pstex      "python2.6 -tt $$s/scripts/fig2pstex.py $$i $$o"	""
+\converter lyx        lyx13x     "python2.6 -tt $$s/lyx2lyx/lyx2lyx -t 221 $$i > $$o"	""
+\converter lyx        lyx14x     "python2.6 -tt $$s/lyx2lyx/lyx2lyx -t 245 $$i > $$o"	""
+\converter lyx        lyx15x     "python2.6 -tt $$s/lyx2lyx/lyx2lyx -t 276 $$i > $$o"	""
+\converter lyx        clyx       "python2.6 -tt $$s/lyx2lyx/lyx2lyx -c big5 -t 245 $$i > $$o"	""
+\converter lyx        jlyx       "python2.6 -tt $$s/lyx2lyx/lyx2lyx -c euc_jp -t 245 $$i > $$o"	""
+\converter lyx        klyx       "python2.6 -tt $$s/lyx2lyx/lyx2lyx -c euc_kr -t 245 $$i > $$o"	""
+\converter clyx       lyx        "python2.6 -tt $$s/lyx2lyx/lyx2lyx -c big5 $$i > $$o"	""
+\converter jlyx       lyx        "python2.6 -tt $$s/lyx2lyx/lyx2lyx -c euc_jp $$i > $$o"	""
+\converter klyx       lyx        "python2.6 -tt $$s/lyx2lyx/lyx2lyx -c euc_kr $$i > $$o"	""
 
 \converter docbook    dvi        ""	""
 \converter docbook    html       "" ""
 \tex_allows_spaces true
+\plaintext_roff_command "groff -t -Tlatin1 $$FName"
 \chktex_command ""
 \bibtex_command "bibtex"
-\bibtex_alternatives "bibtex"
-\bibtex_alternatives "bibtex8"
 \jbibtex_command "pbibtex"
 \index_command "makeindex -c -q"
-\index_alternatives "makeindex -c -q"
 \jindex_command "mendex -c -q"
-\splitindex_command ""
-\splitindex_command "java splitindex"
 \nomencl_command "makeindex -s nomencl.ist"
+\spell_command ""
 \print_spool_printerprefix "-d "
 \print_spool_command "lp"
-\copier    fig        "python -tt $$s/scripts/fig_copy.py $$i $$o"
-\copier    pstex      "python -tt $$s/scripts/tex_copy.py $$i $$o $$l"
-\copier    pdftex     "python -tt $$s/scripts/tex_copy.py $$i $$o $$l"
-\copier    program    "python -tt $$s/scripts/ext_copy.py $$i $$o"
+\copier    fig        "python2.6 -tt $$s/scripts/fig_copy.py $$i $$o"
+\copier    pstex      "python2.6 -tt $$s/scripts/tex_copy.py $$i $$o $$l"
+\copier    pdftex     "python2.6 -tt $$s/scripts/tex_copy.py $$i $$o $$l"
+\copier    program    "python2.6 -tt $$s/scripts/ext_copy.py $$i $$o"
 
 \font_encoding "T1"

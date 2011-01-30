@@ -2,40 +2,44 @@
 ## Editing this file manually may cause lyx to crash.
 
 [recent files]
-/home/quesada/Dropbox/anki-advantages.lyx
-/home/quesada/noteslyx/notes.lyx
-/home/quesada/Dropbox/wcogs/exist.de/tech.lyx
+/home/quesada/Dropbox/exist.de/business-plan-2col.lyx
+/home/quesada/Dropbox/exist.de/business-plan-2col-1.lyx
+/home/quesada/Dropbox/exist.de/business-plan-2col.16.lyx
+/home/quesada/Dropbox/noteslyx/notes.lyx
+/home/quesada/Dropbox/exist.de/taking-uni-notes-and-selling-them.lyx
+/home/quesada/Dropbox/d2.3.3/d2.3.3.lyx
+/home/quesada/bin/share/lyx/doc/EmbeddedObjects.lyx
+/home/quesada/Dropbox/exist.de/business-plan.lyx
+/home/quesada/Dropbox/wcogs/exist.de/Exist_abstract.lyx
+/home/quesada/Dropbox/wcogs/exist.de/test-alpha2.lyx
+/home/quesada/Dropbox/noteslyx/larkc-china-meeting-actionable.lyx
+/home/quesada/Dropbox/noteslyx/meetingWithLael2010-11-1.lyx
+/home/quesada/Dropbox/noteslyx/molinoNotes.lyx
 /home/quesada/Dropbox/wcogs/exist.de/Exist_draft-q6.lyx
+/home/quesada/Dropbox/wcogs/exist.de/tech.lyx
+/home/quesada/Dropbox/noteslyx/InmaNotes.lyx
 /home/quesada/Dropbox/wcogs/exist.de/Exist_draft-q6hold.lyx
-/home/quesada/Dropbox/netbooks.lyx
 /home/quesada/Dropbox/wcogs/exist.de/semanticSearchTutorial-notes.lyx
 /home/quesada/Dropbox/wcogs/exist.de/iswc2010.lyx
 /home/quesada/Dropbox/wcogs/exist.de/Exist_draft-q5.lyx
-/home/quesada/Dropbox/bio-blurb.lyx
-/home/quesada/Dropbox/wcogs/exist.de/Exist_draft-q4.lyx
-/home/quesada/Dropbox/wcogs/exist.de/Exist_draft-q3.lyx
-/home/quesada/Dropbox/wcogs/git-svnWorkflow.lyx
-/home/quesada/Dropbox/wcogs/exist.de/Exist_draft1-q.lyx.emergency
-/home/quesada/Dropbox/wcogs/exist.de/Exist_draft1-q.lyx
-/home/quesada/Dropbox/wcogs/exist.de/essayGradingExist.lyx
-/home/quesada/Dropbox/wcogs/exist.de/preparadores.lyx
-/home/quesada/noteslyx/pythonSchool-day1.lyx
-/home/quesada/china.lyx
-/home/quesada/noteslyx/timingESA.lyx
 
 [last opened files]
-0, /home/quesada/Dropbox/wcogs/exist.de/tech.lyx
-0, /home/quesada/Dropbox/wcogs/exist.de/Exist_draft-q6.lyx
-0, /home/quesada/bin/share/lyx/doc/LFUNs.lyx
-0, /home/quesada/noteslyx/notes.lyx
-1, /home/quesada/Dropbox/anki-advantages.lyx
+1, /home/quesada/Dropbox/exist.de/business-plan-2col.lyx
 
 [cursor positions]
-24, 32, /home/quesada/Dropbox/anki-advantages.lyx
-2, 0, /home/quesada/Dropbox/bio-blurb.lyx
-48, 1, /home/quesada/Dropbox/netbooks.lyx
+7, 33, /home/quesada/Dropbox/d2.3.3/d2.3.3.lyx
+164, 30, /home/quesada/Dropbox/exist.de/business-plan-2col.16.lyx
+10, 1, /home/quesada/Dropbox/exist.de/business-plan-2col.lyx
+6, 0, /home/quesada/Dropbox/exist.de/business-plan.lyx
+4, 67, /home/quesada/Dropbox/exist.de/taking-uni-notes-and-selling-them.lyx
+0, 0, /home/quesada/Dropbox/noteslyx/InmaNotes.lyx
+5, 73, /home/quesada/Dropbox/noteslyx/larkc-china-meeting-actionable.lyx
+1, 19, /home/quesada/Dropbox/noteslyx/meetingWithLael2010-11-1.lyx
+0, 38, /home/quesada/Dropbox/noteslyx/molinoNotes.lyx
+1563, 1, /home/quesada/Dropbox/noteslyx/notes.lyx
+0, 0, /home/quesada/Dropbox/wcogs/exist.de/Exist_abstract.lyx
 2, 0, /home/quesada/Dropbox/wcogs/exist.de/Exist_draft-q3.lyx
-86, 0, /home/quesada/Dropbox/wcogs/exist.de/Exist_draft-q6.lyx
+90, 0, /home/quesada/Dropbox/wcogs/exist.de/Exist_draft-q6.lyx
 0, 0, /home/quesada/Dropbox/wcogs/exist.de/Exist_draft-q6hold.lyx
 7, 30, /home/quesada/Dropbox/wcogs/exist.de/Exist_draft1-q.lyx
 0, 0, /home/quesada/Dropbox/wcogs/exist.de/Exist_draft1-q.lyx.emergency
@@ -43,12 +47,17 @@
 13, 0, /home/quesada/Dropbox/wcogs/exist.de/iswc2010.lyx
 3, 93, /home/quesada/Dropbox/wcogs/exist.de/preparadores.lyx
 62, 23, /home/quesada/Dropbox/wcogs/exist.de/semanticSearchTutorial-notes.lyx
-2, 0, /home/quesada/Dropbox/wcogs/exist.de/tech.lyx
+27, 45, /home/quesada/Dropbox/wcogs/exist.de/tech.lyx
+0, 5, /home/quesada/Dropbox/wcogs/exist.de/test-alpha2.lyx
 0, 0, /home/quesada/Dropbox/wcogs/git-svnWorkflow.lyx
+1324, 86, /home/quesada/bin/share/lyx/doc/Additional.lyx
+4, 8, /home/quesada/bin/share/lyx/doc/Customization.lyx
+747, 0, /home/quesada/bin/share/lyx/doc/EmbeddedObjects.lyx
 198, 27, /home/quesada/bin/share/lyx/doc/LFUNs.lyx
+443, 0, /home/quesada/bin/share/lyx/doc/LaTeXConfig.lyx
 138, 0, /home/quesada/bin/share/lyx/doc/UserGuide.lyx
+43, 0, /home/quesada/bin/share/lyx/examples/multicol.lyx
 29, 16, /home/quesada/china.lyx
-0, 0, /home/quesada/differences1.lyx
 27, 392, /home/quesada/larkc/WP2/d2.3.2/Discussion and conclussions.lyx
 18, 0, /home/quesada/larkc/WP2/d2.3.2/Explicit Semantic Analysis.lyx
 25, 232, /home/quesada/larkc/WP2/d2.3.2/Random Indexing.lyx
@@ -59,20 +68,6 @@
 13, 389, /home/quesada/larkc/WP2/d2.3.2/plugins.lyx
 0, 0, /home/quesada/larkc/WP2/d2.3.2latex/ALL-larkc232.lyx
 1, 287, /home/quesada/larkc/WP2/d2.3.2latex/motivation.lyx
-4, 159, /home/quesada/noteslyx/UlrikeNotes.lyx
-9, 20, /home/quesada/noteslyx/Vitaetest.lyx
-1, 134, /home/quesada/noteslyx/adviceOnline.lyx
-31, 55, /home/quesada/noteslyx/djangoNotes.lyx
-100, 81, /home/quesada/noteslyx/eswc.lyx
-0, 0, /home/quesada/noteslyx/foo.lyx
-0, 70, /home/quesada/noteslyx/lainerPost.lyx
-11, 34, /home/quesada/noteslyx/lyx tricks.lyx
-70, 0, /home/quesada/noteslyx/mouse.lyx
-1370, 0, /home/quesada/noteslyx/notes.lyx
-0, 0, /home/quesada/noteslyx/paramsSpaces.lyx
-87, 27, /home/quesada/noteslyx/pythonSchool-day1.lyx
-6, 27, /home/quesada/noteslyx/scratch.lyx
-20, 37, /home/quesada/noteslyx/timingESA.lyx
 
 [last commands]
 ui-toggle statusbar
@@ -81,4 +76,4 @@ ui-toggle statusbar
 ui-toggle tabbar
 
 [bookmarks]
-0, 16, 1, /home/quesada/Dropbox/anki-advantages.lyx
+0, 164, 1, /home/quesada/Dropbox/exist.de/business-plan-2col.lyx

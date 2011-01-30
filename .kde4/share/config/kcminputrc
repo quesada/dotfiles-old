@@ -9,8 +9,8 @@ RepeatDelay=169
 RepeatRate=25
 
 [Mouse]
-Acceleration=3
+Acceleration=20
 MouseButtonMapping=RightHanded
 ReverseScrollPolarity=false
 Threshold=4
-cursorTheme=Oxygen_Yellow_Big
+cursorTheme=#kde_legacy#

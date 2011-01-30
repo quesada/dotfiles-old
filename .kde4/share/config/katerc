@@ -28,7 +28,7 @@ Startup Session=last
 [KFileDialog Settings]
 Height 1152=660
 Height 1200=600
-Recent Files[$e]=$HOME/tmp/foo.py,$HOME/german/wordList.txt,$HOME/tmp/kk.py,$HOME/.zshrc,/usr/lib64/python2.6/site-packages/scipy/sparse/construct.py
+Recent Files[$e]=$HOME/tmp/foo.py,$HOME/coding/gensim/src/gensim/nosy.py,$HOME/german/wordList.txt,$HOME/tmp/kk.py,$HOME/.zshrc,/usr/lib64/python2.6/site-packages/scipy/sparse/construct.py
 Width 1920=960
 Width 2048=1056
 
@@ -125,10 +125,10 @@ SetEditor=true
 
 [MainWindow]
 Height 1152=1130
-Height 1200=1201
-State=AAAA/wAAAAD9AAAAAAAABOgAAARPAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
+Height 1200=1178
+State=AAAA/wAAAAD9AAAAAAAABJkAAASDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=1921
+Width 1920=1177
 Width 2048=1256
 
 [Notification Messages]

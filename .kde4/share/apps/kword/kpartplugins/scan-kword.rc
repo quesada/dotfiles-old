@@ -1,0 +1,11 @@
+<!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
+<kpartgui version="1" library="kofficescan">
+ <MenuBar>
+  <Menu name="insert">
+   <text>&amp;Insert</text>
+   <Separator/>
+   <Action name="scan_image"/>
+  </Menu>
+ </MenuBar>
+ <ActionProperties scheme="Default"/>
+</kpartgui>

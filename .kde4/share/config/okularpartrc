@@ -1,10 +1,15 @@
+[Dlg Accessibility]
+ChangeColors=true
+
 [General]
+ExternalEditor=Lyxclient
+ObeyDRM=false
 UseKTTSD=false
 
 [Main View]
 ShowLeftPanel=false
-SplitterSizes=253,942
+SplitterSizes=425,623
 
 [PageView]
-TrimMargins=true
+ViewColumns=1
 ViewContinuous=false

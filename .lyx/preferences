@@ -1,6 +1,8 @@
 # LyX 2.0.0svn generated this file. If you want to make your own
 # modifications you should do them from inside LyX and save.
 
+Format 1
+
 
 #
 # MISC SECTION ######################################
@@ -25,6 +27,7 @@
 \fullscreen_limit true
 \fullscreen_scrollbar false
 \fullscreen_width 1000
+\forward_search_pdf "/usr/bin/okular"
 
 #
 # COLOR SECTION ###################################
@@ -50,7 +53,7 @@
 #
 
 \load_session true
-\mouse_wheel_speed 0.80
+\mouse_wheel_speed 0.30
 \completion_inline_delay 0.00
 \completion_inline_dots 13
 \completion_popup_delay 0.30
@@ -89,6 +92,7 @@
 # CONVERTERS SECTION ##########################
 #
 
+\converter "svg" "pdf2" "rsvg-convert -f pdf -o $$o $$i" ""
 
 #
 # COPIERS SECTION ##########################

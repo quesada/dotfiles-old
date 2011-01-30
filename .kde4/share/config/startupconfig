@@ -1,6 +1,6 @@
 #! /bin/sh
 # kcminputrc Mouse cursorTheme 'Oxygen_Black'
-kcminputrc_mouse_cursortheme="Oxygen_Yellow_Big"
+kcminputrc_mouse_cursortheme="#kde_legacy#"
 # kcminputrc Mouse cursorSize ''
 kcminputrc_mouse_cursorsize=""
 # ksplashrc KSplash Theme Default

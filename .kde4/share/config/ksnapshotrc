@@ -1,12 +1,14 @@
 [GENERAL]
 delay=0
-filename[$e]=file://$HOME/down/snapshot6.png
+filename[$e]=file://$HOME/Dropbox/exist.de/figures/histogram-spanish-oposiciones1.png
 includeDecorations=true
 mode=2
 
 [KFileDialog Settings]
+Height 1152=576
 Height 1200=750
 Height 900=570
-Recent Files[$e]=$HOME/down/snapshot2.png,$HOME/down/snapshot5.png,$HOME/down/snapshot4.png,$HOME/down/snapshot3.png
+Recent Files[$e]=$HOME/down/snapshot8.png,$HOME/Dropbox/exist.de/figures/histogram-spanish-oposiciones.png,$HOME/Dropbox/exist.de/figures/mockup6.png,$HOME/Dropbox/exist.de/figures/mockup5.png,$HOME/Dropbox/exist.de/figures/mockup3.png,$HOME/down/snapshot5.png,$HOME/down/snapshot4.png,$HOME/down/snapshot3.png
 Width 1600=912
 Width 1920=1200
+Width 2048=1024

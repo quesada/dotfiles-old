@@ -112,8 +112,8 @@ sourceAppletPluginName=digital-clock
 Order=3
 
 [Containments][3][Applets][10][PopupApplet]
-DialogHeight=269
-DialogWidth=238
+DialogHeight=263
+DialogWidth=242
 
 [Containments][3][Applets][12][Configuration]
 Share=false
@@ -149,7 +149,7 @@ DialogWidth=454
 global=Alt+F1
 
 [Containments][3][Applets][6]
-geometry=0,47,43,621
+geometry=0,47,43,595
 immutability=1
 plugin=tasks
 zvalue=0
@@ -162,7 +162,7 @@ highlightWindows=true
 Order=1
 
 [Containments][3][Applets][7]
-geometry=0,672,43,170
+geometry=0,646,43,196
 immutability=1
 plugin=systemtray
 zvalue=0
@@ -194,14 +194,14 @@ sourceAppletId=31
 sourceAppletPluginName=notifications
 
 [Containments][3][Applets][7][Configuration][Applets][31][PopupApplet]
-DialogHeight=67
-DialogWidth=358
+DialogHeight=385
+DialogWidth=432
 
 [Containments][3][Applets][7][Configuration][Applets][31][Shortcuts]
 global=
 
 [Containments][3][Applets][7][Configuration][Applets][32]
-geometry=4.5,107,24,24
+geometry=4.5,133,24,24
 immutability=1
 plugin=org.kde.networkmanagement
 zvalue=0
@@ -235,8 +235,8 @@ sourceAppletPluginName=systemtray
 Order=2
 
 [Containments][3][Applets][7][PopupApplet]
-DialogHeight=44
-DialogWidth=269
+DialogHeight=40
+DialogWidth=265
 
 [Containments][3][Configuration]
 maximumSize=47,900

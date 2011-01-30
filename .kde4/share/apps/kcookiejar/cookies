@@ -24,29 +24,12 @@ www.last.fm          ".last.fm"           "/"          1305136644    0 AnonTrack
 [.sabayon.org]
 www.sabayon.org      ".sabayon.org"       "/"          1337118293    0 __utma               4    177713447.757537385.1274043879.1274043879.1274046293.2
 [.btjunkie.org]
-btjunkie.org         ".btjunkie.org"      "/"          1290337598    0 __utmz               4    223426504.1274569599.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none)
 btjunkie.org         ".btjunkie.org"      "/"          1347406395    0 __utma               4    223426504.537623742.1274569599.1284331924.1284334395.11
-[.bit.ly]
-bit.ly               ".bit.ly"            "/"          1290933830    0 _bit                 6    4c051ca6-0009d-031a0-baa08fa8
 [tweetphoto.com]
 tweetphoto.com       ""                   "/"          2072101673    0 CAKEPHP              4    i1u6q79beti99go25327s9p482
-[.slidesha.re]
-slidesha.re          ".slidesha.re"       "/"          1290937538    0 _bit                 6    4c052b22-003e5-04068-b5a08fa8
-[.nyti.ms]
-nyti.ms              ".nyti.ms"           "/"          1290948894    0 _bit                 6    4c05577e-002a6-00405-b8a08fa8
-[.mbist.ro]
-mbist.ro             ".mbist.ro"          "/"          1290948895    0 _bit                 6    4c05577f-00060-06a51-b2a08fa8
-[.ericri.es]
-ericri.es            ".ericri.es"         "/"          1290948898    0 _bit                 6    4c055782-0037c-00150-b3a08fa8
-[.cot.ag]
-cot.ag               ".cot.ag"            "/"          1290948905    0 _bit                 6    4c055789-00114-05d53-91a08fa8
-[.j.mp]
-j.mp                 ".j.mp"              "/"          1290990165    0 _bit                 6    4c05f8b5-00363-00bd2-aba08fa8
 [.youtube.com]
 www.youtube.com      ".youtube.com"       "/"          1296195766    0 VISITOR_INFO1_LIVE   4    YZ4dm0jMf-c
 www.youtube.com      ".youtube.com"       "/"          1591095783    0 PREF                 4    f1=40000000
-[.mzl.la]
-mzl.la               ".mzl.la"            "/"          1290990167    0 _bit                 6    4c05f8b7-00299-04276-b8a08fa8
 [.flic.kr]
 flic.kr              ".flic.kr"           "/"          2127585600    0 BX                   4    2b2v01160bu5o&b=3&s=pk
 [flic.kr]
@@ -59,30 +42,14 @@ www.flickr.com       ".flickr.com"        "/"          1438681692    0 flbkt    
 www.flickr.com       ".flickr.com"        "/"          1378898174    0 localization         4    en-us%3Bxx%3Bgr
 [.twitpic.com]
 twitpic.com          ".twitpic.com"       "/"          2551005940    0 twitpic1             4    qbobfcspg3q3urkh6clchl21o1
-[.4sq.com]
-4sq.com              ".4sq.com"           "/"          1290990172    0 _bit                 6    4c05f8bc-003a2-02d63-b2a08fa8
 [.imageshack.us]
 img16.imageshack.us  ".imageshack.us"     "/"          2145916555    0 is_uuid              4    b12c4ae5f4e742aa8e734bcb7ca7b06e
 [yovisto.com]
 yovisto.com          ""                   "/play"      1307014597    0 uuid                 0    3138663
-[.oreil.ly]
-oreil.ly             ".oreil.ly"          "/"          1291025951    0 _bit                 6    4c06847f-00182-06965-b2a08fa8
 [.ted.com]
 on.ted.com           ".on.ted.com"        "/"          1307031554    0 snowball             4    826102f0-5090-012d-80f4-1231390c1602
-[n.pr]
-n.pr                 ""                   "/"          1291027510    0 _bit                 6    4c068a96-001fb-06926-b2a08fa8
-[.huff.to]
-huff.to              ".huff.to"           "/"          1291049241    0 _bit                 6    4c06df79-00060-0770a-91a08fa8
 [.tnw.to]
 tnw.to               ".tnw.to"            "/"          1307054842    0 snowball             4    bb01a730-50c6-012d-bff1-12313b046174
-[.pep.si]
-pep.si               ".pep.si"            "/"          1291049245    0 _bit                 6    4c06df7d-00191-014bd-b2a08fa8
-[.amzn.to]
-amzn.to              ".amzn.to"           "/"          1291049245    0 _bit                 6    4c06df7d-0037c-06a1a-aba08fa8
-[.tcrn.ch]
-tcrn.ch              ".tcrn.ch"           "/"          1291054678    0 _bit                 6    4c06f4b6-001b8-017a0-b8a08fa8
-[.fax.org]
-fax.org              ".fax.org"           "/"          1291076446    0 _bit                 6    4c0749be-00187-056ea-aba08fa8
 [.sitepoint.com]
 www.sitepoint.com    ""                   "/"          1309347259    0 SPabc                4    b
 [.fastcompany.com]
@@ -105,7 +72,6 @@ digg.com             ""                   "/"          1584546170    0 dcookie  
 [.bbc.co.uk]
 id.bbc.co.uk         ".bbc.co.uk"         "/"          1401983434    0 BBC-UID              4    441c70db4c53ecea1314d88200d0023316d41b3ef000704c52a933bf99121c8f0Mozilla%2f5%2e0%20%28compatible%3b%20Konqueror%2f4%2e4%3b%20Linux%29%20KHTML%2f4%2e4%2e3%20%28like%20Gecko%29
 [.engadget.com]
-b.engadget.com       ".engadget.com"      "/"          1292400701    0 UNAUTHID             4    1.d995b15c78a111df8ee4fd1c4c0fb2d6.3bd6
 www.engadget.com     ""                   "/"          1854242393    0 _csoot               4    1276622342712
 www.engadget.com     ".engadget.com"      "/"          1339694655    0 s_pers               4    %20s_getnr%3D1276622655386-New%7C1339694655386%3B%20s_nrgvo%3DNew%7C1339694655394%3B
 [planca.st]
@@ -207,5 +173,10 @@ academicproductivity.com ""                   "/"          1315964886    0 wwsgd
 www.academicproductivity.com ".academicproductivity.com" "/"          1300204289    0 __utmz               4    21342763.1284436290.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none)
 www.academicproductivity.com ""                   "/"          1320178356    0 wwsgd_visits         4    4
 www.academicproductivity.com ".academicproductivity.com" "/"          1351707430    0 __utma               4    21342763.539781997.1284436290.1284436290.1288635431.2
-[.bittorrent.com]
-www.bittorrent.com   ".bittorrent.com"    "/"          1291131393    0 SESS067ae32d3645ee4b195020f7372c170c 4    7b299beeeaaba889929da8f58ceaac17
+[.twitter.com]
+api.twitter.com      ".twitter.com"       "/"          1292943095    0 k                    4    141.14.165.254.1292338295498825
+api.twitter.com      ""                   "/"          1294930297    0 guest_id             4    129233829782219625
+[fb.me]
+fb.me                ""                   "/"          1292943110    0 locale               4    en_US
+[.lyx.org]
+www.lyx.org          ""                   "/"          1294930358    0 ca1c3_imstime        4    1292338358

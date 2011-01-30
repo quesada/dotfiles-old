@@ -92,7 +92,7 @@ ForegroundVisited=64,128,255
 
 [DirSelect Dialog]
 DirSelectDialog Size=844,551
-History Items[$e]=file://$HOME/Downloads/The Office Season 5 DvDrip-McTav,file://$HOME/Documents/guejarSolar-permuta,file:///data/music,file://$HOME/Downloads
+History Items[$e]=file://$HOME/down,file:///data/phone german,file://$HOME/Downloads/The Office Season 5 DvDrip-McTav,file://$HOME/Documents/guejarSolar-permuta,file:///data/music,file://$HOME/Downloads
 
 [General]
 BrowserApplication=chromium-chromium.desktop
@@ -108,18 +108,18 @@ shadeSortColumn=true
 smallestReadableFont=FreeSans,8,-1,5,50,0,0,0,0,0
 taskbarFont=FreeSans,12,-1,5,50,0,0,0,0,0
 toolBarFont=FreeSans,9,-1,5,50,0,0,0,0,0
-widgetStyle=qtcurve
+widgetStyle=oxygen
 
 [KDE]
 AutoSelectDelay=1064
 ChangeCursor=true
-DoubleClickInterval=400
+DoubleClickInterval=700
 ShowDeleteCommand=true
 ShowIconsOnPushButtons=true
 SingleClick=true
 StartDragDist=4
 StartDragTime=500
-WheelScrollLines=3
+WheelScrollLines=1
 contrast=5
 
 [KDE-Global GUI Settings]
@@ -132,7 +132,7 @@ Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Previews=false
-Recent URLs[$e]=$HOME/Dropbox/wcogs/exist.de/,$HOME/Dropbox/wcogs/literature/essayGrading/,$HOME/Dropbox/wcogs/literature/,/data/music/mp3/Aimee Mann - Magnolia Soundtrack - 192 kbps - inkl. Covers - by tictactoe65/,$HOME/Dropbox/wcogs/,$HOME/pdf/,$HOME/down/,$HOME/german/
+Recent URLs[$e]=$HOME/down/,$HOME/Dropbox/exist.de/figures/,$HOME/Dropbox/wcogs/exist.de/references/,$HOME/Dropbox/,$HOME/Dropbox/wcogs/exist.de/,$HOME/Dropbox/wcogs/literature/test-enhanced-learning/,$HOME/coding/gensim/src/gensim/,$HOME/pdf/
 Show Bookmarks=false
 Show Full Path=false
 Show Preview=false
@@ -141,7 +141,7 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=170
+Speedbar Width=196
 View Style=Simple
 
 [KShortcutsDialog Settings]

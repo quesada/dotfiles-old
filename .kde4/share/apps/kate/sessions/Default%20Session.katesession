@@ -46,20 +46,20 @@ URL=file:///home/quesada/coding/esa/tests.py
 [Document 5]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=Python
-Indentation Mode=python
-Mode=Python
+Highlighting=None
+Indentation Mode=none
+Mode=
 ReadWrite=true
-URL=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
+URL=file:///home/quesada/coding/esa/test/tfidf_tests.py
 
 [Document 6]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=Bash
+Highlighting=None
 Indentation Mode=none
-Mode=fish
+Mode=
 ReadWrite=true
-URL=file:///home/quesada/.config/fish/config.fish
+URL=file:///home/quesada/coding/esa/test/models_test.py
 
 [Document 7]
 Bookmarks=
@@ -80,7 +80,7 @@ ReadWrite=true
 URL=file:///home/quesada/Documents/tasadores.txt
 
 [DocumentModel:MainWindow:0]
-Order=0,1,2,3,4
+Order=0,1,2,3,4,5,6
 SortRole=34
 
 [General]
@@ -113,8 +113,8 @@ katexmltoolsplugin=false
 Active ViewSpace=0
 Height 1152=1153
 Height 1200=1201
-Kate-MDI-H-Splitter=213,446,731
-Kate-MDI-Sidebar-0-Splitter=0,168,171
+Kate-MDI-H-Splitter=213,730,731
+Kate-MDI-Sidebar-0-Splitter=0,571,581
 Kate-MDI-Sidebar-1-Splitter=0
 Kate-MDI-Sidebar-2-Splitter=
 Kate-MDI-Sidebar-3-Splitter=0
@@ -144,8 +144,8 @@ Kate-MDI-ToolView-katefindinfilesplugin_1-Persistent=false
 Kate-MDI-ToolView-katefindinfilesplugin_1-Position=3
 Kate-MDI-ToolView-katefindinfilesplugin_1-Sidebar-Position=0
 Kate-MDI-ToolView-katefindinfilesplugin_1-Visible=false
-Kate-MDI-V-Splitter=150,318,333
-State=AAAA/wAAAAD9AAAAAAAAAtMAAAFZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
+Kate-MDI-V-Splitter=150,1128,333
+State=AAAA/wAAAAD9AAAAAAAAA+wAAASDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1921
 Width 2048=2049
@@ -153,7 +153,7 @@ Width 2048=2049
 [MainWindow0 Settings]
 Height 1152=1153
 Height 1200=1201
-State=AAAA/wAAAAD9AAAAAAAAAtMAAAFZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA+wAAASDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAAAAADGgAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1921
 Width 2048=2049
@@ -162,14 +162,14 @@ WindowState=0
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=2
-Sizes=296
+Sizes=1106
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/quesada/coding/esa/tests.py
-Count=1
+Active View=file:///home/quesada/coding/esa/test/models_test.py
+Count=3
 View 0=file:///home/quesada/coding/esa/tests.py
-View 1=file:///home/quesada/coding/esa/tests.py
-View 2=file:///home/quesada/coding/semmod/semmod/corpus.py
+View 1=file:///home/quesada/coding/esa/test/tfidf_tests.py
+View 2=file:///home/quesada/coding/esa/test/models_test.py
 View 3=file:///home/quesada/tmp/foo.py
 View 4=file:///home/quesada/coding/gensim/trunk/src/gensim/similarities/docsim.py
 View 5=file:///home/quesada/coding/gensim/trunk/src/gensim/matutils.py
@@ -186,6 +186,14 @@ CursorLine=125
 [MainWindow0-ViewSpace 0 file:///home/quesada/.xmonad/xmonad.hs.fancy]
 CursorColumn=19
 CursorLine=153
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/esa/test/models_test.py]
+CursorColumn=0
+CursorLine=0
+
+[MainWindow0-ViewSpace 0 file:///home/quesada/coding/esa/test/tfidf_tests.py]
+CursorColumn=0
+CursorLine=0
 
 [MainWindow0-ViewSpace 0 file:///home/quesada/coding/esa/tests.py]
 CursorColumn=0
@@ -272,7 +280,7 @@ CursorColumn=0
 CursorLine=33
 
 [Open Documents]
-Count=5
+Count=7
 
 [Open MainWindows]
 Count=1
@@ -280,7 +288,7 @@ Count=1
 [Plugin:katefilebrowserplugin:MainWindow:0]
 auto sync folder=false
 filter history=
-location[$e]=file://$HOME/coding/esa/
+location[$e]=file://$HOME/coding/esa/test/
 
 [Plugin:katefilebrowserplugin:MainWindow:0:dir]
 Decoration position=0
@@ -322,23 +330,23 @@ minimum width=102
 sort type=0
 
 [Recent Files]
-File1[$e]=$HOME/.mc/bindings
-File10[$e]=$HOME/coding/esa/tests.py
-File2[$e]=$HOME/coding/gensim/trunk/src/gensim/corpora/mmcorpus.py
-File3[$e]=$HOME/.kde4/share/apps/katepart/syntax/ruby.xml
-File4[$e]=$HOME/coding/gensim/trunk/src/gensim/similarities/docsim.py
-File5[$e]=$HOME/coding/gensim/trunk/src/gensim/interfaces.pyc
-File6[$e]=$HOME/coding/gensim/trunk/src/gensim/matutils.py
-File7[$e]=$HOME/coding/gensim/trunk/src/gensim/interfaces.py
-File8[$e]=$HOME/.kde4/share/apps/katepart/syntax/python.xml
-File9[$e]=$HOME/.config/fish/config.fish
-Name1[$e]=bindings
-Name10[$e]=tests.py
-Name2[$e]=mmcorpus.py
-Name3[$e]=ruby.xml
-Name4[$e]=docsim.py
-Name5[$e]=interfaces.pyc
-Name6[$e]=matutils.py
-Name7[$e]=interfaces.py
-Name8[$e]=python.xml
-Name9[$e]=config.fish
+File1[$e]=$HOME/.kde4/share/apps/katepart/syntax/ruby.xml
+File10[$e]=$HOME/coding/esa/test/models_test.py
+File2[$e]=$HOME/coding/gensim/trunk/src/gensim/similarities/docsim.py
+File3[$e]=$HOME/coding/gensim/trunk/src/gensim/interfaces.pyc
+File4[$e]=$HOME/coding/gensim/trunk/src/gensim/matutils.py
+File5[$e]=$HOME/coding/gensim/trunk/src/gensim/interfaces.py
+File6[$e]=$HOME/.kde4/share/apps/katepart/syntax/python.xml
+File7[$e]=$HOME/.config/fish/config.fish
+File8[$e]=$HOME/coding/esa/tests.py
+File9[$e]=$HOME/coding/esa/test/tfidf_tests.py
+Name1[$e]=ruby.xml
+Name10[$e]=models_test.py
+Name2[$e]=docsim.py
+Name3[$e]=interfaces.pyc
+Name4[$e]=matutils.py
+Name5[$e]=interfaces.py
+Name6[$e]=python.xml
+Name7[$e]=config.fish
+Name8[$e]=tests.py
+Name9[$e]=tfidf_tests.py

@@ -5,11 +5,11 @@ update_info=konversation.upd:1.1-rememberline,konversation.upd:1.1-markerlines,k
 AliasList=gauge /exec gauge,cmd /exec cmd,uptime /exec uptime,sysinfo /exec sysinfo,bug /exec bug,kdeversion /exec kdeversion,fortune /exec fortune,mail /exec mail,tinyurl /exec tinyurl,sayclip /exec sayclip,media /exec media,audio /exec media audio,video /exec media video
 
 [Appearance]
-ChannelSplitterSizes=524,173
+ChannelSplitterSizes=1420,173
 CloseButtons=true
 NickColor8=0,0,255
 ShowTabBarCloseButton=false
-TopicSplitterSizes=26,362
+TopicSplitterSizes=26,763
 
 [Autoreplace List]
 Direction0=o
@@ -175,10 +175,10 @@ ShowAwayMessage=false
 [MainWindow]
 Height 1152=1130
 Height 1200=1201
-Height 900=497
-State=AAAA/wAAAAD9AAAAAAAAArwAAAHEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Height 900=896
+State=AAAA/wAAAAD9AAAAAAAABjwAAANBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1600=700
+Width 1600=1596
 Width 1920=1916
 Width 2048=1256
 
@@ -214,7 +214,7 @@ AutoJoinChannels=Channel 0,Channel 1,Channel 2,Channel 3
 ChannelHistory=Channel 4,Channel 5,Channel 6,Channel 7,Channel 8,Channel 9,Channel 10,Channel 11,Channel 12,Channel 13,Channel 14,Channel 15,Channel 16,Channel 17,Channel 18,Channel 19,Channel 20,Channel 21,Channel 22
 ConnectCommands=
 EnableNotifications=true
-Expanded=false
+Expanded=true
 Identity=Default Identity
 Name=Freenode
 NotifyList=

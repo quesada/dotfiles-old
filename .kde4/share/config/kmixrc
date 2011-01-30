@@ -10,10 +10,10 @@ Menubar=true
 MixerIgnoreExpression=Modem
 Orientation=Vertical
 Position=47,0
-Size=770,873
+Size=1553,880
 Tickmarks=true
 TrayVolumeControl=true
-Visible=false
+Visible=true
 startkdeRestore=true
 
 [View.Base.ALSA::AK5370__________:1.Auto_Gain_Control:0]
@@ -171,6 +171,10 @@ Show=true
 Split=false
 
 [View.Controls.PulseAudio::Playback_Streams:1.stream:\x04]
+Show=true
+Split=false
+
+[View.Controls.PulseAudio::Playback_Streams:1.stream:\x05]
 Show=true
 Split=false
 

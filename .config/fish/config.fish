@@ -20,7 +20,7 @@ set R_HISTFILE ~/.Rhistory
 set HGEDITOR /usr/bin/vim.gnome
 set EDITOR /usr/bin/vim.gnome
 # set env variables
-set PATH /home/quesada/bin/bin /sbin /usr/local/bin /usr/bin /bin /opt/bin /usr/x86_64-pc-linux-gnu/gcc-bin/4.4.2 /home/quesada/bin	/home/quesada/wuala
+set PATH /home/quesada/bin/bin /sbin /usr/local/bin /usr/bin /bin /home/quesada/bin	/home/quesada/wuala
 
 # fish vars
 
@@ -92,7 +92,7 @@ function hiwi16; ssh 172.22.0.104; end;
 function tmpi; ssh -l quesada -L 12345:172.22.0.104:22 canetoad.mpib-berlin.mpg.de; end;
 function hiwi; ssh -l quesada -p 12345 localhost; end;
 function hiwihome; sshfs -p 12345 quesada@localhost:/mnt/local/quesada /mnt/hiwi/; end;
-function ldsr; ssh larkc@93.123.21.85; end;
+function ldsr; end;
 # FUSE sshfs
 function qhome; sshfs -p 8022 -o uid=1001,gid=1021 urlwolfpack.gotdns.org:/home/quesada ~/qdesktop/; end;
 function qdata; sshfs -p 8022 -o uid=1001,gid=1021 urlwolfpack.gotdns.org:/data ~/qdata/; end;

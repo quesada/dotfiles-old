@@ -1,0 +1,26 @@
+[Extraction]
+openDestinationFolderAfterExtraction=true
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[MainWindow]
+<<<<<<< HEAD
+Height 1152=896
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 2048=980
+
+[Recent Files]
+File1[$e]=$HOME/down/abc_queries_100_v01.zip
+Name1[$e]=abc_queries_100_v01.zip
+=======
+Height 1152=1130
+State=AAAA/wAAAAD9AAAAAAAABC8AAAQMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 2048=1071
+
+[Recent Files]
+File1[$e]=/media/bbc41af6-6057-4aac-801d-25658d9a85f2_/comics/2000 Ad - Judge Dredd 3 - Black Atlantic By Simon Joweltt &amp; Peter J Evans (V1.0) [Html].rar
+Name1[$e]=2000 Ad - Judge Dredd 3 - Black Atlantic By Simon Joweltt &amp; Peter J Evans (V1.0) [Html].rar
+>>>>>>> c75567da7977d3faaea350ffa612bd059d2f2387

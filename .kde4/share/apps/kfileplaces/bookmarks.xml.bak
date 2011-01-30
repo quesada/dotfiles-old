@@ -117,6 +117,17 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="file:///home/quesada/Dropbox/exist.de">
+  <title>exist.de</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1295037032/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="file:///data">
   <title>data</title>
   <info>
@@ -236,15 +247,34 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="sftp://141.14.157.1/common">
-  <title>common</title>
+ <bookmark href="file:///home/quesada/pdf">
+  <title>pdf</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="inode-directory"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1287683327/0</ID>
+    <ID>1289459110/0</ID>
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="sftp://192.168.1.20/mnt/backup/downloads">
+  <title>downloads</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1291548734/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/Hal/devices/volume_uuid_2F0D_E83E</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
 </xbel>

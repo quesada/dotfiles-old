@@ -1,0 +1,16 @@
+[1]
+HiddenTrayParent=true
+ResourcesWidth=0
+ShowArchived=false
+ShowTime=true
+ShowTimeTo=false
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=MainWindow
+Height 900=360
+ObjectName=MainWin
+State=AAAA/wAAAAD9AAAAAAAABVUAAADAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1600=800

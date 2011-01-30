@@ -1,0 +1,68 @@
+[Devices]
+hp DVD-ROM DT30N=4234,4234
+
+[External Programs]
+cdrdao default=/usr/bin/cdrdao
+cdrdao last seen newest version=1.2.3
+cdrdao user parameters=
+cdrecord default=/usr/bin/cdrecord
+cdrecord last seen newest version=3.0
+cdrecord user parameters=
+dvd+rw-format default=/usr/bin/dvd+rw-format
+dvd+rw-format last seen newest version=7.1
+dvd+rw-format user parameters=
+eMovix user parameters=
+growisofs default=/usr/bin/growisofs
+growisofs last seen newest version=7.1
+growisofs user parameters=
+mkisofs default=/usr/bin/mkisofs
+mkisofs last seen newest version=3.0
+mkisofs user parameters=
+normalize user parameters=
+readcd default=/usr/bin/readcd
+readcd last seen newest version=3.0
+readcd user parameters=
+search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/opt/schily/bin/,/sbin
+transcode default=/usr/bin/transcode
+transcode last seen newest version=1.1.5
+transcode user parameters=
+vcdxbuild user parameters=
+vcdxminfo user parameters=
+vcdxrip user parameters=
+
+[General Options]
+Allow overburning=false
+Fifo buffer=4
+Force unsafe operations=false
+Last system check version=2.0.1
+Lock Panels=true
+Manual buffer size=false
+Navigator breadcrumb mode=true
+No cd eject=false
+Show Document Header=true
+Temp Dir=/tmp/kde-quesada/
+burnfree=true
+check system config=false
+config version=2.0.1
+current theme=quant
+
+[Welcome Widget]
+welcome_actions=file_new_data,file_new_audio,tools_copy_medium
+
+[file view]
+Decoration position=0
+Previews=false
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+View Style=Simple
+last url[$e]=$HOME/
+show bookmarks=false
+
+[main_window_settings]
+Height 900=878
+State=AAAA/wAAAAD9AAAAAgAAAAIAAAOkAAABj/wBAAAAAvsAAAAWAGQAaQByAHQAcgBlAGUAZABvAGMAawEAAAAAAAAAzAAAAD0BAAAF+wAAABgAYwBvAG4AdABlAG4AdABzAGQAbwBjAGsBAAAAzwAAAtUAAAEkAQAABQAAAAMAAAOkAAABj/wBAAAAAfsAAAAYAGQAbwBjAHUAbQBlAG4AdABkAG8AYwBrAQAAAAAAAAOkAAAB8AEAAAUAAAOkAAAAAAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1600=932

@@ -203,3 +203,21 @@
 >>>>>>> c75567da7977d3faaea350ffa612bd059d2f2387
 2010-11-23 09:21:11		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
 2010-11-23 09:21:25	=!=	irc: command "join" must be executed on connected irc server
+2010-12-01 01:06:56		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-12-01 01:07:04	=!=	You can not write text in this buffer
+2010-12-02 01:00:43		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-12-02 01:01:06	=!=	irc: command "join" must be executed on connected irc server
+2010-12-02 01:54:21		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-12-02 01:54:33	=!=	You can not write text in this buffer
+2010-12-02 02:44:35		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2010-12-02 02:46:00	=!=	irc: command "join" must be executed on connected irc server
+2010-12-15 21:03:43		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2011-01-13 10:51:00		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2011-01-18 22:51:52		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2011-01-18 22:53:36		irc: server irc.oftc.net created (temporary server, NOT SAVED!)
+2011-01-19 16:23:14		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2011-01-19 16:31:20		irc: server irc.oftc.net created (temporary server, NOT SAVED!)
+2011-01-21 20:18:00		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer
+2011-01-21 20:31:04		irc: server irc.oftc.net created (temporary server, NOT SAVED!)
+2011-01-21 20:31:12	=!=	irc: command "join" must be executed on connected irc server
+2011-01-24 22:39:50		Plugins loaded: alias, aspell, charset, fifo, irc, logger, perl, python, xfer

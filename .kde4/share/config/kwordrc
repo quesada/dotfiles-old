@@ -1,8 +1,10 @@
 [DockerManager]
-HiddenToolDockers=
-VisibleToolDockers=TextToolFactory_ID
+HiddenToolDockers=DefaultToolArrangeWidget,DefaultToolWidget,SnapGuideConfigWidget,TextToolFactory_ID
+VisibleToolDockers=ChangeTrackingToolFactory_ID,PictureToolFactoryId
 
 [Interface]
+ResolutionX=14.1732529
+ResolutionY=14.1732529
 Rulers=false
 StatusBarShowModified=false
 StatusBarShowMouse=false
@@ -17,13 +19,40 @@ ViewFrameBorders=false
 Zoom=100
 ZoomMode=0
 
+[KFileDialog Settings]
+Height 1200=510
+Width 1920=816
+
 [MainWindow]
 Height 1152=1153
-Width 2048=1177
+Height 1200=1178
+Height 900=878
+Width 1600=884
+Width 1920=1177
+Width 2048=1133
+
+[Misc]
+Units=mm
 
 [RecentFiles]
-File1[$e]=$HOME/Dropbox/MPG_overview+personnel.doc
-Name1[$e]=MPG_overview+personnel.doc
+File1[$e]=$HOME/doc/numberLine/ESRCsmallGrantProposal.7.doc
+File2[$e]=$HOME/doc/numberLine/annex.doc
+File3[$e]=$HOME/Dropbox/martignon-quesada/mental-number-line-is-really-straight/esrcsmallgrant/annex.doc
+File4[$e]=$HOME/Dropbox/wcogs/exist.de/references/Copia de Plan de empresa_formación.doc
+File5[$e]=$HOME/larkc/meetings/sheffield/Dear LK.doc
+File6[$e]=$HOME/down/LarKC Business strategy development 14.01.2011.doc
+File7[$e]=$HOME/Dropbox/wcogs/exist.de/references/IdeenpapierEnglish.docx.doc
+File8[$e]=$HOME/down/international conference on e-assessment - 2nd and 3rd  june 2011 in singapore matrix auditorium - boipolis.doc
+File9[$e]=$HOME/down/international conference on e-assessment - 2nd and 3rd  june 2011 in singapore matrix auditorium - boipolis(2).doc
+Name1[$e]=ESRCsmallGrantProposal.7.doc
+Name2[$e]=annex.doc
+Name3[$e]=annex.doc
+Name4[$e]=Copia de Plan de empresa_formación.doc
+Name5[$e]=Dear LK.doc
+Name6[$e]=LarKC Business strategy development 14.01.2011.doc
+Name7[$e]=IdeenpapierEnglish.docx.doc
+Name8[$e]=international conference on e-assessment - 2nd and 3rd  june 2011 in singapore matrix auditorium - boipolis.doc
+Name9[$e]=international conference on e-assessment - 2nd and 3rd  june 2011 in singapore matrix auditorium - boipolis(2).doc
 
 [TemplateChooserDialog]
 AlwaysUseTemplate=/usr/share/apps/kword/templates/Normal/.source/A4.odt
@@ -34,22 +63,44 @@ LastReturnType=Template
 DockerPlugins=kofficedockers,karbondockersplugin
 DockerPluginsDisabled=
 FlakePlugins=defaulttools,divineproportionshape,textshape
-ShapePlugins=artistictextshape,chartshape,kritashape,musicshape,pathshapes,pictureshape,spreadsheetshape
+ShapePlugins=artistictextshape,chartshape,commentshape,musicshape,pathshapes,pictureshape,pluginshape,spreadsheetshape,videoshape
 ShapePluginsDisabled=
 TextEditingPlugins=autocorrect,changecase,spellcheck
-TextVariablePlugins=textvariables
+TextInlinePlugins=textvariables
+TextVariablePlugins=kprvariables,textvariables
 TextVariablePluginsDisabled=
+ToolPlugins=karbontools,paragraphtool
 
 [kword]
-State=AAAA/wAAAAD9AAAAAQAAAAEAAAEPAAAEj/wCAAAADvsAAAAiAFMAdAByAG8AawBlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAALcAAAC3+wAAAA4AVABvAG8AbABCAG8AeAEAAAAdAAABKgAAAEcA/////AAAAU0AAAB+AAAAfgAAAH76AAAAAQEAAAAD+wAAAC4ASwBvAFMAaABhAHAAZQBDAG8AbABsAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAQAAAAD/////AAAA+QAH///7AAAAFgBTAHQAeQBsAGUARABvAGMAawBlAHIBAAAAAP////8AAAEPAAf///sAAAAUAFMAdABhAHQAaQBzAHQAaQBjAHMBAAACEQAAAQ8AAAEIAP////sAAAAkAFQAZQB4AHQAVABvAG8AbABGAGEAYwB0AG8AcgB5AF8ASQBEAQAAAdEAAAHNAAAA8wAIABT7AAAAIABTAGgAYQBwAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAFQD////7AAAAIgBTAGgAYQBkAG8AdwAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAADCAAgAFPsAAAAkAFMAaQBtAHAAbABlACAAVABlAHgAdAAgAEUAZABpAHQAbwByAAAAAAD/////AAAAAAAAAAD7AAAAEgBTAGMAcgBpAHAAdABpAG4AZwAAAAAA/////wAAAKIA////+wAAAB4ARAB1AG0AbQB5AFQAbwBvAGwAVwBpAGQAZwBlAHQBAAAB7gAAABcAAAAAAAAAAPsAAAAwAEQAZQBmAGEAdQBsAHQAVABvAG8AbABBAHIAcgBhAG4AZwBlAFcAaQBkAGcAZQB0AQAAAggAAAAXAAAAAAAAAAD7AAAAIgBEAGUAZgBhAHUAbAB0AFQAbwBvAGwAVwBpAGQAZwBlAHQBAAACIgAAABcAAAAAAAAAAPsAAAAqAFMAbgBhAHAARwB1AGkAZABlAEMAbwBuAGYAaQBnAFcAaQBkAGcAZQB0AQAAAjwAAAAXAAAAAAAAAAD7AAAAGgBLAG8AQwBvAGwAbwByAEQAbwBjAGsAZQByAAAAAAD/////AAAAoQD////7AAAAGgBTAGgAYQBwAGUAUwBlAGwAZQBjAHQAbwByAQAAA6QAAAEIAAAAPwD///8AAAOEAAAEjwAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAAFAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABgAZQBkAGkAdABfAHQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAAAAACIAcABhAHIAYQBnAHIAYQBwAGgAXwB0AG8AbwBsAGIAYQByAAAAAer/////AAAAAAAAAAAAAAAcAGYAbwByAG0AYQB0AF8AdABvAG8AbABiAGEAcgAAAAAA/////wAAAAAAAAAAAAAAJABjAGgAYQByAGYAbwByAG0AYQB0AF8AdABvAG8AbABiAGEAcgAAAAHq/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAgAAAAAAAABLAAAEU/wCAAAAAfsAAAAOAFQAbwBvAGwAQgBvAHgBAAAAFwAABFMAAADPAQAABQAAAAEAAABQAAAEafwCAAAAEfsAAAAiAFMAdAByAG8AawBlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAAKkAAACp/AAAAakAAABtAAAAAAD////6AAAAAAEAAAAD+wAAAC4ASwBvAFMAaABhAHAAZQBDAG8AbABsAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAQAAAAD/////AAAAAAAAAAD7AAAAFgBTAHQAeQBsAGUARABvAGMAawBlAHIAAAAAAP////8AAAELAAgABfsAAAAUAFMAdABhAHQAaQBzAHQAaQBjAHMAAAACEQAAAQ8AAAD3AQAABfsAAAAkAFQAZQB4AHQAVABvAG8AbABGAGEAYwB0AG8AcgB5AF8ASQBEAAAAABcAAARpAAAA6QAIABr7AAAAIABTAGgAYQBwAGUAIABQAHIAbwBwAGUAcgB0AGkAZQBzAAAAAAD/////AAAAGwEAAAX7AAAAIgBTAGgAYQBkAG8AdwAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAACfAAgAGvsAAAAkAFMAaQBtAHAAbABlACAAVABlAHgAdAAgAEUAZABpAHQAbwByAAAAAAD/////AAAAAAAAAAD7AAAAEgBTAGMAcgBpAHAAdABpAG4AZwAAAAAA/////wAAAHgBAAAF+wAAAB4ARAB1AG0AbQB5AFQAbwBvAGwAVwBpAGQAZwBlAHQBAAAB7gAAABcAAAAAAAAAAPsAAAAwAEQAZQBmAGEAdQBsAHQAVABvAG8AbABBAHIAcgBhAG4AZwBlAFcAaQBkAGcAZQB0AAAABCsAAAAdAAAAIwAAACP7AAAAIgBEAGUAZgBhAHUAbAB0AFQAbwBvAGwAVwBpAGQAZwBlAHQAAAAESAAAAB0AAAAjAAAAI/sAAAAqAFMAbgBhAHAARwB1AGkAZABlAEMAbwBuAGYAaQBnAFcAaQBkAGcAZQB0AAAABGUAAAAdAAAAIwAAACP7AAAAGgBLAG8AQwBvAGwAbwByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAGgBTAGgAYQBwAGUAUwBlAGwAZQBjAHQAbwByAQAAA6QAAAEIAAAAAAAAAAD7AAAAKgBTAGgAYQBwAGUAQwBvAGwAbABlAGMAdABpAG8AbgBEAG8AYwBrAGUAcgAAAAHtAAAAUAAAABsAAAAb+wAAACgAUABpAGMAdAB1AHIAZQBUAG8AbwBsAEYAYQBjAHQAbwByAHkASQBkAAAAAeQAAAGcAAAAIwAAACP7AAAAOABDAGgAYQBuAGcAZQBUAHIAYQBjAGsAaQBuAGcAVABvAG8AbABGAGEAYwB0AG8AcgB5AF8ASQBEAAAAAAD/////AAAAIwAAACP7AAAABgBSAGQAZgAAAAAA/////wAAAHEBAAAFAAAEHwAABFMAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAABQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAYAGUAZABpAHQAXwB0AG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAAAAAAiAHAAYQByAGEAZwByAGEAcABoAF8AdABvAG8AbABiAGEAcgAAAAHq/////wAAAAAAAAAAAAAAHABmAG8AcgBtAGEAdABfAHQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAAAAACQAYwBoAGEAcgBmAG8AcgBtAGEAdABfAHQAbwBvAGwAYgBhAHIAAAAB6v////8AAAAAAAAAAA==
 StatusBar=Disabled
 ToolBarsMovable=Disabled
+
+[kword][DockWidget ChangeTrackingToolFactory_ID]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget DefaultToolArrangeWidget]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget DefaultToolWidget]
+Collapsed=false
+DockArea=2
 
 [kword][DockWidget KoColorDocker]
 Collapsed=false
 DockArea=2
 
 [kword][DockWidget KoShapeCollectionDocker]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget PictureToolFactoryId]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget Rdf]
 Collapsed=false
 DockArea=2
 
@@ -65,7 +116,15 @@ DockArea=2
 Collapsed=false
 DockArea=2
 
+[kword][DockWidget ShapeCollectionDocker]
+Collapsed=false
+DockArea=2
+
 [kword][DockWidget ShapeSelector]
+Collapsed=false
+DockArea=2
+
+[kword][DockWidget SnapGuideConfigWidget]
 Collapsed=false
 DockArea=2
 
@@ -87,4 +146,4 @@ DockArea=2
 
 [kword][DockWidget ToolBox]
 Collapsed=false
-DockArea=2
+DockArea=1

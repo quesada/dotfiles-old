@@ -46,6 +46,7 @@ myKeys = \conf -> mkKeymap conf $
                 [ ("S-<Return>", spawn $ XMonad.terminal conf)
                 , ("C-S-<Esc>",    spawn $ myScreenLock)
                 , ("M-C-<Esc>",    spawn $ "xkill")
+                , ("M-/",    spawn $ "dolphin /home/quesada/Dropbox")
                 , ("M-`",    spawn $ "gvim")
                 , ("M-<Space>",    sendMessage NextLayout)
                 , ("M-S-<Space>",  setLayout $ XMonad.layoutHook conf)

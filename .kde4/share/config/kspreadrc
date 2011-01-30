@@ -1,9 +1,108 @@
+[DockerManager]
+VisibleToolDockers=CellToolOptionWidget,DefaultToolArrangeWidget,DefaultToolWidget,DummyToolWidget,KSpreadCellToolId,SnapGuideConfigWidget,TableToolFactoryId
+
 [MainWindow]
+Height 1152=1130
 Height 1200=1102
 Width 1920=1318
+Width 2048=949
+
+[Parameters]
+AutoSave=1
+Indent=28.364411004751
+
+[Plugins]
+BitOpsModuleEnabled=true
+CalendarToolEnabled=true
+ConversionModuleEnabled=true
+DatabaseModuleEnabled=true
+DateTimeModuleEnabled=true
+EngineeringModuleEnabled=true
+FinancialModuleEnabled=true
+InformationModuleEnabled=true
+LogicModuleEnabled=true
+MathModuleEnabled=true
+ReferenceModuleEnabled=true
+StatisticalModuleEnabled=true
+TextModuleEnabled=true
+TrigonometryModuleEnabled=true
+
+[Spelling]
+backgroundCheckerEnabled=true
+checkUppercase=true
+checkerEnabledByDefault=false
+defaultClient=
+defaultLanguage=en_US
+skipRunTogether=true
+
+[TemplateChooserDialog]
+AlwaysUseTemplate=/usr/share/apps/kspread/templates/General/.source/Worksheet.kst
+DetailsPaneSplitterSizes=548,315
+FullTemplateName[$e]=/usr/share/apps/kspread/templates/HomeFamily/.source/VacationChecklist.kst
+LastReturnType=Template
 
 [koffice]
-FlakePlugins=defaulttools,divineproportionshape,textshape
+DockerPlugins=kofficedockers
+DockerPluginsDisabled=
+FlakePlugins=defaulttools,divineproportionshape,formulashape,kexirelationdesignshape,textshape
 FlakePluginsDisabled=
-ShapePlugins=artistictextshape,chartshape,kritashape,musicshape,pathshapes,pictureshape,spreadsheetshape
+ShapePlugins=artistictextshape,chartshape,commentshape,musicshape,pathshapes,pictureshape,pluginshape,spreadsheetshape,videoshape
 ShapePluginsDisabled=
+TextEditingPlugins=autocorrect,changecase,spellcheck
+ToolPlugins=karbontools,paragraphtool
+
+[kspread]
+State=AAAA/wAAAAD9AAAAAgAAAAEAAACNAAAD2PwCAAAADPsAAAAiAFMAdAByAG8AawBlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAACYAAAAngAAAKEAAACh+wAAACAAUwBoAGEAcABlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAACYAAAAZAAAABsBAAAF+wAAACIARABlAGYAYQB1AGwAdABUAG8AbwBsAFcAaQBkAGcAZQB0AAAAAD4AAABbAAAAHQAAAB37AAAAMABEAGUAZgBhAHUAbAB0AFQAbwBvAGwAQQByAHIAYQBuAGcAZQBXAGkAZABnAGUAdAAAAACcAAAAUgAAAB0AAAAd+wAAACoAUwBuAGEAcABHAHUAaQBkAGUAQwBvAG4AZgBpAGcAVwBpAGQAZwBlAHQAAAAA8QAAAE8AAAAdAAAAHfsAAAAkAEMAYQBsAGUAbgBkAGEAcgBUAG8AbwBsAFcAaQBkAGcAZQB0AAAAAD4AAACqAAAAAAAAAAD7AAAAGgBTAGgAYQBwAGUAUwBlAGwAZQBjAHQAbwByAQAAAJgAAAI+AAAAAAAAAAD7AAAAIgBTAGgAYQBkAG8AdwAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAABxQAAAJgAAACWAAgAGvsAAAAaAEsAbwBDAG8AbABvAHIARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAASAFMAYwByAGkAcAB0AGkAbgBnAgAAAYsAAAC4AAABDQAAA8b7AAAAJABUAGEAYgBsAGUAVABvAG8AbABGAGEAYwB0AG8AcgB5AEkAZAAAAAIIAAAAzgAAAB0AAAAd+wAAACQAVABlAHgAdABUAG8AbwBsAEYAYQBjAHQAbwByAHkAXwBJAEQAAAACugAAABwAAAAAAAAAAAAAAAIAAAO1AAAAWvwBAAAABvsAAAAoAEMAZQBsAGwAVABvAG8AbABPAHAAdABpAG8AbgBXAGkAZABnAGUAdAEAAAAAAAAA1AAAANIACAAF+wAAACoAUwBoAGEAcABlAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIAAAADIwAAAJEAAACRAAAAkfsAAAAWAFMAdAB5AGwAZQBEAG8AYwBrAGUAcgAAAADVAAABDQAAAQ0ACAAF/AAAANcAAALeAAAAogD////6AAAAAQIAAAAC+wAAAB4AcAB5AGMAbwBuAHMAbwBsAGUAZABvAGMAawBlAHIAAAAAAP////8AAAAbAQAABfsAAAAOAFQAbwBvAGwAQgBvAHgBAAAAFwAAAFoAAAAzAQAABfsAAAAeAEQAdQBtAG0AeQBUAG8AbwBsAFcAaQBkAGcAZQB0AAAAA+AAAACNAAAAyQAAAMn7AAAAIgBLAFMAcAByAGUAYQBkAEMAZQBsAGwAVABvAG8AbABJAGQAAAAAAAAAAP8AAADJAAAAyQAAA7UAAAPYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAYAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAACIAbgBhAHYAaQBnAGEAdABpAG8AbgBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAaAGYAbwByAG0AYQB0AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAACoAYwBvAGwAbwByAEEAbgBkAEIAbwByAGQAZQByAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAACYAZgBvAG4AdABQAHIAbwBwAGUAcgB0AHkAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[kspread][DockWidget CellToolOptionWidget]
+Collapsed=false
+DockArea=4
+
+[kspread][DockWidget DefaultToolArrangeWidget]
+Collapsed=false
+DockArea=2
+
+[kspread][DockWidget DefaultToolWidget]
+Collapsed=false
+DockArea=2
+
+[kspread][DockWidget DummyToolWidget]
+Collapsed=false
+DockArea=4
+
+[kspread][DockWidget Scripting]
+Collapsed=false
+DockArea=2
+
+[kspread][DockWidget Shadow Properties]
+Collapsed=false
+DockArea=2
+
+[kspread][DockWidget Shape Properties]
+Collapsed=false
+DockArea=2
+
+[kspread][DockWidget SnapGuideConfigWidget]
+Collapsed=false
+DockArea=2
+
+[kspread][DockWidget Stroke Properties]
+Collapsed=false
+DockArea=2
+
+[kspread][DockWidget StyleDocker]
+Collapsed=false
+DockArea=4
+
+[kspread][DockWidget TableToolFactoryId]
+Collapsed=false
+DockArea=2
+
+[kspread][DockWidget ToolBox]
+Collapsed=false
+DockArea=4
+
+[kspread][Toolbar formatToolBar]
+IconSize=16
+ToolButtonStyle=IconOnly

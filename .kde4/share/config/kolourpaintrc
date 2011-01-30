@@ -1,0 +1,46 @@
+[General Settings]
+First Time=false
+Open Images in the Same Window=false
+
+[KFileDialog Settings]
+Height 1152=576
+Recent Files[$e]=$HOME/Dropbox/exist.de/figures/mockup3.png,$HOME/Dropbox/exist.de/figures/mockup5.png,mockup3.png
+Width 2048=1024
+
+[MainWindow]
+Height 1152=1130
+State=AAAA/wAAAAD9AAAAAgAAAAAAAABMAAAEG/wCAAAAAfsAAAAQAFQAbwBvAGwAIABCAG8AeAEAAAA3AAAEGwAAAU0BAAAFAAAAAwAABJkAAABj/AEAAAAB+wAAABIAQwBvAGwAbwByACAAQgBvAHgBAAAATwAABJkAAAIJAQAABQAABJkAAAO1AAAABAAAAAQAAAABAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgB0AGUAeAB0AFQAbwBvAGwAQgBhAHIAAAACr/////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 2048=1256
+
+[MimeType Properties Version 1.2-2]
+Configurable Color Depth=image/png,image/bmp,image/x-pcx,image/x-rgb,image/x-xpixmap
+Configurable Quality Setting=image/jpeg2000,image/jpeg
+Maximum Color Depth=image/x-eps:32,image/x-portable-bitmap:1,image/x-portable-graymap:8,image/x-xbitmap:1
+
+[Recent Files]
+File1[$e]=$HOME/Dropbox/exist.de/figures/mockup3.png
+File2[$e]=$HOME/Dropbox/exist.de/figures/mockup5.png
+Name1[$e]=mockup3.png
+Name2[$e]=mockup5.png
+
+[Tool Settings]
+Last Used Tool=1
+Tool Box Icon Size=-1
+Tool Widget Brush Col=0
+Tool Widget Brush Row=0
+Tool Widget Eraser Size Col=0
+Tool Widget Eraser Size Row=1
+Tool Widget Fill Style Col=0
+Tool Widget Fill Style Row=0
+Tool Widget Line Width Col=0
+Tool Widget Line Width Row=0
+Tool Widget Opaque/Transparent Col=0
+Tool Widget Opaque/Transparent Row=0
+Tool Widget Spraycan Size Col=0
+Tool Widget Spraycan Size Row=0
+
+[Undo/Redo Settings]
+Max Limit=500
+Max Limit Size Limit=16777216
+Min Limit=10

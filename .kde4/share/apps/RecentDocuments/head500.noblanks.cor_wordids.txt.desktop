@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=head500.noblanks.cor_wordids.txt
+Type=Link
+URL[$e]=file://$HOME/coding/gensim/data/corpora/wiki-mar2008/head500.noblanks.cor_wordids.txt
+X-KDE-LastOpenedWith=kwrite
